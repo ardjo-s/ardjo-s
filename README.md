@@ -10,3 +10,4 @@
 </p>
 <!-- tokscale-embed-end -->
 
+Now: I build my ideas. Before: Freelance Senior PrD/PM. Pre-series B.
