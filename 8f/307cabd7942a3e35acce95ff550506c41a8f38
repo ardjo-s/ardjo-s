@@ -1,0 +1,20 @@
+README.md
+  s_fb0623759d79a9::t_87ca4ae997ce5a 3
+  s_fb0623759d79a9::t_c16a5f42863289 7-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "8f307cabd7942a3e35acce95ff550506c41a8f38",
+  "prompts": {},
+  "sessions": {
+    "s_fb0623759d79a9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "4827f0ac-9abd-47a9-9740-50faf1067679",
+        "model": "composer-2.5"
+      },
+      "human_author": "ardjo <hi@ardjo.design>"
+    }
+  }
+}
