@@ -1,0 +1,27 @@
+.github/workflows/tokscale-embed-refresh.yml
+  s_53900b9a8cdf6f::t_0f2e9240816c55 1-19,23-32,34
+  s_53900b9a8cdf6f::t_226327895c6db5 20-22,33
+README.md
+  s_53900b9a8cdf6f::t_4c2c3e1379cd40 3,6-10,13
+scripts/tokscale-sync-and-submit.sh
+  s_53900b9a8cdf6f::t_bed17610f4aa3c 1-13,15-16
+  s_53900b9a8cdf6f::t_0e3bb53560a48f 14
+scripts/README-tokscale.md
+  s_53900b9a8cdf6f::t_11446f2e0de4bf 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "c02d1641f34393d2e4736d34f1ba7670b500c835",
+  "prompts": {},
+  "sessions": {
+    "s_53900b9a8cdf6f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ebff059e-9cab-4f09-af02-ae96c3b4f1c9",
+        "model": "composer-2.5"
+      },
+      "human_author": "ardjo <hi@ardjo.design>"
+    }
+  }
+}
