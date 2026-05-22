@@ -1,0 +1,19 @@
+scripts/README-tokscale.md
+  s_53900b9a8cdf6f::t_5b0008ee14e830 8-9,14-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "3c1761fe1e1c28597c2619e5d342096f4d2691ab",
+  "prompts": {},
+  "sessions": {
+    "s_53900b9a8cdf6f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ebff059e-9cab-4f09-af02-ae96c3b4f1c9",
+        "model": "composer-2.5"
+      },
+      "human_author": "ardjo <hi@ardjo.design>"
+    }
+  }
+}
