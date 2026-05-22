@@ -2,8 +2,8 @@ name: Refresh Tokscale embed on profile README
 
 on:
   schedule:
-    # Bust GitHub image cache twice daily (UTC). Pair with local tokscale sync (see scripts/).
-    - cron: "0 6,18 * * *"
+    # Bust GitHub image cache daily (UTC). Pair with local launchd/cron sync (see scripts/).
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,14 +17,14 @@ jobs:
 
       - name: Bump embed cache-buster in README
         run: |
-          echo "EMBED_V=$(date -u +%Y%m%d%H)" >> "$GITHUB_ENV"
-          perl -0pi -e 's|(src="https://tokscale\.ai/api/embed/ardjo-s/svg\?view=3d&theme=dark&)v=[^"]+|$1v='"$EMBED_V"'"|g' README.md
+          echo "EMBED_V=$(date -u +%Y%m%d)" >> "$GITHUB_ENV"
+          perl -0pi -e 's|(view=3d&theme=(?:dark|light)&)v=[0-9]+|$1v='"$EMBED_V"'|g' README.md
           grep -q "v=$EMBED_V" README.md
 
       - name: Commit if README changed
         run: |
           if git diff --quiet README.md; then
-            echo "README unchanged (same cache hour)."
+            echo "README unchanged (same cache day)."
             exit 0
           fi
           git config user.name "github-actions[bot]"

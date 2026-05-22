@@ -1,32 +1,39 @@
-# Tokscale profile embed — stay up to date
+# Tokscale profile embed
 
-The README image is loaded from `tokscale.ai`. GitHub caches images aggressively.
+## What updates automatically?
 
-## 1. Push fresh stats to Tokscale (on your Mac)
+| Piece | What it does | Needs your Mac? |
+|-------|----------------|-----------------|
+| **Tokscale embed URL** | Serves fresh SVG after `submit` | Data comes from your machine |
+| **launchd (daily)** | `cursor sync` + `submit` | Yes (~08:00, Mac awake) |
+| **GitHub Action** | Bumps `&v=` daily so GitHub reloads the image | No (runs on GitHub) |
+
+Tokscale does **not** pull Cursor usage from the cloud by itself. You still need `cursor sync` + `submit` on a machine where you use Cursor/Codex/Droid.
+
+## One-time: daily sync on macOS
 
 ```bash
-chmod +x scripts/tokscale-sync-and-submit.sh
+chmod +x scripts/install-tokscale-daily-sync.sh
+./scripts/install-tokscale-daily-sync.sh
+```
+
+Manual run:
+
+```bash
 ./scripts/tokscale-sync-and-submit.sh
 ```
 
-Requires `bunx tokscale` and Cursor login (`bunx tokscale cursor status`).
+Optional API token (headless submit): `export TOKSCALE_API_TOKEN=tt_xxx` from [tokscale.ai](https://tokscale.ai) Settings → API Tokens.
 
-Optional for non-interactive submit: `export TOKSCALE_API_TOKEN=tt_xxx` (Settings → API Tokens on tokscale.ai).
+## Light / dark embed
 
-## 2. Optional: run every 6 hours (macOS)
+The README uses `<picture>` + `prefers-color-scheme`:
 
-```bash
-(crontab -l 2>/dev/null; echo "0 */6 * * * $HOME/CODE/ardjo-s/scripts/tokscale-sync-and-submit.sh >> /tmp/tokscale-sync.log 2>&1") | crontab -
-```
+- Light UI → `theme=light`
+- Dark UI → `theme=dark`
 
-Adjust the path if the repo lives elsewhere.
+GitHub profile must allow `<picture>` (supported on github.com).
 
-## 3. GitHub Action (this repo)
+## GitHub Action
 
-Workflow `.github/workflows/tokscale-embed-refresh.yml` updates `&v=` in the embed URL twice per day so GitHub reloads the SVG after you have submitted locally.
-
-Enable Actions on `ardjo-s/ardjo-s` if the workflow does not run.
-
-## Full-width image
-
-The embed uses `width="100%"` so the SVG scales to the profile README column width (Tokscale SVG is 680px wide; it stretches on GitHub).
+`.github/workflows/tokscale-embed-refresh.yml` runs daily at 07:00 UTC and updates all `&v=YYYYMMDD` in the embed URLs.
