@@ -2,7 +2,6 @@ name: Refresh Tokscale embed on profile README
 
 on:
   schedule:
-    # Bust GitHub image cache daily (UTC). Pair with local launchd/cron sync (see scripts/).
     - cron: "0 7 * * *"
   workflow_dispatch:
 
