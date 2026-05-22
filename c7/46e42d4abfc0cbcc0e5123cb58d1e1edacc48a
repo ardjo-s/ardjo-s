@@ -1,0 +1,27 @@
+scripts/install-tokscale-daily-sync.sh
+  s_53900b9a8cdf6f::t_9caca3633af9fc 1-19
+README.md
+  s_53900b9a8cdf6f::t_6f90d417c6aa97 3-17
+.github/workflows/tokscale-embed-refresh.yml
+  s_53900b9a8cdf6f::t_294595166fbcb2 5-6,20-21,27
+scripts/com.ardjo.tokscale-sync.plist
+  s_53900b9a8cdf6f::t_2fff27c572c022 1-23
+scripts/README-tokscale.md
+  s_53900b9a8cdf6f::t_f5d942420b893d 1,3,5-9,11,13,15-18,20,23,26-28,30,32-33,35,37,39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "c746e42d4abfc0cbcc0e5123cb58d1e1edacc48a",
+  "prompts": {},
+  "sessions": {
+    "s_53900b9a8cdf6f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ebff059e-9cab-4f09-af02-ae96c3b4f1c9",
+        "model": "composer-2.5"
+      },
+      "human_author": "ardjo <hi@ardjo.design>"
+    }
+  }
+}
