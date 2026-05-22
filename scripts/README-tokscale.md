@@ -37,6 +37,13 @@ Manual run:
 ./scripts/tokscale-sync-and-submit.sh
 ```
 
+After install, reload the job:
+
+```bash
+launchctl bootout "gui/$(id -u)/com.ardjo.tokscale-sync" 2>/dev/null || true
+launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/com.ardjo.tokscale-sync.plist
+```
+
 Optional API token (headless submit): `export TOKSCALE_API_TOKEN=tt_xxx` from [tokscale.ai](https://tokscale.ai) Settings → API Tokens.
 
 ## Light / dark embed

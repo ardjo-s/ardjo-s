@@ -6,6 +6,8 @@
   <string>com.ardjo.tokscale-sync</string>
   <key>ProgramArguments</key>
   <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
     <string>/Users/ardjo/CODE/ardjo-s/scripts/tokscale-sync-and-submit.sh</string>
   </array>
   <key>StartCalendarInterval</key>
