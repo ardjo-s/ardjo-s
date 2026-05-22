@@ -6,8 +6,17 @@
   <string>com.ardjo.tokscale-sync</string>
   <key>ProgramArguments</key>
   <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
     <string>/Users/ardjo/CODE/ardjo-s/scripts/tokscale-sync-and-submit.sh</string>
   </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key>
+    <string>/Users/ardjo</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>

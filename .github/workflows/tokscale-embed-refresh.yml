@@ -18,8 +18,8 @@ jobs:
       - name: Bump embed cache-buster in README
         run: |
           echo "EMBED_V=$(date -u +%Y%m%d)" >> "$GITHUB_ENV"
-          perl -0pi -e 's|(view=3d&theme=(?:dark|light)&)v=[0-9]+|$1v='"$EMBED_V"'|g' README.md
-          grep -q "v=$EMBED_V" README.md
+          perl -0pi -e 's/&v=[0-9]+/&v='"$EMBED_V"'/g' README.md
+          grep -q "v=${EMBED_V}" README.md
 
       - name: Commit if README changed
         run: |
