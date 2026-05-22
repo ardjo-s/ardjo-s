@@ -1,5 +1,3 @@
-# ardjo
-
 <!-- tokscale-embed-start -->
 <p align="center">
   <a href="https://tokscale.ai/u/ardjo-s">
