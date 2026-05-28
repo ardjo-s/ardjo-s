@@ -1,0 +1,9 @@
+.github/workflows/tokscale-embed-refresh.yml
+  ai_agent 23-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "432b73e8e300c78b5803908196e1a4bc8903de6b",
+  "prompts": {}
+}
