@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install a daily launchd job: tokscale cursor sync + submit (Mac must be on ~08:00).
+# Install a launchd job: tokscale cursor sync + submit every 12 hours (Mac must be awake).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -16,4 +16,4 @@ cp "$PLIST_SRC" "$PLIST_DST"
 launchctl bootout "gui/$(id -u)/com.ardjo.tokscale-sync" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST_DST"
 launchctl enable "gui/$(id -u)/com.ardjo.tokscale-sync"
-echo "Installed: $PLIST_DST (daily ~08:00 local, logs in /tmp/tokscale-sync.log)"
+echo "Installed: $PLIST_DST (every 12h, logs in /tmp/tokscale-sync.log)"

@@ -10,13 +10,8 @@
     <string>-lc</string>
     <string>/Users/ardjo/CODE/ardjo-s/scripts/tokscale-sync-and-submit.sh</string>
   </array>
-  <key>StartCalendarInterval</key>
-  <dict>
-    <key>Hour</key>
-    <integer>8</integer>
-    <key>Minute</key>
-    <integer>0</integer>
-  </dict>
+  <key>StartInterval</key>
+  <integer>43200</integer>
   <key>StandardOutPath</key>
   <string>/tmp/tokscale-sync.log</string>
   <key>StandardErrorPath</key>
