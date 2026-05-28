@@ -2,7 +2,8 @@ name: Refresh Tokscale embed on profile README
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    # 07:00 and 19:00 UTC — aligns with local tokscale sync every 12h
+    - cron: "0 7,19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,12 +17,12 @@ jobs:
 
       - name: Bump embed cache-buster in README
         run: |
-          EMBED_V=$(date -u +%Y%m%d)
+          EMBED_V=$(date -u +%Y%m%d%H)
           echo "EMBED_V=$EMBED_V" >> "$GITHUB_ENV"
           perl -pi -e "s/&v=[0-9]*/&v=$EMBED_V/g" README.md
           grep -q "v=${EMBED_V}" README.md
-          # Fail loudly if perl did not write a full YYYYMMDD (empty $EMBED_V broke daily bumps in May 2026).
-          grep -qE "&v=[0-9]{8}" README.md
+          # Fail loudly if perl did not write YYYYMMDDHH (empty $EMBED_V broke bumps in May 2026).
+          grep -qE "&v=[0-9]{10}" README.md
 
       - name: Commit if README changed
         run: |
