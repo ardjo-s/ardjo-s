@@ -1,0 +1,24 @@
+scripts/com.ardjo.tokscale-sync.plist
+  s_0043a7adaa8b52::t_ae03b108ee6405 13-14
+scripts/install-tokscale-daily-sync.sh
+  s_0043a7adaa8b52::t_293578a7077b1f 2
+  s_0043a7adaa8b52::t_445b89b6619008 19
+scripts/import-claude-sessions-for-tokscale.sh
+  ai_agent 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d4153fc6a2f44d01bf37a288a714b5abcd4a7162",
+  "prompts": {},
+  "sessions": {
+    "s_0043a7adaa8b52": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "8b26112d-8605-419b-810a-4cbb4e1d1100",
+        "model": "composer-2.5"
+      },
+      "human_author": "ardjo <hi@ardjo.design>"
+    }
+  }
+}
