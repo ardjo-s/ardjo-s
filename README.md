@@ -3,15 +3,15 @@
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=light&v=2026053007"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=light&v=2026053019"
     />
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=dark&v=2026053007"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=dark&v=2026053019"
     />
     <img
       alt="Tokscale Stats for @ardjo-s"
-      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=dark&v=2026053007"
+      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&theme=dark&v=2026053019"
       width="100%"
     />
   </picture>
