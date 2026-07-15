@@ -74,15 +74,34 @@ def fetch_lists(token: str) -> dict[str, list[str]]:
         raise RuntimeError("More than 100 GitHub star lists are not supported by this export yet")
     memberships: dict[str, list[str]] = {}
     for item in lists["nodes"]:
-        item_query = f'''query {{ node(id: "{item["id"]}") {{ ... on UserList {{ items(first: 100) {{ pageInfo {{ hasNextPage }} nodes {{ ... on Repository {{ nameWithOwner }} }} }} }} }} }}'''
-        item_result = request_json(GRAPHQL, token, method="POST", payload={"query": item_query})
-        if item_result.get("errors"):
-            raise RuntimeError("GitHub GraphQL: " + "; ".join(e["message"] for e in item_result["errors"]))
-        items = item_result["data"]["node"]["items"]
-        if items["pageInfo"]["hasNextPage"]:
-            raise RuntimeError(f"Star list {item['name']!r} contains more than 100 repositories")
-        for repo in items["nodes"]:
-            memberships.setdefault(repo["nameWithOwner"], []).append(item["name"])
+        cursor = None
+        while True:
+            item_query = """
+            query($id: ID!, $cursor: String) {
+              node(id: $id) {
+                ... on UserList {
+                  items(first: 100, after: $cursor) {
+                    pageInfo { hasNextPage endCursor }
+                    nodes { ... on Repository { nameWithOwner } }
+                  }
+                }
+              }
+            }
+            """
+            item_result = request_json(
+                GRAPHQL,
+                token,
+                method="POST",
+                payload={"query": item_query, "variables": {"id": item["id"], "cursor": cursor}},
+            )
+            if item_result.get("errors"):
+                raise RuntimeError("GitHub GraphQL: " + "; ".join(e["message"] for e in item_result["errors"]))
+            items = item_result["data"]["node"]["items"]
+            for repo in items["nodes"]:
+                memberships.setdefault(repo["nameWithOwner"], []).append(item["name"])
+            if not items["pageInfo"]["hasNextPage"]:
+                break
+            cursor = items["pageInfo"]["endCursor"]
     return memberships
 
 

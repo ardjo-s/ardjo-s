@@ -7,6 +7,23 @@ I build my ideas (and try to have fun in the process).
 
 </div>
 
+## ⭐ Starred library
+
+[Browse all 748 starred repositories and the 10 public lists →](https://github.com/ardjo-s?tab=stars)
+
+| Collection | Focus | Repos |
+| --- | --- | ---: |
+| [🤖 Agent Factory](https://github.com/ardjo-s?tab=stars) | agents, harnesses, skills, MCP | 233 |
+| [🧠 AI & Research](https://github.com/ardjo-s?tab=stars) | models, prompting, context and memory | 52 |
+| [🛠 Developer Toolkit](https://github.com/ardjo-s?tab=stars) | APIs, CLI/TUI, Git, docs and learning | 54 |
+| [🎨 Product & Creative](https://github.com/ardjo-s?tab=stars) | apps, UI, media and visualization | 115 |
+| [💻 Platforms & Data](https://github.com/ardjo-s?tab=stars) | Mac, mobile and data tooling | 48 |
+| [🔐 Security & Privacy](https://github.com/ardjo-s?tab=stars) | security and privacy | 30 |
+| [📈 Growth & GTM](https://github.com/ardjo-s?tab=stars) | growth and customer tooling | 14 |
+| [🗂 Knowledge Garden](https://github.com/ardjo-s?tab=stars) | notes and personal knowledge | 9 |
+| [🎮 Playground](https://github.com/ardjo-s?tab=stars) | games and experiments | 12 |
+| [📥 Triage](https://github.com/ardjo-s?tab=stars) | unclassified discoveries | 181 |
+
 
 <!-- tokscale-embed-start -->
 <a href="https://tokscale.ai/u/ardjo-s">
