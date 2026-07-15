@@ -11,7 +11,6 @@ import time
 import urllib.error
 import urllib.request
 from collections import defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -133,36 +132,6 @@ def group_stars(stars: list[dict], memberships: dict[str, list[str]]) -> default
     return by_list
 
 
-def render(stars: list[dict], memberships: dict[str, list[str]], metadata: dict[str, dict[str, str]]) -> str:
-    by_list = group_stars(stars, memberships)
-    listed = set(memberships)
-    unlisted = [repo for repo in stars if repo["name"] not in listed]
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
-    lines = [
-        "# GitHub stars — ardjo-s",
-        "",
-        "> Généré automatiquement depuis les stars et Star Lists du compte GitHub `ardjo-s`. Ne pas modifier à la main.",
-        "",
-        "Synchronisation : [`.github/workflows/sync-github-stars.yml`](../.github/workflows/sync-github-stars.yml) toutes les 15 minutes ou via `workflow_dispatch`, avec le secret GitHub `GH_STARS_TOKEN`.",
-        "",
-        f"Dernière synchronisation : **{generated}** · **{len(stars)}** stars · **{len(by_list)}** listes · **{len(unlisted)}** sans liste.",
-        "",
-        "## Collections",
-        "",
-    ]
-    for list_name in sorted(by_list, key=str.casefold):
-        repos = sorted(by_list[list_name], key=lambda repo: repo["name"].casefold())
-        slug = metadata[list_name]["slug"]
-        lines += [f"### {list_name} · {len(repos)}", "", metadata[list_name]["description"], "", f"[Open on GitHub →]({list_url(slug)}) · [Read the catalog →](stars/{slug}.md)", ""]
-    if unlisted:
-        lines += [f"### Sans liste ({len(unlisted)})", ""]
-        for repo in sorted(unlisted, key=lambda item: item["name"].casefold()):
-            lines.append(f"- [{repo['name']}]({repo['url']})")
-        lines.append("")
-    return "\n".join(lines).rstrip() + "\n"
-
-
 def render_list(list_name: str, repos: list[dict], metadata: dict[str, str]) -> str:
     lines = [
         f"# {list_name}",
@@ -184,7 +153,7 @@ def render_list(list_name: str, repos: list[dict], metadata: dict[str, str]) -> 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args()
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if not token:
@@ -192,11 +161,8 @@ def main() -> int:
         return 2
     stars = fetch_stars(token)
     memberships, metadata = fetch_lists(token)
-    document = render(stars, memberships, metadata)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(document, encoding="utf-8")
-    lists_dir = args.output.parent / "stars"
-    lists_dir.mkdir(exist_ok=True)
+    lists_dir = args.output_dir
+    lists_dir.mkdir(parents=True, exist_ok=True)
     by_list = group_stars(stars, memberships)
     expected = {f"{data['slug']}.md" for data in metadata.values()}
     for path in lists_dir.glob("*.md"):

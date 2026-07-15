@@ -20,16 +20,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_STARS_TOKEN }}
         run: |
           test -n "$GH_TOKEN" || { echo "Missing GH_STARS_TOKEN repository secret" >&2; exit 1; }
-          python3 scripts/sync-github-stars.py --output docs/github-stars.md
+          python3 scripts/sync-github-stars.py --output-dir docs/stars
 
       - name: Commit if the export changed
         run: |
-          if git diff --quiet -- docs/github-stars.md docs/stars; then
+          if git diff --quiet -- docs/stars; then
             echo "GitHub stars export unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/github-stars.md docs/stars
+          git add docs/stars
           git commit -m "chore: sync GitHub stars"
           git push
