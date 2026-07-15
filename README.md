@@ -7,24 +7,6 @@ I build my ideas (and try to have fun in the process).
 
 </div>
 
-## ⭐ Starred library
-
-[Browse all 748 starred repositories and the 10 public lists →](https://github.com/ardjo-s?tab=stars)
-
-| Collection | Focus | Repos |
-| --- | --- | ---: |
-| [🤖 Agent Factory](https://github.com/ardjo-s?tab=stars) | agents, harnesses, skills, MCP | 233 |
-| [🧠 AI & Research](https://github.com/ardjo-s?tab=stars) | models, prompting, context and memory | 52 |
-| [🛠 Developer Toolkit](https://github.com/ardjo-s?tab=stars) | APIs, CLI/TUI, Git, docs and learning | 54 |
-| [🎨 Product & Creative](https://github.com/ardjo-s?tab=stars) | apps, UI, media and visualization | 115 |
-| [💻 Platforms & Data](https://github.com/ardjo-s?tab=stars) | Mac, mobile and data tooling | 48 |
-| [🔐 Security & Privacy](https://github.com/ardjo-s?tab=stars) | security and privacy | 30 |
-| [📈 Growth & GTM](https://github.com/ardjo-s?tab=stars) | growth and customer tooling | 14 |
-| [🗂 Knowledge Garden](https://github.com/ardjo-s?tab=stars) | notes and personal knowledge | 9 |
-| [🎮 Playground](https://github.com/ardjo-s?tab=stars) | games and experiments | 12 |
-| [📥 Triage](https://github.com/ardjo-s?tab=stars) | unclassified discoveries | 181 |
-
-
 <!-- tokscale-embed-start -->
 <a href="https://tokscale.ai/u/ardjo-s">
   <picture>
@@ -44,3 +26,25 @@ I build my ideas (and try to have fun in the process).
   </picture>
 </a>
 <!-- tokscale-embed-end -->
+
+## ⭐ Starred library
+
+One live map for humans. One generated catalog for agents.
+
+[Browse every star on GitHub →](https://github.com/ardjo-s?tab=stars) · [Read the full machine-friendly catalog →](docs/github-stars.md)
+
+### Build with
+
+- **🤖 Agent Factory** — agents, harnesses, skills, and MCP. [Open list →](https://github.com/stars/ardjo-s/lists/agent-factory) · [Catalog →](docs/stars/agent-factory.md)
+- **🧠 AI & Research** — models, prompts, context, and memory. [Open list →](https://github.com/stars/ardjo-s/lists/ai-research) · [Catalog →](docs/stars/ai-research.md)
+- **🛠 Developer Toolkit** — APIs, CLI/TUI, Git, docs, and learning. [Open list →](https://github.com/stars/ardjo-s/lists/developer-toolkit) · [Catalog →](docs/stars/developer-toolkit.md)
+- **🎨 Product & Creative** — apps, UI, media, and visualization. [Open list →](https://github.com/stars/ardjo-s/lists/product-creative) · [Catalog →](docs/stars/product-creative.md)
+- **💻 Platforms & Data** — Mac, mobile, databases, and platform tooling. [Open list →](https://github.com/stars/ardjo-s/lists/platforms-data) · [Catalog →](docs/stars/platforms-data.md)
+
+### Explore the edges
+
+- **🔐 Security & Privacy** — trust-boundary tooling. [Open list →](https://github.com/stars/ardjo-s/lists/security-privacy) · [Catalog →](docs/stars/security-privacy.md)
+- **📈 Growth & GTM** — go-to-market and customer tooling. [Open list →](https://github.com/stars/ardjo-s/lists/growth-gtm) · [Catalog →](docs/stars/growth-gtm.md)
+- **🗂 Knowledge Garden** — notes and personal knowledge. [Open list →](https://github.com/stars/ardjo-s/lists/knowledge-garden) · [Catalog →](docs/stars/knowledge-garden.md)
+- **🎮 Playground** — games, playful experiments, curiosities. [Open list →](https://github.com/stars/ardjo-s/lists/playground) · [Catalog →](docs/stars/playground.md)
+- **🎲 Random** — wildcard discoveries. [Open list →](https://github.com/stars/ardjo-s/lists/random) · [Catalog →](docs/stars/random.md)

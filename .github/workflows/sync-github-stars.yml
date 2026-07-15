@@ -24,12 +24,12 @@ jobs:
 
       - name: Commit if the export changed
         run: |
-          if git diff --quiet -- docs/github-stars.md; then
+          if git diff --quiet -- docs/github-stars.md docs/stars; then
             echo "GitHub stars export unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/github-stars.md
+          git add docs/github-stars.md docs/stars
           git commit -m "chore: sync GitHub stars"
           git push

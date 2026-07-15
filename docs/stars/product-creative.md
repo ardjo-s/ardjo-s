@@ -1,0 +1,125 @@
+# 🎨 Product & Creative
+
+> Apps, UI, visualization, media and creative tools.
+
+**115 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/product-creative)
+
+Agent note: generated from the authenticated GitHub stars list; do not edit manually.
+
+## Stars
+
+- [3b1b/manim](https://github.com/3b1b/manim) — Animation engine for explanatory math videos.
+- [851-labs/tokenmaxxing](https://github.com/851-labs/tokenmaxxing) — Social leaderboard for LLM token usage — sync your agent usage with the CLI, climb the leaderboard.
+- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser.
+- [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) — AG-UI: the Agent-User Interaction Protocol.
+- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Open-source MCP to use Blender with any LLM.
+- [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
+- [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
+- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.
+- [alchemy-run/alchemy](https://github.com/alchemy-run/alchemy) — Infrastructure as TypeScript.
+- [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — 💅🏻 ⚒ A collection of awesome design systems.
+- [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo).
+- [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful map components.
+- [Ansub/wiki-os](https://github.com/Ansub/wiki-os) — UI Layer for Karpathy's LLM Wiki.
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) — Bring projects, wikis, and teams together with AI.
+- [arturbien/balloons-js](https://github.com/arturbien/balloons-js) — 🎈 Animated balloons effect for your website.
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Typescript/React Library for AI Chat💬🚀.
+- [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) — 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine.
+- [averygan/reclip](https://github.com/averygan/reclip) — Download videos from almost any website.
+- [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
+- [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) — A curated list of awesome things related to shadcn/ui.
+- [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — A framework for building agent-native applications.
+- [cartesiancs/map3d](https://github.com/cartesiancs/map3d) — 🗺️ Generate City 3D map with R3F.
+- [ccusage/ccusage](https://github.com/ccusage/ccusage) — npx ccusage.
+- [cporter202/automate-faceless-content](https://github.com/cporter202/automate-faceless-content) — Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook & Instagram on autopilot — from idea → script → video → scheduled posts.
+- [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) — A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
+- [Egotistical-Engineering/hermes](https://github.com/Egotistical-Engineering/hermes) — Markdown editor with intelligence.
+- [facebook/astryx](https://github.com/facebook/astryx) — An open source design system that's fully customizable and agent ready.
+- [facebook/stylex](https://github.com/facebook/stylex) — StyleX is the styling system for ambitious user interfaces.
+- [fonoster/fonoster](https://github.com/fonoster/fonoster) — 🚀 The open-source alternative to Twilio.
+- [get-convex/chef](https://github.com/get-convex/chef) — The only AI app builder that knows backend.
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
+- [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai) — AI-powered assistant workbench for FreeCAD — generate 3D models from natural language.
+- [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — A format specification for describing a visual identity to coding agents.
+- [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) — real time face swap and one-click video deepfake with only a single image.
+- [harshjdhv/componentry](https://github.com/harshjdhv/componentry) — Animated, production-ready UI components.
+- [harshkedia177/axon](https://github.com/harshkedia177/axon) — Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.
+- [heycupola/relic](https://github.com/heycupola/relic) — Manage and share secrets.
+- [heyfabrika/styleui](https://github.com/heyfabrika/styleui) — Starred repository.
+- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Write HTML.
+- [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap) — Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data.
+- [ion-design/ditto.site](https://github.com/ion-design/ditto.site) — Starred repository.
+- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) — Collection of the most essential transitions for web apps, skill for agents and Refine tool for agents.
+- [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — The open-source AI voice studio.
+- [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) — The automatic work journal/time tracker.
+- [joshpuckett/dialkit](https://github.com/joshpuckett/dialkit) — A library to help you dial in interface parameters of any kind.
+- [Kanaries/graphic-walker](https://github.com/Kanaries/graphic-walker) — An open source alternative to Tableau.
+- [kapishdima/fonttrio](https://github.com/kapishdima/fonttrio) — Curated font pairing registry for shadcn.
+- [kapishdima/soundcn](https://github.com/kapishdima/soundcn) — 700+ curated UI sound effects for modern web apps.
+- [KartikLabhshetwar/screenshot-studio](https://github.com/KartikLabhshetwar/screenshot-studio) — A free, browser-based editor for creating stunning screenshots and visuals.
+- [keenthemes/reui](https://github.com/keenthemes/reui) — Design-forward shadcn kit for interfaces that stand out.
+- [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create amazing custom iOS keyboards with Swift & SwiftUI.
+- [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) — Truly independent web browser.
+- [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts) — EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Taste-Skill - gives your AI good taste.
+- [makeplane/plane](https://github.com/makeplane/plane) — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
+- [martin226/vibe-draw](https://github.com/martin226/vibe-draw) — 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
+- [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) — Open-source web analytics you deploy in one click.
+- [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) — Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
+- [mickadesign/fluid-functionalism](https://github.com/mickadesign/fluid-functionalism) — Starred repository.
+- [mickadesign/metadata-gen](https://github.com/mickadesign/metadata-gen) — Zero-install CLI to generate OG metadata images and favicon sets from your project's existing assets and config.
+- [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
+- [motion-core/motion-core](https://github.com/motion-core/motion-core) — Curated Motion Core Svelte components.
+- [mrdoob/three.js](https://github.com/mrdoob/three.js) — JavaScript 3D Library.
+- [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) — A real-time 3D digital map of Tokyo's public transport system.
+- [ncvgl/slawk](https://github.com/ncvgl/slawk) — A 14 day experiment to clone Slack with Claude Code.
+- [nellavio/nellavio](https://github.com/nellavio/nellavio) — 🚀 Next.js dashboard starter with auth, i18n, RBAC, 18 pages and 90+ UI components.
+- [Netflix/void-model](https://github.com/Netflix/void-model) — Starred repository.
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms.
+- [nexu-io/html-video](https://github.com/nexu-io/html-video) — Programmatic video for coding agents — HTML to video on your laptop.
+- [nianticlabs/spz](https://github.com/nianticlabs/spz) — File format for 3D Gaussian splats.
+- [nigelhartman/worldlabs_unity](https://github.com/nigelhartman/worldlabs_unity) — A Unity package for generating and rendering 3D Gaussian Splatting scenes using the WorldLabs API.
+- [nkzw-tech/codiff](https://github.com/nkzw-tech/codiff) — a fast local diff viewer.
+- [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Components crafted for Design Engineers.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI.
+- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
+- [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) — AI-native design editor.
+- [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
+- [opencoredev/domain-sdk](https://github.com/opencoredev/domain-sdk) — Add, verify, monitor, and remove customer domains with one TypeScript API.
+- [openstory-so/openstory](https://github.com/openstory-so/openstory) — Open-source AI-powered video sequence platform built with TanStack Start.
+- [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — macOS video editor built for AI.
+- [pascalorg/editor](https://github.com/pascalorg/editor) — Create and share 3D architectural projects.
+- [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
+- [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
+- [polarsource/polar](https://github.com/polarsource/polar) — Polar — A billing platform for the intelligence era.
+- [PostHog/posthog](https://github.com/PostHog/posthog) — 🦔 PostHog is an all-in-one developer platform for building successful products.
+- [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk) — The React Native Vibe Code SDK lets you build text to mobile & web apps in seconds.
+- [Remocn/remocn](https://github.com/Remocn/remocn) — Production-ready animations, transitions, backgrounds, and scenes for Remotion.
+- [Robbyant/lingbot-world](https://github.com/Robbyant/lingbot-world) — Advancing Open-source World Models.
+- [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator) — GPU-accelerated procedural video generator.
+- [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master) — Design motion that feels real.
+- [sculptdotfun/viberank](https://github.com/sculptdotfun/viberank) — 🏆 The AI coding usage leaderboard — Claude Code, Codex, Gemini CLI & more.
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — A set of beautifully-designed, accessible components and a code distribution platform.
+- [sivchari/ccowl](https://github.com/sivchari/ccowl) — A cross-platform status bar application that monitors Claude Code usage in real-time.
+- [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads) — Starred repository.
+- [storytold/artcraft](https://github.com/storytold/artcraft) — ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
+- [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui) — A collection of rare, ready-to-use UI components and animations you can actually drop into your next project.
+- [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram) — ngDiagram – An open-source Angular library for creating rich, interactive diagramming experiences.
+- [TahaSh/wayflow](https://github.com/TahaSh/wayflow) — An embeddable visual workflow editor for the web.
+- [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) — AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
+- [tamagui/tamagui](https://github.com/tamagui/tamagui) — Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
+- [tambo-ai/tambo](https://github.com/tambo-ai/tambo) — Generative UI SDK for React.
+- [thesysdev/openui](https://github.com/thesysdev/openui) — The Open Standard for Generative UI.
+- [tissad-101010/LoiHub](https://github.com/tissad-101010/LoiHub) — Starred repository.
+- [vercel-labs/json-render](https://github.com/vercel-labs/json-render) — The Generative UI framework.
+- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — A collection of DESIGN.md files analysis by popular brand design systems.
+- [will-lp1/saru](https://github.com/will-lp1/saru) — The Cursor for Writing.
+- [xandemon/developer-icons](https://github.com/xandemon/developer-icons) — A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
+- [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui) — A large collection of high-quality React components that you can copy and paste into any project.
+- [yamamuteki/scx](https://github.com/yamamuteki/scx) — CLI that converts USD amounts in stdin to your local currency (works great with ccusage).
+- [yossdotpro/removerized](https://github.com/yossdotpro/removerized) — AI Image Toolkit that runs fully in your browser — free, private, and offline-first.
+- [zerostaticthemes/square-ui](https://github.com/zerostaticthemes/square-ui) — Collection of beautifully crafted open-source layouts UI built with shadcn/ui.
+- [zeusinsight/MoneyMission](https://github.com/zeusinsight/MoneyMission) — Minimalist macOS menu bar app for chasing an earnings goal.
+- [ZiYang-xie/WorldGen](https://github.com/ZiYang-xie/WorldGen) — 🌍 WorldGen - Generate Any 3D Scene in Seconds.
+- [Zoeille/picsou-finance](https://github.com/Zoeille/picsou-finance) — Starred repository.
+- [zzzzshawn/matrix](https://github.com/zzzzshawn/matrix) — Starred repository.

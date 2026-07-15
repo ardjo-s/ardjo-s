@@ -64,8 +64,8 @@ def fetch_stars(token: str) -> list[dict]:
         page += 1
 
 
-def fetch_lists(token: str) -> dict[str, list[str]]:
-    list_query = "query { viewer { lists(first: 100) { nodes { id name } pageInfo { hasNextPage } } } }"
+def fetch_lists(token: str) -> tuple[dict[str, list[str]], dict[str, dict[str, str]]]:
+    list_query = "query { viewer { lists(first: 100) { nodes { id name slug description } pageInfo { hasNextPage } } } }"
     result = request_json(GRAPHQL, token, method="POST", payload={"query": list_query})
     if result.get("errors"):
         raise RuntimeError("GitHub GraphQL: " + "; ".join(e["message"] for e in result["errors"]))
@@ -73,6 +73,10 @@ def fetch_lists(token: str) -> dict[str, list[str]]:
     if lists["pageInfo"]["hasNextPage"]:
         raise RuntimeError("More than 100 GitHub star lists are not supported by this export yet")
     memberships: dict[str, list[str]] = {}
+    metadata = {
+        item["name"]: {"slug": item["slug"], "description": item["description"] or "Curated starred repositories."}
+        for item in lists["nodes"]
+    }
     for item in lists["nodes"]:
         cursor = None
         while True:
@@ -102,18 +106,35 @@ def fetch_lists(token: str) -> dict[str, list[str]]:
             if not items["pageInfo"]["hasNextPage"]:
                 break
             cursor = items["pageInfo"]["endCursor"]
-    return memberships
+    return memberships, metadata
 
 
 def md_escape(value: str) -> str:
     return value.replace("|", "\\|").replace("\n", " ").strip()
 
 
-def render(stars: list[dict], memberships: dict[str, list[str]]) -> str:
+def mini_description(value: str) -> str:
+    value = md_escape(value)
+    if not value:
+        return "Starred repository."
+    sentence = value.split(". ", 1)[0].rstrip(".")
+    return f"{sentence}."
+
+
+def list_url(slug: str) -> str:
+    return f"https://github.com/stars/ardjo-s/lists/{slug}"
+
+
+def group_stars(stars: list[dict], memberships: dict[str, list[str]]) -> defaultdict[str, list[dict]]:
     by_list: defaultdict[str, list[dict]] = defaultdict(list)
     for repo in stars:
         for list_name in memberships.get(repo["name"], []):
             by_list[list_name].append(repo)
+    return by_list
+
+
+def render(stars: list[dict], memberships: dict[str, list[str]], metadata: dict[str, dict[str, str]]) -> str:
+    by_list = group_stars(stars, memberships)
     listed = set(memberships)
     unlisted = [repo for repo in stars if repo["name"] not in listed]
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -127,22 +148,37 @@ def render(stars: list[dict], memberships: dict[str, list[str]]) -> str:
         "",
         f"Dernière synchronisation : **{generated}** · **{len(stars)}** stars · **{len(by_list)}** listes · **{len(unlisted)}** sans liste.",
         "",
-        "## Listes",
+        "## Collections",
         "",
     ]
     for list_name in sorted(by_list, key=str.casefold):
         repos = sorted(by_list[list_name], key=lambda repo: repo["name"].casefold())
-        lines += [f"### {list_name} ({len(repos)})", ""]
-        for repo in repos:
-            flags = "".join([" · archived" if repo["archived"] else "", " · fork" if repo["fork"] else ""])
-            detail = f" — {md_escape(repo['description'])}" if repo["description"] else ""
-            lines.append(f"- [{repo['name']}]({repo['url']}){flags}{detail}")
-        lines.append("")
+        slug = metadata[list_name]["slug"]
+        lines += [f"### {list_name} · {len(repos)}", "", metadata[list_name]["description"], "", f"[Open on GitHub →]({list_url(slug)}) · [Read the catalog →](stars/{slug}.md)", ""]
     if unlisted:
         lines += [f"### Sans liste ({len(unlisted)})", ""]
         for repo in sorted(unlisted, key=lambda item: item["name"].casefold()):
             lines.append(f"- [{repo['name']}]({repo['url']})")
         lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_list(list_name: str, repos: list[dict], metadata: dict[str, str]) -> str:
+    lines = [
+        f"# {list_name}",
+        "",
+        f"> {metadata['description']}",
+        "",
+        f"**{len(repos)} repositories.** [Open this live list on GitHub →]({list_url(metadata['slug'])})",
+        "",
+        "Agent note: generated from the authenticated GitHub stars list; do not edit manually.",
+        "",
+        "## Stars",
+        "",
+    ]
+    for repo in sorted(repos, key=lambda item: item["name"].casefold()):
+        flags = "".join([" · archived" if repo["archived"] else "", " · fork" if repo["fork"] else ""])
+        lines.append(f"- [{repo['name']}]({repo['url']}){flags} — {mini_description(repo['description'])}")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -154,9 +190,20 @@ def main() -> int:
     if not token:
         print("GH_TOKEN or GITHUB_TOKEN is required", file=sys.stderr)
         return 2
-    document = render(fetch_stars(token), fetch_lists(token))
+    stars = fetch_stars(token)
+    memberships, metadata = fetch_lists(token)
+    document = render(stars, memberships, metadata)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(document, encoding="utf-8")
+    lists_dir = args.output.parent / "stars"
+    lists_dir.mkdir(exist_ok=True)
+    by_list = group_stars(stars, memberships)
+    expected = {f"{data['slug']}.md" for data in metadata.values()}
+    for path in lists_dir.glob("*.md"):
+        if path.name not in expected:
+            path.unlink()
+    for list_name, data in metadata.items():
+        (lists_dir / f"{data['slug']}.md").write_text(render_list(list_name, by_list[list_name], data), encoding="utf-8")
     return 0
 
 
