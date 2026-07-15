@@ -16,7 +16,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.
-- [alchemy-run/alchemy](https://github.com/alchemy-run/alchemy) — Infrastructure as TypeScript.
+- [alchemy-run/alchemy-async](https://github.com/alchemy-run/alchemy-async) — Infrastructure as TypeScript.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — 💅🏻 ⚒ A collection of awesome design systems.
 - [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo).
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful map components.
