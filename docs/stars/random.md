@@ -28,7 +28,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) — ObsidianOS - Work Vault.
 - [Blueemi/codex-eu-patcher](https://github.com/Blueemi/codex-eu-patcher) — Starred repository.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) — A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
-- [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) — Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard.
+- [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) — Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more.
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Thirteen editorial diagram types for Claude Code.
 - [Cawlumm/lyftr](https://github.com/Cawlumm/lyftr) — Self-hosted fitness tracker.
