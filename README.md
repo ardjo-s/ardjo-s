@@ -12,81 +12,85 @@ I build my ideas (and try to have fun in the process).
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=light"
     />
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark"
     />
     <img
       alt="Tokscale Stats for @ardjo-s"
-      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1"
+      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark"
       width="100%"
     />
   </picture>
 </a>
 <!-- tokscale-embed-end -->
 
-## ⭐ Starred library
+## ⭐ Starred Repos
 
 <a href="https://github.com/ardjo-s?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
 
 ### Build with
 
-**🤖 Agent Factory**<br>
-Agents, harnesses, skills, and MCP.<br>
-<a href="https://github.com/stars/ardjo-s/lists/agent-factory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Agent Factory list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/agent-factory.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Agent Factory summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>🤖 Agent Factory</strong> — agents, harnesses, skills, and MCP</summary>
+<br>
+<a href="docs/stars/agent-factory.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Agent Factory summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/agent-factory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Agent Factory list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
----
+<details open>
+<summary><strong>🧠 AI &amp; Research</strong> — models, prompts, context, and memory</summary>
+<br>
+<a href="docs/stars/ai-research.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read AI and Research summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ai-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open AI and Research list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
-**🧠 AI & Research**<br>
-Models, prompts, context, and memory.<br>
-<a href="https://github.com/stars/ardjo-s/lists/ai-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open AI and Research list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/ai-research.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read AI and Research summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>🛠 Developer Toolkit</strong> — APIs, CLI/TUI, Git, docs, and learning</summary>
+<br>
+<a href="docs/stars/developer-toolkit.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Developer Toolkit summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/developer-toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Developer Toolkit list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
----
+<details open>
+<summary><strong>🎨 Product &amp; Creative</strong> — apps, UI, media, and visualization</summary>
+<br>
+<a href="docs/stars/product-creative.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Product and Creative summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/product-creative"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Product and Creative list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
-**🛠 Developer Toolkit**<br>
-APIs, CLI/TUI, Git, docs, and learning.<br>
-<a href="https://github.com/stars/ardjo-s/lists/developer-toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Developer Toolkit list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/developer-toolkit.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Developer Toolkit summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
-
----
-
-**🎨 Product & Creative**<br>
-Apps, UI, media, and visualization.<br>
-<a href="https://github.com/stars/ardjo-s/lists/product-creative"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Product and Creative list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/product-creative.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Product and Creative summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
-
----
-
-**💻 Platforms & Data**<br>
-Mac, mobile, databases, and platform tooling.<br>
-<a href="https://github.com/stars/ardjo-s/lists/platforms-data"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Platforms and Data list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/platforms-data.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Platforms and Data summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>💻 Platforms &amp; Data</strong> — Mac, mobile, databases, and platform tooling</summary>
+<br>
+<a href="docs/stars/platforms-data.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Platforms and Data summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/platforms-data"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Platforms and Data list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
 ### Explore the edges
 
-**🔐 Security & Privacy**<br>
-Trust-boundary tooling.<br>
-<a href="https://github.com/stars/ardjo-s/lists/security-privacy"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Security and Privacy list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/security-privacy.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Security and Privacy summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>🔐 Security &amp; Privacy</strong> — trust-boundary tooling</summary>
+<br>
+<a href="docs/stars/security-privacy.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Security and Privacy summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/security-privacy"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Security and Privacy list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
----
+<details open>
+<summary><strong>📈 Growth &amp; GTM</strong> — go-to-market and customer tooling</summary>
+<br>
+<a href="docs/stars/growth-gtm.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Growth and GTM summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/growth-gtm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Growth and GTM list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
-**📈 Growth & GTM**<br>
-Go-to-market and customer tooling.<br>
-<a href="https://github.com/stars/ardjo-s/lists/growth-gtm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Growth and GTM list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/growth-gtm.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Growth and GTM summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>🗂 Knowledge Garden</strong> — notes and personal knowledge</summary>
+<br>
+<a href="docs/stars/knowledge-garden.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Knowledge Garden summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/knowledge-garden"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Knowledge Garden list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
----
+<details open>
+<summary><strong>🎮 Playground</strong> — games, playful experiments, curiosities</summary>
+<br>
+<a href="docs/stars/playground.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Playground summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/playground"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Playground list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
 
-**🗂 Knowledge Garden**<br>
-Notes and personal knowledge.<br>
-<a href="https://github.com/stars/ardjo-s/lists/knowledge-garden"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Knowledge Garden list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/knowledge-garden.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Knowledge Garden summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
-
----
-
-**🎮 Playground**<br>
-Games, playful experiments, curiosities.<br>
-<a href="https://github.com/stars/ardjo-s/lists/playground"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Playground list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/playground.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Playground summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
-
----
-
-**🎲 Random**<br>
-Wildcard discoveries.<br>
-<a href="https://github.com/stars/ardjo-s/lists/random"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Random list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="docs/stars/random.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Random summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+<details open>
+<summary><strong>🎲 Random</strong> — wildcard discoveries</summary>
+<br>
+<a href="docs/stars/random.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Read Random summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/random"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Open Random list" src="https://www.shieldcn.dev/badge/Open-list-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+</details>
