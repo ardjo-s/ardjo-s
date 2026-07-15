@@ -2,7 +2,7 @@
 
 > Languages, APIs, CLI/TUI, Git, docs and learning.
 
-**54 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-toolkit)
+**55 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-toolkit)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -41,6 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [maaslalani/sheets](https://github.com/maaslalani/sheets) — Terminal based spreadsheet tool.
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) — Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
 - [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.
+- [michaelshimeles/skills](https://github.com/michaelshimeles/skills) — My personal skills.
 - [mintlify/starter](https://github.com/mintlify/starter) — The starter kit for your mintlify project.
 - [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) — Every API has a secret identity.
 - [Nicolepcx/ai-agents-the-definitive-guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide) — Repo for AI Agents The Definitive Guide.

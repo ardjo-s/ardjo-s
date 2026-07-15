@@ -2,7 +2,7 @@
 
 > Apps, UI, visualization, media and creative tools.
 
-**115 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/product-creative)
+**116 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/product-creative)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -90,6 +90,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — macOS video editor built for AI.
 - [pascalorg/editor](https://github.com/pascalorg/editor) — Create and share 3D architectural projects.
 - [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
+- [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — A starter kit and UI library for building custom design apps with AI.
 - [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
 - [polarsource/polar](https://github.com/polarsource/polar) — Polar — A billing platform for the intelligence era.
 - [PostHog/posthog](https://github.com/PostHog/posthog) — 🦔 PostHog is an all-in-one developer platform for building successful products.
