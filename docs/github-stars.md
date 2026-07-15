@@ -4,7 +4,7 @@
 
 Synchronisation : [`.github/workflows/sync-github-stars.yml`](../.github/workflows/sync-github-stars.yml) toutes les 15 minutes ou via `workflow_dispatch`, avec le secret GitHub `GH_STARS_TOKEN`.
 
-Dernière synchronisation : **2026-07-15 11:22 UTC** · **748** stars · **10** listes · **0** sans liste.
+Dernière synchronisation : **2026-07-15 11:23 UTC** · **748** stars · **10** listes · **0** sans liste.
 
 ## Collections
 
