@@ -87,7 +87,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) — Spec-driven development (SDD) for AI coding assistants.
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) — Garry's Opinionated OpenClaw/Hermes Agent Brain.
 - [garrytan/gstack](https://github.com/garrytan/gstack) — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.
-- [gepa-ai/gepa](https://github.com/gepa-ai/gepa) — Optimize prompts, code, and more with AI-powered Reflective Text Evolution.
+- [gepa-ai/gepa](https://github.com/gepa-ai/gepa) — Optimize prompts, code, and more with AI-powered Reflective Optimization.
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Port of OpenAI's Whisper model in C/C++.
 - [github/github-mcp-server](https://github.com/github/github-mcp-server) — GitHub's official MCP Server.
 - [github/spec-kit](https://github.com/github/spec-kit) — 💫 Toolkit to help you get started with Spec-Driven Development.
