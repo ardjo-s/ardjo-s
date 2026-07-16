@@ -199,7 +199,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Runfusion/Fusion](https://github.com/Runfusion/Fusion) — Your Software Factory - build faster and better with multi node agents that work 24/7.
 - [samanvaya5/subtext](https://github.com/samanvaya5/subtext) — Turn YouTube talks into intelligence.
 - [scarce/axel](https://github.com/scarce/axel) — Peaceful task list meticulously crafted for Agents in war mode.
-- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| AI that knows what you've seen, said, or heard.
+- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| Record how you work and turn that into agents.
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
 - [signerlabs/ShipSwift](https://github.com/signerlabs/ShipSwift) — AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.

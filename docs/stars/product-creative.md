@@ -93,7 +93,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — A starter kit and UI library for building custom design apps with AI.
 - [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
 - [polarsource/polar](https://github.com/polarsource/polar) — Polar — A billing platform for the intelligence era.
-- [PostHog/posthog](https://github.com/PostHog/posthog) — 🦔 PostHog is an all-in-one developer platform for building successful products.
+- [PostHog/posthog](https://github.com/PostHog/posthog) — :hedgehog: PostHog is the leading platform for building self-driving products.
 - [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk) — The React Native Vibe Code SDK lets you build text to mobile & web apps in seconds.
 - [Remocn/remocn](https://github.com/Remocn/remocn) — Production-ready animations, transitions, backgrounds, and scenes for Remotion.
 - [Robbyant/lingbot-world](https://github.com/Robbyant/lingbot-world) — Advancing Open-source World Models.
