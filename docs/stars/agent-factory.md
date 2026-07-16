@@ -2,7 +2,7 @@
 
 > Agents, harnesses, coding agents, skills and MCP.
 
-**233 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-factory)
+**234 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-factory)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -121,6 +121,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kevinrgu/autoagent](https://github.com/kevinrgu/autoagent) — autonomous harness engineering.
 - [kieranklaassen/riffrec](https://github.com/kieranklaassen/riffrec) — Capture golden product feedback sessions with screen, voice, DOM, network, and console context for AI agents.
 - [kitze/council](https://github.com/kitze/council) — 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
+- [kunchenguid/axi](https://github.com/kunchenguid/axi) — Design principles for agent ergonomics.
 - [kyegomez/swarms](https://github.com/kyegomez/swarms) — The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework.
 - [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) — The batteries-included agent harness.
 - [langchain-ai/langchain](https://github.com/langchain-ai/langchain) — The agent engineering platform.

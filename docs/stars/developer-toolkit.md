@@ -2,7 +2,7 @@
 
 > Languages, APIs, CLI/TUI, Git, docs and learning.
 
-**55 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-toolkit)
+**56 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-toolkit)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -36,6 +36,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [homeassistant-ai/skills](https://github.com/homeassistant-ai/skills) — Home Assistant skills for agents.
 - [jj-vcs/jj](https://github.com/jj-vcs/jj) — A Git-compatible VCS that is both simple and powerful.
 - [kitlangton/stack](https://github.com/kitlangton/stack) — Starred repository.
+- [kunchenguid/axi](https://github.com/kunchenguid/axi) — Design principles for agent ergonomics.
 - [lewagon/setup](https://github.com/lewagon/setup) — Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.
 - [linuz90/gists.sh](https://github.com/linuz90/gists.sh) — Starred repository.
 - [maaslalani/sheets](https://github.com/maaslalani/sheets) — Terminal based spreadsheet tool.
