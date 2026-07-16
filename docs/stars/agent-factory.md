@@ -10,7 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [0xMassi/webclaw](https://github.com/0xMassi/webclaw) — Fast, local-first web content extraction for LLMs.
 - [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent.
-- [0xNyk/xint](https://github.com/0xNyk/xint) — X Intelligence CLI — search, monitor, analyze, and engage on X/Twitter.
+- [0xNyk/xint](https://github.com/0xNyk/xint) — Local-first X Intelligence CLI for search, monitoring, analysis, exports, OAuth actions, and agent tooling.
 - [aaif-goose/goose](https://github.com/aaif-goose/goose) — an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Production-grade engineering skills for AI coding agents.
 - [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) — Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
