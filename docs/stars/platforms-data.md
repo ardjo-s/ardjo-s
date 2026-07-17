@@ -27,7 +27,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
 - [moritzWa/cronus](https://github.com/moritzWa/cronus) — AI Smart Screen Time Desktopp App.
 - [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — The best Mac apps — fast, lightweight, and bloat-free.
-- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — A Codex-compatible coding agent for open models like Kimi K3.
+- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — A coding agent for open models like Kimi K3.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector) — Cross-platform text data detection for React Native.
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) — Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.
 - [qdrant/qdrant](https://github.com/qdrant/qdrant) — Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.
