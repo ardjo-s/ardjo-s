@@ -22,7 +22,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [jasonkneen/agent-simulator](https://github.com/jasonkneen/agent-simulator) — An iOS simulator in a browser you can inspect.
 - [microsoft/Webwright](https://github.com/microsoft/Webwright) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — Model Context Protocol Servers.
-- [trycua/cua](https://github.com/trycua/cua) — Open-source infrastructure for Computer-Use Agents.
+- [trycua/cua](https://github.com/trycua/cua) — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
 - [UsefulSoftwareCo/executor](https://github.com/UsefulSoftwareCo/executor) — The missing integration layer for AI agents.
 - [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — Browser automation CLI for AI agents.
 - [zats/permiso](https://github.com/zats/permiso) — Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.
