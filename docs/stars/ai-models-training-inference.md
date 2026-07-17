@@ -32,7 +32,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [matthartman/ghost-pepper](https://github.com/matthartman/ghost-pepper) — 100% private on-device voice models for speech-to-text and meeting transcription on macOS.
 - [meta-llama/llama](https://github.com/meta-llama/llama) — Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) — Official inference framework for 1-bit LLMs.
-- [microsoft/fara](https://github.com/microsoft/fara) — Fara-7B: An Efficient Agentic Model for Computer Use.
+- [microsoft/fara](https://github.com/microsoft/fara) — Fara1.5 – A family of frontier computer use agent models.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — Open-Source Frontier Voice AI.
 - [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) — Generate text, images, video, speech, and music by MiniMax.
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api) — Starred repository.
