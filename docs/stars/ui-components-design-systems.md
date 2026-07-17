@@ -1,0 +1,77 @@
+# 🎨 UI Components & Design Systems
+
+> Interface components, CSS, design systems, accessibility and UI visualization.
+
+**67 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
+
+Agent note: generated from the authenticated GitHub stars list; do not edit manually.
+
+## Stars
+
+- [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples) — 21st sdk - cookbook.
+- [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — 💅🏻 ⚒ A collection of awesome design systems.
+- [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) — ⚡️ A collection of tips to help take your CSS skills pro 🦾.
+- [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful map components.
+- [arturbien/balloons-js](https://github.com/arturbien/balloons-js) — 🎈 Animated balloons effect for your website.
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Typescript/React Library for AI Chat💬🚀.
+- [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) — Some HTML, CSS and JS best practices.
+- [bergside/typeui](https://github.com/bergside/typeui) — Build better UI with AI.
+- [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) — A curated list of awesome things related to shadcn/ui.
+- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Thirteen editorial diagram types for Claude Code.
+- [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
+- [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Design Engineers.
+- [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) — A list of developer portfolios for your inspiration.
+- [facebook/astryx](https://github.com/facebook/astryx) — An open source design system that's fully customizable and agent ready.
+- [facebook/stylex](https://github.com/facebook/stylex) — StyleX is the styling system for ambitious user interfaces.
+- [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) — A guide on how to use the Figma MCP server.
+- [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) — The best design tools and plugins for everything 👉.
+- [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — A format specification for describing a visual identity to coding agents.
+- [harshjdhv/componentry](https://github.com/harshjdhv/componentry) — Animated, production-ready UI components.
+- [heroui-inc/heroui](https://github.com/heroui-inc/heroui) — 🚀 Beautiful, fast and modern React UI library.
+- [heyfabrika/styleui](https://github.com/heyfabrika/styleui) — Starred repository.
+- [ibelick/ui-skills](https://github.com/ibelick/ui-skills) — Skills for Design Engineers.
+- [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx) — Animated WebGL liquid-metal effect for React buttons and UI components.
+- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) — Collection of the most essential transitions for web apps, skill for agents and Refine tool for agents.
+- [jal-co/shieldcn](https://github.com/jal-co/shieldcn) — Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
+- [jamesrochabrun/Easel](https://github.com/jamesrochabrun/Easel) — Easel is a Codex and Claude macOS workspace for AI-assisted product design and frontend iteration.
+- [joshpuckett/dialkit](https://github.com/joshpuckett/dialkit) — A library to help you dial in interface parameters of any kind.
+- [kapishdima/fonttrio](https://github.com/kapishdima/fonttrio) — Curated font pairing registry for shadcn.
+- [kapishdima/soundcn](https://github.com/kapishdima/soundcn) — 700+ curated UI sound effects for modern web apps.
+- [Kappaemme-git/MengToFrontend](https://github.com/Kappaemme-git/MengToFrontend) — Starred repository.
+- [keenthemes/reui](https://github.com/keenthemes/reui) — Design-forward shadcn kit for interfaces that stand out.
+- [kepano/obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings) — Settings plugin to control colors and fonts in Minimal Theme.
+- [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts) — EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Taste-Skill - gives your AI good taste.
+- [MengTo/Skills](https://github.com/MengTo/Skills) — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
+- [mickadesign/fluid-functionalism](https://github.com/mickadesign/fluid-functionalism) — Starred repository.
+- [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
+- [motion-core/motion-core](https://github.com/motion-core/motion-core) — Curated Motion Core Svelte components.
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms.
+- [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 The open-source Claude Design alternative.
+- [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Components crafted for Design Engineers.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI.
+- [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) — AI-native design editor.
+- [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) — Open-source Claude Design alternative.
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — The design language that makes your AI harness better at design.
+- [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
+- [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — A starter kit and UI library for building custom design apps with AI.
+- [Remocn/remocn](https://github.com/Remocn/remocn) — Production-ready animations, transitions, backgrounds, and scenes for Remotion.
+- [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master) — Design motion that feels real.
+- [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn) — shadcn/ui, but for building agents.
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — A set of beautifully-designed, accessible components and a code distribution platform.
+- [southleft/figma-console-mcp](https://github.com/southleft/figma-console-mcp) — Your design system as an API.
+- [storybookjs/storybook](https://github.com/storybookjs/storybook) — Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation.
+- [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui) — A collection of rare, ready-to-use UI components and animations you can actually drop into your next project.
+- [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram) — ngDiagram – An open-source Angular library for creating rich, interactive diagramming experiences.
+- [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) — Workflow Builder - Apache 2.0 React SDK for embedding visual workflow editors.
+- [TahaSh/wayflow](https://github.com/TahaSh/wayflow) — An embeddable visual workflow editor for the web.
+- [tamagui/tamagui](https://github.com/tamagui/tamagui) — Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
+- [tambo-ai/tambo](https://github.com/tambo-ai/tambo) — Generative UI SDK for React.
+- [thesysdev/openui](https://github.com/thesysdev/openui) — The Open Standard for Generative UI.
+- [vercel-labs/json-render](https://github.com/vercel-labs/json-render) — The Generative UI framework.
+- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — A collection of DESIGN.md files analysis by popular brand design systems.
+- [WatermelonCorp/watermelon-platform](https://github.com/WatermelonCorp/watermelon-platform) — https://ui.watermelon.sh.
+- [xandemon/developer-icons](https://github.com/xandemon/developer-icons) — A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
+- [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui) — A large collection of high-quality React components that you can copy and paste into any project.
+- [zerostaticthemes/square-ui](https://github.com/zerostaticthemes/square-ui) — Collection of beautifully crafted open-source layouts UI built with shadcn/ui.
+- [zzzzshawn/matrix](https://github.com/zzzzshawn/matrix) — Starred repository.

@@ -1,0 +1,110 @@
+# 🗂 Knowledge, Productivity & Collaboration
+
+> Notes, PKM, documentation, tasks, calendars and collaborative work tools.
+
+**100 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+
+Agent note: generated from the authenticated GitHub stars list; do not edit manually.
+
+## Stars
+
+- [Ansub/wiki-os](https://github.com/Ansub/wiki-os) — UI Layer for Karpathy's LLM Wiki.
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
+- [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) — Anthropic's Interactive Prompt Engineering Tutorial.
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) — Bring projects, wikis, and teams together with AI.
+- [AppFlowy-IO/AppFlowy-Cloud](https://github.com/AppFlowy-IO/AppFlowy-Cloud) — Bring projects, wikis, and teams together with AI.
+- [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) — Framework for AI agents to build and maintain a digital brain through Obsidian wiki using Karpathy's LLM Wiki pattern.
+- [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) — A collection of projects showcasing RAG, agents, workflows, and other AI use cases.
+- [BennettSchwartz/GithubCommitsLeaderboard](https://github.com/BennettSchwartz/GithubCommitsLeaderboard) — A public leaderboard tracking all-time commit contributions across GitHub.
+- [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) — ObsidianOS - Work Vault.
+- [boriemannetje/apex-notes](https://github.com/boriemannetje/apex-notes) — Apex Notes, Obsidian for hierarchical thinkers.
+- [cabinetai/cabinet](https://github.com/cabinetai/cabinet) — AI-first knowledge base and startup OS.
+- [callumalpass/tasknotes](https://github.com/callumalpass/tasknotes) — Task and time-tracking management with calendar integration for Obsidian.
+- [campsite/campsite](https://github.com/campsite/campsite) — The Campsite monorepo.
+- [cathrynlavery/voice-memo-organizer](https://github.com/cathrynlavery/voice-memo-organizer) — Claude Code skill that organizes hundreds of Apple Voice Memos into a searchable archive with transcriptions, summaries, and key quotes.
+- [Cawlumm/lyftr](https://github.com/Cawlumm/lyftr) — Self-hosted fitness tracker.
+- [celltype/celltype-agent](https://github.com/celltype/celltype-agent) — Starred repository.
+- [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) — [WIP] Resources for AI engineers.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — Master programming by recreating your favorite technologies from scratch.
+- [collabs-inc/collab-public](https://github.com/collabs-inc/collab-public) — Collaborator is a place to create with agents.
+- [companion-inc/feynman](https://github.com/companion-inc/feynman) — Starred repository.
+- [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
+- [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
+- [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻 vibe coding 2026 \| Your First Modern Coding course beginners to master step by step.
+- [davidmyersdev/octo](https://github.com/davidmyersdev/octo) — A local-first knowledge management app.
+- [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) — ✅  Curated list of resources for developers.
+- [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.
+- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach > graphs that impress.
+- [Egotistical-Engineering/hermes](https://github.com/Egotistical-Engineering/hermes) — Markdown editor with intelligence.
+- [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi.
+- [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk) — Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
+- [EveryInc/tend](https://github.com/EveryInc/tend) — grow what you know.
+- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+- [farzaa/clicky](https://github.com/farzaa/clicky) — Starred repository.
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — freeCodeCamp.org's open-source codebase and curriculum.
+- [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) — Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.
+- [googleworkspace/cli](https://github.com/googleworkspace/cli) — Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
+- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — Machine Learning Systems.
+- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) — Jargon from the functional programming world in simple terms!.
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — DeepTutor: Lifelong Personalized Tutoring.
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — Academic Research Skills for Claude Code: research → write → review → revise → finalize.
+- [InterfazeAI/deep-research](https://github.com/InterfazeAI/deep-research) — An OpenSource Deep Research library with reasoning.
+- [jasonkneen/openclicky](https://github.com/jasonkneen/openclicky) — openclicky -- the open source version of clicky.
+- [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) — The automatic work journal/time tracker.
+- [joelbqz/writer-computer](https://github.com/joelbqz/writer-computer) — Local-first desktop markdown editor.
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — Turn any AI agent into an AI Scientist.
+- [kanwas-ai/kanwas](https://github.com/kanwas-ai/kanwas) — Kanwas — Shared context board for teams and agents.
+- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills for Obsidian.
+- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — Real-time global intelligence dashboard.
+- [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) — Starred repository.
+- [lewagon/setup](https://github.com/lewagon/setup) — Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.
+- [Lex-Inc/roughdraft](https://github.com/Lex-Inc/roughdraft) — Review markdown docs in a nice interface that lets you leave comments.
+- [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — An Open Source implementation of Notebook LM with more flexibility and features.
+- [linear/linear-release](https://github.com/linear/linear-release) — CLI to automatically track releases in Linear.
+- [maaslalani/sheets](https://github.com/maaslalani/sheets) — Terminal based spreadsheet tool.
+- [makeplane/plane](https://github.com/makeplane/plane) — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
+- [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist) — Starred repository.
+- [maximelebras/ai-library](https://github.com/maximelebras/ai-library) — My library of resources about AI.
+- [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18 Lessons to Get Started Building AI Agents.
+- [moritzWa/cronus](https://github.com/moritzWa/cronus) — AI Smart Screen Time Desktopp App.
+- [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) — A list of awesome beginners-friendly projects.
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary.
+- [ncvgl/slawk](https://github.com/ncvgl/slawk) — A 14 day experiment to clone Slack with Claude Code.
+- [nickwinder/synthteam](https://github.com/nickwinder/synthteam) — Consult distilled personas of colleagues — build them from Slack history, get one colleague's take, or convene a deliberating panel.
+- [Nicolepcx/ai-agents-the-definitive-guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide) — Repo for AI Agents The Definitive Guide.
+- [normen/whatscli](https://github.com/normen/whatscli) — A command line interface for WhatsApp.
+- [obsidian-full-calendar-remastered/plugin-full-calendar](https://github.com/obsidian-full-calendar-remastered/plugin-full-calendar) — Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.
+- [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) — Community plugins list, theme list, and releases of Obsidian.
+- [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) — Self-hosted AI workspace.
+- [openclaw/gogcli](https://github.com/openclaw/gogcli) — Google Workspace in your terminal.
+- [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) — Papers from the computer science community to read and discuss.
+- [pimalaya/himalaya](https://github.com/pimalaya/himalaya) — CLI to manage emails.
+- [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) — Pixel office.
+- [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) — :books: List of awesome university courses for learning Computer Science!.
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) — A collective list of free APIs.
+- [Railly/agentfiles](https://github.com/Railly/agentfiles) — Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools — from Obsidian.
+- [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) — Feedback/Issue tracker for Octarine - The private, markdown note taker.
+- [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — Desktop app to manage markdown knowledge bases.
+- [robinebers/augenblick](https://github.com/robinebers/augenblick) — An ADHD-friendly note-taking app where your notes disappear—on purpose.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — Learn it.
+- [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) — Open-source AI coworker, with memory.
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+- [samanvaya5/subtext](https://github.com/samanvaya5/subtext) — Turn YouTube talks into intelligence.
+- [scarce/axel](https://github.com/scarce/axel) — Peaceful task list meticulously crafted for Agents in war mode.
+- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1.
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — 😎 Awesome lists about all kinds of interesting topics.
+- [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — A simple task management system for managing AI dev agents.
+- [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads) — Starred repository.
+- [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) — A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
+- [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — The open-source AI workbench for scientific research.
+- [TfTHacker/group-enhancer-for-bases](https://github.com/TfTHacker/group-enhancer-for-bases) — Enhances the base functionality of bases group features.
+- [tissad-101010/LoiHub](https://github.com/tissad-101010/LoiHub) — Starred repository.
+- [tobi/qmd](https://github.com/tobi/qmd) — mini cli search engine for your docs, knowledge bases, meeting notes, whatever.
+- [vellum-ai/vellum-assistant](https://github.com/vellum-ai/vellum-assistant) — An AI Assistant that’s easy to setup, does your work 24/7, knows your preferences and gets better over time.
+- [video-db/call.md](https://github.com/video-db/call.md) — Turn meetings into live agent loops.
+- [viperrcrypto/Siftly](https://github.com/viperrcrypto/Siftly) — Local Twitter/X bookmark organizer with AI categorization and mindmap visualization.
+- [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — Harness engineering beginner tutorial, from 0 to 1.
+- [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) — A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.
+- [Yeachan-Heo/My-Jogyo](https://github.com/Yeachan-Heo/My-Jogyo) — Your one-click scientific research lab for Opencode - with seamless .ipynb and REPL integration.
+- [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) — A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.
