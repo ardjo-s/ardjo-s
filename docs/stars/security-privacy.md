@@ -26,7 +26,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) — 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0.
 - [mvanhorn/agentcookie](https://github.com/mvanhorn/agentcookie) — Your agent runs on a Mac that isn't your daily driver.
 - [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — Security scanner for AI agent skills.
-- [Open-Legal-Products/mike](https://github.com/Open-Legal-Products/mike) — OSS AI Legal Platform.
+- [Open-Legal-Products/mike](https://github.com/Open-Legal-Products/mike) — OSS Legal AI Platform.
 - [oritera/Cairn](https://github.com/oritera/Cairn) — A AI general-purpose state-space search engine, validated first on autonomous penetration testing.
 - [osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus) — Own your AI.
 - [p-e-w/heretic](https://github.com/p-e-w/heretic) — Fully automatic censorship removal for language models.
