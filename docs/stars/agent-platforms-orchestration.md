@@ -2,7 +2,7 @@
 
 > Frameworks and platforms for building, coordinating and operating agent systems.
 
-**45 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-platforms-orchestration)
+**44 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-platforms-orchestration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -13,7 +13,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [agentcompanies/agentcompanies](https://github.com/agentcompanies/agentcompanies) — Starred repository.
 - [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) — Fully autonomous & self-evolving research from idea to paper.
 - [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — A framework for building agent-native applications.
-- [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) — Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.
 - [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — An open-source long-horizon SuperAgent harness that researches, codes, and creates.
 - [Cjbuilds/Codex-Orchestration](https://github.com/Cjbuilds/Codex-Orchestration) — Bring any model to Codex, assign them any role, use them in /goal or any workflow.
 - [codejunkie99/agentic-stack](https://github.com/codejunkie99/agentic-stack) — One brain, many harnesses.
