@@ -2,7 +2,7 @@
 
 > Models, training systems, inference runtimes and multimodal foundations.
 
-**56 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-models-training-inference)
+**57 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-models-training-inference)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -30,6 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) — Moshi is a speech-text foundation model and full-duplex spoken dialogue framework.
 - [maderix/ANE](https://github.com/maderix/ANE) — Training neural networks on Apple Neural Engine via reverse-engineered private APIs.
 - [matthartman/ghost-pepper](https://github.com/matthartman/ghost-pepper) — 100% private on-device voice models for speech-to-text and meeting transcription on macOS.
+- [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) — Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device.
 - [meta-llama/llama](https://github.com/meta-llama/llama) — Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) — Official inference framework for 1-bit LLMs.
 - [microsoft/fara](https://github.com/microsoft/fara) — Fara1.5 – A family of frontier computer use agent models.
