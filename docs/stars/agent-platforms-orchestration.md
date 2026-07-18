@@ -20,7 +20,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — Build AI Agents, Visually.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) — 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
 - [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) — What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?.
-- [katanemo/plano](https://github.com/katanemo/plano) — Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.
+- [katanemo/plano](https://github.com/katanemo/plano) — Plano is an AI-native proxy and data plane for agentic apps — with smart LLM routing, agent orchestration, observability, and guardrails so you stay focused on your agents core logic.
 - [kevinrgu/autoagent](https://github.com/kevinrgu/autoagent) — autonomous harness engineering.
 - [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf) — Before I go to bed, I tell my agents: good night, have fun.
 - [kyegomez/swarms](https://github.com/kyegomez/swarms) — The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework.
