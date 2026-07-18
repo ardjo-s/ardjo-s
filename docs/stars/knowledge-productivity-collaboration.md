@@ -36,7 +36,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach > graphs that impress.
 - [Egotistical-Engineering/hermes](https://github.com/Egotistical-Engineering/hermes) — Markdown editor with intelligence.
-- [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi.
+- [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Antigravity, Hermes, and Pi.
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk) — Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [EveryInc/tend](https://github.com/EveryInc/tend) — grow what you know.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.

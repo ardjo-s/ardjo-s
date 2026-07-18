@@ -15,7 +15,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [anomalyco/opencode](https://github.com/anomalyco/opencode) — The open source coding agent.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code) — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 - [axeldelafosse/loop](https://github.com/axeldelafosse/loop) — Dead-simple Bun CLI that runs Codex and Claude Code in a loop.
-- [Blueemi/codex-eu-patcher](https://github.com/Blueemi/codex-eu-patcher) — Starred repository.
+- [Blueemi/codex-eu-patcher](https://github.com/Blueemi/codex-eu-patcher) · archived — Starred repository.
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more.
 - [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) — The one and only agent harness for complex codebases.
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases.
