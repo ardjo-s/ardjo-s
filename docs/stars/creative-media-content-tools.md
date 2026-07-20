@@ -28,7 +28,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [fikrikarim/volocal](https://github.com/fikrikarim/volocal) — Fully local voice AI for iOS.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) — real time face swap and one-click video deepfake with only a single image.
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) — A skill file for removing AI tells from prose.
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Write HTML.
 - [heygen-com/hyperframes-launch-video](https://github.com/heygen-com/hyperframes-launch-video) — Starred repository.
 - [InterfazeAI/insanely-fast-whisper-api](https://github.com/InterfazeAI/insanely-fast-whisper-api) — An API to transcribe audio with OpenAI's Whisper Large v3!.
