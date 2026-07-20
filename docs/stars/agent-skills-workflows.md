@@ -28,7 +28,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Forward-Future/loopy](https://github.com/Forward-Future/loopy) — A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.
 - [garrytan/gstack](https://github.com/garrytan/gstack) — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.
 - [google/skills](https://github.com/google/skills) — Agent Skills for Google products and technologies.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more).
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.
 - [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) — A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture.
 - [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) — "OpenSpace: The Quality-First Skill Hub for AI Agents" -- https://open-space.cloud/.
 - [Infinite-Labs-AI/infinite-skills](https://github.com/Infinite-Labs-AI/infinite-skills) — Codex skills from Infinite Labs OS.
