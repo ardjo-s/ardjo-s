@@ -8,7 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [1jehuang/jcode](https://github.com/1jehuang/jcode) — Coding Agent Harness.
+- [1jehuang/jcode](https://github.com/1jehuang/jcode) — The most intelligent agent harness for code.
 - [aaif-goose/goose](https://github.com/aaif-goose/goose) — an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
 - [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — Agent IDE that enables you to manage fleets of coding agents.
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) — aider is AI pair programming in your terminal.

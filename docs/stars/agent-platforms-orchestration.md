@@ -27,7 +27,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) — The batteries-included agent harness.
 - [langchain-ai/langchain](https://github.com/langchain-ai/langchain) — The agent engineering platform.
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) — Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [langgenius/dify](https://github.com/langgenius/dify) — Production-ready platform for agentic workflow development.
+- [langgenius/dify](https://github.com/langgenius/dify) — Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.
 - [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption.
 - [multica-ai/multica](https://github.com/multica-ai/multica) — The open-source managed agents platform.
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!.
