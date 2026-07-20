@@ -9,7 +9,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 ## Stars
 
 - [666ghj/MiroFish](https://github.com/666ghj/MiroFish) — A Simple and Universal Swarm Intelligence Engine, Predicting Anything.
-- [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield) — Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.
+- [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield) — Build, run and scale AI agents like API and microservices.
 - [agentcompanies/agentcompanies](https://github.com/agentcompanies/agentcompanies) — Starred repository.
 - [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) — Fully autonomous & self-evolving research from idea to paper.
 - [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — A framework for building agent-native applications.
