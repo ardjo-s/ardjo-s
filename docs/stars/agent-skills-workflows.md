@@ -44,7 +44,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [msitarzewski/AGENT-ZERO](https://github.com/msitarzewski/AGENT-ZERO) — Operational framework and patterns for high-quality, AI-assisted software development.
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [nikilster/clawflows](https://github.com/nikilster/clawflows) — ⚡️ Superpowers for your Openclaw.
-- [NVIDIA/skills](https://github.com/NVIDIA/skills) — AI agent skills published by NVIDIA.
+- [NVIDIA/skills](https://github.com/NVIDIA/skills) — Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [obra/superpowers](https://github.com/obra/superpowers) — An agentic skills framework & software development methodology that works.
 - [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide.
 - [openai/plugins](https://github.com/openai/plugins) — OpenAI Plugins.

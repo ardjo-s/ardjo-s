@@ -30,7 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [robinebers/openusage](https://github.com/robinebers/openusage) — Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing.
 - [romainsimon/paperasse](https://github.com/romainsimon/paperasse) — 🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, .
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) — Awesome list of open-source startup alternatives to well-known SaaS products 🚀.
-- [santifer/career-ops](https://github.com/santifer/career-ops) — Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…).
+- [santifer/career-ops](https://github.com/santifer/career-ops) — Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…).
 - [slavingia/skills](https://github.com/slavingia/skills) — Based on The Minimalist Entrepreneur by Sahil Lavingia.
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage) — One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework.
