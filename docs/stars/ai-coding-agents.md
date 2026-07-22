@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**58 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-coding-agents)
+**60 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-coding-agents)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -17,6 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [axeldelafosse/loop](https://github.com/axeldelafosse/loop) — Dead-simple Bun CLI that runs Codex and Claude Code in a loop.
 - [Blueemi/codex-eu-patcher](https://github.com/Blueemi/codex-eu-patcher) · archived — Starred repository.
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more.
+- [cline/cline](https://github.com/cline/cline) — Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 - [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) — The one and only agent harness for complex codebases.
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases.
 - [coleam00/Archon](https://github.com/coleam00/Archon) — The first open-source harness builder for AI coding.
@@ -47,6 +48,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) — Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
 - [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle) — Orchestrate sandboxed coding agents in TypeScript with sandcastle.run().
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe) — Expo app that builds Expo apps.
+- [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) — Kimi Code CLI is your next CLI agent.
 - [openai/codex](https://github.com/openai/codex) — Lightweight coding agent that runs in your terminal.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
 - [openai/symphony](https://github.com/openai/symphony) — Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.

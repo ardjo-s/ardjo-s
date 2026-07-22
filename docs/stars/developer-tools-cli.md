@@ -2,7 +2,7 @@
 
 > Developer CLIs, terminals, editors, Git tools, package managers and code intelligence.
 
-**46 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-tools-cli)
+**47 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-tools-cli)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -32,6 +32,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [jxnl/dots](https://github.com/jxnl/dots) — Starred repository.
 - [kitlangton/stack](https://github.com/kitlangton/stack) — Starred repository.
 - [kunchenguid/treehouse](https://github.com/kunchenguid/treehouse) — Manage worktrees without managing worktrees.
+- [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) — Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code.
 - [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.
 - [mintlify/starter](https://github.com/mintlify/starter) — The starter kit for your mintlify project.
 - [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) — Every API has a secret identity.

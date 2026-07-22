@@ -2,7 +2,7 @@
 
 > Deployment, containers, CI/CD, hosting, runtimes and self-hosted infrastructure.
 
-**12 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/cloud-devops-self-hosting)
+**13 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/cloud-devops-self-hosting)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -14,6 +14,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [craigsdennis/talk-to-javascript-openai-workers](https://github.com/craigsdennis/talk-to-javascript-openai-workers) — Demonstrates how to protect your OpenAI API Key using a Cloudflare Worker to serve your ephemeral token and then do client side tool calling.
 - [InsForge/InsForge](https://github.com/InsForge/InsForge) — The all-in-one, open-source backend platform for agentic coding.
 - [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) — Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig.
+- [oblien/openship](https://github.com/oblien/openship) — Self-hosted deployment platform.
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions) — A curated list of awesome actions to use on GitHub.
 - [temporalio/temporal](https://github.com/temporalio/temporal) — Temporal service.
 - [torvalds/linux](https://github.com/torvalds/linux) — Linux kernel source tree.

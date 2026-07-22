@@ -2,7 +2,7 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**100 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**104 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -17,6 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) — A collection of projects showcasing RAG, agents, workflows, and other AI use cases.
 - [BennettSchwartz/GithubCommitsLeaderboard](https://github.com/BennettSchwartz/GithubCommitsLeaderboard) — A public leaderboard tracking all-time commit contributions across GitHub.
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) — ObsidianOS - Work Vault.
+- [block/buzz](https://github.com/block/buzz) — A hive mind communication platform.
 - [boriemannetje/apex-notes](https://github.com/boriemannetje/apex-notes) — Apex Notes, Obsidian for hierarchical thinkers.
 - [cabinetai/cabinet](https://github.com/cabinetai/cabinet) — AI-first knowledge base and startup OS.
 - [callumalpass/tasknotes](https://github.com/callumalpass/tasknotes) — Task and time-tracking management with calendar integration for Obsidian.
@@ -49,6 +50,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — DeepTutor: Lifelong Personalized Tutoring.
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — Academic Research Skills for Claude Code: research → write → review → revise → finalize.
 - [InterfazeAI/deep-research](https://github.com/InterfazeAI/deep-research) — An OpenSource Deep Research library with reasoning.
+- [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.
 - [jasonkneen/openclicky](https://github.com/jasonkneen/openclicky) — openclicky -- the open source version of clicky.
 - [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) — The automatic work journal/time tracker.
 - [joelbqz/writer-computer](https://github.com/joelbqz/writer-computer) — Local-first desktop markdown editor.
@@ -97,6 +99,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads) — Starred repository.
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) — A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
+- [swiss/opensource-guidelines](https://github.com/swiss/opensource-guidelines) — Open Source Guidelines (Swiss Government).
 - [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — The open-source AI workbench for scientific research.
 - [TfTHacker/group-enhancer-for-bases](https://github.com/TfTHacker/group-enhancer-for-bases) — Enhances the base functionality of bases group features.
 - [tissad-101010/LoiHub](https://github.com/tissad-101010/LoiHub) — Starred repository.
@@ -107,4 +110,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — Harness engineering beginner tutorial, from 0 to 1.
 - [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) — A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.
 - [Yeachan-Heo/My-Jogyo](https://github.com/Yeachan-Heo/My-Jogyo) — Your one-click scientific research lab for Opencode - with seamless .ipynb and REPL integration.
+- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) — A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.

@@ -2,7 +2,7 @@
 
 > Reusable agent skills, prompts, playbooks and workflows.
 
-**53 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
+**58 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -16,8 +16,10 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — 345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — Official, Anthropic-managed directory of high quality Claude Code Plugins.
 - [anthropics/skills](https://github.com/anthropics/skills) — Public repository for Agent Skills.
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill for your coding agent to stop it from burying the answer.
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) — CC Workflow Studio.
 - [BuilderIO/skills](https://github.com/BuilderIO/skills) — Skills for coding agents.
+- [cathrynlavery/codex-build](https://github.com/cathrynlavery/codex-build) — Orchestrator drives, Codex codes — execute an approved plan one task at a time with a test gate before every commit and exactly one PR at the end.
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) — A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [cursor/plugins](https://github.com/cursor/plugins) — Cursor plugin specification and official plugins.
 - [DannyMac180/skills](https://github.com/DannyMac180/skills) — AI agent skills created by me: Dan McAteer.
@@ -44,6 +46,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [msitarzewski/AGENT-ZERO](https://github.com/msitarzewski/AGENT-ZERO) — Operational framework and patterns for high-quality, AI-assisted software development.
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [nikilster/clawflows](https://github.com/nikilster/clawflows) — ⚡️ Superpowers for your Openclaw.
+- [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 - [NVIDIA/skills](https://github.com/NVIDIA/skills) — Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [obra/superpowers](https://github.com/obra/superpowers) — An agentic skills framework & software development methodology that works.
 - [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide.
@@ -54,9 +57,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) — Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills) — A selection of personal Cursor agents/commands/rules/skills that I use for my work.
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
+- [shadcn/improve](https://github.com/shadcn/improve) — Use your most capable model to audit your codebase and write plans for cheaper models to execute.
 - [Shpigford/chops](https://github.com/Shpigford/chops) — Your AI agent skills, finally organized.
 - [soleio/luck](https://github.com/soleio/luck) — A skill for improving the luck of your AI stack and projects—developed from an applied theoretical framework.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) — The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) — The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) — A collection of 130+ specialized Codex subagents covering a wide range of development use cases.

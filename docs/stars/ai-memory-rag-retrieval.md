@@ -2,7 +2,7 @@
 
 > Memory, embeddings, indexing and retrieval systems for AI context.
 
-**30 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-memory-rag-retrieval)
+**31 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-memory-rag-retrieval)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -14,6 +14,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) — Persistent memory + local AI for coding agents.
 - [Einsia/OpenChronicle](https://github.com/Einsia/OpenChronicle) — Starred repository.
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) — Garry's Opinionated OpenClaw/Hermes Agent Brain.
+- [google/langextract](https://github.com/google/langextract) — A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext) — a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
 - [iwe-org/iwe](https://github.com/iwe-org/iwe) — Markdown memory system for you and your AI agent.

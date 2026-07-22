@@ -2,7 +2,7 @@
 
 > CRM, marketing, sales, recruiting, careers, finance and commerce.
 
-**37 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/business-growth-careers)
+**40 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/business-growth-careers)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -20,13 +20,16 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox) — Open source Inbox for the official WhatsApp Cloud API.
 - [gokapso/whatsapp-spend-tracker](https://github.com/gokapso/whatsapp-spend-tracker) — An agent that helps you manage daily expenses through whatsapp with Kapso and Chat SDK.
 - [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) — "AI-Trader: 100% Fully-Automated Agent-Native Trading".
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — "Vibe-Trading: Your Personal Trading Agent".
 - [JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume) — free online AI resume editor，the only official website is  https://magicv.art.
 - [Kappaemme-git/codex-first-customer-finder-skill](https://github.com/Kappaemme-git/codex-first-customer-finder-skill) — A Codex skill that finds evidence-backed potential first customers from recent public signals.
 - [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) — A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups.
+- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — The job search that runs on your machine.
 - [marmelab/atomic-crm](https://github.com/marmelab/atomic-crm) — A full-featured CRM built with React, shadcn/ui, and Supabase.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill) — Starred repository.
 - [Open-Legal-Products/mike](https://github.com/Open-Legal-Products/mike) — OSS Legal AI Platform.
 - [polarsource/polar](https://github.com/polarsource/polar) — Polar — A billing platform for the intelligence era.
+- [remoteoss/remote-cli](https://github.com/remoteoss/remote-cli) — Interact with the Remote.com API to manage your company and employees directly from your terminal.
 - [robinebers/openusage](https://github.com/robinebers/openusage) — Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing.
 - [romainsimon/paperasse](https://github.com/romainsimon/paperasse) — 🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, .
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) — Awesome list of open-source startup alternatives to well-known SaaS products 🚀.

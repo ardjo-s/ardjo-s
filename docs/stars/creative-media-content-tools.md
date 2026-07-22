@@ -2,7 +2,7 @@
 
 > Image, video, audio, animation and content-production tools.
 
-**56 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
+**58 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -56,9 +56,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator) — GPU-accelerated procedural video generator.
 - [Starmel/OpenSuperWhisper](https://github.com/Starmel/OpenSuperWhisper) — macOS dictation app.
 - [storytold/artcraft](https://github.com/storytold/artcraft) — ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
+- [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP) — Starred repository.
 - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) — Local speech-to-text for macOS  on-device AI, fully private, optional cloud.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny) — An agent native video creation pipeline that runs on top of Hermes Agent.
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) — An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
+- [vercel/satori](https://github.com/vercel/satori) — Enlightened library to convert HTML and CSS to SVG.
 - [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) — Create polished demo videos without editing skills.
 - [will-lp1/saru](https://github.com/will-lp1/saru) — The Cursor for Writing.
 - [ygivenx/freeWispr](https://github.com/ygivenx/freeWispr) — Free, local, privacy-first dictation for macOS — like Wispr but open source.

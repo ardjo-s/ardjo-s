@@ -2,7 +2,7 @@
 
 > Evaluation, tracing, usage, cost and quality tooling for models and agents.
 
-**22 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-evaluation-observability)
+**23 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-evaluation-observability)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -24,6 +24,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [NVIDIA-NeMo/nemo-platform](https://github.com/NVIDIA-NeMo/nemo-platform) — Make the agents you ship faster, more accurate, and safer.
 - [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) — Test your prompts, agents, and RAGs.
 - [raindrop-ai/workshop](https://github.com/raindrop-ai/workshop) — Give your coding agent the power to write and run agent evals.
+- [RubricLab/tokenmaxx](https://github.com/RubricLab/tokenmaxx) — A local proxy that aggregates usage across your Codex and Claude Code accounts — with live token-throughput analytics.
 - [sculptdotfun/viberank](https://github.com/sculptdotfun/viberank) — 🏆 The AI coding usage leaderboard — Claude Code, Codex, Gemini CLI & more.
 - [sivchari/ccowl](https://github.com/sivchari/ccowl) — A cross-platform status bar application that monitors Claude Code usage in real-time.
 - [soulduse/ai-token-monitor](https://github.com/soulduse/ai-token-monitor) — macOS menu bar app for tracking Claude Code token usage and costs.
