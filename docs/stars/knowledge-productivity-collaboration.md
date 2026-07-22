@@ -92,7 +92,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [samanvaya5/subtext](https://github.com/samanvaya5/subtext) — Turn YouTube talks into intelligence.
 - [scarce/axel](https://github.com/scarce/axel) — Peaceful task list meticulously crafted for Agents in war mode.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — 😎 Awesome lists about all kinds of interesting topics.
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads) — Starred repository.
