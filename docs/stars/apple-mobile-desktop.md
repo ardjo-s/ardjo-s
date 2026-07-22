@@ -31,7 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [realfishsam/agent-notch](https://github.com/realfishsam/agent-notch) — The open-source alternative to vibe-island.
 - [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) — Fast, scriptable CLI for the App Store Connect API.
 - [rudrankriyam/Foundation-Models-Framework-Lab](https://github.com/rudrankriyam/Foundation-Models-Framework-Lab) — A practical lab for building, testing, and evaluating apps with Apple's Foundation Models framework.
-- [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) — A native Android application that converts any website URL into a standalone Android App.
+- [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) — The most full-featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone.
 - [shobhit99/SuperIsland](https://github.com/shobhit99/SuperIsland) — Dynamic Island for MacOS — with Extensions.
 - [Shpigford/clearly](https://github.com/Shpigford/clearly) — Markdown editor for Mac, iOS and iPadOS.
 - [signerlabs/ShipSwift](https://github.com/signerlabs/ShipSwift) — AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.
