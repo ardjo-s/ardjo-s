@@ -56,7 +56,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [Shpigford/chops](https://github.com/Shpigford/chops) — Your AI agent skills, finally organized.
 - [soleio/luck](https://github.com/soleio/luck) — A skill for improving the luck of your AI stack and projects—developed from an applied theoretical framework.
-- [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) — The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance for AI coding assistants.
+- [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) — The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) — The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) — A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
