@@ -30,7 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Emanuele-web04/synara](https://github.com/Emanuele-web04/synara) — The best place to build with your AI sub.
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro) — ⚒️ The open source dark software factory for expert engineers.
 - [Factory-AI/factory](https://github.com/Factory-AI/factory) — Factory - Agent-Native Software Development.
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent.
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent.
 - [generalaction/emdash](https://github.com/generalaction/emdash) — Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
 - [get-convex/chef](https://github.com/get-convex/chef) — The only AI app builder that knows backend.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
