@@ -17,7 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [gepa-ai/gepa](https://github.com/gepa-ai/gepa) — Optimize prompts, code, and more with AI-powered Reflective Optimization.
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn) — Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Helicone/helicone](https://github.com/Helicone/helicone) — 🧊 Open source LLM observability platform.
-- [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw, Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph.
+- [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 🛰️ Track token usage across AI coding agents from your terminal.
 - [microsoft/waza](https://github.com/microsoft/waza) — CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.
 - [mm7894215/TokenTracker](https://github.com/mm7894215/TokenTracker) — Local-first AI token usage & cost tracker for 27 coding tools — with a desktop pet, 4 widgets, achievements, native macOS/Windows apps, and a one-command CLI.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) — Monoscope lets you ingest and explore your logs, traces and metrics.
