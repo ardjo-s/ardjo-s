@@ -2,7 +2,7 @@
 
 > Reusable agent skills, prompts, playbooks and workflows.
 
-**58 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
+**59 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -54,6 +54,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [openai/skills](https://github.com/openai/skills) — Skills Catalog for Codex.
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) — Skill + Plugin Registry for OpenClaw.
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors.
+- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) — Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills) — A selection of personal Cursor agents/commands/rules/skills that I use for my work.
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.

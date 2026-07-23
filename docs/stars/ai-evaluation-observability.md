@@ -8,7 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [851-labs/tokenmaxxing](https://github.com/851-labs/tokenmaxxing) — Social leaderboard for LLM token usage — sync your agent usage with the CLI, climb the leaderboard.
+- [851-labs/tokenmaxxing](https://github.com/851-labs/tokenmaxxing) — A local CLI, built on ccusage, that syncs your token usage with everyone else.
 - [adewale/skill-eval-harness](https://github.com/adewale/skill-eval-harness) — Agent Skill evaluation harness for paired variants, trace artifacts, and runner adapters.
 - [affaan-m/ECC](https://github.com/affaan-m/ECC) — The agent harness performance optimization system.
 - [ccusage/ccusage](https://github.com/ccusage/ccusage) — npx ccusage.

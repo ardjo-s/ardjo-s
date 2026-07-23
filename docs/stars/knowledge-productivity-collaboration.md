@@ -2,7 +2,7 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**104 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**105 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -80,11 +80,12 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) — Self-hosted AI workspace.
 - [openclaw/gogcli](https://github.com/openclaw/gogcli) — Google Workspace in your terminal.
 - [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) — Papers from the computer science community to read and discuss.
+- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
 - [pimalaya/himalaya](https://github.com/pimalaya/himalaya) — CLI to manage emails.
 - [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) — Pixel office.
 - [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) — :books: List of awesome university courses for learning Computer Science!.
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) — A collective list of free APIs.
-- [Railly/agentfiles](https://github.com/Railly/agentfiles) — Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools — from Obsidian.
+- [Railly/agentfiles](https://github.com/Railly/agentfiles) — Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 12 coding tools — from Obsidian.
 - [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) — Feedback/Issue tracker for Octarine - The private, markdown note taker.
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) — An ADHD-friendly note-taking app where your notes disappear—on purpose.
