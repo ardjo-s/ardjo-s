@@ -2,7 +2,7 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**105 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**104 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -77,7 +77,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [normen/whatscli](https://github.com/normen/whatscli) — A command line interface for WhatsApp.
 - [obsidian-full-calendar-remastered/plugin-full-calendar](https://github.com/obsidian-full-calendar-remastered/plugin-full-calendar) — Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.
 - [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) — Community plugins list, theme list, and releases of Obsidian.
-- [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) — Self-hosted AI workspace.
 - [openclaw/gogcli](https://github.com/openclaw/gogcli) — Google Workspace in your terminal.
 - [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) — Papers from the computer science community to read and discuss.
 - [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
