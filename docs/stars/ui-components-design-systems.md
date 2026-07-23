@@ -2,7 +2,7 @@
 
 > Interface components, CSS, design systems, accessibility and UI visualization.
 
-**78 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
+**79 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -21,6 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Thirteen editorial diagram types for Claude Code.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) — The modern toolkit for building drag and drop interfaces.
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
+- [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — A library of creative canvas components.
 - [dip/cmdk](https://github.com/dip/cmdk) — Fast, unstyled command menu React component.
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Design Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner) — An opinionated toast component for React.

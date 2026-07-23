@@ -2,7 +2,7 @@
 
 > Reusable agent skills, prompts, playbooks and workflows.
 
-**59 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
+**60 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -27,6 +27,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — Makes your AI agent think like the laziest senior dev in the room.
 - [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more.
 - [f/prompts.chat](https://github.com/f/prompts.chat) — f.k.a.
+- [finna/Finn-loop](https://github.com/finna/Finn-loop) — The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review.
 - [Forward-Future/loopy](https://github.com/Forward-Future/loopy) — A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.
 - [garrytan/gstack](https://github.com/garrytan/gstack) — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.
 - [google/skills](https://github.com/google/skills) — Agent Skills for Google products and technologies.
