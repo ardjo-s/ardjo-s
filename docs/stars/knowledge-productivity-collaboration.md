@@ -2,7 +2,7 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**104 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**103 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -79,7 +79,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) — Community plugins list, theme list, and releases of Obsidian.
 - [openclaw/gogcli](https://github.com/openclaw/gogcli) — Google Workspace in your terminal.
 - [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) — Papers from the computer science community to read and discuss.
-- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
 - [pimalaya/himalaya](https://github.com/pimalaya/himalaya) — CLI to manage emails.
 - [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) — Pixel office.
 - [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) — :books: List of awesome university courses for learning Computer Science!.

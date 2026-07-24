@@ -2,7 +2,7 @@
 
 > Testing, debugging, review, verification and release-quality tooling.
 
-**11 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/testing-qa-code-quality)
+**12 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/testing-qa-code-quality)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -18,4 +18,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [modem-dev/hunk](https://github.com/modem-dev/hunk) — Review-first terminal diff viewer for agentic coders.
 - [pbakaus/agent-reviews](https://github.com/pbakaus/agent-reviews) — Token efficient, automated Github review workflows and bug fixing.
 - [RevylAI/greenlight](https://github.com/RevylAI/greenlight) — Pre-submission compliance scanner for the Apple App Store.
+- [TheOrcDev/shadscan](https://github.com/TheOrcDev/shadscan) — Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent.
 - [vercel-labs/dev3000](https://github.com/vercel-labs/dev3000) — Captures your web app's complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.
