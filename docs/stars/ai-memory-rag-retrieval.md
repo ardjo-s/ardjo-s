@@ -17,7 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [google/langextract](https://github.com/google/langextract) — A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext) — a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
-- [iwe-org/iwe](https://github.com/iwe-org/iwe) — Markdown memory system for you and your AI agent.
+- [iwe-org/iwe](https://github.com/iwe-org/iwe) — Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents.
 - [jxnl/personal-monorepo-template](https://github.com/jxnl/personal-monorepo-template) — Starred repository.
 - [kyssta-exe/Ariadne](https://github.com/kyssta-exe/Ariadne) — Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP) — Your agents are guessing at APIs.
