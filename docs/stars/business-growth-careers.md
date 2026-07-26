@@ -47,4 +47,4 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [whoisyurii/checkmygit](https://github.com/whoisyurii/checkmygit) — Visualize and share your Github profile in seconds!.
 - [yamamuteki/scx](https://github.com/yamamuteki/scx) — CLI that converts USD amounts in stdin to your local currency (works great with ccusage).
 - [zeusinsight/MoneyMission](https://github.com/zeusinsight/MoneyMission) — Minimalist macOS menu bar app for chasing an earnings goal.
-- [Zoeille/picsou-finance](https://github.com/Zoeille/picsou-finance) — Starred repository.
+- [Zoeille/picsou-finance](https://github.com/Zoeille/picsou-finance) — Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.
