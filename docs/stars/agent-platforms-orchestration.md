@@ -24,7 +24,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [katanemo/plano](https://github.com/katanemo/plano) — Plano is an AI-native proxy server and data plane for agentic apps.
 - [kevinrgu/autoagent](https://github.com/kevinrgu/autoagent) — autonomous harness engineering.
 - [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf) — Before I go to bed, I tell my agents: good night, have fun.
-- [kyegomez/swarms](https://github.com/kyegomez/swarms) — The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework.
+- [kyegomez/swarms](https://github.com/kyegomez/swarms) — The Enterprise-Grade Multi-Agent Orchestration Framework.
 - [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) — The batteries-included agent harness.
 - [langchain-ai/langchain](https://github.com/langchain-ai/langchain) — The agent engineering platform.
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) — Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
