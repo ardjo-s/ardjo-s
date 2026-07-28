@@ -10,7 +10,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [1jehuang/jcode](https://github.com/1jehuang/jcode) — The most RAM effiecent harness.
 - [aaif-goose/goose](https://github.com/aaif-goose/goose) — an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
-- [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — Agent IDE that enables you to manage fleets of coding agents.
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) — aider is AI pair programming in your terminal.
 - [anomalyco/opencode](https://github.com/anomalyco/opencode) — The open source coding agent.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code) — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
@@ -65,6 +64,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [standardagents/dmux](https://github.com/standardagents/dmux) — A dev agent multiplexer for git worktrees and coding agents.
 - [superset-sh/superset](https://github.com/superset-sh/superset) — Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) — AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
+- [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) — Agent IDE that enables you to manage fleets of coding agents.
 - [warpdotdev/oz-agent-action](https://github.com/warpdotdev/oz-agent-action) — Use the Oz coding agent in GitHub Actions.
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0.
 - [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — OmX - Oh My codeX: Your codex is not alone.
