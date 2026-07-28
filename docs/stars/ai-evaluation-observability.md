@@ -19,7 +19,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Helicone/helicone](https://github.com/Helicone/helicone) — 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 🛰️ Track token usage across AI coding agents from your terminal.
 - [microsoft/waza](https://github.com/microsoft/waza) — CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.
-- [mm7894215/TokenTracker](https://github.com/mm7894215/TokenTracker) — Local-first AI token usage & cost tracker for 28 coding tools incl.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) — Monoscope lets you ingest and explore your logs, traces and metrics.
 - [NVIDIA-NeMo/nemo-platform](https://github.com/NVIDIA-NeMo/nemo-platform) — Make the agents you ship faster, more accurate, and safer.
 - [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) — Test your prompts, agents, and RAGs.
@@ -31,3 +30,4 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) — Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal) — Test LLMs on real tasks.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker) — Starred repository.
+- [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) — Local-first AI token usage & cost tracker for 28 coding tools incl.
