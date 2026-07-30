@@ -2,13 +2,14 @@
 
 > Image, video, audio, animation and content-production tools.
 
-**58 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
+**59 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
 - [3b1b/manim](https://github.com/3b1b/manim) — Animation engine for explanatory math videos.
+- [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.

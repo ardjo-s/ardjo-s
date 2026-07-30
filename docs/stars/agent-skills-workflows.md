@@ -2,7 +2,7 @@
 
 > Reusable agent skills, prompts, playbooks and workflows.
 
-**61 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
+**62 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -10,6 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Production-grade engineering skills for AI coding agents.
+- [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [agentskills/agentskills](https://github.com/agentskills/agentskills) — Specification and documentation for Agent Skills.
 - [AI-Builder-Club/skills](https://github.com/AI-Builder-Club/skills) — Codebase harness + loop engineer.
 - [alchaincyf/hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book) — Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南.
