@@ -17,7 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — 345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — Official, Anthropic-managed directory of high quality Claude Code Plugins.
 - [anthropics/skills](https://github.com/anthropics/skills) — Public repository for Agent Skills.
-- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill for your coding agent to stop it from burying the answer.
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill to stop your coding agent from burying the answer.
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) — CC Workflow Studio.
 - [BuilderIO/skills](https://github.com/BuilderIO/skills) — Skills for coding agents.
 - [cathrynlavery/codex-build](https://github.com/cathrynlavery/codex-build) — Orchestrator drives, Codex codes — execute an approved plan one task at a time with a test gate before every commit and exactly one PR at the end.
