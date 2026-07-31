@@ -14,7 +14,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal) — Starred repository.
 - [cartesiancs/map3d](https://github.com/cartesiancs/map3d) — 🗺️ Generate City 3D map with R3F.
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
-- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — A collection of agent skills for CAD, robotics and hardware design.
+- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — A library of agent skills for CAD, CAE and CAM.
 - [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai) — AI-powered assistant workbench for FreeCAD — generate 3D models from natural language.
 - [godotengine/godot](https://github.com/godotengine/godot) — Godot Engine – Multi-platform 2D and 3D game engine.
 - [iamlukethedev/Claw3D](https://github.com/iamlukethedev/Claw3D) — Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications.
