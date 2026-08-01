@@ -2,7 +2,7 @@
 
 > Frameworks and platforms for building, coordinating and operating agent systems.
 
-**46 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-platforms-orchestration)
+**47 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-platforms-orchestration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -45,7 +45,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core) — Your Personal AI OS.
 - [revfactory/harness](https://github.com/revfactory/harness) — A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) — Open-source Agent Operating System.
-- [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — 🌊 The leading agent meta-harness.
+- [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — 🌊 The original agent meta-harness.
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — AutoGPT is the vision of accessible AI for everyone, to use and to build on.
 - [simstudioai/sim](https://github.com/simstudioai/sim) — Build, deploy, and orchestrate AI agents.
 - [snarktank/antfarm](https://github.com/snarktank/antfarm) — Build your agent team in OpenClaw with one command.
@@ -53,4 +53,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — Your Personal AI super intelligence.
 - [vercel-labs/steve](https://github.com/vercel-labs/steve) — Self-hosted eve poc.
 - [xark-argo/argo](https://github.com/xark-argo/argo) — ARGO is an open-source AI Agent platform that brings Local Manus to your desktop.
+- [yc-software/qm](https://github.com/yc-software/qm) — Multiplayer agent harness for work.
 - [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) — Teams-first Multi-agent orchestration for Claude Code.
