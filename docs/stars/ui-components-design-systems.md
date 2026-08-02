@@ -23,7 +23,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — A library of creative canvas components.
 - [dip/cmdk](https://github.com/dip/cmdk) — Fast, unstyled command menu React component.
-- [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Design Engineers.
+- [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner) — An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) — A list of developer portfolios for your inspiration.
 - [facebook/astryx](https://github.com/facebook/astryx) — An open source design system that's fully customizable and agent ready.
