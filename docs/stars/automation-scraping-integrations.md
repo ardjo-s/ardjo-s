@@ -18,7 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!.
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — Integrate the DeepSeek API into popular software.
 - [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) — 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — The API to search, scrape, and interact with the web at scale.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — The context API to search, scrape, and interact with the web at scale.
 - [fonoster/fonoster](https://github.com/fonoster/fonoster) — 🚀 The open-source alternative to Twilio.
 - [gokapso/agent-skills](https://github.com/gokapso/agent-skills) — Kapso agent skills for WhatsApp.
 - [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) — The headless browser for AI agents and web scraping.
