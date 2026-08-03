@@ -2,7 +2,7 @@
 
 > Security, secrets, authentication, identity, privacy and governance.
 
-**21 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/security-privacy-identity)
+**22 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/security-privacy-identity)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -27,5 +27,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee) — Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.
 - [soxoj/maigret](https://github.com/soxoj/maigret) — 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites.
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) — A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+- [uber/ADR](https://github.com/uber/ADR) — ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
 - [usestrix/strix](https://github.com/usestrix/strix) — Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 - [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) — ALL IN ONE Hacking Tool For Hackers.

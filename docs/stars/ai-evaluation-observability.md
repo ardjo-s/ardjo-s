@@ -2,7 +2,7 @@
 
 > Evaluation, tracing, usage, cost and quality tooling for models and agents.
 
-**23 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-evaluation-observability)
+**24 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-evaluation-observability)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -30,4 +30,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) — Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal) — Test LLMs on real tasks.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker) — Starred repository.
+- [uber/ADR](https://github.com/uber/ADR) — ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) — Local-first AI token usage & cost tracker for 28 coding tools incl.
