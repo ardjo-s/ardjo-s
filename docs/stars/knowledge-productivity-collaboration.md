@@ -31,7 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [companion-inc/feynman](https://github.com/companion-inc/feynman) — Starred repository.
 - [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
-- [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  The first course for AI-native builders.
+- [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  The first course for AI-native product builders.
 - [davidmyersdev/octo](https://github.com/davidmyersdev/octo) — A local-first knowledge management app.
 - [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) — ✅  Curated list of resources for developers.
 - [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.
