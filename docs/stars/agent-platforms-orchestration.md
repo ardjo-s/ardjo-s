@@ -30,7 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [langflow-ai/langflow](https://github.com/langflow-ai/langflow) — Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 - [langgenius/dify](https://github.com/langgenius/dify) — Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace.
 - [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption.
-- [multica-ai/multica](https://github.com/multica-ai/multica) — The open-source managed agents platform.
+- [multica-ai/multica](https://github.com/multica-ai/multica) — Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — The agent that grows with you.
 - [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) — Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
