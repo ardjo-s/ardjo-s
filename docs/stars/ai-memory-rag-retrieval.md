@@ -11,7 +11,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [andrewyng/context-hub](https://github.com/andrewyng/context-hub) — Starred repository.
 - [asimons81/hermes-dreaming](https://github.com/asimons81/hermes-dreaming) — Staged self-improvement engine for Hermes-style memory, skill, and fact updates with explicit review and apply/discard gates.
 - [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os) — A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection.
-- [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) — Persistent memory + local AI for coding agents.
+- [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) — Persistent session memory for AI coding agents — local-first, with on-device inference, associative recall, and drift detection.
 - [Einsia/OpenChronicle](https://github.com/Einsia/OpenChronicle) — Starred repository.
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) — Garry's Opinionated OpenClaw/Hermes Agent Brain.
 - [google/langextract](https://github.com/google/langextract) — A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
