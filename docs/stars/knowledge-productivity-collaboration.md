@@ -2,7 +2,7 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**103 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**102 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -68,7 +68,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist) — Starred repository.
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library) — My library of resources about AI.
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18 Lessons to Get Started Building AI Agents.
-- [moritzWa/cronus](https://github.com/moritzWa/cronus) — AI Smart Screen Time Desktopp App.
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) — A list of awesome beginners-friendly projects.
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk) — A 14 day experiment to clone Slack with Claude Code.
