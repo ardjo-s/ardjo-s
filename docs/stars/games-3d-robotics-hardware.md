@@ -23,6 +23,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [lightningpixel/modly](https://github.com/lightningpixel/modly) — Desktop app to generate 3D models from images using local AI — runs entirely on your GPU.
 - [louis-e/arnis](https://github.com/louis-e/arnis) — Generate any location from the real world in Minecraft with a high level of detail.
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw) — 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
+- [MCPBlender/blender-mcp](https://github.com/MCPBlender/blender-mcp) — 🎨 Control Blender 3D with Claude AI — prompt-driven 3D modeling, materials & scene generation via MCP.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) — Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
 - [mrdoob/three.js](https://github.com/mrdoob/three.js) — JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) — Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
@@ -35,7 +36,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat) — 3D Gaussian Splat Editor.
 - [ruvnet/RuView](https://github.com/ruvnet/RuView) — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-- [SerenityUiX/blender-mcp](https://github.com/SerenityUiX/blender-mcp) — Open-source MCP to use Blender with any LLM.
 - [sprmn24/hermes-game-forge](https://github.com/sprmn24/hermes-game-forge) — Starred repository.
 - [Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) — HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds.
 - [Vahalion/DraBeeRepo](https://github.com/Vahalion/DraBeeRepo) — You know the drill baby.
