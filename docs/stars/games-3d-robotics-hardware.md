@@ -8,7 +8,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Open-source MCP to use Blender with any LLM.
 - [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) — Master AI inference, AI agent harness systems, and hardware engineering — then design a physical AI chip.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal) — Starred repository.
@@ -36,6 +35,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat) — 3D Gaussian Splat Editor.
 - [ruvnet/RuView](https://github.com/ruvnet/RuView) — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [SerenityUiX/blender-mcp](https://github.com/SerenityUiX/blender-mcp) — Open-source MCP to use Blender with any LLM.
 - [sprmn24/hermes-game-forge](https://github.com/sprmn24/hermes-game-forge) — Starred repository.
 - [Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) — HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds.
 - [Vahalion/DraBeeRepo](https://github.com/Vahalion/DraBeeRepo) — You know the drill baby.
