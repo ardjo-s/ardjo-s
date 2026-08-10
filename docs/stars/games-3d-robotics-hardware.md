@@ -2,7 +2,7 @@
 
 > Games, 3D, spatial computing, CAD, robotics and physical systems.
 
-**32 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
+**31 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -23,7 +23,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [lightningpixel/modly](https://github.com/lightningpixel/modly) — Desktop app to generate 3D models from images using local AI — runs entirely on your GPU.
 - [louis-e/arnis](https://github.com/louis-e/arnis) — Generate any location from the real world in Minecraft with a high level of detail.
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw) — 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
-- [MCPBlender/blender-mcp](https://github.com/MCPBlender/blender-mcp) — 🎨 Control Blender 3D with Claude AI — prompt-driven 3D modeling, materials & scene generation via MCP.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) — Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
 - [mrdoob/three.js](https://github.com/mrdoob/three.js) — JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) — Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
