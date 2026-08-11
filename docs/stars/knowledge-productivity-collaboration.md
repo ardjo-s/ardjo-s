@@ -36,7 +36,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) — ✅  Curated list of resources for developers.
 - [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach > graphs that impress.
-- [Egotistical-Engineering/hermes](https://github.com/Egotistical-Engineering/hermes) — Markdown editor with intelligence.
 - [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault.
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk) — Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [EveryInc/tend](https://github.com/EveryInc/tend) — grow what you know.
@@ -107,6 +106,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [viperrcrypto/Siftly](https://github.com/viperrcrypto/Siftly) — Local Twitter/X bookmark organizer with AI categorization and mindmap visualization.
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — Harness engineering beginner tutorial, from 0 to 1.
 - [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) — A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.
+- [xaelophone/hermes](https://github.com/xaelophone/hermes) — Markdown editor with intelligence.
 - [Yeachan-Heo/My-Jogyo](https://github.com/Yeachan-Heo/My-Jogyo) — Your one-click scientific research lab for Opencode - with seamless .ipynb and REPL integration.
 - [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) — A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.
