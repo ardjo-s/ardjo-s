@@ -2,12 +2,13 @@
 
 > Games, 3D, spatial computing, CAD, robotics and physical systems.
 
-**31 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
+**32 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
+- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — 🎨 Control Blender 3D with Claude AI — prompt-driven 3D modeling, materials & scene generation via MCP.
 - [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) — Master AI inference, AI agent harness systems, and hardware engineering — then design a physical AI chip.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal) — Starred repository.
