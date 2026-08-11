@@ -59,7 +59,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Faster Whisper transcription with CTranslate2.
 - [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.
 - [thunlp/ProactiveAgent](https://github.com/thunlp/ProactiveAgent) — A LLM-based Agent that predict its tasks proactively.
-- [unslothai/unsloth](https://github.com/unslothai/unsloth) — The local UI to run and train text and diffusion models, including Kimi K3, Gemma 4, Qwen3.6, DeepSeek-V4, FLUX and more.
+- [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models, including Kimi K3, MiniMax-H3, Gemma 4, Qwen3.6, DeepSeek-V4, FLUX and more.
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) — Starred repository.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm) — A high-throughput and memory-efficient inference and serving engine for LLMs.
 - [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR) — GLM-OCR: Accurate ×  Fast × Comprehensive.
