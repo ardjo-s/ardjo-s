@@ -15,7 +15,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [datacurve-ai/deep-swe](https://github.com/datacurve-ai/deep-swe) — Measuring frontier coding agents on original, long-horizon engineering tasks.
 - [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor) — An app to monitor the (Codex) situation.
 - [gepa-ai/gepa](https://github.com/gepa-ai/gepa) — Optimize prompts, code, and more with AI-powered Reflective Optimization.
-- [getagentseal/codeburn](https://github.com/getagentseal/codeburn) — Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
+- [getagentseal/codeburn](https://github.com/getagentseal/codeburn) — Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Helicone/helicone](https://github.com/Helicone/helicone) — 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 🛰️ Track token usage across AI coding agents from your terminal.
 - [microsoft/waza](https://github.com/microsoft/waza) — CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.

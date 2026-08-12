@@ -26,11 +26,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [ion-design/ditto.site](https://github.com/ion-design/ditto.site) — Starred repository.
 - [joeyism/linkedin_scraper](https://github.com/joeyism/linkedin_scraper) — A library that scrapes Linkedin for user data.
 - [lightpanda-io/browser](https://github.com/lightpanda-io/browser) — Lightpanda: the headless browser designed for AI and automation.
-- [Michaelliv/markit](https://github.com/Michaelliv/markit) — 🖍️ Convert anything to markdown.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) — Python tool for converting files and office documents to Markdown.
 - [openclaw/notcrawl](https://github.com/openclaw/notcrawl) — Local-first Notion crawler into SQLite and normalized Markdown.
 - [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) — PDF Parser for AI-ready data.
 - [riyagoelrs/tiktok-scraper](https://github.com/riyagoelrs/tiktok-scraper) — Starred repository.
+- [shift-labs-ai/markit](https://github.com/shift-labs-ai/markit) — 🖍️ Convert anything to markdown.
 - [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) — Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more.
 - [tulir/whatsmeow](https://github.com/tulir/whatsmeow) — Go library for the WhatsApp web multidevice API.
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper.
