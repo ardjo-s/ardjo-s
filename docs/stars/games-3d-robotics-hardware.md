@@ -8,7 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Control Blender 3D with any LLM of your choice.
+- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Community plugin to control Blender 3D with any LLM of your choice.
 - [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) — Master AI inference, AI agent harness systems, and hardware engineering — then design a physical AI chip.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal) — Starred repository.
