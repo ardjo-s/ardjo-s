@@ -54,7 +54,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
 - [motion-core/motion-core](https://github.com/motion-core/motion-core) — Curated Motion Core Svelte components.
 - [mui/base-ui](https://github.com/mui/base-ui) — Unstyled UI components for building accessible web apps and design systems.
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms.
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 The open-source Claude Design alternative.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Components crafted for Design Engineers.
 - [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI.
