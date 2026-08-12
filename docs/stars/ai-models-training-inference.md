@@ -42,7 +42,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [NVIDIA-NeMo/ProRL-Agent-Server](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) — Agentic RL on Any Harness at Scale.
 - [ollama/ollama](https://github.com/ollama/ollama) — Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [OnlyTerp/UltraCode-Shim](https://github.com/OnlyTerp/UltraCode-Shim) — Give Claude Code's ultracode mode to ANY model you already pay for.
-- [open-software-network/os-june](https://github.com/open-software-network/os-june) — Private AI on your Mac.
+- [open-software-network/os-clovy](https://github.com/open-software-network/os-clovy) — Private AI on your Mac.
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...).
 - [openai/gpt-oss](https://github.com/openai/gpt-oss) — gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI.
 - [openai/whisper](https://github.com/openai/whisper) — Robust Speech Recognition via Large-Scale Weak Supervision.
