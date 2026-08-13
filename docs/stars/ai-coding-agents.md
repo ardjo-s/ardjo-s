@@ -61,7 +61,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [snarktank/ralph](https://github.com/snarktank/ralph) — Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
 - [stablyai/orca](https://github.com/stablyai/orca) — Orca is the ADE for working with a fleet of parallel agents.
 - [standardagents/dmux](https://github.com/standardagents/dmux) — A dev agent multiplexer for git worktrees and coding agents.
-- [superset-sh/superset](https://github.com/superset-sh/superset) — Superset is agentic IDE to orchestrate 100+ coding agents in parallel.
+- [superset-sh/superset](https://github.com/superset-sh/superset) — Run 100+ coding agents in parallel.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) — AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
 - [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) — Agent IDE that enables you to manage fleets of coding agents.
 - [warpdotdev/oz-agent-action](https://github.com/warpdotdev/oz-agent-action) — Use the Oz coding agent in GitHub Actions.
