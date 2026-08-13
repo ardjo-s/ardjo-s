@@ -18,7 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Cjbuilds/Codex-Orchestration](https://github.com/Cjbuilds/Codex-Orchestration) — Bring any model to Codex, assign them any role, use them in /goal or any workflow.
 - [codejunkie99/agentic-stack](https://github.com/codejunkie99/agentic-stack) — One brain, many harnesses.
 - [earendil-works/pi](https://github.com/earendil-works/pi) — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI.
-- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — Build AI Agents, Visually.
+- [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived — Build AI Agents, Visually.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) — 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
 - [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) — What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?.
 - [katanemo/plano](https://github.com/katanemo/plano) — Plano is an AI-native proxy server and data plane for agentic apps.
