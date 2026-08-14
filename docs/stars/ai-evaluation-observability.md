@@ -31,4 +31,4 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal) — Test LLMs on real tasks.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker) — Starred repository.
 - [uber/ADR](https://github.com/uber/ADR) — ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
-- [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) — Local-first AI token usage & cost tracker for 28 coding tools incl.
+- [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) — Local-first AI token usage & cost tracker for 31 coding tools incl.
