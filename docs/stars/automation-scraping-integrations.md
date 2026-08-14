@@ -12,7 +12,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [0xNyk/xint](https://github.com/0xNyk/xint) — Local-first X Intelligence CLI for search, monitoring, analysis, exports, OAuth actions, and agent tooling.
 - [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) — Convert any web page to clean, readable Markdown with just one click.
 - [agent-messenger/agent-messenger](https://github.com/agent-messenger/agent-messenger) — Messenger automation CLI & SDK for AI agents.
-- [apify/agent-skills](https://github.com/apify/agent-skills) — Collection of Apify Agent Skills.
+- [apify/agent-skills](https://github.com/apify/agent-skills) — Collection of Apify agent skills.
 - [averygan/reclip](https://github.com/averygan/reclip) — Download videos from almost any website.
 - [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — Stealth Chromium that passes every bot detection test.
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!.

@@ -21,7 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [isaac-mason/crashcat](https://github.com/isaac-mason/crashcat) — physics engine for javascript, built for games, simulations, and creative websites.
 - [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) — A multi core friendly rigid body physics and collision detection library.
 - [leigest519/OpenGame](https://github.com/leigest519/OpenGame) — OpenGame: Open Agentic Coding for Games.
-- [lightningpixel/modly](https://github.com/lightningpixel/modly) — Desktop app to generate 3D models from images using local AI — runs entirely on your GPU.
+- [lightningpixel/modly](https://github.com/lightningpixel/modly) — Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU.
 - [louis-e/arnis](https://github.com/louis-e/arnis) — Generate any location from the real world in Minecraft with a high level of detail.
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw) — 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) — Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
