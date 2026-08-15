@@ -12,15 +12,15 @@ I build my ideas (and try to have fun in the process).
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=light&v=2026081507"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=light&v=2026081519"
     />
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark&v=2026081507"
+      srcset="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark&v=2026081519"
     />
     <img
       alt="Tokscale Stats for @ardjo-s"
-      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark&v=2026081507"
+      src="https://tokscale.ai/api/embed/ardjo-s/svg?view=3d&compact=1&theme=dark&v=2026081519"
       width="100%"
     />
   </picture>
