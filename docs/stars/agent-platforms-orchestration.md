@@ -22,7 +22,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) — 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
 - [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) — What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?.
 - [katanemo/plano](https://github.com/katanemo/plano) — Plano is an AI-native proxy server and data plane for agentic apps.
-- [kevinrgu/autoagent](https://github.com/kevinrgu/autoagent) — autonomous harness engineering.
 - [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf) — Before I go to bed, I tell my agents: good night, have fun.
 - [kyegomez/swarms](https://github.com/kyegomez/swarms) — The Enterprise-Grade Multi-Agent Orchestration Framework.
 - [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) — The batteries-included agent harness.
@@ -50,6 +49,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [simstudioai/sim](https://github.com/simstudioai/sim) — Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows.
 - [snarktank/antfarm](https://github.com/snarktank/antfarm) — Build your agent team in OpenClaw with one command.
 - [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) — Reference code for the Meta-Harness paper.
+- [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) — autonomous harness engineering.
 - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — Your Personal AI super intelligence.
 - [vercel-labs/steve](https://github.com/vercel-labs/steve) — Self-hosted eve poc.
 - [xark-argo/argo](https://github.com/xark-argo/argo) — ARGO is an open-source AI Agent platform that brings Local Manus to your desktop.
