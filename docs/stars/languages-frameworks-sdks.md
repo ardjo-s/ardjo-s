@@ -21,5 +21,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [resend/react-email](https://github.com/resend/react-email) — 💌 Build and send emails using React.
 - [rivo/tview](https://github.com/rivo/tview) — Terminal UI library with rich, interactive widgets — written in Golang.
 - [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) — A curated list of Rust code and resources.
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) — An opinionated list of Python frameworks, libraries, tools, and resources.
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) — The definitive list that answers "I want to do X in Python, which tool should I use?".
 - [ziglang/zig](https://github.com/ziglang/zig) — Moved to Codeberg.
