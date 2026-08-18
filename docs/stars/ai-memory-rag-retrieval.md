@@ -31,7 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) — #1 Persistent memory for AI coding agents based on real-world benchmarks.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
 - [run-llama/llama_index](https://github.com/run-llama/llama_index) — LlamaIndex is the leading document agent and OCR platform.
-- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| Record your screen 24/7 and plug into your agents.
+- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| Open Computer History \| Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...).
 - [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) — [MLsys2026]: RAG on Everything with LEANN.
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.
