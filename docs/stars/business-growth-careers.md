@@ -14,7 +14,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Eldin162/jobclaw](https://github.com/Eldin162/jobclaw) — Streamline hiring by connecting AI agents that evaluate, negotiate, and schedule interviews to reduce time and improve candidate fit.
 - [elvisun/newsjack](https://github.com/elvisun/newsjack) — The open-source skills that turn your agent into a full PR team.
 - [enatega/food-delivery-multivendor](https://github.com/enatega/food-delivery-multivendor) — Enatega is a fully customizable and scalable delivery management system that supports multiple business models and service verticals.
-- [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach) — Agentic Email Automation Tool: Describe your product.
+- [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach) — Open-source AI lead finder: describe your product, it finds the people who fit and tells you why each one does.
 - [fayerman-source/startup-growth-playbook](https://github.com/fayerman-source/startup-growth-playbook) — Clone into any startup repo.
 - [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) — Automate the process of making money online.
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox) — Open source Inbox for the official WhatsApp Cloud API.
