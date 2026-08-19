@@ -18,7 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [benjitaylor/liveline](https://github.com/benjitaylor/liveline) — Real-time animated line chart for React.
 - [bergside/typeui](https://github.com/bergside/typeui) — Build better UI with AI.
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) — A curated list of awesome things related to shadcn/ui.
-- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 27 editorial diagram types for Claude Code.
+- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 38 editorial diagram types for Claude Code, Codex, and Pi.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) — The modern toolkit for building drag and drop interfaces.
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — A library of creative canvas components.
