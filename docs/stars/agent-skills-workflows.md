@@ -53,7 +53,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [NVIDIA/skills](https://github.com/NVIDIA/skills) — Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [obra/superpowers](https://github.com/obra/superpowers) — An agentic skills framework & software development methodology that works.
 - [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide.
-- [openai/plugins](https://github.com/openai/plugins) · archived — OpenAI Plugins.
+- [openai/plugins](https://github.com/openai/plugins) — OpenAI Plugins.
 - [openai/skills](https://github.com/openai/skills) — Skills Catalog for Codex.
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) — Skill + Plugin Registry for OpenClaw.
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors.
