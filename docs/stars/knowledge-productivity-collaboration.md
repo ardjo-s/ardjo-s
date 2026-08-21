@@ -57,7 +57,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kanwas-ai/kanwas](https://github.com/kanwas-ai/kanwas) — Kanwas — Shared context board for teams and agents.
 - [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills for Obsidian.
 - [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — Real-time global intelligence dashboard.
-- [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) — Starred repository.
+- [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) · archived — Starred repository.
 - [lewagon/setup](https://github.com/lewagon/setup) — Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.
 - [Lex-Inc/roughdraft](https://github.com/Lex-Inc/roughdraft) — Review markdown docs in a nice interface that lets you leave comments.
 - [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — An Open Source implementation of Notebook LM with more flexibility and features.
