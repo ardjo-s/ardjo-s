@@ -2,12 +2,13 @@
 
 > Notes, PKM, documentation, tasks, calendars and collaborative work tools.
 
-**102 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
+**112 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
+- [analogdotnow/Analog](https://github.com/analogdotnow/Analog) — Meet the calendar that changes everything.
 - [Ansub/wiki-os](https://github.com/Ansub/wiki-os) — UI Layer for Karpathy's LLM Wiki.
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
 - [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) — Anthropic's Interactive Prompt Engineering Tutorial.
@@ -30,6 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [collabs-inc/collab-public](https://github.com/collabs-inc/collab-public) — Collaborator is a place to create with agents.
 - [companion-inc/feynman](https://github.com/companion-inc/feynman) — Starred repository.
 - [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
+- [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) — AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain — open standards, byte-preserving round-trip, 100% local.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 - [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  vibe coding 101｜The first course for AI-native product builders.
 - [davidmyersdev/octo](https://github.com/davidmyersdev/octo) — A local-first knowledge management app.
@@ -42,6 +44,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
 - [farzaa/clicky](https://github.com/farzaa/clicky) — Starred repository.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — freeCodeCamp.org's open-source codebase and curriculum.
+- [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.
 - [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) — Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) — Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
 - [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — Machine Learning Systems.
@@ -65,8 +68,10 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [maaslalani/sheets](https://github.com/maaslalani/sheets) — Terminal based spreadsheet tool.
 - [makeplane/plane](https://github.com/makeplane/plane) — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
 - [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist) — Starred repository.
+- [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) — AI coding jargon, explained in plain English.
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library) — My library of resources about AI.
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18 Lessons to Get Started Building AI Agents.
+- [mohi-devhub/antivibe](https://github.com/mohi-devhub/antivibe) — Learn what AI writes, not just accept it.
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) — A list of awesome beginners-friendly projects.
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk) — A 14 day experiment to clone Slack with Claude Code.
@@ -75,8 +80,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [normen/whatscli](https://github.com/normen/whatscli) — A command line interface for WhatsApp.
 - [obsidian-full-calendar-remastered/plugin-full-calendar](https://github.com/obsidian-full-calendar-remastered/plugin-full-calendar) — Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.
 - [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) — Community plugins list, theme list, and releases of Obsidian.
+- [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) — Self-hosted AI workspace.
 - [openclaw/gogcli](https://github.com/openclaw/gogcli) — Google Workspace in your terminal.
+- [outline/outline](https://github.com/outline/outline) — The fastest knowledge base for growing teams.
 - [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) — Papers from the computer science community to read and discuss.
+- [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) — bluetooth mesh chat, IRC vibes.
 - [pimalaya/himalaya](https://github.com/pimalaya/himalaya) — CLI to manage emails.
 - [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) — Pixel office.
 - [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) — :books: List of awesome university courses for learning Computer Science!.
@@ -86,10 +94,12 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) — An ADHD-friendly note-taking app where your notes disappear—on purpose.
 - [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — Learn it.
+- [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind) — Starred repository.
 - [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) — Open-source AI coworker, with memory.
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - [samanvaya5/subtext](https://github.com/samanvaya5/subtext) — Turn YouTube talks into intelligence.
 - [scarce/axel](https://github.com/scarce/axel) — Peaceful task list meticulously crafted for Agents in war mode.
+- [SchroederNathan/clarity](https://github.com/SchroederNathan/clarity) — A speech companion app built with Expo.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — 😎 Awesome lists about all kinds of interesting topics.

@@ -2,7 +2,7 @@
 
 > Games, 3D, spatial computing, CAD, robotics and physical systems.
 
-**32 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
+**36 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -10,9 +10,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Community plugin to control Blender 3D with any LLM of your choice.
 - [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) — Master AI inference, AI agent harness systems, and hardware engineering — then design a physical AI chip.
+- [alattanzio/Box3DUnreal](https://github.com/alattanzio/Box3DUnreal) — Box3DUnreal: Box3D Physics for Unreal Engine.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal) — Starred repository.
 - [cartesiancs/map3d](https://github.com/cartesiancs/map3d) — 🗺️ Generate City 3D map with R3F.
+- [dimensionalOS/dimos](https://github.com/dimensionalOS/dimos) — Dimensional is the agentic operating system for physical space.
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
 - [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — A library of agent skills for CAD, CAE and CAM.
 - [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai) — AI-powered assistant workbench for FreeCAD — generate 3D models from natural language.
@@ -25,6 +27,8 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [louis-e/arnis](https://github.com/louis-e/arnis) — Generate any location from the real world in Minecraft with a high level of detail.
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw) — 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) — Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
+- [milos-agathon/forge3d](https://github.com/milos-agathon/forge3d) — Rust‑first, cross‑platform wgpu/WebGPU renderer exposed to Python for fast, headless 3D rendering.
+- [mintdotgg/mint-playground](https://github.com/mintdotgg/mint-playground) — Open-source Three.js experiences built with Mint MCP and Mint Three.js Skills.
 - [mrdoob/three.js](https://github.com/mrdoob/three.js) — JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) — Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
 - [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) — A real-time 3D digital map of Tokyo's public transport system.

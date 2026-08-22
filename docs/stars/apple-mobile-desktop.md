@@ -2,14 +2,17 @@
 
 > macOS, iOS, Android, Electron, native applications and device frameworks.
 
-**38 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/apple-mobile-desktop)
+**46 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/apple-mobile-desktop)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
 - [acsandmann/rift](https://github.com/acsandmann/rift) — a tiling window manager for macos.
+- [adidshaft/atria](https://github.com/adidshaft/atria) — Free local WHOOP strap companion: iOS app and BLE toolkit for local-only strap usage.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) — Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
+- [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt) — An SDK for building real apps for your Kobo eInk reader.
+- [basecamp/omarchy](https://github.com/basecamp/omarchy) — Beautiful, Modern & Opinionated Linux.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) — The safest, simplest way to manage Hermes from your Mac.
 - [dtinth/superwhite](https://github.com/dtinth/superwhite) — display a very bright white color on HDR-enabled displays.
 - [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim) — The `npx serve` of Apple Simulators.
@@ -17,6 +20,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [expo/skills](https://github.com/expo/skills) — A collection of AI agent skills for working with Expo projects and Expo Application Services.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) — Desktop Companion for Hermes Agent.
 - [gragland/codex-imessage-handoff](https://github.com/gragland/codex-imessage-handoff) — Work from iMessage baby.
+- [grinich/replay](https://github.com/grinich/replay) — A beautiful offline video queue for macOS.
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst) — Automatic tiling window manager for macOS à la xmonad.
 - [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app) — Free up your Mac, safely.
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice) — Powerful menu bar manager for macOS.
@@ -25,6 +29,8 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source alternative to Google's AI-enabled pointer.
 - [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — Best Native macOS Apps (2026) — Fast, Lightweight, No Electron Bloat.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector) — Cross-platform text data detection for React Native.
+- [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app) — Mod your desktop apps (Mac).
+- [ParthJadhav/codex-controller](https://github.com/ParthJadhav/codex-controller) — Use a DualSense as a physical control surface for Codex on macOS.
 - [photon-hq/imessage-kit](https://github.com/photon-hq/imessage-kit) — A type-safe, elegant iMessage SDK for macOS with zero dependencies.
 - [RapidNative/reactnative-run](https://github.com/RapidNative/reactnative-run) — Run React Native in your browser.
 - [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk) — The React Native Vibe Code SDK lets you build text to mobile & web apps in seconds.
@@ -44,5 +50,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) — A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 - [wieandteduard/port-menu](https://github.com/wieandteduard/port-menu) — A tiny macOS menu bar app that tracks your dev servers across projects.
 - [wxtsky/CodeIsland](https://github.com/wxtsky/CodeIsland) — Real-time AI coding agent status panel in your MacBook notch — live status, approvals & replies for 13 AI tools, with iPhone & Apple Watch companions.
+- [xikhar/persona](https://github.com/xikhar/persona) — Bringing real-time voice to life.
 - [xykong/flux-markdown](https://github.com/xykong/flux-markdown) — Markdown Preview Enhanced for macOS QuickLook.
+- [ykushch/notchagent](https://github.com/ykushch/notchagent) — Starred repository.
 - [zaidmukaddam/swift-ai-sdk](https://github.com/zaidmukaddam/swift-ai-sdk) — The AI SDK for your iOS and macOS Apps.

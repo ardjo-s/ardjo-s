@@ -2,7 +2,7 @@
 
 > Databases, analytics, pipelines, metadata and operational search.
 
-**13 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/data-platforms-databases)
+**16 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/data-platforms-databases)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -14,10 +14,13 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [get-convex/convex-backend](https://github.com/get-convex/convex-backend) — The open-source reactive database for app developers.
 - [Kanaries/graphic-walker](https://github.com/Kanaries/graphic-walker) — An open source alternative to Tableau.
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) — Open-source web analytics you deploy in one click.
+- [microsoft/data-formulator](https://github.com/microsoft/data-formulator) — 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
 - [microsoft/Ontology-Playground](https://github.com/microsoft/Ontology-Playground) — Free, open-source web app for learning about ontologies and Microsoft Fabric IQ.
 - [milvus-io/milvus](https://github.com/milvus-io/milvus) — Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
 - [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) — The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.
+- [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) — A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data.
 - [plausible/analytics](https://github.com/plausible/analytics) — Open source, privacy-first web analytics.
 - [PostHog/posthog](https://github.com/PostHog/posthog) — :hedgehog: PostHog is the leading platform for building self-driving products.
 - [qdrant/qdrant](https://github.com/qdrant/qdrant) — Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.
 - [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — A vector index built on TurboQuant, written in Rust with Python bindings.
+- [shipaleks/raise-hackathon-flowtwin](https://github.com/shipaleks/raise-hackathon-flowtwin) — Starred repository.

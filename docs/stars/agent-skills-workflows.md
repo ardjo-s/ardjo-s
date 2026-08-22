@@ -2,7 +2,7 @@
 
 > Reusable agent skills, prompts, playbooks and workflows.
 
-**62 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
+**65 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/agent-skills-workflows)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -10,7 +10,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Production-grade engineering skills for AI coding agents.
-- [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [agentskills/agentskills](https://github.com/agentskills/agentskills) — Specification and documentation for Agent Skills.
 - [AI-Builder-Club/skills](https://github.com/AI-Builder-Club/skills) — Codebase harness + loop engineer.
 - [alchaincyf/hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book) — Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南.
@@ -32,6 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Forward-Future/loopy](https://github.com/Forward-Future/loopy) — A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.
 - [Forward-Future/relay](https://github.com/Forward-Future/relay) — A public skill for routing work through planning -> execution -> review, optimizing cost and efficiency.
 - [garrytan/gstack](https://github.com/garrytan/gstack) — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.
+- [github/awesome-copilot](https://github.com/github/awesome-copilot) — Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
 - [google/skills](https://github.com/google/skills) — Agent Skills for Google products and technologies.
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.
 - [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) — A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture.
@@ -58,12 +58,15 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) — Skill + Plugin Registry for OpenClaw.
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors.
 - [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
+- [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) — Make any agent harness multimodal-native.
+- [r0b0tlab/hermes-buzz-shared-profile](https://github.com/r0b0tlab/hermes-buzz-shared-profile) — macOS Hermes skill for sharing one canonical writable profile across Buzz and ACP surfaces.
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) — Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills) — A selection of personal Cursor agents/commands/rules/skills that I use for my work.
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [shadcn/improve](https://github.com/shadcn/improve) — Use your most capable model to audit your codebase and write plans for cheaper models to execute.
 - [Shpigford/chops](https://github.com/Shpigford/chops) — Your AI agent skills, finally organized.
 - [soleio/luck](https://github.com/soleio/luck) — A skill for improving the luck of your AI stack and projects—developed from an applied theoretical framework.
+- [tokensize/skills](https://github.com/tokensize/skills) — Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) — The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
 - [tt-a1i/archify](https://github.com/tt-a1i/archify) — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) — The open agent skills tool - npx skills.

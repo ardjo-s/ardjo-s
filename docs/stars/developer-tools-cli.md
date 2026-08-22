@@ -2,7 +2,7 @@
 
 > Developer CLIs, terminals, editors, Git tools, package managers and code intelligence.
 
-**47 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-tools-cli)
+**49 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/developer-tools-cli)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -41,6 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [nkzw-tech/codiff](https://github.com/nkzw-tech/codiff) — a fast local diff viewer.
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) — Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.
 - [pierrecomputer/pierre](https://github.com/pierrecomputer/pierre) — pierre’s open source code.
+- [schollz/croc](https://github.com/schollz/croc) — Easily and securely send things from one computer to another :crocodile: :package:.
 - [Soju06/codex-lb](https://github.com/Soju06/codex-lb) — Codex/ChatGPT multiple account load balancer & proxy with usage tracking, dashboard, and OpenCode-compatible endpoints.
 - [sopaco/deepwiki-rs](https://github.com/sopaco/deepwiki-rs) — Turn code into clarity.
 - [steipete/oracle](https://github.com/steipete/oracle) — Ask the oracle when you're stuck.
@@ -51,6 +52,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [tmux/tmux](https://github.com/tmux/tmux) — tmux source code.
 - [tobi/try](https://github.com/tobi/try) — fresh directories for every vibe.
 - [vercel-labs/opensrc](https://github.com/vercel-labs/opensrc) — Fetch source code for npm packages to give AI coding agents deeper context.
+- [vercel-labs/portless](https://github.com/vercel-labs/portless) — Replace port numbers with stable, named local URLs.
 - [warpdotdev/warp](https://github.com/warpdotdev/warp) — Warp is an agentic development environment, born out of the terminal.
 - [yamadashy/repomix](https://github.com/yamadashy/repomix) — 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.
 - [ysz7/Arcforge](https://github.com/ysz7/Arcforge) — Open source Architecture design IDE for building and visualizing backend logic.

@@ -2,7 +2,7 @@
 
 > Interface components, CSS, design systems, accessibility and UI visualization.
 
-**79 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
+**99 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -12,16 +12,24 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — 💅🏻 ⚒ A collection of awesome design systems.
 - [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) — ⚡️ A collection of tips to help take your CSS skills pro 🦾.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful map components.
+- [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit) — A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js) — 🎈 Animated balloons effect for your website.
+- [arvindrk/extract-design-system](https://github.com/arvindrk/extract-design-system) — Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website.
 - [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Typescript/React Library for AI Chat💬🚀.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) — Some HTML, CSS and JS best practices.
 - [benjitaylor/liveline](https://github.com/benjitaylor/liveline) — Real-time animated line chart for React.
 - [bergside/typeui](https://github.com/bergside/typeui) — Build better UI with AI.
+- [bidyut10/opensourceui](https://github.com/bidyut10/opensourceui) — Opensource UI: Free, open-source, and production-ready components for React and Next.js.
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) — A curated list of awesome things related to shadcn/ui.
+- [bklit/bklit-ui](https://github.com/bklit/bklit-ui) — Open-source UI & Charts library.
+- [cajaun/laminar](https://github.com/cajaun/laminar) — Animates changing text and numbers in React Native while preserving the identity of characters that stay on screen.
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 38 editorial diagram types for Claude Code, Codex, and Pi.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) — The modern toolkit for building drag and drop interfaces.
+- [cloudflare/kumo](https://github.com/cloudflare/kumo) — Cloudflare's component library for building modern web applications.
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — A library of creative canvas components.
+- [ddoemonn/interior](https://github.com/ddoemonn/interior) — micro-interactions for react, built for the half-second after a click.
+- [DioxusLabs/dioxus-components](https://github.com/DioxusLabs/dioxus-components) — Accessible, unstyled, foundational components for Dioxus.
 - [dip/cmdk](https://github.com/dip/cmdk) — Fast, unstyled command menu React component.
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner) — An opinionated toast component for React.
@@ -34,9 +42,12 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [harshjdhv/componentry](https://github.com/harshjdhv/componentry) — Animated, production-ready UI components.
 - [heroui-inc/heroui](https://github.com/heroui-inc/heroui) — 🚀 Beautiful, fast and modern React UI library.
 - [heyfabrika/styleui](https://github.com/heyfabrika/styleui) — Starred repository.
+- [hunvreus/basecoat](https://github.com/hunvreus/basecoat) — A components library built with Tailwind CSS that works with any web stack.
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills) — Skills for Design Engineers.
 - [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx) — Animated WebGL liquid-metal effect for React buttons and UI components.
+- [Jakubantalik/thinking-orbs](https://github.com/Jakubantalik/thinking-orbs) — Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light.
 - [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) — Collection of the most essential transitions for web apps, skill for agents and Refine tool for agents.
+- [jakubkrehel/make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) — An agent skill that helps make your interface feel better.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) — Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [jamesrochabrun/Easel](https://github.com/jamesrochabrun/Easel) — Easel is a Codex and Claude macOS workspace for AI-assisted product design and frontend iteration.
 - [joe-bell/cva](https://github.com/joe-bell/cva) — Class Variance Authority.
@@ -49,11 +60,13 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts) — EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Taste-Skill - gives your AI good taste.
 - [lukeed/clsx](https://github.com/lukeed/clsx) — A tiny (239B) utility for constructing `className` strings conditionally.
+- [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md) — 200 production-grade DESIGN.md design systems for the world's best apps.
 - [MengTo/Skills](https://github.com/MengTo/Skills) — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mickadesign/fluid-functionalism](https://github.com/mickadesign/fluid-functionalism) — Starred repository.
 - [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
 - [motion-core/motion-core](https://github.com/motion-core/motion-core) — Curated Motion Core Svelte components.
 - [mui/base-ui](https://github.com/mui/base-ui) — Unstyled UI components for building accessible web apps and design systems.
+- [nativewind/nativewind](https://github.com/nativewind/nativewind) — The utility-first workflow you love from Tailwind CSS in your React Native applications.
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 Best DeepSeek Harness Design Plugin.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Components crafted for Design Engineers.
@@ -66,13 +79,20 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
 - [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — A starter kit and UI library for building custom design apps with AI.
 - [pmndrs/leva](https://github.com/pmndrs/leva) — 🌋 React-first components GUI.
+- [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) — A curated list of TUI apps and libraries built with Ratatui.
+- [ratatui/ratatui](https://github.com/ratatui/ratatui) — A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs.
+- [ratatui/ratatui-website](https://github.com/ratatui/ratatui-website) — Ratatui Website/Documentation.
 - [recharts/recharts](https://github.com/recharts/recharts) — Redefined chart library built with React and D3.
 - [Remocn/remocn](https://github.com/Remocn/remocn) — Production-ready animations, transitions, backgrounds, and scenes for Remotion.
+- [rust-ui/ui](https://github.com/rust-ui/ui) — A Shadcn-inspired component registry for Rust.
+- [ruucm/shadergradient](https://github.com/ruucm/shadergradient) — Create beautiful moving gradients on Framer, Figma and React.
+- [saleh2001k/react-native-nitro-theme-transition](https://github.com/saleh2001k/react-native-nitro-theme-transition) — Native theme transitions for React Native with Nitro Modules.
 - [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master) — Design motion that feels real.
 - [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn) — shadcn/ui, but for building agents.
 - [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — A set of beautifully-designed, accessible components and a code distribution platform.
 - [southleft/figma-console-mcp](https://github.com/southleft/figma-console-mcp) — Your design system as an API.
 - [storybookjs/storybook](https://github.com/storybookjs/storybook) — Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation.
+- [Subhan-code/Amicro--Micro-transitions-](https://github.com/Subhan-code/Amicro--Micro-transitions-) — Starred repository.
 - [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui) — A collection of rare, ready-to-use UI components and animations you can actually drop into your next project.
 - [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram) — ngDiagram – An open-source Angular library for creating rich, interactive diagramming experiences.
 - [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) — Workflow Builder - Apache 2.0 React SDK for embedding visual workflow editors.

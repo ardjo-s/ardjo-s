@@ -18,6 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn) — Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Helicone/helicone](https://github.com/Helicone/helicone) — 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 🛰️ Track token usage across AI coding agents from your terminal.
+- [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier) — LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training.
 - [microsoft/waza](https://github.com/microsoft/waza) — CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) — Monoscope lets you ingest and explore your logs, traces and metrics.
 - [NVIDIA-NeMo/nemo-platform](https://github.com/NVIDIA-NeMo/nemo-platform) — Make the agents you ship faster, more accurate, and safer.
@@ -30,5 +31,4 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) — Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal) — Test LLMs on real tasks.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker) — Starred repository.
-- [uber/ADR](https://github.com/uber/ADR) — ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) — Local-first AI token usage & cost tracker for 31 coding tools incl.

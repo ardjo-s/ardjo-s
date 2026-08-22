@@ -2,12 +2,13 @@
 
 > CRM, marketing, sales, recruiting, careers, finance and commerce.
 
-**40 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/business-growth-careers)
+**43 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/business-growth-careers)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
+- [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Starred repository.
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) — Starred repository.
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — Marketing skills for Claude Code and AI agents.
@@ -19,6 +20,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) — Automate the process of making money online.
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox) — Open source Inbox for the official WhatsApp Cloud API.
 - [gokapso/whatsapp-spend-tracker](https://github.com/gokapso/whatsapp-spend-tracker) — An agent that helps you manage daily expenses through whatsapp with Kapso and Chat SDK.
+- [harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) — A reusable AI skill for stress-testing high-leverage decisions through five strategic lenses.
 - [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) — "AI-Trader: 100% Fully-Automated Agent-Native Trading".
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — "Vibe-Trading: Your Personal Trading Agent".
 - [JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume) — free online AI resume editor，the only official website is  https://magicv.art.
@@ -39,6 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework.
 - [TechyCSR/OpenCluely](https://github.com/TechyCSR/OpenCluely) — OpenCluely is a free, open source Cluely (alternative), built for technical interviews like DSA, OAs, and CP.
 - [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio) — Build your own AI investment system.
+- [trycompai/crm](https://github.com/trycompai/crm) — Comp AI CRM is an open source, CRM designed for AI agents.
 - [twentyhq/twenty](https://github.com/twentyhq/twenty) — The open alternative to Salesforce, designed for AI.
 - [upstash/botstreet](https://github.com/upstash/botstreet) — Agent Trading Arena --- Three AI agents.
 - [Varnan-Tech/opendirectory](https://github.com/Varnan-Tech/opendirectory) — AI Agent Skills built for Founders who hate Marketing.

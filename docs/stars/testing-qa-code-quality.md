@@ -2,7 +2,7 @@
 
 > Testing, debugging, review, verification and release-quality tooling.
 
-**12 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/testing-qa-code-quality)
+**13 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/testing-qa-code-quality)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -12,6 +12,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [astral-sh/ruff](https://github.com/astral-sh/ruff) — An extremely fast Python linter and code formatter, written in Rust.
 - [astral-sh/ty](https://github.com/astral-sh/ty) — An extremely fast Python type checker and language server, written in Rust.
 - [bug0inc/passmark](https://github.com/bug0inc/passmark) — The open-source Playwright library for AI browser regression testing with intelligent caching, auto-healing, and multi-model verification.
+- [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) — Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns.
 - [kieranklaassen/riffrec](https://github.com/kieranklaassen/riffrec) — Capture golden product feedback sessions with screen, voice, DOM, network, and console context for AI agents.
 - [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes) — git push no-mistakes.
 - [microsoft/playwright](https://github.com/microsoft/playwright) — Playwright is a framework for Web Testing and Automation.

@@ -2,17 +2,21 @@
 
 > Models, training systems, inference runtimes and multimodal foundations.
 
-**57 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-models-training-inference)
+**66 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-models-training-inference)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
+- [0xSero/deepseek-v4-flash-0731-spark-sparkinfer](https://github.com/0xSero/deepseek-v4-flash-0731-spark-sparkinfer) — Pinned one-DGX-Spark Docker recipe for DeepSeek V4 Flash with EXL3, SparkInfer, and 262K NVFP4 MLA KV cache.
+- [0xSero/qwen38-b70](https://github.com/0xSero/qwen38-b70) — Starred repository.
 - [AbdelStark/awesome-jepa](https://github.com/AbdelStark/awesome-jepa) — Curated resources for JEPA (Joint Embedding Predictive Architecture) world models and self-supervised learning.
+- [Avarok-Cybersecurity/atlas](https://github.com/Avarok-Cybersecurity/atlas) — Pure Rust Inference Engine.
 - [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 - [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) — A curated list of awesome Deep Learning tutorials, projects and communities.
 - [datalab-to/chandra](https://github.com/datalab-to/chandra) — OCR model that handles complex tables, forms, handwriting with full layout.
 - [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) — Starred repository.
+- [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — Never stop coding.
 - [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) — LIBERATED AI CHAT.
 - [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) — Fast, flexible LLM inference.
 - [facebookresearch/tribev2](https://github.com/facebookresearch/tribev2) — This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction.
@@ -34,12 +38,15 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [meta-llama/llama](https://github.com/meta-llama/llama) — Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) — Official inference framework for 1-bit LLMs.
 - [microsoft/fara](https://github.com/microsoft/fara) — Fara1.5 – A family of frontier computer use agent models.
+- [microsoft/Orchard](https://github.com/microsoft/Orchard) — Orchard: An Open-Source Agentic Modeling Framework.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — Open-Source Frontier Voice AI.
 - [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) — Generate text, images, video, speech, and music by MiniMax.
+- [MoonshotAI/MoonEP](https://github.com/MoonshotAI/MoonEP) — MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts.
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api) — Starred repository.
 - [Netflix/void-model](https://github.com/Netflix/void-model) — Starred repository.
 - [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization) — NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting.
 - [NVIDIA-NeMo/ProRL-Agent-Server](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) — Agentic RL on Any Harness at Scale.
+- [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) — Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 - [ollama/ollama](https://github.com/ollama/ollama) — Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [OnlyTerp/UltraCode-Shim](https://github.com/OnlyTerp/UltraCode-Shim) — Give Claude Code's ultracode mode to ANY model you already pay for.
 - [open-software-network/os-clovy](https://github.com/open-software-network/os-clovy) — Private AI on your Mac.
@@ -51,6 +58,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [QwenLM/Qwen](https://github.com/QwenLM/Qwen) — The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.
 - [rllm-org/rllm](https://github.com/rllm-org/rllm) — Democratizing Reinforcement Learning for LLMs.
 - [Robbyant/lingbot-world](https://github.com/Robbyant/lingbot-world) — Advancing Open-source World Models.
+- [sgl-project/sglang](https://github.com/sgl-project/sglang) — SGLang is a high-performance serving framework for large language models and multimodal models.
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — Kronos: A Foundation Model for the Language of Financial Markets.
 - [showlab/ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) — Human-taught Computer-use Agent Designed for Real Windows and MacOS Desktops.
 - [standardagents/composer-api](https://github.com/standardagents/composer-api) — OpenAI-compatible API proxy for Cursor Composer.
@@ -62,6 +70,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) — Starred repository.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm) — A high-throughput and memory-efficient inference and serving engine for LLMs.
+- [workweave/router](https://github.com/workweave/router) — Model router for agentic systems.
 - [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR) — GLM-OCR: Accurate ×  Fast × Comprehensive.
 - [ZhiYi-R/moon-bridge](https://github.com/ZhiYi-R/moon-bridge) — Moon Bridge 是一个用 Go 编写的协议转换与模型路由代理。对外暴露 OpenAI Responses API（/v1/responses），对内支持 Anthropic Messages、Google Gemini（GenAI）、OpenAI Chat Completions 等多种上游协议。客户端指定不同模型别名时，自动将请求路由到对应上游 Provider 并在协议间自动转换。.
 - [zml/zml](https://github.com/zml/zml) — Any model.

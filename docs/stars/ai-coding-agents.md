@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**59 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-coding-agents)
+**60 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-coding-agents)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -31,6 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro) — ⚒️ The open source dark software factory for expert engineers.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent.
 - [generalaction/emdash](https://github.com/generalaction/emdash) — Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
+- [get-bb/bb](https://github.com/get-bb/bb) — The agent IDE that builds itself.
 - [get-convex/chef](https://github.com/get-convex/chef) — The only AI app builder that knows backend.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC.

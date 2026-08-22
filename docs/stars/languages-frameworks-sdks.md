@@ -2,7 +2,7 @@
 
 > General-purpose languages, libraries, application frameworks and SDKs.
 
-**15 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/languages-frameworks-sdks)
+**17 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/languages-frameworks-sdks)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -12,8 +12,10 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) — Fullstack app framework for web, desktop, and mobile.
 - [Effect-TS/effect](https://github.com/Effect-TS/effect) — Build production-ready applications in TypeScript.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react) — A collection of awesome things regarding React ecosystem.
+- [ericdrowell/brometal](https://github.com/ericdrowell/brometal) — BroMetal is an LLVM-inspired compiler that transforms TypeScript into highly optimized GPU shaders for WebGPU.
 - [fastapi/fastapi](https://github.com/fastapi/fastapi) — FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 - [foldkit/foldkit](https://github.com/foldkit/foldkit) — Starred repository.
+- [leptos-rs/leptos](https://github.com/leptos-rs/leptos) — Build fast web applications with Rust.
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript) — TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 - [nellavio/nellavio](https://github.com/nellavio/nellavio) — 🚀 Next.js dashboard starter with auth, i18n, RBAC, 18 pages and 90+ UI components.
 - [oven-sh/bun](https://github.com/oven-sh/bun) — Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one.

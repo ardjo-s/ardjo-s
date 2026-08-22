@@ -2,7 +2,7 @@
 
 > Memory, embeddings, indexing and retrieval systems for AI context.
 
-**31 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-memory-rag-retrieval)
+**34 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ai-memory-rag-retrieval)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -11,6 +11,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [andrewyng/context-hub](https://github.com/andrewyng/context-hub) — Starred repository.
 - [asimons81/hermes-dreaming](https://github.com/asimons81/hermes-dreaming) — Staged self-improvement engine for Hermes-style memory, skill, and fact updates with explicit review and apply/discard gates.
 - [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os) — A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection.
+- [claudioemmanuel/squeez](https://github.com/claudioemmanuel/squeez) — Hook-based token compressor for 5 AI CLI hosts (Claude Code, Copilot CLI, OpenCode, Gemini CLI, Codex CLI).
 - [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) — Persistent session memory for AI coding agents — local-first, with on-device inference, associative recall, and drift detection.
 - [Einsia/OpenChronicle](https://github.com/Einsia/OpenChronicle) — Starred repository.
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) — Garry's Opinionated OpenClaw/Hermes Agent Brain.
@@ -22,6 +23,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kyssta-exe/Ariadne](https://github.com/kyssta-exe/Ariadne) — Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP) — Your agents are guessing at APIs.
 - [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) — Give Claude Code a subconscious.
+- [mandgie/minne](https://github.com/mandgie/minne) — Starred repository.
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI Agents.
 - [MemPalace/mempalace](https://github.com/MemPalace/mempalace) — The best-benchmarked open-source AI memory system.
 - [mex-memory/mex](https://github.com/mex-memory/mex) — Persistent project memory for AI coding agents.
@@ -33,6 +35,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [run-llama/llama_index](https://github.com/run-llama/llama_index) — LlamaIndex is the leading document agent and OCR platform.
 - [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| Open Computer History \| Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...).
 - [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) — [MLsys2026]: RAG on Everything with LEANN.
+- [Supercompress/Supercompress](https://github.com/Supercompress/Supercompress) — Query-aware context compression for LLMs and coding agents.
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.
 - [topoteretes/cognee](https://github.com/topoteretes/cognee) — Cognee is the open-source AI memory platform for agents.

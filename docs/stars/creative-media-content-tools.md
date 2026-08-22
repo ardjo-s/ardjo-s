@@ -2,14 +2,14 @@
 
 > Image, video, audio, animation and content-production tools.
 
-**59 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
+**69 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
 ## Stars
 
 - [3b1b/manim](https://github.com/3b1b/manim) — Animation engine for explanatory math videos.
-- [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
+- [AhmedAburady/imagine-cli](https://github.com/AhmedAburady/imagine-cli) — One CLI.
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.
@@ -17,6 +17,8 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) — 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine.
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) — Stable Diffusion web UI.
 - [barefootford/buttercut](https://github.com/barefootford/buttercut) — Edit Video with Claude Code.
+- [benjiyaya/Minimax-H3-Prompt-AgentSkill](https://github.com/benjiyaya/Minimax-H3-Prompt-AgentSkill) — Use when making MiniMax H3 video prompts from media + ideas.
+- [blader/humanizer](https://github.com/blader/humanizer) — Agent skill that removes signs of AI-generated writing from text.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) — A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
 - [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — World's first open-source, agentic video production system.
 - [cjpais/Handy](https://github.com/cjpais/Handy) — A free, open source, and extensible speech-to-text application that works completely offline.
@@ -25,8 +27,10 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 - [cporter202/automate-faceless-content](https://github.com/cporter202/automate-faceless-content) — Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook & Instagram on autopilot — from idea → script → video → scheduled posts.
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) — A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
+- [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) — Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) — Create Reddit Videos with just✨ one command ✨.
 - [fikrikarim/volocal](https://github.com/fikrikarim/volocal) — Fully local voice AI for iOS.
+- [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) — real time face swap and one-click video deepfake with only a single image.
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) — A skill file for removing AI tells from prose.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
@@ -39,9 +43,11 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [KartikLabhshetwar/screenshot-studio](https://github.com/KartikLabhshetwar/screenshot-studio) — A free, browser-based editor for creating stunning screenshots and visuals.
 - [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) — The awesome document factory.
 - [kunchenguid/lavish-axi](https://github.com/kunchenguid/lavish-axi) — HTML is the new markdown.
+- [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) — A cinematic zoom on places in the world.
 - [mickadesign/metadata-gen](https://github.com/mickadesign/metadata-gen) — Zero-install CLI to generate OG metadata images and favicon sets from your project's existing assets and config.
 - [nexu-io/html-anything](https://github.com/nexu-io/html-anything) — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video) — Programmatic video for coding agents — HTML to video on your laptop.
+- [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) — Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
 - [NVIDIA-AI-Blueprints/pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast) — Transform PDFs into AI podcasts for engaging on-the-go audio content.
 - [obra/winpepper](https://github.com/obra/winpepper) — Windows-native local dictation.
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
@@ -55,9 +61,12 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [presenton/presenton](https://github.com/presenton/presenton) — Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative).
 - [rabidgremlin/affinity-scripting](https://github.com/rabidgremlin/affinity-scripting) — Some scripts to interact with the Affinity MCP and scriping.
 - [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator) — GPU-accelerated procedural video generator.
+- [ShivaBhattacharjee/Tokokino](https://github.com/ShivaBhattacharjee/Tokokino) — Browser-based screenshot & video beautifier — backgrounds, device frames, shadows, text and annotations, exported on-device as PNG, WebP, or MP4.
 - [Starmel/OpenSuperWhisper](https://github.com/Starmel/OpenSuperWhisper) — macOS dictation app.
 - [storytold/artcraft](https://github.com/storytold/artcraft) — ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP) — Starred repository.
+- [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts) — Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
+- [tobi/omasnap](https://github.com/tobi/omasnap) — Native Wayland screenshot and annotation editor for Omarchy and Hyprland.
 - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) — Local speech-to-text for macOS  on-device AI, fully private, optional cloud.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny) — An agent native video creation pipeline that runs on top of Hermes Agent.
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) — An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
@@ -65,5 +74,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) — Create polished demo videos without editing skills.
 - [will-lp1/saru](https://github.com/will-lp1/saru) — The Cursor for Writing.
 - [ygivenx/freeWispr](https://github.com/ygivenx/freeWispr) — Free, local, privacy-first dictation for macOS — like Wispr but open source.
+- [yoheinakajima/graphcon-deck](https://github.com/yoheinakajima/graphcon-deck) — Starred repository.
 - [yossdotpro/removerized](https://github.com/yossdotpro/removerized) — AI Image Toolkit that runs fully in your browser — free, private, and offline-first.
 - [YouMind-OpenLab/awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) — 🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages.
