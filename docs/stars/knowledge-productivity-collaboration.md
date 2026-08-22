@@ -102,7 +102,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [SchroederNathan/clarity](https://github.com/SchroederNathan/clarity) — A speech companion app built with Expo.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — 😎 Awesome lists about all kinds of interesting topics.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) — 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones].
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads) — Starred repository.
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) — A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
