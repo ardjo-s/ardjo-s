@@ -29,7 +29,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — The job search that runs on your machine.
 - [marmelab/atomic-crm](https://github.com/marmelab/atomic-crm) — A full-featured CRM built with React, shadcn/ui, and Supabase.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill) — Starred repository.
-- [Open-Legal-Products/mike](https://github.com/Open-Legal-Products/mike) — OSS Legal AI Platform.
+- [open-legal-products/mike](https://github.com/open-legal-products/mike) — OSS Legal AI Platform.
 - [polarsource/polar](https://github.com/polarsource/polar) — Polar — A billing platform for the intelligence era.
 - [remoteoss/remote-cli](https://github.com/remoteoss/remote-cli) — Interact with the Remote.com API to manage your company and employees directly from your terminal.
 - [robinebers/openusage](https://github.com/robinebers/openusage) — Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing.
