@@ -40,7 +40,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — The open-source AI voice studio.
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow) — JJ's special video production workflow for programatic editing.
 - [jyoutir/thinkur](https://github.com/jyoutir/thinkur) — Dictation & Meeting recording MacOS app.
-- [KartikLabhshetwar/screenshot-studio](https://github.com/KartikLabhshetwar/screenshot-studio) — A free, browser-based editor for creating stunning screenshots and visuals.
 - [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) — The awesome document factory.
 - [kunchenguid/lavish-axi](https://github.com/kunchenguid/lavish-axi) — HTML is the new markdown.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) — A cinematic zoom on places in the world.
@@ -53,6 +52,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
 - [op7418/Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) — Starred repository.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) — The open-source CapCut alternative.
+- [opennookorg/screenshot-studio](https://github.com/opennookorg/screenshot-studio) — A free, browser-based editor for creating stunning screenshots and visuals.
 - [openstory-so/openstory](https://github.com/openstory-so/openstory) — Open-source AI-powered video sequence platform built with TanStack Start.
 - [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — macOS video editor built for AI.
 - [PatterAI/Patter](https://github.com/PatterAI/Patter) — Open-source voice-AI SDK.
