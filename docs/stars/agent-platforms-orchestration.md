@@ -38,7 +38,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) — Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption.
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra) — Mastra is the modern TypeScript framework for AI-powered applications and agents.
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) — Open Source Alternative to Grok Bot with a virtual machine that bots can use.
-- [multica-ai/multica](https://github.com/multica-ai/multica) — Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.
+- [multica-ai/multica](https://github.com/multica-ai/multica) — Make humans and AI agents work as one team — open-source and self-hostable.
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — The agent that grows with you.
 - [omnara-ai/omnara](https://github.com/omnara-ai/omnara) — The open-source alternative to Claude Managed Agents.
