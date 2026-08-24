@@ -65,7 +65,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.
 - [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim) — Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.
 - [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Faster Whisper transcription with CTranslate2.
-- [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.
+- [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — 7.4 billion tokens per month.
 - [thunlp/ProactiveAgent](https://github.com/thunlp/ProactiveAgent) — A LLM-based Agent that predict its tasks proactively.
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) — Starred repository.
