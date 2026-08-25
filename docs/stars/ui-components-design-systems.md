@@ -10,7 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples) — 21st sdk - cookbook.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — 💅🏻 ⚒ A collection of awesome design systems.
-- [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) — ⚡️ A collection of tips to help take your CSS skills pro 🦾.
+- [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) — A collection of tips to help take your CSS skills pro.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful map components.
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit) — A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js) — 🎈 Animated balloons effect for your website.
