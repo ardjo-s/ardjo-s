@@ -16,7 +16,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) — Paste any GitHub URL → interactive architecture map.
 - [cli/cli](https://github.com/cli/cli) — GitHub’s official command line tool.
 - [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding) — Interactive architecture diagrams for codebases.
-- [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local.
+- [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) — Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local.
 - [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — High-performance code intelligence MCP server.
 - [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) — The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS.
 - [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) — Spec-driven development (SDD) for AI coding assistants.

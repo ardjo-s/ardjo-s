@@ -9,7 +9,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 ## Stars
 
 - [acsandmann/rift](https://github.com/acsandmann/rift) — a tiling window manager for macos.
-- [adidshaft/atria](https://github.com/adidshaft/atria) — Free local WHOOP strap companion: iOS app and BLE toolkit for local-only strap usage.
+- [adidshaft/atria](https://github.com/adidshaft/atria) — Free local WHOOP strap companion for iOS.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) — Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt) — An SDK for building real apps for your Kobo eInk reader.
 - [basecamp/omarchy](https://github.com/basecamp/omarchy) — Beautiful, Modern & Opinionated Linux.
