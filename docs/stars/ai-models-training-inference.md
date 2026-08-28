@@ -67,7 +67,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Faster Whisper transcription with CTranslate2.
 - [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — 7.4 billion tokens per month.
 - [thunlp/ProactiveAgent](https://github.com/thunlp/ProactiveAgent) — A LLM-based Agent that predict its tasks proactively.
-- [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
+- [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models.
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) — Starred repository.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm) — A high-throughput and memory-efficient inference and serving engine for LLMs.
 - [workweave/router](https://github.com/workweave/router) — Model router for agentic systems.

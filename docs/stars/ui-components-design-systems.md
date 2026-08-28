@@ -52,6 +52,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [jamesrochabrun/Easel](https://github.com/jamesrochabrun/Easel) — Easel is a Codex and Claude macOS workspace for AI-assisted product design and frontend iteration.
 - [joe-bell/cva](https://github.com/joe-bell/cva) — Class Variance Authority.
 - [joshpuckett/dialkit](https://github.com/joshpuckett/dialkit) — A library to help you dial in interface parameters of any kind.
+- [kaltwrk/motion-core](https://github.com/kaltwrk/motion-core) — Curated Motion Core Svelte components.
 - [kapishdima/fonttrio](https://github.com/kapishdima/fonttrio) — Curated font pairing registry for shadcn.
 - [kapishdima/soundcn](https://github.com/kapishdima/soundcn) — 700+ curated UI sound effects for modern web apps.
 - [Kappaemme-git/MengToFrontend](https://github.com/Kappaemme-git/MengToFrontend) — Starred repository.
@@ -64,7 +65,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [MengTo/Skills](https://github.com/MengTo/Skills) — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mickadesign/fluid-functionalism](https://github.com/mickadesign/fluid-functionalism) — Starred repository.
 - [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
-- [motion-core/motion-core](https://github.com/motion-core/motion-core) — Curated Motion Core Svelte components.
 - [mui/base-ui](https://github.com/mui/base-ui) — Unstyled UI components for building accessible web apps and design systems.
 - [nativewind/nativewind](https://github.com/nativewind/nativewind) — The utility-first workflow you love from Tailwind CSS in your React Native applications.
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
