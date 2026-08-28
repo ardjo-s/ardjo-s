@@ -67,7 +67,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [linear/linear-release](https://github.com/linear/linear-release) — CLI to automatically track releases in Linear.
 - [maaslalani/sheets](https://github.com/maaslalani/sheets) — Terminal based spreadsheet tool.
 - [makeplane/plane](https://github.com/makeplane/plane) — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
-- [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist) — Starred repository.
+- [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist) — OpenAssist Daily Workspace — a human-and-agent workspace with 23 WebMCP tools.
 - [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) — AI coding jargon, explained in plain English.
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library) — My library of resources about AI.
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — 18 Lessons to Get Started Building AI Agents.
