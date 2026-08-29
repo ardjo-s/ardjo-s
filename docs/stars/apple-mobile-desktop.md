@@ -12,7 +12,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [adidshaft/atria](https://github.com/adidshaft/atria) — Free local WHOOP strap companion for iOS.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) — Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt) — An SDK for building real apps for your Kobo eInk reader.
-- [basecamp/omarchy](https://github.com/basecamp/omarchy) — Beautiful, Modern & Opinionated Linux.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) — The safest, simplest way to manage Hermes from your Mac.
 - [dtinth/superwhite](https://github.com/dtinth/superwhite) — display a very bright white color on HDR-enabled displays.
 - [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim) — The `npx serve` of Apple Simulators.
@@ -27,6 +26,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create amazing custom iOS keyboards with Swift & SwiftUI.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
 - [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source alternative to Google's AI-enabled pointer.
+- [omacom/omarchy](https://github.com/omacom/omarchy) — Beautiful, Modern & Opinionated Linux.
 - [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — Best Native macOS Apps (2026) — Fast, Lightweight, No Electron Bloat.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector) — Cross-platform text data detection for React Native.
 - [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app) — Mod your desktop apps (Mac).
