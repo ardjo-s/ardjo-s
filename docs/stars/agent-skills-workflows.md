@@ -43,7 +43,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mattpocock/skills](https://github.com/mattpocock/skills) — Skills for Real Engineers.
 - [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — 162 production-ready AI agent templates for OpenClaw.
 - [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) — Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.
-- [michaelshimeles/skills](https://github.com/michaelshimeles/skills) — My personal skills.
+- [michaelshimeles/skills](https://github.com/michaelshimeles/skills) — Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops.
 - [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) — Starred repository.
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.
 - [msitarzewski/AGENT-ZERO](https://github.com/msitarzewski/AGENT-ZERO) — Operational framework and patterns for high-quality, AI-assisted software development.

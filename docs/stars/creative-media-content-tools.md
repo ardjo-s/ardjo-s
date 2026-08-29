@@ -30,7 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) — Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) — Create Reddit Videos with just✨ one command ✨.
 - [fikrikarim/volocal](https://github.com/fikrikarim/volocal) — Fully local voice AI for iOS.
-- [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD.
+- [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — A privacy-first app that strips AI watermarks from content you own.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) — real time face swap and one-click video deepfake with only a single image.
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) — A skill file for removing AI tells from prose.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
