@@ -24,7 +24,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP) — Your agents are guessing at APIs.
 - [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) — Give Claude Code a subconscious.
 - [mandgie/minne](https://github.com/mandgie/minne) — Starred repository.
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) — Universal memory layer for AI Agents.
+- [mem0ai/mem0](https://github.com/mem0ai/mem0) — The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps.
 - [MemPalace/mempalace](https://github.com/MemPalace/mempalace) — The best-benchmarked open-source AI memory system.
 - [mex-memory/mex](https://github.com/mex-memory/mex) — Persistent project memory for AI coding agents.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — Context window optimization for AI coding agents.

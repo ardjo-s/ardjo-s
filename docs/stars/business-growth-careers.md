@@ -10,6 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Starred repository.
+- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…).
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) — Starred repository.
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — Marketing skills for Claude Code and AI agents.
 - [Eldin162/jobclaw](https://github.com/Eldin162/jobclaw) — Streamline hiring by connecting AI agents that evaluate, negotiate, and schedule interviews to reduce time and improve candidate fit.
@@ -35,7 +36,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [robinebers/openusage](https://github.com/robinebers/openusage) — Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing.
 - [romainsimon/paperasse](https://github.com/romainsimon/paperasse) — 🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, .
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) — Awesome list of open-source startup alternatives to well-known SaaS products 🚀.
-- [santifer/career-ops](https://github.com/santifer/career-ops) — Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…).
 - [slavingia/skills](https://github.com/slavingia/skills) — Based on The Minimalist Entrepreneur by Sahil Lavingia.
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage) — One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework.
