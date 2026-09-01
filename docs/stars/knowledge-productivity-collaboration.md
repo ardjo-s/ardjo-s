@@ -13,7 +13,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
 - [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) — Anthropic's Interactive Prompt Engineering Tutorial.
 - [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) — Bring projects, wikis, and teams together with AI.
-- [AppFlowy-IO/AppFlowy-Cloud](https://github.com/AppFlowy-IO/AppFlowy-Cloud) — Bring projects, wikis, and teams together with AI.
+- [AppFlowy-IO/AppFlowy-Cloud](https://github.com/AppFlowy-IO/AppFlowy-Cloud) · archived — Bring projects, wikis, and teams together with AI.
 - [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) — Framework for AI agents to build and maintain a digital brain through Obsidian wiki.
 - [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) — A collection of projects showcasing RAG, agents, workflows, and other AI use cases.
 - [BennettSchwartz/GithubCommitsLeaderboard](https://github.com/BennettSchwartz/GithubCommitsLeaderboard) — A public leaderboard tracking all-time commit contributions across GitHub.
