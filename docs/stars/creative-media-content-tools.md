@@ -13,7 +13,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.
-- [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 500+ models (Flux, Midjourney, Kling, Sora, Veo).
+- [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo).
 - [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) — 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine.
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) — Stable Diffusion web UI.
 - [barefootford/buttercut](https://github.com/barefootford/buttercut) — Edit Video with Claude Code.
