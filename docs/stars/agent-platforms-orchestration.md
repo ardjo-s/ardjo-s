@@ -45,7 +45,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) — Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
 - [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) — Open Source AI Platform - AI Chat with advanced features that works with every LLM.
 - [openai/openai-agents-python](https://github.com/openai/openai-agents-python) — A lightweight, powerful framework for multi-agent workflows.
-- [openclaw/openclaw](https://github.com/openclaw/openclaw) — Your own personal AI assistant.
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) — The AI that really does things.
 - [oritera/Cairn](https://github.com/oritera/Cairn) — A AI general-purpose state-space search engine, validated first on autonomous penetration testing.
 - [outsourc-e/clawsuite](https://github.com/outsourc-e/clawsuite) — All-in-one command center for OpenClaw agents.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — The open-source app everyone uses to manage agents at work.
