@@ -18,7 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ⌥ Coding agent with the IDE wired in.
 - [cline/cline](https://github.com/cline/cline) — Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 - [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) — The one and only agent harness for complex codebases.
-- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases.
+- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — OmO: Drop your tokens.
 - [coleam00/Archon](https://github.com/coleam00/Archon) — The first open-source harness builder for AI coding.
 - [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) — An open-source background agents coding system.
 - [cursor/cookbook](https://github.com/cursor/cookbook) — Starred repository.

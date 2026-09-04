@@ -70,7 +70,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) — Local UI to run and train LLMs and diffusion models.
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) — Starred repository.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm) — A high-throughput and memory-efficient inference and serving engine for LLMs.
-- [workweave/router](https://github.com/workweave/router) — Model router for agentic systems.
+- [weave-os/router](https://github.com/weave-os/router) — Model router for agentic systems.
 - [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR) — GLM-OCR: Accurate ×  Fast × Comprehensive.
 - [ZhiYi-R/moon-bridge](https://github.com/ZhiYi-R/moon-bridge) — Moon Bridge 是一个用 Go 编写的协议转换与模型路由代理。对外暴露 OpenAI Responses API（/v1/responses），对内支持 Anthropic Messages、Google Gemini（GenAI）、OpenAI Chat Completions 等多种上游协议。客户端指定不同模型别名时，自动将请求路由到对应上游 Provider 并在协议间自动转换。.
 - [zml/zml](https://github.com/zml/zml) — Any model.
