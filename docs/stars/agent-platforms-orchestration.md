@@ -13,7 +13,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield) — Build, run and scale AI agents like API and microservices.
 - [agentcompanies/agentcompanies](https://github.com/agentcompanies/agentcompanies) — Starred repository.
 - [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) — Fully autonomous & self-evolving research from idea to paper.
-- [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — A framework for building agent-native applications.
+- [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — A framework for building agentic apps.
 - [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) — Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.
 - [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — An open-source long-horizon SuperAgent harness that researches, codes, and creates.
 - [Cjbuilds/Codex-Orchestration](https://github.com/Cjbuilds/Codex-Orchestration) — Bring any model to Codex, assign them any role, use them in /goal or any workflow.
