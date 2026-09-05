@@ -26,7 +26,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mandgie/minne](https://github.com/mandgie/minne) — Starred repository.
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) — The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps.
 - [MemPalace/mempalace](https://github.com/MemPalace/mempalace) — The best-benchmarked open-source AI memory system.
-- [mex-memory/mex](https://github.com/mex-memory/mex) — Persistent project memory for AI coding agents.
+- [mex-memory/mex](https://github.com/mex-memory/mex) — Team memory for engineers and their AI agents.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — Context window optimization for AI coding agents.
 - [nduckmink/arkon](https://github.com/nduckmink/arkon) — Arkon: Enterprise AI Knowledge Hub & MCP Server.
 - [PaulSolt/DocSetQuery](https://github.com/PaulSolt/DocSetQuery) — Tooling for Agents to Create Markdown Documentation from DocSet Bundles.
