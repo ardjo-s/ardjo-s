@@ -51,7 +51,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [openai/codex](https://github.com/openai/codex) — Lightweight coding agent that runs in your terminal.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
 - [openai/symphony](https://github.com/openai/symphony) — Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
-- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — A coding agent for open models like Kimi K3.
+- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — A coding agent for open models like Kimi K3 and GLM 5.3.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code) — Starred repository.
 - [rebel0789/codexpro](https://github.com/rebel0789/codexpro) — Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.
 - [regenrek/codex-planr](https://github.com/regenrek/codex-planr) — Simple tasks for Codex.
