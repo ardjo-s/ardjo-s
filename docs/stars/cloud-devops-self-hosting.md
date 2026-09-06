@@ -17,7 +17,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [oblien/openship](https://github.com/oblien/openship) — Self-hosted deployment platform.
 - [Osmantic/ODS](https://github.com/Osmantic/ODS) — Turn your PC, Mac, or Linux box into an AI server.
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions) — A curated list of awesome actions to use on GitHub.
-- [smol-machines/smolvm](https://github.com/smol-machines/smolvm) — Portable, lightweight, self-contained virtual machine.
+- [smol-machines/smolvm](https://github.com/smol-machines/smolvm) — Branchable computing by using a portable, lightweight, self-contained virtual machine.
 - [temporalio/temporal](https://github.com/temporalio/temporal) — Temporal service.
 - [torvalds/linux](https://github.com/torvalds/linux) — Linux kernel source tree.
 - [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) — Build your own AI SRE agents.
