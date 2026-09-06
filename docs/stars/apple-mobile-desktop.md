@@ -11,7 +11,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [acsandmann/rift](https://github.com/acsandmann/rift) — a tiling window manager for macos.
 - [adidshaft/atria](https://github.com/adidshaft/atria) — Free local WHOOP strap companion for iOS.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) — Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
-- [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt) — An SDK for building real apps for your Kobo eInk reader.
+- [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt) — SDK for building apps & an app store for your Kobo eInk reader.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) — The safest, simplest way to manage Hermes from your Mac.
 - [dtinth/superwhite](https://github.com/dtinth/superwhite) — display a very bright white color on HDR-enabled displays.
 - [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim) — The `npx serve` of Apple Simulators.
