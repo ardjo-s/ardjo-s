@@ -8,6 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
+- [advaitpaliwal/feynman](https://github.com/advaitpaliwal/feynman) — The open source AI research agent.
 - [analogdotnow/Analog](https://github.com/analogdotnow/Analog) — Meet the calendar that changes everything.
 - [Ansub/wiki-os](https://github.com/Ansub/wiki-os) — UI Layer for Karpathy's LLM Wiki.
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
@@ -29,7 +30,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) — [WIP] Resources for AI engineers.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — Master programming by recreating your favorite technologies from scratch.
 - [collabs-inc/collab-public](https://github.com/collabs-inc/collab-public) — Collaborator is a place to create with agents.
-- [companion-inc/feynman](https://github.com/companion-inc/feynman) — Starred repository.
 - [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
 - [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) — AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain — open standards, byte-preserving round-trip, 100% local.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
