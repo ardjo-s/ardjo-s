@@ -2,7 +2,7 @@
 
 > Image, video, audio, animation and content-production tools.
 
-**69 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
+**68 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -66,7 +66,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [storytold/artcraft](https://github.com/storytold/artcraft) — ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP) — Starred repository.
 - [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts) — Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
-- [tobi/omasnap](https://github.com/tobi/omasnap) — Native Wayland screenshot and annotation editor for Omarchy and Hyprland.
 - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) — Local speech-to-text for macOS  on-device AI, fully private, optional cloud.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny) — An agent native video creation pipeline that runs on top of Hermes Agent.
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) — An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
