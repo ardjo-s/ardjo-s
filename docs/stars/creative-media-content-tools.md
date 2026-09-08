@@ -2,7 +2,7 @@
 
 > Image, video, audio, animation and content-production tools.
 
-**68 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
+**69 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/creative-media-content-tools)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -49,6 +49,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) — Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
 - [NVIDIA-AI-Blueprints/pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast) — Transform PDFs into AI podcasts for engaging on-the-go audio content.
 - [obra/winpepper](https://github.com/obra/winpepper) — Windows-native local dictation.
+- [omacom/omasnap](https://github.com/omacom/omasnap) — Native Wayland screenshot and annotation editor for Omarchy and Hyprland.
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
 - [op7418/Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) — Starred repository.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) — The open-source CapCut alternative.
