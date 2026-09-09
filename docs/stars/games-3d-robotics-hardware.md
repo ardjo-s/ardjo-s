@@ -36,7 +36,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [nianticlabs/spz](https://github.com/nianticlabs/spz) — File format for 3D Gaussian splats.
 - [nigelhartman/worldlabs_unity](https://github.com/nigelhartman/worldlabs_unity) — A Unity package for generating and rendering 3D Gaussian Splatting scenes using the WorldLabs API.
 - [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) — NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
-- [pascalorg/editor](https://github.com/pascalorg/editor) — Create and share 3D architectural projects.
+- [pascalorg/editor](https://github.com/pascalorg/editor) — Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
 - [playcanvas/engine](https://github.com/playcanvas/engine) — Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat) — 3D Gaussian Splat Editor.
 - [ruvnet/RuView](https://github.com/ruvnet/RuView) — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
