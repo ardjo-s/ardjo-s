@@ -14,7 +14,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [ArcadeAI/arcade-mcp](https://github.com/ArcadeAI/arcade-mcp) — MCP Server Framework and Tool Development library for building custom capabilities into agents.
 - [BetterWright/betterwright](https://github.com/BetterWright/betterwright) — A persistent, policy-guarded Playwright browser for AI agents — network policy, encrypted credential vault, proof screenshots, and CAPTCHA solving.
 - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) — Browser Harness \| Self-healing harness that enables LLMs to complete any task.
-- [browser-use/browser-use](https://github.com/browser-use/browser-use) — 🌐 Make websites accessible for AI agents.
+- [browser-use/browser-use](https://github.com/browser-use/browser-use) — Agents that use the browser.
 - [browser-use/terminal](https://github.com/browser-use/terminal) — Terminal UI to get stuff done in the browser.
 - [callstack/agent-device](https://github.com/callstack/agent-device) — Mobile app automation and verification for AI coding agents.
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.
