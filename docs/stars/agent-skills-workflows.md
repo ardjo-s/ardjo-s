@@ -18,7 +18,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [anthropics/skills](https://github.com/anthropics/skills) — Public repository for Agent Skills.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill to stop your coding agent from burying the answer.
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) — CC Workflow Studio.
-- [BuilderIO/skills](https://github.com/BuilderIO/skills) — Skills for coding agents.
+- [BuilderIO/skills](https://github.com/BuilderIO/skills) — Skills for agents.
 - [cathrynlavery/codex-build](https://github.com/cathrynlavery/codex-build) — Orchestrator drives, Codex codes — execute an approved plan one task at a time with a test gate before every commit and exactly one PR at the end.
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) — A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
 - [cursor/plugins](https://github.com/cursor/plugins) — Cursor plugin specification and official plugins.
