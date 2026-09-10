@@ -10,7 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [3b1b/manim](https://github.com/3b1b/manim) — Animation engine for explanatory math videos.
 - [AhmedAburady/imagine-cli](https://github.com/AhmedAburady/imagine-cli) — One CLI.
-- [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A modern video editor built with Tauri, React, and TypeScript.
+- [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) — A hardware-accelerated video editor built on Rust, Tauri v2, and React 19.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) — An iOS library to natively render After Effects vector animations.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic.
 - [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo).
