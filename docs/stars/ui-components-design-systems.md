@@ -15,7 +15,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit) — A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js) — 🎈 Animated balloons effect for your website.
 - [arvindrk/extract-design-system](https://github.com/arvindrk/extract-design-system) — Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website.
-- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Typescript/React Library for AI Chat💬🚀.
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Typescript/React Library for AI Chat 💬🚀.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) — Some HTML, CSS and JS best practices.
 - [benjitaylor/liveline](https://github.com/benjitaylor/liveline) — Real-time animated line chart for React.
 - [bergside/typeui](https://github.com/bergside/typeui) — Build better UI with AI.
