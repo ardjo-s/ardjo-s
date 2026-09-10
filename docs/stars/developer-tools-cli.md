@@ -8,7 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser.
+- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — GitNexus: The Zero-Server Code Intelligence Engine.
 - [adithya-s-k/GitVizz](https://github.com/adithya-s-k/GitVizz) — Visualize and analyze GitHub or local repositories using LLM-friendly summaries, file structure, and interactive dependency graphs.
 - [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) — 🖥 📊 🕹 🛠 A curated list of command line apps.
 - [astral-sh/uv](https://github.com/astral-sh/uv) — An extremely fast Python package and project manager, written in Rust.
