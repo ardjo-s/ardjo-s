@@ -54,7 +54,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core) — Your Personal AI OS.
 - [revfactory/harness](https://github.com/revfactory/harness) — A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) — Open-source Agent Operating System.
-- [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — 🌊 The original agent meta-harness.
+- [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — 🌊 The original agent harness.
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — AutoGPT is the vision of accessible AI for everyone, to use and to build on.
 - [simstudioai/sim](https://github.com/simstudioai/sim) — Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows.
 - [snarktank/antfarm](https://github.com/snarktank/antfarm) — Build your agent team in OpenClaw with one command.
