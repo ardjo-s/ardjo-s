@@ -32,7 +32,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [PaulSolt/DocSetQuery](https://github.com/PaulSolt/DocSetQuery) — Tooling for Agents to Create Markdown Documentation from DocSet Bundles.
 - [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) — #1 Persistent memory for AI coding agents based on real-world benchmarks.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
-- [run-llama/llama_index](https://github.com/run-llama/llama_index) — LlamaIndex is the leading document agent and OCR platform.
+- [run-llama/llama_index](https://github.com/run-llama/llama_index) — LlamaIndex is the document processing platform for AI.
 - [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) — YC (S26) \| Open Computer History \| Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...).
 - [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) — [MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276.
 - [Supercompress/Supercompress](https://github.com/Supercompress/Supercompress) — Query-aware context compression for LLMs and coding agents.
