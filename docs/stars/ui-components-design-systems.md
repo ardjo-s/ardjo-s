@@ -77,7 +77,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — The design language that makes your AI harness better at design.
 - [petyosi/react-virtuoso](https://github.com/petyosi/react-virtuoso) — The most powerful virtual list component for React.
 - [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
-- [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — A starter kit and UI library for building custom design apps with AI.
+- [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — Build your own design apps with AI.
 - [pmndrs/leva](https://github.com/pmndrs/leva) — 🌋 React-first components GUI.
 - [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) — A curated list of TUI apps and libraries built with Ratatui.
 - [ratatui/ratatui](https://github.com/ratatui/ratatui) — A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs.
