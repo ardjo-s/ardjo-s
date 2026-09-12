@@ -89,7 +89,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [saleh2001k/react-native-nitro-theme-transition](https://github.com/saleh2001k/react-native-nitro-theme-transition) — Native theme transitions for React Native with Nitro Modules.
 - [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master) — Design motion that feels real.
 - [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn) — shadcn/ui, but for building agents.
-- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — A set of beautifully-designed, accessible components and a code distribution platform.
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — Composable, accessible components with thoughtful defaults.
 - [southleft/figma-console-mcp](https://github.com/southleft/figma-console-mcp) — Your design system as an API.
 - [storybookjs/storybook](https://github.com/storybookjs/storybook) — Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation.
 - [Subhan-code/Amicro--Micro-transitions-](https://github.com/Subhan-code/Amicro--Micro-transitions-) — Starred repository.
