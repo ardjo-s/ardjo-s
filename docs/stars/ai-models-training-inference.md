@@ -47,7 +47,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization) — NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting.
 - [NVIDIA-NeMo/ProRL-Agent-Server](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) — Agentic RL on Any Harness at Scale.
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) — Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
-- [ollama/ollama](https://github.com/ollama/ollama) — Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [ollama/ollama](https://github.com/ollama/ollama) — Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [OnlyTerp/UltraCode-Shim](https://github.com/OnlyTerp/UltraCode-Shim) — Give Claude Code's ultracode mode to ANY model you already pay for.
 - [open-software-network/os-clovy](https://github.com/open-software-network/os-clovy) — Private AI on your Mac.
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...).
