@@ -26,7 +26,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3) — AlphaFold 3 inference pipeline.
 - [google-gemma/gemma-skills](https://github.com/google-gemma/gemma-skills) — Skills for the Gemma and model/agent interactions.
 - [harrrshall/tinyrouter](https://github.com/harrrshall/tinyrouter) — A tiny ~10K-parameter LLM router that learns which open-source model (deepseek-v4-pro / glm-5p2 / kimi-k2p6 via Fireworks) should answer each question and in what role, trained by evolution (sep-CMA-ES).
-- [huggingface/ml-intern](https://github.com/huggingface/ml-intern) — 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models.
+- [huggingface/ml-intern](https://github.com/huggingface/ml-intern) · archived — Archived — ML Intern is no longer maintained.
 - [huggingface/skills](https://github.com/huggingface/skills) — Give your agents the power of the Hugging Face ecosystem.
 - [ideogram-oss/ideogram4](https://github.com/ideogram-oss/ideogram4) — Ideogram 4: Open image model at the forefront of design.
 - [itigges22/ATLAS](https://github.com/itigges22/ATLAS) — Adaptive Test-time Learning and Autonomous Specialization.
