@@ -44,7 +44,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
 - [farzaa/clicky](https://github.com/farzaa/clicky) — Starred repository.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — freeCodeCamp.org's open-source codebase and curriculum.
-- [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent.
+- [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally.
 - [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) — Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) — Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
 - [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — Machine Learning Systems.
