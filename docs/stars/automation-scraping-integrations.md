@@ -19,7 +19,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — Integrate the DeepSeek API into popular software.
 - [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) — 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more.
 - [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — The context API to search, scrape, and interact with the web at scale.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — The web data API to search, scrape, and interact at scale.
 - [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — Fast Rust library for PDF inspection, classification, and text extraction.
 - [fonoster/fonoster](https://github.com/fonoster/fonoster) — 🚀 The open-source alternative to Twilio.
 - [gokapso/agent-skills](https://github.com/gokapso/agent-skills) — Kapso agent skills for WhatsApp.
