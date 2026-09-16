@@ -47,7 +47,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally.
 - [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) — Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) — Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
-- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — Machine Learning Systems.
+- [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r \| https://mlsysbook.ai.
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) — Jargon from the functional programming world in simple terms!.
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — DeepTutor: Lifelong Personalized Tutoring.
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — Academic Research Skills for Claude Code: research → write → review → revise → finalize.
