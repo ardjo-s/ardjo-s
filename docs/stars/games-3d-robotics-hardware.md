@@ -8,7 +8,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 ## Stars
 
-- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) — Community plugin to control Blender 3D with any LLM of your choice.
+- [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) — Community plugin to control Blender 3D with any LLM of your choice.
 - [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) — Master AI inference, AI agent harness systems, and hardware engineering — then design a physical AI chip.
 - [alattanzio/Box3DUnreal](https://github.com/alattanzio/Box3DUnreal) — Box3DUnreal: Box3D Physics for Unreal Engine.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) — AI that sees your screen, listens to your conversations and tells you what to do.
