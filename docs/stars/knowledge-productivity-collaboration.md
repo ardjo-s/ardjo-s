@@ -95,7 +95,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) — An ADHD-friendly note-taking app where your notes disappear—on purpose.
 - [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — Learn it.
 - [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind) — Starred repository.
-- [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) — Open-source AI coworker, with memory.
+- [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) — The multiplayer personal assistant for work.
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - [samanvaya5/subtext](https://github.com/samanvaya5/subtext) — Turn YouTube talks into intelligence.
 - [scarce/axel](https://github.com/scarce/axel) — Peaceful task list meticulously crafted for Agents in war mode.
