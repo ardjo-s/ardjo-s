@@ -23,7 +23,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) — A curated list of awesome things related to shadcn/ui.
 - [bklit/bklit-ui](https://github.com/bklit/bklit-ui) — Open-source UI & Charts library.
 - [cajaun/laminar](https://github.com/cajaun/laminar) — Animates changing text and numbers in React Native while preserving the identity of characters that stay on screen.
-- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 38 editorial diagram types for Claude Code, Codex, and Pi.
+- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Editorial diagram design for Claude Code, Codex, and Pi.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) — The modern toolkit for building drag and drop interfaces.
 - [cloudflare/kumo](https://github.com/cloudflare/kumo) — Cloudflare's component library for building modern web applications.
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify) — Stream AI generated Shadcn components, not just text.
