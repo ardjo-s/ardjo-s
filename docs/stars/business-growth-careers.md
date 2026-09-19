@@ -12,6 +12,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Starred repository.
 - [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…).
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) — Starred repository.
+- [Cloeille/picsou-finance](https://github.com/Cloeille/picsou-finance) — Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — Marketing skills for Claude Code and AI agents.
 - [Eldin162/jobclaw](https://github.com/Eldin162/jobclaw) — Streamline hiring by connecting AI agents that evaluate, negotiate, and schedule interviews to reduce time and improve candidate fit.
 - [elvisun/newsjack](https://github.com/elvisun/newsjack) — The open-source skills that turn your agent into a full PR team.
@@ -50,4 +51,3 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [whoisyurii/checkmygit](https://github.com/whoisyurii/checkmygit) — Visualize and share your Github profile in seconds!.
 - [yamamuteki/scx](https://github.com/yamamuteki/scx) — CLI that converts USD amounts in stdin to your local currency (works great with ccusage).
 - [zeusinsight/MoneyMission](https://github.com/zeusinsight/MoneyMission) — Minimalist macOS menu bar app for chasing an earnings goal.
-- [Zoeille/picsou-finance](https://github.com/Zoeille/picsou-finance) — Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.
