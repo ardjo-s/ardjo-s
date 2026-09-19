@@ -25,7 +25,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice) — Powerful menu bar manager for macOS.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create amazing custom iOS keyboards with Swift & SwiftUI.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
-- [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source alternative to Google's AI-enabled pointer.
+- [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source fast local computer use.
 - [omacom/omarchy](https://github.com/omacom/omarchy) — Beautiful, Modern & Opinionated Linux.
 - [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — Best Native macOS Apps (2026) — Fast, Lightweight, No Electron Bloat.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector) — Cross-platform text data detection for React Native.
