@@ -29,7 +29,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee) — Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.
 - [perplexityai/numbat](https://github.com/perplexityai/numbat) — Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.
 - [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal) — OSINT & recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics & more.
-- [soxoj/maigret](https://github.com/soxoj/maigret) — 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites.
+- [soxoj/maigret](https://github.com/soxoj/maigret) — 🕵️‍♂️ Collect a dossier on a person by username from 6K websites.
 - [telemt/telemt](https://github.com/telemt/telemt) — MTProxy for Telegram on Rust + Tokio.
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) — A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [uber/ADR](https://github.com/uber/ADR) — ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
