@@ -60,7 +60,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — Removes 20+ patterns of AI slop from any piece of writing.
 - [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) — Make any agent harness multimodal-native.
 - [r0b0tlab/hermes-buzz-shared-profile](https://github.com/r0b0tlab/hermes-buzz-shared-profile) — macOS Hermes skill for sharing one canonical writable profile across Buzz and ACP surfaces.
-- [rjs/shaping-skills](https://github.com/rjs/shaping-skills) — Skills I use with Claude for shaping.
+- [rjs/shaping-skills](https://github.com/rjs/shaping-skills) · archived — Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills) — A selection of personal Cursor agents/commands/rules/skills that I use for my work.
 - [secemp9/goal](https://github.com/secemp9/goal) — /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [shadcn/improve](https://github.com/shadcn/improve) — Use your most capable model to audit your codebase and write plans for cheaper models to execute.
