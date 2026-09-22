@@ -15,7 +15,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [apify/agent-skills](https://github.com/apify/agent-skills) — Collection of Apify agent skills.
 - [averygan/reclip](https://github.com/averygan/reclip) — Download videos from almost any website.
 - [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) — Stealth Chromium that passes every bot detection test.
-- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ.
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev.
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) — Integrate the DeepSeek API into popular software.
 - [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) — 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more.
 - [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown.
