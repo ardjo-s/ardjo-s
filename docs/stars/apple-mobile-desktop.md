@@ -49,7 +49,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) — SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) — A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 - [wieandteduard/port-menu](https://github.com/wieandteduard/port-menu) — A tiny macOS menu bar app that tracks your dev servers across projects.
-- [wxtsky/CodeIsland](https://github.com/wxtsky/CodeIsland) — Real-time AI coding agent status panel in your MacBook notch — live status, approvals & replies for 13 AI tools, with iPhone & Apple Watch companions.
+- [wxtsky/CodeIsland](https://github.com/wxtsky/CodeIsland) — Real-time AI coding agent status panel in your MacBook notch — live status, approvals & replies for 30+ AI coding tools, with iPhone & Apple Watch companions.
 - [xikhar/persona](https://github.com/xikhar/persona) — Bringing real-time voice to life.
 - [xykong/flux-markdown](https://github.com/xykong/flux-markdown) — Markdown Preview Enhanced for macOS QuickLook.
 - [ykushch/notchagent](https://github.com/ykushch/notchagent) — Starred repository.
