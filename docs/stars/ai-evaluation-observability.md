@@ -21,7 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier) — LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training.
 - [microsoft/waza](https://github.com/microsoft/waza) — CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) — Monoscope lets you ingest and explore your logs, traces and metrics.
-- [NVIDIA-NeMo/nemo-platform](https://github.com/NVIDIA-NeMo/nemo-platform) — Make the agents you ship faster, more accurate, and safer.
+- [NVIDIA-NeMo/nemo-helix](https://github.com/NVIDIA-NeMo/nemo-helix) — Make the agents you ship faster, more accurate, and safer.
 - [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) — Test your prompts, agents, and RAGs.
 - [raindrop-ai/workshop](https://github.com/raindrop-ai/workshop) — Give your coding agent the power to write and run agent evals.
 - [RubricLab/tokenmaxx](https://github.com/RubricLab/tokenmaxx) — A local proxy that aggregates usage across your Codex and Claude Code accounts — with live token-throughput analytics.
