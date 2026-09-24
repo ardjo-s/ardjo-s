@@ -27,7 +27,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
 - [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source fast local computer use.
 - [omacom/omarchy](https://github.com/omacom/omarchy) — Beautiful, Modern & Opinionated Linux.
-- [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — Best Native macOS Apps (2026) — Fast, Lightweight, No Electron Bloat.
+- [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) — Best macOS Apps (2026) — Fast, Lightweight, No Electron Bloat.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector) — Cross-platform text data detection for React Native.
 - [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app) — Mod your desktop apps (Mac).
 - [ParthJadhav/codex-controller](https://github.com/ParthJadhav/codex-controller) — Use a DualSense as a physical control surface for Codex on macOS.
