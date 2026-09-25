@@ -24,7 +24,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [git/git](https://github.com/git/git) — Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/).
 - [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) — The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte.
 - [github/github-mcp-server](https://github.com/github/github-mcp-server) — GitHub's official MCP Server.
-- [github/spec-kit](https://github.com/github/spec-kit) — 💫 Toolkit to help you get started with Spec-Driven Development.
+- [github/spec-kit](https://github.com/github/spec-kit) — 💫 Toolkit to help you get started with SDD or any other process!.
 - [harshkedia177/axon](https://github.com/harshkedia177/axon) — Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) — The open-source docs framework for humans and agents.
 - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/.
