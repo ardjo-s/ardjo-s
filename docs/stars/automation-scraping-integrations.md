@@ -37,7 +37,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [shift-labs-ai/markit](https://github.com/shift-labs-ai/markit) — 🖍️ Convert anything to markdown.
 - [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) — Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more.
 - [tulir/whatsmeow](https://github.com/tulir/whatsmeow) — Go library for the WhatsApp web multidevice API.
-- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper.
+- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown.
 - [weberwcwei/job-scout](https://github.com/weberwcwei/job-scout) — CLI tool that scrapes 6 job boards, scores matches against your profile, and sends Telegram/Slack/Discord/email alerts.
 - [withoneai/cli](https://github.com/withoneai/cli) — A command-line tool to give your agents access to any app, create workflows and manage your One account.
 - [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) — claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution.
