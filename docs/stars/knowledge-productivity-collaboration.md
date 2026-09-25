@@ -31,7 +31,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [collabs-inc/collab-public](https://github.com/collabs-inc/collab-public) — Collaborator is a place to create with agents.
 - [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman) — The open source AI research agent.
 - [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
-- [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) — AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain — open standards, byte-preserving round-trip, 100% local.
+- [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) — Free, open-source AI Office suite (Word, Excel, PowerPoint, PDF, Markdown) — macOS build, one-click install.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 - [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  vibe coding 101｜The first course for AI-native product builders.
 - [davidmyersdev/octo](https://github.com/davidmyersdev/octo) — A local-first knowledge management app.
