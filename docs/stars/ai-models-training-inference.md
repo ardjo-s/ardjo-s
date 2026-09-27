@@ -29,7 +29,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [huggingface/ml-intern](https://github.com/huggingface/ml-intern) · archived — Archived — ML Intern is no longer maintained.
 - [huggingface/skills](https://github.com/huggingface/skills) — Give your agents the power of the Hugging Face ecosystem.
 - [ideogram-oss/ideogram4](https://github.com/ideogram-oss/ideogram4) — Ideogram 4: Open image model at the forefront of design.
-- [itigges22/ATLAS](https://github.com/itigges22/ATLAS) — Adaptive Test-time Learning and Autonomous Specialization.
+- [inferstep/ATLAS](https://github.com/inferstep/ATLAS) — Adaptive Test-time Learning and Autonomous Specialization.
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — AI agents running research on single-GPU nanochat training automatically.
 - [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) — Moshi is a speech-text foundation model and full-duplex spoken dialogue framework.
 - [maderix/ANE](https://github.com/maderix/ANE) — Training neural networks on Apple Neural Engine via reverse-engineered private APIs.
