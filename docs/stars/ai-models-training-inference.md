@@ -38,7 +38,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [meta-llama/llama](https://github.com/meta-llama/llama) — Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) — Official inference framework for 1-bit LLMs.
 - [microsoft/fara](https://github.com/microsoft/fara) — Fara1.5 – A family of frontier computer use agent models.
-- [microsoft/Orchard](https://github.com/microsoft/Orchard) — Orchard: An Open-Source Agentic Modeling Framework.
+- [microsoft/Orchard-Agentic](https://github.com/microsoft/Orchard-Agentic) — Orchard: An Open-Source Agentic Modeling Framework.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — Open-Source Frontier Voice AI.
 - [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) — Generate text, images, video, speech, and music by MiniMax.
 - [MoonshotAI/MoonEP](https://github.com/MoonshotAI/MoonEP) — MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts.
