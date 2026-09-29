@@ -46,7 +46,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills) — Skills for Design Engineers.
 - [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx) — Animated WebGL liquid-metal effect for React buttons and UI components.
 - [Jakubantalik/thinking-orbs](https://github.com/Jakubantalik/thinking-orbs) — Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light.
-- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) — Collection of the most essential transitions for web apps, skill for agents and Refine tool for agents.
+- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) — UI montion AI agent, a library of 43+ crafted transitions, a skill that fits your workflow.
 - [jakubkrehel/make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) — An agent skill that helps make your interface feel better.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) — Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [jamesrochabrun/Easel](https://github.com/jamesrochabrun/Easel) — Easel is a Codex and Claude macOS workspace for AI-assisted product design and frontend iteration.
