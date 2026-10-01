@@ -58,7 +58,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — AutoGPT is the vision of accessible AI for everyone, to use and to build on.
 - [simstudioai/sim](https://github.com/simstudioai/sim) — Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows.
 - [snarktank/antfarm](https://github.com/snarktank/antfarm) — Build your agent team in OpenClaw with one command.
-- [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) — Reference code for the Meta-Harness paper.
+- [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) — Official code for Meta-Harness (2603.28052).
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) — autonomous harness engineering.
 - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — OpenHuman is the fastest, cheapest, most efficient open-source agent harness.
 - [vercel-labs/steve](https://github.com/vercel-labs/steve) — Self-hosted eve poc.
