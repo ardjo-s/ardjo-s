@@ -10,7 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Starred repository.
-- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — Open-source AI job search agent: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…).
+- [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker.
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) — Starred repository.
 - [Cloeille/picsou-finance](https://github.com/Cloeille/picsou-finance) — Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — Marketing skills for Claude Code and AI agents.

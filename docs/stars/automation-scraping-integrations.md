@@ -35,7 +35,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [riyagoelrs/tiktok-scraper](https://github.com/riyagoelrs/tiktok-scraper) — Starred repository.
 - [serpapi/serpapi-mcp](https://github.com/serpapi/serpapi-mcp) — SerpApi MCP Server for Google and other search engine results.
 - [shift-labs-ai/markit](https://github.com/shift-labs-ai/markit) — 🖍️ Convert anything to markdown.
-- [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) — Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more.
+- [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) — Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter & more.
 - [tulir/whatsmeow](https://github.com/tulir/whatsmeow) — Go library for the WhatsApp web multidevice API.
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown.
 - [weberwcwei/job-scout](https://github.com/weberwcwei/job-scout) — CLI tool that scrapes 6 job boards, scores matches against your profile, and sends Telegram/Slack/Discord/email alerts.
