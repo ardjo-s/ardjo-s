@@ -68,7 +68,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [soleio/luck](https://github.com/soleio/luck) — A skill for improving the luck of your AI stack and projects—developed from an applied theoretical framework.
 - [tokensize/skills](https://github.com/tokensize/skills) — Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) — The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) — Turn any idea, plan, or codebase into a beautiful interactive diagram.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) — The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) — A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
