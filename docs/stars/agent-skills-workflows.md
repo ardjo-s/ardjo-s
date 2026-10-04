@@ -34,7 +34,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [github/awesome-copilot](https://github.com/github/awesome-copilot) — Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
 - [google/skills](https://github.com/google/skills) — Agent Skills for Google products and technologies.
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.
-- [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) — A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture.
+- [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) · archived — A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture.
 - [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) — "OpenSpace: The Skill Management Layer for AI Agents" -- https://open-space.cloud/.
 - [Infinite-Labs-AI/infinite-skills](https://github.com/Infinite-Labs-AI/infinite-skills) — Installable Codex skills for goal-setting and marketing operator work.
 - [kunchenguid/axi](https://github.com/kunchenguid/axi) — Design principles for agent ergonomics.
