@@ -22,7 +22,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [e2b-dev/desktop](https://github.com/e2b-dev/desktop) — E2B Desktop Sandbox for LLMs.
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) — Open-source, secure environment with real-world tools for enterprise-grade agents.
 - [jasonkneen/agent-simulator](https://github.com/jasonkneen/agent-simulator) — An iOS simulator in a browser you can inspect.
-- [microsoft/Webwright](https://github.com/microsoft/Webwright) — A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.
+- [microsoft/CUAWright](https://github.com/microsoft/CUAWright) — A simple SWE style browser+desktop agent framework that achieves SOTA results on long horizon web tasks.
 - [milind-soni/axstream](https://github.com/milind-soni/axstream) — A streaming action language for computer-use agents.
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — Model Context Protocol Servers.
 - [pilot-protocol/pilotprotocol](https://github.com/pilot-protocol/pilotprotocol) — Pilot Protocol: The Internet of Agents.

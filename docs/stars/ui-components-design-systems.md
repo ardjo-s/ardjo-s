@@ -2,7 +2,7 @@
 
 > Interface components, CSS, design systems, accessibility and UI visualization.
 
-**99 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
+**98 repositories.** [Open this live list on GitHub →](https://github.com/stars/ardjo-s/lists/ui-components-design-systems)
 
 Agent note: generated from the authenticated GitHub stars list; do not edit manually.
 
@@ -102,7 +102,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [thesysdev/openui](https://github.com/thesysdev/openui) — The Open Standard for Generative UI.
 - [vercel-labs/json-render](https://github.com/vercel-labs/json-render) — The Generative UI framework.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — A collection of DESIGN.md files analysis by popular brand design systems.
-- [WatermelonCorp/watermelon-platform](https://github.com/WatermelonCorp/watermelon-platform) — https://ui.watermelon.sh.
 - [xandemon/developer-icons](https://github.com/xandemon/developer-icons) — A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
 - [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui) — A large collection of high-quality React components that you can copy and paste into any project.
 - [zerostaticthemes/square-ui](https://github.com/zerostaticthemes/square-ui) — Collection of beautifully crafted open-source layouts UI built with shadcn/ui.
