@@ -41,7 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [multica-ai/multica](https://github.com/multica-ai/multica) — Make humans and AI agents work as one team — open-source and self-hostable.
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — The agent that grows with you.
-- [omnara-ai/omnara](https://github.com/omnara-ai/omnara) — The open-source alternative to Claude Managed Agents.
+- [omnara-ai/omnara](https://github.com/omnara-ai/omnara) — The open-source managed agent platform.
 - [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) — Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
 - [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) — Open Source AI Platform - AI Chat with advanced features that works with every LLM.
 - [openai/openai-agents-python](https://github.com/openai/openai-agents-python) — A lightweight, powerful framework for multi-agent workflows.
