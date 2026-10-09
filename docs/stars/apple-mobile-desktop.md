@@ -45,7 +45,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [software-mansion/argent](https://github.com/software-mansion/argent) — An agentic toolkit to control, debug, and profile iOS and Android apps.
 - [software-mansion/react-native-executorch](https://github.com/software-mansion/react-native-executorch) — High-performance, privacy-first on-device AI inference library for React Native, powered by PyTorch's ExecuTorch runtime.
 - [thaw-app/Thaw](https://github.com/thaw-app/Thaw) — The open source menu bar manager.
-- [tw93/Pake](https://github.com/tw93/Pake) — 🤱🏻 Turn any webpage into a desktop app with one command.
+- [tw93/Pake](https://github.com/tw93/Pake) — 🤱🏻 Turn any website into a tiny, fast desktop app.
 - [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) — SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) — A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 - [wieandteduard/port-menu](https://github.com/wieandteduard/port-menu) — A tiny macOS menu bar app that tracks your dev servers across projects.

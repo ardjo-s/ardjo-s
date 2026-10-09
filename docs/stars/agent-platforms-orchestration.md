@@ -60,7 +60,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [snarktank/antfarm](https://github.com/snarktank/antfarm) — Build your agent team in OpenClaw with one command.
 - [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) — Official code for Meta-Harness (2603.28052).
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) — autonomous harness engineering.
-- [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — OpenHuman is the fastest, cheapest, most efficient open-source agent harness.
+- [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — The fastest, cheapest, most efficient open-source agent harness.
 - [vercel-labs/steve](https://github.com/vercel-labs/steve) — Self-hosted eve poc.
 - [vercel/ai](https://github.com/vercel/ai) — The AI Toolkit for TypeScript.
 - [vercel/eve](https://github.com/vercel/eve) — The Open Framework for Building Agents.

@@ -70,7 +70,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 Best DeepSeek Harness Design Plugin.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Animated components for design engineers.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers to design with Real Code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) — AI-native design editor.
 - [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) — Open-source Claude Design alternative.
 - [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes) — Perfect Next.js dark mode in 2 lines of code.
