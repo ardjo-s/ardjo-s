@@ -41,7 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kitze/council](https://github.com/kitze/council) — 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
 - [ksimback/looper](https://github.com/ksimback/looper) — Design visual, review-gated agent loops for Claude Code before you run them.
 - [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate) — Talk to one agent.
-- [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) — An Open-Source Asynchronous Coding Agent.
+- [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) — An Open-Source Cloud Software Factory.
 - [lnikell/loopndroll](https://github.com/lnikell/loopndroll) — Keep Codex running forever.
 - [loperanger7/gstack-auto](https://github.com/loperanger7/gstack-auto) — Semi-Autonomous gstack Orchestration: Build with a strong product spec and let Garry Tan's gstack figure out the rest.
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) — Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
