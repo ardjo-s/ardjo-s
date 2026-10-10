@@ -93,7 +93,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) — Feedback/Issue tracker for Octarine - The private, markdown note taker.
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) — An ADHD-friendly note-taking app where your notes disappear—on purpose.
-- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — Learn it.
+- [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — Learn AI Engineering! Learn it.
 - [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind) — Starred repository.
 - [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) — AI coworker with memory and collaboration.
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) — An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
