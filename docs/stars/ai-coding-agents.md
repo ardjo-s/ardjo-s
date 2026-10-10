@@ -34,7 +34,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [get-bb/bb](https://github.com/get-bb/bb) — The agent IDE that builds itself.
 - [get-convex/chef](https://github.com/get-convex/chef) — The only AI app builder that knows backend.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC.
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation).
 - [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) — The best way to get AI coding agents to solve hard problems in complex codebases.
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) — Clone any website with one command using AI coding agents.
 - [jeremymcs/patchdeck](https://github.com/jeremymcs/patchdeck) — Autonomous GitHub PR/Issue babysitter — watches repos, triages Issues & PR review feedback, and dispatches local AI agents to fix code.
