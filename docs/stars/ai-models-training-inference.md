@@ -63,7 +63,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [standardagents/composer-api](https://github.com/standardagents/composer-api) — OpenAI-compatible API proxy for Cursor Composer.
 - [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) · archived — Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.
 - [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim) — Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.
-- [sybil-solutions/qwen38-b70](https://github.com/sybil-solutions/qwen38-b70) — Starred repository.
+- [sybil-solutions/qwen38-b70](https://github.com/sybil-solutions/qwen38-b70) · archived — Starred repository.
 - [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Faster Whisper transcription with CTranslate2.
 - [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — 7.4 billion tokens per month.
 - [thunlp/ProactiveAgent](https://github.com/thunlp/ProactiveAgent) — A LLM-based Agent that predict its tasks proactively.

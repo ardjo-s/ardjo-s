@@ -10,7 +10,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — GitNexus: The Zero-Server Code Intelligence Engine.
 - [adithya-s-k/GitVizz](https://github.com/adithya-s-k/GitVizz) — Visualize and analyze GitHub or local repositories using LLM-friendly summaries, file structure, and interactive dependency graphs.
-- [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) — 🖥 📊 🕹 🛠 A curated list of command line apps.
+- [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) · archived — 🖥 📊 🕹 🛠 A curated list of command line apps.
 - [astral-sh/uv](https://github.com/astral-sh/uv) — An extremely fast Python package and project manager, written in Rust.
 - [BenedictKing/ccx](https://github.com/BenedictKing/ccx) — Claude / Codex / Gemini API Proxy - CCX.
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) — Paste any GitHub URL → interactive architecture map.
