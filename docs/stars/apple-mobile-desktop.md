@@ -21,7 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [gragland/codex-imessage-handoff](https://github.com/gragland/codex-imessage-handoff) — Work from iMessage baby.
 - [grinich/replay](https://github.com/grinich/replay) — A beautiful offline video queue for macOS.
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst) — Automatic tiling window manager for macOS à la xmonad.
-- [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app) — Free up your Mac, safely.
+- [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app) — Free up your Mac.
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice) — Powerful menu bar manager for macOS.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create amazing custom iOS keyboards with Swift & SwiftUI.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
