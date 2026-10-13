@@ -59,7 +59,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [keenthemes/reui](https://github.com/keenthemes/reui) — Design-forward shadcn kit for interfaces that stand out.
 - [kepano/obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings) — Settings plugin to control colors and fonts in Minimal Theme.
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts) — EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Taste-Skill - gives your AI good taste.
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.
 - [lukeed/clsx](https://github.com/lukeed/clsx) — A tiny (239B) utility for constructing `className` strings conditionally.
 - [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md) — 200 production-grade DESIGN.md design systems for the world's best apps.
 - [MengTo/Skills](https://github.com/MengTo/Skills) — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
