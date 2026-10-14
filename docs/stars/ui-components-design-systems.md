@@ -68,7 +68,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mui/base-ui](https://github.com/mui/base-ui) — Unstyled UI components for building accessible web apps and design systems.
 - [nativewind/nativewind](https://github.com/nativewind/nativewind) — The utility-first workflow you love from Tailwind CSS in your React Native applications.
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
-- [nexu-io/open-design](https://github.com/nexu-io/open-design) — OpenDesign is the 1st Collaborative AI Design Agent Workspace.
+- [nexu-io/open-design](https://github.com/nexu-io/open-design) — The 1st Collaborative AI Design Agent Workspace.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — Animated components for design engineers.
 - [onlook-dev/onlook](https://github.com/onlook-dev/onlook) — The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) — AI-native design editor.
