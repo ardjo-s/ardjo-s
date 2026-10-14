@@ -21,7 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown.
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — Supercharge your AI agents with data from the web and beyond.
 - [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — Fast Rust library for PDF inspection, classification, and text extraction.
-- [fonoster/fonoster](https://github.com/fonoster/fonoster) — 🚀 The open-source alternative to Twilio.
+- [fonoster/fonoster](https://github.com/fonoster/fonoster) — The AI that answers the phone.
 - [gokapso/agent-skills](https://github.com/gokapso/agent-skills) — Kapso agent skills for WhatsApp.
 - [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) — The headless browser for AI agents and web scraping.
 - [homeassistant-ai/skills](https://github.com/homeassistant-ai/skills) — Home Assistant skills for agents.
