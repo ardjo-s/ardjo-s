@@ -13,7 +13,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) — An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data.
 - [ente/ente](https://github.com/ente/ente) — 💚 End-to-end encrypted cloud for everything.
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Find secrets with Gitleaks 🔑.
-- [heycupola/relic](https://github.com/heycupola/relic) — Manage and share secrets.
+- [heycupola/relic](https://github.com/heycupola/relic) — End-to-end encrypted secrets for developers and AI agents.
 - [Infisical/agent-vault](https://github.com/Infisical/agent-vault) — A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
 - [megadose/holehe](https://github.com/megadose/holehe) — holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
 - [Michaelliv/psst](https://github.com/Michaelliv/psst) — 🤫 AI-native secrets manager.
