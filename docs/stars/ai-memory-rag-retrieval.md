@@ -39,6 +39,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.
 - [topoteretes/cognee](https://github.com/topoteretes/cognee) — Cognee is the open-source AI memory platform for agents.
-- [upstash/context7](https://github.com/upstash/context7) — Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors.
+- [upstash/context7](https://github.com/upstash/context7) — Context7 Platform -- Up-to-date docs for AI agents.
 - [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — Self-evolving Context Database for AI Agents.
 - [withoneai/knowledge](https://github.com/withoneai/knowledge) — The world's largest API knowledge base, built for agents.
