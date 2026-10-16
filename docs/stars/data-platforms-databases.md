@@ -10,8 +10,8 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 
 - [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) — Development at the speed of light.
 - [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) — Incremental engine for long horizon agents 🌟 Star if you like it!.
+- [convex/convex-backend](https://github.com/convex/convex-backend) — The open-source reactive database for app developers.
 - [datagouv/datagouv-mcp](https://github.com/datagouv/datagouv-mcp) — Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.
-- [get-convex/convex-backend](https://github.com/get-convex/convex-backend) — The open-source reactive database for app developers.
 - [Kanaries/graphic-walker](https://github.com/Kanaries/graphic-walker) — An open source alternative to Tableau.
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) — Open-source web analytics you deploy in one click.
 - [microsoft/data-formulator](https://github.com/microsoft/data-formulator) — 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.

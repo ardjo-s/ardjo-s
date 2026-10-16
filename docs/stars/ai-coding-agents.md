@@ -21,6 +21,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — OmO: Just type "mass ulw" keyword with your prompt.
 - [coleam00/Archon](https://github.com/coleam00/Archon) — The first open-source harness builder for AI coding.
 - [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) — An open-source background agents coding system.
+- [convex/chef](https://github.com/convex/chef) — The only AI app builder that knows backend.
 - [cursor/cookbook](https://github.com/cursor/cookbook) — Starred repository.
 - [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max) — The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model.
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — CLI tool for configuring and monitoring Claude Code.
@@ -32,7 +33,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent.
 - [generalaction/emdash](https://github.com/generalaction/emdash) — Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
 - [get-bb/bb](https://github.com/get-bb/bb) — The agent IDE that builds itself.
-- [get-convex/chef](https://github.com/get-convex/chef) — The only AI app builder that knows backend.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation).
 - [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) — The best way to get AI coding agents to solve hard problems in complex codebases.
