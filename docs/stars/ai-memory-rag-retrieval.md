@@ -20,7 +20,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
 - [iwe-org/iwe](https://github.com/iwe-org/iwe) — Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents.
 - [jxnl/personal-monorepo-template](https://github.com/jxnl/personal-monorepo-template) — Starred repository.
-- [kyssta-exe/Ariadne](https://github.com/kyssta-exe/Ariadne) — Next-generation AI memory system — sub-millisecond search across 100K memories.
+- [kyssta-exe/Ariadne](https://github.com/kyssta-exe/Ariadne) · archived — Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP) — Your agents are guessing at APIs.
 - [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) — Give Claude Code a subconscious.
 - [mandgie/minne](https://github.com/mandgie/minne) — Starred repository.
