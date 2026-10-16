@@ -95,7 +95,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Subhan-code/Amicro--Micro-transitions-](https://github.com/Subhan-code/Amicro--Micro-transitions-) — Starred repository.
 - [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui) — A collection of rare, ready-to-use UI components and animations you can actually drop into your next project.
 - [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram) — ngDiagram – open-source Angular library for interactive diagrams, node-based editors, and workflow builders.
-- [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) — Workflow Builder - Apache 2.0 React SDK for embedding visual workflow editors.
+- [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) — Workflow orchestration framework for your product, open source: a white-label React workflow builder, durable execution on your own Temporal, human approval steps for AI agents, and a live view of every run.
 - [TahaSh/wayflow](https://github.com/TahaSh/wayflow) — An embeddable visual workflow editor for the web.
 - [tamagui/tamagui](https://github.com/tamagui/tamagui) — Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
 - [tambo-ai/tambo](https://github.com/tambo-ai/tambo) — Generative UI SDK for React.
