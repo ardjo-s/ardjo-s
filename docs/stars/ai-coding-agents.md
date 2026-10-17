@@ -61,7 +61,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [runtm-ai/runtm](https://github.com/runtm-ai/runtm) — Open-source sandboxes where coding agents build and deploy.
 - [snarktank/compound-product](https://github.com/snarktank/compound-product) — A self-improving product system that reads reports, identifies priorities, and autonomously implements fixes.
 - [snarktank/ralph](https://github.com/snarktank/ralph) — Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
-- [stablyai/orca](https://github.com/stablyai/orca) — Orca is the ADE for working with a fleet of parallel agents.
+- [stablyai/orca](https://github.com/stablyai/orca) — Orca is the place for working with a fleet of agents (e.g.
 - [standardagents/dmux](https://github.com/standardagents/dmux) — A dev agent multiplexer for git worktrees and coding agents.
 - [superset-sh/superset](https://github.com/superset-sh/superset) — Superset is an agentic IDE to orchestrate 100+ coding agents in parallel.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) — AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.

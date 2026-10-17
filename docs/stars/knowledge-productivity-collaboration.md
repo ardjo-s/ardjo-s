@@ -38,7 +38,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) — 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach > graphs that impress.
-- [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault.
+- [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) — Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault.
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk) — Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [EveryInc/tend](https://github.com/EveryInc/tend) — grow what you know.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
