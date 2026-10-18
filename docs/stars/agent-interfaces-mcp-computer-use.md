@@ -27,7 +27,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — Model Context Protocol Servers.
 - [pilot-protocol/pilotprotocol](https://github.com/pilot-protocol/pilotprotocol) — Pilot Protocol: The Internet of Agents.
 - [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) — 🚀 The fast, Pythonic way to build MCP servers and clients.
-- [trycua/cua](https://github.com/trycua/cua) — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+- [trycua/cua](https://github.com/trycua/cua) — Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.
 - [UsefulSoftwareCo/executor](https://github.com/UsefulSoftwareCo/executor) — The missing integration layer for AI agents.
 - [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — Browser automation CLI for AI agents.
 - [zats/permiso](https://github.com/zats/permiso) — Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.
