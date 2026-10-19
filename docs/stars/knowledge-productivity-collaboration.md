@@ -33,7 +33,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [convos-chat/convos](https://github.com/convos-chat/convos) — Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
 - [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) — Free, open-source AI Office suite (Word, Excel, PowerPoint, PDF, Markdown) — macOS build, one-click install.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
-- [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  vibe coding 101｜The first course for AI-native product builders.
+- [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) — 💻  Vibe Coding 101｜Your First Course For AI Product Builders.
 - [davidmyersdev/octo](https://github.com/davidmyersdev/octo) — A local-first knowledge management app.
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) — 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [docusealco/docuseal](https://github.com/docusealco/docuseal) — Open source DocuSign alternative.

@@ -20,7 +20,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
 - [iwe-org/iwe](https://github.com/iwe-org/iwe) — Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents.
 - [jxnl/personal-monorepo-template](https://github.com/jxnl/personal-monorepo-template) — Starred repository.
-- [kyssta-exe/Ariadne](https://github.com/kyssta-exe/Ariadne) · archived — Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP) — Your agents are guessing at APIs.
 - [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) — Give Claude Code a subconscious.
 - [mandgie/minne](https://github.com/mandgie/minne) — Starred repository.
@@ -29,6 +28,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mex-memory/mex](https://github.com/mex-memory/mex) — Team memory for engineers and their AI agents.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — Context window optimization for AI coding agents.
 - [nduckmink/arkon](https://github.com/nduckmink/arkon) — Arkon: Enterprise AI Knowledge Hub & MCP Server.
+- [okyssta/Ariadne](https://github.com/okyssta/Ariadne) · archived — Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [PaulSolt/DocSetQuery](https://github.com/PaulSolt/DocSetQuery) — Tooling for Agents to Create Markdown Documentation from DocSet Bundles.
 - [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) — #1 Persistent memory for AI coding agents based on real-world benchmarks.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
