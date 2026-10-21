@@ -9,6 +9,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 ## Stars
 
 - [adkit/ads-skills](https://github.com/adkit/ads-skills) — Claude skills to run ads: advertising & marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok & more.
+- [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) — The job search that runs on your machine.
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Starred repository.
 - [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) — Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker.
 - [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) — Starred repository.
@@ -28,7 +29,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume) — free online AI resume editor，the only official website is  https://magicv.art.
 - [Kappaemme-git/codex-first-customer-finder-skill](https://github.com/Kappaemme-git/codex-first-customer-finder-skill) — A Codex skill that finds evidence-backed potential first customers from recent public signals.
 - [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) — A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups.
-- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — The job search that runs on your machine.
 - [marmelab/atomic-crm](https://github.com/marmelab/atomic-crm) — A full-featured CRM built with React, shadcn/ui, and Supabase.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill) — Starred repository.
 - [open-legal-products/mike](https://github.com/open-legal-products/mike) — OSS Legal AI Platform.

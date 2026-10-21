@@ -12,10 +12,10 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [AbdelStark/awesome-jepa](https://github.com/AbdelStark/awesome-jepa) — Curated resources for JEPA (Joint Embedding Predictive Architecture) world models and self-supervised learning.
 - [Avarok-Cybersecurity/atlas](https://github.com/Avarok-Cybersecurity/atlas) — Pure Rust Inference Engine.
 - [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
+- [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) — Never stop coding.
 - [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) — A curated list of awesome Deep Learning tutorials, projects and communities.
 - [datalab-to/chandra](https://github.com/datalab-to/chandra) — OCR model that handles complex tables, forms, handwriting with full layout.
 - [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) — Starred repository.
-- [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — Never stop coding.
 - [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) — LIBERATED AI CHAT.
 - [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) — Fast, flexible LLM inference.
 - [facebookresearch/tribev2](https://github.com/facebookresearch/tribev2) — This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction.
