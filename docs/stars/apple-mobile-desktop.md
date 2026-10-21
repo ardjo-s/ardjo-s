@@ -23,7 +23,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst) — Automatic tiling window manager for macOS à la xmonad.
 - [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app) — Free up your Mac.
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice) — Powerful menu bar manager for macOS.
-- [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create amazing custom iOS keyboards with Swift & SwiftUI.
+- [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit) — Create custom iOS keyboards with Swift & SwiftUI.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify) — Turn TUI apps into real macOS applications.
 - [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) — Open-Source fast local computer use.
 - [omacom/omarchy](https://github.com/omacom/omarchy) — Beautiful, Modern & Opinionated Linux.
@@ -37,7 +37,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [realfishsam/agent-notch](https://github.com/realfishsam/agent-notch) — The open-source alternative to vibe-island.
 - [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) — Fast, scriptable CLI for the App Store Connect API.
 - [rudrankriyam/Foundation-Models-Framework-Lab](https://github.com/rudrankriyam/Foundation-Models-Framework-Lab) — A practical lab for building, testing, and evaluating apps with Apple's Foundation Models framework.
-- [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) — The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone.
+- [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) — The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone    Ca: H2mNeSJV75VuQpGA9C11FwWoT9DU7sMCYUNVaMyQpump.
 - [shobhit99/SuperIsland](https://github.com/shobhit99/SuperIsland) — Dynamic Island for MacOS — with Extensions.
 - [Shpigford/clearly](https://github.com/Shpigford/clearly) — Markdown editor for Mac, iOS and iPadOS.
 - [signerlabs/ShipSwift](https://github.com/signerlabs/ShipSwift) — AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.
