@@ -54,6 +54,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [vercel-labs/opensrc](https://github.com/vercel-labs/opensrc) — Fetch source code for npm packages to give AI coding agents deeper context.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) — Replace port numbers with stable, named local URLs.
 - [warpdotdev/warp](https://github.com/warpdotdev/warp) — Warp is an agentic development environment, born out of the terminal.
+- [y-s-z/Arcforge](https://github.com/y-s-z/Arcforge) — Open source Architecture design IDE for building and visualizing backend logic.
 - [yamadashy/repomix](https://github.com/yamadashy/repomix) — 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.
-- [ysz7/Arcforge](https://github.com/ysz7/Arcforge) — Open source Architecture design IDE for building and visualizing backend logic.
 - [zed-industries/zed](https://github.com/zed-industries/zed) — Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
