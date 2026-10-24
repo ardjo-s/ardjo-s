@@ -5,13 +5,19 @@ on:
     # 07:00 and 19:00 UTC — aligns with local tokscale sync every 12h
     - cron: "0 7,19 * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate without committing generated updates
+        type: boolean
+        default: true
 
 permissions:
   contents: write
 
 jobs:
   refresh-embed-cache:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, celesto-micro]
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -25,6 +31,7 @@ jobs:
           grep -qE "&v=[0-9]{10}" README.md
 
       - name: Commit if README changed
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
         run: |
           if git diff --quiet README.md; then
             echo "README unchanged (same cache day)."
