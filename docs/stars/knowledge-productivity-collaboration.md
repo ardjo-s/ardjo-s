@@ -118,5 +118,5 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) — A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.
 - [xaelophone/hermes](https://github.com/xaelophone/hermes) — Markdown editor with intelligence.
 - [Yeachan-Heo/My-Jogyo](https://github.com/Yeachan-Heo/My-Jogyo) — Your one-click scientific research lab for Opencode - with seamless .ipynb and REPL integration.
-- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.
+- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — Privacy first AI meeting note taker.
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) — A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.
