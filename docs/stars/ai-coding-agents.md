@@ -53,6 +53,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [openai/symphony](https://github.com/openai/symphony) — Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
 - [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — A coding agent for open models like Kimi K3 and GLM 5.3.
 - [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) — Open-source (Apache-2.0) orchestrator for Claude Code, Codex & 30+ coding agents.
+- [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) — Superset is an agentic IDE to orchestrate 100+ coding agents in parallel.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code) — Starred repository.
 - [rebel0789/codexpro](https://github.com/rebel0789/codexpro) — Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.
 - [regenrek/codex-planr](https://github.com/regenrek/codex-planr) — Simple tasks for Codex.
@@ -63,7 +64,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [snarktank/ralph](https://github.com/snarktank/ralph) — Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
 - [stablyai/orca](https://github.com/stablyai/orca) — Orca is the place for working with a fleet of agents (e.g.
 - [standardagents/dmux](https://github.com/standardagents/dmux) — A dev agent multiplexer for git worktrees and coding agents.
-- [superset-sh/superset](https://github.com/superset-sh/superset) — Superset is an agentic IDE to orchestrate 100+ coding agents in parallel.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) — AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
 - [warpdotdev/oz-agent-action](https://github.com/warpdotdev/oz-agent-action) — Use the Oz coding agent in GitHub Actions.
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0.
