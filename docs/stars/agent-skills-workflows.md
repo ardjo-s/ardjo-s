@@ -41,7 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) — A collection of GPT system prompts and various prompt injection/leaking knowledge.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins) — Starred repository.
 - [mattpocock/skills](https://github.com/mattpocock/skills) — Skills for Real Engineers.
-- [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — 162 production-ready AI agent templates for OpenClaw.
+- [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — 196 production-ready AI agent templates for OpenClaw.
 - [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) — Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.
 - [michaelshimeles/rstack](https://github.com/michaelshimeles/rstack) — Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops.
 - [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) — Starred repository.

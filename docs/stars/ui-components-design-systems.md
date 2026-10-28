@@ -34,8 +34,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) — Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner) — An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) — A list of developer portfolios for your inspiration.
-- [facebook/astryx](https://github.com/facebook/astryx) — An open source design system that's fully customizable and agent ready.
-- [facebook/stylex](https://github.com/facebook/stylex) — StyleX is the styling system for ambitious user interfaces.
 - [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) — A guide on how to use the Figma MCP server.
 - [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) — The best design tools and plugins for everything 👉.
 - [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — A format specification for describing a visual identity to coding agents.
@@ -63,6 +61,8 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [lukeed/clsx](https://github.com/lukeed/clsx) — A tiny (239B) utility for constructing `className` strings conditionally.
 - [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md) — 200 production-grade DESIGN.md design systems for the world's best apps.
 - [MengTo/Skills](https://github.com/MengTo/Skills) — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
+- [meta/astryx](https://github.com/meta/astryx) — An open source design system that's fully customizable and agent ready.
+- [meta/stylex](https://github.com/meta/stylex) — StyleX is the styling system for ambitious user interfaces.
 - [mickadesign/fluid-functionalism](https://github.com/mickadesign/fluid-functionalism) — Starred repository.
 - [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) — DialKit is a SwiftUI package for editing and previewing interface updates live.
 - [mui/base-ui](https://github.com/mui/base-ui) — Unstyled UI components for building accessible web apps and design systems.
