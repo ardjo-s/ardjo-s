@@ -42,7 +42,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk) — Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [EveryInc/tend](https://github.com/EveryInc/tend) — grow what you know.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
-- [farzaa/clicky](https://github.com/farzaa/clicky) — Starred repository.
+- [farzaa/clicky](https://github.com/farzaa/clicky) — The open-source project HeyClicky grew out of.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) — freeCodeCamp.org's open-source codebase and curriculum.
 - [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally.
 - [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew) — Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.

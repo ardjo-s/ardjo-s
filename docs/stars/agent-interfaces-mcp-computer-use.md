@@ -16,7 +16,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) — Let Claude Code, Codex or Cursor use your real Chrome, logged in as you.
 - [browser-use/browser-use](https://github.com/browser-use/browser-use) — Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
 - [browser-use/terminal](https://github.com/browser-use/terminal) — Terminal UI to get stuff done in the browser.
-- [callstack/agent-device](https://github.com/callstack/agent-device) — Mobile app automation and verification for AI coding agents.
+- [callstack/agent-device](https://github.com/callstack/agent-device) — Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.
 - [ComposioHQ/composio](https://github.com/ComposioHQ/composio) — Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
 - [e2b-dev/desktop](https://github.com/e2b-dev/desktop) — E2B Desktop Sandbox for LLMs.
