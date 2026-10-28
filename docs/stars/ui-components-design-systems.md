@@ -74,7 +74,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) — AI-native design editor.
 - [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) — Open-source Claude Design alternative.
 - [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes) — Perfect Next.js dark mode in 2 lines of code.
-- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — The design language that makes your AI harness better at design.
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — The design vocabulary for your coding agent.
 - [petyosi/react-virtuoso](https://github.com/petyosi/react-virtuoso) — The most powerful virtual list component for React.
 - [pheralb/code-blocks](https://github.com/pheralb/code-blocks) — ✨ A set of UI components & utilities to show your code beautifully.
 - [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) — Build your own design apps with AI.
