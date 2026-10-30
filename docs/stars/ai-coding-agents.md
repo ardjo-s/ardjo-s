@@ -30,7 +30,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [Emanuele-web04/remodex](https://github.com/Emanuele-web04/remodex) — Remote Control for Codex.
 - [Emanuele-web04/synara](https://github.com/Emanuele-web04/synara) — The best place to build with your AI sub.
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro) — ⚒️ The open source dark software factory for expert engineers.
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent.
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more.
 - [generalaction/emdash](https://github.com/generalaction/emdash) — Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
 - [get-bb/bb](https://github.com/get-bb/bb) — The agent IDE that builds itself.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) — Orchestrate multiple coding agents from desktop and mobile.
@@ -41,7 +41,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [kitze/council](https://github.com/kitze/council) — 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
 - [ksimback/looper](https://github.com/ksimback/looper) — Design visual, review-gated agent loops for Claude Code before you run them.
 - [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate) — Talk to one agent.
-- [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) — An Open-Source Asynchronous Coding Agent.
+- [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) — LangChain's software factory.
 - [lnikell/loopndroll](https://github.com/lnikell/loopndroll) — Keep Codex running forever.
 - [loperanger7/gstack-auto](https://github.com/loperanger7/gstack-auto) — Semi-Autonomous gstack Orchestration: Build with a strong product spec and let Garry Tan's gstack figure out the rest.
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) — Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
