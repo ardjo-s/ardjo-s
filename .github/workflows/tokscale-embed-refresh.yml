@@ -1,37 +1,45 @@
-name: Refresh Tokscale embed on profile README
+name: Refresh Tokscale profile images
 
 on:
   schedule:
-    # 07:00 and 19:00 UTC — aligns with local tokscale sync every 12h
-    - cron: "0 7,19 * * *"
+    # Avoid the busy top of the hour. GitHub schedules can still be delayed.
+    - cron: "23 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: tokscale-images-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  refresh-embed-cache:
+  refresh-images:
+    # Standard hosted runners are free for this public repository.
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - name: Bump embed cache-buster in README
-        run: |
-          EMBED_V=$(date -u +%Y%m%d%H)
-          echo "EMBED_V=$EMBED_V" >> "$GITHUB_ENV"
-          perl -pi -e "s/&v=[0-9]*/&v=$EMBED_V/g" README.md
-          grep -q "v=${EMBED_V}" README.md
-          # Fail loudly if perl did not write YYYYMMDDHH (empty $EMBED_V broke bumps in May 2026).
-          grep -qE "&v=[0-9]{10}" README.md
+      - name: Download and validate both cards
+        run: python3 scripts/refresh-tokscale-embed.py
 
-      - name: Commit if README changed
+      - name: Publish changed images
         run: |
-          if git diff --quiet README.md; then
-            echo "README unchanged (same cache day)."
+          git add assets/tokscale/light.svg assets/tokscale/dark.svg
+          if git diff --cached --quiet; then
+            echo "Tokscale images unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore: refresh Tokscale embed cache (${EMBED_V})"
-          git push
+          git commit -m "chore: refresh Tokscale profile images"
+          # The stars workflow may have pushed while we downloaded the images.
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1

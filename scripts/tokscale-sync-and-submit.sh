@@ -14,3 +14,10 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 bunx tokscale cursor sync
 bunx tokscale submit
+
+# Optional immediate refresh; the hourly workflow is the fallback if gh is absent
+# or this machine is not authenticated with Actions write permission.
+if command -v gh >/dev/null 2>&1; then
+  gh workflow run tokscale-embed-refresh.yml --repo ardjo-s/ardjo-s --ref main ||
+    echo "Tokscale submitted; image refresh will use the hourly schedule." >&2
+fi
