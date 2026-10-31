@@ -27,153 +27,192 @@
 </a>
 <!-- tokscale-embed-end -->
 
+<!-- starred-repos-start -->
 ## ⭐ Starred Repos
 
 <a href="https://github.com/ardjo-s?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
+
+1,315 public repositories · 26 categories · [Browse the catalog](docs/stars/README.md)
 
 ### 🤖 AI Coding Agents
 
 AI agents whose primary job is building and maintaining software.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/ai-coding-agents.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Coding Agents summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ai-coding-agents"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open AI Coding Agents list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ai-coding-agents.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Coding Agents summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-coding-agents.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Coding Agents repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🕸 Agent Platforms & Orchestration
+### 🕸 AI Assistants, Frameworks & Orchestration
 
-Frameworks and platforms for building, coordinating and operating agent systems.<br>
+General-purpose AI assistants, agent frameworks and orchestration platforms.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/agent-platforms-orchestration.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Agent Platforms & Orchestration summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/agent-platforms-orchestration"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Agent Platforms & Orchestration list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ai-assistants-frameworks-orchestration.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Assistants, Frameworks &amp; Orchestration summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-assistants-frameworks-orchestration.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Assistants, Frameworks &amp; Orchestration repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🧰 Agent Skills & Workflows
+### 🧰 Agent Methods, Skills & Configuration
 
-Reusable agent skills, prompts, playbooks and workflows.<br>
+Reusable agent methods, instructions, skills, prompts and configuration.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/agent-skills-workflows.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Agent Skills & Workflows summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/agent-skills-workflows"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Agent Skills & Workflows list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/agent-methods-skills-configuration.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Agent Methods, Skills &amp; Configuration summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/agent-methods-skills-configuration.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Agent Methods, Skills &amp; Configuration repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🔌 Agent Interfaces, MCP & Computer Use
+### 🔌 Agent Tools & Environments
 
-Generic MCP servers, tool interfaces, sandboxes and computer-use layers for agents.<br>
+Agent tools, MCP interfaces, sandboxes and computer-use environments.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/agent-interfaces-mcp-computer-use.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Agent Interfaces, MCP & Computer Use summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/agent-interfaces-mcp-computer-use"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Agent Interfaces, MCP & Computer Use list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/agent-tools-environments.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Agent Tools &amp; Environments summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/agent-tools-environments.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Agent Tools &amp; Environments repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🧠 AI Models, Training & Inference
+### 💭 AI Memory, Context & RAG
 
-Models, training systems, inference runtimes and multimodal foundations.<br>
+Memory, context management, semantic retrieval and RAG for AI systems.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/ai-models-training-inference.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Models, Training & Inference summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ai-models-training-inference"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open AI Models, Training & Inference list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ai-memory-context-rag.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Memory, Context &amp; RAG summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-memory-context-rag.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Memory, Context &amp; RAG repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 💭 AI Memory, RAG & Retrieval
+### 🧠 AI Models & Training
 
-Memory, embeddings, indexing and retrieval systems for AI context.<br>
+Model architectures, machine learning, datasets, fine-tuning and training.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/ai-memory-rag-retrieval.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Memory, RAG & Retrieval summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ai-memory-rag-retrieval"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open AI Memory, RAG & Retrieval list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ai-models-training.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Models &amp; Training summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-models-training.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Models &amp; Training repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### ⚡ AI Inference & Gateways
+
+Inference runtimes, model servers, API gateways and request routing.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/ai-inference-gateways.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Inference &amp; Gateways summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-inference-gateways.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Inference &amp; Gateways repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
 ### 📏 AI Evaluation & Observability
 
-Evaluation, tracing, usage, cost and quality tooling for models and agents.<br>
+AI evaluations, traces, diagnostics, token usage, costs and quotas.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/ai-evaluation-observability.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Evaluation & Observability summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ai-evaluation-observability"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open AI Evaluation & Observability list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ai-evaluation-observability.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Evaluation &amp; Observability summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-evaluation-observability.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Evaluation &amp; Observability repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🧱 Languages, Frameworks & SDKs
+### 🎙️ Voice, Audio & Music
 
-General-purpose languages, libraries, application frameworks and SDKs.<br>
+Speech, dictation, transcription, audio processing and music.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/languages-frameworks-sdks.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Languages, Frameworks & SDKs summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/languages-frameworks-sdks"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Languages, Frameworks & SDKs list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/voice-audio-music.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Voice, Audio &amp; Music summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/voice-audio-music.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Voice, Audio &amp; Music repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### ⌨️ Developer Tools & CLI
+### 🎬 Image, Video & Presentations
 
-Developer CLIs, terminals, editors, Git tools, package managers and code intelligence.<br>
+Image and video creation, capture, editing, animation and presentations.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/developer-tools-cli.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Developer Tools & CLI summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/developer-tools-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Developer Tools & CLI list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/image-video-presentations.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Image, Video &amp; Presentations summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/image-video-presentations.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Image, Video &amp; Presentations repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### ✅ Testing, QA & Code Quality
+### 🎨 UI & Product Design
 
-Testing, debugging, review, verification and release-quality tooling.<br>
+UI components, design systems, typography, prototyping and product design.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/testing-qa-code-quality.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Testing, QA & Code Quality summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/testing-qa-code-quality"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Testing, QA & Code Quality list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/ui-product-design.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read UI &amp; Product Design summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ui-product-design.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse UI &amp; Product Design repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🌐 Web Engineering & Browsers
+### 🧱 App, Web & Mobile Development
 
-Browser engines, web APIs, backends, protocols and web performance.<br>
+Web, backend, native and mobile frameworks for building applications.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/web-engineering-browsers.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Web Engineering & Browsers summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/web-engineering-browsers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Web Engineering & Browsers list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/app-web-mobile-development.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read App, Web &amp; Mobile Development summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/app-web-mobile-development.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse App, Web &amp; Mobile Development repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🚀 Cloud, DevOps & Self-Hosting
+### ⌨️ Developer Tools & Languages
 
-Deployment, containers, CI/CD, hosting, runtimes and self-hosted infrastructure.<br>
+Languages, editors, terminals, Git tools and general developer resources.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/cloud-devops-self-hosting.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Cloud, DevOps & Self-Hosting summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/cloud-devops-self-hosting"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Cloud, DevOps & Self-Hosting list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/developer-tools-languages.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Developer Tools &amp; Languages summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/developer-tools-languages.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Developer Tools &amp; Languages repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🗄 Data Platforms & Databases
+### ✅ Testing, Debugging & Code Quality
 
-Databases, analytics, pipelines, metadata and operational search.<br>
+Software testing, debugging, code review and technical quality checks.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/data-platforms-databases.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Data Platforms & Databases summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/data-platforms-databases"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Data Platforms & Databases list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/testing-debugging-code-quality.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Testing, Debugging &amp; Code Quality summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/testing-debugging-code-quality.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Testing, Debugging &amp; Code Quality repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### ⚙️ Automation, Scraping & Integrations
+### 🚀 Systems, Cloud & DevOps
 
-Crawling, extraction, workflow automation and service integrations.<br>
+Operating systems, networking, deployment, cloud infrastructure and DevOps.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/automation-scraping-integrations.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Automation, Scraping & Integrations summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/automation-scraping-integrations"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Automation, Scraping & Integrations list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/systems-cloud-devops.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Systems, Cloud &amp; DevOps summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/systems-cloud-devops.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Systems, Cloud &amp; DevOps repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🎨 UI Components & Design Systems
+### 🗄 Data, Databases & GIS
 
-Interface components, CSS, design systems, accessibility and UI visualization.<br>
+Databases, data pipelines, analytics, visualization and geospatial tools.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/ui-components-design-systems.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read UI Components & Design Systems summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/ui-components-design-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open UI Components & Design Systems list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/data-databases-gis.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Data, Databases &amp; GIS summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/data-databases-gis.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Data, Databases &amp; GIS repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🎬 Creative Media & Content Tools
+### ⚙️ Web & Document Automation
 
-Image, video, audio, animation and content-production tools.<br>
+Web extraction, scraping, OCR, document conversion and automation.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/creative-media-content-tools.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Creative Media & Content Tools summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/creative-media-content-tools"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Creative Media & Content Tools list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
-### 🎮 Games, 3D, Robotics & Hardware
-
-Games, 3D, spatial computing, CAD, robotics and physical systems.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/games-3d-robotics-hardware.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Games, 3D, Robotics & Hardware summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/games-3d-robotics-hardware"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Games, 3D, Robotics & Hardware list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
-### 💻 Apple, Mobile & Desktop
-
-macOS, iOS, Android, Electron, native applications and device frameworks.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/apple-mobile-desktop.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Apple, Mobile & Desktop summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/apple-mobile-desktop"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Apple, Mobile & Desktop list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
-### 🗂 Knowledge, Productivity & Collaboration
-
-Notes, PKM, documentation, tasks, calendars and collaborative work tools.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/knowledge-productivity-collaboration.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Knowledge, Productivity & Collaboration summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/knowledge-productivity-collaboration"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Knowledge, Productivity & Collaboration list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/web-document-automation.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Web &amp; Document Automation summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/web-document-automation.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Web &amp; Document Automation repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
 ### 🔐 Security, Privacy & Identity
 
-Security, secrets, authentication, identity, privacy and governance.<br>
+Authentication, identity, secrets, privacy and security assessment.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/security-privacy-identity.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Security, Privacy & Identity summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/security-privacy-identity"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Security, Privacy & Identity list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/security-privacy-identity.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Security, Privacy &amp; Identity summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/security-privacy-identity.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Security, Privacy &amp; Identity repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 📈 Business, Growth & Careers
+### 🗂 Knowledge & Productivity
 
-CRM, marketing, sales, recruiting, careers, finance and commerce.<br>
+Notes, writing, reading, tasks, calendars and collaboration.<br>
 <div style="margin-top: 10px;">
-<a href="docs/stars/business-growth-careers.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Business, Growth & Careers summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="https://github.com/stars/ardjo-s/lists/business-growth-careers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Open Business, Growth & Careers list" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+<a href="docs/stars/knowledge-productivity.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Knowledge &amp; Productivity summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/knowledge-productivity.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Knowledge &amp; Productivity repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
+
+### 📈 Marketing, Sales & Careers
+
+Marketing, SEO, sales, customer relationships, recruiting and careers.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/marketing-sales-careers.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Marketing, Sales &amp; Careers summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/marketing-sales-careers.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Marketing, Sales &amp; Careers repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 💼 Finance, Legal & Business Operations
+
+Finance, payments, legal work and business operations.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/finance-legal-business-operations.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Finance, Legal &amp; Business Operations summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/finance-legal-business-operations.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Finance, Legal &amp; Business Operations repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 🔬 Research, Science & Health
+
+Research, source discovery, science, health and fitness.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/research-science-health.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Research, Science &amp; Health summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/research-science-health.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Research, Science &amp; Health repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 🎮 Games & 3D
+
+Games, rendering, geometry, avatars and interactive 3D worlds.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/games-3d.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Games &amp; 3D summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/games-3d.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Games &amp; 3D repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 🦾 Robotics, Hardware & CAD
+
+Robotics, electronics, embedded systems, CAD and physical fabrication.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/robotics-hardware-cad.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Robotics, Hardware &amp; CAD summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/robotics-hardware-cad.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Robotics, Hardware &amp; CAD repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 💻 Browsers, Desktop & Device Utilities
+
+Browsers, desktop utilities, file transfers and device tools.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/browsers-desktop-device-utilities.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Browsers, Desktop &amp; Device Utilities summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/browsers-desktop-device-utilities.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Browsers, Desktop &amp; Device Utilities repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 📚 AI Engineering & Learning
+
+AI application SDKs, structured outputs, examples and engineering courses.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/ai-engineering-learning.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Engineering &amp; Learning summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-engineering-learning.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Engineering &amp; Learning repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+<!-- starred-repos-end -->
