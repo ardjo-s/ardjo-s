@@ -20,7 +20,6 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) — The one and only agent harness for complex codebases.
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — OmO: Just type "mass ulw" keyword with your prompt.
 - [coleam00/Archon](https://github.com/coleam00/Archon) — The first open-source harness builder for AI coding.
-- [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) — An open-source background agents coding system.
 - [convex/chef](https://github.com/convex/chef) — The only AI app builder that knows backend.
 - [cursor/cookbook](https://github.com/cursor/cookbook) — Starred repository.
 - [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max) — The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model.
@@ -48,6 +47,7 @@ Agent note: generated from the authenticated GitHub stars list; do not edit manu
 - [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle) — Orchestrate sandboxed coding agents in TypeScript with sandcastle.run().
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe) — Expo app that builds Expo apps.
 - [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) · archived — [Archived] Legacy Python Kimi CLI, no longer maintained.
+- [open-inspect/background-agents](https://github.com/open-inspect/background-agents) — An open-source background agents coding system.
 - [openai/codex](https://github.com/openai/codex) — Lightweight coding agent that runs in your terminal.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
 - [openai/symphony](https://github.com/openai/symphony) — Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
