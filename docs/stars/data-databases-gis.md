@@ -2,7 +2,7 @@
 
 > Databases, data pipelines, analytics, visualization and geospatial tools.
 
-**32 repositories.** [Browse all categories →](README.md)
+**35 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,6 +12,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [ardjo-s/minilytics](https://github.com/ardjo-s/minilytics) · fork · review needed: Opensource Revenue-first analytics for indie hackers &amp; solo founders.
+- [ashayas/icloud-s3](https://github.com/ashayas/icloud-s3): An S3-compatible object store backed by iCloud Shared Photo Albums.
 - [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) · review needed: Open-source intelligence for the global theater.
 - [cartesiancs/map3d](https://github.com/cartesiancs/map3d): 🗺️ Generate City 3D map with R3F.
 - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse): ClickHouse® is a real-time analytics database management system.
@@ -22,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [HelixDB/helix-db](https://github.com/HelixDB/helix-db): HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage.
 - [hydra-db/hydradb](https://github.com/hydra-db/hydradb): HydraDB - fast graph database on object storage.
 - [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap): Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data.
+- [jitsucom/jitsu](https://github.com/jitsucom/jitsu): Jitsu is an open-source Segment alternative.
 - [Kanaries/graphic-walker](https://github.com/Kanaries/graphic-walker): An open source alternative to Tableau.
 - [maaslalani/sheets](https://github.com/maaslalani/sheets): Terminal based spreadsheet tool.
 - [microsoft/data-formulator](https://github.com/microsoft/data-formulator): 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
@@ -39,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [plausible/analytics](https://github.com/plausible/analytics): Open source, privacy-first web analytics.
 - [PostHog/posthog](https://github.com/PostHog/posthog): :hedgehog: PostHog is the leading platform for building self-driving products.
 - [qdrant/qdrant](https://github.com/qdrant/qdrant): Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.
+- [RavelloH/InsightFlare](https://github.com/RavelloH/InsightFlare): A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.
 - [shivamanupadi/traks](https://github.com/shivamanupadi/traks): Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes.
 - [sshuair/awesome-gis](https://github.com/sshuair/awesome-gis): 😎Awesome GIS is a collection of geospatial related sources, including cartographic tools, geoanalysis tools, developer tools, data, conference &amp; communities, news, massive open online course, some amazing map sites, and more.
 - [surendrapandar/minilytics](https://github.com/surendrapandar/minilytics): Opensource Revenue-first analytics for indie hackers &amp; solo founders.

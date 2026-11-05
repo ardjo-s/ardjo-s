@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**20 repositories.** [Browse all categories →](README.md)
+**22 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -19,6 +19,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) · review needed: 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book): Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai.
 - [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) · review needed: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?.
+- [MEGA-DOT-DEV/examples](https://github.com/MEGA-DOT-DEV/examples): Examples for the MEGA developer course.
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) · review needed: 18 Lessons to Get Started Building AI Agents.
 - [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) · review needed: Generate text, images, video, speech, and music by MiniMax.
 - [Nicolepcx/ai-agents-the-definitive-guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide) · review needed: Repo for AI Agents The Definitive Guide.
@@ -29,5 +30,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering): A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
 - [typesafe-ai/skills](https://github.com/typesafe-ai/skills): Agent skills for building with TypeSafe's System One API.
+- [vercel-labs/ai-cli](https://github.com/vercel-labs/ai-cli): Generate anything from your terminal.
 - [vercel/ai](https://github.com/vercel/ai): The AI Toolkit for TypeScript.
 - [zaidmukaddam/swift-ai-sdk](https://github.com/zaidmukaddam/swift-ai-sdk): The AI SDK for your iOS and macOS Apps.

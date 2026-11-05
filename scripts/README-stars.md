@@ -4,6 +4,8 @@
 
 The profile keeps its existing headings, icons, spacing and light/dark ShieldCN badges. `Summary` opens a category overview; `Open` jumps to its repository list. These links refer to the curated pages in this repository. The native GitHub Star Lists are separate and have not been migrated by this change.
 
+The [2026-11-05 additions](../docs/stars/additions-2026-11-05.md) extend that baseline with 56 repositories (55 from the original failed job and one later live blocker), including four explicit category-boundary decisions for Ardjo. The offline catalog now contains 1,371 entries and 249 review flags. Original records and provenance remain unchanged; new records carry their own evidence URLs, read dates, content digests and source runs.
+
 ## Refresh
 
 The existing scheduled workflow reads the owner's public stars, refreshes their metadata and renders the category pages and the marked `Starred Repos` section. It never derives categories from the older native GitHub lists. The introduction, social links and Tokscale block stay outside the generated markers.

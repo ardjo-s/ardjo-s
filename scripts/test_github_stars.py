@@ -1,6 +1,7 @@
 """Protect curated classifications, public-only exports and existing profile styling."""
 import copy
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -22,9 +23,27 @@ class StarsTest(unittest.TestCase):
         stars.validate_catalog(self.catalog)
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
         self.assertEqual(len(groups), 26)
-        self.assertEqual(sum(map(len, groups.values())), 1315)
-        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 245)
+        self.assertEqual(sum(map(len, groups.values())), 1371)
+        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 249)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
+
+    def test_original_sol_records_are_unchanged(self):
+        original = [r for r in self.catalog['repositories'] if 'classification_source' not in r]
+        self.assertEqual(len(original), 1315)
+        self.assertEqual(sum(r['review_required'] for r in original), 245)
+        payload = json.dumps(sorted(original, key=lambda r: r['id']), ensure_ascii=False, sort_keys=True)
+        self.assertEqual(hashlib.sha256(payload.encode()).hexdigest(), 'a70d953d74fb3c15fdb1c327071f48805e1ed65d77b3e1979e881ed4d04b13c9')
+        additions = [r for r in self.catalog['repositories'] if 'classification_source' in r]
+        self.assertEqual(len(additions), 56)
+        self.assertEqual(sum(r['review_required'] for r in additions), 4)
+        for repo in additions:
+            self.assertTrue(repo['evidence_quote'])
+            self.assertTrue(repo['evidence_url'].startswith(repo['url'] + '/blob/'))
+            self.assertRegex(repo['evidence_sha256'], r'^[0-9a-f]{64}$')
+            self.assertEqual(repo['evidence_read_at'], '2026-11-05')
+            if repo['review_required']:
+                self.assertIn(repo['review_alternative'], {c['id'] for c in self.catalog['categories']})
+                self.assertTrue(repo['review_reason'])
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])
@@ -102,8 +121,8 @@ class StarsTest(unittest.TestCase):
             for href in re.findall(r'href="(docs/stars/[^"#]+)', readme.read_text()):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
-            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1315)
-            self.assertEqual(rendered.count(' · review needed'), 245)
+            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1371)
+            self.assertEqual(rendered.count(' · review needed'), 249)
 
 
 if __name__ == '__main__':

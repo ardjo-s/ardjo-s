@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**35 repositories.** [Browse all categories →](README.md)
+**38 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,8 +16,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BenedictKing/ccx](https://github.com/BenedictKing/ccx): Claude / Codex / Gemini API Proxy - CCX.
 - [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute): Never stop coding.
 - [craigsdennis/talk-to-javascript-openai-workers](https://github.com/craigsdennis/talk-to-javascript-openai-workers) · review needed: Demonstrates how to protect your OpenAI API Key using a Cloudflare Worker to serve your ephemeral token and then do client side tool calling.
+- [ddalcu/mlx-serve](https://github.com/ddalcu/mlx-serve): Native LLM inference server for Apple Silicon.
 - [decolua/9router](https://github.com/decolua/9router): Unlimited FREE AI coding.
 - [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer): DeepInfer: High-performance, large-scale inference framework for DeepSeek models.
+- [deepseek-ai/deepseek-recipe](https://github.com/deepseek-ai/deepseek-recipe): Starred repository.
 - [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs): Fast, flexible LLM inference.
 - [experientiallabs/experiential](https://github.com/experientiallabs/experiential): Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models.
 - [floneum/kalosm](https://github.com/floneum/kalosm) · review needed: Instant, controllable, local pre-trained AI models in Rust.
@@ -29,6 +31,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api): Starred repository.
 - [mw00/project-maya](https://github.com/mw00/project-maya): Project Maya - run GLM-5.3-Flash (321B MoE), DeepSeek-V4.1-Flash-1017 (748B MoE) and MiniMax-M3.1-Flash (428B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows.
 - [navaneethkrishnansuresh/Inference-Engineering](https://github.com/navaneethkrishnansuresh/Inference-Engineering): Starred repository.
+- [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm) · review needed: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 - [ollama/ollama](https://github.com/ollama/ollama): Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center): This is a WebUI interface based on CLI-Proxy-API, designed to simplify configuration modifications and runtime status monitoring.

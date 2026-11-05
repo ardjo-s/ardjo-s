@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**31 repositories.** [Browse all categories →](README.md)
+**32 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi): Moshi is a speech-text foundation model and full-duplex spoken dialogue framework.
 - [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot): Ears for coding agents: let AI hear, review and make sound.
 - [Lesur-ai/transkryptor](https://github.com/Lesur-ai/transkryptor): Transkryptor est une application web sophistiquée conçue pour faciliter la transcription de fichiers audio Apple M4A, l'analyse des transcriptions, et la génération de synthèses.
+- [lucataco/superkeet](https://github.com/lucataco/superkeet): macOS app for voice-to-text.
 - [matthartman/ghost-pepper](https://github.com/matthartman/ghost-pepper): 100% private on-device voice models for speech-to-text and meeting transcription on macOS.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Open-Source Frontier Voice AI.
 - [NVIDIA-AI-Blueprints/pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast): Transform PDFs into AI podcasts for engaging on-the-go audio content.

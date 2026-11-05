@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**112 repositories.** [Browse all categories →](README.md)
+**114 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -22,6 +22,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ardjo-s/ardjo-s](https://github.com/ardjo-s/ardjo-s) · review needed: Starred repository.
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) · review needed: ObsidianOS - Work Vault.
+- [bholmesdev/hubble.md](https://github.com/bholmesdev/hubble.md): The best notepad for you and your agents.
 - [blader/humanizer](https://github.com/blader/humanizer) · review needed: Agent skill that removes signs of AI-generated writing from text.
 - [block/buzz](https://github.com/block/buzz): A hive mind communication platform.
 - [boriemannetje/apex-notes](https://github.com/boriemannetje/apex-notes): Apex Notes, Obsidian for hierarchical thinkers.
@@ -43,6 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [EfficientStreet/youtube-subscriptions-ingest](https://github.com/EfficientStreet/youtube-subscriptions-ingest): Pull YouTube subscription metadata into a real cross-linked knowledge graph in your second-brain vault.
 - [element-hq/element-call](https://github.com/element-hq/element-call): Group calls powered by Matrix.
 - [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios): Next generation Matrix client for iOS built with SwiftUI on top of matrix-rust-sdk.
+- [emanuele-em/kanzo](https://github.com/emanuele-em/kanzo): Self-hosted, sharable kanban for humans and agents.
 - [every-app/open-mail](https://github.com/every-app/open-mail): A team inbox with an AI agent that reads, drafts and sends email on your domain.
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk): Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) · review needed: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.

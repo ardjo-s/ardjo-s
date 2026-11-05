@@ -2,7 +2,7 @@
 
 > Web extraction, scraping, OCR, document conversion and automation.
 
-**24 repositories.** [Browse all categories →](README.md)
+**25 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -24,6 +24,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl): Supercharge your AI agents with data from the web and beyond.
 - [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector): Fast Rust library for PDF inspection, classification, and text extraction.
 - [google/langextract](https://github.com/google/langextract) · review needed: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+- [jkrup/jeveryword](https://github.com/jkrup/jeveryword): Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
 - [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint): The awesome document factory.
 - [microsoft/markitdown](https://github.com/microsoft/markitdown): Python tool for converting files and office documents to Markdown.
 - [openclaw/notcrawl](https://github.com/openclaw/notcrawl) · review needed: Local-first Notion crawler into SQLite and normalized Markdown.
