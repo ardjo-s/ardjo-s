@@ -24,7 +24,7 @@ class StarsTest(unittest.TestCase):
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
         self.assertEqual(len(groups), 26)
         self.assertEqual(sum(map(len, groups.values())), 1371)
-        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 249)
+        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 245)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
 
     def test_original_sol_records_are_unchanged(self):
@@ -35,15 +35,19 @@ class StarsTest(unittest.TestCase):
         self.assertEqual(hashlib.sha256(payload.encode()).hexdigest(), 'a70d953d74fb3c15fdb1c327071f48805e1ed65d77b3e1979e881ed4d04b13c9')
         additions = [r for r in self.catalog['repositories'] if 'classification_source' in r]
         self.assertEqual(len(additions), 56)
-        self.assertEqual(sum(r['review_required'] for r in additions), 4)
+        self.assertEqual(sum(r['review_required'] for r in additions), 0)
         for repo in additions:
             self.assertTrue(repo['evidence_quote'])
             self.assertTrue(repo['evidence_url'].startswith(repo['url'] + '/blob/'))
             self.assertRegex(repo['evidence_sha256'], r'^[0-9a-f]{64}$')
             self.assertEqual(repo['evidence_read_at'], '2026-11-05')
-            if repo['review_required']:
-                self.assertIn(repo['review_alternative'], {c['id'] for c in self.catalog['categories']})
-                self.assertTrue(repo['review_reason'])
+            if 'review_resolution' in repo:
+                resolution = repo['review_resolution']
+                self.assertEqual(resolution['category'], repo['category'])
+                self.assertEqual(resolution['reviewer'], 'Astra')
+                self.assertEqual(resolution['approved_by'], 'Ardjo')
+                self.assertTrue(resolution['previous_reason'])
+        self.assertEqual(sum('review_resolution' in r for r in additions), 4)
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])
@@ -122,7 +126,7 @@ class StarsTest(unittest.TestCase):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
             self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1371)
-            self.assertEqual(rendered.count(' · review needed'), 249)
+            self.assertEqual(rendered.count(' · review needed'), 245)
 
 
 if __name__ == '__main__':

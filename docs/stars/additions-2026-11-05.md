@@ -4,16 +4,16 @@ The exact 55 unknown public repositories were extracted from the [failed sync jo
 
 The 26 approved category definitions, all 1,315 original entries and their 245 review flags are unchanged. The original `Sol final` classification label and `2026-10-31` snapshot date still identify that baseline; each new entry records its own source run and evidence-read date. New entries use canonical GitHub names and stable node IDs from public repository metadata. Evidence URLs, exact README excerpts and SHA-256 digests record the material read. The URLs track default branches; digests identify the retrieved content even if the README later changes.
 
-## Decisions for Ardjo
+## Final category decisions
 
-These four assignments are provisional, explicitly marked `review_required: true`. Their evidence has been read; uncertainty concerns the category boundary. This uses the existing review-flag mechanism and does not bypass the unknown-repository guard.
+Astra confirmed these four categories on 2026-11-05, and Ardjo explicitly approved applying the decisions. Their four provisional review flags are resolved. The catalog preserves the previous alternatives and reasons in `review_resolution`, together with the reviewer, approval, date, final rationale and confidence. The original 245 review flags remain unchanged.
 
-| Repository | Provisional category | Alternative | Reason |
+| Repository | Final category | Confidence | Rationale |
 | --- | --- | --- | --- |
-| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology/blob/main/README.md) | AI Memory, Context & RAG | Data, Databases & GIS | La couche de contexte pour agents motive category_05 ; le catalogue sémantique, SQL et les métadonnées pourraient justifier category_16. |
-| [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm/blob/main/README.md) | AI Inference & Gateways | AI Models & Training | Le service et les optimisations d’inférence motivent category_07 ; le fine-tuning également documenté pourrait justifier category_06. |
-| [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra/blob/main/README.md) | Games & 3D | UI & Product Design | La maison 3D explorable motive category_23 ; la démonstration de landing page et de design au scroll pourrait justifier category_11. |
-| [Vela3202019/wisen](https://github.com/Vela3202019/wisen/blob/main/README.md) | AI Evaluation & Observability | Agent Methods, Skills & Configuration | Le diagnostic des sessions motive category_08 ; la production de corrections pour AGENTS.md et les skills pourrait justifier category_03. |
+| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | AI Memory, Context & RAG | high | La finalité dominante est une couche de contexte sémantique pour agents, avec retrieval par embeddings et génération de SQL contextualisée. |
+| [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm) | AI Inference & Gateways | high | L’exécution et l’optimisation de modèles existants dominent ; le fine-tuning est complémentaire et requiert une dépendance optionnelle. |
+| [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra) | Games & 3D | high | Le livrable est une scène architecturale 3D rendue en temps réel ; le défilement est son mode de navigation. |
+| [Vela3202019/wisen](https://github.com/Vela3202019/wisen) | AI Evaluation & Observability | moderate | Le produit analyse les traces de sessions, diagnostique les frictions et mesure les effets des corrections ; les instructions produites résultent de ce diagnostic. |
 
 ## Exact 55 additions
 
@@ -92,4 +92,4 @@ These four assignments are provisional, explicitly marked `review_required: true
 
 ## Export scope
 
-The committed export is generated offline from the curated snapshot: 1,371 entries, 26 categories, 249 review flags. It does not claim to be a fresh authenticated live inventory. The scheduled workflow remains responsible for live membership and metadata refresh. Its script and permissions are unchanged.
+The committed export is generated offline from the curated snapshot: 1,371 entries, 26 categories, 245 review flags. It does not claim to be a fresh authenticated live inventory. The scheduled workflow remains responsible for live membership and metadata refresh. Its script and permissions are unchanged.

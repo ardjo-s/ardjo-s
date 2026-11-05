@@ -18035,7 +18035,7 @@
         "multimodal",
         "MLX"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Run and fine-tune multimodal models on Apple Silicon.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
@@ -18044,8 +18044,16 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "1afb4c7d7cf7ca9d65eb007051e528defa2e93f6f9250ee293fb03a115492705",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684",
-      "review_alternative": "category_06",
-      "review_reason": "Le service et les optimisations d’inférence motivent category_07 ; le fine-tuning également documenté pourrait justifier category_06."
+      "review_resolution": {
+        "reviewer": "Astra",
+        "approved_by": "Ardjo",
+        "date": "2026-11-05",
+        "category": "category_07",
+        "confidence": "high",
+        "reason": "L’exécution et l’optimisation de modèles existants dominent ; le fine-tuning est complémentaire et requiert une dépendance optionnelle.",
+        "previous_alternative": "category_06",
+        "previous_reason": "Le service et les optimisations d’inférence motivent category_07 ; le fine-tuning également documenté pourrait justifier category_06."
+      }
     },
     {
       "id": "R_kgDOMypITA",
@@ -18570,7 +18578,7 @@
         "ontologie",
         "ontology"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "builds that layer from enterprise metadata, reconciles definitions across systems",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
@@ -18579,8 +18587,16 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "a2d3f9388c0a9f9a4c66581db59a1d3702524fa1601a2474caa06aac6eaf5128",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684",
-      "review_alternative": "category_16",
-      "review_reason": "La couche de contexte pour agents motive category_05 ; le catalogue sémantique, SQL et les métadonnées pourraient justifier category_16."
+      "review_resolution": {
+        "reviewer": "Astra",
+        "approved_by": "Ardjo",
+        "date": "2026-11-05",
+        "category": "category_05",
+        "confidence": "high",
+        "reason": "La finalité dominante est une couche de contexte sémantique pour agents, avec retrieval par embeddings et génération de SQL contextualisée.",
+        "previous_alternative": "category_16",
+        "previous_reason": "La couche de contexte pour agents motive category_05 ; le catalogue sémantique, SQL et les métadonnées pourraient justifier category_16."
+      }
     },
     {
       "id": "R_kgDONkAyFQ",
@@ -23802,7 +23818,7 @@
         "3D",
         "scroll"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "The floor plan is not a picture.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
@@ -23811,8 +23827,16 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "f924158828ea72d7cb90ff9a5f12fb9cfbadfa38dcd543a31a516eda31208a8a",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684",
-      "review_alternative": "category_11",
-      "review_reason": "La maison 3D explorable motive category_23 ; la démonstration de landing page et de design au scroll pourrait justifier category_11."
+      "review_resolution": {
+        "reviewer": "Astra",
+        "approved_by": "Ardjo",
+        "date": "2026-11-05",
+        "category": "category_23",
+        "confidence": "high",
+        "reason": "Le livrable est une scène architecturale 3D rendue en temps réel ; le défilement est son mode de navigation.",
+        "previous_alternative": "category_11",
+        "previous_reason": "La maison 3D explorable motive category_23 ; la démonstration de landing page et de design au scroll pourrait justifier category_11."
+      }
     },
     {
       "id": "R_kgDOSDfB9g",
@@ -28654,7 +28678,7 @@
         "sessions",
         "instructions"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "wisen reads your coding-agent sessions",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
@@ -28663,8 +28687,16 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "d03915f5e941766040d8a57693a5036cd6a381f3397227421d9698bb58b185c0",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684",
-      "review_alternative": "category_03",
-      "review_reason": "Le diagnostic des sessions motive category_08 ; la production de corrections pour AGENTS.md et les skills pourrait justifier category_03."
+      "review_resolution": {
+        "reviewer": "Astra",
+        "approved_by": "Ardjo",
+        "date": "2026-11-05",
+        "category": "category_08",
+        "confidence": "moderate",
+        "reason": "Le produit analyse les traces de sessions, diagnostique les frictions et mesure les effets des corrections ; les instructions produites résultent de ce diagnostic.",
+        "previous_alternative": "category_03",
+        "previous_reason": "Le diagnostic des sessions motive category_08 ; la production de corrections pour AGENTS.md et les skills pourrait justifier category_03."
+      }
     },
     {
       "id": "R_kgDORLCYiQ",
