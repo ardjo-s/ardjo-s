@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**62 repositories.** [Browse all categories →](README.md)
+**65 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [acher249/world-every-day](https://github.com/acher249/world-every-day): every day a new world will be generated.
 - [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender): Community plugin to control Blender 3D with any LLM of your choice.
 - [alattanzio/Box3DUnreal](https://github.com/alattanzio/Box3DUnreal): Box3DUnreal: Box3D Physics for Unreal Engine.
 - [Alchemist0823/three.quarks](https://github.com/Alchemist0823/three.quarks): Three.quarks is a general purpose particle system /  VFX engine for three.js.
@@ -25,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ConfettiFX/The-Forge](https://github.com/ConfettiFX/The-Forge): The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2.
 - [ctrl-cheeb-del/pokeheartgold](https://github.com/ctrl-cheeb-del/pokeheartgold): Full decompilation of Pokémon HeartGold and SoulSilver.
 - [effekseer/Effekseer](https://github.com/effekseer/Effekseer): Starred repository.
+- [EpicGames/unreal-engine-skills-for-claude-code-plugin](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin): Starred repository.
 - [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): 77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox.
 - [godotengine/godot](https://github.com/godotengine/godot): Godot Engine – Multi-platform 2D and 3D game engine.
 - [gokayfem/gaussian-splat-to-blender-nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes): Agent skill and toolkit for reconstructing Gaussian splats as editable Blender Geometry Nodes meshes and Shader Node materials.
@@ -56,6 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.
+- [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra) · review needed: A flat floor plan that becomes a house as you scroll.
 - [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin): Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents.
 - [seedds/nxnative](https://github.com/seedds/nxnative) · review needed: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).
 - [sloemo01/diorama](https://github.com/sloemo01/diorama): Pixel-art diorama playbook and Three.js code kit: research-first build workflow, locked camera, palette snap, ordered dither, inked contour, animated toy-scale cast, per-entity frame QA.

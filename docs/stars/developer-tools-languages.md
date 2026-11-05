@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**52 repositories.** [Browse all categories →](README.md)
+**54 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,10 +20,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow): Paste any GitHub URL → interactive architecture map.
 - [CarterT27/scion](https://github.com/CarterT27/scion): Implementation of Anthropic's version control system.
 - [cli/cli](https://github.com/cli/cli) · review needed: GitHub’s official command line tool.
+- [cloudflare/nimbus](https://github.com/cloudflare/nimbus): Docs for humans and agents, built on Astro.
 - [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding): Interactive architecture diagrams for codebases.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x): Master programming by recreating your favorite technologies from scratch.
 - [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff): The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS.
 - [dzhng/jevgrep](https://github.com/dzhng/jevgrep): Find code by asking what it does.
+- [earendil-works/djs](https://github.com/earendil-works/djs): Starred repository.
 - [ericdrowell/brometal](https://github.com/ericdrowell/brometal): BroMetal is an LLVM-inspired compiler that transforms TypeScript into highly optimized GPU shaders for WebGPU.
 - [feder-cr/git-ai](https://github.com/feder-cr/git-ai): Git designed for AI agents.
 - [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty): 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.

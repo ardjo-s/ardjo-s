@@ -2,7 +2,7 @@
 
 > Memory, context management, semantic retrieval and RAG for AI systems.
 
-**51 repositories.** [Browse all categories →](README.md)
+**53 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,6 +15,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) · review needed: Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents.
 - [Artistsyn/cortex_suite](https://github.com/Artistsyn/cortex_suite): Local MCP servers that give coding agents a reliable project memory.
 - [asimons81/hermes-dreaming](https://github.com/asimons81/hermes-dreaming): Staged self-improvement engine for Hermes-style memory, skill, and fact updates with explicit review and apply/discard gates.
+- [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon): The cross-harness, self-improving memory layer for AI agents.
 - [brunoqgalvao/claude-cache-keepalive](https://github.com/brunoqgalvao/claude-cache-keepalive) · review needed: Keep Anthropic prompt caches warm past 1 hour in opencodex and Claude Code; learns from your usage, switches itself off if it stops paying.
 - [busabase/busabase](https://github.com/busabase/busabase) · review needed: Open-source database &amp; workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human review on the writes that matter.
 - [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os): A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection.
@@ -40,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mex-memory/mex](https://github.com/mex-memory/mex) · review needed: Team memory for engineers and their AI agents.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode): Context window optimization for AI coding agents.
 - [nduckmink/arkon](https://github.com/nduckmink/arkon): Arkon: Enterprise AI Knowledge Hub &amp; MCP Server.
+- [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) · review needed: Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data.
 - [okyssta/Ariadne](https://github.com/okyssta/Ariadne) · archived: Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) · review needed: Open Source AI Platform - AI Chat with advanced features that works with every LLM.
 - [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context): A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) .

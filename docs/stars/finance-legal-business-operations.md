@@ -2,7 +2,7 @@
 
 > Finance, payments, legal work and business operations.
 
-**29 repositories.** [Browse all categories →](README.md)
+**31 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,6 +15,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anthropics/financial-services](https://github.com/anthropics/financial-services): Starred repository.
 - [BigoudOps/Libre-financement](https://github.com/BigoudOps/Libre-financement): Annuaire en français des moyens de financer un projet libre, hors sponsors classiques.
 - [Cloeille/picsou-finance](https://github.com/Cloeille/picsou-finance): Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.
+- [documenso/documenso](https://github.com/documenso/documenso): The Open Source DocuSign Alternative.
 - [docusealco/docuseal](https://github.com/docusealco/docuseal): Open source DocuSign alternative.
 - [enatega/food-delivery-multivendor](https://github.com/enatega/food-delivery-multivendor): Enatega is a fully customizable and scalable delivery management system that supports multiple business models and service verticals.
 - [gokapso/whatsapp-spend-tracker](https://github.com/gokapso/whatsapp-spend-tracker) · review needed: An agent that helps you manage daily expenses through whatsapp with Kapso and Chat SDK.
@@ -37,6 +38,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio): Build your own AI investment system.
 - [upstash/botstreet](https://github.com/upstash/botstreet): Agent Trading Arena --- Three AI agents.
 - [virattt/dexter](https://github.com/virattt/dexter): An autonomous agent for deep financial research.
+- [WellApp-ai/Well](https://github.com/WellApp-ai/Well): No more Sundays on Finance.
 - [whisper-money/whisper-money](https://github.com/whisper-money/whisper-money): Understand your personal finances.
 - [yamamuteki/scx](https://github.com/yamamuteki/scx): CLI that converts USD amounts in stdin to your local currency (works great with ccusage).
 - [zeusinsight/MoneyMission](https://github.com/zeusinsight/MoneyMission): Minimalist macOS menu bar app for chasing an earnings goal.
