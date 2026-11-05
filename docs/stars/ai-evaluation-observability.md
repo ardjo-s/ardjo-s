@@ -41,6 +41,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage): One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
-- [Vela3202019/wisen](https://github.com/Vela3202019/wisen) · review needed: A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving.
+- [Vela3202019/wisen](https://github.com/Vela3202019/wisen): A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker): Local-first AI token usage &amp; cost tracker for 31 coding tools incl.

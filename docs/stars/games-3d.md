@@ -58,7 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.
-- [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra) · review needed: A flat floor plan that becomes a house as you scroll.
+- [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra): A flat floor plan that becomes a house as you scroll.
 - [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin): Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents.
 - [seedds/nxnative](https://github.com/seedds/nxnative) · review needed: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).
 - [sloemo01/diorama](https://github.com/sloemo01/diorama): Pixel-art diorama playbook and Three.js code kit: research-first build workflow, locked camera, palette snap, ordered dither, inked contour, animated toy-scale cast, per-entity frame QA.
