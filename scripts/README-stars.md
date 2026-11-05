@@ -2,6 +2,8 @@
 
 `docs/stars/catalog.json` is the source of truth for the Sol classification approved on 2026-10-31: 1,315 public repositories, 26 categories and one primary destination per repository. It preserves 245 review flags for uncertain evidence or boundaries; these repositories are already classified.
 
+The [2026-11-05 extension](../docs/stars/classification-2026-11-05.md) adds the 55 public repositories reported by run `41886430684`, bringing the catalog to 1,370 assignments and 252 review flags. Seven new category boundaries remain flagged for Ardjo's arbitration. Original assignments, category definitions and snapshot provenance are preserved; each addition records its README blob and source run.
+
 The profile keeps its existing headings, icons, spacing and light/dark ShieldCN badges. `Summary` opens a category overview; `Open` jumps to its repository list. These links refer to the curated pages in this repository. The native GitHub Star Lists are separate and have not been migrated by this change.
 
 ## Refresh

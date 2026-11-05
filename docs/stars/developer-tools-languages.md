@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**52 repositories.** [Browse all categories →](README.md)
+**53 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,6 +20,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow): Paste any GitHub URL → interactive architecture map.
 - [CarterT27/scion](https://github.com/CarterT27/scion): Implementation of Anthropic's version control system.
 - [cli/cli](https://github.com/cli/cli) · review needed: GitHub’s official command line tool.
+- [cloudflare/nimbus](https://github.com/cloudflare/nimbus): Docs for humans and agents, built on Astro.
 - [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding): Interactive architecture diagrams for codebases.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x): Master programming by recreating your favorite technologies from scratch.
 - [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff): The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS.

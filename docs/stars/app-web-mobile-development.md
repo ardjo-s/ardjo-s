@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**57 repositories.** [Browse all categories →](README.md)
+**58 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -31,6 +31,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hunvreus/pagescms](https://github.com/hunvreus/pagescms): The simplest CMS you'll ever need.
 - [InsForge/InsForge](https://github.com/InsForge/InsForge): The all-in-one, open-source backend platform for agentic coding.
 - [ion-design/ditto.site](https://github.com/ion-design/ditto.site) · review needed: Starred repository.
+- [justrach/nanoui](https://github.com/justrach/nanoui): Desktop apps in Zig, with native UI drawn on the GPU or a web frontend.
 - [kargulstudio/workflow-editor](https://github.com/kargulstudio/workflow-editor): Starred repository.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit): Create custom iOS keyboards with Swift &amp; SwiftUI.
 - [leptos-rs/leptos](https://github.com/leptos-rs/leptos): Build fast web applications with Rust.

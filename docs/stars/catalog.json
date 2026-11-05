@@ -29788,6 +29788,1571 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVMm-gQ",
+      "name": "Anshkaran7/expokit",
+      "url": "https://github.com/Anshkaran7/expokit",
+      "description": "Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts",
+      "category": "category_11",
+      "purpose": "Assembler des interfaces animées pour Expo et React Native.",
+      "keywords": [
+        "composants",
+        "interface",
+        "mobile",
+        "UI",
+        "Expo"
+      ],
+      "review_required": false,
+      "evidence_quote": "Beautifully animated UI components, charts and templates for Expo and React Native.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Anshkaran7/expokit/blob/main/README.md",
+        "blob_sha": "2dcdcfa7bf7aab278a2710265e6686f5e1c97b63",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOSa6n_g",
+      "name": "Asymptote-Labs/agent-beacon",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
+      "category": "category_05",
+      "purpose": "Réutiliser les apprentissages des sessions grâce à une mémoire persistante pour agents.",
+      "keywords": [
+        "mémoire",
+        "sessions",
+        "contexte",
+        "memory"
+      ],
+      "review_required": false,
+      "evidence_quote": "Beacon captures **agent session history** across Claude Code, Cursor, Codex, OpenCode, and 20+ other harnesses, then turns useful workflows, corrections, and debugging patterns into",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Asymptote-Labs/agent-beacon/blob/main/README.md",
+        "blob_sha": "c312bdffa16e3a62c445e27923b974282bfbb10a",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVRAsuA",
+      "name": "Blueemi/swiftusage",
+      "url": "https://github.com/Blueemi/swiftusage",
+      "description": "Coding agent usage, limits and costs, in your menu bar.",
+      "category": "category_08",
+      "purpose": "Suivre les tokens, coûts et limites des agents depuis la barre de menus.",
+      "keywords": [
+        "coûts",
+        "quotas",
+        "tokens",
+        "usage"
+      ],
+      "review_required": false,
+      "evidence_quote": "SwiftUsage is a macOS menu bar app that shows your coding agents' usage: sessions, messages, total tokens, what those tokens would cost at API",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Blueemi/swiftusage/blob/main/README.md",
+        "blob_sha": "6d25c410f020e7c0f2b9ff61da3f69374782386b",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOS0wqzw",
+      "name": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "description": "",
+      "category": "category_23",
+      "purpose": "Piloter Unreal Editor avec des skills et outils MCP spécialisés.",
+      "keywords": [
+        "jeu",
+        "3D",
+        "Unreal",
+        "MCP"
+      ],
+      "review_required": false,
+      "evidence_quote": "Control Unreal Editor directly from Claude Code via MCP.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin/blob/main/README.md",
+        "blob_sha": "44c8dd3ef9ac15d11de88973ab558b4c2ff57044",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVKH7sw",
+      "name": "FrigadeHQ/hob",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+      "category": "category_02",
+      "purpose": "Utiliser un assistant IA local et hors ligne sur son ordinateur.",
+      "keywords": [
+        "assistant",
+        "local",
+        "offline",
+        "chat"
+      ],
+      "review_required": false,
+      "evidence_quote": "An easier way to use AI on your own computer.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/FrigadeHQ/hob/blob/main/README.md",
+        "blob_sha": "f0e35e81d98b21777ba2dbe1c430a10fcd0856ae",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOTzlrNA",
+      "name": "HarnessRouter/harnessrouter",
+      "url": "https://github.com/HarnessRouter/harnessrouter",
+      "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+      "category": "category_04",
+      "purpose": "Intégrer plusieurs harnesses d’agents via une interface de sessions commune.",
+      "keywords": [
+        "adaptateur",
+        "sessions",
+        "agent",
+        "API"
+      ],
+      "review_required": false,
+      "evidence_quote": "HarnessRouter is the infrastructure layer that turns existing harnesses like Codex and Claude Code into plug-and-play agent backends, letting your product run tasks, retrieve",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/HarnessRouter/harnessrouter/blob/main/README.md",
+        "blob_sha": "4d7db3468005b9f314b7824d009e9978d0495f35",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOS3xPsw",
+      "name": "JuneYaooo/cheap-claude-video",
+      "url": "https://github.com/JuneYaooo/cheap-claude-video",
+      "description": "Claude Opus 视频效果的稳定平替：用 Claude 创作出片一次，蒸馏成视频配方，其他模型按配方复刻出类似效果。",
+      "category": "category_10",
+      "purpose": "Créer et réutiliser des recettes de production de vidéos avec des agents.",
+      "keywords": [
+        "vidéo",
+        "montage",
+        "video",
+        "recipes"
+      ],
+      "review_required": false,
+      "evidence_quote": "Capsule Cinema 是安装到 Coding Agent 中的短视频生产系统。",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/JuneYaooo/cheap-claude-video/blob/main/README.md",
+        "blob_sha": "bb11535f5b5b7387e97540551cf01cb736e2fdc7",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVcA9Ag",
+      "name": "JuneYaooo/rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
+      "category": "category_10",
+      "purpose": "Décomposer une vidéo plan par plan pour préparer sa reproduction.",
+      "keywords": [
+        "vidéo",
+        "analyse",
+        "montage",
+        "video"
+      ],
+      "review_required": false,
+      "evidence_quote": "Reverse-engineer any video.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/JuneYaooo/rea-video/blob/main/README.md",
+        "blob_sha": "af308c207e2814bef20428f28012578589f6becc",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVPL00A",
+      "name": "MEGA-DOT-DEV/examples",
+      "url": "https://github.com/MEGA-DOT-DEV/examples",
+      "description": "Examples for the MEGA developer course. New examples arrive with each lesson.",
+      "category": "category_26",
+      "purpose": "Apprendre les appels de modèles, tokens et boucles d’agents par des exemples.",
+      "keywords": [
+        "apprentissage",
+        "LLM",
+        "examples",
+        "course"
+      ],
+      "review_required": false,
+      "evidence_quote": "Each example is a small script that shows one mechanic of large language models: tokens, requests, tool calls, agent loops.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/MEGA-DOT-DEV/examples/blob/main/README.md",
+        "blob_sha": "05b123c63e212462e896f31644359f0ca1f99197",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOSOTJTw",
+      "name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "category": "category_05",
+      "purpose": "Fournir aux agents un contexte sémantique fiable issu des métadonnées d’entreprise.",
+      "keywords": [
+        "ontologie",
+        "contexte",
+        "retrieval",
+        "metadata"
+      ],
+      "review_required": true,
+      "evidence_quote": "Agents need a context layer that tells them where data lives, what it means, whether to use it,",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md",
+        "blob_sha": "464a6484b4dc36cd2120578bc6b6e7dcfe236b23",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Frontière entre contexte destiné aux agents et catalogue sémantique de données.",
+      "alternative_category": "category_16"
+    },
+    {
+      "id": "R_kgDOLu-4mQ",
+      "name": "Neywa-Labs/mlx-vlm",
+      "url": "https://github.com/Neywa-Labs/mlx-vlm",
+      "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+      "category": "category_07",
+      "purpose": "Exécuter des modèles multimodaux sur Apple Silicon, avec options de fine-tuning.",
+      "keywords": [
+        "inférence",
+        "MLX",
+        "multimodal",
+        "inference"
+      ],
+      "review_required": true,
+      "evidence_quote": "Run and fine-tune multimodal models on Apple Silicon.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Neywa-Labs/mlx-vlm/blob/main/README.md",
+        "blob_sha": "74daff15cd18abe8d678a949c5db1880a6504770",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Bibliothèque couvrant à la fois l’inférence et le fine-tuning ; inférence retenue au vu des fonctionnalités documentées.",
+      "alternative_category": "category_06"
+    },
+    {
+      "id": "R_kgDORbQhpQ",
+      "name": "RavelloH/InsightFlare",
+      "url": "https://github.com/RavelloH/InsightFlare",
+      "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
+      "category": "category_16",
+      "purpose": "Analyser les visites, parcours et conversions d’un site sur Cloudflare.",
+      "keywords": [
+        "analytics",
+        "données",
+        "funnels",
+        "web"
+      ],
+      "review_required": false,
+      "evidence_quote": "Privacy-aware, open-source web analytics with real-time insights, user journeys, funnels, and AI-agent access — on infrastructure you control.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/RavelloH/InsightFlare/blob/main/README.md",
+        "blob_sha": "b7587b00890948c6ab06187a9a11ace61b6419c2",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVGvJUg",
+      "name": "Sam1983Aing/casa-serra",
+      "url": "https://github.com/Sam1983Aing/casa-serra",
+      "description": "A flat floor plan that becomes a house as you scroll. Work in progress.",
+      "category": "category_23",
+      "purpose": "Explorer une maison 3D dont le plan se transforme au défilement.",
+      "keywords": [
+        "maison",
+        "3D",
+        "three.js",
+        "scroll"
+      ],
+      "review_required": true,
+      "evidence_quote": "The floor plan is not a picture.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Sam1983Aing/casa-serra/blob/main/README.md",
+        "blob_sha": "9c1ab24378359cd51ad960a60bcaa52a5c71fee2",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Scène 3D interactive présentée aussi comme inspiration de landing page ; arbitrer scène contre design d’interface.",
+      "alternative_category": "category_11"
+    },
+    {
+      "id": "R_kgDONiCg_A",
+      "name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "category": "category_18",
+      "purpose": "Auditer les risques des agents, skills, MCP et infrastructures IA.",
+      "keywords": [
+        "sécurité",
+        "audit",
+        "security",
+        "red-team"
+      ],
+      "review_required": false,
+      "evidence_quote": "brings together OpenClaw security checks, Agent security scanning, AI tool and skill scanning, AI infrastructure vulnerability scanning, and LLM security assessment (jailbreak evaluation), aiming",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Tencent/AI-Infra-Guard/blob/main/README.md",
+        "blob_sha": "808e53cd6b81876eaa014cdc1cef7633a72597ee",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOU1Ap6A",
+      "name": "ThiloReintjes/tinybar",
+      "url": "https://github.com/ThiloReintjes/tinybar",
+      "description": "A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost. No WebKit, read-only logins.",
+      "category": "category_08",
+      "purpose": "Consulter les limites, tokens et coûts IA depuis la barre de menus macOS.",
+      "keywords": [
+        "quotas",
+        "coûts",
+        "tokens",
+        "usage"
+      ],
+      "review_required": false,
+      "evidence_quote": "See what's left of your Claude, Codex, Gemini, Cursor, OpenCode Go, Copilot and Grok limits from the macOS menu bar, plus the\ntokens you",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/ThiloReintjes/tinybar/blob/main/README.md",
+        "blob_sha": "c61bde1a52b8c934355a586ade914701684fe85e",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOTfwbig",
+      "name": "Vela3202019/wisen",
+      "url": "https://github.com/Vela3202019/wisen",
+      "description": "A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving",
+      "category": "category_03",
+      "purpose": "Améliorer les fichiers d’instructions à partir des sessions de codage.",
+      "keywords": [
+        "instructions",
+        "réflexion",
+        "skills",
+        "configuration"
+      ],
+      "review_required": false,
+      "evidence_quote": "wisen reads your coding-agent sessions and turns each day into a private\nreflection, a chat about your work, and better instruction files for your",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/Vela3202019/wisen/blob/main/README.md",
+        "blob_sha": "05e76be340cb61fcc39863911078ee22a1a79bdd",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOOT9cOA",
+      "name": "WellApp-ai/Well",
+      "url": "https://github.com/WellApp-ai/Well",
+      "description": "No more Sundays on Finance. We build the infrastructure that retrieves, processes, and routes your financial and business data to your FinOps stack, so founders can ship, not spreadsheet.",
+      "category": "category_21",
+      "purpose": "Automatiser la récupération et le traitement des factures pour la gestion financière.",
+      "keywords": [
+        "factures",
+        "finance",
+        "invoice",
+        "FinOps"
+      ],
+      "review_required": false,
+      "evidence_quote": "You don't have to waste time retrieving invoices.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/WellApp-ai/Well/blob/main/README.md",
+        "blob_sha": "8dec30abd929113938a4c09571d9adc502ebe934",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVGL3fw",
+      "name": "acher249/world-every-day",
+      "url": "https://github.com/acher249/world-every-day",
+      "description": "every day a new world will be generated.. based on information found around the world in news, science, technology, cultural events etc. ",
+      "category": "category_23",
+      "purpose": "Explorer un monde 3D quotidien inspiré de l’actualité.",
+      "keywords": [
+        "monde",
+        "3D",
+        "world",
+        "exploration"
+      ],
+      "review_required": false,
+      "evidence_quote": "A living, evolving digital installation.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/acher249/world-every-day/blob/main/README.md",
+        "blob_sha": "a567fbd6d24d719a21a2365418b13be3dd3ef0c7",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOUe15Qw",
+      "name": "aloksivastava1025-prog/cue-foundations",
+      "url": "https://github.com/aloksivastava1025-prog/cue-foundations",
+      "description": "Open-source foundational components with code and  AI prompts — from Cue's curated library",
+      "category": "category_11",
+      "purpose": "Utiliser des composants d’interface et leurs prompts de conception.",
+      "keywords": [
+        "composants",
+        "design",
+        "UI",
+        "prompts"
+      ],
+      "review_required": false,
+      "evidence_quote": "Open-source foundational components with code **and** the AI prompts that designed them — curated from [Cue's](https://cuedesign.space) premium library.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/aloksivastava1025-prog/cue-foundations/blob/main/README.md",
+        "blob_sha": "0effa3cf0dd8a7a35628b33ffc66f81b02da8038",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVdb1-Q",
+      "name": "anthropics/FlashProve",
+      "url": "https://github.com/anthropics/FlashProve",
+      "description": "A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+      "category": "category_18",
+      "purpose": "Vérifier par preuve cryptographique quel modèle a produit une réponse.",
+      "keywords": [
+        "preuve",
+        "cryptographie",
+        "identity",
+        "verification"
+      ],
+      "review_required": false,
+      "evidence_quote": "FlashProve lets an AI provider prove which model answered a request, without revealing the model's\nweights.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/anthropics/FlashProve/blob/main/README.md",
+        "blob_sha": "3d8e1d1b0d9aa58b881df23ace163a2ba4eb8f35",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOUvmYXQ",
+      "name": "arla6ka/design.how",
+      "url": "https://github.com/arla6ka/design.how",
+      "description": "Design systems, skills and visuals for coding agents",
+      "category": "category_11",
+      "purpose": "Construire des interfaces avec des design systems et skills de design.",
+      "keywords": [
+        "design",
+        "interface",
+        "skills",
+        "UI"
+      ],
+      "review_required": false,
+      "evidence_quote": "Design systems, skills and visuals for coding agents, from [design.how](https://design.how).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/arla6ka/design.how/blob/main/README.md",
+        "blob_sha": "f53b87ebc6b7aae35f8f8d045e204703f0f75ce1",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVdnamg",
+      "name": "ashayas/icloud-s3",
+      "url": "https://github.com/ashayas/icloud-s3",
+      "description": "An S3-compatible object store backed by iCloud Shared Photo Albums. Quota policy: Apple's Shared Album loophole.",
+      "category": "category_16",
+      "purpose": "Exposer un stockage d’objets compatible S3 sur des albums iCloud.",
+      "keywords": [
+        "stockage",
+        "objets",
+        "S3",
+        "storage"
+      ],
+      "review_required": false,
+      "evidence_quote": "An S3-compatible object store backed by iCloud Shared Photo Albums.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/ashayas/icloud-s3/blob/main/README.md",
+        "blob_sha": "db4ba7edffff42994f4e47c4d935a0f90be8636c",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOT3ajCQ",
+      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "category": "category_03",
+      "purpose": "Découvrir et installer des plugins pour DeepSeek Harness.",
+      "keywords": [
+        "plugins",
+        "catalogue",
+        "skills",
+        "harness"
+      ],
+      "review_required": false,
+      "evidence_quote": "A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/README.md",
+        "blob_sha": "eae34397043f188307406bf4e37a06554eb83e12",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOSSIbRw",
+      "name": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+      "category": "category_18",
+      "purpose": "Corréler les alertes et enquêter sur des incidents de sécurité avec des agents.",
+      "keywords": [
+        "sécurité",
+        "incidents",
+        "SOC",
+        "security"
+      ],
+      "review_required": false,
+      "evidence_quote": "An open-source, self-hostable AI Security Operations Center.** It ingests your security telemetry, detects and correlates threats, investigates them with AI agents whose reasoning is",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/beenuar/AiSOC/blob/main/README.md",
+        "blob_sha": "19b17b50c4f90c88cb942ac1a1d6174047ee7fc0",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDORSV6_g",
+      "name": "bholmesdev/hubble.md",
+      "url": "https://github.com/bholmesdev/hubble.md",
+      "description": "The best notepad for you and your agents",
+      "category": "category_19",
+      "purpose": "Prendre et partager des notes Markdown avec ses agents.",
+      "keywords": [
+        "notes",
+        "écriture",
+        "Markdown",
+        "notepad"
+      ],
+      "review_required": false,
+      "evidence_quote": "Hubble is a free, open-source notetaking app for you and your agents.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/bholmesdev/hubble.md/blob/main/README.md",
+        "blob_sha": "e44530417ca583a969deed5311f5cd184fd38273",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOUOpwng",
+      "name": "brandonmcconnell/geld",
+      "url": "https://github.com/brandonmcconnell/geld",
+      "description": "Browser extension to hide tests when reviewing PRs on Github",
+      "category": "category_14",
+      "purpose": "Organiser les diffs GitHub pour faciliter la revue de code.",
+      "keywords": [
+        "revue",
+        "diff",
+        "code-review",
+        "tests"
+      ],
+      "review_required": false,
+      "evidence_quote": "Geld is a browser extension that hides test files from GitHub diffs so you can review the code that matters first.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/brandonmcconnell/geld/blob/main/README.md",
+        "blob_sha": "b1a6dc438131707a38d451e2316384bb3b8c2df1",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOTS-Vqw",
+      "name": "cloudflare/nimbus",
+      "url": "https://github.com/cloudflare/nimbus",
+      "description": "Docs for humans and agents, built on Astro",
+      "category": "category_13",
+      "purpose": "Rédiger et publier la documentation développeur pour humains et agents.",
+      "keywords": [
+        "documentation",
+        "docs",
+        "Markdown",
+        "authoring"
+      ],
+      "review_required": false,
+      "evidence_quote": "Nimbus is an authoring tool for docs, built on [Astro](https://astro.build).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/cloudflare/nimbus/blob/main/README.md",
+        "blob_sha": "051d43c8ea82caf46d6599537242b605aa0c5fa7",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOSHpN1A",
+      "name": "cosmicstack-labs/mercury-agent",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent",
+      "description": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI, Telegram or More.",
+      "category": "category_02",
+      "purpose": "Faire fonctionner un assistant personnel persistant accessible sur plusieurs canaux.",
+      "keywords": [
+        "assistant",
+        "mémoire",
+        "agent",
+        "automation"
+      ],
+      "review_required": false,
+      "evidence_quote": "Mercury is an open-source agent with a personality you write yourself, a memory that stays on your disk, and a permission system that sits",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/cosmicstack-labs/mercury-agent/blob/main/README.md",
+        "blob_sha": "da4d95276bc2f818c302f0b1f374ffd0a78293b6",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDORR71uQ",
+      "name": "ddalcu/mlx-serve",
+      "url": "https://github.com/ddalcu/mlx-serve",
+      "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
+      "category": "category_07",
+      "purpose": "Servir des modèles locaux sur Mac via des API compatibles OpenAI et Anthropic.",
+      "keywords": [
+        "inférence",
+        "serveur",
+        "MLX",
+        "inference"
+      ],
+      "review_required": false,
+      "evidence_quote": "Run open models on your Mac: chat, coding agents, images, video, music, speech and 3D.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/ddalcu/mlx-serve/blob/main/README.md",
+        "blob_sha": "1d2f42ccff0ac29c3e159734b0979edab8f18930",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOUUZpOA",
+      "name": "deepseek-ai/deepseek-recipe",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "description": "",
+      "category": "category_07",
+      "purpose": "Adapter les formats de requêtes et réponses autour d’un backend d’inférence.",
+      "keywords": [
+        "inférence",
+        "formats",
+        "tokenizer",
+        "API"
+      ],
+      "review_required": false,
+      "evidence_quote": "deepseek-recipe is a collection of Rust libraries and Python bindings that\nuniformly convert API requests in different formats into the Conversation\nformat, render conversations",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/deepseek-ai/deepseek-recipe/blob/main/README.md",
+        "blob_sha": "496a534f2dec4413e5a122ff2266c8cfce34e21d",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVd9sjw",
+      "name": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "category": "category_01",
+      "purpose": "Déléguer le développement d’un dépôt GitHub à un agent proactif.",
+      "keywords": [
+        "codage",
+        "GitHub",
+        "coding",
+        "agent"
+      ],
+      "review_required": false,
+      "evidence_quote": "dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for [DeepSeek Harness](https://www.deepseek.com/en/harness/).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/README.md",
+        "blob_sha": "39e1c4af122f11dd72ac0d2b34b79d6f8ae259ea",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOJInNkw",
+      "name": "documenso/documenso",
+      "url": "https://github.com/documenso/documenso",
+      "description": "The Open Source DocuSign Alternative.",
+      "category": "category_21",
+      "purpose": "Signer des documents avec une alternative ouverte à DocuSign.",
+      "keywords": [
+        "signature",
+        "documents",
+        "legal",
+        "e-signature"
+      ],
+      "review_required": false,
+      "evidence_quote": "The Open Source DocuSign Alternative.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/documenso/documenso/blob/main/README.md",
+        "blob_sha": "397a76f4ca44d7778d5f8bd2a208c75ff941fef7",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVe-sWQ",
+      "name": "earendil-works/djs",
+      "url": "https://github.com/earendil-works/djs",
+      "description": "",
+      "category": "category_04",
+      "purpose": "Exécuter et suspendre des scripts JavaScript d’agents qui appellent des outils.",
+      "keywords": [
+        "runtime",
+        "outils",
+        "codemode",
+        "JavaScript"
+      ],
+      "review_required": true,
+      "evidence_quote": "djs is a small JavaScript and TypeScript engine written in `no_std` Rust.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/earendil-works/djs/blob/main/README.md",
+        "blob_sha": "5e2991235fe5c807c660bfcb20ba028a5ae5382a",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Moteur JavaScript général dans sa forme, mais conçu principalement pour l’exécution d’outils dans le codemode d’un agent.",
+      "alternative_category": "category_13"
+    },
+    {
+      "id": "R_kgDOVWuMCw",
+      "name": "emanuele-em/kanzo",
+      "url": "https://github.com/emanuele-em/kanzo",
+      "description": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero setup.",
+      "category": "category_19",
+      "purpose": "Partager un tableau kanban entre humains et agents.",
+      "keywords": [
+        "tâches",
+        "kanban",
+        "tasks",
+        "collaboration"
+      ],
+      "review_required": false,
+      "evidence_quote": "Kanzo is a kanban board in your browser and an MCP server in one 4.5 MB program, so you and your coding agents work",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/emanuele-em/kanzo/blob/main/README.md",
+        "blob_sha": "5a32b48515fe55f6e275069f071d30d3dfd154fa",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVaLo2g",
+      "name": "enmerasoftware/ai-design-check",
+      "url": "https://github.com/enmerasoftware/ai-design-check",
+      "description": "Design rules and a zero-dependency checker for interfaces built with AI coding agents, on the web and in SwiftUI and Jetpack Compose apps. English and Turkish.",
+      "category": "category_14",
+      "purpose": "Détecter et corriger les défauts techniques des interfaces produites avec l’IA.",
+      "keywords": [
+        "qualité",
+        "accessibilité",
+        "lint",
+        "design"
+      ],
+      "review_required": false,
+      "evidence_quote": "137 design rules, a checker with no dependencies and no API key, and\nan agent skill that repairs the screen.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/enmerasoftware/ai-design-check/blob/main/README.md",
+        "blob_sha": "6231c62a4ec4e64692d7742122a1a95519bc9f62",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOSIatDw",
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "A reliable coding agent for complex software engineering tasks.",
+      "category": "category_01",
+      "purpose": "Faire modifier le code et exécuter les tests par un agent de développement.",
+      "keywords": [
+        "codage",
+        "logiciel",
+        "coding",
+        "agent"
+      ],
+      "review_required": false,
+      "evidence_quote": "An open-source coding agent for your terminal, desktop, browser and editor.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/esengine/DeepSeek-Reasonix/blob/studio/README.md",
+        "blob_sha": "23fd6a5a44b1a631f9b1d6319e54b8d6207f337d",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2MzgwOTIwNQ==",
+      "name": "google/oss-fuzz",
+      "url": "https://github.com/google/oss-fuzz",
+      "description": "OSS-Fuzz - continuous fuzzing for open source software.",
+      "category": "category_18",
+      "purpose": "Détecter des vulnérabilités et défauts de stabilité par fuzzing continu.",
+      "keywords": [
+        "sécurité",
+        "fuzzing",
+        "vulnerabilities",
+        "testing"
+      ],
+      "review_required": false,
+      "evidence_quote": "OSS-Fuzz aims to make common open source software more secure and stable by\ncombining modern fuzzing techniques with scalable, distributed execution.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/google/oss-fuzz/blob/master/README.md",
+        "blob_sha": "ba532d0360c895f006c69060538bbfe8f13686b6",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOTne_vw",
+      "name": "hypit-ai/hypit",
+      "url": "https://github.com/hypit-ai/hypit",
+      "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+      "category": "category_10",
+      "purpose": "Reproduire et décliner des vidéos à travers un workflow agentique.",
+      "keywords": [
+        "vidéo",
+        "montage",
+        "video",
+        "workflow"
+      ],
+      "review_required": false,
+      "evidence_quote": "Hypit gives AI agents (Claude Code, Codex...) a language and system to create video.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/hypit-ai/hypit/blob/main/README.md",
+        "blob_sha": "8c9cd9d1a1f2a6e10264a62595a9de676ec257d8",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVfW9gA",
+      "name": "itsthecsguy/shelf-serif",
+      "url": "https://github.com/itsthecsguy/shelf-serif",
+      "description": "A near-monoline, squared serif with hairline shelf serifs. Five weights, variable font, SIL OFL.",
+      "category": "category_11",
+      "purpose": "Intégrer une police serif variable dans une interface ou identité visuelle.",
+      "keywords": [
+        "typographie",
+        "police",
+        "font",
+        "design"
+      ],
+      "review_required": false,
+      "evidence_quote": "Shelf Serif is a near-monoline, squared serif made for [Grok Bot Shelf](https://grokbotshelf.com).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/itsthecsguy/shelf-serif/blob/main/README.md",
+        "blob_sha": "b443e3388281035d5d676192e52ed489e65691d2",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODUwMTI4NTc=",
+      "name": "jitsucom/jitsu",
+      "url": "https://github.com/jitsucom/jitsu",
+      "description": "Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days",
+      "category": "category_16",
+      "purpose": "Collecter les événements des applications et les acheminer vers les outils de données.",
+      "keywords": [
+        "données",
+        "événements",
+        "pipeline",
+        "analytics"
+      ],
+      "review_required": false,
+      "evidence_quote": "Jitsu collects event data from your websites, apps and servers, and delivers it to your data\nwarehouse and to whatever other tools you use.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/jitsucom/jitsu/blob/newjitsu/README.md",
+        "blob_sha": "dec68d3e5d4630eac34fb694c932747fb7ad183f",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOUh4N6g",
+      "name": "jkrup/jeveryword",
+      "url": "https://github.com/jkrup/jeveryword",
+      "description": "Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.",
+      "category": "category_17",
+      "purpose": "Extraire des champs et citations exactes d’un texte avec leurs positions.",
+      "keywords": [
+        "extraction",
+        "texte",
+        "fields",
+        "quotes"
+      ],
+      "review_required": false,
+      "evidence_quote": "Field extraction, PII detection and exact quotes, built on [TypeSafe's Jev](https://docs.typesafe.ai).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/jkrup/jeveryword/blob/main/README.md",
+        "blob_sha": "ab6c8d02b262f8830074dc7e8c49248dec8c4bca",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVfniiw",
+      "name": "justrach/nanolight",
+      "url": "https://github.com/justrach/nanolight",
+      "description": "A ⌘Space launcher for the Mac, drawn by nanoui: apps, math, Google suggestions with results in the panel, Grok and X",
+      "category": "category_25",
+      "purpose": "Lancer des applications et recherches depuis un raccourci clavier.",
+      "keywords": [
+        "lanceur",
+        "bureau",
+        "launcher",
+        "desktop"
+      ],
+      "review_required": false,
+      "evidence_quote": "A launcher for the Mac, Windows and Linux, drawn by",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/justrach/nanolight/blob/main/README.md",
+        "blob_sha": "df2723bb56a8ba3189dddea847c157b92682de80",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVOOX2w",
+      "name": "justrach/nanoui",
+      "url": "https://github.com/justrach/nanoui",
+      "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
+      "category": "category_12",
+      "purpose": "Construire des applications de bureau en Zig avec interface GPU ou web.",
+      "keywords": [
+        "applications",
+        "Zig",
+        "desktop",
+        "framework"
+      ],
+      "review_required": false,
+      "evidence_quote": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/justrach/nanoui/blob/main/README.md",
+        "blob_sha": "955672e750581179583bf38a2bf8211d6e5abd11",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDORyB5Fg",
+      "name": "lucataco/superkeet",
+      "url": "https://github.com/lucataco/superkeet",
+      "description": "macOS app for voice-to-text",
+      "category": "category_09",
+      "purpose": "Dicter et transcrire localement sa voix sur macOS.",
+      "keywords": [
+        "dictée",
+        "transcription",
+        "voice",
+        "speech"
+      ],
+      "review_required": false,
+      "evidence_quote": "Superkeet is a macOS menu bar app for local voice-to-text, powered by an embedded [parakeet-cli](https://github.com/lucataco/parakeet-cli) engine binary named `parakeet`.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/lucataco/superkeet/blob/main/README.md",
+        "blob_sha": "9e34a93084e2ed599e691ab1faac779216b00c5a",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOTfkhbw",
+      "name": "oblien/mindwire",
+      "url": "https://github.com/oblien/mindwire",
+      "description": "Ship AI products powered by the best harnesses without building another agent loop",
+      "category": "category_04",
+      "purpose": "Intégrer des harnesses existants comme couche d’agents dans son produit.",
+      "keywords": [
+        "adaptateur",
+        "sessions",
+        "SDK",
+        "harness"
+      ],
+      "review_required": false,
+      "evidence_quote": "Mindwire lets you **white-label and customize leading agent harnesses** like Codex,\nClaude Code, and OpenCode through an open-source SDK and runtime.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/oblien/mindwire/blob/main/README.md",
+        "blob_sha": "afbd2c690defe40a6758a179704c6c562e748a63",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVaZa1A",
+      "name": "ooolzhas/annotatekit",
+      "url": "https://github.com/ooolzhas/annotatekit",
+      "description": "Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo)",
+      "category": "category_11",
+      "purpose": "Transformer les annotations visuelles d’une app iOS en retours pour un agent.",
+      "keywords": [
+        "annotation",
+        "interface",
+        "feedback",
+        "iOS"
+      ],
+      "review_required": true,
+      "evidence_quote": "turns drawings and comments inside your iOS app into\nprompts for your coding agent.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/ooolzhas/annotatekit/blob/main/README.md",
+        "blob_sha": "bf20f8e137ac359797a7b9ef147d1f8fb4f361be",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Retour visuel de conception sans validation automatique ; pourrait aussi être rangé avec les outils de débogage.",
+      "alternative_category": "category_14"
+    },
+    {
+      "id": "R_kgDOT4EyuQ",
+      "name": "overment/limen",
+      "url": "https://github.com/overment/limen",
+      "description": "A minimal one-human-many-agents harness built from files, git, and one CLI.",
+      "category": "category_01",
+      "purpose": "Orchestrer des agents de développement en worktrees avec planification et revue.",
+      "keywords": [
+        "codage",
+        "orchestration",
+        "worktree",
+        "coding"
+      ],
+      "review_required": true,
+      "evidence_quote": "The agent uses Limen to plan work, start workers, and request review.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/overment/limen/blob/main/README.md",
+        "blob_sha": "ab2a0adf13cd39901a532b153e0f16f22c4ac3da",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Runtime de jobs et workers retenu ; fournit aussi une méthode de travail et des prompts.",
+      "alternative_category": "category_03"
+    },
+    {
+      "id": "R_kgDOROD60g",
+      "name": "peteromallet/desloppify",
+      "url": "https://github.com/peteromallet/desloppify",
+      "description": "Agent harness to make your slop code well-engineered and beautiful.",
+      "category": "category_14",
+      "purpose": "Améliorer la qualité du code par détection mécanique et revue guidée.",
+      "keywords": [
+        "qualité",
+        "refactoring",
+        "code-quality",
+        "review"
+      ],
+      "review_required": false,
+      "evidence_quote": "Desloppify gives your AI coding agent the tools to identify, understand, and systematically improve codebase quality.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/peteromallet/desloppify/blob/main/README.md",
+        "blob_sha": "e5d8aef0ebc6aa242ec1f37b3fb980e44c906b6f",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVUY0LQ",
+      "name": "phone-harness/mcp",
+      "url": "https://github.com/phone-harness/mcp",
+      "description": "Connect AI agents to real iPhones and Androids",
+      "category": "category_04",
+      "purpose": "Donner aux agents le contrôle d’iPhones et émulateurs Android distants.",
+      "keywords": [
+        "téléphone",
+        "contrôle",
+        "MCP",
+        "computer-use"
+      ],
+      "review_required": false,
+      "evidence_quote": "Give any MCP agent a real iPhone or an Android emulator in the cloud.**",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/phone-harness/mcp/blob/main/README.md",
+        "blob_sha": "9562cd95a18df9c68448102e3832087c7469cba7",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDk5OTU3NTA=",
+      "name": "reactive-resume/reactive-resume",
+      "url": "https://github.com/reactive-resume/reactive-resume",
+      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "category": "category_20",
+      "purpose": "Créer des CV et lettres de motivation et suivre ses candidatures.",
+      "keywords": [
+        "emploi",
+        "CV",
+        "resume",
+        "careers"
+      ],
+      "review_required": false,
+      "evidence_quote": "Reactive Resume is a free and open-source resume builder for writing resumes and cover letters, checking your work, and tracking job applications.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/reactive-resume/reactive-resume/blob/main/README.md",
+        "blob_sha": "354c49c2833721781298c5d53b9dd4a97c9c8127",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVcAnAQ",
+      "name": "rerun-build/rerun",
+      "url": "https://github.com/rerun-build/rerun",
+      "description": "AI coworkers that run your work. Self-hostable, AGPL-3.0.",
+      "category": "category_02",
+      "purpose": "Créer et piloter une équipe de collaborateurs IA connectés à ses outils.",
+      "keywords": [
+        "agents",
+        "équipe",
+        "orchestration",
+        "coworkers"
+      ],
+      "review_required": true,
+      "evidence_quote": "You tell Rerun what you need done, in plain words.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/rerun-build/rerun/blob/main/README.md",
+        "blob_sha": "e1eafe8575effbc35e0aa047039b972ac1222679",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      },
+      "review_reason": "Plateforme généraliste de création et pilotage d’agents avec de nombreux cas d’exploitation d’entreprise.",
+      "alternative_category": "category_21"
+    },
+    {
+      "id": "R_kgDOTMB-iw",
+      "name": "tns-research/counterpoint",
+      "url": "https://github.com/tns-research/counterpoint",
+      "description": "A producer-critic loop inside Claude Code: Claude Opus and OpenAI Codex cross-check each other before a turn ships.",
+      "category": "category_14",
+      "purpose": "Croiser la revue de code Claude et Codex et vérifier les corrections proposées.",
+      "keywords": [
+        "revue",
+        "qualité",
+        "code-review",
+        "Codex"
+      ],
+      "review_required": false,
+      "evidence_quote": "Claude does the task, Codex reviews it, and Claude reports what the review changed.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/tns-research/counterpoint/blob/main/README.md",
+        "blob_sha": "1194ad9ea050c83d5a77ba3a093197d5cc544462",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOPUHeXg",
+      "name": "vercel-labs/ai-cli",
+      "url": "https://github.com/vercel-labs/ai-cli",
+      "description": "Generate anything from your terminal",
+      "category": "category_26",
+      "purpose": "Composer des appels de génération multimodale et décisions structurées en CLI.",
+      "keywords": [
+        "LLM",
+        "génération",
+        "SDK",
+        "structured-output"
+      ],
+      "review_required": false,
+      "evidence_quote": "Create text, images, video, and audio, and make typed decisions with composable commands, stdin support, and predictable outputs.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/vercel-labs/ai-cli/blob/main/README.md",
+        "blob_sha": "0bf7a164b4b361fa5012dbed3e092f68f17b6b8f",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOVX8oQA",
+      "name": "vora-aryan/Prestige-UI",
+      "url": "https://github.com/vora-aryan/Prestige-UI",
+      "description": "Animated React components and blocks for Tailwind CSS and Motion. Install with the shadcn CLI.",
+      "category": "category_11",
+      "purpose": "Assembler des composants React animés avec Tailwind et Motion.",
+      "keywords": [
+        "composants",
+        "interface",
+        "React",
+        "UI"
+      ],
+      "review_required": false,
+      "evidence_quote": "Animated React components and blocks built with Tailwind CSS and Motion.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/vora-aryan/Prestige-UI/blob/main/README.md",
+        "blob_sha": "9385295b2ecbd250351e5d950b333e0f4b11c354",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    },
+    {
+      "id": "R_kgDOQ7kWfQ",
+      "name": "warmbly/warmbly",
+      "url": "https://github.com/warmbly/warmbly",
+      "description": "The largest open-source B2B cold outreach and email warmup service.",
+      "category": "category_20",
+      "purpose": "Gérer des campagnes de prospection et le préchauffage des boîtes e-mail.",
+      "keywords": [
+        "prospection",
+        "email",
+        "sales",
+        "outreach"
+      ],
+      "review_required": false,
+      "evidence_quote": "Warmbly runs cold email campaigns from the mailboxes you already own and warms\nthem so they keep landing in the inbox.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_source": {
+        "url": "https://github.com/warmbly/warmbly/blob/main/README.md",
+        "blob_sha": "5533235d10b092d9f73e9a729db8ecf5075950cb",
+        "retrieved_on": "2026-11-05"
+      },
+      "classification_source": {
+        "workflow_run": 41886430684,
+        "job_id": 126772094557
+      }
+    }
+  ],
+  "classification_updates": [
+    {
+      "date": "2026-11-05",
+      "source_run": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684",
+      "source_job_id": 126772094557,
+      "added_repositories": 55,
+      "review_required": 7,
+      "note": "Additions to the approved Sol taxonomy; original 2026-10-31 snapshot and all 1,315 original entries preserved. Review flags mark provisional category boundaries, not missing classifications."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**93 repositories.** [Browse all categories →](README.md)
+**96 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -47,10 +47,13 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes): Write HTML.
 - [heygen-com/hyperframes-launch-video](https://github.com/heygen-com/hyperframes-launch-video): Starred repository.
 - [Hugo-Dz/spritefusion-sprite-normals](https://github.com/Hugo-Dz/spritefusion-sprite-normals): A tool to generate normal maps from any sprite and animated sprite sheet.
+- [hypit-ai/hypit](https://github.com/hypit-ai/hypit): Clone any viral video with AI agents.
 - [ideogram-oss/ideogram4](https://github.com/ideogram-oss/ideogram4): Ideogram 4: Open image model at the forefront of design.
 - [iina/iina](https://github.com/iina/iina): The modern video player for macOS.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) · review needed: Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow): JJ's special video production workflow for programatic editing.
+- [JuneYaooo/cheap-claude-video](https://github.com/JuneYaooo/cheap-claude-video): Claude Opus 视频效果的稳定平替：用 Claude 创作出片一次，蒸馏成视频配方，其他模型按配方复刻出类似效果。.
+- [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.

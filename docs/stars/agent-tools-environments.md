@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**71 repositories.** [Browse all categories →](README.md)
+**75 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -32,9 +32,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [droidrun/mobilerun](https://github.com/droidrun/mobilerun): Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖.
 - [e2b-dev/desktop](https://github.com/e2b-dev/desktop): E2B Desktop Sandbox for LLMs.
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B): Open-source, secure environment with real-world tools for enterprise-grade agents.
+- [earendil-works/djs](https://github.com/earendil-works/djs) · review needed: Starred repository.
 - [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim): The `npx serve` of Apple Simulators.
 - [github/github-mcp-server](https://github.com/github/github-mcp-server): GitHub's official MCP Server.
 - [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) · review needed: The headless browser for AI agents and web scraping.
+- [HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter): HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses.
 - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/.
 - [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) · review needed: OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.
 - [jasonkneen/agent-simulator](https://github.com/jasonkneen/agent-simulator): An iOS simulator in a browser you can inspect.
@@ -51,9 +53,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press): Every API has a secret identity.
 - [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw): Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference.
 - [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell): OpenShell is the safe, private runtime for autonomous AI agents.
+- [oblien/mindwire](https://github.com/oblien/mindwire): Ship AI products powered by the best harnesses without building another agent loop.
 - [openai/mcp-extensions](https://github.com/openai/mcp-extensions) · review needed: Build plugins that feel like native, first-class features of ChatGPT.
 - [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): Give your AI agent eyes to see the entire internet.
 - [perplexityai/SPACE](https://github.com/perplexityai/SPACE): Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation.
+- [phone-harness/mcp](https://github.com/phone-harness/mcp): Connect AI agents to real iPhones and Androids.
 - [pilot-protocol/pilotprotocol](https://github.com/pilot-protocol/pilotprotocol) · review needed: Pilot Protocol: The Internet of Agents.
 - [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp): 🚀 The fast, Pythonic way to build MCP servers and clients.
 - [pydantic/monty](https://github.com/pydantic/monty): A secure Python sandbox, written in Rust, for code written by AI.

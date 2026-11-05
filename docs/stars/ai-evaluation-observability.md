@@ -2,7 +2,7 @@
 
 > AI evaluations, traces, diagnostics, token usage, costs and quotas.
 
-**30 repositories.** [Browse all categories →](README.md)
+**32 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,6 +14,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [851-labs/tokenmaxxing](https://github.com/851-labs/tokenmaxxing): A local CLI, built on ccusage, that syncs your token usage with everyone else.
 - [adewale/skill-eval-harness](https://github.com/adewale/skill-eval-harness): Agent Skill evaluation harness for paired variants, trace artifacts, and runner adapters.
 - [ai-evals-course/evals-skills](https://github.com/ai-evals-course/evals-skills): Skills that guide AI coding agents to help you build product-specific AI evals.
+- [Blueemi/swiftusage](https://github.com/Blueemi/swiftusage): Coding agent usage, limits and costs, in your menu bar.
 - [ccusage/ccusage](https://github.com/ccusage/ccusage): npx ccusage.
 - [datacurve-ai/deep-swe](https://github.com/datacurve-ai/deep-swe): Measuring frontier coding agents on original, long-horizon engineering tasks.
 - [Entelligence-AI/agentplay](https://github.com/Entelligence-AI/agentplay): Replay your coding agent sessions as a map and a timeline.
@@ -38,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal): Test LLMs on real tasks.
 - [Superone77/TraceVista](https://github.com/Superone77/TraceVista): Understand Your Agents.
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage): One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
+- [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker): Local-first AI token usage &amp; cost tracker for 31 coding tools incl.

@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**126 repositories.** [Browse all categories →](README.md)
+**132 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,7 +15,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems): 💅🏻 ⚒ A collection of awesome design systems.
+- [aloksivastava1025-prog/cue-foundations](https://github.com/aloksivastava1025-prog/cue-foundations): Open-source foundational components with code and  AI prompts — from Cue's curated library.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn): Beautiful map components.
+- [Anshkaran7/expokit](https://github.com/Anshkaran7/expokit): Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts.
+- [arla6ka/design.how](https://github.com/arla6ka/design.how): Design systems, skills and visuals for coding agents.
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit): A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js): 🎈 Animated balloons effect for your website.
 - [arvindrk/extract-design-system](https://github.com/arvindrk/extract-design-system): Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website.
@@ -58,6 +61,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hunvreus/basecoat](https://github.com/hunvreus/basecoat): A components library built with Tailwind CSS that works with any web stack.
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills): Skills for Design Engineers.
 - [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui): Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI.
+- [itsthecsguy/shelf-serif](https://github.com/itsthecsguy/shelf-serif): A near-monoline, squared serif with hairline shelf serifs.
 - [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx): Animated WebGL liquid-metal effect for React buttons and UI components.
 - [Jakubantalik/thinking-orbs](https://github.com/Jakubantalik/thinking-orbs): Dotted thought-orb loading indicators for AI &amp; agent UIs, 9 tuned types, two sizes, auto dark/light.
 - [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): UI motion agent, a library of 43+ crafted transitions, a skill that fits your workflow.
@@ -92,6 +96,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark): Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 - [onepixelaway/interfaces-that-think](https://github.com/onepixelaway/interfaces-that-think): UI/UX experiments for new interactions, with one folder per prototype.
 - [onlook-dev/onlook](https://github.com/onlook-dev/onlook): The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
+- [ooolzhas/annotatekit](https://github.com/ooolzhas/annotatekit) · review needed: Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo).
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil): AI-native design editor.
 - [opencoredev/dithercn](https://github.com/opencoredev/dithercn): Add dithers to anything in your app.
 - [openui/open-ui](https://github.com/openui/open-ui): Maintain an open standard for UI and promote its adherence and adoption.
@@ -133,6 +138,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [thesysdev/appless](https://github.com/thesysdev/appless) · review needed: What if your phone had no apps.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.
+- [vora-aryan/Prestige-UI](https://github.com/vora-aryan/Prestige-UI): Animated React components and blocks for Tailwind CSS and Motion.
 - [xandemon/developer-icons](https://github.com/xandemon/developer-icons): A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
 - [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui): A large collection of high-quality React components that you can copy and paste into any project.
 - [zerostaticthemes/square-ui](https://github.com/zerostaticthemes/square-ui): Collection of beautifully crafted open-source layouts UI built with shadcn/ui.

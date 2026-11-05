@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**89 repositories.** [Browse all categories →](README.md)
+**92 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -29,12 +29,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [collabs-inc/collab-public](https://github.com/collabs-inc/collab-public): Collaborator is a place to create with agents.
 - [convex/chef](https://github.com/convex/chef): The only AI app builder that knows backend.
 - [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max): The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model.
+- [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype): Towards a More Autonomous Agent System.
 - [Deepusleepy/t3-tots](https://github.com/Deepusleepy/t3-tots) · review needed: Grok Bot companion for T3 Code.
 - [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor): An app to monitor the (Codex) situation.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop): The safest, simplest way to manage Hermes from your Mac.
 - [dominikmartn/harp](https://github.com/dominikmartn/harp): Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you.
 - [Emanuele-web04/remodex](https://github.com/Emanuele-web04/remodex): Remote Control for Codex.
 - [Emanuele-web04/synara](https://github.com/Emanuele-web04/synara): The best place to build with your AI sub.
+- [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix): A reliable coding agent for complex software engineering tasks.
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro): ⚒️ The open source dark software factory for expert engineers.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · review needed: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) · review needed: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
@@ -71,6 +73,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands): 🙌 OpenHands: AI-Driven Development.
 - [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter): A coding agent for open models like Kimi K3 and GLM 5.3.
 - [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator): Plan, run and supervise fleets of agents from task to merged PR.
+- [overment/limen](https://github.com/overment/limen) · review needed: A minimal one-human-many-agents harness built from files, git, and one CLI.
 - [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev): Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel.
 - [ParthJadhav/codex-controller](https://github.com/ParthJadhav/codex-controller): Use a DualSense as a physical control surface for Codex on macOS.
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) · review needed: Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.

@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**27 repositories.** [Browse all categories →](README.md)
+**31 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,11 +11,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.
+- [beenuar/AiSOC](https://github.com/beenuar/AiSOC): Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step.
 - [clawvisor/clawvisor](https://github.com/clawvisor/clawvisor): API gateway for purpose-based authorization for AI agents.
 - [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio): An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data.
 - [ente/ente](https://github.com/ente/ente) · review needed: 💚 End-to-end encrypted cloud for everything.
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks): Find secrets with Gitleaks 🔑.
 - [google/mantis](https://github.com/google/mantis): A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities.
+- [google/oss-fuzz](https://github.com/google/oss-fuzz): OSS-Fuzz - continuous fuzzing for open source software.
 - [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) · review needed: A privacy-first app that strips AI watermarks from content you own.
 - [heycupola/relic](https://github.com/heycupola/relic): End-to-end encrypted secrets for developers and AI agents.
 - [heyderekj/slinky](https://github.com/heyderekj/slinky): Slinky keeps secrets out of files.
@@ -34,6 +37,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [perplexityai/numbat](https://github.com/perplexityai/numbat) · review needed: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.
 - [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal): OSINT &amp; recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics &amp; more.
 - [soxoj/maigret](https://github.com/soxoj/maigret) · review needed: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites.
+- [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
 - [uber/ADR](https://github.com/uber/ADR): ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
 - [usestrix/strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 - [vercel-labs/deepsec](https://github.com/vercel-labs/deepsec): Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents.

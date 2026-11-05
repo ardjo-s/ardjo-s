@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**29 repositories.** [Browse all categories →](README.md)
+**30 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -21,6 +21,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst): Automatic tiling window manager for macOS à la xmonad.
 - [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app): Free up your Mac.
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice): Powerful menu bar manager for macOS.
+- [justrach/nanolight](https://github.com/justrach/nanolight): A ⌘Space launcher for the Mac, drawn by nanoui: apps, math, Google suggestions with results in the panel, Grok and X.
 - [jxnl/dots](https://github.com/jxnl/dots) · review needed: Starred repository.
 - [kaolti/phantomat](https://github.com/kaolti/phantomat): Phantomat: a zoomable, infinite-canvas window manager for Hyprland.
 - [kitze/unclutter](https://github.com/kitze/unclutter): WXT browser extension: Jev-powered page clutter removal with reusable template rules.

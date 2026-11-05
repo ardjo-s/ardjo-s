@@ -2,7 +2,7 @@
 
 > Marketing, SEO, sales, customer relationships, recruiting and careers.
 
-**43 repositories.** [Browse all categories →](README.md)
+**45 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -44,6 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mautic/mautic](https://github.com/mautic/mautic): Mautic: Open Source Marketing Automation Software.
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) · review needed: Open-source web analytics you deploy in one click.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill): Starred repository.
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume): A one-of-a-kind resume builder that keeps your privacy in mind.
 - [romangojiberryAI/gojiberryai-sales-os](https://github.com/romangojiberryAI/gojiberryai-sales-os): GojiberryAI Sales OS: a full AI outbound team for Grok Bot, powered by the GojiberryAI MCP.
 - [santmun/forja](https://github.com/santmun/forja) · review needed: Chatbot de IA self-hosted para WhatsApp, Instagram y Telegram en tu propia Cloudflare.
 - [Shudesu/x-harness-oss](https://github.com/Shudesu/x-harness-oss): X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK.
@@ -52,5 +53,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [trycompai/crm](https://github.com/trycompai/crm): Comp AI CRM is an open source, CRM designed for AI agents.
 - [twentyhq/twenty](https://github.com/twentyhq/twenty): The open alternative to Salesforce, designed for AI.
 - [Varnan-Tech/opendirectory](https://github.com/Varnan-Tech/opendirectory): AI Agent Skills built for Founders who hate Marketing.
+- [warmbly/warmbly](https://github.com/warmbly/warmbly): The largest open-source B2B cold outreach and email warmup service.
 - [weberwcwei/job-scout](https://github.com/weberwcwei/job-scout): CLI tool that scrapes 6 job boards, scores matches against your profile, and sends Telegram/Slack/Discord/email alerts.
 - [whoisyurii/checkmygit](https://github.com/whoisyurii/checkmygit): Visualize and share your Github profile in seconds!.

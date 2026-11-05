@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**95 repositories.** [Browse all categories →](README.md)
+**98 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -29,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot): Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after.
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
 - [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
+- [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): DeepSeek Harness: Everything is a Plugin.
 - [earendil-works/pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI.
 - [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3): LIBERATED AI CHAT.
@@ -36,6 +37,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [farzaa/clicky](https://github.com/farzaa/clicky): The open-source project HeyClicky grew out of.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop): Desktop Companion for Hermes Agent.
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived · review needed: Build AI Agents, Visually.
+- [FrigadeHQ/hob](https://github.com/FrigadeHQ/hob): An easier way to use AI on your own computer.
 - [Gen-Verse/RSI-Anything](https://github.com/Gen-Verse/RSI-Anything): RSI-Anything: Unlocking Recursive Self-Improvement with World Models.
 - [google-research/harness2](https://github.com/google-research/harness2): Starred repository.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
@@ -78,6 +80,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pipecat-ai/ios-little-voices](https://github.com/pipecat-ai/ios-little-voices): Starred repository.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
+- [rerun-build/rerun](https://github.com/rerun-build/rerun) · review needed: AI coworkers that run your work.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang): Open-source Agent Operating System.
 - [rome-os/rome](https://github.com/rome-os/rome): A compounding agent OS for recursive agents.
 - [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat): AI coworker with memory and collaboration.

@@ -22,8 +22,8 @@ class StarsTest(unittest.TestCase):
         stars.validate_catalog(self.catalog)
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
         self.assertEqual(len(groups), 26)
-        self.assertEqual(sum(map(len, groups.values())), 1315)
-        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 245)
+        self.assertEqual(sum(map(len, groups.values())), 1370)
+        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 252)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
 
     def test_renamed_repository_keeps_reviewed_category(self):
@@ -102,8 +102,8 @@ class StarsTest(unittest.TestCase):
             for href in re.findall(r'href="(docs/stars/[^"#]+)', readme.read_text()):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
-            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1315)
-            self.assertEqual(rendered.count(' · review needed'), 245)
+            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1370)
+            self.assertEqual(rendered.count(' · review needed'), 252)
 
 
 if __name__ == '__main__':

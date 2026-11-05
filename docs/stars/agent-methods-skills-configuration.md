@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**110 repositories.** [Browse all categories →](README.md)
+**112 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
 - [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial): Anthropic's Interactive Prompt Engineering Tutorial.
 - [anthropics/skills](https://github.com/anthropics/skills): Public repository for Agent Skills.
+- [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin): A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer.
 - [blakeandersonw/ai-app-playbook](https://github.com/blakeandersonw/ai-app-playbook) · review needed: How to build useful, profitable apps in 2026.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) · review needed: A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
@@ -115,6 +116,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tokensize/skills](https://github.com/tokensize/skills): Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
 - [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) · review needed: Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build.
+- [Vela3202019/wisen](https://github.com/Vela3202019/wisen): A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · review needed: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) · review needed: A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
