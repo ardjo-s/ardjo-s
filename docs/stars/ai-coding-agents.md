@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**92 repositories.** [Browse all categories →](README.md)
+**94 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -31,6 +31,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max): The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model.
 - [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype): Towards a More Autonomous Agent System.
 - [Deepusleepy/t3-tots](https://github.com/Deepusleepy/t3-tots) · review needed: Grok Bot companion for T3 Code.
+- [diggerhq/opencomputer](https://github.com/diggerhq/opencomputer): An open-source, faster Devin alternative.
 - [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor): An app to monitor the (Codex) situation.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop): The safest, simplest way to manage Hermes from your Mac.
 - [dominikmartn/harp](https://github.com/dominikmartn/harp): Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you.
@@ -40,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro): ⚒️ The open source dark software factory for expert engineers.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · review needed: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) · review needed: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
+- [Frizti/Fritchii](https://github.com/Frizti/Fritchii) · fork · review needed: Frontier GREEN HAT BOY ADVENTURE specialized Lichii fork, i'm the goat.
 - [generalaction/emdash](https://github.com/generalaction/emdash): Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
 - [get-bb/bb](https://github.com/get-bb/bb): The agent IDE that builds itself.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo): Orchestrate multiple coding agents from desktop and mobile.

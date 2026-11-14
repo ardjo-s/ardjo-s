@@ -2,7 +2,7 @@
 
 > Research, source discovery, science, health and fitness.
 
-**19 repositories.** [Browse all categories →](README.md)
+**20 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,6 +16,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw): Fully autonomous &amp; self-evolving research from idea to paper.
 - [Cawlumm/lyftr](https://github.com/Cawlumm/lyftr): Self-hosted fitness tracker.
 - [celltype/celltype-agent](https://github.com/celltype/celltype-agent): Starred repository.
+- [charles-postiaux/caffeine-day](https://github.com/charles-postiaux/caffeine-day): How much caffeine is still in you at bedtime.
 - [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman): The open source AI research agent.
 - [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym): Open-source gym &amp; body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK.
 - [EveryInc/tend](https://github.com/EveryInc/tend) · review needed: grow what you know.

@@ -18,6 +18,15 @@ API = 'https://api.github.com'
 START = '<!-- starred-repos-start -->'
 END = '<!-- starred-repos-end -->'
 GENERATED = '<!-- generated: sol-star-catalog -->'
+UNSORTED_ID = 'unsorted'
+UNSORTED_CATEGORY = {
+    'id': UNSORTED_ID,
+    'name': 'Unsorted / to classify',
+    'slug': 'unsorted',
+    'emoji': '❔',
+    'family': 'Unsorted',
+    'description': 'Public stars not yet classified in catalog.json.',
+}
 
 
 def request_json(url: str, token: str) -> dict | list:
@@ -65,6 +74,8 @@ def validate_catalog(catalog: dict) -> None:
     slugs = {c['slug'] for c in categories}
     if len(ids) != len(categories) or len(slugs) != len(categories):
         raise ValueError('Duplicate category ID or slug')
+    if UNSORTED_ID in ids or UNSORTED_CATEGORY['slug'] in slugs:
+        raise ValueError('unsorted is reserved for unclassified live stars')
     if any(not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug) or slug == 'readme' for slug in slugs):
         raise ValueError('Unsafe category slug')
     seen_ids, seen_names = set(), set()
@@ -93,14 +104,31 @@ def group_stars(stars: list[dict], catalog: dict) -> dict[str, list[dict]]:
         seen.add(repo['id'])
         classified = by_id.get(repo['id'])
         if classified is None:
-            unknown.append(repo['name'])
+            unknown.append({
+                **repo,
+                'category': UNSORTED_ID,
+                'review_required': True,
+            })
         else:
             groups[classified['category']].append({**classified, **repo})
-    if unknown:
-        raise ValueError('Public stars need classification in docs/stars/catalog.json; no files written: ' + ', '.join(sorted(unknown)))
     if not seen:
         raise ValueError('Empty public star inventory; retaining the last good export')
+    if unknown:
+        unknown.sort(key=lambda r: r['name'].casefold())
+        groups[UNSORTED_ID] = unknown
+        names = ', '.join(r['name'] for r in unknown)
+        print(
+            f'Unclassified public stars exported to Unsorted / to classify: {names}',
+            file=sys.stderr,
+        )
     return groups
+
+
+def visible_categories(catalog: dict, groups: dict[str, list[dict]]) -> list[dict]:
+    categories = list(catalog['categories'])
+    if groups.get(UNSORTED_ID):
+        categories.append(UNSORTED_CATEGORY)
+    return categories
 
 
 def mini_description(value: str) -> str:
@@ -140,17 +168,28 @@ def badge(href: str, label: str, alt: str, outline: bool = False) -> str:
 
 def render_readme(catalog: dict, groups: dict[str, list[dict]]) -> str:
     account = catalog['account']
+    categories = visible_categories(catalog, groups)
+    total = sum(len(v) for v in groups.values())
+    unsorted_n = len(groups.get(UNSORTED_ID, []))
+    summary = f"{total:,} public repositories · {len(catalog['categories'])} categories"
+    if unsorted_n:
+        summary += f' · {unsorted_n} unsorted'
+    summary += ' · [Browse the catalog](docs/stars/README.md)'
     lines = ['## ⭐ Starred Repos', '',
         f'<a href="https://github.com/{account}?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>', '',
-        f"{sum(len(v) for v in groups.values()):,} public repositories · {len(catalog['categories'])} categories · [Browse the catalog](docs/stars/README.md)", '']
-    for c in catalog['categories']:
-        path = f"docs/stars/{c['slug']}.md"
-        lines.extend([
-            f"### {c['emoji']} {c['name']}", '', c['description'] + '<br>',
-            '<div style="margin-top: 10px;">',
-            badge(path, 'Summary', f"Read {c['name']} summary", True) + ' ' + badge(path + '#stars', 'Open', f"Browse {c['name']} repositories"),
-            '</div>', '',
-        ])
+        summary, '']
+    families = dict.fromkeys(c['family'] for c in categories)
+    for family in families:
+        for c in categories:
+            if c['family'] != family:
+                continue
+            path = f"docs/stars/{c['slug']}.md"
+            lines.extend([
+                f"### {c['emoji']} {c['name']}", '', c['description'] + '<br>',
+                '<div style="margin-top: 10px;">',
+                badge(path, 'Summary', f"Read {c['name']} summary", True) + ' ' + badge(path + '#stars', 'Open', f"Browse {c['name']} repositories"),
+                '</div>', '',
+            ])
     return '\n'.join(lines).rstrip() + '\n'
 
 
@@ -168,31 +207,76 @@ def replace_readme_section(readme: str, section: str) -> str:
 
 
 def render_index(catalog: dict, groups: dict[str, list[dict]]) -> str:
+    categories = visible_categories(catalog, groups)
+    total = sum(len(v) for v in groups.values())
+    unsorted_n = len(groups.get(UNSORTED_ID, []))
+    heading = f"**{total:,} public repositories across {len(catalog['categories'])} Sol categories.**"
+    if unsorted_n:
+        heading = (
+            f"**{total:,} public repositories across {len(catalog['categories'])} Sol categories"
+            f" plus {unsorted_n} unsorted.**"
+        )
     lines = ['# Starred repositories by primary use', '', GENERATED, '',
-        f"**{sum(len(v) for v in groups.values()):,} public repositories across {len(catalog['categories'])} Sol categories.**", '',
+        heading, '',
         'Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.', '',
-        'For agents: [catalog.json](catalog.json) contains stable repository and category IDs, URLs, French usage summaries, French/English search keywords, README evidence quotes and review flags. Search the `purpose`, `description` and `keywords` fields with the requested task, then verify the match against `evidence_quote`. Category definitions explain the boundaries.', '',
-        'A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. The snapshot is public-only. See [maintenance instructions](../../scripts/README-stars.md) for refresh and classification updates.', '']
-    families = dict.fromkeys(c['family'] for c in catalog['categories'])
+        'For agents: [catalog.json](catalog.json) is the source of truth. [stars.json](stars.json) is the generated machine-readable snapshot (name, url, description, category). [schema.md](schema.md) documents the catalog fields. Search `purpose`, `description` and `keywords`, then verify against `evidence_quote`.', '',
+        'A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. Live stars missing from the catalog are exported to Unsorted / to classify instead of blocking the refresh. The snapshot is public-only. See [AGENTS.md](../../AGENTS.md) and [maintenance instructions](../../scripts/README-stars.md).', '']
+    families = dict.fromkeys(c['family'] for c in categories)
     for family in families:
         lines.extend([f'## {family}', ''])
-        for c in catalog['categories']:
+        for c in categories:
             if c['family'] == family:
-                lines.append(f"- [{c['emoji']} {c['name']}]({c['slug']}.md) · {len(groups[c['id']])} repositories")
+                lines.append(f"- [{c['emoji']} {c['name']}]({c['slug']}.md) · {len(groups.get(c['id'], []))} repositories")
                 lines.append(f"  - {c['description']}")
         lines.append('')
     return '\n'.join(lines).rstrip() + '\n'
 
 
+def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
+    categories = visible_categories(catalog, groups)
+    repositories = []
+    for category in categories:
+        for repo in groups.get(category['id'], []):
+            repositories.append({
+                'name': repo['name'],
+                'url': repo['url'],
+                'description': repo.get('description') or '',
+                'category': category['name'],
+                'category_id': category['id'],
+            })
+    repositories.sort(key=lambda row: row['name'].casefold())
+    payload = {
+        'schema_version': 1,
+        'account': catalog['account'],
+        'repository_count': len(repositories),
+        'categories': [
+            {
+                'id': category['id'],
+                'name': category['name'],
+                'slug': category['slug'],
+                'count': len(groups.get(category['id'], [])),
+            }
+            for category in categories
+        ],
+        'repositories': repositories,
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+
+
 def export(stars: list[dict], catalog: dict, output_dir: Path, readme: Path) -> None:
     groups = group_stars(stars, catalog)
-    outputs = {output_dir / f"{c['slug']}.md": render_list(c, groups[c['id']]) for c in catalog['categories']}
+    categories = visible_categories(catalog, groups)
+    outputs = {output_dir / f"{c['slug']}.md": render_list(c, groups.get(c['id'], [])) for c in categories}
     outputs[output_dir / 'README.md'] = render_index(catalog, groups)
+    outputs[output_dir / 'stars.json'] = render_stars_json(catalog, groups)
     outputs[readme] = replace_readme_section(readme.read_text(encoding='utf-8'), render_readme(catalog, groups))
     output_dir.mkdir(parents=True, exist_ok=True)
     for path in output_dir.glob('*.md'):
         if path not in outputs and (GENERATED in path.read_text() or 'Agent note: generated from the authenticated GitHub stars list' in path.read_text()):
             path.unlink()
+    stale_unsorted = output_dir / f"{UNSORTED_CATEGORY['slug']}.md"
+    if UNSORTED_ID not in groups and stale_unsorted.exists():
+        stale_unsorted.unlink()
     for path, text in outputs.items():
         path.write_text(text, encoding='utf-8')
 

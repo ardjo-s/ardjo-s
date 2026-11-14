@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**96 repositories.** [Browse all categories →](README.md)
+**101 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -63,6 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [msurguy/watercolor-playground](https://github.com/msurguy/watercolor-playground): Realistic watercolor drawings.
 - [mutonby/openshorts](https://github.com/mutonby/openshorts) · fork: Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing.
 - [Netflix/void-model](https://github.com/Netflix/void-model): Starred repository.
+- [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources): :city_sunrise: A collection of links for free stock photography, video and Illustration websites.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video): Programmatic video for coding agents — HTML to video on your laptop.
 - [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) · review needed: Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
 - [obsidianmd/pele](https://github.com/obsidianmd/pele): Renders Mermaid diagrams faster than you'd run from a volcano! 🌋.
@@ -72,8 +73,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [op7418/Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill): Starred repository.
 - [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) · review needed: Open-source Claude Design alternative.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) · review needed: The open-source CapCut alternative.
+- [openfilm/openfilm](https://github.com/openfilm/openfilm): The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
 - [opennookorg/screenshot-studio](https://github.com/opennookorg/screenshot-studio): A free, browser-based editor for creating stunning screenshots and visuals.
 - [openstory-so/openstory](https://github.com/openstory-so/openstory): Open-source AI-powered video sequence platform built with TanStack Start.
+- [Orva-Studio/beacon](https://github.com/Orva-Studio/beacon): Starred repository.
 - [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro): macOS video editor built for AI.
 - [paulmil11/decks](https://github.com/paulmil11/decks): Agent-first slide decks: comment under a slide, and your coding agent (Claude Code or Codex) makes the change and replies on the slide.
 - [pbakaus/radiant](https://github.com/pbakaus/radiant): A curated collection of generative shader art.
@@ -84,6 +87,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [raph651/open-source-canvas](https://github.com/raph651/open-source-canvas): Open Source Canvas: an open-source node canvas that runs ComfyUI workflows.
 - [Remocn/remocn](https://github.com/Remocn/remocn): Production-ready animations, transitions, backgrounds, and scenes for Remotion.
 - [Remocn/remocn-studio](https://github.com/Remocn/remocn-studio): Agent-native video editor.
+- [rjmahesh/ui-redline-walkthrough](https://github.com/rjmahesh/ui-redline-walkthrough): Claude skill: turn before/after UI screenshots into an animated redline walkthrough video (red ink marks, morphing UI, MP4 export).
 - [robbietilton/Compositor](https://github.com/robbietilton/Compositor): The Photoshop alternative for Mac.
 - [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator): GPU-accelerated procedural video generator.
 - [scenario-labs/skills](https://github.com/scenario-labs/skills) · review needed: Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
@@ -95,6 +99,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [storytold/photocraft](https://github.com/storytold/photocraft): PhotoCraft: An open-source, photo editor written by scratch in pure Rust.
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP): Starred repository.
 - [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts): Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
+- [TheOrcDev/videorc](https://github.com/TheOrcDev/videorc): Open-source multistream studio and screen recorder for Mac: go live on 6+ platforms free, record in 4K, publish with AI.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny): An agent native video creation pipeline that runs on top of Hermes Agent.
 - [upscayl/upscayl](https://github.com/upscayl/upscayl): 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.
 - [veedstudio/open-edit](https://github.com/veedstudio/open-edit): Open-source, agent-driven editing pipeline: create subtitles, motion graphics, slides, edit and render videos.

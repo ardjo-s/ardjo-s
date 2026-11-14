@@ -2,7 +2,7 @@
 
 > Memory, context management, semantic retrieval and RAG for AI systems.
 
-**53 repositories.** [Browse all categories →](README.md)
+**55 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -18,6 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon): The cross-harness, self-improving memory layer for AI agents.
 - [brunoqgalvao/claude-cache-keepalive](https://github.com/brunoqgalvao/claude-cache-keepalive) · review needed: Keep Anthropic prompt caches warm past 1 hour in opencodex and Claude Code; learns from your usage, switches itself off if it stops paying.
 - [busabase/busabase](https://github.com/busabase/busabase) · review needed: Open-source database &amp; workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human review on the writes that matter.
+- [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin): Deepseek Harness Plugin for Busabase.
 - [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os): A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection.
 - [claudioemmanuel/squeez](https://github.com/claudioemmanuel/squeez): Hook-based token compressor for 7 AI CLI hosts (Claude Code, Copilot CLI, OpenCode, Gemini CLI, Codex CLI, Pi, Hermes).
 - [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex): Incremental engine for long horizon agents 🌟 Star if you like it!.
@@ -55,6 +56,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sulabhdubey/rta-smriti-brain](https://github.com/sulabhdubey/rta-smriti-brain): Local-first, evidence-aware project memory for AI coding agents.
 - [Supercompress/Supercompress](https://github.com/Supercompress/Supercompress): Query-aware context compression for LLMs and coding agents.
 - [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory): Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
+- [teamchong/pxpipe](https://github.com/teamchong/pxpipe): cut Claude Code token usage by rendering text context as images.
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem): Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.
 - [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph): Local-first code intelligence graph for MCP and CLI.
 - [topoteretes/cognee](https://github.com/topoteretes/cognee): Cognee is the open-source AI memory platform for agents.

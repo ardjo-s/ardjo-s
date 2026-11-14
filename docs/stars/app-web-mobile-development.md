@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**59 repositories.** [Browse all categories →](README.md)
+**64 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,12 +17,15 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
 - [convex/convex-backend](https://github.com/convex/convex-backend): The open-source reactive database for app developers.
+- [daveebbelaar/bama](https://github.com/daveebbelaar/bama): BAMA: Build Any Mac App.
 - [DioxusLabs/blitz](https://github.com/DioxusLabs/blitz): A radically modular HTML/CSS rendering engine.
 - [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus): Fullstack app framework for web, desktop, and mobile.
 - [Effect-TS/effect](https://github.com/Effect-TS/effect): Build production-ready applications in TypeScript.
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
 - [every-app/every-app](https://github.com/every-app/every-app) · review needed: Make every SaaS open source.
+- [expo/exact](https://github.com/expo/exact): Write an app once.
+- [expo/exact-templates](https://github.com/expo/exact-templates): Starred repository.
 - [expo/expo](https://github.com/expo/expo): An open-source framework for making universal native apps with React.
 - [expo/skills](https://github.com/expo/skills): A collection of AI agent skills for working with Expo projects and Expo Application Services.
 - [fastapi/fastapi](https://github.com/fastapi/fastapi): FastAPI framework, high performance, easy to learn, fast to code, ready for production.
@@ -36,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kargulstudio/workflow-editor](https://github.com/kargulstudio/workflow-editor): Starred repository.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit): Create custom iOS keyboards with Swift &amp; SwiftUI.
 - [leptos-rs/leptos](https://github.com/leptos-rs/leptos): Build fast web applications with Rust.
+- [longbridge/gpui-fast](https://github.com/longbridge/gpui-fast): GPUI extracted from the Zed monorepo as a standalone workspace, with the layout engine reworked to keep what did not change between frames.
 - [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit): Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
 - [lukeed/clsx](https://github.com/lukeed/clsx): A tiny (239B) utility for constructing `className` strings conditionally.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify): Turn TUI apps into real macOS applications.
@@ -69,4 +73,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vercel-labs/json-render](https://github.com/vercel-labs/json-render) · review needed: The Generative UI framework.
 - [vercel/examples](https://github.com/vercel/examples): Enjoy our curated collection of examples and solutions.
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios): A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
+- [whiskerrs/whisker](https://github.com/whiskerrs/whisker): Build native iOS, Android, web and desktop apps in Rust.
 - [zats/permiso](https://github.com/zats/permiso) · review needed: Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.

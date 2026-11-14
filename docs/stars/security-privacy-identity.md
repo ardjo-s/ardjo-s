@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**31 repositories.** [Browse all categories →](README.md)
+**34 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,9 +11,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [0sec-labs/0](https://github.com/0sec-labs/0): The open-source cybersecurity harness.
 - [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.
 - [beenuar/AiSOC](https://github.com/beenuar/AiSOC): Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step.
 - [clawvisor/clawvisor](https://github.com/clawvisor/clawvisor): API gateway for purpose-based authorization for AI agents.
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill): A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings.
 - [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio): An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data.
 - [ente/ente](https://github.com/ente/ente) · review needed: 💚 End-to-end encrypted cloud for everything.
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks): Find secrets with Gitleaks 🔑.
@@ -31,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0.
 - [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra): Ghidra is a software reverse engineering (SRE) framework.
 - [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills.
+- [offense-research/compound-security-plugin](https://github.com/offense-research/compound-security-plugin): Security workflows for coding agents.
 - [openai/codex-security](https://github.com/openai/codex-security): OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.
 - [openai/privacy-filter](https://github.com/openai/privacy-filter): OpenAI Privacy Filter.
 - [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee): Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.

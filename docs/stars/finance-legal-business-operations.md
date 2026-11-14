@@ -2,7 +2,7 @@
 
 > Finance, payments, legal work and business operations.
 
-**31 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -38,7 +38,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio): Build your own AI investment system.
 - [upstash/botstreet](https://github.com/upstash/botstreet): Agent Trading Arena --- Three AI agents.
 - [virattt/dexter](https://github.com/virattt/dexter): An autonomous agent for deep financial research.
+- [we-promise/sure](https://github.com/we-promise/sure): The personal finance app for everyone (by everyone).
 - [WellApp-ai/Well](https://github.com/WellApp-ai/Well): No more Sundays on Finance.
 - [whisper-money/whisper-money](https://github.com/whisper-money/whisper-money): Understand your personal finances.
 - [yamamuteki/scx](https://github.com/yamamuteki/scx): CLI that converts USD amounts in stdin to your local currency (works great with ccusage).
+- [zadescoxp/calibrain-harness](https://github.com/zadescoxp/calibrain-harness): Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models (Kairos today) on Bybit testnet.
 - [zeusinsight/MoneyMission](https://github.com/zeusinsight/MoneyMission): Minimalist macOS menu bar app for chasing an earnings goal.

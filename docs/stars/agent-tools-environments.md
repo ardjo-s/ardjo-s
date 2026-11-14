@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**74 repositories.** [Browse all categories →](README.md)
+**77 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,6 +16,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [agent-messenger/agent-messenger](https://github.com/agent-messenger/agent-messenger): Messenger automation CLI &amp; SDK for AI agents.
 - [agentclientprotocol/codex-acp](https://github.com/agentclientprotocol/codex-acp) · review needed: ACP server implementation that exposes Codex CLI functionality for smoother client and IDE integration.
 - [alibaba/page-agent](https://github.com/alibaba/page-agent): JavaScript in-page GUI agent.
+- [alibaba/qz-browser-agent](https://github.com/alibaba/qz-browser-agent): Local-first AI agent for Chrome: browser automation, web research, and data extraction with your own model.
 - [ArcadeAI/arcade-mcp](https://github.com/ArcadeAI/arcade-mcp): MCP Server Framework and Tool Development library for building custom capabilities into agents.
 - [BetterWright/betterwright](https://github.com/BetterWright/betterwright): A persistent, policy-guarded Playwright browser for AI agents — network policy, encrypted credential vault, proof screenshots, and CAPTCHA solving.
 - [Blueemi/codex-eu-patcher](https://github.com/Blueemi/codex-eu-patcher) · archived · review needed: Starred repository.
@@ -26,6 +27,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [callstack/agent-device](https://github.com/callstack/agent-device): Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.
 - [CelestoAI/celesto](https://github.com/CelestoAI/celesto): Secure and persistent computer for AI agents.
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite): The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.
+- [cloudflare/kitesurf](https://github.com/cloudflare/kitesurf): Kitesurf is an experimental browser engine that runs on Cloudflare Workers.
 - [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity): Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs.
 - [ComposioHQ/composio](https://github.com/ComposioHQ/composio): Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
 - [datagouv/datagouv-mcp](https://github.com/datagouv/datagouv-mcp) · review needed: Official data.gouv.fr Model Context Protocol (MCP) server that allows AI chatbots to search, explore, and analyze datasets from the French national Open Data platform, directly through conversation.
@@ -72,6 +74,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [smol-machines/smolvm](https://github.com/smol-machines/smolvm): An embeddable, portable, branchable virtual machine to safely run Agents locally.
 - [software-mansion/argent](https://github.com/software-mansion/argent): An agentic toolkit to control, debug, and profile iOS and Android apps.
 - [superdesigndev/treg](https://github.com/superdesigndev/treg): OpenRouter for agent tools.
+- [sushilk1991/phonedock](https://github.com/sushilk1991/phonedock): Lets coding agents use Android emulators, iOS simulators and real phones.
 - [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill): Let AI agents use your real, logged-in browser without interrupting your work.
 - [totec448-spec/chat-on-steroids](https://github.com/totec448-spec/chat-on-steroids): Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact &amp; Resume, and durable multi-agent workflows.
 - [trycua/cua](https://github.com/trycua/cua): Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.

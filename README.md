@@ -32,7 +32,7 @@
 
 <a href="https://github.com/ardjo-s?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
 
-1,371 public repositories · 26 categories · [Browse the catalog](docs/stars/README.md)
+1,452 public repositories · 26 categories · [Browse the catalog](docs/stars/README.md)
 
 ### 🤖 AI Coding Agents
 
@@ -90,6 +90,13 @@ AI evaluations, traces, diagnostics, token usage, costs and quotas.<br>
 <a href="docs/stars/ai-evaluation-observability.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Evaluation &amp; Observability summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-evaluation-observability.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Evaluation &amp; Observability repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
+### 📚 AI Engineering & Learning
+
+AI application SDKs, structured outputs, examples and engineering courses.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/ai-engineering-learning.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Engineering &amp; Learning summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-engineering-learning.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Engineering &amp; Learning repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
 ### 🎙️ Voice, Audio & Music
 
 Speech, dictation, transcription, audio processing and music.<br>
@@ -109,6 +116,13 @@ Image and video creation, capture, editing, animation and presentations.<br>
 UI components, design systems, typography, prototyping and product design.<br>
 <div style="margin-top: 10px;">
 <a href="docs/stars/ui-product-design.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read UI &amp; Product Design summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ui-product-design.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse UI &amp; Product Design repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
+</div>
+
+### 🎮 Games & 3D
+
+Games, rendering, geometry, avatars and interactive 3D worlds.<br>
+<div style="margin-top: 10px;">
+<a href="docs/stars/games-3d.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Games &amp; 3D summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/games-3d.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Games &amp; 3D repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
 ### 🧱 App, Web & Mobile Development
@@ -188,13 +202,6 @@ Research, source discovery, science, health and fitness.<br>
 <a href="docs/stars/research-science-health.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Research, Science &amp; Health summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/research-science-health.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Research, Science &amp; Health repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 
-### 🎮 Games & 3D
-
-Games, rendering, geometry, avatars and interactive 3D worlds.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/games-3d.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Games &amp; 3D summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/games-3d.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Games &amp; 3D repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
 ### 🦾 Robotics, Hardware & CAD
 
 Robotics, electronics, embedded systems, CAD and physical fabrication.<br>
@@ -207,12 +214,5 @@ Robotics, electronics, embedded systems, CAD and physical fabrication.<br>
 Browsers, desktop utilities, file transfers and device tools.<br>
 <div style="margin-top: 10px;">
 <a href="docs/stars/browsers-desktop-device-utilities.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Browsers, Desktop &amp; Device Utilities summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/browsers-desktop-device-utilities.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Browsers, Desktop &amp; Device Utilities repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
-### 📚 AI Engineering & Learning
-
-AI application SDKs, structured outputs, examples and engineering courses.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/ai-engineering-learning.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read AI Engineering &amp; Learning summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/ai-engineering-learning.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse AI Engineering &amp; Learning repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 <!-- starred-repos-end -->

@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**38 repositories.** [Browse all categories →](README.md)
+**39 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -34,6 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 - [ollama/ollama](https://github.com/ollama/ollama): Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [omacom/omarchy-local-ai](https://github.com/omacom/omarchy-local-ai): Local model catalog for Omarchy agent use.
 - [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center): This is a WebUI interface based on CLI-Proxy-API, designed to simplify configuration modifications and runtime status monitoring.
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI): Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API.
 - [router-for-me/EasyCLIProxyAPI](https://github.com/router-for-me/EasyCLIProxyAPI): A desktop GUI for CLIProxyAPI and a tool for automatically configuring popular AI agents.

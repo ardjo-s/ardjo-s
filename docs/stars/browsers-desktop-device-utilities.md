@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**30 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,11 +15,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [acsandmann/rift](https://github.com/acsandmann/rift): a tiling window manager for macos.
 - [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi): ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.
+- [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl): Chromium running inside your terminal.
 - [Forward-Future/device-monitor](https://github.com/Forward-Future/device-monitor): Monitor CPU, GPU, memory and temperatures across all your devices (Windows/macOS app + LAN hub).
 - [heyderekj/binky](https://github.com/heyderekj/binky): Binky sorts your files.
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst): Automatic tiling window manager for macOS à la xmonad.
+- [jal-co/jalco-drop](https://github.com/jal-co/jalco-drop): A self-hosted file transfer interface for people and agents.
 - [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app): Free up your Mac.
+- [jmdarre-v/claude-multiprofile](https://github.com/jmdarre-v/claude-multiprofile): Run multiple Claude Desktop and Claude Code accounts side by side on macOS.
 - [jordanbaird/Ice](https://github.com/jordanbaird/Ice): Powerful menu bar manager for macOS.
 - [justrach/nanolight](https://github.com/justrach/nanolight): A ⌘Space launcher for the Mac, drawn by nanoui: apps, math, Google suggestions with results in the panel, Grok and X.
 - [jxnl/dots](https://github.com/jxnl/dots) · review needed: Starred repository.
