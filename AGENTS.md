@@ -31,6 +31,9 @@ python3 scripts/sync-github-stars.py --output-dir docs/stars --offline
 # Live: requires GH_TOKEN or GITHUB_TOKEN belonging to ardjo-s
 python3 scripts/sync-github-stars.py --output-dir docs/stars
 
+# Fail on orphans, duplicates, count mismatches or stale generated files
+python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+
 python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 

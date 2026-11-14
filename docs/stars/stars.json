@@ -52,6 +52,12 @@
       "count": 35
     },
     {
+      "id": "category_26",
+      "name": "AI Engineering & Learning",
+      "slug": "ai-engineering-learning",
+      "count": 30
+    },
+    {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
@@ -68,6 +74,12 @@
       "name": "UI & Product Design",
       "slug": "ui-product-design",
       "count": 141
+    },
+    {
+      "id": "category_23",
+      "name": "Games & 3D",
+      "slug": "games-3d",
+      "count": 70
     },
     {
       "id": "category_12",
@@ -136,12 +148,6 @@
       "count": 20
     },
     {
-      "id": "category_23",
-      "name": "Games & 3D",
-      "slug": "games-3d",
-      "count": 70
-    },
-    {
       "id": "category_24",
       "name": "Robotics, Hardware & CAD",
       "slug": "robotics-hardware-cad",
@@ -152,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 33
-    },
-    {
-      "id": "category_26",
-      "name": "AI Engineering & Learning",
-      "slug": "ai-engineering-learning",
-      "count": 30
     }
   ],
   "repositories": [

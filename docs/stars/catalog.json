@@ -77,6 +77,15 @@
       "definition": "Mesurer les systèmes IA : évaluations et benchmarks, traces et replays de raisonnement/actions, diagnostic d’échecs des agents, suivi des tokens, coûts et quotas. Un tableau de bord dont le rôle principal est de piloter des sessions va en category_01 ou category_02 ; une passerelle qui route les requêtes en category_07. Les tests de logiciels vont en category_14, l’analytics produit général en category_16 et la supervision système en category_15. Une mention d’IA ou une évaluation accessoire ne suffit pas."
     },
     {
+      "id": "category_26",
+      "name": "AI Engineering & Learning",
+      "slug": "ai-engineering-learning",
+      "emoji": "📚",
+      "family": "AI & Agents",
+      "description": "AI application SDKs, structured outputs, examples and engineering courses.",
+      "definition": "Construire et apprendre à concevoir des applications IA généralistes : SDK clients et intégration d’API de modèles, décisions/sorties structurées, exemples multitechniques, livres et cursus couvrant plusieurs couches d’ingénierie IA sans spécialité dominante. Inclut répertoires d’intégrations et recettes généralistes d’applications LLM. Ce périmètre ne reçoit pas tous les tutoriels ni tous les SDK IA : entraînement ou architectures dominants en category_06, RAG en category_05, inférence en category_07, évaluation en category_08, prompts/configuration en category_03, boucles/frameworks d’agents en category_02 et codage assisté en category_01. Une application finale ou un outil métier suit son domaine."
+    },
+    {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
@@ -102,6 +111,15 @@
       "family": "Creative Tools & Interfaces",
       "description": "UI components, design systems, typography, prototyping and product design.",
       "definition": "Concevoir ou assembler l’expérience visuelle et interactive d’un produit : composants, design systems, thèmes, templates d’interfaces, typographie, animations UI, prototypage et intégrations de design comme Figma. Inclut composants de tableaux, Gantt, cartes ou chat et inspirations de portfolios lorsqu’ils servent à concevoir une interface. Un framework qui construit et exécute l’application complète va en category_12 ; une application finale de tâches ou chat humain en category_19 ; un linter/scanner qui vérifie la conformité du code en category_14. La présence de React, Next.js ou d’une interface ne suffit pas."
+    },
+    {
+      "id": "category_23",
+      "name": "Games & 3D",
+      "slug": "games-3d",
+      "emoji": "🎮",
+      "family": "Creative Tools & Interfaces",
+      "description": "Games, rendering, geometry, avatars and interactive 3D worlds.",
+      "definition": "Jeux et moteurs de jeux, gameplay/playtesting, rendu, géométrie et reconstruction de scènes, maillages, splats, avatars et mondes 3D/4D interactifs. Inclut génération de modèles 3D et estimation de profondeur destinées à la géométrie. Un générateur dont le livrable principal est une vidéo ou une image va en category_10 ; la cartographie de données réelles en category_16 ; la CAO et fabrication physiques en category_24. Un tableau de bord d’agents présenté comme bureau 3D suit category_01 ou category_02. Un modèle de monde générique sans finalité de scène/jeu ni robotique établie reste en category_06."
     },
     {
       "id": "category_12",
@@ -203,15 +221,6 @@
       "definition": "Découvrir, vérifier et synthétiser des sources web ou académiques, veille et bibliographie, outils de recherche scientifique, applications biomédicales, santé et suivi physique/sportif. La recherche doit être une finalité documentée, pas seulement le statut de projet de recherche. Les bibliographies et cours techniques spécialisés suivent leur sujet, par exemple JEPA en category_06 et RAG en category_05. La conservation des sources va en category_19 ; les scrapers et parseurs en category_17 ; le traitement géospatial en category_16 ; l’OSINT de sécurité attesté en category_18."
     },
     {
-      "id": "category_23",
-      "name": "Games & 3D",
-      "slug": "games-3d",
-      "emoji": "🎮",
-      "family": "Creative Tools & Interfaces",
-      "description": "Games, rendering, geometry, avatars and interactive 3D worlds.",
-      "definition": "Jeux et moteurs de jeux, gameplay/playtesting, rendu, géométrie et reconstruction de scènes, maillages, splats, avatars et mondes 3D/4D interactifs. Inclut génération de modèles 3D et estimation de profondeur destinées à la géométrie. Un générateur dont le livrable principal est une vidéo ou une image va en category_10 ; la cartographie de données réelles en category_16 ; la CAO et fabrication physiques en category_24. Un tableau de bord d’agents présenté comme bureau 3D suit category_01 ou category_02. Un modèle de monde générique sans finalité de scène/jeu ni robotique établie reste en category_06."
-    },
-    {
       "id": "category_24",
       "name": "Robotics, Hardware & CAD",
       "slug": "robotics-hardware-cad",
@@ -228,15 +237,6 @@
       "family": "Hardware & Devices",
       "description": "Browsers, desktop utilities, file transfers and device tools.",
       "definition": "Navigateurs pour utilisateurs, lanceurs, fenêtres, presse-papiers, personnalisation et entretien du poste, transfert/synchronisation de fichiers, contrôle distant et utilitaires d’appareils. Le navigateur exécuté dans un terminal reste ici. Le contrôle d’appareils exposé comme capacité pour des agents relève de category_04 ; une bibliothèque de développement mobile en category_12. Les apps de notes, audio, image ou finance suivent leur fonction. Les annuaires génériques d’applications multiusages vont en category_19 plutôt qu’ici sur le seul critère de système d’exploitation."
-    },
-    {
-      "id": "category_26",
-      "name": "AI Engineering & Learning",
-      "slug": "ai-engineering-learning",
-      "emoji": "📚",
-      "family": "AI & Agents",
-      "description": "AI application SDKs, structured outputs, examples and engineering courses.",
-      "definition": "Construire et apprendre à concevoir des applications IA généralistes : SDK clients et intégration d’API de modèles, décisions/sorties structurées, exemples multitechniques, livres et cursus couvrant plusieurs couches d’ingénierie IA sans spécialité dominante. Inclut répertoires d’intégrations et recettes généralistes d’applications LLM. Ce périmètre ne reçoit pas tous les tutoriels ni tous les SDK IA : entraînement ou architectures dominants en category_06, RAG en category_05, inférence en category_07, évaluation en category_08, prompts/configuration en category_03, boucles/frameworks d’agents en category_02 et codage assisté en category_01. Une application finale ou un outil métier suit son domaine."
     }
   ],
   "repositories": [

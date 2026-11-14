@@ -27,6 +27,20 @@ UNSORTED_CATEGORY = {
     'family': 'Unsorted',
     'description': 'Public stars not yet classified in catalog.json.',
 }
+FAMILY_ORDER = (
+    'AI & Agents',
+    'Creative Tools & Interfaces',
+    'Development, Infrastructure & Data',
+    'Knowledge, Research & Business',
+    'Hardware & Devices',
+    'Unsorted',
+)
+STALE_MARKERS = (
+    'additions-2026-11-05',
+    'anthropics/anthropic-cookbook',
+    'Agent note: generated from the authenticated GitHub stars list',
+)
+REPO_ROW = re.compile(r'^- \[([^\]]+)\]\((https://github\.com/[^)]+)\)(.*)$', re.M)
 
 
 def request_json(url: str, token: str) -> dict | list:
@@ -66,6 +80,26 @@ def fetch_stars(token: str, account: str) -> list[dict]:
         page += 1
 
 
+def category_sort_key(category: dict) -> tuple[int, int]:
+    try:
+        family_index = FAMILY_ORDER.index(category['family'])
+    except ValueError as error:
+        raise ValueError(f"Unknown category family: {category['family']}") from error
+    if category['id'] == UNSORTED_ID:
+        return (family_index, 10**9)
+    suffix = category['id'].removeprefix('category_')
+    if not suffix.isdigit():
+        raise ValueError(f"Unexpected category id: {category['id']}")
+    return (family_index, int(suffix))
+
+
+def ordered_categories(catalog: dict, groups: dict[str, list[dict]] | None = None) -> list[dict]:
+    categories = list(catalog['categories'])
+    if groups is not None and groups.get(UNSORTED_ID):
+        categories.append(UNSORTED_CATEGORY)
+    return sorted(categories, key=category_sort_key)
+
+
 def validate_catalog(catalog: dict) -> None:
     if catalog.get('schema_version') != 1:
         raise ValueError('Unsupported catalog version')
@@ -78,6 +112,14 @@ def validate_catalog(catalog: dict) -> None:
         raise ValueError('unsorted is reserved for unclassified live stars')
     if any(not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug) or slug == 'readme' for slug in slugs):
         raise ValueError('Unsafe category slug')
+    for category in categories:
+        if category['family'] not in FAMILY_ORDER or category['family'] == 'Unsorted':
+            raise ValueError(f"Unknown category family: {category['family']}")
+        category_sort_key(category)
+    expected_ids = [c['id'] for c in ordered_categories(catalog)]
+    actual_ids = [c['id'] for c in categories]
+    if actual_ids != expected_ids:
+        raise ValueError('catalog categories must be in family order')
     seen_ids, seen_names = set(), set()
     for repo in catalog['repositories']:
         if repo['category'] not in ids:
@@ -125,10 +167,7 @@ def group_stars(stars: list[dict], catalog: dict) -> dict[str, list[dict]]:
 
 
 def visible_categories(catalog: dict, groups: dict[str, list[dict]]) -> list[dict]:
-    categories = list(catalog['categories'])
-    if groups.get(UNSORTED_ID):
-        categories.append(UNSORTED_CATEGORY)
-    return categories
+    return ordered_categories(catalog, groups)
 
 
 def mini_description(value: str) -> str:
@@ -263,6 +302,162 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
     return json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
 
 
+def _page_repo_names(text: str) -> list[str]:
+    body = text.split('## Stars', 1)[1] if '## Stars' in text else ''
+    return [match.group(1) for match in REPO_ROW.finditer(body)]
+
+
+def _collect_errors(errors: list[str], condition: bool, message: str) -> None:
+    if condition:
+        errors.append(message)
+
+
+def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Path, readme: Path) -> None:
+    validate_catalog(catalog)
+    categories = ordered_categories(catalog, groups)
+    errors: list[str] = []
+    inventory_by_name: dict[str, dict] = {}
+    for category in categories:
+        for repo in groups.get(category['id'], []):
+            name = repo['name']
+            if name in inventory_by_name:
+                errors.append(f'duplicate inventory name {name}')
+            inventory_by_name[name] = category
+    inventory_set = set(inventory_by_name)
+    page_names: list[str] = []
+    seen_page_names: set[str] = set()
+
+    for category in categories:
+        path = output_dir / f"{category['slug']}.md"
+        if not path.is_file():
+            errors.append(f"missing category page {path.name}")
+            continue
+        text = path.read_text(encoding='utf-8')
+        expected = render_list(category, groups.get(category['id'], []))
+        heading_count = re.search(r'\*\*(\d+) repositories\.\*\*', text)
+        count = int(heading_count.group(1)) if heading_count else -1
+        names = _page_repo_names(text)
+        expected_names = sorted((repo['name'] for repo in groups.get(category['id'], [])), key=str.casefold)
+        _collect_errors(errors, count != len(expected_names), f"{path.name}: count {count} != {len(expected_names)}")
+        missing = [name for name in expected_names if name not in names]
+        extra = [name for name in names if name not in expected_names]
+        dupes = sorted({name for name in names if names.count(name) > 1})
+        _collect_errors(errors, bool(missing), f"{path.name}: missing {missing[:8]}")
+        _collect_errors(errors, bool(extra), f"{path.name}: extra {extra[:8]}")
+        _collect_errors(errors, bool(dupes), f"{path.name}: duplicate rows {dupes[:8]}")
+        _collect_errors(errors, text != expected, f"{path.name} does not match render_list")
+        for name in names:
+            if name in seen_page_names:
+                errors.append(f'duplicate across categories: {name}')
+            seen_page_names.add(name)
+            page_names.append(name)
+
+    expected_generated = {f"{category['slug']}.md" for category in categories} | {'README.md'}
+    for path in sorted(output_dir.glob('*.md')):
+        text = path.read_text(encoding='utf-8')
+        generated = GENERATED in text or 'Agent note: generated from the authenticated GitHub stars list' in text
+        if generated and path.name not in expected_generated:
+            errors.append(f'stale generated file {path.name}')
+        for marker in STALE_MARKERS:
+            if marker in text:
+                errors.append(f'{path.name} contains stale marker {marker}')
+
+    unsorted_page = output_dir / f"{UNSORTED_CATEGORY['slug']}.md"
+    _collect_errors(errors, not groups.get(UNSORTED_ID) and unsorted_page.exists(), 'stale unsorted.md')
+
+    missing_pages = sorted(inventory_set - seen_page_names)
+    extra_pages = sorted(seen_page_names - inventory_set)
+    _collect_errors(errors, bool(missing_pages), f'missing from category pages: {missing_pages[:12]}')
+    _collect_errors(errors, bool(extra_pages), f'orphans on category pages: {extra_pages[:12]}')
+    _collect_errors(errors, len(page_names) != len(inventory_set), f'page row count {len(page_names)} != inventory {len(inventory_set)}')
+
+    snapshot_path = output_dir / 'stars.json'
+    if not snapshot_path.is_file():
+        errors.append('missing stars.json')
+    else:
+        snapshot = json.loads(snapshot_path.read_text(encoding='utf-8'))
+        expected_snapshot = json.loads(render_stars_json(catalog, groups))
+        _collect_errors(errors, snapshot != expected_snapshot, 'stars.json does not match render_stars_json')
+        _collect_errors(
+            errors,
+            snapshot.get('repository_count') != len(inventory_set),
+            f"stars.json count {snapshot.get('repository_count')} != inventory {len(inventory_set)}",
+        )
+        star_ids = [row['id'] for row in snapshot.get('categories', [])]
+        expected_ids = [category['id'] for category in categories]
+        _collect_errors(errors, star_ids != expected_ids, 'stars.json category order mismatch')
+        for row, category in zip(snapshot.get('categories', []), categories):
+            expected_count = len(groups.get(category['id'], []))
+            if row.get('name') != category['name'] or row.get('slug') != category['slug'] or row.get('count') != expected_count:
+                errors.append(f"stars.json category mismatch {row.get('id')}")
+        star_names = [row['name'] for row in snapshot.get('repositories', [])]
+        _collect_errors(errors, star_names != sorted(star_names, key=str.casefold), 'stars.json repositories are not sorted')
+        _collect_errors(errors, set(star_names) != inventory_set or len(star_names) != len(inventory_set), 'stars.json name set mismatch')
+        for row in snapshot.get('repositories', []):
+            category = inventory_by_name.get(row['name'])
+            if category is None:
+                continue
+            if row.get('category_id') != category['id'] or row.get('category') != category['name'] or row.get('url') != f"https://github.com/{row['name']}":
+                errors.append(f"stars.json row mismatch {row['name']}")
+
+    index_path = output_dir / 'README.md'
+    if not index_path.is_file():
+        errors.append('missing docs/stars/README.md')
+    else:
+        _collect_errors(
+            errors,
+            index_path.read_text(encoding='utf-8') != render_index(catalog, groups),
+            'docs/stars/README.md does not match render_index',
+        )
+
+    readme_text = readme.read_text(encoding='utf-8')
+    if START not in readme_text or END not in readme_text:
+        errors.append('missing starred-repos markers in README.md')
+    else:
+        section = readme_text.split(START, 1)[1].split(END, 1)[0]
+        _collect_errors(
+            errors,
+            section != '\n' + render_readme(catalog, groups),
+            'README starred block does not match render_readme',
+        )
+        block = section
+        for href in re.findall(r'href="(docs/stars/[^"#]+)', block):
+            if not (readme.parent / href).is_file():
+                errors.append(f'dead README link {href}')
+        for marker in STALE_MARKERS:
+            if marker in block:
+                errors.append(f'README starred block contains stale marker {marker}')
+
+    total = sum(len(repos) for repos in groups.values())
+    _collect_errors(errors, total != len(inventory_set), f'group total {total} != inventory {len(inventory_set)}')
+
+    if errors:
+        raise ValueError('Export is inconsistent:\n- ' + '\n- '.join(errors))
+
+
+def check_committed_export(output_dir: Path, readme: Path, catalog_path: Path) -> None:
+    catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
+    groups = group_stars(catalog['repositories'], catalog)
+    validate_export(catalog, groups, output_dir, readme)
+    root = readme.resolve().parent
+    for relative in ('AGENTS.md', 'llms.txt', 'scripts/README-stars.md', 'docs/stars/schema.md'):
+        path = root / relative
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding='utf-8')
+        for marker in ('additions-2026-11-05', 'anthropics/anthropic-cookbook'):
+            if marker in text:
+                raise ValueError(f'{relative} contains stale marker {marker}')
+        for match in re.finditer(r'(?:\]\(|href=")([^)"]+\.md)', text):
+            target = match.group(1)
+            if target.startswith(('http://', 'https://', '#')):
+                continue
+            resolved = (path.parent / target).resolve()
+            if target.startswith('docs/stars/') or 'stars/' in target or resolved.parent == (root / 'docs/stars').resolve():
+                if not resolved.is_file():
+                    raise ValueError(f'dead link in {relative}: {target}')
+
+
 def export(stars: list[dict], catalog: dict, output_dir: Path, readme: Path) -> None:
     groups = group_stars(stars, catalog)
     categories = visible_categories(catalog, groups)
@@ -279,6 +474,7 @@ def export(stars: list[dict], catalog: dict, output_dir: Path, readme: Path) -> 
         stale_unsorted.unlink()
     for path, text in outputs.items():
         path.write_text(text, encoding='utf-8')
+    validate_export(catalog, groups, output_dir, readme)
 
 
 def main() -> int:
@@ -287,7 +483,11 @@ def main() -> int:
     parser.add_argument('--readme', type=Path, default=Path('README.md'))
     parser.add_argument('--catalog', type=Path, default=Path('docs/stars/catalog.json'))
     parser.add_argument('--offline', action='store_true', help='Render the reviewed public snapshot without API calls')
+    parser.add_argument('--check', action='store_true', help='Validate committed export without rewriting')
     args = parser.parse_args()
+    if args.check:
+        check_committed_export(args.output_dir, args.readme, args.catalog)
+        return 0
     catalog = json.loads(args.catalog.read_text(encoding='utf-8'))
     if args.offline:
         stars = catalog['repositories']

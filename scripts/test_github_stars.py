@@ -185,6 +185,56 @@ class StarsTest(unittest.TestCase):
                 [row['name'] for row in snapshot['repositories']],
                 sorted((row['name'] for row in snapshot['repositories']), key=str.casefold),
             )
+            self.assertEqual(
+                [row['id'] for row in snapshot['categories']],
+                [category['id'] for category in stars.ordered_categories(self.catalog)],
+            )
+            self.assertLess(
+                [row['id'] for row in snapshot['categories']].index('category_26'),
+                [row['id'] for row in snapshot['categories']].index('category_09'),
+            )
+
+    def test_catalog_categories_follow_family_order(self):
+        self.assertEqual(
+            [category['id'] for category in self.catalog['categories']],
+            [category['id'] for category in stars.ordered_categories(self.catalog)],
+        )
+        self.assertEqual(
+            [category['id'] for category in self.catalog['categories']].index('category_26'),
+            8,
+        )
+
+    def test_committed_export_is_internally_consistent(self):
+        stars.check_committed_export(ROOT / 'docs/stars', ROOT / 'README.md', ROOT / 'docs/stars/catalog.json')
+
+    def test_validate_export_fails_on_orphans_duplicates_and_count_mismatch(self):
+        known = self.catalog['repositories'][0]
+        other = next(repo for repo in self.catalog['repositories'] if repo['category'] != known['category'])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / 'docs/stars'
+            output.mkdir(parents=True)
+            readme = root / 'README.md'
+            readme.write_text('profile\n## ⭐ Starred Repos\nold\n')
+            stars.export(self.catalog['repositories'], self.catalog, output, readme)
+            groups = stars.group_stars(self.catalog['repositories'], self.catalog)
+            page = output / f"{next(c['slug'] for c in self.catalog['categories'] if c['id'] == known['category'])}.md"
+            original = page.read_text()
+            page.write_text(original.replace(f"- [{known['name']}]", f"- [{known['name']}-gone]", 1))
+            with self.assertRaisesRegex(ValueError, 'inconsistent|missing'):
+                stars.validate_export(self.catalog, groups, output, readme)
+            page.write_text(original + original[original.index('- ['):original.index('\n', original.index('- [')) + 1])
+            with self.assertRaisesRegex(ValueError, 'inconsistent|duplicate'):
+                stars.validate_export(self.catalog, groups, output, readme)
+            page.write_text(original.replace('**' + str(len(groups[known['category']])) + ' repositories.**', '**0 repositories.**', 1))
+            with self.assertRaisesRegex(ValueError, 'inconsistent|count'):
+                stars.validate_export(self.catalog, groups, output, readme)
+            page.write_text(original)
+            other_page = output / f"{next(c['slug'] for c in self.catalog['categories'] if c['id'] == other['category'])}.md"
+            other_text = other_page.read_text()
+            other_page.write_text(other_text + f"- [{known['name']}](https://github.com/{known['name']}): Duplicate row.\n")
+            with self.assertRaisesRegex(ValueError, 'inconsistent|duplicate'):
+                stars.validate_export(self.catalog, groups, output, readme)
 
 
 if __name__ == '__main__':

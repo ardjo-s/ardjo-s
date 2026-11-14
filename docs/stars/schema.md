@@ -12,7 +12,7 @@ Schema version: `1`.
 | `account` | string | GitHub login whose public stars are catalogued (`ardjo-s`). |
 | `classification` | string | Label of the baseline Sol review (`Sol final`). |
 | `snapshot` | string | Date of that baseline (`2026-10-31`). Later additions keep their own `evidence_read_at`. |
-| `categories` | array | Ordered category definitions. Profile README and the index follow family order, not this array order. |
+| `categories` | array | Category definitions in canonical family order. The profile README, index, category pages and `stars.json` must use this same order. |
 | `repositories` | array | One object per classified public repository. Sorted by `name` case-insensitively in the file. |
 
 ## Category
@@ -64,7 +64,7 @@ Produced by `scripts/sync-github-stars.py`. Not a classification source.
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1452,
+  "repository_count": 0,
   "categories": [{"id": "category_01", "name": "AI Coding Agents", "slug": "ai-coding-agents", "count": 0}],
   "repositories": [
     {
@@ -78,4 +78,4 @@ Produced by `scripts/sync-github-stars.py`. Not a classification source.
 }
 ```
 
-Repositories are sorted by `name` case-insensitively. Live unclassified stars appear with `category_id` `unsorted`.
+Repositories are sorted by `name` case-insensitively. `categories` follows family order, including `unsorted` last when live stars are unclassified. Counts are generated; do not copy live totals into this example.

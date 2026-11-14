@@ -16,7 +16,7 @@ python3 scripts/sync-github-stars.py --output-dir docs/stars
 
 This needs the existing `GH_STARS_TOKEN` workflow secret, exposed as `GH_TOKEN`, belonging to the catalog owner. Local callers can use an already configured `GH_TOKEN` or `GITHUB_TOKEN`. Private stars are excluded before classification and publication. No GitHub lists are mutated.
 
-Repositories are matched by stable GitHub node ID, so a rename or ownership transfer keeps its category. Removed stars disappear from the generated pages, while their reviewed assignments remain in the snapshot for a future re-star. Unknown public repositories are exported to **Unsorted / to classify** with a stderr warning; they no longer block the rest of the refresh. Empty inventories still fail safely.
+Repositories are matched by stable GitHub node ID, so a rename or ownership transfer keeps its category. Removed stars disappear from the generated pages, while their reviewed assignments remain in the snapshot for a future re-star. Unknown public repositories are exported to **Unsorted / to classify** with a stderr warning; they no longer block the rest of the refresh. Empty inventories still fail safely. `python3 scripts/sync-github-stars.py --output-dir docs/stars --check` fails the job if any repository is missing, duplicated, or counted twice.
 
 To render the reviewed snapshot without network access:
 
