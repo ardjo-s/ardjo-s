@@ -2772,6 +2772,36 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTOEMiQ",
+      "name": "arjun988/blender-skills",
+      "url": "https://github.com/arjun988/blender-skills",
+      "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
+      "category": "category_23",
+      "purpose": "Exécuter un pipeline Blender de production 3D dans Cursor et Claude Code via des skills MCP.",
+      "keywords": [
+        "3D",
+        "3d-models",
+        "agent-skills",
+        "blender",
+        "blender-addon",
+        "blender-mcp",
+        "claude-skills",
+        "cursor-ai",
+        "game-development",
+        "jeux",
+        "mcp",
+        "skills"
+      ],
+      "review_required": false,
+      "evidence_quote": "94 Specialized Skills for Blender Artists.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/arjun988/blender-skills",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
+    },
+    {
       "id": "R_kgDOUvmYXQ",
       "name": "arla6ka/design.how",
       "url": "https://github.com/arla6ka/design.how",
@@ -16404,6 +16434,31 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOe-Hbg",
+      "name": "maillab/cloud-mail",
+      "url": "https://github.com/maillab/cloud-mail",
+      "description": "An all-in-one email service platform powered by Cloudflare  | 基于 Cloudflare 的一站式邮箱服务平台  | Cloudflare Email 邮箱 Mail",
+      "category": "category_19",
+      "purpose": "Héberger un service d’email complet sur Cloudflare Workers avec un seul domaine.",
+      "keywords": [
+        "cloudflare",
+        "cloudflare-email",
+        "cloudflare-workers",
+        "courrier",
+        "email",
+        "mail",
+        "messagerie"
+      ],
+      "review_required": false,
+      "evidence_quote": "With only one domain, you can create multiple different email addresses, similar to major email platforms. This project can be deployed on Cloudflare Workers to reduce server costs and build your own email service.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/maillab/cloud-mail/blob/main/README-en.md",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
+    },
+    {
       "id": "R_kgDOSXS5tA",
       "name": "mainframecomputer/mainframe-plugins",
       "url": "https://github.com/mainframecomputer/mainframe-plugins",
@@ -18027,6 +18082,31 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTePLYA",
+      "name": "MobAI-App/simslim",
+      "url": "https://github.com/MobAI-App/simslim",
+      "description": "Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need",
+      "category": "category_12",
+      "purpose": "Réduire la mémoire des simulateurs iOS, tvOS, watchOS et visionOS pour en lancer davantage sur un Mac.",
+      "keywords": [
+        "apple",
+        "développement",
+        "ios",
+        "macos",
+        "mobile",
+        "simulator",
+        "xcode"
+      ],
+      "review_required": false,
+      "evidence_quote": "Run a lot more iOS, Apple TV (tvOS), Apple Watch (watchOS), and Apple Vision Pro (visionOS) simulators on one Mac by turning off the background daemons a simulator doesn't need.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/MobAI-App/simslim",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
     },
     {
       "id": "R_kgDONRaG_w",
@@ -24213,6 +24293,31 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVKqSvA",
+      "name": "ricocc/ricoui-blocks",
+      "url": "https://github.com/ricocc/ricoui-blocks",
+      "description": "RICOUI -  Animated React/HTML components、blocks、Templates.",
+      "category": "category_11",
+      "purpose": "Copier des composants React animés (motion, blocs, templates) dans un projet Tailwind.",
+      "keywords": [
+        "animation",
+        "composants",
+        "design",
+        "motion",
+        "react",
+        "tailwindcss",
+        "ui-components"
+      ],
+      "review_required": false,
+      "evidence_quote": "A React + Tailwind component library focused on visual and interactive motion",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ricocc/ricoui-blocks",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
+    },
+    {
       "id": "R_kgDORYHh3g",
       "name": "RightNow-AI/openfang",
       "url": "https://github.com/RightNow-AI/openfang",
@@ -24238,6 +24343,31 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTgDp-A",
+      "name": "rinkitadhana/openside",
+      "url": "https://github.com/rinkitadhana/openside",
+      "description": "Open-source, self-hostable recording studio for podcasts, meetings, and interviews.",
+      "category": "category_10",
+      "purpose": "Enregistrer podcasts, réunions et captures d’écran en multi-piste, auto-hébergé.",
+      "keywords": [
+        "audio",
+        "enregistrement",
+        "livekit",
+        "meetings",
+        "podcast",
+        "recording",
+        "video"
+      ],
+      "review_required": false,
+      "evidence_quote": "Openside is an open-source, self-hostable recording studio - capture high-quality meetings, podcasts, and screen recordings with multi-track, per-participant recording, then finalize them into clean, downloadable video.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rinkitadhana/openside",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxMTQzNzkxNjM=",
@@ -27483,6 +27613,31 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOQ0S19w",
+      "name": "standardagents/spec",
+      "url": "https://github.com/standardagents/spec",
+      "description": "Standard Agent Specification — an open-source standard for creating portable, composable, domain-specific agents.",
+      "category": "category_03",
+      "purpose": "Spécifier des agents portables et composables indépendamment du runtime.",
+      "keywords": [
+        "agents",
+        "composable",
+        "méthodes",
+        "specification",
+        "spécification",
+        "standard",
+        "standards"
+      ],
+      "review_required": false,
+      "evidence_quote": "The Standard Agent Specification defines agents and the requirements for their runtimes. It covers agent components, execution, and packaging.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/standardagents/spec",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890"
     },
     {
       "id": "R_kgDOSDCRFg",

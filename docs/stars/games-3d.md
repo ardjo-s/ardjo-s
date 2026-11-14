@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**70 repositories.** [Browse all categories →](README.md)
+**71 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -18,6 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Alchemist0823/three.quarks](https://github.com/Alchemist0823/three.quarks): Three.quarks is a general purpose particle system /  VFX engine for three.js.
 - [amariichi/VideoDepthViewer3D](https://github.com/amariichi/VideoDepthViewer3D): Real-time 3D video player powered by Depth Anything 3.
 - [amirmushichge/unreal-home-wizard](https://github.com/amirmushichge/unreal-home-wizard): Turn room and home photographs into reviewable, walkable Unreal Engine projects with Codex.
+- [arjun988/blender-skills](https://github.com/arjun988/blender-skills): 94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.
 - [Auburn/FastNoise2](https://github.com/Auburn/FastNoise2): Modular node graph based noise generation library using SIMD, C++17 and templates.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal): Starred repository.
 - [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) · review needed: Tool for automatic PS5 executables porting to Linux and Windows.

@@ -23,7 +23,7 @@ class StarsTest(unittest.TestCase):
         stars.validate_catalog(self.catalog)
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
         self.assertEqual(len(groups), 26)
-        self.assertEqual(sum(map(len, groups.values())), 1452)
+        self.assertEqual(sum(map(len, groups.values())), 1458)
         self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 249)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
         self.assertNotIn(stars.UNSORTED_ID, groups)
@@ -54,7 +54,7 @@ class StarsTest(unittest.TestCase):
         self.assertEqual(sum('review_resolution' in r for r in additions_2026_11_05), 4)
         additions_2026_11_14 = [
             r for r in self.catalog['repositories']
-            if r.get('evidence_read_at') == '2026-11-14'
+            if r.get('classification_source') == 'https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551'
         ]
         self.assertEqual(len(additions_2026_11_14), 81)
         self.assertEqual(sum(r['review_required'] for r in additions_2026_11_14), 4)
@@ -69,6 +69,38 @@ class StarsTest(unittest.TestCase):
             self.assertTrue(repo['url'].startswith('https://github.com/'))
             self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
             self.assertIn('classification_source', repo)
+        live_unsorted = [
+            r for r in self.catalog['repositories']
+            if r.get('classification_source') == 'https://github.com/ardjo-s/ardjo-s/actions/runs/43636181890'
+        ]
+        self.assertEqual(len(live_unsorted), 6)
+        self.assertEqual(sum(r['review_required'] for r in live_unsorted), 0)
+        self.assertEqual(
+            {r['name'] for r in live_unsorted},
+            {
+                'arjun988/blender-skills',
+                'maillab/cloud-mail',
+                'MobAI-App/simslim',
+                'ricocc/ricoui-blocks',
+                'rinkitadhana/openside',
+                'standardagents/spec',
+            },
+        )
+        self.assertEqual(
+            {r['name']: r['category'] for r in live_unsorted},
+            {
+                'arjun988/blender-skills': 'category_23',
+                'maillab/cloud-mail': 'category_19',
+                'MobAI-App/simslim': 'category_12',
+                'ricocc/ricoui-blocks': 'category_11',
+                'rinkitadhana/openside': 'category_10',
+                'standardagents/spec': 'category_03',
+            },
+        )
+        for repo in live_unsorted:
+            self.assertTrue(repo['evidence_quote'])
+            self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
+            self.assertEqual(repo['evidence_read_at'], '2026-11-14')
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])
@@ -132,6 +164,29 @@ class StarsTest(unittest.TestCase):
                 stars.UNSORTED_ID,
             )
 
+    def test_check_preserves_unknown_id_when_name_matches_catalog(self):
+        known = self.catalog['repositories'][0]
+        reused = {
+            **known,
+            'id': 'NEW_NODE',
+            'description': 'Recreated under the same name',
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / 'docs/stars'
+            output.mkdir(parents=True)
+            readme = root / 'README.md'
+            readme.write_text('profile before\n## ⭐ Starred Repos\nold\n')
+            with patch.object(stars.sys, 'stderr'):
+                stars.export([reused], self.catalog, output, readme)
+                snapshot = json.loads((output / 'stars.json').read_text())
+                row = next(item for item in snapshot['repositories'] if item['name'] == known['name'])
+                self.assertEqual(row['id'], 'NEW_NODE')
+                self.assertEqual(row['category_id'], stars.UNSORTED_ID)
+                reconstructed = stars.snapshot_stars(self.catalog, snapshot)
+                self.assertEqual(reconstructed[0]['id'], 'NEW_NODE')
+                stars.check_committed_export(output, readme, ROOT / 'docs/stars/catalog.json')
+
     def test_invalid_assignment_or_duplicate_is_rejected(self):
         for change in ['category', 'duplicate', 'slug']:
             catalog = copy.deepcopy(self.catalog)
@@ -177,10 +232,11 @@ class StarsTest(unittest.TestCase):
             for href in re.findall(r'href="(docs/stars/[^"#]+)', readme.read_text()):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
-            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1452)
+            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1458)
             self.assertEqual(rendered.count(' · review needed'), 249)
             snapshot = json.loads((output / 'stars.json').read_text())
-            self.assertEqual(snapshot['repository_count'], 1452)
+            self.assertEqual(snapshot['repository_count'], 1458)
+            self.assertTrue(all(row.get('id') for row in snapshot['repositories']))
             self.assertEqual(
                 [row['name'] for row in snapshot['repositories']],
                 sorted((row['name'] for row in snapshot['repositories']), key=str.casefold),

@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**101 repositories.** [Browse all categories →](README.md)
+**102 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -87,6 +87,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [raph651/open-source-canvas](https://github.com/raph651/open-source-canvas): Open Source Canvas: an open-source node canvas that runs ComfyUI workflows.
 - [Remocn/remocn](https://github.com/Remocn/remocn): Production-ready animations, transitions, backgrounds, and scenes for Remotion.
 - [Remocn/remocn-studio](https://github.com/Remocn/remocn-studio): Agent-native video editor.
+- [rinkitadhana/openside](https://github.com/rinkitadhana/openside): Open-source, self-hostable recording studio for podcasts, meetings, and interviews.
 - [rjmahesh/ui-redline-walkthrough](https://github.com/rjmahesh/ui-redline-walkthrough): Claude skill: turn before/after UI screenshots into an animated redline walkthrough video (red ink marks, morphing UI, MP4 export).
 - [robbietilton/Compositor](https://github.com/robbietilton/Compositor): The Photoshop alternative for Mac.
 - [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator) · archived: GPU-accelerated procedural video generator.

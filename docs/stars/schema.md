@@ -68,14 +68,17 @@ Produced by `scripts/sync-github-stars.py`. Not a classification source.
   "categories": [{"id": "category_01", "name": "AI Coding Agents", "slug": "ai-coding-agents", "count": 0}],
   "repositories": [
     {
+      "id": "R_kgDO...",
       "name": "owner/repo",
       "url": "https://github.com/owner/repo",
       "description": "…",
       "category": "AI Coding Agents",
-      "category_id": "category_01"
+      "category_id": "category_01",
+      "archived": false,
+      "fork": false
     }
   ]
 }
 ```
 
-Repositories are sorted by `name` case-insensitively. `categories` follows family order, including `unsorted` last when live stars are unclassified. Counts are generated; do not copy live totals into this example.
+Repositories are sorted by `name` case-insensitively. `id` is the GitHub node id used for matching. `categories` follows family order, including `unsorted` last when live stars are unclassified. Counts are generated; do not copy live totals into this example. Live membership can be smaller than the catalog when stars were removed.
