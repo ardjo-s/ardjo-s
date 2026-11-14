@@ -1,0 +1,33 @@
+# ardjo-s/ardjo-s
+
+GitHub profile README and curated public star catalog for ardjo-s.
+
+## Start here
+
+- [AGENTS.md](AGENTS.md): purpose, layout, regenerate/test commands, edit rules
+- [docs/stars/catalog.json](docs/stars/catalog.json): source of truth (one category per public star)
+- [docs/stars/schema.md](docs/stars/schema.md): catalog JSON fields
+- [docs/stars/stars.json](docs/stars/stars.json): generated {name, url, description, category, category_id}
+- [docs/stars/README.md](docs/stars/README.md): human index of categories
+
+## Generated (do not hand-edit)
+
+- README.md between `<!-- starred-repos-start -->` and `<!-- starred-repos-end -->`
+- README.md between `<!-- tokscale-embed-start -->` and `<!-- tokscale-embed-end -->`
+- docs/stars/*.md files that contain `<!-- generated: sol-star-catalog -->`
+- docs/stars/stars.json
+- assets/tokscale/light.svg
+- assets/tokscale/dark.svg
+
+## Maintainer notes
+
+- [scripts/README-stars.md](scripts/README-stars.md)
+- [scripts/README-tokscale.md](scripts/README-tokscale.md)
+
+## Commands
+
+```
+python3 scripts/sync-github-stars.py --output-dir docs/stars --offline
+python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```

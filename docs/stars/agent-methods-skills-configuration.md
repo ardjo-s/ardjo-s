@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**111 repositories.** [Browse all categories →](README.md)
+**117 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,15 +23,19 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
 - [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial): Anthropic's Interactive Prompt Engineering Tutorial.
 - [anthropics/skills](https://github.com/anthropics/skills): Public repository for Agent Skills.
+- [awesome-busabase/awsome-busabase](https://github.com/awesome-busabase/awsome-busabase): A curated list of plugins, adapters, and integrations for Busabase.
 - [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin): A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer.
 - [blakeandersonw/ai-app-playbook](https://github.com/blakeandersonw/ai-app-playbook) · review needed: How to build useful, profitable apps in 2026.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) · review needed: A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) · review needed: CC Workflow Studio.
 - [BuilderIO/skills](https://github.com/BuilderIO/skills): Skills for agents.
+- [caldoai/skills](https://github.com/caldoai/skills): Caldo's skills.
+- [ccheever/llp](https://github.com/ccheever/llp): Linked Literate Programming.
 - [CL-ML/open-collider](https://github.com/CL-ML/open-collider) · review needed: A semantic collision engine for non-trivial LLM idea generation.
 - [codejunkie99/agentic-stack](https://github.com/codejunkie99/agentic-stack): One brain, many harnesses.
 - [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills): A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
+- [crosshatch/traits](https://github.com/crosshatch/traits): Teach your agent to code like you.
 - [cursor/cookbook](https://github.com/cursor/cookbook) · review needed: Starred repository.
 - [cursor/plugins](https://github.com/cursor/plugins) · review needed: Cursor plugin specification and official plugins.
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) · review needed: 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
@@ -57,12 +61,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [github/awesome-copilot](https://github.com/github/awesome-copilot): Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
 - [github/spec-kit](https://github.com/github/spec-kit): 💫 Toolkit to help you get started with SDD or any other process!.
 - [gokapso/agent-skills](https://github.com/gokapso/agent-skills) · review needed: Kapso agent skills for WhatsApp.
+- [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model): Open-source plugin for designing and reviewing software with agents.
 - [google/skills](https://github.com/google/skills): Agent Skills for Google products and technologies.
 - [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) · archived · review needed: A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture.
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) · review needed: A skill file for removing AI tells from prose.
 - [harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) · review needed: A reusable AI skill for stress-testing high-leverage decisions through five strategic lenses.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) · review needed: A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation).
 - [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace): "OpenSpace: The Skill Management Layer for AI Agents" -- https://open-space.cloud/.
+- [janestreet/agent_skills](https://github.com/janestreet/agent_skills): Agent skills.
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template): Clone any website with one command using AI coding agents.
 - [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) · review needed: Help AI coding agents write modern Go.
 - [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts): REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program.

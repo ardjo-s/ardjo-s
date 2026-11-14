@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**54 repositories.** [Browse all categories →](README.md)
+**56 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cloudflare/nimbus](https://github.com/cloudflare/nimbus): Docs for humans and agents, built on Astro.
 - [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding): Interactive architecture diagrams for codebases.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x): Master programming by recreating your favorite technologies from scratch.
+- [denoland/deno](https://github.com/denoland/deno): A modern runtime for JavaScript and TypeScript.
 - [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff): The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS.
 - [dzhng/jevgrep](https://github.com/dzhng/jevgrep): Find code by asking what it does.
 - [earendil-works/djs](https://github.com/earendil-works/djs): Starred repository.
@@ -35,6 +36,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!.
 - [indexable-inc/blaze](https://github.com/indexable-inc/blaze): Incremental rust builds up to 92x faster than cargo/rustc.
 - [jj-vcs/jj](https://github.com/jj-vcs/jj): A Git-compatible VCS that is both simple and powerful.
+- [jpmorganchase/python-training](https://github.com/jpmorganchase/python-training): Python training for business analysts and traders.
 - [kitlangton/stack](https://github.com/kitlangton/stack): Starred repository.
 - [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes): git push no-mistakes.
 - [lewagon/setup](https://github.com/lewagon/setup): Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.

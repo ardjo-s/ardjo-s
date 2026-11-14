@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**114 repositories.** [Browse all categories →](README.md)
+**121 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme](https://github.com/A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme): Dépôt de code du "Dictionnaire amoureux du franco maximalisme technologique".
 - [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) · archived: 🖥 📊 🕹 🛠 A curated list of command line apps.
+- [agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat) · review needed: Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.
 - [analogdotnow/Analog](https://github.com/analogdotnow/Analog) · review needed: Meet the calendar that changes everything.
 - [anishfn/shapeshift](https://github.com/anishfn/shapeshift) · review needed: An input that becomes what you mean: one text box that morphs into the right UI as you type.
 - [Ansub/wiki-os](https://github.com/Ansub/wiki-os): UI Layer for Karpathy's LLM Wiki.
@@ -48,6 +49,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [every-app/open-mail](https://github.com/every-app/open-mail): A team inbox with an AI agent that reads, drafts and sends email on your domain.
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk): Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) · review needed: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+- [farhansrambiyan/openhoy](https://github.com/farhansrambiyan/openhoy): A menu bar messenger for macOS, powered by your own iMessage.
+- [fayazara/Lotion](https://github.com/fayazara/Lotion): A local notes app.
 - [frappe/wiki](https://github.com/frappe/wiki): Free and Open Source Wiki built on top of Frappe.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) · review needed: freeCodeCamp.org's open-source codebase and curriculum.
 - [FuJacob/cotabby](https://github.com/FuJacob/cotabby): Cotabby is local AI autocomplete for your entire Mac.
@@ -89,6 +92,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [nateherkai/snagtime](https://github.com/nateherkai/snagtime): Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk): A 14 day experiment to clone Slack with Claude Code.
 - [normen/whatscli](https://github.com/normen/whatscli): A command line interface for WhatsApp.
+- [NYLLON-SOFTWARE/ember-cloudflare](https://github.com/NYLLON-SOFTWARE/ember-cloudflare): Open Source Slack and Campfire inspired chat with one click deploy to Cloudflare.
 - [obsidian-full-calendar-remastered/plugin-full-calendar](https://github.com/obsidian-full-calendar-remastered/plugin-full-calendar): Keep events and manage your calendar alongside all your other notes in your Obsidian Vault.
 - [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases): Community plugins list, theme list, and releases of Obsidian.
 - [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps): Discover the best mac apps: fast, lightweight Mac apps for productivity, developer tools, and everyday utilities.
@@ -99,12 +103,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop): Removes 20+ patterns of AI slop from any piece of writing.
 - [photon-hq/imessage-kit](https://github.com/photon-hq/imessage-kit) · review needed: A type-safe, elegant iMessage SDK for macOS with zero dependencies.
 - [pimalaya/himalaya](https://github.com/pimalaya/himalaya): CLI to manage emails.
+- [puang59/nuza](https://github.com/puang59/nuza): a lightning-fast, privacy-first, and fully open-source alternative to obsidian.
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) · review needed: A collective list of free APIs.
 - [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) · review needed: Feedback/Issue tracker for Octarine - The private, markdown note taker.
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria): Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick): An ADHD-friendly note-taking app where your notes disappear—on purpose.
 - [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind): Starred repository.
 - [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products 🚀.
+- [s1dashu/quiet-md](https://github.com/s1dashu/quiet-md): Blazing-fast native notes app and rich-text editor for macOS, Windows, and Linux.
 - [schmayterling/hibi](https://github.com/schmayterling/hibi): the one app for everything you write.
 - [scopeclient/scope](https://github.com/scopeclient/scope): discord client for power users.
 - [Shpigford/clearly](https://github.com/Shpigford/clearly): Markdown editor for Mac, iOS and iPadOS.
@@ -123,5 +129,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [will-lp1/saru](https://github.com/will-lp1/saru) · review needed: The Cursor for Writing.
 - [xaelophone/hermes](https://github.com/xaelophone/hermes): Markdown editor with intelligence.
 - [xykong/flux-markdown](https://github.com/xykong/flux-markdown) · review needed: Markdown Preview Enhanced for macOS QuickLook.
+- [ywEdAi/OpenLanguageKit](https://github.com/ywEdAi/OpenLanguageKit): Knowledge layer for building language-learning apps: knowledge points for English, Japanese and Chinese, pedagogical primitives, building blocks and a blueprint planner.
 - [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily): Privacy first AI meeting note taker.
 - [zilvestro/grammai](https://github.com/zilvestro/grammai): AI writing assistance.

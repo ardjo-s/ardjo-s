@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**98 repositories.** [Browse all categories →](README.md)
+**102 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -30,12 +30,15 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
 - [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
 - [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): Framework for orchestrating role-playing, autonomous AI agents.
+- [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo): Chat Demo.
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): DeepSeek Harness: Everything is a Plugin.
 - [earendil-works/pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI.
 - [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3): LIBERATED AI CHAT.
 - [elie222/rakazo](https://github.com/elie222/rakazo): Open-source Grok Bot alternative.
 - [farzaa/clicky](https://github.com/farzaa/clicky): The open-source project HeyClicky grew out of.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop): Desktop Companion for Hermes Agent.
+- [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot): A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived · review needed: Build AI Agents, Visually.
 - [FrigadeHQ/hob](https://github.com/FrigadeHQ/hob): An easier way to use AI on your own computer.
 - [Gen-Verse/RSI-Anything](https://github.com/Gen-Verse/RSI-Anything): RSI-Anything: Unlocking Recursive Self-Improvement with World Models.
@@ -55,6 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [maddada/Ghostex](https://github.com/maddada/Ghostex): The Best Native Agents Workspace.
 - [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist): OpenAssist is a voice-first personal AI assistant for macOS and iPhone.
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra): Mastra is the modern TypeScript framework for AI-powered applications and agents.
+- [microsoft/autogen](https://github.com/microsoft/autogen): A programming framework for agentic AI.
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use.
 - [mvschwarz/openrig](https://github.com/mvschwarz/openrig) · review needed: Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
 - [nearai/ironclaw](https://github.com/nearai/ironclaw): IronClaw is an Agent OS focused on privacy, security and extensibility.

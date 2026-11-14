@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**23 repositories.** [Browse all categories →](README.md)
+**27 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,10 +14,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ai-infra-curriculum/ai-infra-engineer-learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) · review needed: AI Infrastructure Engineer Learning Track - Production ML infrastructure curriculum (2-4 years experience).
 - [alchemy-run/alchemy](https://github.com/alchemy-run/alchemy): Infrastructure as Effects.
 - [alchemy-run/alchemy-async](https://github.com/alchemy-run/alchemy-async): Infrastructure as TypeScript.
+- [alchemy-run/distilled](https://github.com/alchemy-run/distilled) · review needed: Effect-native SDKs for cloud providers.
 - [AshishKumar4/armada](https://github.com/AshishKumar4/armada): Fast, mappable compute on Cloudflare Containers.
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared): Cloudflare Tunnel client.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify): An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
 - [devopness/devopness](https://github.com/devopness/devopness): Devopness: AI DevOps on your cloud.
+- [googleapis/release-please](https://github.com/googleapis/release-please): generate release PRs based on the conventionalcommits.org spec.
 - [hetznercloud/cli](https://github.com/hetznercloud/cli): A command-line interface for Hetzner Cloud.
 - [linear/linear-release](https://github.com/linear/linear-release): CLI to automatically track releases in Linear.
 - [Melvynx/portly](https://github.com/Melvynx/portly): One native macOS supervisor for every local development server.
@@ -27,6 +29,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [omacom/try-omarchy](https://github.com/omacom/try-omarchy) · review needed: Run Omarchy on MacOS without any setup.
 - [opencoredev/domain-sdk](https://github.com/opencoredev/domain-sdk) · review needed: Add, verify, monitor, and remove customer domains with one TypeScript API.
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions): A curated list of awesome actions to use on GitHub.
+- [serveroshq/panel](https://github.com/serveroshq/panel): The open source ServerOS panel: one place to run the Linux servers you already own.
+- [tailscale/tailcat](https://github.com/tailscale/tailcat): like netcat, but over Tailscale's data plane, without Tailscale's control plane.
 - [telemt/telemt](https://github.com/telemt/telemt) · review needed: MTProxy for Telegram on Rust + Tokio.
 - [temporalio/temporal](https://github.com/temporalio/temporal): Temporal service.
 - [torvalds/linux](https://github.com/torvalds/linux): Linux kernel source tree.

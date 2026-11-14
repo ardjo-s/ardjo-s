@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**131 repositories.** [Browse all categories →](README.md)
+**141 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -44,9 +44,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ddoemonn/interior](https://github.com/ddoemonn/interior): micro-interactions for react, built for the half-second after a click.
 - [DioxusLabs/dioxus-components](https://github.com/DioxusLabs/dioxus-components): Accessible, unstyled, foundational components for Dioxus.
 - [dip/cmdk](https://github.com/dip/cmdk): Fast, unstyled command menu React component.
+- [ds-spec/detent-ui](https://github.com/ds-spec/detent-ui): Premium React components you install with shadcn.
 - [emilkowalski/skills](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner): An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios): A list of developer portfolios for your inspiration.
+- [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill): A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together from one brief, measured, compared as identity cards, and delivered as a brand guidelines kit.
 - [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) · review needed: A guide on how to use the Figma MCP server.
 - [frappe/charts](https://github.com/frappe/charts): Simple, responsive, modern SVG Charts with zero dependencies.
 - [frappe/datatable](https://github.com/frappe/datatable): The Missing Javascript Datatable for the Web.
@@ -61,6 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hunvreus/basecoat](https://github.com/hunvreus/basecoat): A components library built with Tailwind CSS that works with any web stack.
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills): Skills for Design Engineers.
 - [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui): Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI.
+- [INSANE0777/Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp): Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode, ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design DNA, capture and record live sites.
 - [itsthecsguy/shelf-serif](https://github.com/itsthecsguy/shelf-serif): A near-monoline, squared serif with hairline shelf serifs.
 - [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx): Animated WebGL liquid-metal effect for React buttons and UI components.
 - [Jakubantalik/thinking-orbs](https://github.com/Jakubantalik/thinking-orbs): Dotted thought-orb loading indicators for AI &amp; agent UIs, 9 tuned types, two sizes, auto dark/light.
@@ -80,6 +83,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [krutikkkkkkkkk/creative-ui](https://github.com/krutikkkkkkkkk/creative-ui): React components and Claude skills with a designer's eye, installable with the shadcn CLI: npx shadcn add @creative-ui/&lt;name&gt;.
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts): EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.
+- [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas): Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
 - [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md): 200 production-grade DESIGN.md design systems for the world's best apps.
 - [MengTo/threeui](https://github.com/MengTo/threeui): Open-source ThreeUI Community catalog with live interactive components and complete Community source.
 - [meta/astryx](https://github.com/meta/astryx): An open source design system that's fully customizable and agent ready.
@@ -94,10 +98,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate): A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui): Animated components for design engineers.
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark): Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+- [oil-oil/oil-ui](https://github.com/oil-oil/oil-ui): UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots.
 - [onepixelaway/interfaces-that-think](https://github.com/onepixelaway/interfaces-that-think): UI/UX experiments for new interactions, with one folder per prototype.
 - [onlook-dev/onlook](https://github.com/onlook-dev/onlook): The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil): AI-native design editor.
 - [opencoredev/dithercn](https://github.com/opencoredev/dithercn): Add dithers to anything in your app.
+- [opencoredev/islandcn](https://github.com/opencoredev/islandcn): The open-source Dynamic Island for React, installed with shadcn.
 - [openui/open-ui](https://github.com/openui/open-ui): Maintain an open standard for UI and promote its adherence and adoption.
 - [organui/organui](https://github.com/organui/organui): OrganUI website, documentation, and component registry.
 - [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes): Perfect Next.js dark mode in 2 lines of code.
@@ -108,12 +114,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) · review needed: Build your own design apps with AI.
 - [plannotator/effective-html](https://github.com/plannotator/effective-html): Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.
 - [pmndrs/leva](https://github.com/pmndrs/leva): 🌋 React-first components GUI.
+- [rami-maalouf/exact-draw](https://github.com/rami-maalouf/exact-draw): A local Excalidraw desktop editor built with Exact.
 - [recharts/recharts](https://github.com/recharts/recharts) · review needed: Redefined chart library built with React and D3.
 - [resend/react-email](https://github.com/resend/react-email) · review needed: 💌 Build and send emails using React.
 - [rust-ui/ui](https://github.com/rust-ui/ui): A Shadcn-inspired component registry for Rust.
 - [ruucm/shadergradient](https://github.com/ruucm/shadergradient): Create beautiful moving gradients on Framer, Figma and React.
 - [s0xDk/refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill): A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan &amp; Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.
 - [saleh2001k/react-native-nitro-theme-transition](https://github.com/saleh2001k/react-native-nitro-theme-transition): Native theme transitions for React Native with Nitro Modules.
+- [samzydd/Sakaniui](https://github.com/samzydd/Sakaniui): An open-source, token-driven React component library for SaaS products: 1500+ accessible components and variants, Sicons (1,626 icons, based on Lucide) and Glass Icons, light/dark theming, and a fully documented design system built in Figma.
 - [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master): Design motion that feels real.
 - [shadcn-labs/editorcn](https://github.com/shadcn-labs/editorcn): Beautiful rich text editor components for React, built on Tiptap.
 - [shadcn-labs/inspectcn](https://github.com/shadcn-labs/inspectcn): Chrome extension to inspect and extract shadcn-style theme tokens from any website, then bring them into your project.
@@ -136,9 +144,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [TahaSh/wayflow](https://github.com/TahaSh/wayflow): An embeddable visual workflow editor for the web.
 - [thesysdev/appless](https://github.com/thesysdev/appless) · review needed: What if your phone had no apps.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
+- [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.
 - [vora-aryan/Prestige-UI](https://github.com/vora-aryan/Prestige-UI): Animated React components and blocks for Tailwind CSS and Motion.
 - [xandemon/developer-icons](https://github.com/xandemon/developer-icons): A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
 - [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui): A large collection of high-quality React components that you can copy and paste into any project.
+- [YusufCeng1z/ding](https://github.com/YusufCeng1z/ding): Toasts with real spring physics.
 - [zerostaticthemes/square-ui](https://github.com/zerostaticthemes/square-ui): Collection of beautifully crafted open-source layouts UI built with shadcn/ui.
 - [zzzzshawn/matrix](https://github.com/zzzzshawn/matrix): Starred repository.

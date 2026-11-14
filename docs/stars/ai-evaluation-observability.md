@@ -2,7 +2,7 @@
 
 > AI evaluations, traces, diagnostics, token usage, costs and quotas.
 
-**33 repositories.** [Browse all categories →](README.md)
+**35 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -18,6 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ccusage/ccusage](https://github.com/ccusage/ccusage): npx ccusage.
 - [datacurve-ai/deep-swe](https://github.com/datacurve-ai/deep-swe): Measuring frontier coding agents on original, long-horizon engineering tasks.
 - [Entelligence-AI/agentplay](https://github.com/Entelligence-AI/agentplay): Replay your coding agent sessions as a map and a timeline.
+- [garrytan/g-harness-evals](https://github.com/garrytan/g-harness-evals): Open source harness evals: which agent harness does tasks the best, for the least cost?.
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn): Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Helicone/helicone](https://github.com/Helicone/helicone): 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 🛰️ Track token usage across AI coding agents from your terminal.
@@ -43,4 +44,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
 - [Vela3202019/wisen](https://github.com/Vela3202019/wisen): A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
+- [whiskerrs/benchmarks](https://github.com/whiskerrs/benchmarks): The same shop app built by an AI in six cross-platform frameworks, measured on an iPhone.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker): Local-first AI token usage &amp; cost tracker for 31 coding tools incl.

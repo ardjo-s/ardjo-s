@@ -77,6 +77,15 @@
       "definition": "Mesurer les systèmes IA : évaluations et benchmarks, traces et replays de raisonnement/actions, diagnostic d’échecs des agents, suivi des tokens, coûts et quotas. Un tableau de bord dont le rôle principal est de piloter des sessions va en category_01 ou category_02 ; une passerelle qui route les requêtes en category_07. Les tests de logiciels vont en category_14, l’analytics produit général en category_16 et la supervision système en category_15. Une mention d’IA ou une évaluation accessoire ne suffit pas."
     },
     {
+      "id": "category_26",
+      "name": "AI Engineering & Learning",
+      "slug": "ai-engineering-learning",
+      "emoji": "📚",
+      "family": "AI & Agents",
+      "description": "AI application SDKs, structured outputs, examples and engineering courses.",
+      "definition": "Construire et apprendre à concevoir des applications IA généralistes : SDK clients et intégration d’API de modèles, décisions/sorties structurées, exemples multitechniques, livres et cursus couvrant plusieurs couches d’ingénierie IA sans spécialité dominante. Inclut répertoires d’intégrations et recettes généralistes d’applications LLM. Ce périmètre ne reçoit pas tous les tutoriels ni tous les SDK IA : entraînement ou architectures dominants en category_06, RAG en category_05, inférence en category_07, évaluation en category_08, prompts/configuration en category_03, boucles/frameworks d’agents en category_02 et codage assisté en category_01. Une application finale ou un outil métier suit son domaine."
+    },
+    {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
@@ -102,6 +111,15 @@
       "family": "Creative Tools & Interfaces",
       "description": "UI components, design systems, typography, prototyping and product design.",
       "definition": "Concevoir ou assembler l’expérience visuelle et interactive d’un produit : composants, design systems, thèmes, templates d’interfaces, typographie, animations UI, prototypage et intégrations de design comme Figma. Inclut composants de tableaux, Gantt, cartes ou chat et inspirations de portfolios lorsqu’ils servent à concevoir une interface. Un framework qui construit et exécute l’application complète va en category_12 ; une application finale de tâches ou chat humain en category_19 ; un linter/scanner qui vérifie la conformité du code en category_14. La présence de React, Next.js ou d’une interface ne suffit pas."
+    },
+    {
+      "id": "category_23",
+      "name": "Games & 3D",
+      "slug": "games-3d",
+      "emoji": "🎮",
+      "family": "Creative Tools & Interfaces",
+      "description": "Games, rendering, geometry, avatars and interactive 3D worlds.",
+      "definition": "Jeux et moteurs de jeux, gameplay/playtesting, rendu, géométrie et reconstruction de scènes, maillages, splats, avatars et mondes 3D/4D interactifs. Inclut génération de modèles 3D et estimation de profondeur destinées à la géométrie. Un générateur dont le livrable principal est une vidéo ou une image va en category_10 ; la cartographie de données réelles en category_16 ; la CAO et fabrication physiques en category_24. Un tableau de bord d’agents présenté comme bureau 3D suit category_01 ou category_02. Un modèle de monde générique sans finalité de scène/jeu ni robotique établie reste en category_06."
     },
     {
       "id": "category_12",
@@ -203,15 +221,6 @@
       "definition": "Découvrir, vérifier et synthétiser des sources web ou académiques, veille et bibliographie, outils de recherche scientifique, applications biomédicales, santé et suivi physique/sportif. La recherche doit être une finalité documentée, pas seulement le statut de projet de recherche. Les bibliographies et cours techniques spécialisés suivent leur sujet, par exemple JEPA en category_06 et RAG en category_05. La conservation des sources va en category_19 ; les scrapers et parseurs en category_17 ; le traitement géospatial en category_16 ; l’OSINT de sécurité attesté en category_18."
     },
     {
-      "id": "category_23",
-      "name": "Games & 3D",
-      "slug": "games-3d",
-      "emoji": "🎮",
-      "family": "Creative Tools & Interfaces",
-      "description": "Games, rendering, geometry, avatars and interactive 3D worlds.",
-      "definition": "Jeux et moteurs de jeux, gameplay/playtesting, rendu, géométrie et reconstruction de scènes, maillages, splats, avatars et mondes 3D/4D interactifs. Inclut génération de modèles 3D et estimation de profondeur destinées à la géométrie. Un générateur dont le livrable principal est une vidéo ou une image va en category_10 ; la cartographie de données réelles en category_16 ; la CAO et fabrication physiques en category_24. Un tableau de bord d’agents présenté comme bureau 3D suit category_01 ou category_02. Un modèle de monde générique sans finalité de scène/jeu ni robotique établie reste en category_06."
-    },
-    {
       "id": "category_24",
       "name": "Robotics, Hardware & CAD",
       "slug": "robotics-hardware-cad",
@@ -228,18 +237,39 @@
       "family": "Hardware & Devices",
       "description": "Browsers, desktop utilities, file transfers and device tools.",
       "definition": "Navigateurs pour utilisateurs, lanceurs, fenêtres, presse-papiers, personnalisation et entretien du poste, transfert/synchronisation de fichiers, contrôle distant et utilitaires d’appareils. Le navigateur exécuté dans un terminal reste ici. Le contrôle d’appareils exposé comme capacité pour des agents relève de category_04 ; une bibliothèque de développement mobile en category_12. Les apps de notes, audio, image ou finance suivent leur fonction. Les annuaires génériques d’applications multiusages vont en category_19 plutôt qu’ici sur le seul critère de système d’exploitation."
-    },
-    {
-      "id": "category_26",
-      "name": "AI Engineering & Learning",
-      "slug": "ai-engineering-learning",
-      "emoji": "📚",
-      "family": "AI & Agents",
-      "description": "AI application SDKs, structured outputs, examples and engineering courses.",
-      "definition": "Construire et apprendre à concevoir des applications IA généralistes : SDK clients et intégration d’API de modèles, décisions/sorties structurées, exemples multitechniques, livres et cursus couvrant plusieurs couches d’ingénierie IA sans spécialité dominante. Inclut répertoires d’intégrations et recettes généralistes d’applications LLM. Ce périmètre ne reçoit pas tous les tutoriels ni tous les SDK IA : entraînement ou architectures dominants en category_06, RAG en category_05, inférence en category_07, évaluation en category_08, prompts/configuration en category_03, boucles/frameworks d’agents en category_02 et codage assisté en category_01. Une application finale ou un outil métier suit son domaine."
     }
   ],
   "repositories": [
+    {
+      "id": "R_kgDOT9OoFA",
+      "name": "0sec-labs/0",
+      "url": "https://github.com/0sec-labs/0",
+      "description": "The open-source cybersecurity harness. Automate code analysis, pentesting, LLM redteaming, reverse engineering, vulnerability verification, and fixing. Web Interface, CLI and MCP for agents.",
+      "category": "category_18",
+      "purpose": "Automatiser l’analyse de code, le pentest et la vérification de vulnérabilités pour agents.",
+      "keywords": [
+        "ai-agents",
+        "application-security",
+        "binary-analysis",
+        "code-review",
+        "cybersecurity",
+        "llm-agents",
+        "mcp",
+        "penetration-testing",
+        "security-research",
+        "security-tools",
+        "vulnerability-detection",
+        "vulnerability-scanner"
+      ],
+      "review_required": false,
+      "evidence_quote": "The open-source cybersecurity harness By the Swiss Applied AI &amp; Cybersecurity Research Lab Backed by <img src=\"http",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/0sec-labs/0",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
     {
       "id": "R_kgDORjiljg",
       "name": "0xMassi/webclaw",
@@ -707,6 +737,23 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
     },
     {
+      "id": "R_kgDOURTMPQ",
+      "name": "achimala/dream-loop",
+      "url": "https://github.com/achimala/dream-loop",
+      "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
+      "category": "category_23",
+      "purpose": "Construire des visuels 3D en boucle critique via une skill d’agent.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "dream-loop By @anshuc. An agent skill that builds a game, app, or scene with impressive visuals, by creating a closed loop: 1. AI \"dreams\" up a high-quality target screenshot using image generation 2. AI builds with this target in mind 3. A",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/achimala/dream-loop",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOPSZv0w",
       "name": "acsandmann/rift",
       "url": "https://github.com/acsandmann/rift",
@@ -865,6 +912,40 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVeWHNA",
+      "name": "AdityaUmale/rea-brand",
+      "url": "https://github.com/AdityaUmale/rea-brand",
+      "description": "Reverse-engineer anyone's personal brand: when they grew, what content wins, how they make money, and 10 plays to copy.",
+      "category": "category_20",
+      "purpose": "Reverse-engineer une marque personnelle et en extraire des plays marketing.",
+      "keywords": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "content-strategy",
+        "creator-economy",
+        "growth-hacking",
+        "instagram",
+        "linkedin",
+        "marketing",
+        "personal-brand",
+        "reverse-engineering",
+        "social-media-analytics",
+        "teardown",
+        "treg"
+      ],
+      "review_required": false,
+      "evidence_quote": "/rea-brand Reverse engineer anyone's personal brand. Name a creator. Get every move behind their growth on X, LinkedIn, Instagram, YouTube, Threads, Substack and more, plus a playbook you can copy, with a ready prompt for each play. Install",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/AdityaUmale/rea-brand",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORr6fVw",
@@ -1107,6 +1188,40 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVnleRw",
+      "name": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "category": "category_19",
+      "purpose": "Faire collaborer équipe et agents dans un Slack auto-hébergé.",
+      "keywords": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent"
+      ],
+      "review_required": true,
+      "evidence_quote": "agentes.chat The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions <img src=\"https://github.com/",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/agentes-chat/agentes-chat",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQp3VPQ",
       "name": "agentskills/agentskills",
       "url": "https://github.com/agentskills/agentskills",
@@ -1318,6 +1433,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVXpdtg",
+      "name": "aidenybai/tla-ts",
+      "url": "https://github.com/aidenybai/tla-ts",
+      "description": "A TLA+ interpreter and model checker in TypeScript",
+      "category": "category_14",
+      "purpose": "Interpréter et vérifier des spécifications TLA+ en TypeScript.",
+      "keywords": [
+        "formal-verification",
+        "tlaplus",
+        "typescript"
+      ],
+      "review_required": false,
+      "evidence_quote": "tla-ts tla-ts is a drop-in replacement for TLC that's 2× faster . TLA+ lets you write formal models of a system, and TLC model checks them. But TLC is written in Java and needs the JVM. tla-ts runs anywhere JavaScript runs, such as the brow",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/aidenybai/tla-ts",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOJhC06Q",
@@ -1570,6 +1706,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOIykrGQ",
+      "name": "alchemy-run/distilled",
+      "url": "https://github.com/alchemy-run/distilled",
+      "description": "Effect-native SDKs for cloud providers",
+      "category": "category_15",
+      "purpose": "Consommer les API cloud via des SDK Effect-native.",
+      "keywords": [
+        "aws",
+        "aws-sdk",
+        "cloudflare",
+        "effect",
+        "effect-ts"
+      ],
+      "review_required": true,
+      "evidence_quote": "Effect-native SDKs for cloud providers",
+      "evidence_status": "description_and_topics",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/alchemy-run/distilled",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOVGhMOg",
       "name": "alexburlis/glassyui",
       "url": "https://github.com/alexburlis/glassyui",
@@ -1692,6 +1851,32 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVFYMmA",
+      "name": "alibaba/qz-browser-agent",
+      "url": "https://github.com/alibaba/qz-browser-agent",
+      "description": "Local-first AI agent for Chrome: browser automation, web research, and data extraction with your own model.",
+      "category": "category_04",
+      "purpose": "Piloter Chrome localement pour automatiser, rechercher et extraire le web.",
+      "keywords": [
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "chrome-extension",
+        "llm",
+        "mcp",
+        "web-agent",
+        "web-scraping"
+      ],
+      "review_required": false,
+      "evidence_quote": "qz English · 简体中文 · Website Open-source, local-first browser agent Bring your own model · Research · Automate · Extract [![License](https://img.shields.io/badg",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/alibaba/qz-browser-agent",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOQFGGXQ",
@@ -2132,6 +2317,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKHhOfA",
+      "name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "category": "category_26",
+      "purpose": "Réutiliser des notebooks et recettes pour construire avec Claude.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Claude Cookbooks The Claude Cookbooks provide code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects. Prerequisites To make the most of the exampl",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/anthropics/claude-cookbooks",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQZyFQA",
       "name": "anthropics/claude-plugins-official",
       "url": "https://github.com/anthropics/claude-plugins-official",
@@ -2149,6 +2351,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOMCxGRg",
+      "name": "anthropics/courses",
+      "url": "https://github.com/anthropics/courses",
+      "description": "Anthropic's educational courses",
+      "category": "category_26",
+      "purpose": "Suivre les cours Anthropic sur l’API, le prompting et les agents.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Anthropic courses Welcome to Anthropic's educational courses. This repository currently contains five courses. We suggest completing the courses in the following order: 1. Anthropic API fundamentals - teaches the essentials of working with ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": true,
+      "fork": false,
+      "evidence_url": "https://github.com/anthropics/courses",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORXFZgQ",
@@ -2988,6 +3207,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUQyjCA",
+      "name": "awesome-busabase/awsome-busabase",
+      "url": "https://github.com/awesome-busabase/awsome-busabase",
+      "description": "A curated list of plugins, adapters, and integrations for Busabase.",
+      "category": "category_03",
+      "purpose": "Découvrir plugins, adaptateurs et intégrations pour Busabase.",
+      "keywords": [
+        "awesome",
+        "awesome-list",
+        "busabase"
+      ],
+      "review_required": false,
+      "evidence_quote": "Awesome Busabase > A curated list of plugins, adapters, and integrations for Busabase, the open-source database and workspace for AI agents. English | 简体中文 Contents - Agent Plugins - ORM Adapters - Workflow Automation - Official Resources A",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/awesome-busabase/awsome-busabase",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOT3ajCQ",
@@ -4203,6 +4443,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUMF6KQ",
+      "name": "busabase/busabase-dsh-plugin",
+      "url": "https://github.com/busabase/busabase-dsh-plugin",
+      "description": "Deepseek Harness Plugin for Busabase",
+      "category": "category_05",
+      "purpose": "Donner à DeepSeek Harness une base de connaissances et une base de données.",
+      "keywords": [
+        "dsh-plugin"
+      ],
+      "review_required": false,
+      "evidence_quote": "English | 中文 Give DeepSeek Harness a Knowledge Base and Database @busabase/dsh-plugin connects DeepSeek Harness to Busabase, so an Agent can read trusted knowledge, work with structured data, and submit every proposed write for human review",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/busabase/busabase-dsh-plugin",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQUH0AA",
       "name": "ByteDance-Seed/Depth-Anything-3",
       "url": "https://github.com/ByteDance-Seed/Depth-Anything-3",
@@ -4335,6 +4594,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVXPK6g",
+      "name": "caldoai/skills",
+      "url": "https://github.com/caldoai/skills",
+      "description": "Caldo's skills",
+      "category": "category_03",
+      "purpose": "Installer des skills Caldo pour agents codeurs.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Caldo Skills Install Install with the skills CLI, which works with Claude Code, Cursor, Codex and other agents: npx skills add caldoai/skills To install a single skill: npx skills add caldoai/skills --skill untangle-codebase Or, in Claude C",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/caldoai/skills",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORz_BDQ",
@@ -4664,6 +4940,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOR2tNtg",
+      "name": "ccheever/llp",
+      "url": "https://github.com/ccheever/llp",
+      "description": "Linked Literate Programming",
+      "category": "category_03",
+      "purpose": "Garder les décisions humaines en Markdown et laisser l’IA écrire le code.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Linked Literate Programming (LLP) Keep humans in markdown. Let AI write and review the code. LLP is infrastructure for codebases where humans work at the level they're good at — English prose, design decisions, principles, tradeoffs — and A",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ccheever/llp",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOT-ofNA",
       "name": "cclank/lanshu-create-ai-presenter-video",
       "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
@@ -4774,6 +5067,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVpTBCQ",
+      "name": "charles-postiaux/caffeine-day",
+      "url": "https://github.com/charles-postiaux/caffeine-day",
+      "description": "How much caffeine is still in you at bedtime. A dependency-free dot-matrix chart.",
+      "category": "category_22",
+      "purpose": "Estimer la caféine restante au coucher sur un graphique sans dépendance.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Caffeine Day How much caffeine is still in you at bedtime, drawn as a lit ridge of dots. Drag your drinks along the day and watch the bedtime number move. Try it: baobun.studio/demo/caffeine - Drag a drink along the day. Tap empty space to ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/charles-postiaux/caffeine-day",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOSJlr4g",
@@ -5273,6 +5583,26 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU0soUg",
+      "name": "cloudflare/kitesurf",
+      "url": "https://github.com/cloudflare/kitesurf",
+      "description": "Kitesurf is an experimental browser engine that runs on Cloudflare Workers.",
+      "category": "category_04",
+      "purpose": "Exécuter un moteur de navigateur et le protocole Chrome DevTools sur Workers.",
+      "keywords": [
+        "agents",
+        "browser-automation"
+      ],
+      "review_required": false,
+      "evidence_quote": "Kitesurf Kitesurf is an experimental browser engine that runs on Cloudflare Workers. It parses HTML, applies CSS, runs page JavaScript, and renders screenshots without Chrome or a browser container. Kitesurf speaks the Chrome DevTools Proto",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/cloudflare/kitesurf",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQMK3dA",
       "name": "cloudflare/kumo",
       "url": "https://github.com/cloudflare/kumo",
@@ -5310,6 +5640,23 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "a1fe3e0795318e5ea1292fbb43107f47db3f3de2c1f3030824c5a0e42427d4f2",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "R_kgDOS-b1TA",
+      "name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "category": "category_18",
+      "purpose": "Orchestrer des audits de sécurité multi-phases avec findings vérifiés.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and t",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/cloudflare/security-audit-skill",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORnI8eg",
@@ -6115,6 +6462,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKlrpgA",
+      "name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "category": "category_02",
+      "purpose": "Orchestrer des agents autonomes aux rôles collaboratifs.",
+      "keywords": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "aiagentframework",
+        "llms"
+      ],
+      "review_required": false,
+      "evidence_quote": "Homepage · Open Source · Docs · Start Cloud Trial · Blog · <a hr",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/crewAIInc/crewAI",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOTt1R7g",
       "name": "criptogus/HermesOffice",
       "url": "https://github.com/criptogus/HermesOffice",
@@ -6169,6 +6539,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOU165CQ",
+      "name": "crosshatch/traits",
+      "url": "https://github.com/crosshatch/traits",
+      "description": "Teach your agent to code like you",
+      "category": "category_03",
+      "purpose": "Réutiliser des préférences de style de code pour un agent existant.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Traits Reusable preferences for your AI agent. Traits turns feedback into preferences your agent can use across tasks and sessions. Each trait is a Markdown file in .agents/traits/ .md : markdown --- name: direct-callbacks subject: Callback",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/crosshatch/traits",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOUfKcoA",
@@ -6377,6 +6764,36 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVOeacg",
+      "name": "dansugc/reverse-engineer-marketing",
+      "url": "https://github.com/dansugc/reverse-engineer-marketing",
+      "description": "Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited. CLI, MCP server and a local web app that uses your Claude Code or Codex plan.",
+      "category": "category_20",
+      "purpose": "Reconstituer ads, SEO, social et funnel d’une marque à partir d’un lien.",
+      "keywords": [
+        "ad-library",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "competitor-analysis",
+        "growth",
+        "marketing",
+        "mcp",
+        "mcp-server",
+        "reddit",
+        "reverse-engineering",
+        "seo"
+      ],
+      "review_required": false,
+      "evidence_quote": "REM: Reverse Engineer Marketing Paste a link. Get the whole marketing machine behind it. Paid ads · organic social · SEO & AI search · founders · funnel · positioning history, with the evidence for every claim. npx reverse-engineer-marketin",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/dansugc/reverse-engineer-marketing",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxMzIxMjk3NTI=",
       "name": "data-privacy-stack/presidio",
       "url": "https://github.com/data-privacy-stack/presidio",
@@ -6495,6 +6912,66 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUFiUNQ",
+      "name": "datawhalechina/zero-to-sglang",
+      "url": "https://github.com/datawhalechina/zero-to-sglang",
+      "description": "Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR. Available in English and Chinese.",
+      "category": "category_26",
+      "purpose": "Apprendre l’inférence LLM en construisant un mini-SGLang puis en lisant le vrai.",
+      "keywords": [
+        "cuda",
+        "datawhale",
+        "inference-engine",
+        "infra",
+        "kv-cache",
+        "llm",
+        "llm-inference",
+        "sglang",
+        "tutorial"
+      ],
+      "review_required": false,
+      "evidence_quote": "zero-to-sglang 📚 Build SGLang from Scratch A hands-on tutorial on LLM inference: build a mini-sglang from scratch, then read the real SGLang source. <img src=\"https://img.shields.io/github/forks/datawhalechina/zero-to-sglang?",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/datawhalechina/zero-to-sglang",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVVpilw",
+      "name": "daveebbelaar/bama",
+      "url": "https://github.com/daveebbelaar/bama",
+      "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+      "category": "category_12",
+      "purpose": "Rechercher, concevoir, construire et tester des apps macOS natives avec des skills.",
+      "keywords": [
+        "agent-skills",
+        "ai-agents",
+        "app-clone",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "computer-use",
+        "liquid-glass",
+        "macos",
+        "macos-app",
+        "native-apps",
+        "skills",
+        "swift",
+        "swiftdata",
+        "swiftui"
+      ],
+      "review_required": false,
+      "evidence_quote": "See an app you like. Rebuild it as your own native Mac app. Agent skills that take a native macOS app from idea to your Dock. Swift and SwiftUI. Local data. No Xcode GUI. [ ]( s",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/daveebbelaar/bama",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOTaeOGg",
@@ -6814,6 +7291,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVrmjdg",
+      "name": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "description": "Chat Demo",
+      "category": "category_02",
+      "purpose": "Démontrer un chat statique branché directement sur l’API DeepSeek.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "chat-demo English | 简体中文 A static chat demo powered by the DeepSeek API. No application backend is required: the browser connects directly to the configured API service. You can try the app online or download the archive from Releases, extr",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/deepseek-ai/chat-demo",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOVL9UxQ",
       "name": "deepseek-ai/DeepInfer",
       "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -6935,6 +7429,28 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMzM0NDIzODQ=",
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "category": "category_13",
+      "purpose": "Exécuter JavaScript et TypeScript avec le runtime Deno.",
+      "keywords": [
+        "deno",
+        "javascript",
+        "rust",
+        "typescript"
+      ],
+      "review_required": false,
+      "evidence_quote": "Deno [![Twitter badge][]][Twitter link] [![Bluesky badge][]][Bluesky link] [![Discord badge][]][Discord link] [![YouTube badge][]][YouTube link] Deno (/ˈdiːnoʊ/, pronounced dee-no ) is a JavaScript, TypeScript, and WebAssembly runtime with ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/denoland/deno",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDORYFOhA",
       "name": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -7041,6 +7557,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOQl0jug",
+      "name": "diggerhq/opencomputer",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "description": "An open-source, faster Devin alternative",
+      "category": "category_01",
+      "purpose": "Déléguer le logiciel à un agent codeur alternatif à Devin, y compris depuis Slack.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The open-source Devin alternative: a coding agent your team works with in Slack, on its own computers, in your cloud or ours. Cloud | Self-hosting | Docs | Website | Benchmark | Community | X <img",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/diggerhq/opencomputer",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDONC03HQ",
@@ -7393,6 +7926,30 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVgYq-Q",
+      "name": "DominikScholz/open-bot-avatar",
+      "url": "https://github.com/DominikScholz/open-bot-avatar",
+      "description": "A JSON spec and renderer for interactive agent avatars",
+      "category": "category_23",
+      "purpose": "Spécifier et rendre des avatars d’agents interactifs en SVG.",
+      "keywords": [
+        "agents",
+        "animation",
+        "avatar",
+        "bot",
+        "json",
+        "svg"
+      ],
+      "review_required": false,
+      "evidence_quote": "A JSON spec and renderer for interactive agent avatars. - Spec: one SVG path and where the eyes sit (contract). - Renderer: the open-bot-avatar package, no dependencies. - Editor: pick, color, generate and import avatars. Open source, MIT l",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/DominikScholz/open-bot-avatar",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOROahWg",
       "name": "Donchitos/Claude-Code-Game-Studios",
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
@@ -7461,6 +8018,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUiXqxw",
+      "name": "driceroland/Search",
+      "url": "https://github.com/driceroland/Search",
+      "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+      "category": "category_25",
+      "purpose": "Naviguer le web dans un navigateur WebKit minimal pour macOS.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Search A small, fast, quiet web browser for the Mac, by Office Commun. Download for macOS → · macOS 14 or later · free · about 10 MB Or with Homebrew: brew install --cask driceroland/tap/search --- What it is Search is a browser with nothin",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/driceroland/Search",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOOYmDuw",
       "name": "droidrun/mobilerun",
       "url": "https://github.com/droidrun/mobilerun",
@@ -7513,6 +8087,35 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVUjxEg",
+      "name": "ds-spec/detent-ui",
+      "url": "https://github.com/ds-spec/detent-ui",
+      "description": "Premium React components you install with shadcn. Styled by your theme, yours to change. Free and open source.",
+      "category": "category_11",
+      "purpose": "Installer des composants React animés via shadcn, stylés par le thème.",
+      "keywords": [
+        "components",
+        "design-engineering",
+        "motion",
+        "nextjs",
+        "react",
+        "reactjs",
+        "shadcn",
+        "shadcn-ui",
+        "tailwindcss",
+        "typescript",
+        "ui-library"
+      ],
+      "review_required": false,
+      "evidence_quote": "Detent React components with the motion and the states already worked out. Install one with the shadcn CLI and the source is yours to change. Website · Components · Docs · Pro Install Pick a component on detentui.com and copy its command: b",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ds-spec/detent-ui",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOJwlitg",
@@ -8635,6 +9238,54 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVfkMyg",
+      "name": "expo/exact",
+      "url": "https://github.com/expo/exact",
+      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+      "category": "category_12",
+      "purpose": "Écrire une app une fois pour web, macOS, iOS et Linux, y compris avec un agent.",
+      "keywords": [
+        "ai-agents",
+        "appkit",
+        "coding-agents",
+        "cross-platform",
+        "css",
+        "ios",
+        "linux",
+        "macos",
+        "native-apps",
+        "rust",
+        "swift",
+        "uikit",
+        "web"
+      ],
+      "review_required": false,
+      "evidence_quote": "Exact Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them. Building an app? With the tools installed (Quick start, step 1), run bun scripts/ex",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/expo/exact",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVaSp5Q",
+      "name": "expo/exact-templates",
+      "url": "https://github.com/expo/exact-templates",
+      "description": "",
+      "category": "category_12",
+      "purpose": "Démarrer une app Exact à partir d’applications exemples complètes.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Exact templates Whole apps built with Exact, to start a new app from. INDEX.md lists them. sh bun new.mjs chat ~/talk --name Talk --bundle-id com.example.talk cd ~/talk && bun exact.mjs test web bun new.mjs --develop chat makes chat/app run",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/expo/exact-templates",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk2NTc1MDI0MQ==",
       "name": "expo/expo",
       "url": "https://github.com/expo/expo",
@@ -8791,6 +9442,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVjwBSg",
+      "name": "farhansrambiyan/openhoy",
+      "url": "https://github.com/farhansrambiyan/openhoy",
+      "description": "A menu bar messenger for macOS, powered by your own iMessage",
+      "category": "category_19",
+      "purpose": "Discuter depuis la barre de menus macOS via iMessage local.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "OpenHoy A menu bar messenger for macOS that runs on iMessage . It needs no account, no server and no separate app, and everything goes out through your own Messages app. What it does - Your people in the menu bar. Pin as many people as you ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/farhansrambiyan/openhoy",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOPYG9FA",
       "name": "farion1231/cc-switch",
       "url": "https://github.com/farion1231/cc-switch",
@@ -8905,6 +9573,57 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU7rBLA",
+      "name": "fatihaydost/brand-identity-skill",
+      "url": "https://github.com/fatihaydost/brand-identity-skill",
+      "description": "A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together from one brief, measured, compared as identity cards, and delivered as a brand guidelines kit.",
+      "category": "category_11",
+      "purpose": "Concevoir logo, typographie et palette comme un système de marque unique.",
+      "keywords": [
+        "accessibility",
+        "agent-skills",
+        "agy",
+        "brand",
+        "brand-identity",
+        "branding",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "color",
+        "color-palette",
+        "design-tokens",
+        "font",
+        "logo",
+        "logo-design"
+      ],
+      "review_required": false,
+      "evidence_quote": "brand-identity A skill for Claude Code that designs a brand identity as one system: logo, typography and colour palette built together from one idea , measured, shown side by",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/fatihaydost/brand-identity-skill",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVn4INg",
+      "name": "fayazara/Lotion",
+      "url": "https://github.com/fayazara/Lotion",
+      "description": "A local notes app",
+      "category": "category_19",
+      "purpose": "Prendre des notes Markdown locales dans une app macOS native.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Lotion A quiet, native notes app for the Mac. The name is a play on local Notion : every note is a plain Markdown file in a folder you own, styled as you type. https://github.com/user-attachments/assets/1491deae-30f4-4640-a196-278edd8c6d8e ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/fayazara/Lotion",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOR2Vvjw",
       "name": "fayerman-source/startup-growth-playbook",
       "url": "https://github.com/fayerman-source/startup-growth-playbook",
@@ -8957,6 +9676,28 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOU_vYVg",
+      "name": "Fei2411/DS-Bot",
+      "url": "https://github.com/Fei2411/DS-Bot",
+      "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+      "category": "category_02",
+      "purpose": "Faire vivre une équipe de bots persistants avec messages et discussions de groupe.",
+      "keywords": [
+        "bot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ],
+      "review_required": false,
+      "evidence_quote": "DS Bot English | 中文 DS Bot is an open-source project built on DeepSeek Harness (DSH), available as a standalone desktop app or as a DSH plugin. It turns DSH into bots that you create, talk to and work with. Sponsors <a href=\"https://modelgo",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Fei2411/DS-Bot",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOPYl8cQ",
@@ -9640,6 +10381,23 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
     },
     {
+      "id": "R_kgDOVjgIEg",
+      "name": "Frizti/Fritchii",
+      "url": "https://github.com/Frizti/Fritchii",
+      "description": "Frontier GREEN HAT BOY ADVENTURE specialized Lichii fork, i'm the goat",
+      "category": "category_01",
+      "purpose": "Fork spécialisé de Lichii au livrable peu documenté.",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "Hi everybody i'm frizti i make things that work hopefully i love you",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": true,
+      "evidence_url": "https://github.com/Frizti/Fritchii",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOR54A7g",
       "name": "FuJacob/cotabby",
       "url": "https://github.com/FuJacob/cotabby",
@@ -9742,6 +10500,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVkWl6g",
+      "name": "garrytan/g-harness-evals",
+      "url": "https://github.com/garrytan/g-harness-evals",
+      "description": "Open source harness evals: which agent harness does tasks the best, for the least cost?",
+      "category": "category_08",
+      "purpose": "Comparer harness d’agents sur les mêmes tâches, qualité et coût.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "harness-evals Which AI agent harness should you use with a frontier model? A harness is the program wrapped around a model: its system prompt, its tools and its memory. Claude Code and Codex are harnesses. We keep the model (Claude Opus 5.5",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/garrytan/g-harness-evals",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOR6Xyow",
@@ -10566,6 +11341,40 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUZMgZg",
+      "name": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "category": "category_03",
+      "purpose": "Séparer conception et revue logicielle entre agents aux contextes distincts.",
+      "keywords": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-plugin",
+        "coding-agents",
+        "context-engineering",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "multi-agent",
+        "prompt-engineering",
+        "spec-driven-development"
+      ],
+      "review_required": false,
+      "evidence_quote": "Design with an elephant. Review with a goldfish. Install &ensp;·&ensp; Quickstart &ensp;·&ensp; Documentation &ensp;·&ensp; Website Develop ideas with context and review documents with fresh eyes. EGM is an open-source plugin for AI assista",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/google/elephant-goldfish-model",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOPJPepw",
       "name": "google/langextract",
       "url": "https://github.com/google/langextract",
@@ -10661,6 +11470,57 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODM0OTk0NjQ=",
+      "name": "googleapis/release-please",
+      "url": "https://github.com/googleapis/release-please",
+      "description": "generate release PRs based on the conventionalcommits.org spec",
+      "category": "category_15",
+      "purpose": "Ouvrir des PRs de release à partir des conventional commits.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Release Please Release Please automates CHANGELOG generation, the creation of GitHub releases, and version bumps for your projects. It does so by parsing your git history, looking for Conventional Commit messages, and creating release PRs. ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/googleapis/release-please",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOJfMqJg",
+      "name": "GoogleCloudPlatform/generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform",
+      "category": "category_26",
+      "purpose": "Explorer exemples et notebooks Gemini / Vertex AI sur Google Cloud.",
+      "keywords": [
+        "agents",
+        "gcp",
+        "gemini",
+        "gemini-api",
+        "gemini-platform",
+        "gen-ai",
+        "generative-ai",
+        "google",
+        "google-cloud",
+        "google-gemini",
+        "langchain",
+        "large-language-models",
+        "llm",
+        "vertex-ai",
+        "vertex-ai-gemini-api",
+        "vertexai"
+      ],
+      "review_required": false,
+      "evidence_quote": "Generative AI on Google Cloud > The latest Gemini models are available! Try out Gemini 4 Hydrogen and Gemini 4 Carbon. This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop a",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORcxyRg",
@@ -11664,6 +12524,31 @@
       "fork": false
     },
     {
+      "id": "R_kgDONrWRhg",
+      "name": "huggingface/agents-course",
+      "url": "https://github.com/huggingface/agents-course",
+      "description": "This repository contains the Hugging Face Agents Course. ",
+      "category": "category_26",
+      "purpose": "Suivre le cours Hugging Face sur les agents IA.",
+      "keywords": [
+        "agentic-ai",
+        "agents",
+        "course",
+        "huggingface",
+        "langchain",
+        "llamaindex",
+        "smolagents"
+      ],
+      "review_required": false,
+      "evidence_quote": "The Hugging Face Agents Course If you like the course, don't hesitate to ⭐ star this repository . This helps us to make the course more visible 🤗 . Content The course is divided into 4 units. These will take you from the basics of agents to",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/huggingface/agents-course",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQMKBYg",
       "name": "huggingface/ml-intern",
       "url": "https://github.com/huggingface/ml-intern",
@@ -12193,6 +13078,35 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUgAPrQ",
+      "name": "INSANE0777/Awwwards-mcp",
+      "url": "https://github.com/INSANE0777/Awwwards-mcp",
+      "description": "Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode, ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design DNA, capture and record live sites. A Mobbin alternative. No API key.",
+      "category": "category_11",
+      "purpose": "Fournir aux agents des références visuelles issues de sites primés.",
+      "keywords": [
+        "ai-agents",
+        "awwwards",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "cursor",
+        "design-inspiration",
+        "mcp",
+        "mcp-server",
+        "opencode",
+        "web-design"
+      ],
+      "review_required": false,
+      "evidence_quote": "awwwards-mcp Free, open-source MCP server that gives AI agents design inspiration from Awwwards — the Mobbin-style visual reference loop, sourced from the web's best award-winning websites. [![Sponsor](https://img.shields.io/badge/Sponsor-G",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/INSANE0777/Awwwards-mcp",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOPUh53w",
       "name": "InsForge/InsForge",
       "url": "https://github.com/InsForge/InsForge",
@@ -12548,6 +13462,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVoeCKw",
+      "name": "jal-co/jalco-drop",
+      "url": "https://github.com/jal-co/jalco-drop",
+      "description": "A self-hosted file transfer interface for people and agents. Runs on Cloudflare or Docker.",
+      "category": "category_25",
+      "purpose": "Transférer des fichiers en auto-hébergé pour humains et agents.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "<img src=\"https://shieldcn.dev/header/dots.svg?title=jalco-drop&subtitle=A%20self-hosted%20file%20transfer%20interface%20for%20people%20and%20agents&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdm",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jal-co/jalco-drop",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOSKAF-Q",
       "name": "jal-co/shieldcn",
       "url": "https://github.com/jal-co/shieldcn",
@@ -12663,6 +13594,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVhpvjg",
+      "name": "janestreet/agent_skills",
+      "url": "https://github.com/janestreet/agent_skills",
+      "description": "Agent skills",
+      "category": "category_03",
+      "purpose": "Réutiliser une collection de skills Jane Street pour agents et chatbots.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Agent skills from Jane Street A collection of skills for AI agents and chatbots. Each skill is a directory containing a SKILL.md file with instructions for the agent. Skills - socratic-tutor — turns an LLM into a strict personal tutor that ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/janestreet/agent_skills",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOSIstbw",
       "name": "jasonkneen/agent-simulator",
       "url": "https://github.com/jasonkneen/agent-simulator",
@@ -12759,6 +13707,29 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVt62pw",
+      "name": "JDhruv14/glyphform",
+      "url": "https://github.com/JDhruv14/glyphform",
+      "description": "Turn a photo into a living 3D figure drawn entirely in coloured ASCII letters (TypeScript, three.js, WebGL).",
+      "category": "category_23",
+      "purpose": "Transformer une photo en figure 3D ASCII animée dans le navigateur.",
+      "keywords": [
+        "ascii-art",
+        "generative-art",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "review_required": false,
+      "evidence_quote": "glyphform Turn a photo into a living 3D figure drawn entirely in coloured ASCII letters, in the browser. 20-second showcase in the rain: watch the full video (MP4). From the front it is the photo; turn it and it is a solid you can walk arou",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/JDhruv14/glyphform",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOSbks3w",
@@ -12952,6 +13923,33 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
     },
     {
+      "id": "R_kgDOSNQqmQ",
+      "name": "jmdarre-v/claude-multiprofile",
+      "url": "https://github.com/jmdarre-v/claude-multiprofile",
+      "description": "Run multiple Claude Desktop and Claude Code accounts side by side on macOS. Fully isolated profiles for personal, work, and clients.",
+      "category": "category_25",
+      "purpose": "Isoler plusieurs comptes Claude Desktop et Claude Code sur macOS.",
+      "keywords": [
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-desktop",
+        "cli",
+        "electron",
+        "macos",
+        "multi-account",
+        "profiles"
+      ],
+      "review_required": false,
+      "evidence_quote": "claude-multiprofile Run multiple Claude accounts side by side. Personal, work, clients. Claude Desktop and Claude Code. No more signing out of one account to use another. bash npm install -g claude-multiprofile cl",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jmdarre-v/claude-multiprofile",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOVQKzRQ",
       "name": "JoasASantos/REA-Prompts",
       "url": "https://github.com/JoasASantos/REA-Prompts",
@@ -13103,6 +14101,34 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxOTg4MzI0MDA=",
+      "name": "jpmorganchase/python-training",
+      "url": "https://github.com/jpmorganchase/python-training",
+      "description": "Python training for business analysts and traders",
+      "category": "category_13",
+      "purpose": "Suivre une formation Python destinée aux analystes et traders.",
+      "keywords": [
+        "banking",
+        "binder",
+        "binder-ready",
+        "cib",
+        "data-science",
+        "finance",
+        "jpmorgan",
+        "jupyter",
+        "jupyterlab",
+        "python"
+      ],
+      "review_required": false,
+      "evidence_quote": "Python Training This Python training is for JPMorgan business analysts and traders, as well as select clients. Overview This course is designed to be an introduction to numerical computing and data visualization in Python. It is not designe",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jpmorganchase/python-training",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzOTUzNDEzODM=",
@@ -13604,6 +14630,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOH9pEEg",
+      "name": "karpathy/nn-zero-to-hero",
+      "url": "https://github.com/karpathy/nn-zero-to-hero",
+      "description": "Neural Networks: Zero to Hero",
+      "category": "category_26",
+      "purpose": "Apprendre les réseaux de neurones depuis les bases avec des notebooks filmés.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Neural Networks: Zero to Hero A course on neural networks that starts all the way at the basics. The course is a series of YouTube videos where we code and train neural networks together. The Jupyter notebooks we build in the videos are the",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/karpathy/nn-zero-to-hero",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOMUNb0A",
@@ -14140,6 +15183,28 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVhDS1Q",
+      "name": "kvistgaard/horoi",
+      "url": "https://github.com/kvistgaard/horoi",
+      "description": "Documentation pages for web ontologies.",
+      "category": "category_16",
+      "purpose": "Documenter chaque terme d’une ontologie web sur une page à cartes.",
+      "keywords": [
+        "documentation",
+        "ontology",
+        "owl",
+        "rdfs"
+      ],
+      "review_required": false,
+      "evidence_quote": "Horoi Documentation pages for web ontologies. Horoi writes one page that documents every term of an ontology, each on a card with its definition, and axioms. Each term's IRI leads to its card. The ontology diagram is generated from the onto",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/kvistgaard/horoi",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOJhlbPg",
@@ -15001,6 +16066,32 @@
       "fork": false
     },
     {
+      "id": "R_kgDOULkhjg",
+      "name": "lnkiai/m3e-canvas",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "category": "category_11",
+      "purpose": "Esquisser des écrans Material 3 Expressive et en tirer des prompts.",
+      "keywords": [
+        "design-tool",
+        "material-3-expressive",
+        "material-design",
+        "material3",
+        "nextjs",
+        "prompt",
+        "react",
+        "vibe-coding"
+      ],
+      "review_required": false,
+      "evidence_quote": "Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool. </pi",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lnkiai/m3e-canvas",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOVRRpkQ",
       "name": "LNPANDY/NX2Apple",
       "url": "https://github.com/LNPANDY/NX2Apple",
@@ -15025,6 +16116,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUoXAtg",
+      "name": "longbridge/gpui-fast",
+      "url": "https://github.com/longbridge/gpui-fast",
+      "description": "GPUI extracted from the Zed monorepo as a standalone workspace, with the layout engine reworked to keep what did not change between frames",
+      "category": "category_12",
+      "purpose": "Construire des interfaces natives Rust avec un GPUI en rendu incrémental.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "GPUI Fast A performance-focused fork of Zed's GPUI with incremental rendering and native window composition. v0.1.0 is available on crates.io. The project remains experimental. - Retained Mode reuses unchanged views, layout nodes and text m",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/longbridge/gpui-fast",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOMI8ZRg",
@@ -16308,6 +17416,34 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKInPBw",
+      "name": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "A programming framework for agentic AI",
+      "category": "category_02",
+      "purpose": "Programmer des applications agentiques avec le framework AutoGen.",
+      "keywords": [
+        "agentic",
+        "agentic-agi",
+        "agents",
+        "ai",
+        "autogen",
+        "autogen-ecosystem",
+        "chatgpt",
+        "framework",
+        "llm-agent",
+        "llm-framework"
+      ],
+      "review_required": false,
+      "evidence_quote": "A programming framework for agentic AI",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/microsoft/autogen",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOMfa6vg",
       "name": "microsoft/BitNet",
       "url": "https://github.com/microsoft/BitNet",
@@ -16386,6 +17522,38 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOJxbR3A",
+      "name": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "category": "category_26",
+      "purpose": "Apprendre à construire des applications d’IA générative en 21 leçons.",
+      "keywords": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model",
+        "llms",
+        "microsoft-for-beginners",
+        "openai",
+        "prompt-engineering",
+        "semantic-search",
+        "transformers"
+      ],
+      "review_required": false,
+      "evidence_quote": "21 Lessons teaching everything you need to know to start building Generative AI applications [ ](https://GitHub.com/microsoft/Generative-AI-For-Beginners/issues/?WT.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDONO810w",
@@ -17905,6 +19073,38 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk0NTMwNzU0OA==",
+      "name": "neutraltone/awesome-stock-resources",
+      "url": "https://github.com/neutraltone/awesome-stock-resources",
+      "description": ":city_sunrise: A collection of links for free stock photography, video and Illustration websites",
+      "category": "category_10",
+      "purpose": "Trouver photos, vidéos, illustrations et polices libres de droits.",
+      "keywords": [
+        "awesome",
+        "awesome-list",
+        "font",
+        "free-photos",
+        "icon-font",
+        "icons",
+        "list",
+        "music",
+        "patterns",
+        "stock-photography",
+        "stock-photos",
+        "stock-videos",
+        "templates",
+        "weather-icons"
+      ],
+      "review_required": false,
+      "evidence_quote": "Awesome Stock Resources > A curated list of awesome stock photography, video and illustration websites. I try my best to maintain this repository and keep it up-to-date but if you",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/neutraltone/awesome-stock-resources",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOQfttOw",
       "name": "nextlevelbuilder/ui-ux-pro-max-skill",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
@@ -18735,6 +19935,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVGem1A",
+      "name": "NYLLON-SOFTWARE/ember-cloudflare",
+      "url": "https://github.com/NYLLON-SOFTWARE/ember-cloudflare",
+      "description": "Open Source Slack and Campfire inspired chat with one click deploy to Cloudflare.",
+      "category": "category_19",
+      "purpose": "Déployer un chat d’équipe auto-hébergé sur Cloudflare.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A real-time chat app that runs entirely on Cloudflare. Rooms, threads, DMs, files, search, bots and push notifications, deployed in one click. Features · Ember vs Slack · What it costs · <a href=\" get-star",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/NYLLON-SOFTWARE/ember-cloudflare",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOTfkhbw",
       "name": "oblien/mindwire",
       "url": "https://github.com/oblien/mindwire",
@@ -18930,6 +20147,54 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVjbuXA",
+      "name": "offense-research/compound-security-plugin",
+      "url": "https://github.com/offense-research/compound-security-plugin",
+      "description": "Security workflows for coding agents. Choose what to audit, fix verified findings, and keep regression tests and lessons for the next review.",
+      "category": "category_18",
+      "purpose": "Auditer, corriger et capitaliser des findings de sécurité avec un agent codeur.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Compound Security Built by Offense Research, Inc. . Want our team to handle the audit, fixes, and security automation? Work with Offense Research. Find a vulnerability, repair its cause, prove the fix, and retain the lesson so the next revi",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/offense-research/compound-security-plugin",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOU0Ob-A",
+      "name": "oil-oil/oil-ui",
+      "url": "https://github.com/oil-oil/oil-ui",
+      "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+      "category": "category_11",
+      "purpose": "Explorer et comparer des directions d’UI pour agents à partir de captures.",
+      "keywords": [
+        "agent-skills",
+        "ai-design",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "design",
+        "design-system",
+        "frontend",
+        "ui",
+        "ui-design",
+        "ux-design"
+      ],
+      "review_required": false,
+      "evidence_quote": "English · 中文 · 日本語 Oil UI is an interface design skill for AI agents. It recommends one direction and refines it against real screenshots, or explores severa",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/oil-oil/oil-ui",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOSwsKRQ",
       "name": "okyssta/Ariadne",
       "url": "https://github.com/okyssta/Ariadne",
@@ -18989,6 +20254,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVfG18w",
+      "name": "omacom/omarchy-local-ai",
+      "url": "https://github.com/omacom/omarchy-local-ai",
+      "description": "Local model catalog for Omarchy agent use",
+      "category": "category_07",
+      "purpose": "Cataloguer et servir des modèles locaux pour les agents Omarchy.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "omarchy-local-ai The local-model engine, recipe catalog and internals reference for Omarchy. The Arch package omarchy-local-ai installs this tree to /usr/share/omarchy-local-ai and symlinks /usr/bin/omarchy-local-ai to its executable entry ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/omacom/omarchy-local-ai",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOT0gshw",
@@ -19567,6 +20849,28 @@
       "fork": false
     },
     {
+      "id": "R_kgDOG-3nPA",
+      "name": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "category": "category_26",
+      "purpose": "Réutiliser exemples et guides de l’API OpenAI.",
+      "keywords": [
+        "chatgpt",
+        "gpt-4",
+        "openai",
+        "openai-api"
+      ],
+      "review_required": false,
+      "evidence_quote": "> ✨ Navigate at cookbook.openai.com Example code and guides for accomplishing common tasks with the OpenAI API. To run these examples, you'll need an OpenAI account and associated API key (create a free account here). Set an environment var",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/openai/openai-cookbook",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOReoB_w",
       "name": "openai/plugins",
       "url": "https://github.com/openai/plugins",
@@ -19845,6 +21149,30 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtD-og",
+      "name": "opencoredev/islandcn",
+      "url": "https://github.com/opencoredev/islandcn",
+      "description": "The open-source Dynamic Island for React, installed with shadcn.",
+      "category": "category_11",
+      "purpose": "Intégrer une Dynamic Island React installée via shadcn.",
+      "keywords": [
+        "dynamic-island",
+        "nextjs",
+        "react",
+        "shadcn",
+        "typescript",
+        "ui-components"
+      ],
+      "review_required": false,
+      "evidence_quote": "islandcn A Dynamic Island-style component for any React app, installed with shadcn. Show an upload, a timer, a song, a ride on its way, an incoming call or a recording in one island at the top of your app, and shape each activity around you",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/opencoredev/islandcn",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOSFybrw",
       "name": "OpenCoworkAI/open-codesign",
       "url": "https://github.com/OpenCoworkAI/open-codesign",
@@ -19920,6 +21248,32 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOU7Ja-g",
+      "name": "openfilm/openfilm",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+      "category": "category_10",
+      "purpose": "Transformer un agent codeur en agent vidéo avec éditeur HTML.",
+      "keywords": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "review_required": false,
+      "evidence_quote": "The open source AI video agent. One HTML file, one function, one real editor. English · 简体中文 About OpenFilm lets your coding agent make videos, and lets you edit them. Ask Codex, Claude Code or any coding agent to make a film. It writes the",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/openfilm/openfilm",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOSpqjmQ",
@@ -20222,6 +21576,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVGd6mQ",
+      "name": "Orva-Studio/beacon",
+      "url": "https://github.com/Orva-Studio/beacon",
+      "description": "",
+      "category": "category_10",
+      "purpose": "Enregistrer, monter et exporter des vidéos d’écran, y compris via un agent.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Beacon The screen-recording editor your AI agent can drive. Record, cut and export on your Mac, by hand or through MCP. > [!WARNING] > Beacon is very early alpha software. Expect bugs, missing features and > things that break between versio",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Orva-Studio/beacon",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOPfbZuA",
@@ -21266,6 +22637,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU82vuQ",
+      "name": "philrenaud/practical-data",
+      "url": "https://github.com/philrenaud/practical-data",
+      "description": "Chrome extension: conditional formatting for every web table, with the better direction figured out by a decision model.",
+      "category": "category_16",
+      "purpose": "Colorer les tableaux HTML du web selon un modèle de mise en forme conditionnelle.",
+      "keywords": [
+        "chrome-extension",
+        "conditional-formatting",
+        "d3",
+        "data-visualization",
+        "effect-ts"
+      ],
+      "review_required": false,
+      "evidence_quote": "Practical Data Practical Data is a Chrome extension that shades the comparable columns of HTML tables on any web page. A small decision model decides which columns to shade and which end of each column is better. Code does all of the parsin",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/philrenaud/practical-data",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOVUY0LQ",
       "name": "phone-harness/mcp",
       "url": "https://github.com/phone-harness/mcp",
@@ -21969,6 +23363,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUVS-yA",
+      "name": "puang59/nuza",
+      "url": "https://github.com/puang59/nuza",
+      "description": "a lightning-fast, privacy-first, and fully open-source alternative to obsidian",
+      "category": "category_19",
+      "purpose": "Prendre des notes locales dans une alternative ouverte à Obsidian.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "nuza nuza is a lightning-fast, privacy-first, and fully open-source alternative to Obsidian. Built natively with Tauri and React, it delivers a deeply integrated desktop experience that stays out of your way. (click on the image above for a",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/puang59/nuza",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
       "name": "public-apis/public-apis",
       "url": "https://github.com/public-apis/public-apis",
@@ -21993,6 +23404,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTQ0Ljg",
+      "name": "pwa-today/pwa-check",
+      "url": "https://github.com/pwa-today/pwa-check",
+      "description": "Automated PWA health check tool to make sure your PWA looks, feels, and behaves like a real app.",
+      "category": "category_14",
+      "purpose": "Vérifier installabilité, hors-ligne et comportement d’une PWA.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "pwa-check Is your web app actually ready to be installed, work offline, and behave like a real PWA? Let pwa-check check your app for you. It scans the HTML, manifest, scripts, and service worker, then points straight at the gaps that will h",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/pwa-today/pwa-check",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOJoet9A",
@@ -22198,6 +23626,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVLudmA",
+      "name": "rami-maalouf/exact-draw",
+      "url": "https://github.com/rami-maalouf/exact-draw",
+      "description": "A local Excalidraw desktop editor built with Exact",
+      "category": "category_11",
+      "purpose": "Éditer des fichiers Excalidraw locaux dans une app Exact.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Exact Draw A focused macOS home for your Excalidraw files. Open drawings from your own folders, edit them with the official Excalidraw canvas, and see changes made by other tools without reopening the file. Why it exists A drawing often liv",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rami-maalouf/exact-draw",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOTvkezg",
@@ -22829,6 +24274,30 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVljwJQ",
+      "name": "rjmahesh/ui-redline-walkthrough",
+      "url": "https://github.com/rjmahesh/ui-redline-walkthrough",
+      "description": "Claude skill: turn before/after UI screenshots into an animated redline walkthrough video (red ink marks, morphing UI, MP4 export)",
+      "category": "category_10",
+      "purpose": "Produire une vidéo redline animée à partir de captures UI avant/après.",
+      "keywords": [
+        "animation",
+        "claude",
+        "claude-skill",
+        "design",
+        "redline",
+        "ui-design"
+      ],
+      "review_required": false,
+      "evidence_quote": "ui-redline-walkthrough A Claude skill that turns before/after screenshots of a product UI into an animated redline walkthrough: red ink and handwritten notes mark each problem on the real interface, the UI morphs into the fix, and the film ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rjmahesh/ui-redline-walkthrough",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOREB1Ow",
@@ -23749,6 +25218,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVnlBhw",
+      "name": "ryanrhughes/t3code-wow",
+      "url": "https://github.com/ryanrhughes/t3code-wow",
+      "description": "Watch and run your T3 Code agent threads inside World of Warcraft: Forever. Early, experimental release.",
+      "category": "category_23",
+      "purpose": "Suivre et lancer des threads T3 Code depuis un addon World of Warcraft.",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "T3 Code for World of Warcraft Watch and run your T3 Code agent threads without leaving the game. It's a native addon for World of Warcraft: Forever, built from Blizzard's own UI templates so it looks and plays like the rest of the interface",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ryanrhughes/t3code-wow",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOUFaneA",
       "name": "s0xDk/refactoring-ui-skill",
       "url": "https://github.com/s0xDk/refactoring-ui-skill",
@@ -23764,6 +25250,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVfGaKA",
+      "name": "s1dashu/quiet-md",
+      "url": "https://github.com/s1dashu/quiet-md",
+      "description": "Blazing-fast native notes app and rich-text editor for macOS, Windows, and Linux. Built with Rust + GPUI. Local-first and beautifully designed.",
+      "category": "category_19",
+      "purpose": "Écrire des notes locales natives avec Rust et GPUI.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Quiet.md A fast, quiet, local notes app. Drawn natively with Rust + GPUI. Your notes stay on your computer, stored in the Feishu (Lark) DocxXML format. English · 简体中文 · 日本語 · 한국어 · Español · Français <img src=\"https://img.shields.io/github/",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/s1dashu/quiet-md",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOUlHPLQ",
@@ -23855,6 +25358,61 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTbMCGQ",
+      "name": "samzydd/Sakaniui",
+      "url": "https://github.com/samzydd/Sakaniui",
+      "description": "An open-source, token-driven React component library for SaaS products: 1500+ accessible components and variants, Sicons (1,626 icons, based on Lucide) and Glass Icons, light/dark theming, and a fully documented design system built in Figma.",
+      "category": "category_11",
+      "purpose": "Assembler une librairie React tokenisée de composants SaaS accessibles.",
+      "keywords": [
+        "accessibility",
+        "component-library",
+        "dark-mode",
+        "design-system",
+        "design-tokens",
+        "figma",
+        "icon-set",
+        "icons",
+        "react",
+        "storybook",
+        "typescript",
+        "ui-components"
+      ],
+      "review_required": false,
+      "evidence_quote": "SakaniUI An open-source, token-driven React component library for SaaS products — 1500+ accessible components and variants , built 1:1 from a Figma design system, across light and dark modes, with built-in glass and Apple-style liquid glass",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/samzydd/Sakaniui",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVhHGTA",
+      "name": "Sandflow-ai/sand3d",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "description": "3D modeling in Python, built for LLMs.",
+      "category": "category_23",
+      "purpose": "Modéliser des scènes 3D en Python pour des agents et Blender.",
+      "keywords": [
+        "3d",
+        "blender",
+        "cad",
+        "llm",
+        "procedural-modeling",
+        "python",
+        "usd"
+      ],
+      "review_required": false,
+      "evidence_quote": "&nbsp;sand3d 3D modeling in Python, built for LLMs. sand3d is a Python library for writing 3D objects as short programs: profiles, solids, edits, frames, joints and assemblies, over Blender's bpy . A program says how a shape is made, part b",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Sandflow-ai/sand3d",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMDYzNjg5MzM=",
@@ -24363,6 +25921,33 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVnlXhw",
+      "name": "serveroshq/panel",
+      "url": "https://github.com/serveroshq/panel",
+      "description": "The open source ServerOS panel: one place to run the Linux servers you already own.",
+      "category": "category_15",
+      "purpose": "Piloter les serveurs Linux déjà possédés depuis un panneau open source.",
+      "keywords": [
+        "agpl",
+        "control-panel",
+        "devops",
+        "laravel",
+        "open-source",
+        "self-hosted",
+        "server-management",
+        "serveros",
+        "vps"
+      ],
+      "review_required": false,
+      "evidence_quote": "ServerOS panel One place to run the Linux servers you already own.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/serveroshq/panel",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOLCAjRg",
@@ -26503,6 +28088,34 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVjBEHg",
+      "name": "sushilk1991/phonedock",
+      "url": "https://github.com/sushilk1991/phonedock",
+      "description": "Lets coding agents use Android emulators, iOS simulators and real phones. Mac app with an MCP server, a CLI and SDKs.",
+      "category": "category_04",
+      "purpose": "Laisser les agents codeurs piloter émulateurs, simulateurs et téléphones réels.",
+      "keywords": [
+        "ai-agents",
+        "android",
+        "android-emulator",
+        "automation",
+        "claude-code",
+        "ios",
+        "ios-simulator",
+        "macos",
+        "mcp",
+        "mobile-testing"
+      ],
+      "review_required": false,
+      "evidence_quote": "PhoneDock Your agent, on a real phone. A free, open-source Mac app that lets Claude Code, Codex, Cursor and Pi use your iPhone, your Android phone, iOS simulators and Android emulators. You watch every step live, and the agent asks you when",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/sushilk1991/phonedock",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOS2hPTA",
       "name": "swamimalode07/rare-ui",
       "url": "https://github.com/swamimalode07/rare-ui",
@@ -26803,6 +28416,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDONHoN8A",
+      "name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "category": "category_15",
+      "purpose": "Échanger des flux façon netcat sur le plan de données Tailscale.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "\"Tailscale without Tailscale, by Tailscale\" Tailcat Tailcat is a remix of Tailscale open source pieces to act like netcat, but over Tailscale's data plane, without Tailscale's control plane. Tailscale's data plane ( magicsock , internally) ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/tailscale/tailcat",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkzMDQ3NDA4NzA=",
       "name": "tamagui/tamagui",
       "url": "https://github.com/tamagui/tamagui",
@@ -26888,6 +28518,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSi9aBg",
+      "name": "teamchong/pxpipe",
+      "url": "https://github.com/teamchong/pxpipe",
+      "description": "cut Claude Code token usage by rendering text context as images",
+      "category": "category_05",
+      "purpose": "Compresser le contexte d’un agent en rendant le texte en images.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "pxpipe Cut coding-agent input tokens by rendering bulky context as images — the same system prompt, tool docs, and history, in a fraction of the tokens. An image's token cost is fixed by its pixel dimensions, not by how much text is inside ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/teamchong/pxpipe",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOPYjmOw",
@@ -27248,6 +28895,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSsH0pg",
+      "name": "TheOrcDev/videorc",
+      "url": "https://github.com/TheOrcDev/videorc",
+      "description": "Open-source multistream studio and screen recorder for Mac: go live on 6+ platforms free, record in 4K, publish with AI.",
+      "category": "category_10",
+      "purpose": "Diffuser et enregistrer en multi-plateforme depuis un studio Mac.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Videorc Videorc is an open-source, AI-native desktop studio for creators: record your screen and camera, stream to multiple platforms at once, and bring Buddy, an AI producer that keeps up with your chat while you're live. All from one wind",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/TheOrcDev/videorc",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOTaHKYQ",
@@ -28947,6 +30611,39 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVYQpxw",
+      "name": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "category": "category_11",
+      "purpose": "Réutiliser comportements d’accessibilité et d’interaction pour UIs générées par agents.",
+      "keywords": [
+        "accessibility",
+        "agent",
+        "agents",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "review_required": false,
+      "evidence_quote": "UI SDK A library of behaviors for agents to build the next generation of user interfaces. Keyboard navigation, focus, selection, dismissal, popups, drag and drop and the ARIA they need live in @ui-sdk/core , with adapters for React, Vue, Sv",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/vercel-labs/ui",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOJmmzGQ",
       "name": "vercel/ai",
       "url": "https://github.com/vercel/ai",
@@ -29581,6 +31278,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOPRMXrw",
+      "name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "category": "category_21",
+      "purpose": "Gérer ses finances personnelles dans une app ouverte.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "<img alt=\"The Sure dashboard in two columns (cashflow, net worth, spending an",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/we-promise/sure",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "R_kgDOSOJLZQ",
       "name": "weave-os/router",
       "url": "https://github.com/weave-os/router",
@@ -29761,6 +31475,40 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVqWpGg",
+      "name": "whiskerrs/benchmarks",
+      "url": "https://github.com/whiskerrs/benchmarks",
+      "description": "The same shop app built by an AI in six cross-platform frameworks, measured on an iPhone",
+      "category": "category_08",
+      "purpose": "Comparer la même app boutique générée par IA dans plusieurs frameworks, sur iPhone.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Shop app benchmark The same Shopify storefront app, built by an AI from one identical prompt with each of React Native, Flutter, Whisker, Native Shell, NativeScript, and Exact, then measured on a physical iPhone. UIKit, SwiftUI, NativePHP, ",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/whiskerrs/benchmarks",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOSciIBA",
+      "name": "whiskerrs/whisker",
+      "url": "https://github.com/whiskerrs/whisker",
+      "description": "Build native iOS, Android, web and desktop apps in Rust",
+      "category": "category_12",
+      "purpose": "Construire des apps natives iOS, Android, web et desktop en Rust.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Build native iOS, Android, desktop, and web apps in Rust with a fine-grained reactive runtime, Taffy layout, and native Host renderers. No virtual DOM. <img src=\"https://img",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/whiskerrs/whisker",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDOQRbssg",
@@ -30676,6 +32424,57 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVjo8Sw",
+      "name": "YusufCeng1z/ding",
+      "url": "https://github.com/YusufCeng1z/ding",
+      "description": "Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM.",
+      "category": "category_11",
+      "purpose": "Afficher des toasts avec physique de ressort sans dépendance.",
+      "keywords": [
+        "animation",
+        "nextjs",
+        "notifications",
+        "nuxt",
+        "react",
+        "react-hot-toast",
+        "shadcn",
+        "sonner",
+        "spring-physics",
+        "svelte",
+        "toast",
+        "toast-notifications",
+        "typescript",
+        "ui-components",
+        "vue",
+        "zero-dependency"
+      ],
+      "review_required": false,
+      "evidence_quote": "Ding Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue or plain DOM. Live demo and docs --- Why Ding - One toast at a time. A new call morphs the toast on screen instead of stacking a secon",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/YusufCeng1z/ding",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVrcYRA",
+      "name": "ywEdAi/OpenLanguageKit",
+      "url": "https://github.com/ywEdAi/OpenLanguageKit",
+      "description": "Knowledge layer for building language-learning apps: knowledge points for English, Japanese and Chinese, pedagogical primitives, building blocks and a blueprint planner. CC BY-NC 4.0.",
+      "category": "category_19",
+      "purpose": "Fournir points de connaissance et briques pédagogiques pour apps d’apprentissage linguistique.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "OpenLanguageKit English · 中文 &nbsp;|&nbsp; Website · Try the practice pages · Browse the courses · Plan an app OpenLanguageKit is the part of a language-learning app that is hard to make up on the spot: what to teach, in what order, and how",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ywEdAi/OpenLanguageKit",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNTQ4MzI3OTk=",
       "name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
@@ -30730,6 +32529,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVpMsvQ",
+      "name": "zadescoxp/calibrain-harness",
+      "url": "https://github.com/zadescoxp/calibrain-harness",
+      "description": "Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models (Kairos today) on Bybit testnet. Under development.",
+      "category": "category_21",
+      "purpose": "Tester en avant des modèles de trading de perpetuals crypto sur testnet.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A forward-testing harness for trading with fast classification models: plug a model in, run it on live perpetual markets, and find out honestly whether it has an edge. <img alt=\"venue: Bybit testnet only\" src=\"https://img.shields.io/badge/v",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/zadescoxp/calibrain-harness",
+      "evidence_read_at": "2026-11-14",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
       "id": "R_kgDORGz4iw",

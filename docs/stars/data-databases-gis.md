@@ -2,7 +2,7 @@
 
 > Databases, data pipelines, analytics, visualization and geospatial tools.
 
-**35 repositories.** [Browse all categories →](README.md)
+**37 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -25,6 +25,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap): Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data.
 - [jitsucom/jitsu](https://github.com/jitsucom/jitsu): Jitsu is an open-source Segment alternative.
 - [Kanaries/graphic-walker](https://github.com/Kanaries/graphic-walker): An open source alternative to Tableau.
+- [kvistgaard/horoi](https://github.com/kvistgaard/horoi): Documentation pages for web ontologies.
 - [maaslalani/sheets](https://github.com/maaslalani/sheets): Terminal based spreadsheet tool.
 - [microsoft/data-formulator](https://github.com/microsoft/data-formulator): 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
 - [microsoft/Ontology-Playground](https://github.com/microsoft/Ontology-Playground) · review needed: Free, open-source web app for learning about ontologies and Microsoft Fabric IQ.
@@ -38,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [osmlab/awesome-openstreetmap](https://github.com/osmlab/awesome-openstreetmap): 😎 Curated list of awesome OpenSteetMap-projects.
 - [pgrundev/pgbot](https://github.com/pgrundev/pgbot) · review needed: Postgres intelligence for ai agents.
 - [pgrundev/pgterm](https://github.com/pgrundev/pgterm): Modern Postgres Terminal.
+- [philrenaud/practical-data](https://github.com/philrenaud/practical-data): Chrome extension: conditional formatting for every web table, with the better direction figured out by a decision model.
 - [plausible/analytics](https://github.com/plausible/analytics): Open source, privacy-first web analytics.
 - [PostHog/posthog](https://github.com/PostHog/posthog): :hedgehog: PostHog is the leading platform for building self-driving products.
 - [qdrant/qdrant](https://github.com/qdrant/qdrant): Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.

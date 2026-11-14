@@ -2,7 +2,7 @@
 
 > Marketing, SEO, sales, customer relationships, recruiting and careers.
 
-**45 repositories.** [Browse all categories →](README.md)
+**47 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [AdityaUmale/rea-brand](https://github.com/AdityaUmale/rea-brand): Reverse-engineer anyone's personal brand: when they grew, what content wins, how they make money, and 10 plays to copy.
 - [adkit/ads-skills](https://github.com/adkit/ads-skills): Claude skills to run ads: advertising &amp; marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok &amp; more.
 - [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search): The job search that runs on your machine.
 - [AienTech/dossier](https://github.com/AienTech/dossier): A self-hosted job search app that writes tailored resumes and cover letters from your profile.
@@ -22,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot): Open-source live-chat, email support, omni-channel desk.
 - [cogsend/cogsend](https://github.com/cogsend/cogsend): Self-hosted social media scheduler.
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): Marketing skills for Claude Code and AI agents.
+- [dansugc/reverse-engineer-marketing](https://github.com/dansugc/reverse-engineer-marketing): Paste a link, get the whole marketing machine behind it: paid ads, organic social, SEO, Reddit, founders, funnel — evidence-cited.
 - [Eldin162/jobclaw](https://github.com/Eldin162/jobclaw): Streamline hiring by connecting AI agents that evaluate, negotiate, and schedule interviews to reduce time and improve candidate fit.
 - [elvisun/newsjack](https://github.com/elvisun/newsjack): The open-source skills that turn your agent into a full PR team.
 - [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach): Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit, explains why each one does, and emails them from your mailbox.
