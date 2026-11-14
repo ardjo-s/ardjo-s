@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**121 repositories.** [Browse all categories →](README.md)
+**122 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -82,6 +82,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [linuz90/gists.sh](https://github.com/linuz90/gists.sh) · review needed: Starred repository.
 - [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes): Notes of the book System Desgin Interview - An Insider's Guide.
 - [macro-inc/macro](https://github.com/macro-inc/macro): Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
+- [maillab/cloud-mail](https://github.com/maillab/cloud-mail): An all-in-one email service platform powered by Cloudflare  | 基于 Cloudflare 的一站式邮箱服务平台  | Cloudflare Email 邮箱 Mail.
 - [makeplane/plane](https://github.com/makeplane/plane): 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
 - [mandgie/minne](https://github.com/mandgie/minne): Starred repository.
 - [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) · review needed: AI coding jargon, explained in plain English.

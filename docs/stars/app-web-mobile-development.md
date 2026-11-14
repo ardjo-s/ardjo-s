@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**63 repositories.** [Browse all categories →](README.md)
+**64 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -44,6 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify): Turn TUI apps into real macOS applications.
 - [MengTo/Skills](https://github.com/MengTo/Skills) · review needed: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mintlify/starter](https://github.com/mintlify/starter) · review needed: The starter kit for your mintlify project.
+- [MobAI-App/simslim](https://github.com/MobAI-App/simslim): Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need.
 - [nativewind/nativewind](https://github.com/nativewind/nativewind): The utility-first workflow you love from Tailwind CSS in your React Native applications.
 - [nellavio/nellavio](https://github.com/nellavio/nellavio): 🚀 Next.js dashboard starter with auth, i18n, RBAC, 18 pages and 90+ UI components.
 - [oxidezap/whatsapp-rust](https://github.com/oxidezap/whatsapp-rust) · review needed: Whatsapp client written purely in Rust.

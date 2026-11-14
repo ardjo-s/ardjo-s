@@ -7,7 +7,7 @@ GitHub profile README and curated public star catalog for ardjo-s.
 - [AGENTS.md](AGENTS.md): purpose, layout, regenerate/test commands, edit rules
 - [docs/stars/catalog.json](docs/stars/catalog.json): source of truth (one category per public star)
 - [docs/stars/schema.md](docs/stars/schema.md): catalog JSON fields
-- [docs/stars/stars.json](docs/stars/stars.json): generated {name, url, description, category, category_id}
+- [docs/stars/stars.json](docs/stars/stars.json): generated {id, name, url, description, category, category_id, archived, fork}
 - [docs/stars/README.md](docs/stars/README.md): human index of categories
 
 ## Generated (do not hand-edit)

@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**141 repositories.** [Browse all categories →](README.md)
+**142 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -117,6 +117,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rami-maalouf/exact-draw](https://github.com/rami-maalouf/exact-draw): A local Excalidraw desktop editor built with Exact.
 - [recharts/recharts](https://github.com/recharts/recharts) · review needed: Redefined chart library built with React and D3.
 - [resend/react-email](https://github.com/resend/react-email) · review needed: 💌 Build and send emails using React.
+- [ricocc/ricoui-blocks](https://github.com/ricocc/ricoui-blocks): RICOUI -  Animated React/HTML components、blocks、Templates.
 - [rust-ui/ui](https://github.com/rust-ui/ui): A Shadcn-inspired component registry for Rust.
 - [ruucm/shadergradient](https://github.com/ruucm/shadergradient): Create beautiful moving gradients on Framer, Figma and React.
 - [s0xDk/refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill): A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan &amp; Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.

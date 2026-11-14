@@ -277,11 +277,14 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
     for category in categories:
         for repo in groups.get(category['id'], []):
             repositories.append({
+                'id': repo['id'],
                 'name': repo['name'],
                 'url': repo['url'],
                 'description': repo.get('description') or '',
                 'category': category['name'],
                 'category_id': category['id'],
+                'archived': bool(repo.get('archived')),
+                'fork': bool(repo.get('fork')),
             })
     repositories.sort(key=lambda row: row['name'].casefold())
     payload = {
@@ -435,9 +438,30 @@ def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Pa
         raise ValueError('Export is inconsistent:\n- ' + '\n- '.join(errors))
 
 
+def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
+    """Rebuild the live inventory from stars.json so --check follows membership, not the full catalog."""
+    by_id = {repo['id']: repo for repo in catalog['repositories']}
+    by_name = {repo['name']: repo for repo in catalog['repositories']}
+    stars = []
+    for row in snapshot.get('repositories', []):
+        classified = by_id.get(row.get('id')) or by_name.get(row.get('name'))
+        if classified is None and row.get('category_id') != UNSORTED_ID:
+            raise ValueError(f"generated snapshot has repo not in catalog: {row.get('name')}")
+        stars.append({
+            'id': classified['id'] if classified else row.get('id') or f"{UNSORTED_ID}:{row['name']}",
+            'name': row['name'],
+            'url': row['url'],
+            'description': row.get('description') or '',
+            'archived': bool(row.get('archived')),
+            'fork': bool(row.get('fork')),
+        })
+    return stars
+
+
 def check_committed_export(output_dir: Path, readme: Path, catalog_path: Path) -> None:
     catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
-    groups = group_stars(catalog['repositories'], catalog)
+    snapshot = json.loads((output_dir / 'stars.json').read_text(encoding='utf-8'))
+    groups = group_stars(snapshot_stars(catalog, snapshot), catalog)
     validate_export(catalog, groups, output_dir, readme)
     root = readme.resolve().parent
     for relative in ('AGENTS.md', 'llms.txt', 'scripts/README-stars.md', 'docs/stars/schema.md'):
