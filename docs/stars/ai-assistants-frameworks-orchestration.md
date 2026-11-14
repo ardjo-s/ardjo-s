@@ -13,11 +13,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [666ghj/MiroFish](https://github.com/666ghj/MiroFish) · review needed: A Simple and Universal Swarm Intelligence Engine, Predicting Anything.
 - [aaif-goose/goose](https://github.com/aaif-goose/goose): an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
-- [AFK-surf/Comma](https://github.com/AFK-surf/Comma): Best free &amp; open source AI personal assistant.
+- [AFK-surf/Comma](https://github.com/AFK-surf/Comma): Best free &amp; open source super agent.
 - [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield): Build, run and scale AI agents like API and microservices.
 - [alchaincyf/hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book): Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南.
 - [andrewyng/openworker](https://github.com/andrewyng/openworker): Starred repository.
-- [Anil-matcha/open-duet](https://github.com/Anil-matcha/open-duet): Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.
+- [Anil-matcha/suparagent](https://github.com/Anil-matcha/suparagent): Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.
 - [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui): Typescript/React Library for AI Chat 💬🚀.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) · review needed: AI that sees your screen, listens to your conversations and tells you what to do.
 - [browserbase/bell-stack](https://github.com/browserbase/bell-stack): BELL: the open source personal assistant powered by Browserbase, Stripe, Vercel, and Linq.
@@ -28,7 +28,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit): The Frontend Stack for Agents &amp; Generative UI.
 - [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot): Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after.
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
-- [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
+- [CopilotKit/openfuse](https://github.com/CopilotKit/openfuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
 - [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
 - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): Framework for orchestrating role-playing, autonomous AI agents.
 - [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo): Chat Demo.
@@ -45,6 +45,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [google-research/harness2](https://github.com/google-research/harness2): Starred repository.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
 - [huggingface/ml-intern](https://github.com/huggingface/ml-intern) · archived · review needed: Archived — ML Intern is no longer maintained.
+- [interfaces-inc/OpenPhone](https://github.com/interfaces-inc/OpenPhone) · review needed: AI-first open source operating system for various devices, based on the Android.
 - [jasonkneen/openclicky](https://github.com/jasonkneen/openclicky): openclicky -- the open source version of clicky.
 - [ksimback/looper](https://github.com/ksimback/looper) · review needed: Design visual, review-gated agent loops for Claude Code before you run them.
 - [kunchenguid/gnhf](https://github.com/kunchenguid/gnhf): Before I go to bed, I tell my agents: good night, have fun.
@@ -80,16 +81,15 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [osolmaz/switch](https://github.com/osolmaz/switch): A framework for building decision-model harnesses for any kind of task.
 - [outsourc-e/clawsuite](https://github.com/outsourc-e/clawsuite): All-in-one command center for OpenClaw agents.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip): The open-source app everyone uses to manage agents at work.
-- [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): The Agentrun Workflow DSL.
+- [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): AgentRun is an open-source platform that supercharges your agents.
 - [pipecat-ai/ios-little-voices](https://github.com/pipecat-ai/ios-little-voices): Starred repository.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
 - [rerun-build/rerun](https://github.com/rerun-build/rerun): AI coworkers that run your work.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang): Open-source Agent Operating System.
 - [rome-os/rome](https://github.com/rome-os/rome): A compounding agent OS for recursive agents.
-- [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat): AI coworker with memory and collaboration.
+- [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat): Your agent team, in one group chat.
 - [ruvnet/ruflo](https://github.com/ruvnet/ruflo): 🌊 The original agent harness.
-- [secondly-com/OpenPhone](https://github.com/secondly-com/OpenPhone) · review needed: AI-first open source operating system for various devices, based on the Android.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) · review needed: Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1.
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): AutoGPT is the vision of accessible AI for everyone, to use and to build on.
 - [simstudioai/sim](https://github.com/simstudioai/sim): Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows.
@@ -111,5 +111,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) · review needed: A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.
 - [whirlchat/whirl](https://github.com/whirlchat/whirl): The AI chat app that sweats the details.
 - [xark-argo/argo](https://github.com/xark-argo/argo): ARGO is an open-source AI Agent platform that brings Local Manus to your desktop.
-- [yc-software/qm](https://github.com/yc-software/qm): Multiplayer agent harness for work.
+- [yc-software/qm](https://github.com/yc-software/qm): Multiplayer agent harness for teams.
 - [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw): Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀.

@@ -13,7 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [AbdelStark/awesome-jepa](https://github.com/AbdelStark/awesome-jepa) · review needed: Curated resources for JEPA (Joint Embedding Predictive Architecture) world models and self-supervised learning.
 - [anomalyco/models.dev](https://github.com/anomalyco/models.dev): An open-source database of AI models.
-- [cactus-compute/needle](https://github.com/cactus-compute/needle) · review needed: Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, ASR, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.
+- [cactus-compute/cactus](https://github.com/cactus-compute/cactus) · review needed: Sub-50mb agentic, voice and vision intelligence for consumer devices.
 - [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning): A curated list of awesome Deep Learning tutorials, projects and communities.
 - [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3): Starred repository.
 - [facebookresearch/tribev2](https://github.com/facebookresearch/tribev2) · review needed: This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction.
@@ -33,7 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NVIDIA-NeMo/ProRL-Agent-Server](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server): Agentic RL on Any Harness at Scale.
 - [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) · review needed: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
 - [openai/gpt-oss](https://github.com/openai/gpt-oss): gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): Fully automatic censorship removal for language models.
+- [p-e-w/heretic](https://github.com/p-e-w/heretic): Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more.
 - [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer): Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization.
 - [probabl-ai/skore](https://github.com/probabl-ai/skore): Track your Data Science.
 - [QwenLM/Qwen](https://github.com/QwenLM/Qwen) · review needed: The official repo of Qwen (通义千问) chat &amp; pretrained large language model proposed by Alibaba Cloud.

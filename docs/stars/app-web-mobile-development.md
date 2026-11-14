@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**64 repositories.** [Browse all categories →](README.md)
+**63 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,7 +13,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [47ng/nuqs](https://github.com/47ng/nuqs): Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
-- [ardjo-s/openui-dioxus](https://github.com/ardjo-s/openui-dioxus): OpenUI-compatible deterministic generative UI runtime for Dioxus.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
 - [convex/convex-backend](https://github.com/convex/convex-backend): The open-source reactive database for app developers.
@@ -23,7 +22,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Effect-TS/effect](https://github.com/Effect-TS/effect): Build production-ready applications in TypeScript.
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
-- [every-app/every-app](https://github.com/every-app/every-app) · review needed: Make every SaaS open source.
+- [every-app/every-app](https://github.com/every-app/every-app) · review needed: Every app your business needs to grow.
 - [expo/exact](https://github.com/expo/exact): Write an app once.
 - [expo/exact-templates](https://github.com/expo/exact-templates): Starred repository.
 - [expo/expo](https://github.com/expo/expo): An open-source framework for making universal native apps with React.

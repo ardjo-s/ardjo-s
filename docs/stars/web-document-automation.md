@@ -33,6 +33,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shadcn-labs/pdfcn](https://github.com/shadcn-labs/pdfcn): Beautiful pdf components, built on Takumi and Forme.
 - [shift-labs-ai/markit](https://github.com/shift-labs-ai/markit): 🖍️ Convert anything to markdown.
 - [SoMarkAI/OXR](https://github.com/SoMarkAI/OXR): An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.
-- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown.
+- [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai): Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents.
 - [xevrion/gyotaku](https://github.com/xevrion/gyotaku) · review needed: search every screenshot you've ever taken by the text inside it.
 - [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR): GLM-OCR: Accurate ×  Fast × Comprehensive.

@@ -48,7 +48,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [microsoft/fara](https://github.com/microsoft/fara) · review needed: Fara1.5 – A family of frontier computer use agent models.
 - [milind-soni/axstream](https://github.com/milind-soni/axstream): A streaming action language for computer-use agents.
 - [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos): Open-Source fast local computer use.
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · review needed: Model Context Protocol Servers.
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · review needed: Model Context Protocol Reference Servers.
 - [monid-ai/monid](https://github.com/monid-ai/monid): Monid - OpenRouter for agent tools.
 - [mvanhorn/agentcookie](https://github.com/mvanhorn/agentcookie) · review needed: Your agent runs on a Mac that isn't your daily driver.
 - [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press): Every API has a secret identity.
@@ -59,6 +59,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): Give your AI agent eyes to see the entire internet.
 - [perplexityai/SPACE](https://github.com/perplexityai/SPACE): Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation.
 - [phone-harness/mcp](https://github.com/phone-harness/mcp): Connect AI agents to real iPhones and Androids.
+- [phone-harness/phone-harness](https://github.com/phone-harness/phone-harness): let your agent control your phone.
 - [pilot-protocol/pilotprotocol](https://github.com/pilot-protocol/pilotprotocol) · review needed: Pilot Protocol: The Internet of Agents.
 - [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp): 🚀 The fast, Pythonic way to build MCP servers and clients.
 - [pydantic/monty](https://github.com/pydantic/monty): A secure Python sandbox, written in Rust, for code written by AI.
@@ -68,7 +69,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [runtm-ai/runtm](https://github.com/runtm-ai/runtm): Open-source sandboxes where coding agents build and deploy.
 - [scaleapi/agentenv-framework](https://github.com/scaleapi/agentenv-framework) · review needed: Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many dimensions: artifacts, environments tools, dynamism of the environment, reproducibility, and more.
 - [serpapi/serpapi-mcp](https://github.com/serpapi/serpapi-mcp) · review needed: SerpApi MCP Server for Google and other search engine results.
-- [ShawnPana/phone-harness](https://github.com/ShawnPana/phone-harness): let your agent control your phone.
 - [shhivv/arc-cua](https://github.com/shhivv/arc-cua): Superfast action layer for computer-use agents, on MacOS.
 - [showlab/ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) · review needed: Human-taught Computer-use Agent Designed for Real Windows and MacOS Desktops.
 - [smol-machines/smolvm](https://github.com/smol-machines/smolvm): An embeddable, portable, branchable virtual machine to safely run Agents locally.
@@ -80,7 +80,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [trycua/cua](https://github.com/trycua/cua): Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.
 - [UsefulSoftwareCo/executor](https://github.com/UsefulSoftwareCo/executor): The missing integration layer for AI agents.
 - [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser): Browser automation CLI for AI agents.
-- [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop): Agent Desktop gives any agent reliable computer use on the desktop.
+- [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop): Computer use CLI for AI agents.
 - [vercel-labs/dev3000](https://github.com/vercel-labs/dev3000) · review needed: Captures your web app's complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.
 - [vercel-labs/opensrc](https://github.com/vercel-labs/opensrc) · review needed: Fetch source code for npm packages to give AI coding agents deeper context.
 - [webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp): 🤖 WebMCP.

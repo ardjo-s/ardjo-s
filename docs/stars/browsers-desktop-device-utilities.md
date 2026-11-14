@@ -11,7 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
+- [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): A native macOS launcher for everyday productivity.
 - [acsandmann/rift](https://github.com/acsandmann/rift): a tiling window manager for macos.
 - [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi): ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.

@@ -29,7 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DominikScholz/open-bot-avatar](https://github.com/DominikScholz/open-bot-avatar): A JSON spec and renderer for interactive agent avatars.
 - [effekseer/Effekseer](https://github.com/effekseer/Effekseer): Starred repository.
 - [EpicGames/unreal-engine-skills-for-claude-code-plugin](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin): Starred repository.
-- [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): 77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox.
+- [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines.
 - [godotengine/godot](https://github.com/godotengine/godot): Godot Engine – Multi-platform 2D and 3D game engine.
 - [gokayfem/gaussian-splat-to-blender-nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes): Agent skill and toolkit for reconstructing Gaussian splats as editable Blender Geometry Nodes meshes and Shader Node materials.
 - [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation): Open source c++ skeletal animation library and toolset.
@@ -66,14 +66,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Sandflow-ai/sand3d](https://github.com/Sandflow-ai/sand3d): 3D modeling in Python, built for LLMs.
 - [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin): Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents.
 - [seedds/nxnative](https://github.com/seedds/nxnative) · review needed: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).
-- [sloemo01/diorama](https://github.com/sloemo01/diorama): Pixel-art diorama playbook and Three.js code kit: research-first build workflow, locked camera, palette snap, ordered dither, inked contour, animated toy-scale cast, per-entity frame QA.
+- [sloemo01/diorama](https://github.com/sloemo01/diorama): Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.
 - [speridlabs/idol-sdk](https://github.com/speridlabs/idol-sdk): Idol: a single image to 3D Gaussians.
 - [sprmn24/hermes-game-forge](https://github.com/sprmn24/hermes-game-forge): Starred repository.
 - [SubmitGame/awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games): Rated, auto-refreshed list of decompiled, recompiled &amp; reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.
 - [Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0): HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds.
 - [thecuvii/solaris](https://github.com/thecuvii/solaris): Starred repository.
 - [TokisanGames/Terrain3D](https://github.com/TokisanGames/Terrain3D): A high performance, editable terrain system for Godot 4.
-- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp): Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer.
+- [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp): Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer.
 - [VAST-AI-Research/TripoSR](https://github.com/VAST-AI-Research/TripoSR): TripoSR: Fast 3D Object Reconstruction from a Single Image.
 - [WhiteTowerAI/ohmygame](https://github.com/WhiteTowerAI/ohmygame): The open-source studio for making games with AI.
 - [xikhar/spiderbench](https://github.com/xikhar/spiderbench): Starred repository.

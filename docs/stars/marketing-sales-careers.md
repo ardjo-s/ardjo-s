@@ -14,7 +14,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [AdityaUmale/rea-brand](https://github.com/AdityaUmale/rea-brand): Reverse-engineer anyone's personal brand: when they grew, what content wins, how they make money, and 10 plays to copy.
 - [adkit/ads-skills](https://github.com/adkit/ads-skills): Claude skills to run ads: advertising &amp; marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok &amp; more.
 - [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search): The job search that runs on your machine.
-- [AienTech/dossier](https://github.com/AienTech/dossier): A self-hosted job search app that writes tailored resumes and cover letters from your profile.
+- [AienTech/dossier](https://github.com/AienTech/dossier): A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.
 - [appeeky/ua-skills](https://github.com/appeeky/ua-skills): Agent skills for mobile app paid growth powered by real-time data with APPEEKY MCP.
 - [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) · review needed: 💬 Typebot is a powerful chatbot builder that you can self-host.
 - [brainstormity/LightPost](https://github.com/brainstormity/LightPost): A lightweight system to automate posting to all of your socials from one dashboard.
@@ -34,7 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [frappe/helpdesk](https://github.com/frappe/helpdesk): Modern, Streamlined, Free and Open Source Customer Service Software.
 - [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2): Automate the process of making money online.
 - [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app): 📨 The ultimate agentic social media scheduling tool 🤖.
-- [Illyism/seo-skills](https://github.com/Illyism/seo-skills): SEO skills for Claude Code, Cursor and Codex: SEO autopilot, title tags, blog refreshes, backlinks, customer journeys, video transcripts and copywriting.
+- [Illyism/seo-skills](https://github.com/Illyism/seo-skills): 30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex &amp; AI agents: technical SEO roasts, Ahrefs &amp; DataForSEO SERP workflows, first-hand proof KBs, backlinks &amp; GEO.
 - [Infinite-Labs-AI/infinite-skills](https://github.com/Infinite-Labs-AI/infinite-skills): Installable Codex skills for goal-setting and marketing operator work.
 - [joeyism/linkedin_scraper](https://github.com/joeyism/linkedin_scraper) · review needed: A library that scrapes Linkedin for user data.
 - [JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume): free online AI resume editor，the only official website is  https://magicv.art.
@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Kappaemme-git/MengToFrontend](https://github.com/Kappaemme-git/MengToFrontend) · review needed: Starred repository.
 - [linkcraftstudio/feedlog](https://github.com/linkcraftstudio/feedlog): Open-source AI customer support for SaaS teams — AI agent, help center, shared inbox, and feedback-to-changelog loop in one self-hostable platform.
 - [marmelab/atomic-crm](https://github.com/marmelab/atomic-crm): A full-featured CRM built with React, shadcn/ui, and Supabase.
-- [matthewdonsemail-lab/log](https://github.com/matthewdonsemail-lab/log): Omnichannel social media listening &amp; marketing tool with API and MCP access, outbound campaigns, and keyword tracking.
+- [matthewdonsemail-lab/log](https://github.com/matthewdonsemail-lab/log): Open-source CLI and MCP server that lets your AI agent (Claude Code, Codex) run your social media: DMs, replies, inbox and outbound on X, Discord, Slack, Instagram, Reddit and LinkedIn, in your own voice.
 - [mautic/mautic](https://github.com/mautic/mautic): Mautic: Open Source Marketing Automation Software.
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) · review needed: Open-source web analytics you deploy in one click.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill): Starred repository.

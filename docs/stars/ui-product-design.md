@@ -17,7 +17,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems): 💅🏻 ⚒ A collection of awesome design systems.
 - [aloksivastava1025-prog/cue-foundations](https://github.com/aloksivastava1025-prog/cue-foundations): Open-source foundational components with code and  AI prompts — from Cue's curated library.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn): Beautiful map components.
-- [Anshkaran7/expokit](https://github.com/Anshkaran7/expokit): Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts.
 - [arla6ka/design.how](https://github.com/arla6ka/design.how): Design systems, skills and visuals for coding agents.
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit): A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js): 🎈 Animated balloons effect for your website.
@@ -48,6 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [emilkowalski/skills](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner): An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios): A list of developer portfolios for your inspiration.
+- [ExpoKit/ExpoKit](https://github.com/ExpoKit/ExpoKit): Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts.
 - [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill): A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together from one brief, measured, compared as identity cards, and delivered as a brand guidelines kit.
 - [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) · review needed: A guide on how to use the Figma MCP server.
 - [frappe/charts](https://github.com/frappe/charts): Simple, responsive, modern SVG Charts with zero dependencies.
@@ -122,7 +122,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [s0xDk/refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill): A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan &amp; Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.
 - [saleh2001k/react-native-nitro-theme-transition](https://github.com/saleh2001k/react-native-nitro-theme-transition): Native theme transitions for React Native with Nitro Modules.
 - [samzydd/Sakaniui](https://github.com/samzydd/Sakaniui): An open-source, token-driven React component library for SaaS products: 1500+ accessible components and variants, Sicons (1,626 icons, based on Lucide) and Glass Icons, light/dark theming, and a fully documented design system built in Figma.
-- [satishkumarsajjan/ease-master](https://github.com/satishkumarsajjan/ease-master): Design motion that feels real.
+- [satisium/ease](https://github.com/satisium/ease): Design motion that feels real.
 - [shadcn-labs/editorcn](https://github.com/shadcn-labs/editorcn): Beautiful rich text editor components for React, built on Tiptap.
 - [shadcn-labs/inspectcn](https://github.com/shadcn-labs/inspectcn): Chrome extension to inspect and extract shadcn-style theme tokens from any website, then bring them into your project.
 - [shadcn-labs/mcpcn](https://github.com/shadcn-labs/mcpcn): shadcn/ui, but for building ChatGPT/Claude/MCP apps.
@@ -133,7 +133,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shadcn-labs/termcn](https://github.com/shadcn-labs/termcn): Beautiful terminal UI components, built on Ink and OpenTUI.
 - [shadcn-ui/ui](https://github.com/shadcn-ui/ui): Composable, accessible components with thoughtful defaults.
 - [shader-effects-inc/shaders](https://github.com/shader-effects-inc/shaders) · review needed: WebGPU components for React, Vue, Svelte, Solid, JS &amp; Framer.
-- [signerlabs/ShipSwift](https://github.com/signerlabs/ShipSwift): AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.
+- [signerlabs/ShipSwift](https://github.com/signerlabs/ShipSwift): Agent skills and an AI-native SwiftUI component library for iOS apps: animations, Metal shaders, charts, components and full-stack modules your coding agent can build from.
 - [southleft/figma-console-mcp](https://github.com/southleft/figma-console-mcp): Your design system as an API.
 - [storybookjs/storybook](https://github.com/storybookjs/storybook): Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation.
 - [storytold/figcraft](https://github.com/storytold/figcraft): FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust.

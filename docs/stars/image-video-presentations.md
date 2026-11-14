@@ -17,14 +17,13 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra): A hardware-accelerated video editor built on Rust, Tauri v2, and React 19.
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · review needed: Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent.
 - [amirmushichge/video-states-website](https://github.com/amirmushichge/video-states-website) · review needed: Build a cinematic click-driven video website: LTX footage, image/video prompts, coding-agent build spec, workflow and seam-safe playback guide.
-- [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI): Unrestricted Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo).
+- [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI): Uncensored Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo).
 - [Anil-matcha/open-genjutsu](https://github.com/Anil-matcha/open-genjutsu): Local-first AI video recasting with draft review, explicit HD approval, and source-audio restoration.
 - [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video): 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine.
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Stable Diffusion web UI.
 - [barefootford/buttercut](https://github.com/barefootford/buttercut): Edit Video with Claude Code.
 - [benjiyaya/Minimax-H3-Prompt-AgentSkill](https://github.com/benjiyaya/Minimax-H3-Prompt-AgentSkill): Use when making MiniMax H3 video prompts from media + ideas.
 - [browser-use/video-use](https://github.com/browser-use/video-use): Edit videos with coding agents.
-- [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage): World's first open-source, agentic video production system.
 - [CapSoftware/Cap](https://github.com/CapSoftware/Cap): Open source Loom alternative.
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design): Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi.
 - [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video): Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.
@@ -52,8 +51,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [iina/iina](https://github.com/iina/iina): The modern video player for macOS.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) · review needed: Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow): JJ's special video production workflow for programatic editing.
-- [JuneYaooo/cheap-claude-video](https://github.com/JuneYaooo/cheap-claude-video): Claude Opus 视频效果的稳定平替：用 Claude 创作出片一次，蒸馏成视频配方，其他模型按配方复刻出类似效果。.
-- [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it.
+- [JuneYaooo/capsule-cinema](https://github.com/JuneYaooo/capsule-cinema): 把视频做成模版，一次配方无限视频 · Turn videos into templates.
+- [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.
@@ -74,6 +73,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) · review needed: Open-source Claude Design alternative.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) · review needed: The open-source CapCut alternative.
 - [openfilm/openfilm](https://github.com/openfilm/openfilm): The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
+- [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage): World's first open-source, agentic video production system.
 - [opennookorg/screenshot-studio](https://github.com/opennookorg/screenshot-studio): A free, browser-based editor for creating stunning screenshots and visuals.
 - [openstory-so/openstory](https://github.com/openstory-so/openstory): Open-source AI-powered video sequence platform built with TanStack Start.
 - [Orva-Studio/beacon](https://github.com/Orva-Studio/beacon): Starred repository.
@@ -89,14 +89,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Remocn/remocn-studio](https://github.com/Remocn/remocn-studio): Agent-native video editor.
 - [rjmahesh/ui-redline-walkthrough](https://github.com/rjmahesh/ui-redline-walkthrough): Claude skill: turn before/after UI screenshots into an animated redline walkthrough video (red ink marks, morphing UI, MP4 export).
 - [robbietilton/Compositor](https://github.com/robbietilton/Compositor): The Photoshop alternative for Mac.
-- [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator): GPU-accelerated procedural video generator.
+- [robinebers/noisy-video-generator](https://github.com/robinebers/noisy-video-generator) · archived: GPU-accelerated procedural video generator.
 - [scenario-labs/skills](https://github.com/scenario-labs/skills) · review needed: Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
 - [shadcn-labs/framecn](https://github.com/shadcn-labs/framecn): Beautiful video components, built on Editframe.
 - [shadcn-labs/ogimagecn](https://github.com/shadcn-labs/ogimagecn): Beautiful Open Graph image components, built on Satori.
 - [shadcn-labs/snapcn](https://github.com/shadcn-labs/snapcn): A shadcn registry of Remotion components for product demo videos.
 - [ShivaBhattacharjee/Tokokino](https://github.com/ShivaBhattacharjee/Tokokino): Browser-based screenshot &amp; video beautifier — backgrounds, device frames, shadows, text and annotations, exported on-device as PNG, WebP, or MP4.
 - [storytold/artcraft](https://github.com/storytold/artcraft): ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
-- [storytold/photocraft](https://github.com/storytold/photocraft): PhotoCraft: An open-source, photo editor written by scratch in pure Rust.
+- [storytold/photocraft](https://github.com/storytold/photocraft): PhotoCraft: An open-source photo editor written from scratch in pure Rust.
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP): Starred repository.
 - [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts): Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
 - [TheOrcDev/videorc](https://github.com/TheOrcDev/videorc): Open-source multistream studio and screen recorder for Mac: go live on 6+ platforms free, record in 4K, publish with AI.

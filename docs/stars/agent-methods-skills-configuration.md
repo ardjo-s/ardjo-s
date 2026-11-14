@@ -18,7 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [agentskills/agentskills](https://github.com/agentskills/agentskills): Specification and documentation for Agent Skills.
 - [AI-Builder-Club/skills](https://github.com/AI-Builder-Club/skills): Codebase harness + loop engineer.
 - [alextnetto/res](https://github.com/alextnetto/res) · review needed: Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: screens, rules, data model, design tokens and production barriers, without touching production data.
-- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.
+- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): 410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · review needed: Official, Anthropic-managed directory of high quality Claude Code Plugins.
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins): Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork.
 - [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial): Anthropic's Interactive Prompt Engineering Tutorial.
@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DannyMac180/skills](https://github.com/DannyMac180/skills): AI agent skills created by me: Dan McAteer.
 - [DannyMac180/sol-advisor](https://github.com/DannyMac180/sol-advisor) · review needed: Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.
 - [davidondrej/skills](https://github.com/davidondrej/skills): access to david ondrej's personal agent skills.
-- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): CLI tool for configuring and monitoring Claude Code.
+- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods.
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail): Makes your AI agent think like the laziest senior dev in the room.
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios): Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5): ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents.
@@ -67,13 +67,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) · review needed: A skill file for removing AI tells from prose.
 - [harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) · review needed: A reusable AI skill for stress-testing high-leverage decisions through five strategic lenses.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) · review needed: A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation).
-- [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace): "OpenSpace: The Skill Management Layer for AI Agents" -- https://open-space.cloud/.
+- [HKUDS/AgentPilot](https://github.com/HKUDS/AgentPilot): AgentPilot: Make Your Agents Move Better and Faster.
 - [janestreet/agent_skills](https://github.com/janestreet/agent_skills): Agent skills.
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template): Clone any website with one command using AI coding agents.
 - [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) · review needed: Help AI coding agents write modern Go.
 - [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts): REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program.
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): 🪨 why use many token when few token do trick.
-- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) · review needed: Agent skills for Obsidian.
 - [kitze/council](https://github.com/kitze/council): 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
 - [kitze/skillbox](https://github.com/kitze/skillbox): Self-hosted, versioned skills library for AI agents.
 - [kunchenguid/axi](https://github.com/kunchenguid/axi) · review needed: Design principles for agent ergonomics.
@@ -81,7 +80,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy): Anti-laziness skill for AI agents.
 - [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt): A collection of GPT system prompts and various prompt injection/leaking knowledge.
 - [mattpocock/skills](https://github.com/mattpocock/skills): Skills for Real Engineers.
-- [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents): 196 production-ready AI agent templates for OpenClaw.
+- [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents): 197 production-ready AI agent templates for OpenClaw.
 - [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices): Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.
 - [michaelshimeles/rstack](https://github.com/michaelshimeles/rstack): Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops.
 - [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) · review needed: Experience-Driven Black-Box Cost Control for Coding Agents.
@@ -97,6 +96,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NVIDIA/skills](https://github.com/NVIDIA/skills): Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise): A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.
 - [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework &amp; software development methodology that works.
+- [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) · review needed: Agent skills for Obsidian.
 - [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide): Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc): Use Codex from Claude Code to review code or delegate tasks.
 - [openai/skills](https://github.com/openai/skills): Skills Catalog for Codex.

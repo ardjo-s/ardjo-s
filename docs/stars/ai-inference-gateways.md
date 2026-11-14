@@ -29,7 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [meta-llama/llama](https://github.com/meta-llama/llama) · review needed: Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet): Official inference framework for 1-bit LLMs.
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api): Starred repository.
-- [mw00/project-maya](https://github.com/mw00/project-maya): Project Maya - run GLM-5.3-Flash (321B MoE), DeepSeek-V4.1-Flash-1017 (748B MoE) and MiniMax-M3.1-Flash (428B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows.
+- [mw00/project-maya](https://github.com/mw00/project-maya): Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.
 - [navaneethkrishnansuresh/Inference-Engineering](https://github.com/navaneethkrishnansuresh/Inference-Engineering): Starred repository.
 - [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
@@ -44,7 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [standardagents/composer-api](https://github.com/standardagents/composer-api): OpenAI-compatible API proxy for Cursor Composer.
 - [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim): Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.
 - [sybil-solutions/qwen38-b70](https://github.com/sybil-solutions/qwen38-b70) · archived: Starred repository.
-- [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi): 7.4 billion tokens per month.
+- [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi): 10.1 billion tokens per month.
 - [vayungodara/cliproxy-rs](https://github.com/vayungodara/cliproxy-rs): Use DeepSeek, GLM, Kimi, OpenRouter and more in Codex CLI and Claude Code: one local endpoint, API translation, failover.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs.
 - [weave-os/router](https://github.com/weave-os/router): Model router for agentic systems.

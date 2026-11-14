@@ -2,7 +2,7 @@
 
 > Databases, data pipelines, analytics, visualization and geospatial tools.
 
-**37 repositories.** [Browse all categories →](README.md)
+**36 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,7 +11,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [ardjo-s/minilytics](https://github.com/ardjo-s/minilytics) · fork · review needed: Opensource Revenue-first analytics for indie hackers &amp; solo founders.
 - [ashayas/icloud-s3](https://github.com/ashayas/icloud-s3): An S3-compatible object store backed by iCloud Shared Photo Albums.
 - [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) · review needed: Open-source intelligence for the global theater.
 - [cartesiancs/map3d](https://github.com/cartesiancs/map3d): 🗺️ Generate City 3D map with R3F.

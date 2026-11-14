@@ -40,12 +40,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mem0ai/mem0](https://github.com/mem0ai/mem0): The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps.
 - [MemPalace/mempalace](https://github.com/MemPalace/mempalace): The best-benchmarked open-source AI memory system.
 - [mex-memory/mex](https://github.com/mex-memory/mex) · review needed: Team memory for engineers and their AI agents.
-- [mksglu/context-mode](https://github.com/mksglu/context-mode): Context window optimization for AI coding agents.
+- [mksglu/context-mode](https://github.com/mksglu/context-mode): Free, local plugin that keeps tool output out of your coding agent's context window.
 - [nduckmink/arkon](https://github.com/nduckmink/arkon): Arkon: Enterprise AI Knowledge Hub &amp; MCP Server.
 - [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology): Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data.
 - [okyssta/Ariadne](https://github.com/okyssta/Ariadne) · archived: Next-generation AI memory system — sub-millisecond search across 100K memories.
 - [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) · review needed: Open Source AI Platform - AI Chat with advanced features that works with every LLM.
-- [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context): A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) .
+- [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context): A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .
 - [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory): #1 Persistent memory for AI coding agents based on real-world benchmarks.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk): CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
 - [run-llama/llama_index](https://github.com/run-llama/llama_index): LlamaIndex is the document processing platform for AI.

@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,452 public repositories across 26 Sol categories.**
+**1,455 public repositories across 26 Sol categories plus 6 unsorted.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -12,7 +12,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## AI & Agents
 
-- [🤖 AI Coding Agents](ai-coding-agents.md) · 94 repositories
+- [🤖 AI Coding Agents](ai-coding-agents.md) · 93 repositories
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 102 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
@@ -44,7 +44,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 64 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 63 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 56 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
@@ -52,7 +52,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Software testing, debugging, code review and technical quality checks.
 - [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 27 repositories
   - Operating systems, networking, deployment, cloud infrastructure and DevOps.
-- [🗄 Data, Databases & GIS](data-databases-gis.md) · 37 repositories
+- [🗄 Data, Databases & GIS](data-databases-gis.md) · 36 repositories
   - Databases, data pipelines, analytics, visualization and geospatial tools.
 - [⚙️ Web & Document Automation](web-document-automation.md) · 25 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
@@ -76,3 +76,8 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 33 repositories
   - Browsers, desktop utilities, file transfers and device tools.
+
+## Unsorted
+
+- [❔ Unsorted / to classify](unsorted.md) · 6 repositories
+  - Public stars not yet classified in catalog.json.

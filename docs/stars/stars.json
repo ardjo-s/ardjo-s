@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1452,
+  "repository_count": 1455,
   "categories": [
     {
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 94
+      "count": 93
     },
     {
       "id": "category_02",
@@ -85,7 +85,7 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 64
+      "count": 63
     },
     {
       "id": "category_13",
@@ -109,7 +109,7 @@
       "id": "category_16",
       "name": "Data, Databases & GIS",
       "slug": "data-databases-gis",
-      "count": 37
+      "count": 36
     },
     {
       "id": "category_17",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 33
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -290,7 +296,7 @@
     {
       "name": "abue-ammar/tinycast",
       "url": "https://github.com/abue-ammar/tinycast",
-      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "description": "A native macOS launcher for everyday productivity. Lightweight and open source.",
       "category": "Browsers, Desktop & Device Utilities",
       "category_id": "category_25"
     },
@@ -395,7 +401,7 @@
     {
       "name": "AFK-surf/Comma",
       "url": "https://github.com/AFK-surf/Comma",
-      "description": "Best free & open source AI personal assistant. Always-on, proactive, sessionless. Browser, computer use, files, remote control. Compatible with ChatGPT/codex and claude code. Selfhost your open source alternative to Muse, Dots, Instinct and Town. Built with Go/Elixir/Lean.",
+      "description": "Best free & open source super agent. Always-on, proactive, sessionless. Browser, computer use, files, remote control. Compatible with ChatGPT/codex and claude code. Selfhost your open source alternative to Muse, Dots and Town. Built with Go/Elixir/Lean.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
     },
@@ -535,7 +541,7 @@
     {
       "name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
-      "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+      "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20"
     },
@@ -654,7 +660,7 @@
     {
       "name": "alirezarezvani/claude-skills",
       "url": "https://github.com/alirezarezvani/claude-skills",
-      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03"
     },
@@ -715,16 +721,9 @@
       "category_id": "category_02"
     },
     {
-      "name": "Anil-matcha/open-duet",
-      "url": "https://github.com/Anil-matcha/open-duet",
-      "description": "Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. Also an alternative to OpenAI Dots, Meta Muse, Grok Bot, Manus Cue and ChatGPT agent.",
-      "category": "AI Assistants, Frameworks & Orchestration",
-      "category_id": "category_02"
-    },
-    {
       "name": "Anil-matcha/Open-Generative-AI",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "description": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10"
     },
@@ -734,6 +733,13 @@
       "description": "Local-first AI video recasting with draft review, explicit HD approval, and source-audio restoration.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10"
+    },
+    {
+      "name": "Anil-matcha/suparagent",
+      "url": "https://github.com/Anil-matcha/suparagent",
+      "description": "Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02"
     },
     {
       "name": "anishfn/shapeshift",
@@ -752,7 +758,7 @@
     {
       "name": "anomalyco/hex",
       "url": "https://github.com/anomalyco/hex",
-      "description": "Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.",
+      "description": "Local voice dictation for mac, windows and linux",
       "category": "Voice, Audio & Music",
       "category_id": "category_09"
     },
@@ -769,13 +775,6 @@
       "description": "The open source coding agent.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
-    },
-    {
-      "name": "Anshkaran7/expokit",
-      "url": "https://github.com/Anshkaran7/expokit",
-      "description": "Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts",
-      "category": "UI & Product Design",
-      "category_id": "category_11"
     },
     {
       "name": "Ansub/wiki-os",
@@ -918,25 +917,18 @@
       "category_id": "category_19"
     },
     {
-      "name": "ardjo-s/minilytics",
-      "url": "https://github.com/ardjo-s/minilytics",
-      "description": "Opensource Revenue-first analytics for indie hackers & solo founders ",
-      "category": "Data, Databases & GIS",
-      "category_id": "category_16"
-    },
-    {
-      "name": "ardjo-s/openui-dioxus",
-      "url": "https://github.com/ardjo-s/openui-dioxus",
-      "description": "OpenUI-compatible deterministic generative UI runtime for Dioxus",
-      "category": "App, Web & Mobile Development",
-      "category_id": "category_12"
-    },
-    {
       "name": "Arindam200/awesome-ai-apps",
       "url": "https://github.com/Arindam200/awesome-ai-apps",
       "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
       "category": "AI Engineering & Learning",
       "category_id": "category_26"
+    },
+    {
+      "name": "arjun988/blender-skills",
+      "url": "https://github.com/arjun988/blender-skills",
+      "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
     },
     {
       "name": "arla6ka/design.how",
@@ -1499,9 +1491,9 @@
       "category_id": "category_19"
     },
     {
-      "name": "cactus-compute/needle",
-      "url": "https://github.com/cactus-compute/needle",
-      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, ASR, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+      "name": "cactus-compute/cactus",
+      "url": "https://github.com/cactus-compute/cactus",
+      "description": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
       "category": "AI Models & Training",
       "category_id": "category_06"
     },
@@ -1525,13 +1517,6 @@
       "description": "Caldo's skills",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03"
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "category": "Image, Video & Presentations",
-      "category_id": "category_10"
     },
     {
       "name": "callstack/agent-device",
@@ -2052,8 +2037,8 @@
       "category_id": "category_02"
     },
     {
-      "name": "CopilotKit/openmuse",
-      "url": "https://github.com/CopilotKit/openmuse",
+      "name": "CopilotKit/openfuse",
+      "url": "https://github.com/CopilotKit/openfuse",
       "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
@@ -2278,7 +2263,7 @@
     {
       "name": "davila7/claude-code-templates",
       "url": "https://github.com/davila7/claude-code-templates",
-      "description": "CLI tool for configuring and monitoring Claude Code",
+      "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03"
     },
@@ -2411,7 +2396,7 @@
     {
       "name": "devopness/devopness",
       "url": "https://github.com/devopness/devopness",
-      "description": "Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan.",
+      "description": "Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats.",
       "category": "Systems, Cloud & DevOps",
       "category_id": "category_15"
     },
@@ -2740,7 +2725,7 @@
     {
       "name": "emanuele-em/kanzo",
       "url": "https://github.com/emanuele-em/kanzo",
-      "description": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero setup.",
+      "description": "Self-hosted, sharable kanban for humans and agents. One 4.7 MB binary, 5 MB of RAM, 10 to 60 tokens per agent reply, starts in 3 ms, zero setup.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
     },
@@ -2901,7 +2886,7 @@
     {
       "name": "every-app/every-app",
       "url": "https://github.com/every-app/every-app",
-      "description": "Make every SaaS open source.",
+      "description": "Every app your business needs to grow.",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12"
     },
@@ -2988,6 +2973,13 @@
       "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12"
+    },
+    {
+      "name": "ExpoKit/ExpoKit",
+      "url": "https://github.com/ExpoKit/ExpoKit",
+      "description": "Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts",
+      "category": "UI & Product Design",
+      "category_id": "category_11"
     },
     {
       "name": "eyaltoledano/claude-task-master",
@@ -3090,7 +3082,7 @@
     {
       "name": "feder-cr/git-ai",
       "url": "https://github.com/feder-cr/git-ai",
-      "description": "Git designed for AI agents.",
+      "description": "Git designed for AI agents. Open-source, in the spirit of Anthropic's Scion and OpenAI's Pando. Not affiliated with either.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13"
     },
@@ -3335,7 +3327,7 @@
     {
       "name": "gamedev-skills/awesome-gamedev-agent-skills",
       "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
-      "description": "77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
+      "description": "Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.",
       "category": "Games & 3D",
       "category_id": "category_23"
     },
@@ -3921,6 +3913,13 @@
       "category_id": "category_19"
     },
     {
+      "name": "HKUDS/AgentPilot",
+      "url": "https://github.com/HKUDS/AgentPilot",
+      "description": "AgentPilot: Make Your Agents Move Better and Faster",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03"
+    },
+    {
       "name": "HKUDS/AI-Trader",
       "url": "https://github.com/HKUDS/AI-Trader",
       "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  ",
@@ -3940,13 +3939,6 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
-    },
-    {
-      "name": "HKUDS/OpenSpace",
-      "url": "https://github.com/HKUDS/OpenSpace",
-      "description": "\"OpenSpace: The Skill Management Layer for AI Agents\" -- https://open-space.cloud/",
-      "category": "Agent Methods, Skills & Configuration",
-      "category_id": "category_03"
     },
     {
       "name": "HKUDS/Vibe-Trading",
@@ -4077,7 +4069,7 @@
     {
       "name": "Illyism/seo-skills",
       "url": "https://github.com/Illyism/seo-skills",
-      "description": "SEO skills for Claude Code, Cursor and Codex: SEO autopilot, title tags, blog refreshes, backlinks, customer journeys, video transcripts and copywriting.",
+      "description": "30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex & AI agents: technical SEO roasts, Ahrefs & DataForSEO SERP workflows, first-hand proof KBs, backlinks & GEO.",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20"
     },
@@ -4150,6 +4142,13 @@
       "description": "Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12"
+    },
+    {
+      "name": "interfaces-inc/OpenPhone",
+      "url": "https://github.com/interfaces-inc/OpenPhone",
+      "description": "AI-first open source operating system for various devices, based on the Android.",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02"
     },
     {
       "name": "InterfazeAI/deep-research",
@@ -4488,16 +4487,16 @@
       "category_id": "category_03"
     },
     {
-      "name": "JuneYaooo/cheap-claude-video",
-      "url": "https://github.com/JuneYaooo/cheap-claude-video",
-      "description": "Claude Opus 视频效果的稳定平替：用 Claude 创作出片一次，蒸馏成视频配方，其他模型按配方复刻出类似效果。",
+      "name": "JuneYaooo/capsule-cinema",
+      "url": "https://github.com/JuneYaooo/capsule-cinema",
+      "description": "把视频做成模版，一次配方无限视频 · Turn videos into templates. One recipe, unlimited videos.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10"
     },
     {
       "name": "JuneYaooo/rea-video",
       "url": "https://github.com/JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
       "category": "Image, Video & Presentations",
       "category_id": "category_10"
     },
@@ -4668,13 +4667,6 @@
       "description": "Settings plugin to control colors and fonts in Minimal Theme",
       "category": "UI & Product Design",
       "category_id": "category_11"
-    },
-    {
-      "name": "kepano/obsidian-skills",
-      "url": "https://github.com/kepano/obsidian-skills",
-      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-      "category": "Agent Methods, Skills & Configuration",
-      "category_id": "category_03"
     },
     {
       "name": "KeyboardKit/KeyboardKit",
@@ -4868,7 +4860,7 @@
     {
       "name": "langchain-ai/open-swe",
       "url": "https://github.com/langchain-ai/open-swe",
-      "description": "LangChain's software factory",
+      "description": "An Open-Source Asynchronous Coding Agent",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
@@ -4889,7 +4881,7 @@
     {
       "name": "langfuse/langfuse",
       "url": "https://github.com/langfuse/langfuse",
-      "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+      "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
       "category": "AI Evaluation & Observability",
       "category_id": "category_08"
     },
@@ -5018,6 +5010,13 @@
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
+    },
+    {
+      "name": "lgalabru/axel",
+      "url": "https://github.com/lgalabru/axel",
+      "description": "Agent orchestration, designed for Rex.",
+      "category": "AI Coding Agents",
+      "category_id": "category_01"
     },
     {
       "name": "lidge-ai/ima2-gen",
@@ -5202,6 +5201,13 @@
       "category_id": "category_06"
     },
     {
+      "name": "maillab/cloud-mail",
+      "url": "https://github.com/maillab/cloud-mail",
+      "description": "An all-in-one email service platform powered by Cloudflare  | 基于 Cloudflare 的一站式邮箱服务平台  | Cloudflare Email 邮箱 Mail",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
+    },
+    {
       "name": "mainframecomputer/mainframe-plugins",
       "url": "https://github.com/mainframecomputer/mainframe-plugins",
       "description": "",
@@ -5274,7 +5280,7 @@
     {
       "name": "matthewdonsemail-lab/log",
       "url": "https://github.com/matthewdonsemail-lab/log",
-      "description": "Omnichannel social media listening & marketing tool with API and MCP access, outbound campaigns, and keyword tracking. Built for the Convex Hackathon.",
+      "description": "Open-source CLI and MCP server that lets your AI agent (Claude Code, Codex) run your social media: DMs, replies, inbox and outbound on X, Discord, Slack, Instagram, Reddit and LinkedIn, in your own voice. Free Xreacher alternative.",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20"
     },
@@ -5400,7 +5406,7 @@
     {
       "name": "mergisi/awesome-openclaw-agents",
       "url": "https://github.com/mergisi/awesome-openclaw-agents",
-      "description": "196 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!",
+      "description": "197 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03"
     },
@@ -5454,8 +5460,8 @@
       "category_id": "category_18"
     },
     {
-      "name": "michaelshimeles/bible-rs",
-      "url": "https://github.com/michaelshimeles/bible-rs",
+      "name": "michaelshimeles/bible",
+      "url": "https://github.com/michaelshimeles/bible",
       "description": "A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks. Public-domain translations built in; bring your own licensed ones.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
@@ -5617,7 +5623,7 @@
     {
       "name": "microsoft/waza",
       "url": "https://github.com/microsoft/waza",
-      "description": "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness",
+      "description": "CLI for testing and evaluating AI agent workflows, custom agents, and skills with repeatable scenarios, graders, evidence, and CI integration.",
       "category": "AI Evaluation & Observability",
       "category_id": "category_08"
     },
@@ -5708,14 +5714,21 @@
     {
       "name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05"
     },
     {
+      "name": "MobAI-App/simslim",
+      "url": "https://github.com/MobAI-App/simslim",
+      "description": "Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
+    },
+    {
       "name": "modelcontextprotocol/servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "description": "Model Context Protocol Servers",
+      "description": "Model Context Protocol Reference Servers",
       "category": "Agent Tools & Environments",
       "category_id": "category_04"
     },
@@ -5918,7 +5931,7 @@
     {
       "name": "mw00/project-maya",
       "url": "https://github.com/mw00/project-maya",
-      "description": "Project Maya - run GLM-5.3-Flash (321B MoE), DeepSeek-V4.1-Flash-1017 (748B MoE) and MiniMax-M3.1-Flash (428B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
+      "description": "Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07"
     },
@@ -6056,13 +6069,6 @@
       "category_id": "category_11"
     },
     {
-      "name": "nexu-io/html-anything",
-      "url": "https://github.com/nexu-io/html-anything",
-      "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "category": "AI Coding Agents",
-      "category_id": "category_01"
-    },
-    {
       "name": "nexu-io/html-video",
       "url": "https://github.com/nexu-io/html-video",
       "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
@@ -6075,6 +6081,13 @@
       "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
       "category": "UI & Product Design",
       "category_id": "category_11"
+    },
+    {
+      "name": "nexu-io/openmotion",
+      "url": "https://github.com/nexu-io/openmotion",
+      "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
+      "category": "AI Coding Agents",
+      "category_id": "category_01"
     },
     {
       "name": "Neywa-Labs/mlx-vlm",
@@ -6191,7 +6204,7 @@
     {
       "name": "nuphos/nuphos",
       "url": "https://github.com/nuphos/nuphos",
-      "description": "The agent workspace for your team — run, manage and collaborate on coding agents across people, machines and tools.",
+      "description": "Open-source Grok Bot alternative for teams. Always-on bots that run on your Claude Code or Codex subscription, in chats your whole team can join.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
@@ -6348,6 +6361,13 @@
       "description": "Community plugins list, theme list, and releases of Obsidian.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
+    },
+    {
+      "name": "obsidianmd/obsidian-skills",
+      "url": "https://github.com/obsidianmd/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03"
     },
     {
       "name": "obsidianmd/pele",
@@ -6770,6 +6790,13 @@
       "category_id": "category_01"
     },
     {
+      "name": "OpenMontageInc/OpenMontage",
+      "url": "https://github.com/OpenMontageInc/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10"
+    },
+    {
       "name": "opennookorg/screenshot-studio",
       "url": "https://github.com/opennookorg/screenshot-studio",
       "description": "A free, browser-based editor for creating stunning screenshots and visuals. No signup, no watermarks.",
@@ -6828,7 +6855,7 @@
     {
       "name": "osaurus-ai/osaurus",
       "url": "https://github.com/osaurus-ai/osaurus",
-      "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
+      "description": "Own your AI. The open-source agent harness for macOS. Run local or cloud models with persistent memory, skills, tools, and autonomous execution. Built in Swift.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
     },
@@ -6898,7 +6925,7 @@
     {
       "name": "p-e-w/heretic",
       "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "category": "AI Models & Training",
       "category_id": "category_06"
     },
@@ -6961,14 +6988,14 @@
     {
       "name": "ParadevAI/Paradev",
       "url": "https://github.com/ParadevAI/Paradev",
-      "description": "Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.",
+      "description": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
     {
       "name": "Parcha-ai/agentrun",
       "url": "https://github.com/Parcha-ai/agentrun",
-      "description": "The Agentrun Workflow DSL",
+      "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter, more fault tolerant and use fewer tokens with every run.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
     },
@@ -6982,7 +7009,7 @@
     {
       "name": "pascalorg/editor",
       "url": "https://github.com/pascalorg/editor",
-      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
       "category": "Robotics, Hardware & CAD",
       "category_id": "category_24"
     },
@@ -7155,6 +7182,13 @@
       "category_id": "category_04"
     },
     {
+      "name": "phone-harness/phone-harness",
+      "url": "https://github.com/phone-harness/phone-harness",
+      "description": "let your agent control your phone",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04"
+    },
+    {
       "name": "photon-hq/imessage-kit",
       "url": "https://github.com/photon-hq/imessage-kit",
       "description": "A type-safe, elegant iMessage SDK for macOS with zero dependencies",
@@ -7199,7 +7233,7 @@
     {
       "name": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
@@ -7465,7 +7499,7 @@
     {
       "name": "ranxianglei/billion-context",
       "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens)  and small context windows (a 100K context is enough), billion-context is all you need .",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05"
     },
@@ -7645,11 +7679,25 @@
       "category_id": "category_25"
     },
     {
+      "name": "ricocc/ricoui-blocks",
+      "url": "https://github.com/ricocc/ricoui-blocks",
+      "description": "RICOUI -  Animated React/HTML components、blocks、Templates.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
+    },
+    {
       "name": "RightNow-AI/openfang",
       "url": "https://github.com/RightNow-AI/openfang",
       "description": "Open-source Agent Operating System",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
+    },
+    {
+      "name": "rinkitadhana/openside",
+      "url": "https://github.com/rinkitadhana/openside",
+      "description": "Open-source, self-hostable recording studio for podcasts, meetings, and interviews.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
     },
     {
       "name": "rivo/tview",
@@ -7706,13 +7754,6 @@
       "description": "An ADHD-friendly note-taking app where your notes disappear—on purpose.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
-    },
-    {
-      "name": "robinebers/coders",
-      "url": "https://github.com/robinebers/coders",
-      "description": "",
-      "category": "AI Coding Agents",
-      "category_id": "category_01"
     },
     {
       "name": "robinebers/noisy-video-generator",
@@ -7829,7 +7870,7 @@
     {
       "name": "rowboatlabs/rowboat",
       "url": "https://github.com/rowboatlabs/rowboat",
-      "description": "AI coworker with memory and collaboration",
+      "description": "Your agent team, in one group chat.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
     },
@@ -8030,8 +8071,8 @@
       "category_id": "category_25"
     },
     {
-      "name": "satishkumarsajjan/ease-master",
-      "url": "https://github.com/satishkumarsajjan/ease-master",
+      "name": "satisium/ease",
+      "url": "https://github.com/satisium/ease",
       "description": "Design motion that feels real. The ultimate easing visualization and generation tool for modern frontend development.",
       "category": "UI & Product Design",
       "category_id": "category_11"
@@ -8049,13 +8090,6 @@
       "description": "Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many dimensions: artifacts, environments tools, dynamism of the environment, reproducibility, and more. There is no open source framework for building these environments effectively. Until now.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04"
-    },
-    {
-      "name": "scarce/axel",
-      "url": "https://github.com/scarce/axel",
-      "description": "Peaceful task list meticulously crafted for Agents in war mode.",
-      "category": "AI Coding Agents",
-      "category_id": "category_01"
     },
     {
       "name": "scenario-labs/blender-plugin",
@@ -8133,13 +8167,6 @@
       "description": "/goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03"
-    },
-    {
-      "name": "secondly-com/OpenPhone",
-      "url": "https://github.com/secondly-com/OpenPhone",
-      "description": "AI-first open source operating system for various devices, based on the Android.",
-      "category": "AI Assistants, Frameworks & Orchestration",
-      "category_id": "category_02"
     },
     {
       "name": "seedds/nxnative",
@@ -8296,13 +8323,6 @@
       "category_id": "category_02"
     },
     {
-      "name": "ShawnPana/phone-harness",
-      "url": "https://github.com/ShawnPana/phone-harness",
-      "description": "let your agent control your phone",
-      "category": "Agent Tools & Environments",
-      "category_id": "category_04"
-    },
-    {
       "name": "shhivv/arc-cua",
       "url": "https://github.com/shhivv/arc-cua",
       "description": "Superfast action layer for computer-use agents, on MacOS.",
@@ -8396,7 +8416,7 @@
     {
       "name": "signerlabs/ShipSwift",
       "url": "https://github.com/signerlabs/ShipSwift",
-      "description": "AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.",
+      "description": "Agent skills and an AI-native SwiftUI component library for iOS apps: animations, Metal shaders, charts, components and full-stack modules your coding agent can build from.",
       "category": "UI & Product Design",
       "category_id": "category_11"
     },
@@ -8452,7 +8472,7 @@
     {
       "name": "sloemo01/diorama",
       "url": "https://github.com/sloemo01/diorama",
-      "description": "Pixel-art diorama playbook and Three.js code kit: research-first build workflow, locked camera, palette snap, ordered dither, inked contour, animated toy-scale cast, per-entity frame QA.",
+      "description": "Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.",
       "category": "Games & 3D",
       "category_id": "category_23"
     },
@@ -8501,7 +8521,7 @@
     {
       "name": "sodiumsun/agenttrail",
       "url": "https://github.com/sodiumsun/agenttrail",
-      "description": "Local observability for AI coding agents. Agenttrail Map shows project structure and activity; Agenttrail Kitchen visualizes tasks and role contributions in 3D.",
+      "description": "Local observability for AI coding agents. Agenttrail Map shows your project as a live map of what each agent is working on, in the browser or natively in Herdr.",
       "category": "AI Evaluation & Observability",
       "category_id": "category_08"
     },
@@ -8613,7 +8633,7 @@
     {
       "name": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
@@ -8630,6 +8650,13 @@
       "description": "A dev agent multiplexer for git worktrees and coding agents.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
+    },
+    {
+      "name": "standardagents/spec",
+      "url": "https://github.com/standardagents/spec",
+      "description": "Standard Agent Specification — an open-source standard for creating portable, composable, domain-specific agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted"
     },
     {
       "name": "stanford-iris-lab/meta-harness",
@@ -8725,7 +8752,7 @@
     {
       "name": "storytold/photocraft",
       "url": "https://github.com/storytold/photocraft",
-      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "description": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
       "category": "Image, Video & Presentations",
       "category_id": "category_10"
     },
@@ -8942,7 +8969,7 @@
     {
       "name": "tashfeenahmed/freellmapi",
       "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07"
     },
@@ -9264,7 +9291,7 @@
     {
       "name": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+      "description": "The open-source agent for CI/CD reliability.",
       "category": "Systems, Cloud & DevOps",
       "category_id": "category_15"
     },
@@ -9404,7 +9431,7 @@
     {
       "name": "unclecode/crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
-      "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
+      "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
       "category": "Web & Document Automation",
       "category_id": "category_17"
     },
@@ -9481,7 +9508,7 @@
     {
       "name": "valentderah/totk-pc-recomp",
       "url": "https://github.com/valentderah/totk-pc-recomp",
-      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "category": "Games & 3D",
       "category_id": "category_23"
     },
@@ -9530,7 +9557,7 @@
     {
       "name": "Vela3202019/wisen",
       "url": "https://github.com/Vela3202019/wisen",
-      "description": "A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving",
+      "description": "Your coding agents repeat mistakes you already corrected. wisen reads your Claude Code, Codex, Cursor, Gemini CLI, opencode and Pi sessions, writes a daily reflection, and turns recurring corrections into CLAUDE.md / AGENTS.md fixes you approve.",
       "category": "AI Evaluation & Observability",
       "category_id": "category_08"
     },
@@ -9551,7 +9578,7 @@
     {
       "name": "vercel-labs/agent-desktop",
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "description": "Computer use CLI for AI agents",
       "category": "Agent Tools & Environments",
       "category_id": "category_04"
     },
@@ -9670,7 +9697,7 @@
     {
       "name": "vinhnx/VTCode",
       "url": "https://github.com/vinhnx/VTCode",
-      "description": "VT Code is an open-source Rust terminal coding agent.",
+      "description": " VT Code is a terminal-first coding agent for your repo, in the CLI and native macOS app.",
       "category": "AI Coding Agents",
       "category_id": "category_01"
     },
@@ -10083,7 +10110,7 @@
     {
       "name": "yc-software/qm",
       "url": "https://github.com/yc-software/qm",
-      "description": "Multiplayer agent harness for work.",
+      "description": "Multiplayer agent harness for teams",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02"
     },
@@ -10181,7 +10208,7 @@
     {
       "name": "Zackriya-Solutions/meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows",
+      "description": "Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
       "category": "Knowledge & Productivity",
       "category_id": "category_19"
     },

@@ -22,9 +22,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn): Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Helicone/helicone](https://github.com/Helicone/helicone): 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 🛰️ Track token usage across AI coding agents from your terminal.
-- [langfuse/langfuse](https://github.com/langfuse/langfuse): 🪢 Open source agent evals &amp; observability: Trace, evaluate, and improve LLM applications with one open platform.
+- [langfuse/langfuse](https://github.com/langfuse/langfuse): 🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry.
 - [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier): LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training.
-- [microsoft/waza](https://github.com/microsoft/waza): CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness.
+- [microsoft/waza](https://github.com/microsoft/waza): CLI for testing and evaluating AI agent workflows, custom agents, and skills with repeatable scenarios, graders, evidence, and CI integration.
 - [NVIDIA-NeMo/nemo-helix](https://github.com/NVIDIA-NeMo/nemo-helix): NeMo Helix: Make the agents you ship faster, more accurate, and safer.
 - [open-telemetry/semantic-conventions-genai](https://github.com/open-telemetry/semantic-conventions-genai): Starred repository.
 - [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo): Test your prompts, agents, and RAGs.
@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage): One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
-- [Vela3202019/wisen](https://github.com/Vela3202019/wisen): A continuous-learning harness for coding agents: learns from your sessions and keeps your agents' instructions improving.
+- [Vela3202019/wisen](https://github.com/Vela3202019/wisen): Your coding agents repeat mistakes you already corrected.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
 - [whiskerrs/benchmarks](https://github.com/whiskerrs/benchmarks): The same shop app built by an AI in six cross-platform frameworks, measured on an iPhone.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker): Local-first AI token usage &amp; cost tracker for 31 coding tools incl.

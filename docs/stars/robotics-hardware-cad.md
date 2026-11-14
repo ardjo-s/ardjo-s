@@ -17,5 +17,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ghbalf/freecad-ai](https://github.com/ghbalf/freecad-ai): AI-powered assistant workbench for FreeCAD — generate 3D models from natural language.
 - [homeassistant-ai/skills](https://github.com/homeassistant-ai/skills): Home Assistant skills for agents.
 - [NVIDIA-Omniverse/usd-brep](https://github.com/NVIDIA-Omniverse/usd-brep): USD BRep is a standalone C++ and Python library for NURBS-based boundary representation (BRep) solid modeling.
-- [pascalorg/editor](https://github.com/pascalorg/editor): Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
+- [pascalorg/editor](https://github.com/pascalorg/editor): Open-source 3D architecture software for AECO, scan-to-BIM.
 - [ruvnet/RuView](https://github.com/ruvnet/RuView): π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
