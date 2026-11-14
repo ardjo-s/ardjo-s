@@ -164,6 +164,29 @@ class StarsTest(unittest.TestCase):
                 stars.UNSORTED_ID,
             )
 
+    def test_check_preserves_unknown_id_when_name_matches_catalog(self):
+        known = self.catalog['repositories'][0]
+        reused = {
+            **known,
+            'id': 'NEW_NODE',
+            'description': 'Recreated under the same name',
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / 'docs/stars'
+            output.mkdir(parents=True)
+            readme = root / 'README.md'
+            readme.write_text('profile before\n## ⭐ Starred Repos\nold\n')
+            with patch.object(stars.sys, 'stderr'):
+                stars.export([reused], self.catalog, output, readme)
+                snapshot = json.loads((output / 'stars.json').read_text())
+                row = next(item for item in snapshot['repositories'] if item['name'] == known['name'])
+                self.assertEqual(row['id'], 'NEW_NODE')
+                self.assertEqual(row['category_id'], stars.UNSORTED_ID)
+                reconstructed = stars.snapshot_stars(self.catalog, snapshot)
+                self.assertEqual(reconstructed[0]['id'], 'NEW_NODE')
+                stars.check_committed_export(output, readme, ROOT / 'docs/stars/catalog.json')
+
     def test_invalid_assignment_or_duplicate_is_rejected(self):
         for change in ['category', 'duplicate', 'slug']:
             catalog = copy.deepcopy(self.catalog)

@@ -444,7 +444,7 @@ def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
     by_name = {repo['name']: repo for repo in catalog['repositories']}
     stars = []
     for row in snapshot.get('repositories', []):
-        classified = by_id.get(row.get('id')) or by_name.get(row.get('name'))
+        classified = by_id.get(row['id']) if row.get('id') else by_name.get(row.get('name'))
         if classified is None and row.get('category_id') != UNSORTED_ID:
             raise ValueError(f"generated snapshot has repo not in catalog: {row.get('name')}")
         stars.append({
