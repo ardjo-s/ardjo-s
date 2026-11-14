@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**33 repositories.** [Browse all categories →](README.md)
+**32 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -35,7 +35,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM): VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning.
 - [PatterAI/Patter](https://github.com/PatterAI/Patter): Open-source voice-AI SDK.
 - [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat): Open Source framework for voice agents, multimodal apps, and realtime AI.
-- [rinkitadhana/openside](https://github.com/rinkitadhana/openside): Open-source, self-hostable recording studio for podcasts, meetings, and interviews.
 - [SchroederNathan/clarity](https://github.com/SchroederNathan/clarity): A speech companion app built with Expo.
 - [Starmel/OpenSuperWhisper](https://github.com/Starmel/OpenSuperWhisper): macOS dictation app.
 - [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) · archived: Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.

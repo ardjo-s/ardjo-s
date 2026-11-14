@@ -93,7 +93,7 @@ class StarsTest(unittest.TestCase):
                 'maillab/cloud-mail': 'category_19',
                 'MobAI-App/simslim': 'category_12',
                 'ricocc/ricoui-blocks': 'category_11',
-                'rinkitadhana/openside': 'category_09',
+                'rinkitadhana/openside': 'category_10',
                 'standardagents/spec': 'category_03',
             },
         )

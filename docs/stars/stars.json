@@ -61,13 +61,13 @@
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
-      "count": 33
+      "count": 32
     },
     {
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 101
+      "count": 102
     },
     {
       "id": "category_11",
@@ -10916,8 +10916,8 @@
       "name": "rinkitadhana/openside",
       "url": "https://github.com/rinkitadhana/openside",
       "description": "Open-source, self-hostable recording studio for podcasts, meetings, and interviews.",
-      "category": "Voice, Audio & Music",
-      "category_id": "category_09",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },

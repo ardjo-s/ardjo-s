@@ -33,9 +33,9 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Creative Tools & Interfaces
 
-- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 33 repositories
+- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 32 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 101 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 102 repositories
   - Image and video creation, capture, editing, animation and presentations.
 - [🎨 UI & Product Design](ui-product-design.md) · 142 repositories
   - UI components, design systems, typography, prototyping and product design.
