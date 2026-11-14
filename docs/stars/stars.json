@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1455,
+  "repository_count": 1458,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 33
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 3
     }
   ],
   "repositories": [
@@ -1958,6 +1964,16 @@
       "description": "Keep Anthropic prompt caches warm past 1 hour in opencodex and Claude Code; learns from your usage, switches itself off if it stops paying",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxOTA3Mjk5MDY=",
+      "name": "Budibase/budibase",
+      "url": "https://github.com/Budibase/budibase",
+      "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5528,6 +5544,16 @@
       "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  ",
       "category": "Finance, Legal & Business Operations",
       "category_id": "category_21",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOTKZqmw",
+      "name": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "description": "AutoSwarm: Unify All Your Agents. Break Context Barriers. Watch Them Work Together for You.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12228,6 +12254,16 @@
       "description": "Idol: a single image to 3D Gaussians. Inference SDK and demo.",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOThq6qA",
+      "name": "spotify/portal-ai-plugins",
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
