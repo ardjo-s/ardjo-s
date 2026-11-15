@@ -45,7 +45,7 @@ Never edit the README between `<!-- starred-repos-start -->` and `<!-- starred-r
 
 ## Unsorted classification loop
 
-`.github/workflows/classify-github-stars.yml` runs after a successful stars sync on `main` (and when `docs/stars/unsorted.md` is pushed). It no-ops when unsorted is empty. Otherwise `scripts/classify-github-stars.py` scores each unsorted repo from its description, topics, language and README excerpt against already-classified catalog rows plus the documented domain rules (skills follow their domain; host/cloud is not the purpose). Domain-rule reasons fire only when the rule matches name, description or topics — not README noise. `awesome-*` lists follow their subject. Low-confidence picks stay classified and set `review_required` with the top two category ids.
+`.github/workflows/classify-github-stars.yml` runs after a successful stars sync on `main` (and when `docs/stars/unsorted.md` is pushed). It no-ops when unsorted is empty. Otherwise `scripts/classify-github-stars.py` scores each unsorted repo from its description, topics, language and README excerpt against already-classified catalog rows plus the documented domain rules (skills follow their domain; host/cloud is not the purpose). Domain-rule reasons fire only when the rule matches name, description or topics — not README noise. `awesome-*` lists follow their subject. Low-confidence picks stay classified and set `review_required` with the top two category ids. Those low-confidence rows then go to TypeSafe System One (Jev) when `TYPESAFE_API_KEY` is set; a confident existing-category pick clears `review_required` and records `classification_source` as `jev:<date>`. Jev never creates a category. A missing key or API error keeps the classifier pick so the job still passes.
 
 The job regenerates the export, runs `--check`, and opens or updates **one** rolling PR on `auto/classify-stars`. It never creates a second PR, never enables auto-merge, and never merges. Classify by hand in `catalog.json` if you disagree with a proposal.
 
@@ -61,7 +61,7 @@ python3 -m unittest discover -s scripts -p 'test_tokscale_embed.py'
 
 ## Rules
 
-- Never print, commit, or rotate repository secrets (`GH_STARS_TOKEN`, Tokscale tokens).
+- Never print, commit, or rotate repository secrets (`GH_STARS_TOKEN`, `TYPESAFE_API_KEY`, Tokscale tokens).
 - Never merge pull requests unless a human explicitly asks.
 - Keep one primary category per repository. Domain-specific skills follow their domain (video → Image/Video, Unreal → Games & 3D, security audits → Security).
 - Preserve original Sol records (`classification_source` absent). New records carry their own evidence date and source run.

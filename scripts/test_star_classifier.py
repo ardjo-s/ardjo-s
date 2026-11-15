@@ -6,6 +6,8 @@ import importlib.util
 import json
 import tempfile
 import unittest
+import urllib.error
+from io import StringIO
 from pathlib import Path
 from unittest.mock import patch
 
@@ -235,6 +237,7 @@ class StarClassifierTest(unittest.TestCase):
             snapshot,
             features_by_name=self.features,
             token='',
+            typesafe_api_key='',
         )
         self.assertEqual(len(decisions), 6)
         self.assertEqual({row['name']: row['category'] for row in records}, PR14_FIXTURES)
@@ -244,7 +247,8 @@ class StarClassifierTest(unittest.TestCase):
         self.assertEqual(assigned, PR14_FIXTURES)
         self.assertTrue(all(repo.get('classification_source') for repo in catalog['repositories'] if repo['name'] in PR14_FIXTURES))
         body = classify.render_pr_body(decisions, source='test')
-        self.assertIn('| Repository | Category | Confidence | Reason |', body)
+        self.assertIn('| Repository | Category | Confidence | Jev | Reason |', body)
+        self.assertIn('## Jev second pass', body)
         self.assertIn('arjun988/blender-skills', body)
         self.assertNotIn('enable auto-merge', body.casefold())
         with tempfile.TemporaryDirectory() as tmp:
@@ -334,6 +338,7 @@ class StarClassifierTest(unittest.TestCase):
             snapshot,
             features_by_name={'owner/secret': features},
             token='',
+            typesafe_api_key='',
         )
         self.assertEqual(len(records), 0)
         self.assertTrue(decisions[0]['skipped'])
@@ -349,7 +354,9 @@ class StarClassifierTest(unittest.TestCase):
                 if row.get('category_id') != stars.UNSORTED_ID
             ]
         }
-        decisions, records = classify.classify_unsorted(self.catalog, classified_only, token='')
+        decisions, records = classify.classify_unsorted(
+            self.catalog, classified_only, token='', typesafe_api_key='',
+        )
         self.assertEqual(decisions, [])
         self.assertEqual(records, [])
 
@@ -366,9 +373,285 @@ class StarClassifierTest(unittest.TestCase):
         self.assertGreaterEqual(workflow.count("python3 -m unittest discover -s scripts -p 'test_*.py'"), 2)
         self.assertIn('--check', workflow)
         self.assertIn("github.event.workflow_run.event == 'pull_request'", workflow)
+        self.assertIn('TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}', workflow)
+        self.assertIn('Classify unsorted stars and refresh the rolling PR', workflow)
+        classify_step = workflow.split('Classify unsorted stars and refresh the rolling PR', 1)[1]
+        validate_step = workflow.split('Validate classifier and catalog', 1)[1].split('Classify unsorted stars', 1)[0]
+        self.assertIn('TYPESAFE_API_KEY', classify_step.split('run:', 1)[0])
+        self.assertNotIn('TYPESAFE_API_KEY', validate_step)
         sync = (ROOT / '.github/workflows/sync-github-stars.yml').read_text()
         self.assertIn('classify-github-stars.py', sync)
         self.assertIn('test_star_classifier.py', sync)
+        self.assertNotIn('TYPESAFE_API_KEY', sync)
+        tokscale = (ROOT / '.github/workflows/tokscale-embed-refresh.yml').read_text()
+        self.assertNotIn('TYPESAFE_API_KEY', tokscale)
+
+
+GENERIC_FEATURES = {
+    'description': 'A starred repository.',
+    'topics': [],
+    'language': '',
+    'readme': 'Hello world.',
+}
+
+
+def jev_payload(choice: str, noul: float) -> dict:
+    return {
+        'model': 'jev-latest',
+        'answers': {
+            'category': {
+                'type': 'choice',
+                'choice': choice,
+                'confidence': 0.9,
+                'probabilities': {choice: 0.9},
+            },
+            'confident': {'type': 'noul', 'noul': noul},
+        },
+        'usage': {'input_tokens': 1, 'output_tokens': 1},
+    }
+
+
+class StarJevGateTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.catalog = json.loads((ROOT / 'docs/stars/catalog.json').read_text())
+        cls.category_names = {category['name'] for category in cls.catalog['categories']}
+        cls.held = copy.deepcopy(cls.catalog)
+
+    def _unsorted(self, name='owner/generic', features=None, node_id='UNSORTED-generic'):
+        features = features or GENERIC_FEATURES
+        snapshot = {'repositories': [{
+            'id': node_id,
+            'name': name,
+            'url': f'https://github.com/{name}',
+            'description': features.get('description') or '',
+            'category': 'Unsorted / to classify',
+            'category_id': stars.UNSORTED_ID,
+            'archived': False,
+            'fork': False,
+        }]}
+        return snapshot, {name: features}
+
+    def _classify(self, *, api_key='test-key', jev_request=None, snapshot=None, features=None, name='owner/generic'):
+        catalog = copy.deepcopy(self.held)
+        if snapshot is None:
+            snapshot, features_by_name = self._unsorted(name, features)
+        else:
+            features_by_name = features
+        return classify.classify_unsorted(
+            catalog,
+            snapshot,
+            features_by_name=features_by_name,
+            token='',
+            typesafe_api_key=api_key,
+            jev_request=jev_request,
+        )
+
+    def test_jev_confident_accepts_and_clears_review(self):
+        first = classify.classify_repo(
+            classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
+        )
+        self.assertTrue(first['review_required'])
+        calls = []
+
+        def fake(payload, api_key, **kwargs):
+            calls.append((payload, api_key))
+            return jev_payload('Games & 3D', 0.82)
+
+        decisions, records = self._classify(jev_request=fake)
+        self.assertEqual(len(calls), 1)
+        payload, api_key = calls[0]
+        self.assertEqual(api_key, 'test-key')
+        self.assertEqual(payload['model'], classify.JEV_MODEL)
+        self.assertEqual(set(payload['questions']), {'category', 'confident'})
+        self.assertEqual(payload['questions']['category']['type'], 'choice')
+        self.assertEqual(set(payload['questions']['category']['criteria']), self.category_names)
+        self.assertEqual(payload['questions']['confident']['type'], 'noul')
+        self.assertEqual(payload['questions']['confident']['instructions'], classify.JEV_CONFIDENT_INSTRUCTIONS)
+        self.assertEqual(payload['state']['name'], 'owner/generic')
+        self.assertIn('classifier_top3', payload['state'])
+        self.assertEqual(len(payload['state']['classifier_top3']), 3)
+        self.assertNotIn('test-key', json.dumps(payload))
+        decision = decisions[0]
+        self.assertEqual(decision['category_name'], 'Games & 3D')
+        self.assertEqual(decision['category'], 'category_23')
+        self.assertFalse(decision['review_required'])
+        self.assertEqual(decision['confidence'], 'high')
+        self.assertEqual(decision['jev'], 'decided')
+        self.assertEqual(decision['review_candidates'], [])
+        self.assertTrue(decision['classification_source'].startswith('jev:'))
+        self.assertIn('classifier', decision['reason'])
+        self.assertIn('jev', decision['reason'])
+        self.assertEqual(records[0]['category'], 'category_23')
+        self.assertFalse(records[0]['review_required'])
+        self.assertNotIn('review_candidates', records[0])
+        self.assertTrue(records[0]['classification_source'].startswith('jev:'))
+        body = classify.render_pr_body(decisions, source='test')
+        self.assertIn('| decided |', body)
+        self.assertIn('Jev decided (review cleared): 1', body)
+        self.assertIn('Still need review: 0', body)
+
+    def test_jev_low_confidence_keeps_classifier_pick(self):
+        first = classify.classify_repo(
+            classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
+        )
+        calls = []
+
+        def fake(payload, api_key, **kwargs):
+            calls.append(payload)
+            return jev_payload('Games & 3D', 0.4)
+
+        decisions, records = self._classify(jev_request=fake)
+        self.assertEqual(len(calls), 1)
+        decision = decisions[0]
+        self.assertEqual(decision['category'], first['category'])
+        self.assertEqual(decision['category_name'], first['category_name'])
+        self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['jev'], 'review')
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertTrue(records[0]['review_required'])
+        self.assertEqual(records[0]['review_candidates'], first['review_candidates'])
+        self.assertFalse(records[0]['classification_source'].startswith('jev:'))
+        self.assertIn('keeping classifier pick', decision['reason'])
+        body = classify.render_pr_body(decisions, source='test')
+        self.assertIn('| review |', body)
+        self.assertIn('Still need review: 1', body)
+
+    def test_jev_unknown_category_rejected(self):
+        first = classify.classify_repo(
+            classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
+        )
+
+        def fake(payload, api_key, **kwargs):
+            return jev_payload('Brand New Bucket', 0.99)
+
+        decisions, records = self._classify(jev_request=fake)
+        decision = decisions[0]
+        self.assertEqual(decision['category'], first['category'])
+        self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['jev'], 'review')
+        self.assertIn('Brand New Bucket', decision['reason'])
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertTrue(records[0]['review_required'])
+        self.assertNotEqual(records[0]['category'], 'category_99')
+        self.assertEqual(len(self.held['categories']), len(self.catalog['categories']))
+
+    def test_jev_missing_key_falls_back(self):
+        first = classify.classify_repo(
+            classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
+        )
+
+        def boom(*args, **kwargs):
+            self.fail('Jev must not be called when the API key is missing')
+
+        with patch.dict('os.environ', {'TYPESAFE_API_KEY': ''}, clear=False):
+            decisions, records = self._classify(api_key='', jev_request=boom)
+        decision = decisions[0]
+        self.assertEqual(decision['category'], first['category'])
+        self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['jev'], 'review')
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertTrue(records[0]['review_required'])
+        self.assertFalse(records[0]['classification_source'].startswith('jev:'))
+
+    def test_jev_api_error_falls_back(self):
+        first = classify.classify_repo(
+            classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
+        )
+
+        def explode(payload, api_key, **kwargs):
+            raise urllib.error.HTTPError(classify.JEV_URL, 503, 'unavailable', hdrs=None, fp=None)
+
+        stderr = StringIO()
+        with patch('sys.stderr', stderr):
+            decisions, records = self._classify(jev_request=explode)
+        self.assertNotIn('test-key', stderr.getvalue())
+        decision = decisions[0]
+        self.assertEqual(decision['category'], first['category'])
+        self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['jev'], 'review')
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertTrue(records[0]['review_required'])
+        self.assertFalse(records[0]['classification_source'].startswith('jev:'))
+
+        def empty(payload, api_key, **kwargs):
+            return None
+
+        decisions, records = self._classify(jev_request=empty)
+        self.assertEqual(decisions[0]['category'], first['category'])
+        self.assertTrue(decisions[0]['review_required'])
+
+        def malformed(payload, api_key, **kwargs):
+            return {'answers': {'category': {'type': 'choice'}, 'confident': {'type': 'noul'}}}
+
+        decisions, records = self._classify(jev_request=malformed)
+        self.assertEqual(decisions[0]['category'], first['category'])
+        self.assertTrue(decisions[0]['review_required'])
+
+    def test_request_jev_posts_systemone_and_swallows_http_errors(self):
+        captured = {}
+
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+            def read(self):
+                return json.dumps(jev_payload('Games & 3D', 0.9)).encode()
+
+        def fake_open(request, timeout=None):
+            captured['url'] = request.full_url
+            captured['timeout'] = timeout
+            captured['method'] = request.get_method()
+            captured['body'] = json.loads(request.data.decode())
+            captured['authorization'] = request.get_header('Authorization')
+            return FakeResponse()
+
+        with patch('urllib.request.urlopen', side_effect=fake_open):
+            result = classify.request_jev(
+                {'state': {'name': 'owner/x'}, 'model': 'jev-latest', 'questions': {'category': {'type': 'choice'}}},
+                'secret-key-value',
+            )
+        self.assertEqual(captured['url'], classify.JEV_URL)
+        self.assertEqual(captured['method'], 'POST')
+        self.assertEqual(captured['timeout'], classify.JEV_TIMEOUT)
+        self.assertEqual(captured['authorization'], 'Bearer secret-key-value')
+        self.assertEqual(captured['body']['model'], 'jev-latest')
+        self.assertEqual(result['answers']['category']['choice'], 'Games & 3D')
+
+        def boom(request, timeout=None):
+            raise urllib.error.HTTPError(classify.JEV_URL, 500, 'err', hdrs=None, fp=None)
+
+        stderr = StringIO()
+        with patch('urllib.request.urlopen', side_effect=boom), patch('sys.stderr', stderr):
+            self.assertIsNone(classify.request_jev({'state': {}, 'model': 'jev-latest', 'questions': {'q': {}}}, 'secret-key-value'))
+        self.assertNotIn('secret-key-value', stderr.getvalue())
+        self.assertIsNone(classify.request_jev({'state': {}}, ''))
+
+    def test_jev_skips_high_confidence_first_pass(self):
+        features = json.loads((ROOT / 'scripts/testdata/pr14_classify_fixtures.json').read_text())
+        name = 'arjun988/blender-skills'
+        first = classify.classify_repo(classify.CatalogIndex(self.held), name, features[name])
+        if first['review_required']:
+            self.skipTest('blender-skills fixture is low-confidence in this catalog')
+
+        def boom(*args, **kwargs):
+            self.fail('high-confidence first-pass rows must not call Jev')
+
+        snapshot, features_by_name = self._unsorted(name, features[name], node_id='UNSORTED-blender')
+        decisions, records = classify.classify_unsorted(
+            copy.deepcopy(self.held),
+            snapshot,
+            features_by_name=features_by_name,
+            token='',
+            typesafe_api_key='test-key',
+            jev_request=boom,
+        )
+        self.assertFalse(decisions[0]['review_required'])
+        self.assertNotEqual(decisions[0].get('jev'), 'decided')
+        self.assertEqual(records[0]['category'], first['category'])
 
 
 if __name__ == '__main__':

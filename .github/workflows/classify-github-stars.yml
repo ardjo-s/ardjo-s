@@ -50,6 +50,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
           GITHUB_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: |
           set -euo pipefail
           if [ ! -f docs/stars/unsorted.md ] || ! grep -q '^- \[' docs/stars/unsorted.md; then

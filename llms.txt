@@ -7,7 +7,7 @@ GitHub profile README and curated public star catalog for ardjo-s.
 - [AGENTS.md](AGENTS.md): purpose, layout, regenerate/test commands, edit rules
 - [docs/stars/catalog.json](docs/stars/catalog.json): source of truth (one category per public star)
 - [docs/stars/schema.md](docs/stars/schema.md): catalog JSON fields
-- [scripts/classify-github-stars.py](scripts/classify-github-stars.py): assigns unsorted live stars to existing categories
+- [scripts/classify-github-stars.py](scripts/classify-github-stars.py): assigns unsorted live stars to existing categories; Jev second-pass for low-confidence rows
 - [.github/workflows/classify-github-stars.yml](.github/workflows/classify-github-stars.yml): rolling PR after sync when `unsorted.md` is non-empty
 - [docs/stars/stars.json](docs/stars/stars.json): generated {id, name, url, description, category, category_id, archived, fork}
 - [docs/stars/README.md](docs/stars/README.md): human index of categories
