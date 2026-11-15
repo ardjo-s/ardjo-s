@@ -410,7 +410,7 @@ GENERIC_FEATURES = {
 }
 
 
-def jev_payload(choice: str, noul: float) -> dict:
+def jev_choice_payload(choice: str) -> dict:
     return {
         'model': 'jev-latest',
         'answers': {
@@ -420,10 +420,34 @@ def jev_payload(choice: str, noul: float) -> dict:
                 'confidence': 0.9,
                 'probabilities': {choice: 0.9},
             },
+        },
+        'usage': {'input_tokens': 1, 'output_tokens': 1},
+    }
+
+
+def jev_noul_payload(noul: float) -> dict:
+    return {
+        'model': 'jev-latest',
+        'answers': {
             'confident': {'type': 'noul', 'noul': noul},
         },
         'usage': {'input_tokens': 1, 'output_tokens': 1},
     }
+
+
+def jev_payload(choice: str, noul: float) -> dict:
+    payload = jev_choice_payload(choice)
+    payload['answers'].update(jev_noul_payload(noul)['answers'])
+    return payload
+
+
+def jev_reply(payload: dict, choice: str, noul: float) -> dict:
+    questions = payload['questions']
+    if 'category' in questions:
+        return jev_choice_payload(choice)
+    if 'confident' in questions:
+        return jev_noul_payload(noul)
+    raise AssertionError(f'unexpected questions: {sorted(questions)}')
 
 
 class StarJevGateTest(unittest.TestCase):
@@ -462,6 +486,19 @@ class StarJevGateTest(unittest.TestCase):
             jev_request=jev_request,
         )
 
+    def test_jev_choice_and_noul_are_separate_question_sets(self):
+        cats = self.held['categories'][:2]
+        self.assertEqual(set(classify.jev_questions(cats)), {'category'})
+        noul = classify.jev_confident_questions('Games & 3D', 'Blender, Unreal, Godot.')
+        self.assertEqual(set(noul), {'confident'})
+        self.assertIn('Games & 3D', noul['confident']['criteria']['true'])
+        self.assertIn('Games & 3D', noul['confident']['criteria']['false'])
+        split = classify.parse_jev_choice(jev_choice_payload('Games & 3D'))
+        self.assertEqual(split, 'Games & 3D')
+        self.assertEqual(classify.parse_jev_noul(jev_noul_payload(0.82)), 0.82)
+        self.assertIsNone(classify.parse_jev_noul(jev_choice_payload('Games & 3D')))
+        self.assertIsNone(classify.parse_jev_choice(jev_noul_payload(0.82)))
+
     def test_jev_confident_accepts_and_clears_review(self):
         first = classify.classify_repo(
             classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
@@ -471,23 +508,29 @@ class StarJevGateTest(unittest.TestCase):
 
         def fake(payload, api_key, **kwargs):
             calls.append((payload, api_key))
-            return jev_payload('Games & 3D', 0.82)
+            return jev_reply(payload, 'Games & 3D', 0.82)
 
         decisions, records = self._classify(jev_request=fake)
-        self.assertEqual(len(calls), 1)
-        payload, api_key = calls[0]
+        self.assertEqual(len(calls), 2)
+        choice_payload, api_key = calls[0]
+        noul_payload, noul_key = calls[1]
         self.assertEqual(api_key, 'test-key')
-        self.assertEqual(payload['model'], classify.JEV_MODEL)
-        self.assertEqual(set(payload['questions']), {'category', 'confident'})
-        self.assertEqual(payload['questions']['category']['type'], 'choice')
-        self.assertEqual(set(payload['questions']['category']['criteria']), self.category_names)
-        self.assertEqual(payload['questions']['confident']['type'], 'noul')
-        self.assertEqual(payload['questions']['confident']['instructions'], classify.JEV_CONFIDENT_INSTRUCTIONS)
-        self.assertEqual(payload['state']['name'], 'owner/generic')
-        self.assertIn('classifier_top3', payload['state'])
-        self.assertEqual(len(payload['state']['classifier_top3']), 3)
-        self.assertIn('human_examples', payload['state'])
-        self.assertNotIn('test-key', json.dumps(payload))
+        self.assertEqual(noul_key, 'test-key')
+        self.assertEqual(choice_payload['model'], classify.JEV_MODEL)
+        self.assertEqual(set(choice_payload['questions']), {'category'})
+        self.assertEqual(choice_payload['questions']['category']['type'], 'choice')
+        self.assertEqual(set(choice_payload['questions']['category']['criteria']), self.category_names)
+        self.assertEqual(set(noul_payload['questions']), {'confident'})
+        self.assertEqual(noul_payload['questions']['confident']['type'], 'noul')
+        self.assertEqual(noul_payload['questions']['confident']['instructions'], classify.JEV_CONFIDENT_INSTRUCTIONS)
+        self.assertIn('Games & 3D', noul_payload['questions']['confident']['criteria']['true'])
+        self.assertEqual(noul_payload['state']['chosen_category'], 'Games & 3D')
+        self.assertEqual(choice_payload['state']['name'], 'owner/generic')
+        self.assertIn('classifier_top3', choice_payload['state'])
+        self.assertEqual(len(choice_payload['state']['classifier_top3']), 3)
+        self.assertIn('human_examples', choice_payload['state'])
+        self.assertNotIn('test-key', json.dumps(choice_payload))
+        self.assertNotIn('test-key', json.dumps(noul_payload))
         decision = decisions[0]
         self.assertEqual(decision['category_name'], 'Games & 3D')
         self.assertEqual(decision['category'], 'category_23')
@@ -515,11 +558,14 @@ class StarJevGateTest(unittest.TestCase):
 
         def fake(payload, api_key, **kwargs):
             calls.append(payload)
-            return jev_payload(first['category_name'], 0.65)
+            return jev_reply(payload, first['category_name'], 0.65)
 
         decisions, records = self._classify(jev_request=fake)
-        self.assertEqual(len(calls), 1)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(set(calls[0]['questions']), {'category'})
         self.assertEqual(len(calls[0]['questions']['category']['criteria']), 26)
+        self.assertEqual(set(calls[1]['questions']), {'confident'})
+        self.assertEqual(calls[1]['state']['chosen_category'], first['category_name'])
         decision = decisions[0]
         self.assertFalse(decision['review_required'])
         self.assertEqual(decision['category'], first['category'])
@@ -545,18 +591,31 @@ class StarJevGateTest(unittest.TestCase):
 
         def fake(payload, api_key, **kwargs):
             calls.append(payload)
-            if len(payload['questions']['category']['criteria']) == 2:
-                return jev_payload(first['review_candidate_names'][1], 0.74)
-            return jev_payload(other, 0.70)
+            questions = payload['questions']
+            if 'category' in questions:
+                if len(questions['category']['criteria']) == 2:
+                    return jev_choice_payload(first['review_candidate_names'][1])
+                return jev_choice_payload(other)
+            chosen = payload['state'].get('chosen_category')
+            if chosen == other:
+                return jev_noul_payload(0.70)
+            return jev_noul_payload(0.74)
 
         decisions, records = self._classify(jev_request=fake, features=features)
-        self.assertEqual(len(calls), 2)
-        duel = calls[1]
-        self.assertEqual(set(duel['questions']['category']['criteria']), set(first['review_candidate_names']))
-        self.assertLessEqual(len(duel['state']['readme_excerpt']), classify.JEV_DUEL_README_CHARS)
-        self.assertGreater(len(duel['state']['readme_excerpt']), classify.JEV_README_CHARS)
-        self.assertEqual(duel['state']['topics'], ['example', 'demo'])
-        self.assertIn('human_examples', duel['state'])
+        self.assertEqual(len(calls), 4)
+        self.assertEqual(set(calls[0]['questions']), {'category'})
+        self.assertEqual(set(calls[1]['questions']), {'confident'})
+        self.assertEqual(calls[1]['state']['chosen_category'], other)
+        duel_choice = calls[2]
+        duel_noul = calls[3]
+        self.assertEqual(set(duel_choice['questions']['category']['criteria']), set(first['review_candidate_names']))
+        self.assertLessEqual(len(duel_choice['state']['readme_excerpt']), classify.JEV_DUEL_README_CHARS)
+        self.assertGreater(len(duel_choice['state']['readme_excerpt']), classify.JEV_README_CHARS)
+        self.assertEqual(duel_choice['state']['topics'], ['example', 'demo'])
+        self.assertIn('human_examples', duel_choice['state'])
+        self.assertEqual(set(duel_noul['questions']), {'confident'})
+        self.assertEqual(duel_noul['state']['chosen_category'], first['review_candidate_names'][1])
+        self.assertIn(first['review_candidate_names'][1], duel_noul['questions']['confident']['criteria']['true'])
         decision = decisions[0]
         self.assertFalse(decision['review_required'])
         self.assertEqual(decision['category_name'], first['review_candidate_names'][1])
@@ -572,10 +631,15 @@ class StarJevGateTest(unittest.TestCase):
 
         def fake(payload, api_key, **kwargs):
             calls.append(payload)
-            return jev_payload(first['review_candidate_names'][0], 0.4)
+            return jev_reply(payload, first['review_candidate_names'][0], 0.4)
 
         decisions, records = self._classify(jev_request=fake)
-        self.assertEqual(len(calls), 2)
+        self.assertEqual(len(calls), 4)
+        self.assertEqual(set(calls[0]['questions']), {'category'})
+        self.assertEqual(set(calls[1]['questions']), {'confident'})
+        self.assertEqual(set(calls[2]['questions']), {'category'})
+        self.assertEqual(len(calls[2]['questions']['category']['criteria']), 2)
+        self.assertEqual(set(calls[3]['questions']), {'confident'})
         decision = decisions[0]
         self.assertTrue(decision['review_required'])
         self.assertEqual(decision['jev'], 'review')
@@ -591,8 +655,11 @@ class StarJevGateTest(unittest.TestCase):
             classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
         )
 
+        calls = []
+
         def fake(payload, api_key, **kwargs):
-            return jev_payload('Brand New Bucket', 0.99)
+            calls.append(payload)
+            return jev_reply(payload, 'Brand New Bucket', 0.99)
 
         decisions, records = self._classify(jev_request=fake)
         decision = decisions[0]
@@ -602,6 +669,9 @@ class StarJevGateTest(unittest.TestCase):
         self.assertIn('Brand New Bucket', decision['reason'])
         self.assertEqual(records, [])
         self.assertEqual(len(self.held['categories']), len(self.catalog['categories']))
+        self.assertEqual(len(calls), 2)
+        self.assertTrue(all('category' in payload['questions'] for payload in calls))
+        self.assertFalse(any('confident' in payload['questions'] for payload in calls))
 
     def test_jev_missing_key_falls_back(self):
         first = classify.classify_repo(

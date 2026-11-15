@@ -572,9 +572,19 @@ def jev_questions(categories: list[dict], *, instructions: str | None = None) ->
             'instructions': instructions or JEV_CATEGORY_INSTRUCTIONS,
             'criteria': category_choice_criteria(categories),
         },
+    }
+
+
+def jev_confident_questions(category_name: str, description: str) -> dict:
+    """Noul about one already-chosen category. Questions are independent, so this is a follow-up call."""
+    return {
         'confident': {
             'type': 'noul',
             'instructions': JEV_CONFIDENT_INSTRUCTIONS,
+            'criteria': {
+                'true': f'{category_name} clearly fits this repository. {description}',
+                'false': f'{category_name} is not a clear fit for this repository.',
+            },
         },
     }
 
@@ -590,8 +600,9 @@ def jev_state(
     *,
     readme_limit: int = JEV_README_CHARS,
     examples: list[dict] | None = None,
+    chosen: dict | None = None,
 ) -> dict:
-    return {
+    state = {
         'name': name,
         'description': features.get('description') or '',
         'topics': list(features.get('topics') or []),
@@ -602,6 +613,10 @@ def jev_state(
         ],
         'human_examples': examples or [],
     }
+    if chosen:
+        state['chosen_category'] = chosen['name']
+        state['chosen_category_description'] = chosen.get('description') or ''
+    return state
 
 
 def _as_probability(value) -> float | None:
@@ -638,15 +653,31 @@ def _noul_value(answer) -> float | None:
     return None
 
 
-def parse_jev_response(payload: object) -> dict | None:
-    """Return {category_name, noul} or None when the payload cannot be trusted."""
+def _jev_answers(payload: object) -> dict | None:
     if not isinstance(payload, dict):
         return None
     answers = payload.get('answers')
-    if not isinstance(answers, dict):
+    return answers if isinstance(answers, dict) else None
+
+
+def parse_jev_choice(payload: object) -> str | None:
+    answers = _jev_answers(payload)
+    if answers is None:
         return None
-    category_name = _choice_name(answers.get('category'))
-    noul = _noul_value(answers.get('confident'))
+    return _choice_name(answers.get('category'))
+
+
+def parse_jev_noul(payload: object) -> float | None:
+    answers = _jev_answers(payload)
+    if answers is None:
+        return None
+    return _noul_value(answers.get('confident'))
+
+
+def parse_jev_response(payload: object) -> dict | None:
+    """Return {category_name, noul} or None when a combined payload cannot be trusted."""
+    category_name = parse_jev_choice(payload)
+    noul = parse_jev_noul(payload)
     if not category_name or noul is None:
         return None
     return {'category_name': category_name, 'noul': noul}
@@ -702,7 +733,7 @@ def mark_trancher(decision: dict, extra: str = '') -> None:
 
 
 def jev_agreement_accepts(decision: dict, verdict: dict | None, name_to_id: dict[str, str]) -> bool:
-    if not verdict:
+    if not verdict or verdict.get('noul') is None:
         return False
     jev_id = name_to_id.get(verdict['category_name'])
     if jev_id is None:
@@ -716,7 +747,7 @@ def jev_agreement_accepts(decision: dict, verdict: dict | None, name_to_id: dict
 
 
 def jev_duel_accepts(decision: dict, verdict: dict | None, name_to_id: dict[str, str]) -> bool:
-    if not verdict:
+    if not verdict or verdict.get('noul') is None:
         return False
     jev_id = name_to_id.get(verdict['category_name'])
     allowed = set(decision.get('review_candidates') or [])
@@ -754,6 +785,93 @@ def _run_jev_calls(jobs: list[tuple[str, dict]], *, api_key: str, post) -> dict[
     return replies
 
 
+def run_choice_then_noul(
+    items: list[tuple[dict, dict]],
+    *,
+    choice_categories: list[dict] | None,
+    instructions: str,
+    readme_limit: int,
+    budget: int,
+    api_key: str,
+    post,
+    index: CatalogIndex | None,
+    name_to_id: dict[str, str],
+    id_to_category: dict[str, dict],
+    allowed_ids: set[str] | None = None,
+) -> tuple[dict[str, dict | None], int, set[str]]:
+    """Choice call first, then a Noul that names that pick. TypeSafe questions are independent."""
+    verdicts: dict[str, dict | None] = {decision['name']: None for _features, decision in items}
+    ran: set[str] = set()
+    if not items or budget < 1:
+        return verdicts, budget, ran
+
+    def categories_for(decision: dict) -> list[dict]:
+        if choice_categories is not None:
+            return choice_categories
+        return [
+            id_to_category[cid]
+            for cid in decision.get('review_candidates') or []
+            if cid in id_to_category
+        ]
+
+    pair_slots = max(0, budget // 2)
+    choice_jobs = []
+    for features, decision in items:
+        if len(choice_jobs) >= pair_slots:
+            break
+        cats = categories_for(decision)
+        if len(cats) < 1:
+            continue
+        examples = index.human_examples(decision['name'], features) if index else []
+        choice_jobs.append((decision['name'], {
+            'state': jev_state(
+                decision['name'], features, decision,
+                readme_limit=readme_limit, examples=examples,
+            ),
+            'model': JEV_MODEL,
+            'questions': jev_questions(cats, instructions=instructions),
+        }))
+    choice_replies = _run_jev_calls(choice_jobs, api_key=api_key, post=post)
+    budget -= len(choice_jobs)
+    ran = {name for name, _payload in choice_jobs}
+
+    noul_jobs = []
+    picked: dict[str, str] = {}
+    for features, decision in items:
+        if decision['name'] not in ran:
+            continue
+        jev_name = parse_jev_choice(choice_replies.get(decision['name']))
+        if not jev_name:
+            continue
+        jev_id = name_to_id.get(jev_name)
+        if jev_id is None or (allowed_ids is not None and jev_id not in allowed_ids):
+            verdicts[decision['name']] = {'category_name': jev_name, 'noul': None}
+            continue
+        cat = id_to_category[jev_id]
+        picked[decision['name']] = jev_name
+        examples = index.human_examples(decision['name'], features) if index else []
+        noul_jobs.append((decision['name'], {
+            'state': jev_state(
+                decision['name'], features, decision,
+                readme_limit=readme_limit, examples=examples,
+                chosen={'name': cat['name'], 'description': cat['description']},
+            ),
+            'model': JEV_MODEL,
+            'questions': jev_confident_questions(cat['name'], cat['description']),
+        }))
+    noul_jobs = noul_jobs[: max(0, budget)]
+    noul_replies = _run_jev_calls(noul_jobs, api_key=api_key, post=post)
+    budget -= len(noul_jobs)
+    sent_noul = {name for name, _payload in noul_jobs}
+    for name, jev_name in picked.items():
+        if name not in sent_noul:
+            verdicts[name] = {'category_name': jev_name, 'noul': None}
+            continue
+        noul = parse_jev_noul(noul_replies.get(name))
+        verdicts[name] = {'category_name': jev_name, 'noul': noul}
+    return verdicts, budget, ran
+
+
 def apply_jev_second_pass(
     rows: list[tuple[dict, dict, dict]],
     *,
@@ -773,88 +891,90 @@ def apply_jev_second_pass(
         for _, decision in low:
             mark_trancher(decision)
         return
-    pending = low[:JEV_MAX_CALLS]
-    leftover = low[JEV_MAX_CALLS:]
-    for _, decision in leftover:
-        mark_trancher(decision, 'Jev call cap reached; à trancher')
+    pending = low
     if not pending:
         return
     name_to_id = {category['name']: category['id'] for category in categories}
     id_to_category = {category['id']: category for category in categories}
     post = request or request_jev
-    questions = jev_questions(categories)
     budget = JEV_MAX_CALLS
-
-    jobs = []
-    for features, decision in pending:
-        examples = index.human_examples(decision['name'], features) if index else []
-        jobs.append((decision['name'], {
-            'state': jev_state(decision['name'], features, decision, examples=examples),
-            'model': JEV_MODEL,
-            'questions': questions,
-        }))
-    replies = _run_jev_calls(jobs, api_key=api_key, post=post)
-    budget -= len(jobs)
+    first_verdicts, budget, ran = run_choice_then_noul(
+        pending,
+        choice_categories=categories,
+        instructions=JEV_CATEGORY_INSTRUCTIONS,
+        readme_limit=JEV_README_CHARS,
+        budget=budget,
+        api_key=api_key,
+        post=post,
+        index=index,
+        name_to_id=name_to_id,
+        id_to_category=id_to_category,
+    )
     duels: list[tuple[dict, dict]] = []
     for features, decision in pending:
-        verdict = parse_jev_response(replies.get(decision['name']))
+        if decision['name'] not in ran:
+            mark_trancher(decision, 'Jev call cap reached; à trancher')
+            continue
+        verdict = first_verdicts.get(decision['name'])
         if jev_agreement_accepts(decision, verdict, name_to_id):
             jev_name = verdict['category_name']
-            noul = verdict['noul']
             how = (
                 'jev agreed with classifier top-1'
                 if name_to_id[jev_name] == decision['category']
                 else 'jev override'
             )
             accept_jev_pick(
-                decision, name_to_id[jev_name], jev_name, noul,
+                decision, name_to_id[jev_name], jev_name, verdict['noul'],
                 evidence_date=evidence_date, how=how,
             )
             continue
         extra = 'first Jev pass did not meet agreement'
-        if verdict:
+        if verdict and verdict.get('category_name'):
+            noul_txt = 'n/a' if verdict.get('noul') is None else f"{verdict['noul']:.2f}"
             extra = (
                 f"classifier {decision['category_name']} vs jev {verdict['category_name']} "
-                f"(confident {verdict['noul']:.2f}); first pass not accepted"
+                f"(confident {noul_txt}); first pass not accepted"
             )
         decision['reason'] = f"{decision['reason']}; {extra}"
         duels.append((features, decision))
 
-    if not duels or budget <= 0:
+    if not duels or budget < 2:
         for _, decision in duels:
             mark_trancher(decision, 'à trancher')
         return
-    duels = duels[:budget]
-    duel_jobs = []
+    ready = []
     for features, decision in duels:
         finalists = [
-            id_to_category[cid]
-            for cid in decision.get('review_candidates') or []
-            if cid in id_to_category
+            cid for cid in decision.get('review_candidates') or [] if cid in id_to_category
         ]
         if len(finalists) < 2:
             mark_trancher(decision, 'à trancher')
             continue
-        examples = index.human_examples(decision['name'], features) if index else []
-        duel_jobs.append((decision['name'], {
-            'state': jev_state(
-                decision['name'],
-                features,
-                decision,
-                readme_limit=JEV_DUEL_README_CHARS,
-                examples=examples,
-            ),
-            'model': JEV_MODEL,
-            'questions': jev_questions(finalists, instructions=JEV_DUEL_INSTRUCTIONS),
-        }))
-    duel_replies = _run_jev_calls(duel_jobs, api_key=api_key, post=post)
-    sent_duel = {name for name, _payload in duel_jobs}
-    for features, decision in duels:
-        if decision['name'] not in sent_duel:
-            if decision.get('jev') != 'decided':
-                mark_trancher(decision, 'à trancher')
+        ready.append((features, decision))
+    finalist_ids = {
+        cid
+        for _, decision in ready
+        for cid in decision.get('review_candidates') or []
+        if cid in id_to_category
+    }
+    duel_verdicts, _budget, duel_ran = run_choice_then_noul(
+        ready,
+        choice_categories=None,
+        instructions=JEV_DUEL_INSTRUCTIONS,
+        readme_limit=JEV_DUEL_README_CHARS,
+        budget=budget,
+        api_key=api_key,
+        post=post,
+        index=index,
+        name_to_id=name_to_id,
+        id_to_category=id_to_category,
+        allowed_ids=finalist_ids or None,
+    )
+    for features, decision in ready:
+        if decision['name'] not in duel_ran:
+            mark_trancher(decision, 'Jev call cap reached; à trancher')
             continue
-        verdict = parse_jev_response(duel_replies.get(decision['name']))
+        verdict = duel_verdicts.get(decision['name'])
         if jev_duel_accepts(decision, verdict, name_to_id):
             accept_jev_pick(
                 decision,
@@ -866,10 +986,9 @@ def apply_jev_second_pass(
             )
             continue
         extra = 'finalists duel not accepted; à trancher'
-        if verdict:
-            extra = (
-                f"duel jev {verdict['category_name']} (confident {verdict['noul']:.2f}); à trancher"
-            )
+        if verdict and verdict.get('category_name'):
+            noul_txt = 'n/a' if verdict.get('noul') is None else f"{verdict['noul']:.2f}"
+            extra = f"duel jev {verdict['category_name']} (confident {noul_txt}); à trancher"
         mark_trancher(decision, extra)
 
 
