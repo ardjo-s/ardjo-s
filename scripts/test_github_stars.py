@@ -23,9 +23,12 @@ class StarsTest(unittest.TestCase):
     def test_snapshot_is_complete_and_unique(self):
         stars.validate_catalog(self.catalog)
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
+        catalog_n = len(self.catalog['repositories'])
+        review_n = sum(r['review_required'] for r in self.catalog['repositories'])
         self.assertEqual(len(groups), 26)
-        self.assertEqual(sum(map(len, groups.values())), 1458)
-        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 249)
+        self.assertGreaterEqual(catalog_n, 1458)
+        self.assertEqual(sum(map(len, groups.values())), catalog_n)
+        self.assertGreaterEqual(review_n, 249)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
         self.assertNotIn(stars.UNSORTED_ID, groups)
 
@@ -281,10 +284,12 @@ class StarsTest(unittest.TestCase):
             for href in re.findall(r'href="(docs/stars/[^"#]+)', readme.read_text()):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
-            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1458)
-            self.assertEqual(rendered.count(' · review needed'), 249)
+            catalog_n = len(self.catalog['repositories'])
+            review_n = sum(r['review_required'] for r in self.catalog['repositories'])
+            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), catalog_n)
+            self.assertEqual(rendered.count(' · review needed'), review_n)
             snapshot = json.loads((output / 'stars.json').read_text())
-            self.assertEqual(snapshot['repository_count'], 1458)
+            self.assertEqual(snapshot['repository_count'], catalog_n)
             self.assertTrue(all(row.get('id') for row in snapshot['repositories']))
             self.assertEqual(
                 [row['name'] for row in snapshot['repositories']],

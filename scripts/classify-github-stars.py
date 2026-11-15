@@ -398,6 +398,13 @@ def fetch_features(name: str, token: str, base: dict | None = None) -> dict:
     if not token:
         return features
     data = request_optional(f'{stars.API}/repos/{name}', token)
+    if data and data.get('private'):
+        print(f'Skipping private repository {name}', file=sys.stderr)
+        features['private'] = True
+        features['description'] = ''
+        features['readme'] = ''
+        features['topics'] = []
+        return features
     if data:
         features['name'] = data.get('full_name') or name
         features['id'] = data.get('node_id') or features['id']
@@ -468,27 +475,39 @@ def catalog_record(row: dict, features: dict, decision: dict, *, source: str, ev
     return record
 
 
-def insert_records(catalog: dict, records: list[dict]) -> dict:
+def insert_records(catalog: dict, records: list[dict]) -> tuple[dict, list[dict]]:
     ids = {category['id'] for category in catalog['categories']}
     by_id = {repo['id']: repo for repo in catalog['repositories']}
     by_name = {repo['name'].casefold(): repo for repo in catalog['repositories']}
+    conflicts = []
     for record in records:
         if record['category'] not in ids:
             raise ValueError(f"refusing unknown category {record['category']} for {record['name']}")
         if record['category'] == stars.UNSORTED_ID:
             raise ValueError(f'refusing unsorted category for {record["name"]}')
-        existing = by_id.get(record['id']) or by_name.get(record['name'].casefold())
-        if existing:
+        if record['id'] in by_id:
+            continue
+        name_hit = by_name.get(record['name'].casefold())
+        if name_hit:
+            conflicts.append({
+                'name': record['name'],
+                'id': record['id'],
+                'existing_id': name_hit['id'],
+                'reason': (
+                    f"{record['name']} is already catalogued as node {name_hit['id']}; "
+                    'live star has a different id and needs a human'
+                ),
+            })
             continue
         catalog['repositories'].append(record)
         by_id[record['id']] = record
         by_name[record['name'].casefold()] = record
     catalog['repositories'].sort(key=lambda repo: repo['name'].casefold())
     stars.validate_catalog(catalog)
-    return catalog
+    return catalog, conflicts
 
 
-def render_pr_body(decisions: list[dict], *, source: str) -> str:
+def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] | None = None) -> str:
     lines = [
         '## Classify unsorted GitHub stars',
         '',
@@ -500,6 +519,10 @@ def render_pr_body(decisions: list[dict], *, source: str) -> str:
         '| --- | --- | --- | --- |',
     ]
     for decision in decisions:
+        if decision.get('skipped'):
+            reason = decision['reason'].replace('|', '/')
+            lines.append(f"| `{decision['name']}` | skipped | — | {reason} |")
+            continue
         confidence = decision['confidence']
         if decision['review_required']:
             names = ' vs '.join(decision['review_candidate_names'])
@@ -520,6 +543,16 @@ def render_pr_body(decisions: list[dict], *, source: str) -> str:
         '4. If `unsorted.md` is empty, the job exits without opening a PR.',
         '',
     ])
+    if conflicts:
+        lines.extend([
+            '## Name conflicts',
+            '',
+            'These live stars reuse a catalogued `owner/repo` with a new GitHub node id. They stay unsorted until a human decides.',
+            '',
+        ])
+        for conflict in conflicts:
+            lines.append(f"- `{conflict['name']}` live `{conflict['id']}` vs catalog `{conflict['existing_id']}`")
+        lines.append('')
     return '\n'.join(lines) + '\n'
 
 
@@ -561,6 +594,21 @@ def classify_unsorted(
             if not merged.get('description'):
                 merged['description'] = row.get('description') or ''
             features = merged
+        if features.get('private'):
+            decisions.append({
+                'name': name,
+                'category': '',
+                'category_name': '',
+                'score': 0.0,
+                'gap': 0.0,
+                'confidence': 'low',
+                'review_required': True,
+                'review_candidates': [],
+                'review_candidate_names': [],
+                'reason': 'repository is private; not written to the public catalog',
+                'skipped': True,
+            })
+            continue
         decision = classify_repo(index, name, features)
         if decision['category'] not in index.categories:
             raise ValueError(f"classifier invented category {decision['category']}")
@@ -602,14 +650,20 @@ def main() -> int:
         token=token,
     )
     for decision in decisions:
+        if decision.get('skipped'):
+            print(f"{decision['name']}: skipped — {decision['reason']}")
+            continue
         flag = ' review' if decision['review_required'] else ''
         print(f"{decision['name']}: {decision['category_name']} ({decision['confidence']}{flag}) — {decision['reason']}")
-    body = render_pr_body(decisions, source=classification_source())
+    if not args.apply:
+        body = render_pr_body(decisions, source=classification_source())
+        if args.pr_body:
+            args.pr_body.write_text(body, encoding='utf-8')
+        return 0
+    _, conflicts = insert_records(catalog, records)
+    body = render_pr_body(decisions, source=classification_source(), conflicts=conflicts)
     if args.pr_body:
         args.pr_body.write_text(body, encoding='utf-8')
-    if not args.apply:
-        return 0
-    insert_records(catalog, records)
     write_catalog(args.catalog, catalog)
     live = stars.snapshot_stars(catalog, json.loads((args.output_dir / 'stars.json').read_text(encoding='utf-8')))
     stars.export(live, catalog, args.output_dir, args.readme)
