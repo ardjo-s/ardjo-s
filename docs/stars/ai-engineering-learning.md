@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**31 repositories.** [Browse all categories →](README.md)
+**30 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,12 +12,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) · review needed: ⚙️🦀 Build modular and scalable LLM Applications in Rust.
+- [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples): 21st sdk - cookbook.
 - [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks): A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 - [anthropics/courses](https://github.com/anthropics/courses) · archived: Anthropic's educational courses.
 - [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps): A collection of projects showcasing RAG, agents, workflows, and other AI use cases.
 - [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book): [WIP] Resources for AI engineers.
 - [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe): 💻  Vibe Coding 101｜Your First Course For AI Product Builders.
-- [datawhalechina/zero-to-sglang](https://github.com/datawhalechina/zero-to-sglang): Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR.
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration): Integrate the DeepSeek API into popular software.
 - [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) · review needed: 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.
 - [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai): Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform.
@@ -38,7 +38,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai): A curated list of modern Generative Artificial Intelligence projects and services.
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering): A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
-- [typesafe-ai/skills](https://github.com/typesafe-ai/skills): Agent skills for building with TypeSafe's System One API.
 - [vercel-labs/ai-cli](https://github.com/vercel-labs/ai-cli): Generate anything from your terminal.
 - [vercel/ai](https://github.com/vercel/ai): The AI Toolkit for TypeScript.
 - [zaidmukaddam/swift-ai-sdk](https://github.com/zaidmukaddam/swift-ai-sdk): The AI SDK for your iOS and macOS Apps.

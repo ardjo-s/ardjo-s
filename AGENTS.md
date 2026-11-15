@@ -63,6 +63,6 @@ python3 -m unittest discover -s scripts -p 'test_tokscale_embed.py'
 
 - Never print, commit, or rotate repository secrets (`GH_STARS_TOKEN`, `TYPESAFE_API_KEY`, Tokscale tokens).
 - Never merge pull requests unless a human explicitly asks.
-- Keep one primary category per repository. Domain-specific skills follow their domain (video → Image/Video, Unreal → Games & 3D, security audits → Security).
+- Keep one primary category per repository. Domain-specific skills follow their domain (video → Image/Video, Unreal → Games & 3D, security audits → Security). Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration.
 - Preserve original Sol records (`classification_source` absent). New records carry their own evidence date and source run.
 - Do not deploy.

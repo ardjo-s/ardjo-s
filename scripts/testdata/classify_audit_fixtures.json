@@ -1,0 +1,262 @@
+{
+  "NVIDIA-AI-Blueprints/video-search-and-summarization": {
+    "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
+    "language": "Python",
+    "topics": [
+      "computer-vision",
+      "generative-ai",
+      "long-video-understanding",
+      "model-context-protocol",
+      "multimodal-ai",
+      "natural-language-search",
+      "nvidia-nim",
+      "rag",
+      "real-time-video-analytics",
+      "retrieval-augmented-generation",
+      "skills",
+      "video-agent",
+      "video-analytics",
+      "video-rag",
+      "video-search",
+      "video-summarization",
+      "video-understanding",
+      "vision-agent",
+      "vision-language-model",
+      "vlm"
+    ],
+    "readme": "**Build GPU-accelerated video AI agents that search, analyze, summarize, and reason over live or recorded video using natural language.**"
+  },
+  "assistant-ui/assistant-ui": {
+    "description": "Typescript/React Library for AI Chat 💬🚀",
+    "language": "TypeScript",
+    "topics": [
+      "ai-chatbot",
+      "base-ui",
+      "chatbot",
+      "conversational-ai",
+      "copilot",
+      "radix-ui",
+      "react-chatbot",
+      "shadcn",
+      "ui-components",
+      "vercel-ai-sdk"
+    ],
+    "readme": "**assistant-ui** is an open-source TypeScript/React library to build production-grade AI chat experiences fast."
+  },
+  "nexu-io/html-anything": {
+    "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agents",
+      "ai-video",
+      "byok",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "dsh-plugin",
+      "generative-ai",
+      "local-first",
+      "mcp",
+      "motion",
+      "motion-graphics",
+      "multimodal",
+      "openmotion",
+      "reverse-engineering",
+      "video-editing",
+      "video-generation",
+      "workbuddy"
+    ],
+    "readme": ", production-grade and iterating faster. html-anything is the focused agent-era HTML editor; if it clicks for you,"
+  },
+  "datawhalechina/zero-to-sglang": {
+    "description": "Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR. Available in English and Chinese.",
+    "language": "Python",
+    "topics": [
+      "cuda",
+      "datawhale",
+      "inference-engine",
+      "infra",
+      "kv-cache",
+      "llm",
+      "llm-inference",
+      "sglang",
+      "tutorial"
+    ],
+    "readme": "zero-to-sglang 📚 Build SGLang from Scratch A hands-on tutorial on LLM inference: build a mini-sglang from scratch, then read the real SGLang source. <img src=\"https://img.shields.io/github/forks/datawhalechina/zero-to-sglang?"
+  },
+  "typesafe-ai/skills": {
+    "description": "Agent skills for building with TypeSafe's System One API",
+    "language": "",
+    "topics": [],
+    "readme": "Agent skills for building with [TypeSafe](https://typesafe.ai): typed decisions and probabilities from System One models."
+  },
+  "huggingface/skills": {
+    "description": "Give your agents the power of the Hugging Face ecosystem",
+    "language": "Python",
+    "topics": [],
+    "readme": "Hugging Face Skills are definitions for AI/ML tasks like dataset creation, model training, and evaluation. The client plugin marketplaces expose the `hf-cli` skill as the bootstrap path for core Hub operations; additional workflow skills ca"
+  },
+  "ashishps1/awesome-system-design-resources": {
+    "description": "Learn System Design concepts and prepare for interviews using free resources.",
+    "language": "Java",
+    "topics": [
+      "awesome",
+      "backend",
+      "computer-science",
+      "distributed-systems",
+      "high-level-design",
+      "hld",
+      "interview",
+      "interview-questions",
+      "scalability",
+      "system-design"
+    ],
+    "readme": "Learn System Design concepts and prepare for interviews using free resources."
+  },
+  "1Password/for-open-source": {
+    "description": "Get a 1Password team account for free to support your open source initiatives!",
+    "language": "Go",
+    "topics": [],
+    "readme": "1Password relies on open source software every day. It's fair to say that 1Password wouldn't exist without the open source community, so we want to give back and help teams be more productive and secure."
+  },
+  "OpenCoworkAI/open-codesign": {
+    "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+    "language": "TypeScript",
+    "topics": [
+      "ai-design",
+      "anthropic",
+      "byok",
+      "claude",
+      "claude-code",
+      "claude-design",
+      "claude-design-alternative",
+      "deepseek",
+      "design-to-code",
+      "desktop-app",
+      "electron",
+      "figma-alternative",
+      "gemini",
+      "local-first",
+      "multi-model",
+      "ollama",
+      "openai",
+      "openrouter",
+      "typescript",
+      "ui-generator"
+    ],
+    "readme": "Turn a prompt into a polished prototype, slide deck, or marketing asset, locally, with the model you already use."
+  },
+  "agentes-chat/agentes-chat": {
+    "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+    "language": "TypeScript",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "browser-automation",
+      "chat",
+      "claude",
+      "claude-code",
+      "codex",
+      "collaboration",
+      "computer-use",
+      "docker-compose",
+      "gemini",
+      "grok",
+      "human-in-the-loop",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "openai",
+      "self-hosted",
+      "slack-alternative",
+      "team-chat"
+    ],
+    "readme": "agentes.chat The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions <img src=\"https://github.com/"
+  },
+  "blader/humanizer": {
+    "description": "Agent skill that removes signs of AI-generated writing from text",
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-humanizer",
+      "ai-writing",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "cursor",
+      "humanize-ai-text",
+      "humanizer",
+      "llm",
+      "prompt-engineering",
+      "writing-tools"
+    ],
+    "readme": "Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writin"
+  },
+  "dontriskit/awesome-ai-software-engineering": {
+    "description": "",
+    "language": "",
+    "topics": [],
+    "readme": "> A curated list of tools, frameworks, and resources for AI-powered software engineering."
+  },
+  "hjunhuh/awesome-rust": {
+    "description": "A curated list of Rust code and resources.",
+    "language": "",
+    "topics": [],
+    "readme": "- [Applications](#applications)\n  * [Audio and Music](#audio-and-music)\n  * [Blockchain](#blockchain)\n  * [Database](#database)\n  * [Embedded](#embedded)\n  * [Emulators](#emulators)\n  * [File manager]"
+  },
+  "mvanhorn/printing-press-library": {
+    "description": "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed.",
+    "language": "Go",
+    "topics": [],
+    "readme": "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed."
+  },
+  "tuan3w/linearapp_clone": {
+    "description": "A Linear App clone with React and Tailwind CSS",
+    "language": "TypeScript",
+    "topics": [
+      "clone",
+      "coding-challenge",
+      "react",
+      "react-practice",
+      "reactjs",
+      "tailwindcss"
+    ],
+    "readme": "A clone of [Linear app](https://linear.app/) made with React & [Tailwind CSS](http://tailwindcss.com/)"
+  },
+  "ooolzhas/annotatekit": {
+    "description": "Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo)",
+    "language": "Swift",
+    "topics": [
+      "ai",
+      "design",
+      "expo",
+      "ios",
+      "react-native",
+      "swift",
+      "swiftui",
+      "tools",
+      "ui",
+      "uikit"
+    ],
+    "readme": "turns drawings and comments inside your iOS app into"
+  },
+  "21st-dev/21st-sdk-examples": {
+    "description": "21st sdk - cookbook",
+    "language": "TypeScript",
+    "topics": [],
+    "readme": "Cookbook du SDK 21st selon les seules métadonnées disponibles."
+  },
+  "owner/generic-agent-skills": {
+    "description": "A pack of generic agent skills for Claude, Codex and Cursor.",
+    "language": "",
+    "topics": [
+      "agent-skills",
+      "agents",
+      "claude-skills"
+    ],
+    "readme": "Reusable agent skills and configuration for general coding assistants. Not tied to video, 3D or a single product domain."
+  }
+}

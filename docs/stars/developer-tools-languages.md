@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**74 repositories.** [Browse all categories →](README.md)
+**75 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,7 +15,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus): GitNexus: The Zero-Server Code Intelligence Engine.
 - [adithya-s-k/GitVizz](https://github.com/adithya-s-k/GitVizz): Visualize and analyze GitHub or local repositories using LLM-friendly summaries, file structure, and interactive dependency graphs.
 - [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) · review needed: A collection of tips to help take your CSS skills pro.
-- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources): Learn System Design concepts and prepare for interviews using free resources.
 - [astral-sh/uv](https://github.com/astral-sh/uv): An extremely fast Python package and project manager, written in Rust.
 - [avelino/awesome-go](https://github.com/avelino/awesome-go): A curated list of awesome Go frameworks, libraries and software.
 - [BennettSchwartz/GithubCommitsLeaderboard](https://github.com/BennettSchwartz/GithubCommitsLeaderboard) · review needed: A public leaderboard tracking all-time commit contributions across GitHub.
@@ -42,10 +41,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [harshkedia177/axon](https://github.com/harshkedia177/axon): Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!.
 - [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd): A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources.
+- [hjunhuh/awesome-rust](https://github.com/hjunhuh/awesome-rust) · fork: A curated list of Rust code and resources.
 - [indexable-inc/blaze](https://github.com/indexable-inc/blaze): Incremental rust builds up to 92x faster than cargo/rustc.
 - [jbee37142/Interview_Question_for_Beginner](https://github.com/jbee37142/Interview_Question_for_Beginner): :boy: :girl: Technical-Interview guidelines written for those who started studying programming.
 - [jj-vcs/jj](https://github.com/jj-vcs/jj): A Git-compatible VCS that is both simple and powerful.
 - [jpmorganchase/python-training](https://github.com/jpmorganchase/python-training): Python training for business analysts and traders.
+- [jxnl/dots](https://github.com/jxnl/dots): Starred repository.
 - [kitlangton/stack](https://github.com/kitlangton/stack): Starred repository.
 - [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines): Programming style, best practices, and coding conventions.
 - [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes): git push no-mistakes.

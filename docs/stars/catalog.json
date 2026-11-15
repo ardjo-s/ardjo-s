@@ -429,7 +429,7 @@
       "name": "1Password/for-open-source",
       "url": "https://github.com/1Password/for-open-source",
       "description": "Get a 1Password team account for free to support your open source initiatives!",
-      "category": "category_21",
+      "category": "category_18",
       "purpose": "Demander un compte d’équipe 1Password gratuit pour un projet open source.",
       "keywords": [
         "marketing",
@@ -439,7 +439,14 @@
       "evidence_quote": "1Password relies on open source software every day. It's fair to say that 1Password wouldn't exist without the open source community, so we want to give back and help teams be more productive and secure.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_21",
+        "category_18"
+      ],
+      "evidence_url": "https://github.com/1Password/for-open-source",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOID6mlw",
@@ -466,14 +473,21 @@
       "name": "21st-dev/21st-sdk-examples",
       "url": "https://github.com/21st-dev/21st-sdk-examples",
       "description": "21st sdk - cookbook",
-      "category": "category_11",
+      "category": "category_26",
       "purpose": "Cookbook du SDK 21st selon les seules métadonnées disponibles.",
       "keywords": [],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "",
       "evidence_status": "unavailable_404_metadata_only",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_11",
+        "category_26"
+      ],
+      "evidence_url": "https://github.com/21st-dev/21st-sdk-examples",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjY4OTg2Mw==",
@@ -1226,7 +1240,7 @@
       "name": "agentes-chat/agentes-chat",
       "url": "https://github.com/agentes-chat/agentes-chat",
       "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-      "category": "category_19",
+      "category": "category_02",
       "purpose": "Faire collaborer équipe et agents dans un Slack auto-hébergé.",
       "keywords": [
         "agentic-ai",
@@ -1246,14 +1260,18 @@
         "mcp",
         "multi-agent"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "agentes.chat The open-source, self-hosted Slack alternative where your team and AI agents work together. Website · Cloud · Self-hosting · Features · Discussions <img src=\"https://github.com/",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false,
       "evidence_url": "https://github.com/agentes-chat/agentes-chat",
       "evidence_read_at": "2026-11-14",
-      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_02"
+      ]
     },
     {
       "id": "R_kgDOOK1zIw",
@@ -3128,7 +3146,7 @@
       "name": "ashishps1/awesome-system-design-resources",
       "url": "https://github.com/ashishps1/awesome-system-design-resources",
       "description": "Learn System Design concepts and prepare for interviews using free resources.",
-      "category": "category_13",
+      "category": "category_15",
       "purpose": "Apprendre la conception de systèmes pour les entretiens.",
       "keywords": [],
       "review_required": false,
@@ -3138,7 +3156,11 @@
       "fork": false,
       "evidence_url": "https://github.com/ashishps1/awesome-system-design-resources",
       "evidence_read_at": "2026-11-15",
-      "classification_source": "human:2026-11-15"
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_13",
+        "category_15"
+      ]
     },
     {
       "id": "R_kgDOSn0Mew",
@@ -3172,7 +3194,7 @@
       "name": "assistant-ui/assistant-ui",
       "url": "https://github.com/assistant-ui/assistant-ui",
       "description": "Typescript/React Library for AI Chat 💬🚀",
-      "category": "category_02",
+      "category": "category_11",
       "purpose": "Bibliothèque React et TypeScript pour interfaces de conversation IA.",
       "keywords": [
         "design",
@@ -3190,7 +3212,14 @@
       "evidence_quote": "**assistant-ui** is an open-source TypeScript/React library to build production-grade AI chat experiences fast.",
       "evidence_status": "read",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_02",
+        "category_11"
+      ],
+      "evidence_url": "https://github.com/assistant-ui/assistant-ui",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOHy0BzQ",
@@ -4074,7 +4103,7 @@
       "name": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
-      "category": "category_19",
+      "category": "category_03",
       "purpose": "Rendre des textes générés par IA plus naturels sans changer leur sens.",
       "keywords": [
         "agents",
@@ -4088,11 +4117,18 @@
         "writing-tools",
         "ai-humanizer"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writin",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_03"
+      ],
+      "evidence_url": "https://github.com/blader/humanizer",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOVYKEpg",
@@ -7326,7 +7362,7 @@
       "name": "datawhalechina/zero-to-sglang",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "description": "Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR. Available in English and Chinese.",
-      "category": "category_26",
+      "category": "category_07",
       "purpose": "Apprendre l’inférence LLM en construisant un mini-SGLang puis en lisant le vrai.",
       "keywords": [
         "cuda",
@@ -7346,7 +7382,11 @@
       "fork": false,
       "evidence_url": "https://github.com/datawhalechina/zero-to-sglang",
       "evidence_read_at": "2026-11-14",
-      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_26",
+        "category_07"
+      ]
     },
     {
       "id": "R_kgDOVVpilw",
@@ -8424,14 +8464,21 @@
       "name": "dontriskit/awesome-ai-software-engineering",
       "url": "https://github.com/dontriskit/awesome-ai-software-engineering",
       "description": "",
-      "category": "category_19",
+      "category": "category_03",
       "purpose": "Découvrir des outils et ressources pour l’ingénierie logicielle assistée par IA.",
       "keywords": [],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "> A curated list of tools, frameworks, and resources for AI-powered software engineering.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_03"
+      ],
+      "evidence_url": "https://github.com/dontriskit/awesome-ai-software-engineering",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk0NzAxODIzOQ==",
@@ -9718,16 +9765,23 @@
       "name": "EveryInc/tend",
       "url": "https://github.com/EveryInc/tend",
       "description": "grow what you know",
-      "category": "category_22",
+      "category": "category_01",
       "purpose": "Transformer des intentions en flux de veille locaux, révisables et personnalisables.",
       "keywords": [
         "conversion"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Tend turns intent into local, reviewable feeds that you can inspect, steer, and teach over time.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_22",
+        "category_01"
+      ],
+      "evidence_url": "https://github.com/EveryInc/tend",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOTEYNUA",
@@ -13005,14 +13059,21 @@
       "name": "hjunhuh/awesome-rust",
       "url": "https://github.com/hjunhuh/awesome-rust",
       "description": "A curated list of Rust code and resources.",
-      "category": "category_19",
+      "category": "category_13",
       "purpose": "Découvrir des bibliothèques, applications et ressources Rust.",
       "keywords": [],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "- [Applications](#applications)\n  * [Audio and Music](#audio-and-music)\n  * [Blockchain](#blockchain)\n  * [Database](#database)\n  * [Embedded](#embedded)\n  * [Emulators](#emulators)\n  * [File manager]",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": true
+      "fork": true,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_13"
+      ],
+      "evidence_url": "https://github.com/hjunhuh/awesome-rust",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOQHxY5Q",
@@ -13203,7 +13264,7 @@
       "name": "huggingface/skills",
       "url": "https://github.com/huggingface/skills",
       "description": "Give your agents the power of the Hugging Face ecosystem",
-      "category": "category_06",
+      "category": "category_03",
       "purpose": "Outiller les agents pour créer des datasets, entraîner et évaluer des modèles Hugging Face.",
       "keywords": [
         "agents",
@@ -13215,7 +13276,14 @@
       "evidence_quote": "Hugging Face Skills are definitions for AI/ML tasks like dataset creation, model training, and evaluation. The client plugin marketplaces expose the `hf-cli` skill as the bootstrap path for core Hub operations; additional workflow skills ca",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_06",
+        "category_03"
+      ],
+      "evidence_url": "https://github.com/huggingface/skills",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOVPnQrA",
@@ -15046,16 +15114,23 @@
       "name": "jxnl/dots",
       "url": "https://github.com/jxnl/dots",
       "description": "",
-      "category": "category_25",
+      "category": "category_13",
       "purpose": "Configurer ses outils et environnements de développement avec des dotfiles.",
       "keywords": [
         "coder"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Personal dotfiles repository for development tools and environments.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_25",
+        "category_13"
+      ],
+      "evidence_url": "https://github.com/jxnl/dots",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOS7xAwQ",
@@ -19629,16 +19704,23 @@
       "name": "mvanhorn/printing-press-library",
       "url": "https://github.com/mvanhorn/printing-press-library",
       "description": "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed.",
-      "category": "category_19",
+      "category": "category_04",
       "purpose": "Installer des CLI générées et cataloguées pour de nombreuses API.",
       "keywords": [
         "CAO"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "This repo is the catalog of CLIs already printed and ready to install.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_04"
+      ],
+      "evidence_url": "https://github.com/mvanhorn/printing-press-library",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOR2ntBw",
@@ -20146,7 +20228,7 @@
       "name": "nexu-io/html-anything",
       "url": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "category": "category_01",
+      "category": "category_10",
       "purpose": "Créer et éditer des livrables HTML avec ses agents locaux.",
       "keywords": [
         "présentations",
@@ -20165,11 +20247,18 @@
         "claude-skills",
         "coding-agents"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": ", production-grade and iterating faster. html-anything is the focused agent-era HTML editor; if it clicks for you,",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_01",
+        "category_10"
+      ],
+      "evidence_url": "https://github.com/nexu-io/html-anything",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOSo4KbQ",
@@ -20692,7 +20781,7 @@
       "name": "NVIDIA-AI-Blueprints/video-search-and-summarization",
       "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
       "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
-      "category": "category_02",
+      "category": "category_10",
       "purpose": "Architecture GPU pour chercher, résumer et analyser des vidéos en langage naturel.",
       "keywords": [
         "vidéo",
@@ -20711,11 +20800,18 @@
         "generative-ai",
         "long-video-understanding"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "**Build GPU-accelerated video AI agents that search, analyze, summarize, and reason over live or recorded video using natural language.**",
       "evidence_status": "read",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_02",
+        "category_10"
+      ],
+      "evidence_url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOSds9XQ",
@@ -21501,7 +21597,7 @@
       "name": "ooolzhas/annotatekit",
       "url": "https://github.com/ooolzhas/annotatekit",
       "description": "Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo)",
-      "category": "category_14",
+      "category": "category_12",
       "purpose": "Transmettre annotations et commentaires depuis une app iOS de développement à un agent codeur.",
       "keywords": [
         "retours",
@@ -21517,7 +21613,11 @@
       "evidence_url": "https://github.com/ooolzhas/annotatekit/blob/main/README.md",
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "d190924093b0ad5246b23459bdd2254d84d85173766fc7ac7143a4918840bfe9",
-      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_14",
+        "category_12"
+      ]
     },
     {
       "id": "R_kgDOSKkbmA",
@@ -22204,7 +22304,7 @@
       "name": "OpenCoworkAI/open-codesign",
       "url": "https://github.com/OpenCoworkAI/open-codesign",
       "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
-      "category": "category_10",
+      "category": "category_11",
       "purpose": "Créer localement prototypes, présentations et supports marketing avec son modèle IA.",
       "keywords": [
         "présentations",
@@ -22222,11 +22322,18 @@
         "local-first",
         "multi-model"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Turn a prompt into a polished prototype, slide deck, or marketing asset, locally, with the model you already use.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_10",
+        "category_11"
+      ],
+      "evidence_url": "https://github.com/OpenCoworkAI/open-codesign",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOO_yqIA",
@@ -23872,14 +23979,21 @@
       "name": "pipecat-ai/ios-little-voices",
       "url": "https://github.com/pipecat-ai/ios-little-voices",
       "description": "",
-      "category": "category_02",
+      "category": "category_09",
       "purpose": "Débattre oralement avec deux personnages IA entièrement locaux sur iPhone.",
       "keywords": [],
       "review_required": false,
       "evidence_quote": "An angel and a devil sit on your shoulders. Ask them anything out loud: they debate it, then\neach gives you a verdict, in their own voices, with faces that mouth their words. Everything\nruns on the iPhone: no s",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_02",
+        "category_09"
+      ],
+      "evidence_url": "https://github.com/pipecat-ai/ios-little-voices",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOK-Kftw",
@@ -31100,7 +31214,7 @@
       "name": "tuan3w/linearapp_clone",
       "url": "https://github.com/tuan3w/linearapp_clone",
       "description": "A Linear App clone with React and Tailwind CSS",
-      "category": "category_19",
+      "category": "category_11",
       "purpose": "Explorer un clone d’interface de gestion de projets Linear en React.",
       "keywords": [
         "design",
@@ -31117,7 +31231,14 @@
       "evidence_quote": "A clone of [Linear app](https://linear.app/) made with React & [Tailwind CSS](http://tailwindcss.com/)",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_11"
+      ],
+      "evidence_url": "https://github.com/tuan3w/linearapp_clone",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDOGLI5SQ",
@@ -31229,7 +31350,7 @@
       "name": "typesafe-ai/skills",
       "url": "https://github.com/typesafe-ai/skills",
       "description": "Agent skills for building with TypeSafe's System One API",
-      "category": "category_26",
+      "category": "category_03",
       "purpose": "Skills pour utiliser les décisions typées et probabilités de l’API TypeSafe System One.",
       "keywords": [
         "agents"
@@ -31238,7 +31359,14 @@
       "evidence_quote": "Agent skills for building with [TypeSafe](https://typesafe.ai): typed decisions and probabilities from System One models.",
       "evidence_status": "read",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_26",
+        "category_03"
+      ],
+      "evidence_url": "https://github.com/typesafe-ai/skills",
+      "evidence_read_at": "2026-11-15"
     },
     {
       "id": "R_kgDORPBjow",

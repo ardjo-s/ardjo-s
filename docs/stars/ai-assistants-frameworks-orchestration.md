@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**103 repositories.** [Browse all categories →](README.md)
+**101 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,10 +15,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [aaif-goose/goose](https://github.com/aaif-goose/goose): an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
 - [AFK-surf/Comma](https://github.com/AFK-surf/Comma): Best free &amp; open source super agent.
 - [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield): Build, run and scale AI agents like API and microservices.
+- [agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat): Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.
 - [alchaincyf/hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book): Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南.
 - [andrewyng/openworker](https://github.com/andrewyng/openworker): Starred repository.
 - [Anil-matcha/suparagent](https://github.com/Anil-matcha/suparagent): Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.
-- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui): Typescript/React Library for AI Chat 💬🚀.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) · review needed: AI that sees your screen, listens to your conversations and tells you what to do.
 - [browserbase/bell-stack](https://github.com/browserbase/bell-stack): BELL: the open source personal assistant powered by Browserbase, Stripe, Vercel, and Linq.
 - [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native): A framework for building agentic apps.
@@ -67,7 +67,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui): Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): The agent that grows with you.
 - [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw): Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig.
-- [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization) · review needed: NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&amp;A, and automated reporting.
 - [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) · review needed: Self-hosted AI workspace.
 - [omnara-ai/omnara](https://github.com/omnara-ai/omnara): The open-source managed agent platform.
 - [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent): Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
@@ -83,7 +82,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [outsourc-e/clawsuite](https://github.com/outsourc-e/clawsuite): All-in-one command center for OpenClaw agents.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip): The open-source app everyone uses to manage agents at work.
 - [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): AgentRun is an open-source platform that supercharges your agents.
-- [pipecat-ai/ios-little-voices](https://github.com/pipecat-ai/ios-little-voices): Starred repository.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
 - [rerun-build/rerun](https://github.com/rerun-build/rerun): AI coworkers that run your work.

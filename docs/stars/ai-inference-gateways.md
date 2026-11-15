@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**43 repositories.** [Browse all categories →](README.md)
+**44 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,6 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BenedictKing/ccx](https://github.com/BenedictKing/ccx): Claude / Codex / Gemini API Proxy - CCX.
 - [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute): Never stop coding.
 - [craigsdennis/talk-to-javascript-openai-workers](https://github.com/craigsdennis/talk-to-javascript-openai-workers) · review needed: Demonstrates how to protect your OpenAI API Key using a Cloudflare Worker to serve your ephemeral token and then do client side tool calling.
+- [datawhalechina/zero-to-sglang](https://github.com/datawhalechina/zero-to-sglang): Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR.
 - [ddalcu/mlx-serve](https://github.com/ddalcu/mlx-serve): Native LLM inference server for Apple Silicon.
 - [decolua/9router](https://github.com/decolua/9router): Unlimited FREE AI coding.
 - [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer): DeepInfer: High-performance, large-scale inference framework for DeepSeek models.

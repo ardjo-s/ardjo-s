@@ -52,6 +52,25 @@ QUALITY_FIXTURES = {
     'lukasz-madon/awesome-remote-job': 'category_20',
     'steven2358/awesome-generative-ai': 'category_26',
 }
+AUDIT_FIXTURES = {
+    'NVIDIA-AI-Blueprints/video-search-and-summarization': 'category_10',
+    'assistant-ui/assistant-ui': 'category_11',
+    'nexu-io/html-anything': 'category_10',
+    'datawhalechina/zero-to-sglang': 'category_07',
+    'typesafe-ai/skills': 'category_03',
+    'huggingface/skills': 'category_03',
+    'ashishps1/awesome-system-design-resources': 'category_15',
+    '1Password/for-open-source': 'category_18',
+    'OpenCoworkAI/open-codesign': 'category_11',
+    'agentes-chat/agentes-chat': 'category_02',
+    'blader/humanizer': 'category_03',
+    'dontriskit/awesome-ai-software-engineering': 'category_03',
+    'hjunhuh/awesome-rust': 'category_13',
+    'mvanhorn/printing-press-library': 'category_04',
+    'tuan3w/linearapp_clone': 'category_11',
+    'ooolzhas/annotatekit': 'category_12',
+    '21st-dev/21st-sdk-examples': 'category_26',
+}
 BANNED_REASONS = {
     'agentgateway/agentgateway': ('domain-specific 3d/game skill', 'blender/unreal/game-pipeline'),
     'awesome-foss/awesome-sysadmin': ('mail/inbox',),
@@ -68,6 +87,9 @@ class StarClassifierTest(unittest.TestCase):
         )
         cls.quality_features = json.loads(
             (ROOT / 'scripts/testdata/classify_quality_fixtures.json').read_text()
+        )
+        cls.audit_features = json.loads(
+            (ROOT / 'scripts/testdata/classify_audit_fixtures.json').read_text()
         )
         hold_names = set(PR14_FIXTURES) | set(QUALITY_FIXTURES)
         held = copy.deepcopy(cls.catalog)
@@ -204,6 +226,52 @@ class StarClassifierTest(unittest.TestCase):
         )
         self.assertEqual(decision['category'], 'category_23')
         self.assertIn('Games & 3D', decision['reason'] + decision['category_name'])
+
+    def test_generic_agent_skills_pack_goes_to_agent_methods(self):
+        features = self.audit_features['owner/generic-agent-skills']
+        title = classify.title_token_set('owner/generic-agent-skills', features)
+        rule = next(item for item in classify.DOMAIN_RULES if item['id'] == 'generic-agent-skills')
+        self.assertTrue(classify.rule_matches(rule, title))
+        decision = classify.classify_repo(self.index, 'owner/generic-agent-skills', features)
+        self.assertEqual(decision['category'], 'category_03')
+        self.assertIn('generic agent skills pack', decision['reason'])
+
+    def test_generic_agent_skills_rule_yields_to_domain_skill(self):
+        features = self.features['arjun988/blender-skills']
+        title = classify.title_token_set('arjun988/blender-skills', features)
+        generic = next(item for item in classify.DOMAIN_RULES if item['id'] == 'generic-agent-skills')
+        self.assertFalse(classify.rule_matches(generic, title))
+        decision = classify.classify_repo(self.index, 'arjun988/blender-skills', features)
+        self.assertEqual(decision['category'], 'category_23')
+        self.assertNotIn('generic agent skills pack', decision['reason'])
+
+    def test_jev_prompt_mentions_generic_agent_skills_rule(self):
+        self.assertIn(
+            'Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration.',
+            classify.JEV_CATEGORY_INSTRUCTIONS,
+        )
+        self.assertIn(
+            'Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration.',
+            classify.JEV_DUEL_INSTRUCTIONS,
+        )
+        questions = classify.jev_questions(self.catalog['categories'])
+        self.assertIn(
+            'Generic agent skills packs not tied to a specific domain',
+            questions['category']['instructions'],
+        )
+
+    def test_audit_corrections_match_human_categories(self):
+        held = copy.deepcopy(self.catalog)
+        held['repositories'] = [
+            repo for repo in held['repositories'] if repo['name'] not in AUDIT_FIXTURES
+        ]
+        index = classify.CatalogIndex(held)
+        misses = []
+        for name, expected in AUDIT_FIXTURES.items():
+            decision = classify.classify_repo(index, name, self.audit_features[name])
+            if decision['category'] != expected:
+                misses.append((name, expected, decision['category'], decision['reason']))
+        self.assertEqual(misses, [], msg=f'audit fixture misses: {misses}')
 
     def test_apply_classifies_unsorted_snapshot_and_passes_check(self):
         catalog = copy.deepcopy(self.held_catalog)
