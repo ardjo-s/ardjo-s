@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1538,
+  "repository_count": 1559,
   "categories": [
     {
       "id": "category_01",
@@ -158,14 +158,30 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 36
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 21
     }
   ],
   "repositories": [
     {
+      "id": "R_kgDOVVH5lw",
+      "name": "0kzh/glisse",
+      "url": "https://github.com/0kzh/glisse",
+      "description": "iOS 26 Liquid Glass for the web",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOT9OoFA",
-      "name": "0sec-labs/0",
-      "url": "https://github.com/0sec-labs/0",
-      "description": "The open-source cybersecurity harness. Automate red team & blue team workflows with custom agents - code analysis, pentesting, LLM redteaming, reverse engineering, vulnerability verification, and fixing. Web Interface, CLI and MCP for agents.",
+      "name": "0sec-labs/0security",
+      "url": "https://github.com/0sec-labs/0security",
+      "description": "Open-source AI cybersecurity harness. Build & deploy continuous security agents that find, prove, fix and monitor vulnerabilities across code, binaries, dependencies, infrastructure and AI agents. Web UI, CLI, CI and MCP.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -782,6 +798,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTA4NTEzMA==",
+      "name": "airbnb/lottie-web",
+      "url": "https://github.com/airbnb/lottie-web",
+      "description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSka2Jw",
       "name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
@@ -1068,6 +1094,16 @@
       "description": "Beautiful map components. 100% Free, Zero config, one command setup.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVKrXyg",
+      "name": "annnguyentt/anatomy-reveal-skill",
+      "url": "https://github.com/annnguyentt/anatomy-reveal-skill",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2122,6 +2158,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSldRSA",
+      "name": "bryanyzhu/agentic-ai-system-course",
+      "url": "https://github.com/bryanyzhu/agentic-ai-system-course",
+      "description": "Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxOTA3Mjk5MDY=",
       "name": "Budibase/budibase",
       "url": "https://github.com/Budibase/budibase",
@@ -2512,6 +2558,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVf2lQg",
+      "name": "ChetasLua/moss-keeper",
+      "url": "https://github.com/ChetasLua/moss-keeper",
+      "description": "The Moss Keeper — a one-file HTML anime short made with Fable 5.5",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONYfztA",
       "name": "chiphuyen/aie-book",
       "url": "https://github.com/chiphuyen/aie-book",
@@ -2778,6 +2834,16 @@
       "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1ODQ3Mzk4OQ==",
+      "name": "cocopon/tweakpane",
+      "url": "https://github.com/cocopon/tweakpane",
+      "description": ":control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4632,6 +4698,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxNjE0NDEw",
+      "name": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOPYl8cQ",
       "name": "figma/mcp-server-guide",
       "url": "https://github.com/figma/mcp-server-guide",
@@ -5478,6 +5554,16 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1OTA1MzMw",
+      "name": "greensock/GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6742,6 +6828,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVuMsDA",
+      "name": "JuneYaooo/rea-toon",
+      "url": "https://github.com/JuneYaooo/rea-toon",
+      "description": "AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVcA9Ag",
       "name": "JuneYaooo/rea-video",
       "url": "https://github.com/JuneYaooo/rea-video",
@@ -7502,6 +7598,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2MzA5NzI5",
+      "name": "librosa/librosa",
+      "url": "https://github.com/librosa/librosa",
+      "description": "Python library for audio and music analysis",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSI82mg",
       "name": "lidge-ai/ima2-gen",
       "url": "https://github.com/lidge-ai/ima2-gen",
@@ -7682,6 +7788,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDORlCGJw",
+      "name": "LottieFiles/motion-design-skill",
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "description": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOH-ObJw",
       "name": "louis-e/arnis",
       "url": "https://github.com/louis-e/arnis",
@@ -7722,6 +7838,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU3OHTg",
+      "name": "lucasmarkes/hairline",
+      "url": "https://github.com/lucasmarkes/hairline",
+      "description": "Isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORyB5Fg",
       "name": "lucataco/superkeet",
       "url": "https://github.com/lucataco/superkeet",
@@ -7758,6 +7884,16 @@
       "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOIlaj4w",
+      "name": "m-bain/whisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7868,6 +8004,16 @@
       "description": "OpenAssist is a voice-first personal AI assistant for macOS and iPhone. Built with Codex on the Codex app server: tasks, reminders, notes, projects and AI agent work in one place.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjUxMjI0Nzg=",
+      "name": "ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "description": "A community-maintained Python framework for creating mathematical animations. ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8742,6 +8888,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTkxN2Q",
+      "name": "motiondivision/ai-kit",
+      "url": "https://github.com/motiondivision/ai-kit",
+      "description": "A Cursor plugin for Motion",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk1NzYyMDE=",
       "name": "mrdoob/three.js",
       "url": "https://github.com/mrdoob/three.js",
@@ -9188,6 +9344,16 @@
       "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVttVKw",
+      "name": "nickvasilescu/parallax",
+      "url": "https://github.com/nickvasilescu/parallax",
+      "description": "Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10932,6 +11098,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOHQtwpw",
+      "name": "pmndrs/react-three-rapier",
+      "url": "https://github.com/pmndrs/react-three-rapier",
+      "description": "🤺 Rapier physics in React",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxODAzMjg3MTU=",
       "name": "pmndrs/zustand",
       "url": "https://github.com/pmndrs/zustand",
@@ -11468,6 +11644,16 @@
       "description": "🎥      Make videos programmatically with React",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOQ8srOw",
+      "name": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "description": "Agent Skills",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -14852,6 +15038,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVAzMMQ",
+      "name": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOU44XSQ",
       "name": "whirlchat/whirl",
       "url": "https://github.com/whirlchat/whirl",
@@ -14958,6 +15154,16 @@
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNTc1NTk5MzY=",
+      "name": "WordPress/openverse",
+      "url": "https://github.com/WordPress/openverse",
+      "description": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -15268,6 +15474,16 @@
       "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOUtQcPg",
+      "name": "yunfanye/openhouse-3d",
+      "url": "https://github.com/yunfanye/openhouse-3d",
+      "description": "Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video. Photo camera solving, procedural Blender (bpy) modeling, virtual staging, headless Cycles rendering and photo-vs-render comparison films.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

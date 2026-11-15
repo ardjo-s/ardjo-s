@@ -11,7 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [0sec-labs/0](https://github.com/0sec-labs/0): The open-source cybersecurity harness.
+- [0sec-labs/0security](https://github.com/0sec-labs/0security): Open-source AI cybersecurity harness.
 - [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.
 - [beenuar/AiSOC](https://github.com/beenuar/AiSOC): Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step.
 - [clawvisor/clawvisor](https://github.com/clawvisor/clawvisor): API gateway for purpose-based authorization for AI agents.
