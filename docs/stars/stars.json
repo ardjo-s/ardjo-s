@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1458,
+  "repository_count": 1538,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 3
+      "count": 83
     }
   ],
   "repositories": [
@@ -171,7 +171,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0",
       "url": "https://github.com/0sec-labs/0",
-      "description": "The open-source cybersecurity harness. Automate code analysis, pentesting, LLM redteaming, reverse engineering, vulnerability verification, and fixing. Web Interface, CLI and MCP for agents.",
+      "description": "The open-source cybersecurity harness. Automate red team & blue team workflows with custom agents - code analysis, pentesting, LLM redteaming, reverse engineering, vulnerability verification, and fixing. Web Interface, CLI and MCP for agents.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -288,6 +288,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk1ODAyODAzOA==",
+      "name": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQdLIuw",
       "name": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
@@ -314,6 +324,16 @@
       "description": "Dépôt de code du \"Dictionnaire amoureux du franco maximalisme technologique\"",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOP2Xf8g",
+      "name": "a2ui-project/a2ui",
+      "url": "https://github.com/a2ui-project/a2ui",
+      "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -588,6 +608,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOK1zIw",
+      "name": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQp3VPQ",
       "name": "agentskills/agentskills",
       "url": "https://github.com/agentskills/agentskills",
@@ -604,6 +634,16 @@
       "description": "Infrastructure for coding agents",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORKpZAg",
+      "name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -698,6 +738,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOGnQfvg",
+      "name": "Aidoku/Aidoku",
+      "url": "https://github.com/Aidoku/Aidoku",
+      "description": "Manga reading app for iOS, iPadOS, and macOS",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOU6n8IA",
       "name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
@@ -734,6 +784,16 @@
       "description": "An iOS library to natively render After Effects vector animations",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSka2Jw",
+      "name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -958,6 +1018,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDk5OTQ1NzM=",
+      "name": "aniftyco/awesome-tailwindcss",
+      "url": "https://github.com/aniftyco/awesome-tailwindcss",
+      "description": "😎 Awesome things related to Tailwind CSS",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOJg7yeg",
       "name": "Anil-matcha/Open-Generative-AI",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
@@ -1178,6 +1248,26 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOzc9Sg",
+      "name": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOS0Cuhg",
+      "name": "apple/coreai-models",
+      "url": "https://github.com/apple/coreai-models",
+      "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOT3FF1w",
       "name": "Appllama/appllama-skills",
       "url": "https://github.com/Appllama/appllama-skills",
@@ -1338,6 +1428,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKkt57w",
+      "name": "ashishps1/awesome-system-design-resources",
+      "url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "description": "Learn System Design concepts and prepare for interviews using free resources.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSn0Mew",
       "name": "asimons81/hermes-dreaming",
       "url": "https://github.com/asimons81/hermes-dreaming",
@@ -1448,6 +1548,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTU0MDc1OQ==",
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR1YMug",
       "name": "averygan/reclip",
       "url": "https://github.com/averygan/reclip",
@@ -1474,6 +1584,16 @@
       "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODM4NzQwNg==",
+      "name": "awesome-foss/awesome-sysadmin",
+      "url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "description": "A curated list of amazingly awesome open-source sysadmin resources.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1658,6 +1778,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4MzU3OTE2Nw==",
+      "name": "bharathgs/Awesome-pytorch-list",
+      "url": "https://github.com/bharathgs/Awesome-pytorch-list",
+      "description": "A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORSV6_g",
       "name": "bholmesdev/hubble.md",
       "url": "https://github.com/bholmesdev/hubble.md",
@@ -1704,6 +1834,16 @@
       "description": "Can a model design a dashboard? A console whose whole design system is generated at runtime by Jev from a one-sentence brief.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMTU0Nzg4MjA=",
+      "name": "binhnguyennus/awesome-scalability",
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1818,6 +1958,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTA2NTQ3Mw==",
+      "name": "bolshchikov/js-must-watch",
+      "url": "https://github.com/bolshchikov/js-must-watch",
+      "description": "Must-watch videos about javascript",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSYUvrg",
       "name": "boriemannetje/apex-notes",
       "url": "https://github.com/boriemannetje/apex-notes",
@@ -1904,6 +2054,16 @@
       "description": "CC Workflow Studio",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2MTg5MzM5OQ==",
+      "name": "brillout/awesome-react-components",
+      "url": "https://github.com/brillout/awesome-react-components",
+      "description": "Curated List of React Components & Libraries.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2104,6 +2264,16 @@
       "description": "Caldo's skills",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMzgyNTk0OA==",
+      "name": "Calinou/awesome-godot",
+      "url": "https://github.com/Calinou/awesome-godot",
+      "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2338,6 +2508,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOhcXYw",
+      "name": "ChenLiu-1996/figures4papers",
+      "url": "https://github.com/ChenLiu-1996/figures4papers",
+      "description": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONYfztA",
       "name": "chiphuyen/aie-book",
       "url": "https://github.com/chiphuyen/aie-book",
@@ -2354,6 +2534,16 @@
       "description": "A curated list of awesome Deep Learning tutorials, projects and communities.",
       "category": "AI Models & Training",
       "category_id": "category_06",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOPt7f_g",
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2394,6 +2584,16 @@
       "description": "A semantic collision engine for non-trivial LLM idea generation. Operationalizes Koestler's bisociation theory (1964): injects structurally distant knowledge domains into the prompt, forces collisions, surfaces non-trivial ideas. Empirical validation in CL-ML/open-collider-research.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOL9wXZg",
+      "name": "claration/feather",
+      "url": "https://github.com/claration/feather",
+      "description": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3078,6 +3278,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKvdZfw",
+      "name": "DataExpert-io/data-engineer-handbook",
+      "url": "https://github.com/DataExpert-io/data-engineer-handbook",
+      "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQcnGZA",
       "name": "datagouv/datagouv-mcp",
       "url": "https://github.com/datagouv/datagouv-mcp",
@@ -3478,6 +3688,26 @@
       "fork": false
     },
     {
+      "id": "R_kgDOG_8cCg",
+      "name": "djsime1/awesome-flipperzero",
+      "url": "https://github.com/djsime1/awesome-flipperzero",
+      "description": "🐬 A collection of awesome resources for the Flipper Zero device.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTg4NzQ5OQ==",
+      "name": "dkhamsing/open-source-ios-apps",
+      "url": "https://github.com/dkhamsing/open-source-ios-apps",
+      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOT2Xtxg",
       "name": "dmmulroy/anti-slop",
       "url": "https://github.com/dmmulroy/anti-slop",
@@ -3578,6 +3808,36 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk0NzAxODIzOQ==",
+      "name": "DopplerHQ/awesome-interview-questions",
+      "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+      "description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": true,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMzYwNjIyNDA=",
+      "name": "DovAmir/awesome-design-patterns",
+      "url": "https://github.com/DovAmir/awesome-design-patterns",
+      "description": "A curated list of software and architecture related design patterns.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOIF8T9Q",
+      "name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORpANWQ",
       "name": "DreambigOu/ELI5",
       "url": "https://github.com/DreambigOu/ELI5",
@@ -3644,6 +3904,16 @@
       "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
       "category": "Research, Science & Health",
       "category_id": "category_22",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDg2NTQzNg==",
+      "name": "dypsilon/frontend-dev-bookmarks",
+      "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+      "description": "Manually curated collection of resources for frontend web developers.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4214,6 +4484,16 @@
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORiKx2A",
+      "name": "fabio-rovai/open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4878,6 +5158,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxODk2MjE2MDc=",
+      "name": "github/docs",
+      "url": "https://github.com/github/docs",
+      "description": "The open-source repo for docs.github.com",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOODGMVA",
       "name": "github/github-mcp-server",
       "url": "https://github.com/github/github-mcp-server",
@@ -5138,6 +5428,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDORCp1Rw",
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOJfMqJg",
       "name": "GoogleCloudPlatform/generative-ai",
       "url": "https://github.com/GoogleCloudPlatform/generative-ai",
@@ -5244,6 +5544,26 @@
       "description": "The headless browser for AI agents and web scraping",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1NTA3NjA2Mw==",
+      "name": "Hack-with-Github/Awesome-Hacking",
+      "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNjU1NDI1MA==",
+      "name": "hackerkid/Mind-Expanding-Books",
+      "url": "https://github.com/hackerkid/Mind-Expanding-Books",
+      "description": " :books: Find your next book to read!",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5508,6 +5828,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2NzA0MzcxNA==",
+      "name": "heynickc/awesome-ddd",
+      "url": "https://github.com/heynickc/awesome-ddd",
+      "description": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVSH7Bw",
       "name": "hieunc229/mailflare-macos",
       "url": "https://github.com/hieunc229/mailflare-macos",
@@ -5754,6 +6084,16 @@
       "description": "The modern video player for macOS.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSo8izA",
+      "name": "iliyami/MacSai",
+      "url": "https://github.com/iliyami/MacSai",
+      "description": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6138,6 +6478,26 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2MzUzOTA1NQ==",
+      "name": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk5MzI5MTY4MQ==",
+      "name": "jbee37142/Interview_Question_for_Beginner",
+      "url": "https://github.com/jbee37142/Interview_Question_for_Beginner",
+      "description": ":boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all the best. :space_invader:",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORmDA6Q",
       "name": "JCodesMore/ai-website-cloner-template",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
@@ -6258,6 +6618,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxNDQwODcxNQ==",
+      "name": "jnv/lists",
+      "url": "https://github.com/jnv/lists",
+      "description": "The definitive list of lists (of lists) curated on GitHub and elsewhere",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVQKzRQ",
       "name": "JoasASantos/REA-Prompts",
       "url": "https://github.com/JoasASantos/REA-Prompts",
@@ -6344,6 +6714,16 @@
       "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOUEHx5A",
+      "name": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6714,6 +7094,16 @@
       "description": "The awesome document factory",
       "category": "Web & Document Automation",
       "category_id": "category_17",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk5NzA1NDk3NQ==",
+      "name": "Kristories/awesome-guidelines",
+      "url": "https://github.com/Kristories/awesome-guidelines",
+      "description": "Programming style, best practices, and coding conventions.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7198,6 +7588,26 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMjM2MzE0MTg=",
+      "name": "lissy93/personal-security-checklist",
+      "url": "https://github.com/lissy93/personal-security-checklist",
+      "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOJ7tF0g",
+      "name": "LiveContainer/LiveContainer",
+      "url": "https://github.com/LiveContainer/LiveContainer",
+      "description": "Run iOS apps without actually installing them!",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR-VPxg",
       "name": "llm-as-a-verifier/llm-as-a-verifier",
       "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
@@ -7214,6 +7624,16 @@
       "description": "Keep Codex running forever",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk0NjU3MjU3NA==",
+      "name": "lnishan/awesome-competitive-programming",
+      "url": "https://github.com/lnishan/awesome-competitive-programming",
+      "description": ":gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7314,6 +7734,16 @@
       "description": "macOS app for voice-to-text",
       "category": "Voice, Audio & Music",
       "category_id": "category_09",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODY5OTQ3MQ==",
+      "name": "lukasz-madon/awesome-remote-job",
+      "url": "https://github.com/lukasz-madon/awesome-remote-job",
+      "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7448,6 +7878,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTQ2MTcxNQ==",
+      "name": "markets/awesome-ruby",
+      "url": "https://github.com/markets/awesome-ruby",
+      "description": "💎 A collection of awesome Ruby libraries, tools, frameworks and software",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOMCvTzA",
       "name": "marmelab/atomic-crm",
       "url": "https://github.com/marmelab/atomic-crm",
@@ -7474,6 +7914,26 @@
       "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTQ1NjYyNA==",
+      "name": "matiassingers/awesome-readme",
+      "url": "https://github.com/matiassingers/awesome-readme",
+      "description": "A curated list of awesome READMEs",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
+      "name": "matteocrippa/awesome-swift",
+      "url": "https://github.com/matteocrippa/awesome-swift",
+      "description": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7554,6 +8014,16 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDE1MjQ3MDM=",
+      "name": "maxgoedjen/secretive",
+      "url": "https://github.com/maxgoedjen/secretive",
+      "description": "Protect your SSH keys with your Mac's Secure Enclave",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7648,6 +8118,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOxgJ5g",
+      "name": "memvid/memvid",
+      "url": "https://github.com/memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORHhxQA",
       "name": "MengTo/Skills",
       "url": "https://github.com/MengTo/Skills",
@@ -7734,6 +8214,16 @@
       "description": "Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzODAzMTUwOTQ=",
+      "name": "mhadidg/software-architecture-books",
+      "url": "https://github.com/mhadidg/software-architecture-books",
+      "description": "A comprehensive list of books on Software Architecture.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8118,6 +8608,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDORtIxKw",
+      "name": "mnfst/awesome-free-llm-apis",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "description": "List of Permanent Free LLM API  (API Keys)",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTePLYA",
       "name": "MobAI-App/simslim",
       "url": "https://github.com/MobAI-App/simslim",
@@ -8144,6 +8644,16 @@
       "description": "Review-first terminal diff viewer for agentic coders",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOR_S01w",
+      "name": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8454,6 +8964,16 @@
       "description": "Software architecture tooling for the AI age",
       "category": "Testing, Debugging & Code Quality",
       "category_id": "category_14",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORkxqCA",
+      "name": "Narcooo/inkos",
+      "url": "https://github.com/Narcooo/inkos",
+      "description": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8824,6 +9344,16 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDU0NDQzNDM=",
+      "name": "nutti/fake-bpy-module",
+      "url": "https://github.com/nutti/fake-bpy-module",
+      "description": "Fake Blender Python API module collection for the code completion.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10368,6 +10898,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTkyNjExOTA=",
+      "name": "pluja/awesome-privacy",
+      "url": "https://github.com/pluja/awesome-privacy",
+      "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNTkxMTc0Njg=",
       "name": "pmndrs/drei",
       "url": "https://github.com/pmndrs/drei",
@@ -10424,6 +10964,16 @@
       "description": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization",
       "category": "AI Models & Training",
       "category_id": "category_06",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTQyMDM3Nw==",
+      "name": "posquit0/Awesome-CV",
+      "url": "https://github.com/posquit0/Awesome-CV",
+      "description": ":page_facing_up: Awesome CV is LaTeX template for your outstanding job application",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10498,6 +11048,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOJwkQKA",
+      "name": "princeton-vl/infinigen",
+      "url": "https://github.com/princeton-vl/infinigen",
+      "description": "Infinite Photorealistic Worlds using Procedural Generation",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOMKir8Q",
       "name": "probabl-ai/skore",
       "url": "https://github.com/probabl-ai/skore",
@@ -10558,6 +11118,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4MDM1ODA3MA==",
+      "name": "qazbnm456/awesome-web-security",
+      "url": "https://github.com/qazbnm456/awesome-web-security",
+      "description": "🐶 A curated list of Web Security materials and resources.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNjgxNjM2MDk=",
       "name": "qdrant/qdrant",
       "url": "https://github.com/qdrant/qdrant",
@@ -10568,12 +11138,32 @@
       "fork": false
     },
     {
+      "id": "R_kgDOThtu2g",
+      "name": "qhy991/Scientific-Figure-Design",
+      "url": "https://github.com/qhy991/Scientific-Figure-Design",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOKC2TNA",
       "name": "QwenLM/Qwen",
       "url": "https://github.com/QwenLM/Qwen",
       "description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
       "category": "AI Models & Training",
       "category_id": "category_06",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOPB-92Q",
+      "name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10654,6 +11244,16 @@
       "description": "A local Excalidraw desktop editor built with Exact",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVaB38g",
+      "name": "rami-maalouf/multiplexer",
+      "url": "https://github.com/rami-maalouf/multiplexer",
+      "description": "self-host your own beeper",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10864,6 +11464,16 @@
       "description": "Interact with the Remote.com API to manage your company and employees directly from your terminal",
       "category": "Finance, Legal & Business Operations",
       "category_id": "category_21",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzQ0OTU0MjU=",
+      "name": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥      Make videos programmatically with React",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -11274,6 +11884,16 @@
       "description": "Open-source sandboxes where coding agents build and deploy. Spin up isolated environments where Claude Code, Cursor, and other agents code and deploy software.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjg1MDQ0Mw==",
+      "name": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12018,6 +12638,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTczNzI2Ng==",
+      "name": "sindresorhus/awesome-nodejs",
+      "url": "https://github.com/sindresorhus/awesome-nodejs",
+      "description": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTY_eZg",
       "name": "sitepins/sitepins",
       "url": "https://github.com/sitepins/sitepins",
@@ -12238,6 +12868,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQr60iA",
+      "name": "sozercan/kaset",
+      "url": "https://github.com/sozercan/kaset",
+      "description": "📼 The missing YouTube and YouTube Music macOS app",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
@@ -12414,6 +13054,16 @@
       "description": "QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOIREjZg",
+      "name": "steven2358/awesome-generative-ai",
+      "url": "https://github.com/steven2358/awesome-generative-ai",
+      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12604,6 +13254,16 @@
       "description": "A collection of rare, ready-to-use UI components and animations you can actually drop into your next project. Free and open source.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2NDcwNTc4MQ==",
+      "name": "SwifterSwift/SwifterSwift",
+      "url": "https://github.com/SwifterSwift/SwifterSwift",
+      "description": "A handy collection of more than 500 native Swift extensions to boost your productivity.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12868,6 +13528,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk3MjU4NjgwNQ==",
+      "name": "terkelg/awesome-creative-coding",
+      "url": "https://github.com/terkelg/awesome-creative-coding",
+      "description": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOUI3RCg",
       "name": "TerseAI/durable-actors",
       "url": "https://github.com/TerseAI/durable-actors",
@@ -12994,6 +13664,16 @@
       "description": "The Open Standard for Generative UI",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2ODM4MDQxMw==",
+      "name": "thibmaek/awesome-raspberry-pi",
+      "url": "https://github.com/thibmaek/awesome-raspberry-pi",
+      "description": "📝 A curated list of awesome Raspberry Pi tools, projects, images and resources",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13188,6 +13868,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOR460eg",
+      "name": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOI0hewg",
       "name": "TokisanGames/Terrain3D",
       "url": "https://github.com/TokisanGames/Terrain3D",
@@ -13195,6 +13885,16 @@
       "category": "Games & 3D",
       "category_id": "category_23",
       "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk3ODg0OTQzOQ==",
+      "name": "TonnyL/Awesome_APIs",
+      "url": "https://github.com/TonnyL/Awesome_APIs",
+      "description": ":octocat: A collection of APIs",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": true,
       "fork": false
     },
     {
@@ -13258,6 +13958,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQD6vmw",
+      "name": "travisvn/awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxMzgzOTMxMzk=",
       "name": "trimstray/the-book-of-secret-knowledge",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
@@ -13294,6 +14004,16 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOPAsbmQ",
+      "name": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13808,6 +14528,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTdLZdQ",
+      "name": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOPmULpg",
       "name": "vinhnx/VTCode",
       "url": "https://github.com/vinhnx/VTCode",
@@ -13878,6 +14608,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyODkxOTEyNzc=",
+      "name": "vitejs/awesome-vite",
+      "url": "https://github.com/vitejs/awesome-vite",
+      "description": "⚡️ A curated list of awesome things related to Vite.js",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOI7xefg",
       "name": "vllm-project/vllm",
       "url": "https://github.com/vllm-project/vllm",
@@ -13894,6 +14634,16 @@
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOPVXahw",
+      "name": "VoltAgent/awesome-claude-code-subagents",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13958,6 +14708,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMzcwNzg0ODc=",
+      "name": "vuejs/core",
+      "url": "https://github.com/vuejs/core",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORz32Fg",
       "name": "walkinglabs/learn-harness-engineering",
       "url": "https://github.com/walkinglabs/learn-harness-engineering",
@@ -13994,6 +14754,16 @@
       "description": "Warp is an agentic development environment, born out of the terminal.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODQyODcyOQ==",
+      "name": "wasabeef/awesome-android-ui",
+      "url": "https://github.com/wasabeef/awesome-android-ui",
+      "description": "A curated list of awesome Android UI/UX libraries",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -14538,10 +15308,20 @@
       "fork": false
     },
     {
+      "id": "R_kgDORRDicw",
+      "name": "zachlatta/freeflow",
+      "url": "https://github.com/zachlatta/freeflow",
+      "description": "Free & fast alternative to Wispr Flow",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONif6fg",
       "name": "Zackriya-Solutions/meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
+      "description": "Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
@@ -14554,6 +15334,16 @@
       "description": "Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models (Kairos today) on Bybit testnet. Under development.",
       "category": "Finance, Legal & Business Operations",
       "category_id": "category_21",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVN7flQ",
+      "name": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -14684,6 +15474,16 @@
       "description": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOTYlhVw",
+      "name": "zhoy0409-debug/polish-sci-figures",
+      "url": "https://github.com/zhoy0409-debug/polish-sci-figures",
+      "description": "Scientific figure toolkit and Figure Studio: editable templates, local statistics, multi-panel editing and SVG/PNG/TIFF export, with skills for Codex and Claude. | 科研绘图与组图编辑：模板作图、统计分析、精修排版及高清导出。",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

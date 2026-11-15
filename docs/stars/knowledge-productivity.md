@@ -131,5 +131,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [xaelophone/hermes](https://github.com/xaelophone/hermes): Markdown editor with intelligence.
 - [xykong/flux-markdown](https://github.com/xykong/flux-markdown) · review needed: Markdown Preview Enhanced for macOS QuickLook.
 - [ywEdAi/OpenLanguageKit](https://github.com/ywEdAi/OpenLanguageKit): Knowledge layer for building language-learning apps: knowledge points for English, Japanese and Chinese, pedagogical primitives, building blocks and a blueprint planner.
-- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily): Privacy-first AI meeting note taker for Windows and macOS.
+- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily): Privacy-first AI meeting note taker for Windows, macOS and Linux.
 - [zilvestro/grammai](https://github.com/zilvestro/grammai): AI writing assistance.
