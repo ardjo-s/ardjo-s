@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1566,
+  "repository_count": 1577,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 35
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 11
     }
   ],
   "repositories": [
@@ -1382,6 +1388,16 @@
       "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOIZ8Rag",
+      "name": "Arize-ai/phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "description": "AI Observability & Evaluation",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3006,6 +3022,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOJhWgDg",
+      "name": "comet-ml/opik",
+      "url": "https://github.com/comet-ml/opik",
+      "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOIygeJg",
       "name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
@@ -3052,6 +3078,16 @@
       "description": "The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOKFeYBA",
+      "name": "confident-ai/deepeval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "description": "The LLM Evaluation Framework",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4486,6 +4522,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTU5Nzc1Nzg=",
+      "name": "evidentlyai/evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTEYNUA",
       "name": "experientiallabs/experiential",
       "url": "https://github.com/experientiallabs/experiential",
@@ -5212,6 +5258,16 @@
       "description": "TaskView is a self-hosted project and task management platform focused on clarity, ownership, and control. TaskView is built for teams that want a transparent, self-hosted alternative to SaaS task managers.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOG9PI5A",
+      "name": "Giskard-AI/giskard-oss",
+      "url": "https://github.com/Giskard-AI/giskard-oss",
+      "description": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7460,6 +7516,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKRXhvA",
+      "name": "langwatch/langwatch",
+      "url": "https://github.com/langwatch/langwatch",
+      "description": "Open-Source Agent Observability & Evals for AI Platform teams. Trace, test, route and govern every agent & coding assistant in the company.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORLcNOA",
       "name": "Lap-Platform/LAP",
       "url": "https://github.com/Lap-Platform/LAP",
@@ -7956,6 +8022,16 @@
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOQvQ0TA",
+      "name": "macrodata-labs/refiner",
+      "url": "https://github.com/macrodata-labs/refiner",
+      "description": "Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9676,6 +9752,16 @@
       "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
       "category": "AI Models & Training",
       "category_id": "category_06",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOJhfZ-g",
+      "name": "NVIDIA/garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "description": "the LLM vulnerability scanner",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13400,6 +13486,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVooPLw",
+      "name": "subsy/gardener",
+      "url": "https://github.com/subsy/gardener",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOT4vimw",
       "name": "sulabhdubey/rta-smriti-brain",
       "url": "https://github.com/sulabhdubey/rta-smriti-brain",
@@ -14190,6 +14286,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKOkWSA",
+      "name": "traceloop/openllmetry",
+      "url": "https://github.com/traceloop/openllmetry",
+      "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQ4pdCg",
       "name": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
@@ -14776,6 +14882,16 @@
       "description": "Enlightened library to convert HTML and CSS to SVG",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOJgX1Gg",
+      "name": "vibrantlabsai/ragas",
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "description": "Supercharge Your LLM Application Evaluations 🚀",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
