@@ -46,14 +46,6 @@ jobs:
           if [ ! -f docs/stars/unsorted.md ] || ! grep -q '^- \[' docs/stars/unsorted.md; then
             skip=true
             echo "No unsorted public stars; nothing to propose."
-          elif ! awk '
-              /^## Stars$/ { in_stars=1; next }
-              /^## / { in_stars=0 }
-              in_stars && /^- \[/ { found=1; exit }
-              END { exit found ? 0 : 1 }
-            ' docs/stars/unsorted.md; then
-            skip=true
-            echo "Only à trancher rows remain; nothing to propose."
           else
             echo "New unsorted stars to classify."
           fi
@@ -69,6 +61,15 @@ jobs:
         run: |
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+
+      - name: Restore Jev response cache
+        if: steps.pending.outputs.skip != 'true'
+        uses: actions/cache@v4
+        with:
+          path: docs/stars/.classify-jev-cache.json
+          key: classify-jev-cache-v1
+          restore-keys: |
+            classify-jev-cache-
 
       - name: Classify unsorted stars and refresh the rolling PR
         if: steps.pending.outputs.skip != 'true'
@@ -87,6 +88,7 @@ jobs:
           python3 scripts/classify-github-stars.py \
             --output-dir docs/stars \
             --apply \
+            --cache docs/stars/.classify-jev-cache.json \
             --pr-body /tmp/classify-stars-pr.md
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check
@@ -146,25 +148,28 @@ jobs:
           python3 - <<'PY'
           import json, re, sys
           from pathlib import Path
-          unsorted = Path('docs/stars/unsorted.md')
           catalog = json.loads(Path('docs/stars/catalog.json').read_text(encoding='utf-8'))
-          by_name = {repo['name'] for repo in catalog['repositories']}
-          names = []
-          if unsorted.is_file():
-              names = re.findall(
-                  r'^- \[([^\]]+)\]\(https://github\.com/[^)]+\)[^\n]*à trancher',
-                  unsorted.read_text(encoding='utf-8'),
-                  re.M,
-              )
-          published = [name for name in names if name in by_name]
-          if published:
+          ids = {category['id'] for category in catalog['categories']}
+          bad = [
+              repo['name']
+              for repo in catalog['repositories']
+              if repo.get('category') not in ids or repo.get('category') == 'unsorted'
+          ]
+          if bad:
               print(
-                  'Refusing to merge: à trancher rows were written into catalog.json: '
-                  + ', '.join(published),
+                  'Refusing to merge: catalog rows missing an existing category: '
+                  + ', '.join(bad),
                   file=sys.stderr,
               )
               sys.exit(1)
-          print(f'OK: {len(names)} à trancher rows remain unpublished in docs/stars/unsorted.md')
+          unsorted = Path('docs/stars/unsorted.md')
+          pending = []
+          if unsorted.is_file():
+              pending = re.findall(r'^- \[([^\]]+)\]\(https://github\.com/[^)]+\)', unsorted.read_text(encoding='utf-8'), re.M)
+          print(
+              'OK: every catalogued star has an existing category'
+              + (f'; {len(pending)} live stars still waiting in unsorted.md' if pending else '; unsorted.md has no pending rows')
+          )
           PY
           gh pr merge "${pr}" --squash --match-head-commit "${sha}"
           echo "Squash-merged rolling PR #${pr} at ${sha}"

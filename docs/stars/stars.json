@@ -19,7 +19,7 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 129
+      "count": 130
     },
     {
       "id": "category_04",
@@ -85,7 +85,7 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 72
+      "count": 73
     },
     {
       "id": "category_13",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 35
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 2
     }
   ],
   "repositories": [
@@ -1315,7 +1309,11 @@
       "category": "AI Models & Training",
       "category_id": "category_06",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "AI Models & Training",
+        "AI Inference & Gateways"
+      ]
     },
     {
       "id": "R_kgDOT3FF1w",
@@ -5525,7 +5523,11 @@
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "App, Web & Mobile Development",
+        "Agent Methods, Skills & Configuration"
+      ]
     },
     {
       "id": "R_kgDOJfMqJg",
@@ -8782,14 +8784,16 @@
       "name": "miuuyy/Astra-Ares",
       "url": "https://github.com/miuuyy/Astra-Ares",
       "description": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false,
       "review_candidate_names": [
         "AI Evaluation & Observability",
         "Agent Methods, Skills & Configuration"
-      ]
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDORWiFDA",
@@ -9179,7 +9183,11 @@
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Knowledge & Productivity",
+        "Games & 3D"
+      ]
     },
     {
       "id": "R_kgDOUAt_Bw",
@@ -15236,14 +15244,12 @@
       "name": "WordPress/openverse",
       "url": "https://github.com/WordPress/openverse",
       "description": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false,
-      "review_candidate_names": [
-        "Knowledge & Productivity",
-        "Developer Tools & Languages"
-      ]
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOUBNKHA",

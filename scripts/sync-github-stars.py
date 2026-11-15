@@ -195,7 +195,26 @@ def group_stars(stars: list[dict], catalog: dict) -> dict[str, list[dict]]:
                 'review_required': True,
             })
         else:
-            groups[classified['category']].append({**classified, **repo})
+            item = {**classified, **repo}
+            for key in (
+                'classification_confidence',
+                'classification_rounds',
+                'review_required',
+                'review_candidates',
+                'classification_source',
+            ):
+                if key in classified:
+                    item[key] = classified[key]
+                else:
+                    item.pop(key, None)
+            if item.get('review_candidates') and item.get('review_required'):
+                id_to_name = {category['id']: category['name'] for category in catalog['categories']}
+                item['review_candidate_names'] = [
+                    id_to_name[cid] for cid in item['review_candidates'] if cid in id_to_name
+                ]
+            elif not item.get('review_required'):
+                item.pop('review_candidate_names', None)
+            groups[classified['category']].append(item)
     if not seen:
         raise ValueError('Empty public star inventory; retaining the last good export')
     if unknown:
@@ -226,37 +245,22 @@ def repo_list_flags(repo: dict) -> str:
         ' · archived' if repo.get('archived') else '',
         ' · fork' if repo.get('fork') else '',
         ' · review needed' if repo.get('review_required') else '',
+        ' · low confidence' if repo.get('classification_confidence') == 'low' else '',
     ])
-    candidates = [str(item) for item in (repo.get('review_candidate_names') or []) if item]
-    if candidates:
-        flags += ' · à trancher ' + ' vs '.join(candidates)
     return flags
 
 
 def render_list(category: dict, repos: list[dict]) -> str:
-    pending = [repo for repo in repos if repo.get('review_candidate_names')]
     lines = [
         f"# {category['emoji']} {category['name']}", '', f"> {category['description']}", '',
         f'**{len(repos)} repositories.** [Browse all categories →](README.md)', '', GENERATED, '',
         'Classified by primary use with Sol. [Structured catalog and evidence](catalog.json).',
         'A review flag marks uncertain evidence or category boundaries; every repository still has a category.',
     ]
-    if category['id'] == UNSORTED_ID and pending:
+    if category['id'] == UNSORTED_ID:
         lines.append(
-            'Low-confidence automatic picks stay here until a human chooses; they are not published in a category.'
+            'Low-confidence automatic picks are published in an existing category and tagged in the catalog; this page only holds live stars not yet written into catalog.json.'
         )
-        lines.extend(['', '## À trancher', ''])
-        for repo in sorted(pending, key=lambda r: r['name'].casefold()):
-            lines.append(
-                f"- [{repo['name']}]({repo['url']}){repo_list_flags(repo)}: {mini_description(repo['description'])}"
-            )
-        rest = [repo for repo in repos if not repo.get('review_candidate_names')]
-        lines.extend(['', '## Stars', ''])
-        for repo in sorted(rest, key=lambda r: r['name'].casefold()):
-            lines.append(
-                f"- [{repo['name']}]({repo['url']}){repo_list_flags(repo)}: {mini_description(repo['description'])}"
-            )
-        return '\n'.join(lines).rstrip() + '\n'
     lines.extend(['', '## Stars', ''])
     for repo in sorted(repos, key=lambda r: r['name'].casefold()):
         lines.append(
@@ -328,7 +332,7 @@ def render_index(catalog: dict, groups: dict[str, list[dict]]) -> str:
         heading, '',
         'Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.', '',
         'For agents: [catalog.json](catalog.json) is the source of truth. [stars.json](stars.json) is the generated machine-readable snapshot (name, url, description, category). [schema.md](schema.md) documents the catalog fields. Search `purpose`, `description` and `keywords`, then verify against `evidence_quote`.', '',
-        'A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. Live stars missing from the catalog are exported to Unsorted / to classify instead of blocking the refresh. The snapshot is public-only. See [AGENTS.md](../../AGENTS.md) and [maintenance instructions](../../scripts/README-stars.md).', '']
+        'A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. Low-confidence automatic picks are still published in an existing category and tagged `classification_confidence: low`. Live stars missing from the catalog are exported to Unsorted / to classify instead of blocking the refresh, then classified into an existing category. The snapshot is public-only. See [AGENTS.md](../../AGENTS.md) and [maintenance instructions](../../scripts/README-stars.md).', '']
     families = dict.fromkeys(c['family'] for c in categories)
     for family in families:
         lines.extend([f'## {family}', ''])
@@ -357,6 +361,10 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
             }
             if repo.get('review_candidate_names'):
                 row['review_candidate_names'] = list(repo['review_candidate_names'])
+            if repo.get('classification_confidence'):
+                row['classification_confidence'] = repo['classification_confidence']
+            if repo.get('classification_rounds'):
+                row['classification_rounds'] = repo['classification_rounds']
             repositories.append(row)
     repositories.sort(key=lambda row: row['name'].casefold())
     payload = {
@@ -426,7 +434,7 @@ def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Pa
             seen_page_names.add(name)
             page_names.append(name)
 
-    expected_generated = {f"{category['slug']}.md" for category in categories} | {'README.md'}
+    expected_generated = {f"{category['slug']}.md" for category in categories} | {'README.md', f"{UNSORTED_CATEGORY['slug']}.md"}
     for path in sorted(output_dir.glob('*.md')):
         text = path.read_text(encoding='utf-8')
         generated = GENERATED in text or 'Agent note: generated from the authenticated GitHub stars list' in text
@@ -437,7 +445,12 @@ def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Pa
                 errors.append(f'{path.name} contains stale marker {marker}')
 
     unsorted_page = output_dir / f"{UNSORTED_CATEGORY['slug']}.md"
-    _collect_errors(errors, not groups.get(UNSORTED_ID) and unsorted_page.exists(), 'stale unsorted.md')
+    if not groups.get(UNSORTED_ID):
+        expected_unsorted = render_list(UNSORTED_CATEGORY, [])
+        if not unsorted_page.is_file():
+            errors.append('missing empty unsorted.md')
+        elif unsorted_page.read_text(encoding='utf-8') != expected_unsorted:
+            errors.append('unsorted.md does not match empty render_list')
 
     missing_pages = sorted(inventory_set - seen_page_names)
     extra_pages = sorted(seen_page_names - inventory_set)
@@ -510,7 +523,7 @@ def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Pa
 
 
 def load_unsorted_notes(snapshot_path: Path) -> dict[str, list[str]]:
-    """Keep à trancher candidate labels across a live sync so classify is not retriggered."""
+    """Keep candidate labels on still-unclassified live stars across a sync."""
     if not snapshot_path.is_file():
         return {}
     snapshot = json.loads(snapshot_path.read_text(encoding='utf-8'))
@@ -541,7 +554,7 @@ def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
             'archived': bool(row.get('archived')),
             'fork': bool(row.get('fork')),
         }
-        if row.get('review_candidate_names'):
+        if classified is None and row.get('review_candidate_names'):
             item['review_candidate_names'] = list(row['review_candidate_names'])
         stars.append(item)
     return stars
@@ -586,6 +599,8 @@ def export(
                 repo['review_candidate_names'] = list(names)
     categories = visible_categories(catalog, groups)
     outputs = {output_dir / f"{c['slug']}.md": render_list(c, groups.get(c['id'], [])) for c in categories}
+    if UNSORTED_ID not in groups:
+        outputs[output_dir / f"{UNSORTED_CATEGORY['slug']}.md"] = render_list(UNSORTED_CATEGORY, [])
     outputs[output_dir / 'README.md'] = render_index(catalog, groups)
     outputs[output_dir / 'stars.json'] = render_stars_json(catalog, groups)
     outputs[readme] = replace_readme_section(readme.read_text(encoding='utf-8'), render_readme(catalog, groups))
@@ -593,9 +608,6 @@ def export(
     for path in output_dir.glob('*.md'):
         if path not in outputs and (GENERATED in path.read_text() or 'Agent note: generated from the authenticated GitHub stars list' in path.read_text()):
             path.unlink()
-    stale_unsorted = output_dir / f"{UNSORTED_CATEGORY['slug']}.md"
-    if UNSORTED_ID not in groups and stale_unsorted.exists():
-        stale_unsorted.unlink()
     for path, text in outputs.items():
         path.write_text(text, encoding='utf-8')
     validate_export(catalog, groups, output_dir, readme)

@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**129 repositories.** [Browse all categories →](README.md)
+**130 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -89,6 +89,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [michaelshimeles/rstack](https://github.com/michaelshimeles/rstack): Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops.
 - [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) · review needed: Experience-Driven Black-Box Cost Control for Coding Agents.
 - [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) · review needed: Starred repository.
+- [miuuyy/Astra-Ares](https://github.com/miuuyy/Astra-Ares) · review needed · low confidence: Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.
 - [mohi-devhub/antivibe](https://github.com/mohi-devhub/antivibe) · review needed: Learn what AI writes, not just accept it.
 - [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) · review needed: Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config.
 - [motiondivision/ai-kit](https://github.com/motiondivision/ai-kit): A Cursor plugin for Motion.
