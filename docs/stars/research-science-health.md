@@ -2,7 +2,7 @@
 
 > Research, source discovery, science, health and fitness.
 
-**20 repositories.** [Browse all categories →](README.md)
+**19 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -19,7 +19,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [charles-postiaux/caffeine-day](https://github.com/charles-postiaux/caffeine-day): How much caffeine is still in you at bedtime.
 - [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman): The open source AI research agent.
 - [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym): Open-source gym &amp; body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK.
-- [EveryInc/tend](https://github.com/EveryInc/tend) · review needed: grow what you know.
 - [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3): AlphaFold 3 inference pipeline.
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Academic Research Skills for Claude Code: research → write → review → revise → finalize.
 - [InterfazeAI/deep-research](https://github.com/InterfazeAI/deep-research): An OpenSource Deep Research library with reasoning.

@@ -2,7 +2,7 @@
 
 > Finance, payments, legal work and business operations.
 
-**33 repositories.** [Browse all categories →](README.md)
+**32 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,7 +11,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [1Password/for-open-source](https://github.com/1Password/for-open-source): Get a 1Password team account for free to support your open source initiatives!.
 - [anthropics/financial-services](https://github.com/anthropics/financial-services): Starred repository.
 - [BigoudOps/Libre-financement](https://github.com/BigoudOps/Libre-financement): Annuaire en français des moyens de financer un projet libre, hors sponsors classiques.
 - [Cloeille/picsou-finance](https://github.com/Cloeille/picsou-finance): Self-hosted personal finance dashboard  Track bank accounts, brokerage, crypto, and net worth — all in one place.

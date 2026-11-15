@@ -2,7 +2,7 @@
 
 > Software testing, debugging, code review and technical quality checks.
 
-**24 repositories.** [Browse all categories →](README.md)
+**23 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,7 +23,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger): A native, user-mode, multi-process, graphical debugger.
 - [microsoft/playwright](https://github.com/microsoft/playwright): Playwright is a framework for Web Testing and Automation.
 - [nanoapi-io/napi](https://github.com/nanoapi-io/napi): Software architecture tooling for the AI age.
-- [ooolzhas/annotatekit](https://github.com/ooolzhas/annotatekit): Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo).
 - [openreplay/openreplay](https://github.com/openreplay/openreplay) · review needed: Session replay, cobrowsing and product analytics you can self-host.
 - [pbakaus/agent-reviews](https://github.com/pbakaus/agent-reviews) · review needed: Token efficient, automated Github review workflows and bug fixing.
 - [peteromallet/desloppify](https://github.com/peteromallet/desloppify): Agent harness to make your slop code well-engineered and beautiful.

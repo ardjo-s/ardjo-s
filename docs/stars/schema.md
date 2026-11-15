@@ -59,7 +59,7 @@ Original Sol rows omit `classification_source`. Do not rewrite those objects unl
 
 Auto-classified rows (from `scripts/classify-github-stars.py`) always have `classification_source`. They use an existing `categories[].id` only — the classifier never adds a category. Low-confidence rows may be accepted by a TypeSafe System One (Jev) second pass (`jev:<date>`): Jev chooses a category first, then a follow-up noul names that pick. Accept when Jev agrees with the classifier top-1 or wins a top-2 duel; Jev cannot add a category. Rows still doubtful after that are not written to `catalog.json` and stay on `unsorted.md` with the two candidate names (à trancher). `purpose` on published auto rows may be English (taken from the public description). `review_required` plus `review_candidates` on a human row means the boundary still needs checking; the repository is still classified.
 
-Domain rules (mail, mobile/simulator, 3D skills, inference gateways, and so on) attach a reason only when the rule's tokens match the repository name, description or topics. README body text does not fire those reasons. Curated `awesome-*` lists follow the list's subject, not the generic software-directory bucket.
+Domain rules (mail, mobile/simulator, 3D skills, generic agent skills packs, inference gateways, and so on) attach a reason only when the rule's tokens match the repository name, description or topics. README body text does not fire those reasons. Domain-specific skills follow their domain; generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration. Curated `awesome-*` lists follow the list's subject, not the generic software-directory bucket.
 
 ## Generated `stars.json`
 

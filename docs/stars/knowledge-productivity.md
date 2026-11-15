@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**131 repositories.** [Browse all categories →](README.md)
+**125 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,7 +14,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub): :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 - [A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme](https://github.com/A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme): Dépôt de code du "Dictionnaire amoureux du franco maximalisme technologique".
 - [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) · archived: 🖥 📊 🕹 🛠 A curated list of command line apps.
-- [agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat) · review needed: Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.
 - [Aidoku/Aidoku](https://github.com/Aidoku/Aidoku): Manga reading app for iOS, iPadOS, and macOS.
 - [analogdotnow/Analog](https://github.com/analogdotnow/Analog) · review needed: Meet the calendar that changes everything.
 - [anishfn/shapeshift](https://github.com/anishfn/shapeshift) · review needed: An input that becomes what you mean: one text box that morphs into the right UI as you type.
@@ -26,7 +25,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) · review needed: ObsidianOS - Work Vault.
 - [bholmesdev/hubble.md](https://github.com/bholmesdev/hubble.md): The best notepad for you and your agents.
-- [blader/humanizer](https://github.com/blader/humanizer) · review needed: Agent skill that removes signs of AI-generated writing from text.
 - [block/buzz](https://github.com/block/buzz): A hive mind communication platform.
 - [boriemannetje/apex-notes](https://github.com/boriemannetje/apex-notes): Apex Notes, Obsidian for hierarchical thinkers.
 - [cabinetai/cabinet](https://github.com/cabinetai/cabinet): AI-first knowledge base and startup OS.
@@ -43,7 +41,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Devlaner/devlane](https://github.com/Devlaner/devlane): Open-source Jira, Linear, Monday, ClickUp and Plane alternative.
 - [DioxusLabs/awesome-dioxus](https://github.com/DioxusLabs/awesome-dioxus) · review needed: An awesome list of Dioxus-related content and resources.
 - [DivePADI/InboxZeroTokens](https://github.com/DivePADI/InboxZeroTokens) · review needed: Your AI agents stop paying to check empty inboxes.
-- [dontriskit/awesome-ai-software-engineering](https://github.com/dontriskit/awesome-ai-software-engineering) · review needed: Starred repository.
 - [dream-num/univer](https://github.com/dream-num/univer): Build your own AI office with Univer Office SDK.
 - [EfficientStreet/youtube-subscriptions-ingest](https://github.com/EfficientStreet/youtube-subscriptions-ingest): Pull YouTube subscription metadata into a real cross-linked knowledge graph in your second-brain vault.
 - [element-hq/element-call](https://github.com/element-hq/element-call): Group calls powered by Matrix.
@@ -66,7 +63,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books): :books: Find your next book to read!.
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
 - [hieunc229/mailflare-macos](https://github.com/hieunc229/mailflare-macos): Email client for macOS.
-- [hjunhuh/awesome-rust](https://github.com/hjunhuh/awesome-rust) · fork · review needed: A curated list of Rust code and resources.
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): DeepTutor: Lifelong Personalized Tutoring.
 - [inline-chat/inline](https://github.com/inline-chat/inline): Inline is the chat app you always wanted.
 - [ionutdecebal/rsvpnano](https://github.com/ionutdecebal/rsvpnano): Starred repository.
@@ -95,7 +91,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library): My library of resources about AI.
 - [michaelshimeles/bible](https://github.com/michaelshimeles/bible): A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks.
 - [michaelwilhelmsen/humla](https://github.com/michaelwilhelmsen/humla): Open-source AI meeting notes for Mac.
-- [mvanhorn/printing-press-library](https://github.com/mvanhorn/printing-press-library) · review needed: Official library of CLIs generated by the CLI Printing Press.
 - [Narcooo/inkos](https://github.com/Narcooo/inkos) · review needed: Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content.
 - [nateherkai/snagtime](https://github.com/nateherkai/snagtime): Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk): A 14 day experiment to clone Slack with Claude Code.
@@ -131,7 +126,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC): Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click.
 - [tobi/qmd](https://github.com/tobi/qmd) · review needed: mini cli search engine for your docs, knowledge bases, meeting notes, whatever.
 - [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) · archived: :octocat: A collection of APIs.
-- [tuan3w/linearapp_clone](https://github.com/tuan3w/linearapp_clone): A Linear App clone with React and Tailwind CSS.
 - [usekaneo/kaneo](https://github.com/usekaneo/kaneo): ⚡ Project management that doesn't become the project.
 - [video-db/call.md](https://github.com/video-db/call.md): Turn meetings into live agent loops.
 - [vinta/awesome-python](https://github.com/vinta/awesome-python): The definitive list that answers "I want to do X in Python, which tool should I use?".

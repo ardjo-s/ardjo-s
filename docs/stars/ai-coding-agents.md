@@ -38,6 +38,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Emanuele-web04/remodex](https://github.com/Emanuele-web04/remodex): Remote Control for Codex.
 - [Emanuele-web04/synara](https://github.com/Emanuele-web04/synara): The best place to build with your AI sub.
 - [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) · archived: A reliable coding agent for complex software engineering tasks.
+- [EveryInc/tend](https://github.com/EveryInc/tend): grow what you know.
 - [fabro-sh/fabro](https://github.com/fabro-sh/fabro): ⚒️ The open source dark software factory for expert engineers.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · review needed: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) · review needed: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
@@ -67,7 +68,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe): Expo app that builds Expo apps.
 - [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) · archived · review needed: [Archived] Legacy Python Kimi CLI, no longer maintained.
 - [multica-ai/multica](https://github.com/multica-ai/multica): Make humans and AI agents work as one team — open-source and self-hostable.
-- [nexu-io/openmotion](https://github.com/nexu-io/openmotion) · review needed: The open-source full-stack studio for Opus 5.5 motion video.
 - [nuphos/nuphos](https://github.com/nuphos/nuphos): Open-source Grok Bot alternative for teams.
 - [OnlyTerp/UltraCode-Shim](https://github.com/OnlyTerp/UltraCode-Shim) · review needed: Give Claude Code's ultracode mode to ANY model you already pay for.
 - [open-inspect/background-agents](https://github.com/open-inspect/background-agents): An open-source background agents coding system.

@@ -14,67 +14,67 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🤖 AI Coding Agents](ai-coding-agents.md) · 94 repositories
   - AI agents whose primary job is building and maintaining software.
-- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 103 repositories
+- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 101 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 121 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 125 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
-- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 78 repositories
+- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 79 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
 - [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 57 repositories
   - Memory, context management, semantic retrieval and RAG for AI systems.
-- [🧠 AI Models & Training](ai-models-training.md) · 33 repositories
+- [🧠 AI Models & Training](ai-models-training.md) · 32 repositories
   - Model architectures, machine learning, datasets, fine-tuning and training.
-- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 43 repositories
+- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 44 repositories
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 35 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
-- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 31 repositories
+- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 30 repositories
   - AI application SDKs, structured outputs, examples and engineering courses.
 
 ## Creative Tools & Interfaces
 
-- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 33 repositories
+- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 34 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 110 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 111 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 146 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 148 repositories
   - UI components, design systems, typography, prototyping and product design.
 - [🎮 Games & 3D](games-3d.md) · 74 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 69 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 70 repositories
   - Web, backend, native and mobile frameworks for building applications.
-- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 74 repositories
+- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 75 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
-- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 24 repositories
+- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 23 repositories
   - Software testing, debugging, code review and technical quality checks.
-- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 30 repositories
+- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 31 repositories
   - Operating systems, networking, deployment, cloud infrastructure and DevOps.
 - [🗄 Data, Databases & GIS](data-databases-gis.md) · 39 repositories
   - Databases, data pipelines, analytics, visualization and geospatial tools.
 - [⚙️ Web & Document Automation](web-document-automation.md) · 25 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
-- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 39 repositories
+- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 40 repositories
   - Authentication, identity, secrets, privacy and security assessment.
 
 ## Knowledge, Research & Business
 
-- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 131 repositories
+- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 125 repositories
   - Notes, writing, reading, tasks, calendars and collaboration.
 - [📈 Marketing, Sales & Careers](marketing-sales-careers.md) · 50 repositories
   - Marketing, SEO, sales, customer relationships, recruiting and careers.
-- [💼 Finance, Legal & Business Operations](finance-legal-business-operations.md) · 33 repositories
+- [💼 Finance, Legal & Business Operations](finance-legal-business-operations.md) · 32 repositories
   - Finance, payments, legal work and business operations.
-- [🔬 Research, Science & Health](research-science-health.md) · 20 repositories
+- [🔬 Research, Science & Health](research-science-health.md) · 19 repositories
   - Research, source discovery, science, health and fitness.
 
 ## Hardware & Devices
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 10 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 36 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 35 repositories
   - Browsers, desktop utilities, file transfers and device tools.
 
 ## Unsorted

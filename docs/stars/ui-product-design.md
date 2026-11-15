@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**146 repositories.** [Browse all categories →](README.md)
+**148 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,7 +11,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples) · review needed: 21st sdk - cookbook.
 - [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui): Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
@@ -23,6 +22,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit): A collection of UI interactions that make web feel more interactive.
 - [arturbien/balloons-js](https://github.com/arturbien/balloons-js): 🎈 Animated balloons effect for your website.
 - [arvindrk/extract-design-system](https://github.com/arvindrk/extract-design-system): Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website.
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui): Typescript/React Library for AI Chat 💬🚀.
 - [audiocn/ui](https://github.com/audiocn/ui): Audio UI components for React, built the shadcn way.
 - [benjitaylor/liveline](https://github.com/benjitaylor/liveline): Real-time animated line chart for React.
 - [bergside/typeui](https://github.com/bergside/typeui): Build better UI with AI.
@@ -107,6 +107,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil): AI-native design editor.
 - [opencoredev/dithercn](https://github.com/opencoredev/dithercn): Add dithers to anything in your app.
 - [opencoredev/islandcn](https://github.com/opencoredev/islandcn): The open-source Dynamic Island for React, installed with shadcn.
+- [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign): Open-source Claude Design alternative.
 - [openui/open-ui](https://github.com/openui/open-ui): Maintain an open standard for UI and promote its adherence and adoption.
 - [organui/organui](https://github.com/organui/organui): OrganUI website, documentation, and component registry.
 - [pacocoursey/next-themes](https://github.com/pacocoursey/next-themes): Perfect Next.js dark mode in 2 lines of code.
@@ -147,6 +148,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram): ngDiagram – open-source Angular library for interactive diagrams, node-based editors, and workflow builders.
 - [TahaSh/wayflow](https://github.com/TahaSh/wayflow): An embeddable visual workflow editor for the web.
 - [thesysdev/appless](https://github.com/thesysdev/appless) · review needed: What if your phone had no apps.
+- [tuan3w/linearapp_clone](https://github.com/tuan3w/linearapp_clone): A Linear App clone with React and Tailwind CSS.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
 - [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.

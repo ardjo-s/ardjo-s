@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**121 repositories.** [Browse all categories →](README.md)
+**125 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [awesome-busabase/awsome-busabase](https://github.com/awesome-busabase/awsome-busabase): A curated list of plugins, adapters, and integrations for Busabase.
 - [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin): A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer.
+- [blader/humanizer](https://github.com/blader/humanizer): Agent skill that removes signs of AI-generated writing from text.
 - [blakeandersonw/ai-app-playbook](https://github.com/blakeandersonw/ai-app-playbook) · review needed: How to build useful, profitable apps in 2026.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) · review needed: A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
 - [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) · review needed: CC Workflow Studio.
@@ -45,6 +46,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods.
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail): Makes your AI agent think like the laziest senior dev in the room.
 - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios): Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+- [dontriskit/awesome-ai-software-engineering](https://github.com/dontriskit/awesome-ai-software-engineering): Starred repository.
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5): ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · review needed: Graphs that teach &gt; graphs that impress.
 - [ericlitman/open-pstack](https://github.com/ericlitman/open-pstack) · review needed: pstack for Claude Code and Codex, tracking Cursor pstack upstream.
@@ -68,6 +70,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) · review needed: A reusable AI skill for stress-testing high-leverage decisions through five strategic lenses.
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) · review needed: A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation).
 - [HKUDS/AgentPilot](https://github.com/HKUDS/AgentPilot): AgentPilot: Make Your Agents Move Better and Faster.
+- [huggingface/skills](https://github.com/huggingface/skills): Give your agents the power of the Hugging Face ecosystem.
 - [janestreet/agent_skills](https://github.com/janestreet/agent_skills): Agent skills.
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template): Clone any website with one command using AI coding agents.
 - [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) · review needed: Help AI coding agents write modern Go.
@@ -124,6 +127,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tokensize/skills](https://github.com/tokensize/skills): Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills): A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code.
+- [typesafe-ai/skills](https://github.com/typesafe-ai/skills): Agent skills for building with TypeSafe's System One API.
 - [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) · review needed: Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · review needed: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.

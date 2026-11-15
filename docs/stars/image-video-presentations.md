@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**110 repositories.** [Browse all categories →](README.md)
+**111 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -66,13 +66,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Netflix/void-model](https://github.com/Netflix/void-model): Starred repository.
 - [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources): :city_sunrise: A collection of links for free stock photography, video and Illustration websites.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video): Programmatic video for coding agents — HTML to video on your laptop.
+- [nexu-io/openmotion](https://github.com/nexu-io/openmotion): The open-source full-stack studio for Opus 5.5 motion video.
 - [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) · review needed: Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
+- [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization): NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&amp;A, and automated reporting.
 - [obsidianmd/pele](https://github.com/obsidianmd/pele): Renders Mermaid diagrams faster than you'd run from a volcano! 🌋.
 - [obsproject/obs-studio](https://github.com/obsproject/obs-studio): OBS Studio - Free and open source software for live streaming and screen recording.
 - [omacom/omasnap](https://github.com/omacom/omasnap): Native Wayland screenshot and annotation editor for Omarchy and Hyprland.
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
 - [op7418/Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill): Starred repository.
-- [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) · review needed: Open-source Claude Design alternative.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) · review needed: The open-source CapCut alternative.
 - [openfilm/openfilm](https://github.com/openfilm/openfilm): The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
 - [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage): World's first open-source, agentic video production system.

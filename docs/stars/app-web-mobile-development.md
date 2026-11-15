@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**69 repositories.** [Browse all categories →](README.md)
+**70 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -50,6 +50,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [MobAI-App/simslim](https://github.com/MobAI-App/simslim): Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need.
 - [nativewind/nativewind](https://github.com/nativewind/nativewind): The utility-first workflow you love from Tailwind CSS in your React Native applications.
 - [nellavio/nellavio](https://github.com/nellavio/nellavio): 🚀 Next.js dashboard starter with auth, i18n, RBAC, 18 pages and 90+ UI components.
+- [ooolzhas/annotatekit](https://github.com/ooolzhas/annotatekit): Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo).
 - [oxidezap/whatsapp-rust](https://github.com/oxidezap/whatsapp-rust) · review needed: Whatsapp client written purely in Rust.
 - [pablogdcr/react-native-data-detector](https://github.com/pablogdcr/react-native-data-detector): Cross-platform text data detection for React Native.
 - [payloadcms/payload](https://github.com/payloadcms/payload): Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers.

@@ -39,7 +39,7 @@ To classify by hand instead:
 3. Preserve uncertainty with `review_required` and `evidence_status`; do not pretend weak evidence has become certain.
 4. Refresh the export and run `python3 -m unittest discover -s scripts -p 'test_*.py'`.
 
-Do not add a category. Domain-specific skills follow their domain. Low-confidence automatic picks stay in Unsorted until Jev or a human accepts an existing category.
+Do not add a category. Domain-specific skills follow their domain. Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration. Low-confidence automatic picks stay in Unsorted until Jev or a human accepts an existing category.
 
 The catalog's French usage summaries and French/English keywords support requests in either language. Human-facing category names and short descriptions retain the profile's English presentation.
 

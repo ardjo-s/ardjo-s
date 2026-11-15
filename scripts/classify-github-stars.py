@@ -56,14 +56,18 @@ HUMAN_MEMBER_WEIGHT = 3.0
 HUMAN_CORRECTION_WEIGHT = 4.0
 BOT_MEMBER_WEIGHT = 1.0
 JEV_CATEGORY_INSTRUCTIONS = (
-    'Which existing catalog category is the primary useful outcome of this repository?'
+    'Which existing catalog category is the primary useful outcome of this repository? '
+    'Domain-specific skills follow their domain. '
+    'Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration.'
 )
 JEV_CONFIDENT_INSTRUCTIONS = 'the chosen category clearly fits this repository'
 JEV_DUEL_INSTRUCTIONS = (
-    'Choose only between these two classifier finalists. Which one is the primary useful outcome?'
+    'Choose only between these two classifier finalists. Which one is the primary useful outcome? '
+    'Domain-specific skills follow their domain. '
+    'Generic agent skills packs not tied to a specific domain go to Agent Methods, Skills & Configuration.'
 )
 
-# Domain rules from catalog definitions and AGENTS.md (skills follow their domain).
+# Domain rules from catalog definitions and AGENTS.md (domain skills follow their domain; generic agent skills packs go to Agent Methods).
 # Match name + description + topics only — README noise must not fire a reason.
 DOMAIN_RULES = (
     {
@@ -168,7 +172,7 @@ DOMAIN_RULES = (
     },
     {
         'id': 'security-domain',
-        'any': {'pentest', 'pentesters', 'hacking', 'privacy', 'vulnerability', 'authn', 'secrets'},
+        'any': {'pentest', 'pentesters', 'hacking', 'privacy', 'vulnerability', 'authn', 'secrets', '1password', 'password_manager'},
         'category': 'category_18',
         'boost': 0.2,
         'reason': 'security, privacy and identity follow that domain',
@@ -227,22 +231,35 @@ DOMAIN_RULES = (
         'down': {'category_12': 0.12},
         'reason': 'model export/training artifacts, not an app or simulator runtime',
     },
+    {
+        'id': 'generic-agent-skills',
+        'any': {'skill', 'skills', 'agent_skills', 'agent-skills', 'claude_skills', 'claude-skills'},
+        'also': {'agent', 'agents'},
+        'forbid': {
+            'blender', 'unreal', 'unity', 'godot', 'game_development', '3d_models', 'gaussian_splat',
+            'video', 'image', 'presentation', 'slides', 'deck', 'poster', 'magazine', 'motion',
+            'animation', 'audio', 'music', 'voice', 'voices',
+        },
+        'category': 'category_03',
+        'boost': 0.24,
+        'reason': 'generic agent skills pack not tied to a specific domain follows Agent Methods, Skills & Configuration',
+    },
 )
 
 # awesome-* lists follow their subject, not the generic software-directory bucket.
 AWESOME_SUBJECTS = (
-    ({'sysadmin', 'devops', 'scalability'}, 'category_15', 'awesome list subject is Systems, Cloud & DevOps'),
+    ({'sysadmin', 'devops', 'scalability', 'system-design', 'distributed-systems'}, 'category_15', 'awesome list subject is Systems, Cloud & DevOps'),
     ({'tailwind', 'tailwindcss', 'react-components', 'android-ui', 'ui'}, 'category_11', 'awesome list subject is UI & Product Design'),
     ({'godot', 'unity', 'unreal', 'blender'}, 'category_23', 'awesome list subject is Games & 3D'),
     ({'hacking', 'pentest', 'pentesters', 'privacy', 'security', 'web-security'}, 'category_18', 'awesome list subject is Security, Privacy & Identity'),
     ({'pytorch', 'tensorflow'}, 'category_06', 'awesome list subject is AI Models & Training'),
-    ({'skills', 'subagents', 'claude-skills'}, 'category_03', 'awesome list subject is Agent Methods, Skills & Configuration'),
+    ({'skills', 'subagents', 'claude-skills', 'ai-software-engineering', 'awesome-ai-software-engineering'}, 'category_03', 'awesome list subject is Agent Methods, Skills & Configuration'),
     ({'creative-coding', 'creative'}, 'category_10', 'awesome list subject is Image, Video & Presentations'),
     ({'generative-ai'}, 'category_26', 'awesome list subject is AI Engineering & Learning'),
     ({'llm', 'llm-apis'}, 'category_07', 'awesome list subject is AI Inference & Gateways'),
     ({'remote-job', 'cv', 'seo'}, 'category_20', 'awesome list subject is Marketing, Sales & Careers'),
     ({'raspberry-pi', 'raspberry', 'flipperzero', 'flipper'}, 'category_24', 'awesome list subject is Robotics, Hardware & CAD'),
-    ({'go', 'golang', 'ruby', 'nodejs', 'node', 'swift', 'vite', 'readme', 'guidelines', 'ddd', 'interview', 'patterns', 'competitive', 'system-design'}, 'category_13', 'awesome list subject is Developer Tools & Languages'),
+    ({'go', 'golang', 'ruby', 'nodejs', 'node', 'swift', 'rust', 'vite', 'readme', 'guidelines', 'ddd', 'interview', 'patterns', 'competitive'}, 'category_13', 'awesome list subject is Developer Tools & Languages'),
     ({'mac'}, 'category_19', 'awesome list of macOS software is a transversal directory'),
 )
 
@@ -369,7 +386,7 @@ def awesome_subject(name: str, title: set[str]) -> tuple[str, str] | None:
     if not is_awesome_list(name):
         return None
     repo = fold(name.split('/')[-1]).replace('_', '-')
-    subject = set(tokens(repo.replace('-', ' '))) | set(tokens(repo)) | title
+    subject = set(tokens(repo.replace('-', ' '))) | set(tokens(repo)) | title | {repo, repo.replace('-', '_')}
     for needles, category, reason in AWESOME_SUBJECTS:
         if expand_needles(needles) & subject:
             return category, reason
@@ -448,6 +465,8 @@ class CatalogIndex:
         applied = set()
         for rule in DOMAIN_RULES:
             if rule['id'] in applied:
+                continue
+            if rule['id'] == 'generic-agent-skills' and any(item.endswith('-skill') for item in applied):
                 continue
             if not rule_matches(rule, title):
                 continue

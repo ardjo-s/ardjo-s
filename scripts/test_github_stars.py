@@ -32,10 +32,10 @@ class StarsTest(unittest.TestCase):
 
     def test_original_sol_records_are_unchanged(self):
         original = [r for r in self.catalog['repositories'] if 'classification_source' not in r]
-        self.assertEqual(len(original), 1315)
-        self.assertEqual(sum(r['review_required'] for r in original), 245)
+        self.assertEqual(len(original), 1299)
+        self.assertEqual(sum(r['review_required'] for r in original), 235)
         payload = json.dumps(sorted(original, key=lambda r: r['id']), ensure_ascii=False, sort_keys=True)
-        self.assertEqual(hashlib.sha256(payload.encode()).hexdigest(), 'a70d953d74fb3c15fdb1c327071f48805e1ed65d77b3e1979e881ed4d04b13c9')
+        self.assertEqual(hashlib.sha256(payload.encode()).hexdigest(), 'e5c74a1d4fd15843bbfae462e6da497a0fb7cba80fb3a7591aa2e5bbd7efc1ab')
         additions_2026_11_05 = [
             r for r in self.catalog['repositories']
             if r.get('evidence_read_at') == '2026-11-05'
@@ -58,8 +58,8 @@ class StarsTest(unittest.TestCase):
             r for r in self.catalog['repositories']
             if r.get('classification_source') == 'https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551'
         ]
-        self.assertEqual(len(additions_2026_11_14), 81)
-        self.assertEqual(sum(r['review_required'] for r in additions_2026_11_14), 4)
+        self.assertEqual(len(additions_2026_11_14), 79)
+        self.assertEqual(sum(r['review_required'] for r in additions_2026_11_14), 3)
         names = {r['name'] for r in additions_2026_11_14}
         self.assertIn('anthropics/claude-cookbooks', names)
         self.assertIn('anthropics/courses', names)
@@ -107,7 +107,7 @@ class StarsTest(unittest.TestCase):
             r for r in self.catalog['repositories']
             if r.get('classification_source') == 'human:2026-11-15'
         ]
-        self.assertEqual(len(additions_2026_11_15), 83)
+        self.assertEqual(len(additions_2026_11_15), 102)
         self.assertEqual(sum(r['review_required'] for r in additions_2026_11_15), 3)
         by_name = {r['name']: r for r in additions_2026_11_15}
         self.assertEqual(by_name['agentgateway/agentgateway']['category'], 'category_07')
@@ -116,8 +116,40 @@ class StarsTest(unittest.TestCase):
         self.assertTrue(by_name['apple/coreai-models']['review_required'])
         self.assertTrue(by_name['Narcooo/inkos']['review_required'])
         self.assertTrue(by_name['GoogleChrome/modern-web-guidance-src']['review_required'])
+        self.assertEqual(by_name['ashishps1/awesome-system-design-resources']['category'], 'category_15')
+        audit_corrections = {
+            'NVIDIA-AI-Blueprints/video-search-and-summarization': 'category_10',
+            'assistant-ui/assistant-ui': 'category_11',
+            'pipecat-ai/ios-little-voices': 'category_09',
+            'nexu-io/html-anything': 'category_10',
+            'datawhalechina/zero-to-sglang': 'category_07',
+            'typesafe-ai/skills': 'category_03',
+            'huggingface/skills': 'category_03',
+            'jxnl/dots': 'category_13',
+            'ashishps1/awesome-system-design-resources': 'category_15',
+            '1Password/for-open-source': 'category_18',
+            'OpenCoworkAI/open-codesign': 'category_11',
+            'agentes-chat/agentes-chat': 'category_02',
+            'blader/humanizer': 'category_03',
+            'dontriskit/awesome-ai-software-engineering': 'category_03',
+            'hjunhuh/awesome-rust': 'category_13',
+            'mvanhorn/printing-press-library': 'category_04',
+            'tuan3w/linearapp_clone': 'category_11',
+            'EveryInc/tend': 'category_01',
+            'ooolzhas/annotatekit': 'category_12',
+            '21st-dev/21st-sdk-examples': 'category_26',
+        }
+        for name, category in audit_corrections.items():
+            repo = by_name[name]
+            self.assertEqual(repo['category'], category, name)
+            self.assertFalse(repo['review_required'], name)
+            candidates = repo.get('review_candidates') or []
+            self.assertTrue(candidates and candidates[0] != repo['category'], name)
         for repo in additions_2026_11_15:
-            self.assertTrue(repo['evidence_quote'])
+            if repo['name'] == '21st-dev/21st-sdk-examples':
+                self.assertEqual(repo['evidence_status'], 'unavailable_404_metadata_only')
+            else:
+                self.assertTrue(repo['evidence_quote'])
             self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
             self.assertIn('classification_source', repo)
             self.assertNotEqual(repo['category'], stars.UNSORTED_ID)

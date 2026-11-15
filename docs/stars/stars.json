@@ -13,19 +13,19 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 103
+      "count": 101
     },
     {
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 121
+      "count": 125
     },
     {
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 78
+      "count": 79
     },
     {
       "id": "category_05",
@@ -37,13 +37,13 @@
       "id": "category_06",
       "name": "AI Models & Training",
       "slug": "ai-models-training",
-      "count": 33
+      "count": 32
     },
     {
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 43
+      "count": 44
     },
     {
       "id": "category_08",
@@ -55,25 +55,25 @@
       "id": "category_26",
       "name": "AI Engineering & Learning",
       "slug": "ai-engineering-learning",
-      "count": 31
+      "count": 30
     },
     {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
-      "count": 33
+      "count": 34
     },
     {
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 110
+      "count": 111
     },
     {
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 146
+      "count": 148
     },
     {
       "id": "category_23",
@@ -85,25 +85,25 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 69
+      "count": 70
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 74
+      "count": 75
     },
     {
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 24
+      "count": 23
     },
     {
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 30
+      "count": 31
     },
     {
       "id": "category_16",
@@ -121,13 +121,13 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 39
+      "count": 40
     },
     {
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 131
+      "count": 125
     },
     {
       "id": "category_20",
@@ -139,13 +139,13 @@
       "id": "category_21",
       "name": "Finance, Legal & Business Operations",
       "slug": "finance-legal-business-operations",
-      "count": 33
+      "count": 32
     },
     {
       "id": "category_22",
       "name": "Research, Science & Health",
       "slug": "research-science-health",
-      "count": 20
+      "count": 19
     },
     {
       "id": "category_24",
@@ -157,7 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 36
+      "count": 35
     },
     {
       "id": "unsorted",
@@ -252,8 +252,8 @@
       "name": "1Password/for-open-source",
       "url": "https://github.com/1Password/for-open-source",
       "description": "Get a 1Password team account for free to support your open source initiatives!",
-      "category": "Finance, Legal & Business Operations",
-      "category_id": "category_21",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -272,8 +272,8 @@
       "name": "21st-dev/21st-sdk-examples",
       "url": "https://github.com/21st-dev/21st-sdk-examples",
       "description": "21st sdk - cookbook",
-      "category": "UI & Product Design",
-      "category_id": "category_11",
+      "category": "AI Engineering & Learning",
+      "category_id": "category_26",
       "archived": false,
       "fork": false
     },
@@ -612,8 +612,8 @@
       "name": "agentes-chat/agentes-chat",
       "url": "https://github.com/agentes-chat/agentes-chat",
       "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
       "fork": false
     },
@@ -1462,8 +1462,8 @@
       "name": "ashishps1/awesome-system-design-resources",
       "url": "https://github.com/ashishps1/awesome-system-design-resources",
       "description": "Learn System Design concepts and prepare for interviews using free resources.",
-      "category": "Developer Tools & Languages",
-      "category_id": "category_13",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
       "fork": false
     },
@@ -1482,8 +1482,8 @@
       "name": "assistant-ui/assistant-ui",
       "url": "https://github.com/assistant-ui/assistant-ui",
       "description": "Typescript/React Library for AI Chat 💬🚀",
-      "category": "AI Assistants, Frameworks & Orchestration",
-      "category_id": "category_02",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -1902,8 +1902,8 @@
       "name": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
       "description": "Agent skill that removes signs of AI-generated writing from text",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -3382,8 +3382,8 @@
       "name": "datawhalechina/zero-to-sglang",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "description": "Official SGLang x Datawhale course on LLM inference: understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR. Available in English and Chinese.",
-      "category": "AI Engineering & Learning",
-      "category_id": "category_26",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
       "fork": false
     },
@@ -3862,8 +3862,8 @@
       "name": "dontriskit/awesome-ai-software-engineering",
       "url": "https://github.com/dontriskit/awesome-ai-software-engineering",
       "description": "",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -4462,8 +4462,8 @@
       "name": "EveryInc/tend",
       "url": "https://github.com/EveryInc/tend",
       "description": "grow what you know",
-      "category": "Research, Science & Health",
-      "category_id": "category_22",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
       "fork": false
     },
@@ -5932,8 +5932,8 @@
       "name": "hjunhuh/awesome-rust",
       "url": "https://github.com/hjunhuh/awesome-rust",
       "description": "A curated list of Rust code and resources.",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": true
     },
@@ -6032,8 +6032,8 @@
       "name": "huggingface/skills",
       "url": "https://github.com/huggingface/skills",
       "description": "Give your agents the power of the Hugging Face ecosystem",
-      "category": "AI Models & Training",
-      "category_id": "category_06",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -6892,8 +6892,8 @@
       "name": "jxnl/dots",
       "url": "https://github.com/jxnl/dots",
       "description": "",
-      "category": "Browsers, Desktop & Device Utilities",
-      "category_id": "category_25",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -9062,8 +9062,8 @@
       "name": "mvanhorn/printing-press-library",
       "url": "https://github.com/mvanhorn/printing-press-library",
       "description": "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed.",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
       "fork": false
     },
@@ -9312,8 +9312,8 @@
       "name": "nexu-io/openmotion",
       "url": "https://github.com/nexu-io/openmotion",
       "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
-      "category": "AI Coding Agents",
-      "category_id": "category_01",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -9542,8 +9542,8 @@
       "name": "NVIDIA-AI-Blueprints/video-search-and-summarization",
       "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
       "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
-      "category": "AI Assistants, Frameworks & Orchestration",
-      "category_id": "category_02",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -9922,8 +9922,8 @@
       "name": "ooolzhas/annotatekit",
       "url": "https://github.com/ooolzhas/annotatekit",
       "description": "Visual feedback for iOS apps for coding agents (SwiftUI, UIKit, React Native, Expo)",
-      "category": "Testing, Debugging & Code Quality",
-      "category_id": "category_14",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -10252,8 +10252,8 @@
       "name": "OpenCoworkAI/open-codesign",
       "url": "https://github.com/OpenCoworkAI/open-codesign",
       "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
-      "category": "Image, Video & Presentations",
-      "category_id": "category_10",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -10982,8 +10982,8 @@
       "name": "pipecat-ai/ios-little-voices",
       "url": "https://github.com/pipecat-ai/ios-little-voices",
       "description": "",
-      "category": "AI Assistants, Frameworks & Orchestration",
-      "category_id": "category_02",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
       "fork": false
     },
@@ -14212,8 +14212,8 @@
       "name": "tuan3w/linearapp_clone",
       "url": "https://github.com/tuan3w/linearapp_clone",
       "description": "A Linear App clone with React and Tailwind CSS",
-      "category": "Knowledge & Productivity",
-      "category_id": "category_19",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -14272,8 +14272,8 @@
       "name": "typesafe-ai/skills",
       "url": "https://github.com/typesafe-ai/skills",
       "description": "Agent skills for building with TypeSafe's System One API",
-      "category": "AI Engineering & Learning",
-      "category_id": "category_26",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
