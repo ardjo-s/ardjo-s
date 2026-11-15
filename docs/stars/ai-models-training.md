@@ -2,7 +2,7 @@
 
 > Model architectures, machine learning, datasets, fine-tuning and training.
 
-**32 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [jingyaogong/minimind](https://github.com/jingyaogong/minimind): 🧠 Train a 64M-parameter LLM from scratch in just 2h!.
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) · review needed: AI agents running research on single-GPU nanochat training automatically.
 - [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV): AgentENV (AENV) is a distributed platform for running agent environments at scale.
+- [macrodata-labs/refiner](https://github.com/macrodata-labs/refiner) · review needed · low confidence: Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets.
 - [maderix/ANE](https://github.com/maderix/ANE): Training neural networks on Apple Neural Engine via reverse-engineered private APIs.
 - [microsoft/Orchard-Agentic](https://github.com/microsoft/Orchard-Agentic): Orchard-Agentic is a collection of open-source work on agentic modeling.
 - [MoonshotAI/MoonEP](https://github.com/MoonshotAI/MoonEP): MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts.

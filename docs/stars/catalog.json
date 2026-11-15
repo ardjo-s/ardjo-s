@@ -3058,6 +3058,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOIZ8Rag",
+      "name": "Arize-ai/phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "description": "AI Observability & Evaluation",
+      "category": "category_08",
+      "purpose": "AI Observability & Evaluation",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AI Observability & Evaluation",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Arize-ai/phoenix",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTOEMiQ",
       "name": "arjun988/blender-skills",
       "url": "https://github.com/arjun988/blender-skills",
@@ -6639,6 +6658,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOJhWgDg",
+      "name": "comet-ml/opik",
+      "url": "https://github.com/comet-ml/opik",
+      "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "category": "category_08",
+      "purpose": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/comet-ml/opik",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOIygeJg",
       "name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
@@ -6776,6 +6814,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOKFeYBA",
+      "name": "confident-ai/deepeval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "description": "The LLM Evaluation Framework",
+      "category": "category_08",
+      "purpose": "The LLM Evaluation Framework",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The LLM Evaluation Framework",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/confident-ai/deepeval",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOORyNkg",
@@ -9963,6 +10020,25 @@
       "evidence_read_at": "2026-11-15"
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTU5Nzc1Nzg=",
+      "name": "evidentlyai/evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+      "category": "category_08",
+      "purpose": "Evidently is ​​an open-source ML and LLM observability framework",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/evidentlyai/evidently",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTEYNUA",
       "name": "experientiallabs/experiential",
       "url": "https://github.com/experientiallabs/experiential",
@@ -11637,6 +11713,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOG9PI5A",
+      "name": "Giskard-AI/giskard-oss",
+      "url": "https://github.com/Giskard-AI/giskard-oss",
+      "description": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
+      "category": "category_08",
+      "purpose": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Giskard-AI/giskard-oss",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzNjUwMg==",
@@ -16587,6 +16682,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKRXhvA",
+      "name": "langwatch/langwatch",
+      "url": "https://github.com/langwatch/langwatch",
+      "description": "Open-Source Agent Observability & Evals for AI Platform teams. Trace, test, route and govern every agent & coding assistant in the company.",
+      "category": "category_08",
+      "purpose": "Open-Source Agent Observability & Evals for AI Platform teams",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-Source Agent Observability & Evals for AI Platform teams. Trace, test, route and govern every agent & coding assistant in the company.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/langwatch/langwatch",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORLcNOA",
       "name": "Lap-Platform/LAP",
       "url": "https://github.com/Lap-Platform/LAP",
@@ -17653,6 +17767,31 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOQvQ0TA",
+      "name": "macrodata-labs/refiner",
+      "url": "https://github.com/macrodata-labs/refiner",
+      "description": "Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets",
+      "category": "category_06",
+      "purpose": "Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets",
+      "keywords": [
+        "Python"
+      ],
+      "review_required": true,
+      "evidence_quote": "Macrodata Refiner Refiner is Macrodata's open-source Python library for reading, transforming, and writing robotics datasets.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/macrodata-labs/refiner/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43749271594",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_06",
+        "category_03"
+      ]
     },
     {
       "id": "R_kgDOSNbiXQ",
@@ -21460,6 +21599,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOJhfZ-g",
+      "name": "NVIDIA/garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "description": "the LLM vulnerability scanner",
+      "category": "category_18",
+      "purpose": "the LLM vulnerability scanner",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "the LLM vulnerability scanner",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/NVIDIA/garak",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43749271594",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORnw8lA",
@@ -29866,6 +30024,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVooPLw",
+      "name": "subsy/gardener",
+      "url": "https://github.com/subsy/gardener",
+      "description": "",
+      "category": "category_14",
+      "purpose": "Auto-classified as Testing, Debugging & Code Quality.",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# gardener When agents write most of your code, the codebase changes faster than anyone can read it.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/subsy/gardener/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOT4vimw",
       "name": "sulabhdubey/rta-smriti-brain",
       "url": "https://github.com/sulabhdubey/rta-smriti-brain",
@@ -31561,6 +31740,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKOkWSA",
+      "name": "traceloop/openllmetry",
+      "url": "https://github.com/traceloop/openllmetry",
+      "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "category": "category_08",
+      "purpose": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/traceloop/openllmetry",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQ4pdCg",
       "name": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
@@ -32921,6 +33119,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOJgX1Gg",
+      "name": "vibrantlabsai/ragas",
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "description": "Supercharge Your LLM Application Evaluations 🚀",
+      "category": "category_08",
+      "purpose": "Supercharge Your LLM Application Evaluations 🚀",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Supercharge Your LLM Application Evaluations 🚀",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/vibrantlabsai/ragas",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORYkBQg",

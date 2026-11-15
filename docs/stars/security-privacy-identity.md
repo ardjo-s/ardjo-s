@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**41 repositories.** [Browse all categories →](README.md)
+**42 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -37,6 +37,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [morluto/rea](https://github.com/morluto/rea) · review needed: Reverse engineer anything with agents, from app behavior down to native binaries.
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0.
 - [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra): Ghidra is a software reverse engineering (SRE) framework.
+- [NVIDIA/garak](https://github.com/NVIDIA/garak): the LLM vulnerability scanner.
 - [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills.
 - [offense-research/compound-security-plugin](https://github.com/offense-research/compound-security-plugin): Security workflows for coding agents.
 - [openai/codex-security](https://github.com/openai/codex-security): OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.

@@ -2,7 +2,7 @@
 
 > AI evaluations, traces, diagnostics, token usage, costs and quotas.
 
-**35 repositories.** [Browse all categories →](README.md)
+**43 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,15 +14,21 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [851-labs/tokenmaxxing](https://github.com/851-labs/tokenmaxxing): A local CLI, built on ccusage, that syncs your token usage with everyone else.
 - [adewale/skill-eval-harness](https://github.com/adewale/skill-eval-harness): Agent Skill evaluation harness for paired variants, trace artifacts, and runner adapters.
 - [ai-evals-course/evals-skills](https://github.com/ai-evals-course/evals-skills): Skills that guide AI coding agents to help you build product-specific AI evals.
+- [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix): AI Observability &amp; Evaluation.
 - [Blueemi/swiftusage](https://github.com/Blueemi/swiftusage): Coding agent usage, limits and costs, in your menu bar.
 - [ccusage/ccusage](https://github.com/ccusage/ccusage): npx ccusage.
+- [comet-ml/opik](https://github.com/comet-ml/opik): Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+- [confident-ai/deepeval](https://github.com/confident-ai/deepeval): The LLM Evaluation Framework.
 - [datacurve-ai/deep-swe](https://github.com/datacurve-ai/deep-swe): Measuring frontier coding agents on original, long-horizon engineering tasks.
 - [Entelligence-AI/agentplay](https://github.com/Entelligence-AI/agentplay): Replay your coding agent sessions as a map and a timeline.
+- [evidentlyai/evidently](https://github.com/evidentlyai/evidently): Evidently is ​​an open-source ML and LLM observability framework.
 - [garrytan/g-harness-evals](https://github.com/garrytan/g-harness-evals): Open source harness evals: which agent harness does tasks the best, for the least cost?.
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn): Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
+- [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss): 🐢 Open-Source Evaluation &amp; Testing library for LLM Agents.
 - [Helicone/helicone](https://github.com/Helicone/helicone): 🧊 Open source LLM observability platform.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 🛰️ Track token usage across AI coding agents from your terminal.
 - [langfuse/langfuse](https://github.com/langfuse/langfuse): 🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry.
+- [langwatch/langwatch](https://github.com/langwatch/langwatch): Open-Source Agent Observability &amp; Evals for AI Platform teams.
 - [llm-as-a-verifier/llm-as-a-verifier](https://github.com/llm-as-a-verifier/llm-as-a-verifier): LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training.
 - [microsoft/waza](https://github.com/microsoft/waza): CLI for testing and evaluating AI agent workflows, custom agents, and skills with repeatable scenarios, graders, evidence, and CI integration.
 - [NVIDIA-NeMo/nemo-helix](https://github.com/NVIDIA-NeMo/nemo-helix): NeMo Helix: Make the agents you ship faster, more accurate, and safer.
@@ -42,7 +48,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage): One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
+- [traceloop/openllmetry](https://github.com/traceloop/openllmetry): Open-source observability for your GenAI or LLM application, based on OpenTelemetry.
 - [Vela3202019/wisen](https://github.com/Vela3202019/wisen): Your coding agents repeat mistakes you already corrected.
+- [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas): Supercharge Your LLM Application Evaluations 🚀.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
 - [whiskerrs/benchmarks](https://github.com/whiskerrs/benchmarks): The same shop app built by an AI in six cross-platform frameworks, measured on an iPhone.
 - [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker): Local-first AI token usage &amp; cost tracker for 31 coding tools incl.
