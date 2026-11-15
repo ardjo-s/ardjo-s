@@ -16,8 +16,9 @@ permissions:
 
 concurrency:
   group: classify-github-stars
-  # PR validate of the sync workflow also emits workflow_run; do not cancel a real classify job.
-  cancel-in-progress: ${{ !(github.event_name == 'workflow_run' && github.event.workflow_run.event == 'pull_request') }}
+  # Do not cancel a job that may be mid squash-merge. PR validate of the sync
+  # workflow also emits workflow_run; those jobs are skipped by the `if` below.
+  cancel-in-progress: false
 
 jobs:
   classify:
@@ -37,22 +38,48 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_STARS_TOKEN || github.token }}
 
+      - name: Skip when there is nothing new to classify
+        id: pending
+        run: |
+          set -euo pipefail
+          skip=false
+          if [ ! -f docs/stars/unsorted.md ] || ! grep -q '^- \[' docs/stars/unsorted.md; then
+            skip=true
+            echo "No unsorted public stars; nothing to propose."
+          elif ! awk '
+              /^## Stars$/ { in_stars=1; next }
+              /^## / { in_stars=0 }
+              in_stars && /^- \[/ { found=1; exit }
+              END { exit found ? 0 : 1 }
+            ' docs/stars/unsorted.md; then
+            skip=true
+            echo "Only à trancher rows remain; nothing to propose."
+          else
+            echo "New unsorted stars to classify."
+          fi
+          echo "skip=${skip}" >> "$GITHUB_OUTPUT"
+
       - uses: actions/setup-python@v5
+        if: steps.pending.outputs.skip != 'true'
         with:
           python-version: '3.12'
 
       - name: Validate classifier and catalog
+        if: steps.pending.outputs.skip != 'true'
         run: |
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check
 
       - name: Classify unsorted stars and refresh the rolling PR
+        if: steps.pending.outputs.skip != 'true'
+        id: classify
         env:
           GH_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
           GITHUB_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: |
           set -euo pipefail
+          echo "ready=false" >> "$GITHUB_OUTPUT"
           if [ ! -f docs/stars/unsorted.md ] || ! grep -q '^- \[' docs/stars/unsorted.md; then
             echo "No unsorted public stars; nothing to propose."
             exit 0
@@ -79,4 +106,65 @@ jobs:
             echo "Updated rolling PR #${existing}"
           else
             gh pr create --base main --head auto/classify-stars --title "Classify unsorted GitHub stars" --body-file /tmp/classify-stars-pr.md
+            existing="$(gh pr list --repo "${GITHUB_REPOSITORY}" --base main --head auto/classify-stars --state open --json number --jq '.[0].number // empty')"
+            echo "Opened rolling PR #${existing}"
           fi
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+          echo "pr=${existing}" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Validate and squash-merge the rolling PR
+        if: steps.pending.outputs.skip != 'true' && steps.classify.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
+        run: |
+          set -euo pipefail
+          pr="${{ steps.classify.outputs.pr }}"
+          sha="${{ steps.classify.outputs.sha }}"
+          test -n "${pr}" || { echo "Missing rolling PR number" >&2; exit 1; }
+          test -n "${sha}" || { echo "Missing rolling PR head SHA" >&2; exit 1; }
+          head_ref="$(gh pr view "${pr}" --json headRefName --jq .headRefName)"
+          if [ "${head_ref}" != "auto/classify-stars" ]; then
+            echo "Refusing to merge PR #${pr}: head is '${head_ref}', not auto/classify-stars" >&2
+            exit 1
+          fi
+          head_sha="$(gh pr view "${pr}" --json headRefOid --jq .headRefOid)"
+          if [ "${head_sha}" != "${sha}" ] || [ "$(git rev-parse HEAD)" != "${sha}" ]; then
+            echo "Refusing to merge PR #${pr}: head SHA mismatch (pr=${head_sha} local=$(git rev-parse HEAD) expected=${sha})" >&2
+            exit 1
+          fi
+          base="$(git merge-base origin/main HEAD)"
+          unexpected="$(git diff --name-only "${base}" "${sha}" | grep -Ev '^(README\.md|docs/stars/.+)$' || true)"
+          if [ -n "${unexpected}" ]; then
+            echo "Refusing to merge PR #${pr}: diff touches files outside the star catalog:" >&2
+            echo "${unexpected}" >&2
+            exit 1
+          fi
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+          python3 - <<'PY'
+          import json, re, sys
+          from pathlib import Path
+          unsorted = Path('docs/stars/unsorted.md')
+          catalog = json.loads(Path('docs/stars/catalog.json').read_text(encoding='utf-8'))
+          by_name = {repo['name'] for repo in catalog['repositories']}
+          names = []
+          if unsorted.is_file():
+              names = re.findall(
+                  r'^- \[([^\]]+)\]\(https://github\.com/[^)]+\)[^\n]*à trancher',
+                  unsorted.read_text(encoding='utf-8'),
+                  re.M,
+              )
+          published = [name for name in names if name in by_name]
+          if published:
+              print(
+                  'Refusing to merge: à trancher rows were written into catalog.json: '
+                  + ', '.join(published),
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+          print(f'OK: {len(names)} à trancher rows remain unpublished in docs/stars/unsorted.md')
+          PY
+          gh pr merge "${pr}" --squash --match-head-commit "${sha}"
+          echo "Squash-merged rolling PR #${pr} at ${sha}"
