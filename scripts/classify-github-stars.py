@@ -743,10 +743,43 @@ def accept_jev_pick(decision: dict, jev_id: str, jev_name: str, noul: float, *, 
     decision['reason'] = f"{how}; {comparison}"
 
 
-def mark_trancher(decision: dict, extra: str = '') -> None:
-    decision['jev'] = 'review'
+def valid_jev_category(verdict: dict | None, name_to_id: dict[str, str] | None) -> tuple[str, str] | None:
+    if not verdict or not name_to_id:
+        return None
+    name = verdict.get('category_name')
+    if not isinstance(name, str) or not name:
+        return None
+    jev_id = name_to_id.get(name)
+    if jev_id is None:
+        return None
+    return jev_id, name
+
+
+def publish_best_available(
+    decision: dict,
+    extra: str = '',
+    *,
+    verdict: dict | None = None,
+    name_to_id: dict[str, str] | None = None,
+) -> None:
+    """Publish the best available existing category at low confidence. Never leaves a public star unsorted."""
+    pick = valid_jev_category(verdict, name_to_id)
+    if pick:
+        jev_id, jev_name = pick
+        decision['category'] = jev_id
+        decision['category_name'] = jev_name
+        if verdict and verdict.get('noul') is not None:
+            extra_bit = f"best available jev pick {jev_name} (confident {verdict['noul']:.2f})"
+        else:
+            extra_bit = f'best available jev pick {jev_name}'
+        extra = f'{extra}; {extra_bit}' if extra else extra_bit
+    else:
+        fallback = 'classifier top-1 published at low confidence'
+        extra = f'{extra}; {fallback}' if extra else fallback
+    decision['jev'] = decision.get('jev') or 'review'
     decision['review_required'] = True
     decision['confidence'] = 'low'
+    decision['classification_confidence'] = 'low'
     if extra:
         decision['reason'] = f"{decision['reason']}; {extra}"
 
@@ -908,7 +941,7 @@ def apply_jev_second_pass(
     ]
     if not api_key:
         for _, decision in low:
-            mark_trancher(decision)
+            publish_best_available(decision)
         return
     pending = low
     if not pending:
@@ -932,9 +965,11 @@ def apply_jev_second_pass(
     duels: list[tuple[dict, dict]] = []
     for features, decision in pending:
         if decision['name'] not in ran:
-            mark_trancher(decision, 'Jev call cap reached; à trancher')
+            publish_best_available(decision, 'Jev call cap reached; published at low confidence')
             continue
         verdict = first_verdicts.get(decision['name'])
+        if verdict:
+            decision['jev_verdict'] = verdict
         if jev_agreement_accepts(decision, verdict, name_to_id):
             jev_name = verdict['category_name']
             how = (
@@ -959,7 +994,12 @@ def apply_jev_second_pass(
 
     if not duels or budget < 2:
         for _, decision in duels:
-            mark_trancher(decision, 'à trancher')
+            publish_best_available(
+                decision,
+                'published at low confidence',
+                verdict=decision.get('jev_verdict'),
+                name_to_id=name_to_id,
+            )
         return
     ready = []
     for features, decision in duels:
@@ -967,7 +1007,12 @@ def apply_jev_second_pass(
             cid for cid in decision.get('review_candidates') or [] if cid in id_to_category
         ]
         if len(finalists) < 2:
-            mark_trancher(decision, 'à trancher')
+            publish_best_available(
+                decision,
+                'published at low confidence',
+                verdict=decision.get('jev_verdict'),
+                name_to_id=name_to_id,
+            )
             continue
         ready.append((features, decision))
     finalist_ids = {
@@ -991,7 +1036,12 @@ def apply_jev_second_pass(
     )
     for features, decision in ready:
         if decision['name'] not in duel_ran:
-            mark_trancher(decision, 'Jev call cap reached; à trancher')
+            publish_best_available(
+                decision,
+                'Jev call cap reached; published at low confidence',
+                verdict=decision.get('jev_verdict'),
+                name_to_id=name_to_id,
+            )
             continue
         verdict = duel_verdicts.get(decision['name'])
         if jev_duel_accepts(decision, verdict, name_to_id):
@@ -1004,11 +1054,16 @@ def apply_jev_second_pass(
                 how='jev finalists duel',
             )
             continue
-        extra = 'finalists duel not accepted; à trancher'
+        extra = 'finalists duel not accepted; published at low confidence'
         if verdict and verdict.get('category_name'):
             noul_txt = 'n/a' if verdict.get('noul') is None else f"{verdict['noul']:.2f}"
-            extra = f"duel jev {verdict['category_name']} (confident {noul_txt}); à trancher"
-        mark_trancher(decision, extra)
+            extra = f"duel jev {verdict['category_name']} (confident {noul_txt}); published at low confidence"
+        publish_best_available(
+            decision,
+            extra,
+            verdict=verdict or decision.get('jev_verdict'),
+            name_to_id=name_to_id,
+        )
 
 
 def unsorted_rows(snapshot: dict, catalog: dict) -> list[dict]:
@@ -1125,8 +1180,11 @@ def catalog_record(row: dict, features: dict, decision: dict, *, source: str, ev
         'evidence_read_at': evidence_date,
         'classification_source': source,
     }
-    if decision['review_required']:
-        record['review_candidates'] = decision['review_candidates']
+    if decision['review_required'] or decision.get('confidence') == 'low' or decision.get('classification_confidence') == 'low':
+        record['review_required'] = True
+        record['classification_confidence'] = 'low'
+        if decision.get('review_candidates'):
+            record['review_candidates'] = decision['review_candidates']
     return record
 
 
@@ -1141,6 +1199,7 @@ def insert_records(catalog: dict, records: list[dict]) -> tuple[dict, list[dict]
         if record['category'] == stars.UNSORTED_ID:
             raise ValueError(f'refusing unsorted category for {record["name"]}')
         if record['id'] in by_id:
+            # Existing catalog labels always win, including human corrections.
             continue
         name_hit = by_name.get(record['name'].casefold())
         if name_hit:
@@ -1167,8 +1226,8 @@ def jev_cell(decision: dict) -> str:
         return '—'
     if decision.get('jev') == 'decided':
         return 'decided'
-    if decision.get('review_required'):
-        return 'à trancher'
+    if decision.get('review_required') or decision.get('confidence') == 'low':
+        return 'needs review'
     return '—'
 
 
@@ -1200,11 +1259,13 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
             lines.append(f"| `{decision['name']}` | skipped | — | — | {reason} |")
             continue
         confidence = decision['confidence']
-        if decision['review_required']:
-            names = ' vs '.join(decision['review_candidate_names'])
-            confidence = f"low · à trancher {names}"
+        if decision['review_required'] or decision.get('confidence') == 'low':
+            names = ' vs '.join(decision.get('review_candidate_names') or [])
+            confidence = 'low · needs review'
+            if names:
+                confidence += f' ({names})'
         reason = decision['reason'].replace('|', '/')
-        category = '—' if decision['review_required'] else decision['category_name']
+        category = decision['category_name'] or '—'
         lines.append(
             f"| `{decision['name']}` | {category} | {confidence} | {jev_cell(decision)} | {reason} |"
         )
@@ -1212,14 +1273,14 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
     needs_review = [row for row in decisions if row.get('review_required') and not row.get('skipped')]
     lines.extend([
         '',
-        'Jev auto-accepts a low-confidence row only on classifier agreement (`confident >= 0.65`) or a high override (`>= 0.8`). Otherwise a top-2 finalists duel runs (`>= 0.7`). Remaining doubtful rows stay in `docs/stars/unsorted.md` and are not published in a category.',
+        'Jev auto-accepts a low-confidence row only on classifier agreement (`confident >= 0.65`) or a high override (`>= 0.8`). Otherwise a top-2 finalists duel runs (`>= 0.7`). If those gates do not accept a pick, the best available existing category is still published (Jev duel winner if Jev answered, otherwise the classifier top-1) and tagged `classification_confidence: low` for later review. Human labels always win over automatic picks. No new category is created.',
         '',
         '## Jev second pass',
         '',
-        'Only low-confidence `star-catalog-nn-v2` rows are sent to TypeSafe System One. Jev cannot create a category. A missing `TYPESAFE_API_KEY` or API error leaves the row unpublished.',
+        'Only low-confidence `star-catalog-nn-v2` rows are sent to TypeSafe System One. Jev cannot create a category. A missing `TYPESAFE_API_KEY` or API error still publishes the classifier top-1 at low confidence.',
         '',
         f'- Jev decided (review cleared): {len(decided)}',
-        f'- À trancher (not published): {len(needs_review)}',
+        f'- Published with low confidence (needs review): {len(needs_review)}',
         '',
         '| Repository | Jev | Final category |',
         '| --- | --- | --- |',
@@ -1227,7 +1288,7 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
     for decision in decisions:
         if decision.get('skipped') or not (decision.get('jev') or decision.get('review_required')):
             continue
-        final = '—' if decision.get('review_required') else decision['category_name']
+        final = decision.get('category_name') or '—'
         lines.append(
             f"| `{decision['name']}` | {jev_cell(decision)} | {final} |"
         )
@@ -1236,32 +1297,34 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
     if needs_review:
         lines.extend([
             '',
-            '## À trancher',
+            '## Low-confidence rows',
             '',
-            'These rows stay in Unsorted / to classify until a human chooses. They are not written into a category page or the profile README.',
+            'These rows are published in an existing category and tagged `classification_confidence: low` so they can be corrected later. They are not left unsorted.',
             '',
-            '| Repository | Candidates |',
-            '| --- | --- |',
+            '| Repository | Category | Candidates |',
+            '| --- | --- | --- |',
         ])
         for decision in needs_review:
             names = ' vs '.join(decision.get('review_candidate_names') or [])
-            lines.append(f"| `{decision['name']}` | {names or '—'} |")
+            lines.append(
+                f"| `{decision['name']}` | {decision.get('category_name') or '—'} | {names or '—'} |"
+            )
     lines.extend([
         '',
         '## Loop',
         '',
         '1. `sync-github-stars.yml` exports unknown live stars to `docs/stars/unsorted.md`.',
         '2. This workflow runs after that sync (and when `unsorted.md` changes on `main`).',
-        '3. It updates `catalog.json`, regenerates the pages, runs `--check`, and refreshes this rolling PR on `auto/classify-stars`.',
+        '3. It updates `catalog.json`, regenerates the pages, runs `--check`, and refreshes this rolling PR on `auto/classify-stars`. Every public star is written into exactly one existing category.',
         '4. After a path/SHA guard and another `--check` on that exact head, the workflow squash-merges this PR with `--match-head-commit`.',
-        '5. If `unsorted.md` is empty, or only à trancher rows remain, the job exits without opening a PR.',
+        '5. If `unsorted.md` has no repository rows, the job exits without opening a PR.',
         '',
     ])
     if conflicts:
         lines.extend([
             '## Name conflicts',
             '',
-            'These live stars reuse a catalogued `owner/repo` with a new GitHub node id. They stay unsorted until a human decides.',
+            'These live stars reuse a catalogued `owner/repo` with a new GitHub node id. They stay in `docs/stars/unsorted.md` until a human decides, because the node id does not match the existing catalog row. Human labels are not overwritten.',
             '',
         ])
         for conflict in conflicts:
@@ -1343,8 +1406,6 @@ def classify_unsorted(
     for row, features, decision in classified:
         if decision['category'] not in index.categories:
             raise ValueError(f"classifier invented category {decision['category']}")
-        if decision['review_required']:
-            continue
         records.append(catalog_record(
             row,
             features,

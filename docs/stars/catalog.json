@@ -19436,6 +19436,30 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUlqyUg",
+      "name": "miuuyy/Astra-Ares",
+      "url": "https://github.com/miuuyy/Astra-Ares",
+      "description": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.",
+      "category": "category_03",
+      "purpose": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": true,
+      "evidence_quote": "> [!IMPORTANT] > **Experimental reference implementation.** Astra-Ares has a straightforward setup, but runs a separate, patched version of Codex CLI.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/miuuyy/Astra-Ares/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "star-catalog-nn-v2",
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_08",
+        "category_03"
+      ]
+    },
+    {
       "id": "R_kgDORWiFDA",
       "name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
@@ -33940,6 +33964,36 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNTc1NTk5MzY=",
+      "name": "WordPress/openverse",
+      "url": "https://github.com/WordPress/openverse",
+      "description": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
+      "category": "category_13",
+      "purpose": "Openverse is a search engine for openly-licensed media",
+      "keywords": [
+        "creative-commons",
+        "hacktoberfest",
+        "javascript",
+        "openverse",
+        "python",
+        "search-engine",
+        "typescript"
+      ],
+      "review_required": true,
+      "evidence_quote": "Project Board | Community Site | #openverse @ Slack | Handbook | Design Handbook | Releases mockups | Design Library Openverse is a search engine for openly-licensed media.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/WordPress/openverse/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "star-catalog-nn-v2",
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_19",
+        "category_13"
+      ]
     },
     {
       "id": "R_kgDOUBNKHA",

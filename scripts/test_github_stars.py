@@ -153,6 +153,18 @@ class StarsTest(unittest.TestCase):
             self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
             self.assertIn('classification_source', repo)
             self.assertNotEqual(repo['category'], stars.UNSORTED_ID)
+        low_published = {
+            'miuuyy/Astra-Ares': 'category_03',
+            'WordPress/openverse': 'category_13',
+        }
+        by_all = {r['name']: r for r in self.catalog['repositories']}
+        for name, category in low_published.items():
+            repo = by_all[name]
+            self.assertEqual(repo['category'], category, name)
+            self.assertTrue(repo['review_required'], name)
+            self.assertEqual(repo['classification_confidence'], 'low', name)
+            self.assertTrue(repo.get('review_candidates'), name)
+            self.assertNotEqual(repo['category'], stars.UNSORTED_ID)
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])
@@ -321,7 +333,11 @@ class StarsTest(unittest.TestCase):
             self.assertTrue(readme.read_text().endswith(suffix))
             self.assertEqual(manual.read_text(), 'Handwritten notes')
             self.assertFalse(stale.exists())
-            self.assertFalse((output / 'unsorted.md').exists())
+            unsorted = (output / 'unsorted.md').read_text()
+            self.assertTrue((output / 'unsorted.md').exists())
+            self.assertIn('**0 repositories.**', unsorted)
+            self.assertNotIn('à trancher', unsorted)
+            self.assertNotIn('- [', unsorted)
             self.assertEqual(readme.read_text().count('<div style="margin-top: 10px;">'), 26)
             self.assertEqual(readme.read_text().count('variant=outline'), 52)
             self.assertEqual(readme.read_text().count('<picture>'), 54)
@@ -393,13 +409,11 @@ class StarsTest(unittest.TestCase):
                     unsorted_notes=notes or None,
                 )
             page = (output / 'unsorted.md').read_text()
-            self.assertIn('## À trancher', page)
-            self.assertIn('owner/new', page)
-            self.assertIn('à trancher Security vs Developer Tools', page)
+            self.assertNotIn('## À trancher', page)
             self.assertIn('## Stars', page)
+            self.assertIn('owner/new', page)
             self.assertIn('owner/later', page)
-            later_line = next(line for line in page.splitlines() if 'owner/later' in line)
-            self.assertNotIn('à trancher', later_line)
+            self.assertNotIn('à trancher', page)
             snapshot = json.loads((output / 'stars.json').read_text())
             by_name = {row['name']: row for row in snapshot['repositories']}
             self.assertEqual(

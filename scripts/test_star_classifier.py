@@ -311,9 +311,17 @@ class StarClassifierTest(unittest.TestCase):
         published = {row['name']: row['category'] for row in records}
         doubtful = [row for row in decisions if row['review_required']]
         high = [row for row in decisions if not row['review_required']]
-        self.assertEqual(set(published), {row['name'] for row in high})
-        for row in high:
+        self.assertEqual(set(published), set(PR14_FIXTURES))
+        self.assertEqual(len(records), 6)
+        for row in decisions:
             self.assertEqual(row['category'], PR14_FIXTURES[row['name']])
+            self.assertIn(row['category'], self.category_ids)
+        for record in records:
+            if record['review_required']:
+                self.assertEqual(record['classification_confidence'], 'low')
+                self.assertTrue(record.get('review_candidates'))
+            else:
+                self.assertNotIn('classification_confidence', record)
         catalog, conflicts = classify.insert_records(catalog, records)
         self.assertEqual(conflicts, [])
         assigned = {repo['name']: repo['category'] for repo in catalog['repositories'] if repo['name'] in PR14_FIXTURES}
@@ -324,8 +332,12 @@ class StarClassifierTest(unittest.TestCase):
         self.assertIn('## Jev second pass', body)
         self.assertIn('arjun988/blender-skills', body)
         self.assertNotIn('enable auto-merge', body.casefold())
+        self.assertNotIn('## À trancher', body)
         if doubtful:
-            self.assertIn('## À trancher', body)
+            self.assertIn('## Low-confidence rows', body)
+            for row in doubtful:
+                self.assertIn(row['name'], body)
+                self.assertIn(row['category_name'], body)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             output = root / 'docs/stars'
@@ -354,13 +366,17 @@ class StarClassifierTest(unittest.TestCase):
             }
             for name in published:
                 self.assertEqual(got[name], published[name])
+            unsorted = (output / 'unsorted.md').read_text()
+            self.assertTrue((output / 'unsorted.md').exists())
+            self.assertNotIn('à trancher', unsorted)
+            for name in PR14_FIXTURES:
+                self.assertNotIn(name, unsorted)
+                self.assertNotEqual(got[name], stars.UNSORTED_ID)
+            self.assertIn('**0 repositories.**', unsorted)
             for row in doubtful:
-                self.assertEqual(got[row['name']], stars.UNSORTED_ID)
-                self.assertTrue((output / 'unsorted.md').exists())
-                self.assertIn(row['name'], (output / 'unsorted.md').read_text())
-                self.assertIn('à trancher', (output / 'unsorted.md').read_text())
-            if not doubtful:
-                self.assertFalse((output / 'unsorted.md').exists())
+                page = (output / f"{next(c['slug'] for c in catalog['categories'] if c['id'] == row['category'])}.md").read_text()
+                self.assertIn(row['name'], page)
+                self.assertIn('low confidence', page)
             stars.check_committed_export(output, readme, catalog_path)
 
     def test_name_collision_with_new_node_id_is_a_conflict(self):
@@ -389,6 +405,37 @@ class StarClassifierTest(unittest.TestCase):
         body = classify.render_pr_body([], source='test', conflicts=conflicts)
         self.assertIn('Name conflicts', body)
         self.assertIn(existing['name'], body)
+
+    def test_insert_records_never_overwrites_a_human_label(self):
+        catalog = copy.deepcopy(self.held_catalog)
+        human = copy.deepcopy(catalog['repositories'][0])
+        human['classification_source'] = 'human:2026-11-15'
+        original_category = human['category']
+        catalog['repositories'][0] = human
+        auto = {
+            'id': human['id'],
+            'name': human['name'],
+            'url': human['url'],
+            'description': 'auto should not win',
+            'category': 'category_23' if original_category != 'category_23' else 'category_01',
+            'purpose': 'overwrite attempt',
+            'keywords': [],
+            'review_required': True,
+            'classification_confidence': 'low',
+            'evidence_quote': 'x',
+            'evidence_status': 'description_only',
+            'archived': False,
+            'fork': False,
+            'classification_source': 'star-catalog-nn-v2',
+        }
+        before = len(catalog['repositories'])
+        catalog, conflicts = classify.insert_records(catalog, [auto])
+        self.assertEqual(conflicts, [])
+        self.assertEqual(len(catalog['repositories']), before)
+        kept = next(repo for repo in catalog['repositories'] if repo['id'] == human['id'])
+        self.assertEqual(kept['category'], original_category)
+        self.assertEqual(kept['classification_source'], 'human:2026-11-15')
+        self.assertNotEqual(kept.get('purpose'), 'overwrite attempt')
 
     def test_private_repo_features_are_not_copied_into_the_catalog(self):
         with patch.object(classify, 'request_optional', return_value={
@@ -461,7 +508,8 @@ class StarClassifierTest(unittest.TestCase):
         self.assertIn('auto/classify-stars', workflow)
         self.assertIn("git diff --name-only", workflow)
         self.assertIn(r'^(README\.md|docs/stars/.+)$', workflow)
-        self.assertIn('à trancher rows were written into catalog.json', workflow)
+        self.assertNotIn('à trancher rows were written into catalog.json', workflow)
+        self.assertIn('catalog rows missing an existing category', workflow)
         self.assertGreaterEqual(workflow.count("python3 -m unittest discover -s scripts -p 'test_*.py'"), 3)
         self.assertGreaterEqual(workflow.count('--check'), 3)
         self.assertIn('Validate and squash-merge the rolling PR', workflow)
@@ -473,7 +521,8 @@ class StarClassifierTest(unittest.TestCase):
         self.assertIn("github.event.workflow_run.event != 'pull_request'", workflow)
         self.assertIn('TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}', workflow)
         self.assertIn('Classify unsorted stars and refresh the rolling PR', workflow)
-        self.assertIn('Only à trancher rows remain', workflow)
+        self.assertNotIn('Only à trancher rows remain', workflow)
+        self.assertIn('No unsorted public stars; nothing to propose.', workflow)
         self.assertIn('cancel-in-progress: false', workflow)
         classify_step = workflow.split('Classify unsorted stars and refresh the rolling PR', 1)[1]
         validate_step = workflow.split('Validate classifier and catalog', 1)[1].split('Classify unsorted stars', 1)[0]
@@ -641,7 +690,7 @@ class StarJevGateTest(unittest.TestCase):
         body = classify.render_pr_body(decisions, source='test')
         self.assertIn('| decided |', body)
         self.assertIn('Jev decided (review cleared): 1', body)
-        self.assertIn('À trancher (not published): 0', body)
+        self.assertIn('Published with low confidence (needs review): 0', body)
 
     def test_jev_agreement_accepts_matching_top1(self):
         first = classify.classify_repo(
@@ -716,7 +765,7 @@ class StarJevGateTest(unittest.TestCase):
         self.assertIn('duel', decision['reason'])
         self.assertEqual(records[0]['category'], first['review_candidates'][1])
 
-    def test_jev_finalists_duel_reject_stays_unpublished(self):
+    def test_jev_finalists_duel_reject_publishes_best_available(self):
         first = classify.classify_repo(
             classify.CatalogIndex(self.held), 'owner/generic', GENERIC_FEATURES,
         )
@@ -735,13 +784,22 @@ class StarJevGateTest(unittest.TestCase):
         self.assertEqual(set(calls[3]['questions']), {'confident'})
         decision = decisions[0]
         self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['confidence'], 'low')
+        self.assertEqual(decision['classification_confidence'], 'low')
         self.assertEqual(decision['jev'], 'review')
-        self.assertEqual(records, [])
-        self.assertIn('à trancher', decision['reason'])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(decision['category_name'], first['review_candidate_names'][0])
+        self.assertEqual(records[0]['category'], first['review_candidates'][0])
+        self.assertEqual(records[0]['classification_confidence'], 'low')
+        self.assertTrue(records[0]['review_required'])
+        self.assertIn('published at low confidence', decision['reason'])
+        self.assertNotIn('à trancher', decision['reason'])
         body = classify.render_pr_body(decisions, source='test')
-        self.assertIn('## À trancher', body)
-        self.assertIn('| à trancher |', body)
-        self.assertIn('À trancher (not published): 1', body)
+        self.assertIn('## Low-confidence rows', body)
+        self.assertIn('| needs review |', body)
+        self.assertIn('Published with low confidence (needs review): 1', body)
+        self.assertNotIn('## À trancher', body)
+        self.assertIn(decision['category_name'], body)
 
     def test_jev_unknown_category_rejected(self):
         first = classify.classify_repo(
@@ -758,9 +816,12 @@ class StarJevGateTest(unittest.TestCase):
         decision = decisions[0]
         self.assertEqual(decision['category'], first['category'])
         self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['confidence'], 'low')
         self.assertEqual(decision['jev'], 'review')
         self.assertIn('Brand New Bucket', decision['reason'])
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertEqual(records[0]['classification_confidence'], 'low')
         self.assertEqual(len(self.held['categories']), len(self.catalog['categories']))
         self.assertEqual(len(calls), 2)
         self.assertTrue(all('category' in payload['questions'] for payload in calls))
@@ -779,8 +840,11 @@ class StarJevGateTest(unittest.TestCase):
         decision = decisions[0]
         self.assertEqual(decision['category'], first['category'])
         self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['confidence'], 'low')
         self.assertEqual(decision['jev'], 'review')
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertEqual(records[0]['classification_confidence'], 'low')
 
     def test_jev_api_error_falls_back(self):
         first = classify.classify_repo(
@@ -797,8 +861,11 @@ class StarJevGateTest(unittest.TestCase):
         decision = decisions[0]
         self.assertEqual(decision['category'], first['category'])
         self.assertTrue(decision['review_required'])
+        self.assertEqual(decision['confidence'], 'low')
         self.assertEqual(decision['jev'], 'review')
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['category'], first['category'])
+        self.assertEqual(records[0]['classification_confidence'], 'low')
 
         def empty(payload, api_key, **kwargs):
             return None
@@ -806,7 +873,8 @@ class StarJevGateTest(unittest.TestCase):
         decisions, records = self._classify(jev_request=empty)
         self.assertEqual(decisions[0]['category'], first['category'])
         self.assertTrue(decisions[0]['review_required'])
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['classification_confidence'], 'low')
 
         def malformed(payload, api_key, **kwargs):
             return {'answers': {'category': {'type': 'choice'}, 'confident': {'type': 'noul'}}}
@@ -814,7 +882,8 @@ class StarJevGateTest(unittest.TestCase):
         decisions, records = self._classify(jev_request=malformed)
         self.assertEqual(decisions[0]['category'], first['category'])
         self.assertTrue(decisions[0]['review_required'])
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['classification_confidence'], 'low')
 
     def test_request_jev_posts_systemone_and_swallows_http_errors(self):
         captured = {}
@@ -935,7 +1004,7 @@ class StarJevGateTest(unittest.TestCase):
         self.assertTrue(any(row['name'] == 'human/shared-tokens' for row in examples))
         self.assertTrue(any(row['corrected'] for row in examples))
 
-    def test_doubtful_rows_stay_in_unsorted_not_categories(self):
+    def test_low_confidence_rows_are_published_and_tagged(self):
         catalog = copy.deepcopy(self.held)
         snapshot, features_by_name = self._unsorted()
         decisions, records = classify.classify_unsorted(
@@ -945,11 +1014,16 @@ class StarJevGateTest(unittest.TestCase):
             token='',
             typesafe_api_key='',
         )
-        self.assertEqual(records, [])
+        self.assertEqual(len(records), 1)
         self.assertTrue(decisions[0]['review_required'])
+        self.assertEqual(decisions[0]['confidence'], 'low')
+        self.assertEqual(records[0]['classification_confidence'], 'low')
+        self.assertEqual(records[0]['category'], decisions[0]['category'])
+        self.assertIn(records[0]['category'], {c['id'] for c in catalog['categories']})
         catalog, conflicts = classify.insert_records(catalog, records)
         self.assertEqual(conflicts, [])
-        self.assertFalse(any(repo['name'] == 'owner/generic' for repo in catalog['repositories']))
+        stored = next(repo for repo in catalog['repositories'] if repo['name'] == 'owner/generic')
+        self.assertEqual(stored['classification_confidence'], 'low')
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             output = root / 'docs/stars'
@@ -957,7 +1031,7 @@ class StarJevGateTest(unittest.TestCase):
             readme = root / 'README.md'
             readme.write_text('profile\n## ⭐ Starred Repos\nold\n')
             live = [{
-                'id': 'UNSORTED-generic',
+                'id': records[0]['id'],
                 'name': 'owner/generic',
                 'url': 'https://github.com/owner/generic',
                 'description': 'A starred repository.',
@@ -965,28 +1039,28 @@ class StarJevGateTest(unittest.TestCase):
                 'fork': False,
             }]
             classify.write_catalog(output / 'catalog.json', catalog)
-            stars.export(
-                live, catalog, output, readme,
-                unsorted_notes=classify.unsorted_notes(decisions),
-            )
+            stars.export(live, catalog, output, readme)
             unsorted = (output / 'unsorted.md').read_text()
-            self.assertIn('owner/generic', unsorted)
-            self.assertIn('À trancher', unsorted)
-            self.assertIn('à trancher', unsorted)
-            self.assertIn(' vs ', unsorted)
+            self.assertIn('**0 repositories.**', unsorted)
+            self.assertNotIn('owner/generic', unsorted)
+            self.assertNotIn('À trancher', unsorted)
             exported = json.loads((output / 'stars.json').read_text())
             row = next(item for item in exported['repositories'] if item['name'] == 'owner/generic')
-            self.assertEqual(row['category_id'], stars.UNSORTED_ID)
-            self.assertEqual(row['review_candidate_names'], decisions[0]['review_candidate_names'])
-            for path in output.glob('*.md'):
-                if path.name in {'unsorted.md', 'README.md'}:
-                    continue
-                self.assertNotIn('owner/generic', path.read_text())
-            self.assertNotIn('owner/generic', readme.read_text())
+            self.assertEqual(row['category_id'], decisions[0]['category'])
+            self.assertEqual(row['classification_confidence'], 'low')
+            slug = next(c['slug'] for c in catalog['categories'] if c['id'] == decisions[0]['category'])
+            page = (output / f'{slug}.md').read_text()
+            self.assertIn('owner/generic', page)
+            self.assertIn('low confidence', page)
+            profile = readme.read_text()
+            self.assertIn('1 public repositories', profile)
+            self.assertNotIn('unsorted', profile)
             stars.check_committed_export(output, readme, output / 'catalog.json')
         body = classify.render_pr_body(decisions, source='test')
-        self.assertIn('## À trancher', body)
+        self.assertIn('## Low-confidence rows', body)
         self.assertIn('owner/generic', body)
+        self.assertIn(decisions[0]['category_name'], body)
+        self.assertNotIn('## À trancher', body)
 
     def test_jev_skips_high_confidence_first_pass(self):
         features = json.loads((ROOT / 'scripts/testdata/pr14_classify_fixtures.json').read_text())

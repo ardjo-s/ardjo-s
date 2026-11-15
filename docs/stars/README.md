@@ -2,13 +2,13 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,566 public repositories across 26 Sol categories plus 2 unsorted.**
+**1,566 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
 For agents: [catalog.json](catalog.json) is the source of truth. [stars.json](stars.json) is the generated machine-readable snapshot (name, url, description, category). [schema.md](schema.md) documents the catalog fields. Search `purpose`, `description` and `keywords`, then verify against `evidence_quote`.
 
-A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. Live stars missing from the catalog are exported to Unsorted / to classify instead of blocking the refresh. The snapshot is public-only. See [AGENTS.md](../../AGENTS.md) and [maintenance instructions](../../scripts/README-stars.md).
+A review flag means the evidence or category boundary needs checking, not that the repository is unclassified. Low-confidence automatic picks are still published in an existing category and tagged `classification_confidence: low`. Live stars missing from the catalog are exported to Unsorted / to classify instead of blocking the refresh, then classified into an existing category. The snapshot is public-only. See [AGENTS.md](../../AGENTS.md) and [maintenance instructions](../../scripts/README-stars.md).
 
 ## AI & Agents
 
@@ -16,7 +16,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 101 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 129 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 130 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 79 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
@@ -46,7 +46,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 72 repositories
   - Web, backend, native and mobile frameworks for building applications.
-- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 75 repositories
+- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 76 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
 - [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 23 repositories
   - Software testing, debugging, code review and technical quality checks.
@@ -76,8 +76,3 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 35 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 2 repositories
-  - Public stars not yet classified in catalog.json.
