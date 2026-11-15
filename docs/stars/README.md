@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,577 public repositories across 26 Sol categories.**
+**1,579 public repositories across 26 Sol categories plus 2 unsorted.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -76,3 +76,8 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 35 repositories
   - Browsers, desktop utilities, file transfers and device tools.
+
+## Unsorted
+
+- [❔ Unsorted / to classify](unsorted.md) · 2 repositories
+  - Public stars not yet classified in catalog.json.
