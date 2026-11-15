@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1559,
+  "repository_count": 1566,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 21
+      "count": 28
     }
   ],
   "repositories": [
@@ -808,6 +808,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTAMOLA",
+      "name": "AIScientists-Dev/academic-humanizer",
+      "url": "https://github.com/AIScientists-Dev/academic-humanizer",
+      "description": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSka2Jw",
       "name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
@@ -1144,6 +1154,16 @@
       "description": "UI Layer for Karpathy's LLM Wiki",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOUn3ozw",
+      "name": "anteloc/ldraw-nova",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "description": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4521,7 +4541,7 @@
       "id": "R_kgDOVMm-gQ",
       "name": "ExpoKit/ExpoKit",
       "url": "https://github.com/ExpoKit/ExpoKit",
-      "description": "Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts",
+      "description": "Copy-paste UI components, screens and charts for Expo.",
       "category": "UI & Product Design",
       "category_id": "category_11",
       "archived": false,
@@ -6098,6 +6118,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOViPJjQ",
+      "name": "hydra-db/selfgraph",
+      "url": "https://github.com/hydra-db/selfgraph",
+      "description": "Build and query versioned knowledge graphs for AI agents, with any graph database.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOK5QfTg",
       "name": "hyperknot/openfreemap",
       "url": "https://github.com/hyperknot/openfreemap",
@@ -6464,6 +6494,16 @@
       "description": "Beautiful README badges, inspired by shields.io and styled like shadcn/ui.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2NTg2NTY2Ng==",
+      "name": "JamesANZ/JevPromptShield",
+      "url": "https://github.com/JamesANZ/JevPromptShield",
+      "description": "Protect LLM agents against malicious prompts using JEV",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8738,6 +8778,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUlqyUg",
+      "name": "miuuyy/Astra-Ares",
+      "url": "https://github.com/miuuyy/Astra-Ares",
+      "description": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORWiFDA",
       "name": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
@@ -9154,6 +9204,16 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVpJoWg",
+      "name": "native-bond-lab/Jev-Interaction",
+      "url": "https://github.com/native-bond-lab/Jev-Interaction",
+      "description": "System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -11294,6 +11354,16 @@
       "description": "🐶 A curated list of Web Security materials and resources.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOU4ATTg",
+      "name": "qbeka/jev-job-search",
+      "url": "https://github.com/qbeka/jev-job-search",
+      "description": "Find software internships and new-grad jobs, fill the application forms, check every answer on the page, and send the ones you approve. JEV decides, code acts, Claude writes. Runs on your machine with Claude Code.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

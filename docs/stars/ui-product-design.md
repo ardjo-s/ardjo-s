@@ -50,7 +50,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [emilkowalski/skills](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner): An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios): A list of developer portfolios for your inspiration.
-- [ExpoKit/ExpoKit](https://github.com/ExpoKit/ExpoKit): Animated, copy-paste UI components for Expo and React Native — free components, CLI and expo-charts.
+- [ExpoKit/ExpoKit](https://github.com/ExpoKit/ExpoKit): Copy-paste UI components, screens and charts for Expo.
 - [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill): A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together from one brief, measured, compared as identity cards, and delivered as a brand guidelines kit.
 - [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) · review needed: A guide on how to use the Figma MCP server.
 - [frappe/charts](https://github.com/frappe/charts): Simple, responsive, modern SVG Charts with zero dependencies.
