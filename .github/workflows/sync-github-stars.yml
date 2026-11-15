@@ -4,13 +4,21 @@ on:
   pull_request:
     paths:
       - README.md
+      - AGENTS.md
+      - llms.txt
       - docs/stars/**
+      - scripts/README-stars.md
       - scripts/sync-github-stars.py
+      - scripts/classify-github-stars.py
       - scripts/test_github_stars.py
+      - scripts/test_star_classifier.py
+      - scripts/testdata/**
       - .github/workflows/sync-github-stars.yml
+      - .github/workflows/classify-github-stars.yml
   schedule:
     # GitHub has no event for changes to the authenticated user's stars.
-    - cron: "*/15 * * * *"
+    # `*/15` was delayed to every ~4–6h in practice; hourly is enough.
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

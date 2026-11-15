@@ -52,9 +52,12 @@ Optional on later additions:
 | `evidence_read_at` | string | ISO date of that read. |
 | `evidence_sha256` | string | Digest of retrieved README bytes when recorded. |
 | `classification_source` | string | Workflow run or other provenance URL. |
+| `review_candidates` | string[] | Present on auto-classified low-confidence rows: the top two existing category ids (chosen first, runner-up second). |
 | `review_resolution` | object | Recorded boundary decision (category, reviewer, approval). |
 
 Original Sol rows omit `classification_source`. Do not rewrite those objects unless a human asks.
+
+Auto-classified rows (from `scripts/classify-github-stars.py`) always have `classification_source`. They use an existing `categories[].id` only — the classifier never adds a category. `purpose` on those rows may be English (taken from the public description). `review_required` plus `review_candidates` means the top two scores were close; the chosen category is still written so the export can leave Unsorted.
 
 ## Generated `stars.json`
 
