@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**74 repositories.** [Browse all categories →](README.md)
+**77 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -18,6 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Alchemist0823/three.quarks](https://github.com/Alchemist0823/three.quarks): Three.quarks is a general purpose particle system /  VFX engine for three.js.
 - [amariichi/VideoDepthViewer3D](https://github.com/amariichi/VideoDepthViewer3D): Real-time 3D video player powered by Depth Anything 3.
 - [amirmushichge/unreal-home-wizard](https://github.com/amirmushichge/unreal-home-wizard): Turn room and home photographs into reviewable, walkable Unreal Engine projects with Codex.
+- [anteloc/ldraw-nova](https://github.com/anteloc/ldraw-nova): Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev.
 - [arjun988/blender-skills](https://github.com/arjun988/blender-skills): 94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.
 - [Auburn/FastNoise2](https://github.com/Auburn/FastNoise2): Modular node graph based noise generation library using SIMD, C++17 and templates.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal): Starred repository.
@@ -61,6 +62,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat): 3D Gaussian Splat Editor.
 - [pmndrs/drei](https://github.com/pmndrs/drei): 🥉 useful helpers for react-three-fiber.
 - [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing): 📬  Postprocessing for react-three-fiber.
+- [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier): 🤺 Rapier physics in React.
 - [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen): Infinite Photorealistic Worlds using Procedural Generation.
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
@@ -82,6 +84,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [WhiteTowerAI/ohmygame](https://github.com/WhiteTowerAI/ohmygame): The open-source studio for making games with AI.
 - [xikhar/spiderbench](https://github.com/xikhar/spiderbench): Starred repository.
 - [xy-gao/DA3-blender](https://github.com/xy-gao/DA3-blender): Blender addon for Depth-Anything-3 3D reconstruction.
+- [yunfanye/openhouse-3d](https://github.com/yunfanye/openhouse-3d): Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video.
 - [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer): Mesh optimization library that makes meshes smaller and faster to render.
 - [ZiYang-xie/WorldGen](https://github.com/ZiYang-xie/WorldGen): 🌍 WorldGen - Generate Any 3D Scene in Seconds.
 - [Zylann/godot_voxel](https://github.com/Zylann/godot_voxel): Voxel module for Godot Engine.

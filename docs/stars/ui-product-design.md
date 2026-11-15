@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**148 repositories.** [Browse all categories →](README.md)
+**152 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [0kzh/glisse](https://github.com/0kzh/glisse): iOS 26 Liquid Glass for the web.
 - [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui): Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
@@ -38,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [chakra-ui/zag](https://github.com/chakra-ui/zag): Build your design system in React, Solid, Vue, Svelte or Vanilla.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit): The modern toolkit for building drag and drop interfaces.
 - [cloudflare/kumo](https://github.com/cloudflare/kumo): Cloudflare's component library for building modern web applications.
+- [cocopon/tweakpane](https://github.com/cocopon/tweakpane): :control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes.
 - [codse/animata](https://github.com/codse/animata): Bring your site to life with easy to use animation &amp; interaction code.
 - [CopilotKit/shadify](https://github.com/CopilotKit/shadify): Stream AI generated Shadcn components, not just text.
 - [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) · review needed: Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads.
@@ -87,6 +89,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts): EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.
 - [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas): Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
+- [LottieFiles/motion-design-skill](https://github.com/LottieFiles/motion-design-skill): Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI.
+- [lucasmarkes/hairline](https://github.com/lucasmarkes/hairline): Isometric line figures that answer the pointer.
 - [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md): 200 production-grade DESIGN.md design systems for the world's best apps.
 - [MengTo/threeui](https://github.com/MengTo/threeui): Open-source ThreeUI Community catalog with live interactive components and complete Community source.
 - [meta/astryx](https://github.com/meta/astryx): An open source design system that's fully customizable and agent ready.

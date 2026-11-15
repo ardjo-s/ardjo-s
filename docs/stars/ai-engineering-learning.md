@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**30 repositories.** [Browse all categories →](README.md)
+**31 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,6 +16,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks): A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 - [anthropics/courses](https://github.com/anthropics/courses) · archived: Anthropic's educational courses.
 - [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps): A collection of projects showcasing RAG, agents, workflows, and other AI use cases.
+- [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course): Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents.
 - [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book): [WIP] Resources for AI engineers.
 - [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe): 💻  Vibe Coding 101｜Your First Course For AI Product Builders.
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration): Integrate the DeepSeek API into popular software.

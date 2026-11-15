@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**125 repositories.** [Browse all categories →](README.md)
+**129 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,6 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [agentcompanies/agentcompanies](https://github.com/agentcompanies/agentcompanies): Starred repository.
 - [agentskills/agentskills](https://github.com/agentskills/agentskills): Specification and documentation for Agent Skills.
 - [AI-Builder-Club/skills](https://github.com/AI-Builder-Club/skills): Codebase harness + loop engineer.
+- [AIScientists-Dev/academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer): Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence.
 - [alextnetto/res](https://github.com/alextnetto/res) · review needed: Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: screens, rules, data model, design tokens and production barriers, without touching production data.
 - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills): 410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · review needed: Official, Anthropic-managed directory of high quality Claude Code Plugins.
@@ -90,6 +91,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) · review needed: Starred repository.
 - [mohi-devhub/antivibe](https://github.com/mohi-devhub/antivibe) · review needed: Learn what AI writes, not just accept it.
 - [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) · review needed: Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config.
+- [motiondivision/ai-kit](https://github.com/motiondivision/ai-kit): A Cursor plugin for Motion.
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.
 - [msitarzewski/AGENT-ZERO](https://github.com/msitarzewski/AGENT-ZERO): Operational framework and patterns for high-quality, AI-assisted software development.
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
@@ -110,6 +112,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [r0b0tlab/hermes-buzz-shared-profile](https://github.com/r0b0tlab/hermes-buzz-shared-profile): macOS Hermes skill for sharing one canonical writable profile across Buzz and ACP surfaces.
 - [Railly/agentfiles](https://github.com/Railly/agentfiles): Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 12 coding tools — from Obsidian.
 - [regenrek/codex-planr](https://github.com/regenrek/codex-planr): Simple tasks for Codex.
+- [remotion-dev/skills](https://github.com/remotion-dev/skills): Agent Skills.
 - [revfactory/harness](https://github.com/revfactory/harness) · review needed: A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) · archived · review needed: Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills): A selection of personal Cursor agents/commands/rules/skills that I use for my work.
@@ -134,5 +137,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents): A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) · review needed: A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills): The awesome collection of OpenClaw skills.
+- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy): An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems.
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · review needed: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0.
 - [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) · review needed: A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.

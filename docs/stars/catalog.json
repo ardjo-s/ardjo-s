@@ -241,6 +241,25 @@
   ],
   "repositories": [
     {
+      "id": "R_kgDOVVH5lw",
+      "name": "0kzh/glisse",
+      "url": "https://github.com/0kzh/glisse",
+      "description": "iOS 26 Liquid Glass for the web",
+      "category": "category_11",
+      "purpose": "iOS 26 Liquid Glass for the web",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "Glisse is a faithful implementation of Apple's Liquid Glass for the web.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/0kzh/glisse/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0",
       "url": "https://github.com/0sec-labs/0",
@@ -1690,6 +1709,51 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTA4NTEzMA==",
+      "name": "airbnb/lottie-web",
+      "url": "https://github.com/airbnb/lottie-web",
+      "description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
+      "category": "category_12",
+      "purpose": "Render After Effects animations natively on Web, Android and iOS, and React Native",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Lottie for Web, Android , iOS , React Native , and Windows Lottie is a mobile library for Web, and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/airbnb/lottie-web/blob/master/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
+    },
+    {
+      "id": "R_kgDOTAMOLA",
+      "name": "AIScientists-Dev/academic-humanizer",
+      "url": "https://github.com/AIScientists-Dev/academic-humanizer",
+      "description": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.",
+      "category": "category_03",
+      "purpose": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence",
+      "keywords": [
+        "academic-writing",
+        "grant-writing",
+        "llm",
+        "nih",
+        "nsf",
+        "research",
+        "scientific-writing",
+        "writing-assistant"
+      ],
+      "review_required": false,
+      "evidence_quote": "## Why we built this Some of us write a lot of papers and grant proposals, and our team started using AI to help with drafts.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/AIScientists-Dev/academic-humanizer/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOSka2Jw",
       "name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
@@ -2329,6 +2393,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVKrXyg",
+      "name": "annnguyentt/anatomy-reveal-skill",
+      "url": "https://github.com/annnguyentt/anatomy-reveal-skill",
+      "description": "",
+      "category": "category_10",
+      "purpose": "Auto-classified as Image, Video & Presentations.",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Anatomy Reveal An agent skill that builds **any physical object** as a crafted isometric anatomy figure (many small, real, convex parts, ink on paper) and turns it into two things: 1.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/annnguyentt/anatomy-reveal-skill/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOTcCg9w",
       "name": "anomalyco/hex",
       "url": "https://github.com/anomalyco/hex",
@@ -2433,6 +2516,34 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUn3ozw",
+      "name": "anteloc/ldraw-nova",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "description": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
+      "category": "category_23",
+      "purpose": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
+      "keywords": [
+        "ai-3d-model-generator",
+        "ai-agents",
+        "ai-cad",
+        "blender",
+        "ldraw",
+        "ldraw-model",
+        "lego",
+        "meta-quest",
+        "virtual-reality",
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# ldraw-nova **Give an AI agent a model idea.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/anteloc/ldraw-nova/blob/master/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "R_kgDON91aYw",
@@ -4658,6 +4769,31 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSldRSA",
+      "name": "bryanyzhu/agentic-ai-system-course",
+      "url": "https://github.com/bryanyzhu/agentic-ai-system-course",
+      "description": "Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents ",
+      "category": "category_26",
+      "purpose": "Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents",
+      "keywords": [
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-agents",
+        "course",
+        "system-design",
+        "tutorial",
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Agentic System Course - Use Agent to Learn Agent > English · 中文 **Join the discord channel if you want to learn and build together!** --- This is a 22-chapter skeleton course on how to design, build, and operate production AI agents — written to be read with your own AI partner at your side.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/bryanyzhu/agentic-ai-system-course/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxOTA3Mjk5MDY=",
       "name": "Budibase/budibase",
       "url": "https://github.com/Budibase/budibase",
@@ -5554,6 +5690,25 @@
       "classification_source": "human:2026-11-15"
     },
     {
+      "id": "R_kgDOVf2lQg",
+      "name": "ChetasLua/moss-keeper",
+      "url": "https://github.com/ChetasLua/moss-keeper",
+      "description": "The Moss Keeper — a one-file HTML anime short made with Fable 5.5",
+      "category": "category_10",
+      "purpose": "The Moss Keeper — a one-file HTML anime short made with Fable 5.5",
+      "keywords": [
+        "HTML"
+      ],
+      "review_required": false,
+      "evidence_quote": "# The Moss Keeper A short hand-drawn-style anime scene: at sunrise an ancient overgrown giant wakes in a forgotten forest and rises into the golden sky.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ChetasLua/moss-keeper/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDONYfztA",
       "name": "chiphuyen/aie-book",
       "url": "https://github.com/chiphuyen/aie-book",
@@ -6130,6 +6285,30 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1ODQ3Mzk4OQ==",
+      "name": "cocopon/tweakpane",
+      "url": "https://github.com/cocopon/tweakpane",
+      "description": ":control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes",
+      "category": "category_11",
+      "purpose": ":control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes",
+      "keywords": [
+        "creative-coding",
+        "gui",
+        "tweakpane",
+        "tweaks",
+        "zero-dependency",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Tweakpane Tweakpane is a compact pane library for fine-tuning parameters and monitoring value changes, inspired by [dat.GUI][].",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/cocopon/tweakpane/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
     },
     {
       "id": "R_kgDOSnGONQ",
@@ -10281,6 +10460,39 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxNjE0NDEw",
+      "name": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "category": "category_10",
+      "purpose": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "keywords": [
+        "audio",
+        "c",
+        "ffmpeg",
+        "fft",
+        "hevc",
+        "hls",
+        "matroska",
+        "mp4",
+        "mpeg",
+        "multimedia",
+        "rtmp",
+        "rtsp",
+        "streaming",
+        "video",
+        "webm"
+      ],
+      "review_required": false,
+      "evidence_quote": "# FFmpeg README FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/FFmpeg/FFmpeg/blob/master/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
+    },
+    {
       "id": "R_kgDOPYl8cQ",
       "name": "figma/mcp-server-guide",
       "url": "https://github.com/figma/mcp-server-guide",
@@ -12230,6 +12442,29 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk1OTA1MzMw",
+      "name": "greensock/GSAP",
+      "url": "https://github.com/greensock/GSAP",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "category": "category_12",
+      "purpose": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "keywords": [
+        "animation",
+        "gsap",
+        "javascript",
+        "javascript-library",
+        "scroll"
+      ],
+      "review_required": false,
+      "evidence_quote": "# GSAP (GreenSock Animation Platform) GSAP is a 100% free **framework-agnostic** JavaScript animation library that turns developers into animation superheroes.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/greensock/GSAP/blob/master/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOROPBHw",
       "name": "greyhaven-ai/autocontext",
       "url": "https://github.com/greyhaven-ai/autocontext",
@@ -13427,6 +13662,31 @@
       "fork": false
     },
     {
+      "id": "R_kgDOViPJjQ",
+      "name": "hydra-db/selfgraph",
+      "url": "https://github.com/hydra-db/selfgraph",
+      "description": "Build and query versioned knowledge graphs for AI agents, with any graph database.",
+      "category": "category_05",
+      "purpose": "Build and query versioned knowledge graphs for AI agents, with any graph database",
+      "keywords": [
+        "agent",
+        "graphs",
+        "knowledge-graph",
+        "knowledge-graphs",
+        "knowledge-management",
+        "ontology",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "SelfGraph Turn unstructured text into a queryable, versioned knowledge graph.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/hydra-db/selfgraph/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOK5QfTg",
       "name": "hyperknot/openfreemap",
       "url": "https://github.com/hyperknot/openfreemap",
@@ -14226,6 +14486,30 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2NTg2NTY2Ng==",
+      "name": "JamesANZ/JevPromptShield",
+      "url": "https://github.com/JamesANZ/JevPromptShield",
+      "description": "Protect LLM agents against malicious prompts using JEV",
+      "category": "category_18",
+      "purpose": "Protect LLM agents against malicious prompts using JEV",
+      "keywords": [
+        "jev",
+        "jev-ai",
+        "llms",
+        "prompt-injection",
+        "security-tools",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# JEV Shield A prompt can tell a coding agent to drop its task and hand the secrets over.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/JamesANZ/JevPromptShield/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOR65J7A",
       "name": "jamesrochabrun/Easel",
       "url": "https://github.com/jamesrochabrun/Easel",
@@ -14990,6 +15274,35 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "a360e32a2da99a91e5731d15264f9b86515b3565525bd0842a92b6b506cb8f77",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "R_kgDOVuMsDA",
+      "name": "JuneYaooo/rea-toon",
+      "url": "https://github.com/JuneYaooo/rea-toon",
+      "description": "AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot",
+      "category": "category_10",
+      "purpose": "AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot",
+      "keywords": [
+        "ai-agent",
+        "chinese-drama",
+        "claude-code",
+        "codex",
+        "drama-analysis",
+        "screenplay",
+        "short-drama",
+        "storyboard",
+        "video-analysis",
+        "videomd",
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "Break down any short drama with AI: animated comic dramas, live-action and AI-generated.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/JuneYaooo/rea-toon/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "R_kgDOVcA9Ag",
@@ -16651,6 +16964,30 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2MzA5NzI5",
+      "name": "librosa/librosa",
+      "url": "https://github.com/librosa/librosa",
+      "description": "Python library for audio and music analysis",
+      "category": "category_09",
+      "purpose": "Python library for audio and music analysis",
+      "keywords": [
+        "audio",
+        "dsp",
+        "librosa",
+        "music",
+        "python",
+        "scipy"
+      ],
+      "review_required": false,
+      "evidence_quote": "# librosa is a Python library for audio and music signal processing.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/librosa/librosa/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOSI82mg",
       "name": "lidge-ai/ima2-gen",
       "url": "https://github.com/lidge-ai/ima2-gen",
@@ -17031,6 +17368,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDORlCGJw",
+      "name": "LottieFiles/motion-design-skill",
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "description": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
+      "category": "category_11",
+      "purpose": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
+      "keywords": [
+        "agent-skills",
+        "animation",
+        "lottie",
+        "motion-design",
+        "ui"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Motion Design Skill Universal motion design principles for AI agents.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/LottieFiles/motion-design-skill/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOH-ObJw",
       "name": "louis-e/arnis",
       "url": "https://github.com/louis-e/arnis",
@@ -17124,6 +17484,30 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU3OHTg",
+      "name": "lucasmarkes/hairline",
+      "url": "https://github.com/lucasmarkes/hairline",
+      "description": "Isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "category": "category_11",
+      "purpose": "Isometric line figures that answer the pointer",
+      "keywords": [
+        "animation",
+        "isometric",
+        "react",
+        "shadcn",
+        "svg",
+        "typescript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# hairline Thirty-three isometric line figures that answer the pointer.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lucasmarkes/hairline/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDORyB5Fg",
       "name": "lucataco/superkeet",
       "url": "https://github.com/lucataco/superkeet",
@@ -17203,6 +17587,30 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOIlaj4w",
+      "name": "m-bain/whisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "category": "category_09",
+      "purpose": "WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+      "keywords": [
+        "asr",
+        "speech",
+        "speech-recognition",
+        "speech-to-text",
+        "whisper",
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "WhisperX ## Recall.ai - Meeting Transcription API If you’re looking for a transcription API for meetings, consider checking out Recall.ai's Meeting Transcription API , an API that works with Zoom, Google Meet, Microsoft Teams, and more.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/m-bain/whisperX/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "R_kgDOR2t32Q",
@@ -17424,6 +17832,29 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjUxMjI0Nzg=",
+      "name": "ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "description": "A community-maintained Python framework for creating mathematical animations. ",
+      "category": "category_10",
+      "purpose": "A community-maintained Python framework for creating mathematical animations",
+      "keywords": [
+        "animations",
+        "hacktoberfest",
+        "manim",
+        "math",
+        "python"
+      ],
+      "review_required": false,
+      "evidence_quote": "An animation engine for explanatory math videos Manim is an animation engine for explanatory math videos.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ManimCommunity/manim/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ2MTcxNQ==",
@@ -19337,6 +19768,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTkxN2Q",
+      "name": "motiondivision/ai-kit",
+      "url": "https://github.com/motiondivision/ai-kit",
+      "description": "A Cursor plugin for Motion",
+      "category": "category_03",
+      "purpose": "A Cursor plugin for Motion",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Motion AI Kit Motion AI Kit is a suite of animation tools to help agents write production-grade animations.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/motiondivision/ai-kit/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk1NzYyMDE=",
       "name": "mrdoob/three.js",
       "url": "https://github.com/mrdoob/three.js",
@@ -19937,6 +20387,33 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVpJoWg",
+      "name": "native-bond-lab/Jev-Interaction",
+      "url": "https://github.com/native-bond-lab/Jev-Interaction",
+      "description": "System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.",
+      "category": "category_09",
+      "purpose": "System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev",
+      "keywords": [
+        "conversational-ai",
+        "full-duplex",
+        "jev",
+        "llm",
+        "speech",
+        "turn-taking",
+        "voice-agent",
+        "voice-ai",
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Jev-Interaction **System-One-controlled full-duplex voice interaction.** Turn-taking as decisions you write — not a model you train.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/native-bond-lab/Jev-Interaction/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "R_kgDOHG8utw",
       "name": "nativewind/nativewind",
       "url": "https://github.com/nativewind/nativewind",
@@ -20400,6 +20877,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVttVKw",
+      "name": "nickvasilescu/parallax",
+      "url": "https://github.com/nickvasilescu/parallax",
+      "description": "Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo.",
+      "category": "category_10",
+      "purpose": "Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Parallax **An open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent.** One web app: studios for pictures, video, voices and music, tools built on top of them, a community feed, a library, credits, an API for developers, and Supercomputer, an agent that plans and makes things for you.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/nickvasilescu/parallax/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "R_kgDOSak8hg",
@@ -24239,6 +24735,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOHQtwpw",
+      "name": "pmndrs/react-three-rapier",
+      "url": "https://github.com/pmndrs/react-three-rapier",
+      "description": "🤺 Rapier physics in React",
+      "category": "category_23",
+      "purpose": "🤺 Rapier physics in React",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "📣 @react-three/rapier v2 has been released, which adds support for @react-three/fiber v9 and react v19.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/pmndrs/react-three-rapier/blob/main/readme.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxODAzMjg3MTU=",
       "name": "pmndrs/zustand",
       "url": "https://github.com/pmndrs/zustand",
@@ -24650,6 +25165,37 @@
       "evidence_url": "https://github.com/qazbnm456/awesome-web-security",
       "evidence_read_at": "2026-11-15",
       "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOU4ATTg",
+      "name": "qbeka/jev-job-search",
+      "url": "https://github.com/qbeka/jev-job-search",
+      "description": "Find software internships and new-grad jobs, fill the application forms, check every answer on the page, and send the ones you approve. JEV decides, code acts, Claude writes. Runs on your machine with Claude Code.",
+      "category": "category_20",
+      "purpose": "Find software internships and new-grad jobs, fill the application forms, check every answer on the page, and send the ones you approve",
+      "keywords": [
+        "browser-automation",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "cover-letter",
+        "internships",
+        "jev",
+        "job-application",
+        "job-search",
+        "new-grad",
+        "resume",
+        "skills",
+        "typescript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# jev-job-search **The job search that fills the forms for you.** Finds the roles, fills each application in a Chrome window you can watch, reads every answer back from the page, and sends only what you approve.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/qbeka/jev-job-search/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNjgxNjM2MDk=",
@@ -25376,6 +25922,25 @@
       "evidence_url": "https://github.com/remotion-dev/remotion",
       "evidence_read_at": "2026-11-15",
       "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOQ8srOw",
+      "name": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "description": "Agent Skills",
+      "category": "category_03",
+      "purpose": "Agent Skills",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Remotion Agent Skills Remotion maintains a list of Agent Skills that define best practices for working in Remotion projects.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/remotion-dev/skills/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
       "id": "R_kgDOVcAnAQ",
@@ -33107,6 +33672,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVAzMMQ",
+      "name": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "category": "category_03",
+      "purpose": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems",
+      "keywords": [
+        "agent-skill",
+        "open-source",
+        "svg",
+        "vizualization",
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "Anatomy A Claude skill that explains an idea by building it as a real, working object.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/wheresryan22/anatomy/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
+    },
+    {
       "id": "R_kgDOU44XSQ",
       "name": "whirlchat/whirl",
       "url": "https://github.com/whirlchat/whirl",
@@ -34077,6 +34665,40 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUtQcPg",
+      "name": "yunfanye/openhouse-3d",
+      "url": "https://github.com/yunfanye/openhouse-3d",
+      "description": "Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video. Photo camera solving, procedural Blender (bpy) modeling, virtual staging, headless Cycles rendering and photo-vs-render comparison films.",
+      "category": "category_23",
+      "purpose": "Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video",
+      "keywords": [
+        "3d-reconstruction",
+        "3d-rendering",
+        "3d-walkthrough",
+        "architectural-visualization",
+        "archviz",
+        "blender",
+        "blender-python",
+        "bpy",
+        "camera-calibration",
+        "cycles",
+        "headless-rendering",
+        "house-tour",
+        "listing-photos",
+        "photo-to-3d",
+        "procedural-generation",
+        "python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# OpenHouse 3D — turn listing photos into 3D walkthrough videos **OpenHouse 3D rebuilds a house as a 3D model from its real-estate listing photos, then renders a cinematic walkthrough video of it with headless Blender.** You get photo-matched stills and a continuous fly-through/walk-through film.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/yunfanye/openhouse-3d/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15"
     },
     {
       "id": "R_kgDOVjo8Sw",

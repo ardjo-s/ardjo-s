@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**70 repositories.** [Browse all categories →](README.md)
+**72 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,6 +12,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [47ng/nuqs](https://github.com/47ng/nuqs): Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.
+- [airbnb/lottie-web](https://github.com/airbnb/lottie-web): Render After Effects animations natively on Web, Android and iOS, and React Native.
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
@@ -33,6 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [foldkit/foldkit](https://github.com/foldkit/foldkit): Starred repository.
 - [frappe/frappe](https://github.com/frappe/frappe): Low code web framework for real world applications, in Python and Javascript.
 - [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) · review needed: Keep your coding agent up to date with the latest web best practices.
+- [greensock/GSAP](https://github.com/greensock/GSAP): GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web.
 - [hunvreus/pagescms](https://github.com/hunvreus/pagescms): The simplest CMS you'll ever need.
 - [InsForge/InsForge](https://github.com/InsForge/InsForge): The all-in-one, open-source backend platform for agentic coding.
 - [instantdb/instant](https://github.com/instantdb/instant): Instant is the best backend for AI-coded apps.

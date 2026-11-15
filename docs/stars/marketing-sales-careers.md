@@ -2,7 +2,7 @@
 
 > Marketing, SEO, sales, customer relationships, recruiting and careers.
 
-**50 repositories.** [Browse all categories →](README.md)
+**51 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) · review needed: Open-source web analytics you deploy in one click.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill): Starred repository.
 - [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV): :page_facing_up: Awesome CV is LaTeX template for your outstanding job application.
+- [qbeka/jev-job-search](https://github.com/qbeka/jev-job-search): Find software internships and new-grad jobs, fill the application forms, check every answer on the page, and send the ones you approve.
 - [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume): A one-of-a-kind resume builder that keeps your privacy in mind.
 - [romangojiberryAI/gojiberryai-sales-os](https://github.com/romangojiberryAI/gojiberryai-sales-os): GojiberryAI Sales OS: a full AI outbound team for Grok Bot, powered by the GojiberryAI MCP.
 - [santmun/forja](https://github.com/santmun/forja) · review needed: Chatbot de IA self-hosted para WhatsApp, Instagram y Telegram en tu propia Cloudflare.
