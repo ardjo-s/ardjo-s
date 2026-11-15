@@ -17676,6 +17676,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtH5Hg",
+      "name": "lxyeternal/Trace",
+      "url": "https://github.com/lxyeternal/Trace",
+      "description": "Free, open-source alternative to Timing for macOS. Automatically records the apps, windows, files and web pages you use, and keeps everything on your Mac. Native SwiftUI, English and 简体中文.",
+      "category": "category_25",
+      "purpose": "Free, open-source alternative to Timing for macOS",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Free, open-source alternative to Timing for macOS. Automatically records the apps, windows, files and web pages you use, and keeps everything on your Mac. Native SwiftUI, English and 简体中文.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lxyeternal/Trace",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVNvIig",
       "name": "ly05010419/MacNativeGames",
       "url": "https://github.com/ly05010419/MacNativeGames",
@@ -34798,6 +34817,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVuvGuA",
+      "name": "yetanotherbrowser/yab",
+      "url": "https://github.com/yetanotherbrowser/yab",
+      "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+      "category": "category_25",
+      "purpose": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/yetanotherbrowser/yab",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORgejOw",

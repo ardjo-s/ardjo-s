@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 35
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 2
+      "count": 37
     }
   ],
   "repositories": [
@@ -8002,10 +7996,12 @@
       "name": "lxyeternal/Trace",
       "url": "https://github.com/lxyeternal/Trace",
       "description": "Free, open-source alternative to Timing for macOS. Automatically records the apps, windows, files and web pages you use, and keeps everything on your Mac. Native SwiftUI, English and 简体中文.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVNvIig",
@@ -15658,10 +15654,12 @@
       "name": "yetanotherbrowser/yab",
       "url": "https://github.com/yetanotherbrowser/yab",
       "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORgejOw",
