@@ -509,6 +509,21 @@ def validate_export(catalog: dict, groups: dict[str, list[dict]], output_dir: Pa
         raise ValueError('Export is inconsistent:\n- ' + '\n- '.join(errors))
 
 
+def load_unsorted_notes(snapshot_path: Path) -> dict[str, list[str]]:
+    """Keep à trancher candidate labels across a live sync so classify is not retriggered."""
+    if not snapshot_path.is_file():
+        return {}
+    snapshot = json.loads(snapshot_path.read_text(encoding='utf-8'))
+    notes: dict[str, list[str]] = {}
+    for row in snapshot.get('repositories', []):
+        if row.get('category_id') != UNSORTED_ID:
+            continue
+        names = [str(item) for item in (row.get('review_candidate_names') or []) if item]
+        if names and row.get('name'):
+            notes[row['name']] = names
+    return notes
+
+
 def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
     """Rebuild the live inventory from stars.json so --check follows membership, not the full catalog."""
     by_id = {repo['id']: repo for repo in catalog['repositories']}
@@ -605,7 +620,13 @@ def main() -> int:
         if not token:
             parser.error('GH_TOKEN or GITHUB_TOKEN is required unless --offline is used')
         stars = fetch_stars(token, catalog['account'])
-    export(stars, catalog, args.output_dir, args.readme)
+    export(
+        stars,
+        catalog,
+        args.output_dir,
+        args.readme,
+        unsorted_notes=load_unsorted_notes(args.output_dir / 'stars.json') or None,
+    )
     return 0
 
 

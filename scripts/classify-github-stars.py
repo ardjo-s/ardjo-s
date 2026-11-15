@@ -1187,7 +1187,7 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
     lines = [
         '## Classify unsorted GitHub stars',
         '',
-        'Deterministic nearest-neighbour classifier against existing `catalog.json` rows and documented domain rules. Low-confidence rows may get a TypeSafe System One (Jev) second pass. No new category. Ardjo merges this PR; nothing is auto-merged.',
+        'Deterministic nearest-neighbour classifier against existing `catalog.json` rows and documented domain rules. Low-confidence rows may get a TypeSafe System One (Jev) second pass. No new category. The classify workflow squash-merges this rolling PR after validation. It does not turn on GitHub auto merge as a repository setting.',
         '',
         f'Classifier: `{CLASSIFIER_ID}`. Jev model: `{JEV_MODEL}`. Source run: {source}.',
         '',
@@ -1253,7 +1253,8 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
         '1. `sync-github-stars.yml` exports unknown live stars to `docs/stars/unsorted.md`.',
         '2. This workflow runs after that sync (and when `unsorted.md` changes on `main`).',
         '3. It updates `catalog.json`, regenerates the pages, runs `--check`, and refreshes this rolling PR on `auto/classify-stars`.',
-        '4. If `unsorted.md` is empty, the job exits without opening a PR.',
+        '4. After a path/SHA guard and another `--check` on that exact head, the workflow squash-merges this PR with `--match-head-commit`.',
+        '5. If `unsorted.md` is empty, or only à trancher rows remain, the job exits without opening a PR.',
         '',
     ])
     if conflicts:

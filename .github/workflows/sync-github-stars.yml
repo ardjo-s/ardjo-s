@@ -17,15 +17,24 @@ on:
       - .github/workflows/classify-github-stars.yml
   schedule:
     # GitHub has no event for changes to the authenticated user's stars.
-    # `*/15` was delayed to every ~4–6h in practice; hourly is enough.
-    - cron: "17 * * * *"
+    # Target every 10 minutes so a new star can be published in about 15 minutes
+    # (sync + classify + squash-merge). Hosted-runner schedules on this repo have
+    # historically been delayed to every 4–8 hours, even with an hourly cron;
+    # `*/15` was similarly delayed. Keep the 10-minute cron anyway: when GitHub
+    # does honour it, that is the intended latency.
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: sync-github-stars-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}
+  cancel-in-progress: false
+
 jobs:
   validate:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -39,7 +48,6 @@ jobs:
 
   sync:
     if: github.event_name != 'pull_request'
-    needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

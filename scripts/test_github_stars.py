@@ -352,6 +352,63 @@ class StarsTest(unittest.TestCase):
                 [row['id'] for row in snapshot['categories']].index('category_09'),
             )
 
+    def test_live_export_preserves_existing_unsorted_notes(self):
+        known = self.catalog['repositories'][0]
+        unknown = {
+            **known,
+            'id': 'NEW',
+            'name': 'owner/new',
+            'url': 'https://github.com/owner/new',
+            'description': 'Fresh star',
+        }
+        later = {
+            **known,
+            'id': 'NEWER',
+            'name': 'owner/later',
+            'url': 'https://github.com/owner/later',
+            'description': 'Another fresh star',
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            readme = root / 'README.md'
+            readme.write_text('profile\n## ⭐ Starred Repos\nold\n')
+            output = root / 'docs/stars'
+            output.mkdir(parents=True)
+            with patch.object(stars.sys, 'stderr'):
+                stars.export(
+                    [known, unknown],
+                    self.catalog,
+                    output,
+                    readme,
+                    unsorted_notes={'owner/new': ['Security', 'Developer Tools']},
+                )
+            notes = stars.load_unsorted_notes(output / 'stars.json')
+            self.assertEqual(notes, {'owner/new': ['Security', 'Developer Tools']})
+            with patch.object(stars.sys, 'stderr'):
+                stars.export(
+                    [known, unknown, later],
+                    self.catalog,
+                    output,
+                    readme,
+                    unsorted_notes=notes or None,
+                )
+            page = (output / 'unsorted.md').read_text()
+            self.assertIn('## À trancher', page)
+            self.assertIn('owner/new', page)
+            self.assertIn('à trancher Security vs Developer Tools', page)
+            self.assertIn('## Stars', page)
+            self.assertIn('owner/later', page)
+            later_line = next(line for line in page.splitlines() if 'owner/later' in line)
+            self.assertNotIn('à trancher', later_line)
+            snapshot = json.loads((output / 'stars.json').read_text())
+            by_name = {row['name']: row for row in snapshot['repositories']}
+            self.assertEqual(
+                by_name['owner/new']['review_candidate_names'],
+                ['Security', 'Developer Tools'],
+            )
+            self.assertNotIn('review_candidate_names', by_name['owner/later'])
+
+
     def test_catalog_categories_follow_family_order(self):
         self.assertEqual(
             [category['id'] for category in self.catalog['categories']],
