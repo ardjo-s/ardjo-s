@@ -59,25 +59,64 @@ def request_json(url: str, token: str) -> dict | list:
             raise RuntimeError(f'GitHub API {error.code} for {url}') from error
 
 
-def fetch_stars(token: str, account: str) -> list[dict]:
-    if request_json(f'{API}/user', token)['login'].casefold() != account.casefold():
-        raise ValueError('The token must belong to the catalog owner')
-    stars = []
+def _star_record(repo: dict) -> dict:
+    return {
+        'id': repo['node_id'],
+        'name': repo['full_name'],
+        'url': repo['html_url'],
+        'description': repo.get('description') or '',
+        'archived': bool(repo.get('archived')),
+        'fork': bool(repo.get('fork')),
+    }
+
+
+def paginate_starred(token: str) -> tuple[list[dict], list[str]]:
+    """Walk /user/starred pages and keep the first record per repository node id.
+
+    GitHub returns stars newest-first. A star added while page N is in flight can
+    shift later pages so the same repo appears twice (and another is skipped).
+    """
+    stars, seen, duplicates = [], {}, []
     page = 1
     while True:
         rows = request_json(f'{API}/user/starred?per_page=100&page={page}', token)
         if not rows:
-            return stars
+            return stars, duplicates
+        if not isinstance(rows, list):
+            raise ValueError('Invalid public star inventory from GitHub')
         for row in rows:
             repo = row.get('repo', row)
-            if repo['private']:
+            if repo.get('private'):
                 continue
-            stars.append({
-                'id': repo['node_id'], 'name': repo['full_name'], 'url': repo['html_url'],
-                'description': repo.get('description') or '',
-                'archived': bool(repo.get('archived')), 'fork': bool(repo.get('fork')),
-            })
+            record = _star_record(repo)
+            repo_id = record['id']
+            if repo_id in seen:
+                duplicates.append(record['name'])
+                continue
+            seen[repo_id] = True
+            stars.append(record)
         page += 1
+
+
+def fetch_stars(token: str, account: str) -> list[dict]:
+    if request_json(f'{API}/user', token)['login'].casefold() != account.casefold():
+        raise ValueError('The token must belong to the catalog owner')
+    stars, duplicates = paginate_starred(token)
+    if duplicates:
+        names = ', '.join(dict.fromkeys(duplicates))
+        print(
+            f'Duplicate starred-list items skipped (pagination shifted): {names}',
+            file=sys.stderr,
+        )
+        print('Re-fetching starred list once after pagination duplicates.', file=sys.stderr)
+        stars, duplicates = paginate_starred(token)
+        if duplicates:
+            names = ', '.join(dict.fromkeys(duplicates))
+            print(
+                f'Still saw duplicate starred-list items after re-fetch; using unique set: {names}',
+                file=sys.stderr,
+            )
+    return stars
 
 
 def category_sort_key(category: dict) -> tuple[int, int]:
@@ -142,7 +181,11 @@ def group_stars(stars: list[dict], catalog: dict) -> dict[str, list[dict]]:
         if repo.get('private'):
             continue
         if repo['id'] in seen:
-            raise ValueError(f"Duplicate live repository: {repo['name']}")
+            print(
+                f"Duplicate live repository skipped: {repo['name']}",
+                file=sys.stderr,
+            )
+            continue
         seen.add(repo['id'])
         classified = by_id.get(repo['id'])
         if classified is None:

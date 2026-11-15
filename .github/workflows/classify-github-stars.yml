@@ -1,0 +1,79 @@
+name: Classify unsorted GitHub stars
+
+on:
+  workflow_run:
+    workflows: ["Sync GitHub stars"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - docs/stars/unsorted.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: classify-github-stars
+  cancel-in-progress: true
+
+jobs:
+  classify:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event != 'pull_request' &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GH_STARS_TOKEN || github.token }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate classifier and catalog
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+
+      - name: Classify unsorted stars and refresh the rolling PR
+        env:
+          GH_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.GH_STARS_TOKEN || github.token }}
+        run: |
+          set -euo pipefail
+          if [ ! -f docs/stars/unsorted.md ] || ! grep -q '^- \[' docs/stars/unsorted.md; then
+            echo "No unsorted public stars; nothing to propose."
+            exit 0
+          fi
+          python3 scripts/classify-github-stars.py \
+            --output-dir docs/stars \
+            --apply \
+            --pr-body /tmp/classify-stars-pr.md
+          python3 scripts/sync-github-stars.py --output-dir docs/stars --check
+          git checkout -B auto/classify-stars
+          git add README.md docs/stars
+          if git diff --cached --quiet; then
+            echo "Classification produced no file changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: classify unsorted GitHub stars"
+          git push -f origin auto/classify-stars
+          existing="$(gh pr list --repo "${GITHUB_REPOSITORY}" --base main --head "${GITHUB_REPOSITORY_OWNER}:auto/classify-stars" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "${existing}" ]; then
+            gh pr edit "${existing}" --title "Classify unsorted GitHub stars" --body-file /tmp/classify-stars-pr.md
+            echo "Updated rolling PR #${existing}"
+          else
+            gh pr create --base main --head auto/classify-stars --title "Classify unsorted GitHub stars" --body-file /tmp/classify-stars-pr.md
+          fi

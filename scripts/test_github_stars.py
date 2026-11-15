@@ -3,6 +3,7 @@ import copy
 import importlib.util
 import hashlib
 import json
+from io import StringIO
 from pathlib import Path
 import re
 import tempfile
@@ -120,6 +121,54 @@ class StarsTest(unittest.TestCase):
         with patch.object(stars, 'request_json', return_value={'login': 'someone-else'}):
             with self.assertRaisesRegex(ValueError, 'owner'):
                 stars.fetch_stars('test-token', 'ardjo-s')
+
+    def test_starred_pagination_dedupes_and_refetches_once(self):
+        def repo(node, name):
+            return {
+                'node_id': node,
+                'full_name': name,
+                'html_url': f'https://github.com/{name}',
+                'private': False,
+                'description': name,
+            }
+
+        first = repo('A', 'owner/alpha')
+        shifted = repo('B', 'Leonxlnx/procedural-fire')
+        extra = repo('C', 'owner/gamma')
+        login = {'login': 'ardjo-s'}
+        with patch.object(
+            stars,
+            'request_json',
+            side_effect=[
+                login,
+                [first, shifted],
+                [shifted, extra],
+                [],
+                [first, shifted],
+                [extra],
+                [],
+            ],
+        ) as mocked, patch.object(stars.sys, 'stderr', StringIO()) as stderr:
+            result = stars.fetch_stars('test-token', 'ardjo-s')
+        self.assertEqual([row['name'] for row in result], [
+            'owner/alpha',
+            'Leonxlnx/procedural-fire',
+            'owner/gamma',
+        ])
+        self.assertEqual(len({row['id'] for row in result}), 3)
+        self.assertGreaterEqual(mocked.call_count, 5)
+        messages = stderr.getvalue()
+        self.assertIn('Leonxlnx/procedural-fire', messages)
+        self.assertIn('Re-fetching', messages)
+
+    def test_group_stars_skips_duplicate_live_ids(self):
+        known = self.catalog['repositories'][0]
+        duplicate = {**known, 'description': 'shifted page copy'}
+        with patch.object(stars.sys, 'stderr'):
+            grouped = stars.group_stars([known, duplicate], self.catalog)
+        repos = grouped[known['category']]
+        self.assertEqual(len(repos), 1)
+        self.assertEqual(repos[0]['name'], known['name'])
 
     def test_empty_inventory_never_overwrites_last_good_files(self):
         known = self.catalog['repositories'][0]
