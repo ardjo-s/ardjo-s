@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**35 repositories.** [Browse all categories →](README.md)
+**37 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -31,6 +31,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kitze/unclutter](https://github.com/kitze/unclutter): WXT browser extension: Jev-powered page clutter removal with reusable template rules.
 - [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird): Truly independent web browser.
 - [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer): Run iOS apps without actually installing them!.
+- [lxyeternal/Trace](https://github.com/lxyeternal/Trace): Free, open-source alternative to Timing for macOS.
 - [neethanwu/onit](https://github.com/neethanwu/onit): keep an eye on everything your mac does on a schedule, from the notch or the menu bar.
 - [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app): Mod your desktop apps (Mac).
 - [realfishsam/agent-notch](https://github.com/realfishsam/agent-notch): The open-source alternative to vibe-island.
@@ -45,4 +46,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tobi/disktree](https://github.com/tobi/disktree): A treemap for finding and removing what fills your disk, for Omarchy.
 - [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils): Free and open-source macOS menu bar toolkit.
 - [xevrion/hatchzip](https://github.com/xevrion/hatchzip): HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only.
+- [yetanotherbrowser/yab](https://github.com/yetanotherbrowser/yab): Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion.
 - [Zesty0wl/mac-performance-monitor](https://github.com/Zesty0wl/mac-performance-monitor): A diagnostic performance logging utility for macOS: logs CPU, memory, GPU, network, and battery from the menu bar to help detect and diagnose performance issues.
