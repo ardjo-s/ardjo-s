@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**111 repositories.** [Browse all categories →](README.md)
+**117 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -19,6 +19,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [amirmushichge/video-states-website](https://github.com/amirmushichge/video-states-website) · review needed: Build a cinematic click-driven video website: LTX footage, image/video prompts, coding-agent build spec, workflow and seam-safe playback guide.
 - [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI): Uncensored Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo).
 - [Anil-matcha/open-genjutsu](https://github.com/Anil-matcha/open-genjutsu): Local-first AI video recasting with draft review, explicit HD approval, and source-audio restoration.
+- [annnguyentt/anatomy-reveal-skill](https://github.com/annnguyentt/anatomy-reveal-skill): Starred repository.
 - [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video): 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine.
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Stable Diffusion web UI.
 - [barefootford/buttercut](https://github.com/barefootford/buttercut): Edit Video with Claude Code.
@@ -28,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design): Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi.
 - [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video): Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.
 - [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers): My Python scripts to make high-quality figures for publications in top AI conferences and journals.
+- [ChetasLua/moss-keeper](https://github.com/ChetasLua/moss-keeper): The Moss Keeper — a one-file HTML anime short made with Fable 5.5.
 - [co-r-e/rollberry](https://github.com/co-r-e/rollberry): Starred repository.
 - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI): The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 - [cporter202/automate-faceless-content](https://github.com/cporter202/automate-faceless-content): Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook &amp; Instagram on autopilot — from idea → script → video → scheduled posts.
@@ -37,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [dtinth/superwhite](https://github.com/dtinth/superwhite): display a very bright white color on HDR-enabled displays.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot): Create Reddit Videos with just✨ one command ✨.
 - [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) · review needed: Create Apple style dimensional drawings of UI components.
+- [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg): Mirror of https://git.ffmpeg.org/ffmpeg.git.
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): Make videos on the computer you already own.
 - [full-aigc-plugins/artcraft-plugin](https://github.com/full-aigc-plugins/artcraft-plugin): Orchestrate VectorCraft, PhotoCraft, EffectCraft, and FilmCraft projects from one brief.
 - [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: GLSL and Shadertoy shader skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI.
@@ -54,10 +57,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow): JJ's special video production workflow for programatic editing.
 - [jub0t/Concat](https://github.com/jub0t/Concat): Beta: The truly free, open-source, local-first, cross-platform video editor.
 - [JuneYaooo/capsule-cinema](https://github.com/JuneYaooo/capsule-cinema): 把视频做成模版，一次配方无限视频 · Turn videos into templates.
+- [JuneYaooo/rea-toon](https://github.com/JuneYaooo/rea-toon): AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot.
 - [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.
+- [ManimCommunity/manim](https://github.com/ManimCommunity/manim): A community-maintained Python framework for creating mathematical animations.
 - [michaelshimeles/rec-rs](https://github.com/michaelshimeles/rec-rs): Fast macOS screen and camera recorder in Rust, an OBS alternative reverse engineered (clean-room) from OBS Studio.
 - [michaelshimeles/sketch](https://github.com/michaelshimeles/sketch) · review needed: Native Rust (egui/wgpu) infinite canvas design app, a clean-room reimplementation reverse engineered from Paper.
 - [mickadesign/metadata-gen](https://github.com/mickadesign/metadata-gen): Zero-install CLI to generate OG metadata images and favicon sets from your project's existing assets and config.
@@ -67,6 +72,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources): :city_sunrise: A collection of links for free stock photography, video and Illustration websites.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video): Programmatic video for coding agents — HTML to video on your laptop.
 - [nexu-io/openmotion](https://github.com/nexu-io/openmotion): The open-source full-stack studio for Opus 5.5 motion video.
+- [nickvasilescu/parallax](https://github.com/nickvasilescu/parallax): Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo.
 - [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) · review needed: Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
 - [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization): NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&amp;A, and automated reporting.
 - [obsidianmd/pele](https://github.com/obsidianmd/pele): Renders Mermaid diagrams faster than you'd run from a volcano! 🌋.

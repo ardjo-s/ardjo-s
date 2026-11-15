@@ -2,7 +2,7 @@
 
 > Memory, context management, semantic retrieval and RAG for AI systems.
 
-**57 repositories.** [Browse all categories →](README.md)
+**58 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -32,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [garrytan/gbrain](https://github.com/garrytan/gbrain): Garry's Opinionated OpenClaw/Hermes Agent Brain.
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
+- [hydra-db/selfgraph](https://github.com/hydra-db/selfgraph): Build and query versioned knowledge graphs for AI agents, with any graph database.
 - [jamwithai/beginner-local-rag-system](https://github.com/jamwithai/beginner-local-rag-system): Starred repository.
 - [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) · review needed: Starred repository.
 - [jxnl/personal-monorepo-template](https://github.com/jxnl/personal-monorepo-template) · review needed: Starred repository.

@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**34 repositories.** [Browse all categories →](README.md)
+**37 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,9 +26,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi): Moshi is a speech-text foundation model and full-duplex spoken dialogue framework.
 - [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot): Ears for coding agents: let AI hear, review and make sound.
 - [Lesur-ai/transkryptor](https://github.com/Lesur-ai/transkryptor): Transkryptor est une application web sophistiquée conçue pour faciliter la transcription de fichiers audio Apple M4A, l'analyse des transcriptions, et la génération de synthèses.
+- [librosa/librosa](https://github.com/librosa/librosa): Python library for audio and music analysis.
 - [lucataco/superkeet](https://github.com/lucataco/superkeet): macOS app for voice-to-text.
+- [m-bain/whisperX](https://github.com/m-bain/whisperX): WhisperX:  Automatic Speech Recognition with Word-level Timestamps (&amp; Diarization).
 - [matthartman/ghost-pepper](https://github.com/matthartman/ghost-pepper): 100% private on-device voice models for speech-to-text and meeting transcription on macOS.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Open-Source Frontier Voice AI.
+- [native-bond-lab/Jev-Interaction](https://github.com/native-bond-lab/Jev-Interaction): System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.
 - [NVIDIA-AI-Blueprints/pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast): Transform PDFs into AI podcasts for engaging on-the-go audio content.
 - [obra/winpepper](https://github.com/obra/winpepper): Windows-native local dictation.
 - [openai/whisper](https://github.com/openai/whisper): Robust Speech Recognition via Large-Scale Weak Supervision.

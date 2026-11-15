@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**40 repositories.** [Browse all categories →](README.md)
+**41 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -27,6 +27,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [heycupola/relic](https://github.com/heycupola/relic): End-to-end encrypted secrets for developers and AI agents.
 - [heyderekj/slinky](https://github.com/heyderekj/slinky): Slinky keeps secrets out of files.
 - [Infisical/agent-vault](https://github.com/Infisical/agent-vault): A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
+- [JamesANZ/JevPromptShield](https://github.com/JamesANZ/JevPromptShield): Protect LLM agents against malicious prompts using JEV.
 - [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist): 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026.
 - [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive): Protect your SSH keys with your Mac's Secure Enclave.
 - [megadose/holehe](https://github.com/megadose/holehe) · review needed: holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.

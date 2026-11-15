@@ -19,7 +19,7 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 125
+      "count": 129
     },
     {
       "id": "category_04",
@@ -31,7 +31,7 @@
       "id": "category_05",
       "name": "AI Memory, Context & RAG",
       "slug": "ai-memory-context-rag",
-      "count": 57
+      "count": 58
     },
     {
       "id": "category_06",
@@ -55,37 +55,37 @@
       "id": "category_26",
       "name": "AI Engineering & Learning",
       "slug": "ai-engineering-learning",
-      "count": 30
+      "count": 31
     },
     {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
-      "count": 34
+      "count": 37
     },
     {
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 111
+      "count": 117
     },
     {
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 148
+      "count": 152
     },
     {
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 74
+      "count": 77
     },
     {
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 70
+      "count": 72
     },
     {
       "id": "category_13",
@@ -121,7 +121,7 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 40
+      "count": 41
     },
     {
       "id": "category_19",
@@ -133,7 +133,7 @@
       "id": "category_20",
       "name": "Marketing, Sales & Careers",
       "slug": "marketing-sales-careers",
-      "count": 50
+      "count": 51
     },
     {
       "id": "category_21",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 28
+      "count": 2
     }
   ],
   "repositories": [
@@ -172,8 +172,8 @@
       "name": "0kzh/glisse",
       "url": "https://github.com/0kzh/glisse",
       "description": "iOS 26 Liquid Glass for the web",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -802,8 +802,8 @@
       "name": "airbnb/lottie-web",
       "url": "https://github.com/airbnb/lottie-web",
       "description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -812,8 +812,8 @@
       "name": "AIScientists-Dev/academic-humanizer",
       "url": "https://github.com/AIScientists-Dev/academic-humanizer",
       "description": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -1112,8 +1112,8 @@
       "name": "annnguyentt/anatomy-reveal-skill",
       "url": "https://github.com/annnguyentt/anatomy-reveal-skill",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -1162,8 +1162,8 @@
       "name": "anteloc/ldraw-nova",
       "url": "https://github.com/anteloc/ldraw-nova",
       "description": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },
@@ -2182,8 +2182,8 @@
       "name": "bryanyzhu/agentic-ai-system-course",
       "url": "https://github.com/bryanyzhu/agentic-ai-system-course",
       "description": "Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Engineering & Learning",
+      "category_id": "category_26",
       "archived": false,
       "fork": false
     },
@@ -2582,8 +2582,8 @@
       "name": "ChetasLua/moss-keeper",
       "url": "https://github.com/ChetasLua/moss-keeper",
       "description": "The Moss Keeper — a one-file HTML anime short made with Fable 5.5",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -2862,8 +2862,8 @@
       "name": "cocopon/tweakpane",
       "url": "https://github.com/cocopon/tweakpane",
       "description": ":control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -4722,8 +4722,8 @@
       "name": "FFmpeg/FFmpeg",
       "url": "https://github.com/FFmpeg/FFmpeg",
       "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -5582,8 +5582,8 @@
       "name": "greensock/GSAP",
       "url": "https://github.com/greensock/GSAP",
       "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -6122,8 +6122,8 @@
       "name": "hydra-db/selfgraph",
       "url": "https://github.com/hydra-db/selfgraph",
       "description": "Build and query versioned knowledge graphs for AI agents, with any graph database.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Memory, Context & RAG",
+      "category_id": "category_05",
       "archived": false,
       "fork": false
     },
@@ -6502,8 +6502,8 @@
       "name": "JamesANZ/JevPromptShield",
       "url": "https://github.com/JamesANZ/JevPromptShield",
       "description": "Protect LLM agents against malicious prompts using JEV",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -6872,8 +6872,8 @@
       "name": "JuneYaooo/rea-toon",
       "url": "https://github.com/JuneYaooo/rea-toon",
       "description": "AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -7642,8 +7642,8 @@
       "name": "librosa/librosa",
       "url": "https://github.com/librosa/librosa",
       "description": "Python library for audio and music analysis",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
       "fork": false
     },
@@ -7832,8 +7832,8 @@
       "name": "LottieFiles/motion-design-skill",
       "url": "https://github.com/LottieFiles/motion-design-skill",
       "description": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -7882,8 +7882,8 @@
       "name": "lucasmarkes/hairline",
       "url": "https://github.com/lucasmarkes/hairline",
       "description": "Isometric line figures that answer the pointer. For React and for anything with a DOM.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -7932,8 +7932,8 @@
       "name": "m-bain/whisperX",
       "url": "https://github.com/m-bain/whisperX",
       "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
       "fork": false
     },
@@ -8052,8 +8052,8 @@
       "name": "ManimCommunity/manim",
       "url": "https://github.com/ManimCommunity/manim",
       "description": "A community-maintained Python framework for creating mathematical animations. ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -8785,7 +8785,11 @@
       "category": "Unsorted / to classify",
       "category_id": "unsorted",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "AI Evaluation & Observability",
+        "Agent Methods, Skills & Configuration"
+      ]
     },
     {
       "id": "R_kgDORWiFDA",
@@ -8942,8 +8946,8 @@
       "name": "motiondivision/ai-kit",
       "url": "https://github.com/motiondivision/ai-kit",
       "description": "A Cursor plugin for Motion",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -9212,8 +9216,8 @@
       "name": "native-bond-lab/Jev-Interaction",
       "url": "https://github.com/native-bond-lab/Jev-Interaction",
       "description": "System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
       "fork": false
     },
@@ -9412,8 +9416,8 @@
       "name": "nickvasilescu/parallax",
       "url": "https://github.com/nickvasilescu/parallax",
       "description": "Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -11162,8 +11166,8 @@
       "name": "pmndrs/react-three-rapier",
       "url": "https://github.com/pmndrs/react-three-rapier",
       "description": "🤺 Rapier physics in React",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },
@@ -11362,8 +11366,8 @@
       "name": "qbeka/jev-job-search",
       "url": "https://github.com/qbeka/jev-job-search",
       "description": "Find software internships and new-grad jobs, fill the application forms, check every answer on the page, and send the ones you approve. JEV decides, code acts, Claude writes. Runs on your machine with Claude Code.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Marketing, Sales & Careers",
+      "category_id": "category_20",
       "archived": false,
       "fork": false
     },
@@ -11722,8 +11726,8 @@
       "name": "remotion-dev/skills",
       "url": "https://github.com/remotion-dev/skills",
       "description": "Agent Skills",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -15112,8 +15116,8 @@
       "name": "wheresryan22/anatomy",
       "url": "https://github.com/wheresryan22/anatomy",
       "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -15235,7 +15239,11 @@
       "category": "Unsorted / to classify",
       "category_id": "unsorted",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Knowledge & Productivity",
+        "Developer Tools & Languages"
+      ]
     },
     {
       "id": "R_kgDOUBNKHA",
@@ -15552,8 +15560,8 @@
       "name": "yunfanye/openhouse-3d",
       "url": "https://github.com/yunfanye/openhouse-3d",
       "description": "Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video. Photo camera solving, procedural Blender (bpy) modeling, virtual staging, headless Cycles rendering and photo-vs-render comparison films.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },

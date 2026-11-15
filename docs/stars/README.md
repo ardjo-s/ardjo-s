@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,566 public repositories across 26 Sol categories plus 28 unsorted.**
+**1,566 public repositories across 26 Sol categories plus 2 unsorted.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -16,11 +16,11 @@ A review flag means the evidence or category boundary needs checking, not that t
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 101 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 125 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 129 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 79 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
-- [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 57 repositories
+- [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 58 repositories
   - Memory, context management, semantic retrieval and RAG for AI systems.
 - [🧠 AI Models & Training](ai-models-training.md) · 32 repositories
   - Model architectures, machine learning, datasets, fine-tuning and training.
@@ -28,23 +28,23 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 35 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
-- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 30 repositories
+- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 31 repositories
   - AI application SDKs, structured outputs, examples and engineering courses.
 
 ## Creative Tools & Interfaces
 
-- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 34 repositories
+- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 37 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 111 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 117 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 148 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 152 repositories
   - UI components, design systems, typography, prototyping and product design.
-- [🎮 Games & 3D](games-3d.md) · 74 repositories
+- [🎮 Games & 3D](games-3d.md) · 77 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 70 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 72 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 75 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
@@ -56,14 +56,14 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Databases, data pipelines, analytics, visualization and geospatial tools.
 - [⚙️ Web & Document Automation](web-document-automation.md) · 25 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
-- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 40 repositories
+- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 41 repositories
   - Authentication, identity, secrets, privacy and security assessment.
 
 ## Knowledge, Research & Business
 
 - [🗂 Knowledge & Productivity](knowledge-productivity.md) · 125 repositories
   - Notes, writing, reading, tasks, calendars and collaboration.
-- [📈 Marketing, Sales & Careers](marketing-sales-careers.md) · 50 repositories
+- [📈 Marketing, Sales & Careers](marketing-sales-careers.md) · 51 repositories
   - Marketing, SEO, sales, customer relationships, recruiting and careers.
 - [💼 Finance, Legal & Business Operations](finance-legal-business-operations.md) · 32 repositories
   - Finance, payments, legal work and business operations.
@@ -79,5 +79,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Unsorted
 
-- [❔ Unsorted / to classify](unsorted.md) · 28 repositories
+- [❔ Unsorted / to classify](unsorted.md) · 2 repositories
   - Public stars not yet classified in catalog.json.
