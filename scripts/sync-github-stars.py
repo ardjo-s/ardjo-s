@@ -195,7 +195,26 @@ def group_stars(stars: list[dict], catalog: dict) -> dict[str, list[dict]]:
                 'review_required': True,
             })
         else:
-            groups[classified['category']].append({**classified, **repo})
+            item = {**classified, **repo}
+            for key in (
+                'classification_confidence',
+                'classification_rounds',
+                'review_required',
+                'review_candidates',
+                'classification_source',
+            ):
+                if key in classified:
+                    item[key] = classified[key]
+                else:
+                    item.pop(key, None)
+            if item.get('review_candidates') and item.get('review_required'):
+                id_to_name = {category['id']: category['name'] for category in catalog['categories']}
+                item['review_candidate_names'] = [
+                    id_to_name[cid] for cid in item['review_candidates'] if cid in id_to_name
+                ]
+            elif not item.get('review_required'):
+                item.pop('review_candidate_names', None)
+            groups[classified['category']].append(item)
     if not seen:
         raise ValueError('Empty public star inventory; retaining the last good export')
     if unknown:
@@ -344,6 +363,8 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
                 row['review_candidate_names'] = list(repo['review_candidate_names'])
             if repo.get('classification_confidence'):
                 row['classification_confidence'] = repo['classification_confidence']
+            if repo.get('classification_rounds'):
+                row['classification_rounds'] = repo['classification_rounds']
             repositories.append(row)
     repositories.sort(key=lambda row: row['name'].casefold())
     payload = {
@@ -533,10 +554,8 @@ def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
             'archived': bool(row.get('archived')),
             'fork': bool(row.get('fork')),
         }
-        if row.get('review_candidate_names'):
+        if classified is None and row.get('review_candidate_names'):
             item['review_candidate_names'] = list(row['review_candidate_names'])
-        if row.get('classification_confidence'):
-            item['classification_confidence'] = row['classification_confidence']
         stars.append(item)
     return stars
 

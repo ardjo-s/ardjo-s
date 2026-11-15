@@ -44,9 +44,9 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 72 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 73 repositories
   - Web, backend, native and mobile frameworks for building applications.
-- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 76 repositories
+- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 75 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
 - [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 23 repositories
   - Software testing, debugging, code review and technical quality checks.

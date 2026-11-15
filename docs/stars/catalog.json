@@ -19453,6 +19453,7 @@
       "evidence_url": "https://github.com/miuuyy/Astra-Ares/blob/main/README.md",
       "evidence_read_at": "2026-11-15",
       "classification_source": "star-catalog-nn-v2",
+      "classification_rounds": 3,
       "classification_confidence": "low",
       "review_candidates": [
         "category_08",
@@ -33970,7 +33971,7 @@
       "name": "WordPress/openverse",
       "url": "https://github.com/WordPress/openverse",
       "description": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
-      "category": "category_13",
+      "category": "category_12",
       "purpose": "Openverse is a search engine for openly-licensed media",
       "keywords": [
         "creative-commons",
@@ -33981,19 +33982,16 @@
         "search-engine",
         "typescript"
       ],
-      "review_required": true,
+      "review_required": false,
       "evidence_quote": "Project Board | Community Site | #openverse @ Slack | Handbook | Design Handbook | Releases mockups | Design Library Openverse is a search engine for openly-licensed media.",
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false,
       "evidence_url": "https://github.com/WordPress/openverse/blob/main/README.md",
       "evidence_read_at": "2026-11-15",
-      "classification_source": "star-catalog-nn-v2",
-      "classification_confidence": "low",
-      "review_candidates": [
-        "category_19",
-        "category_13"
-      ]
+      "classification_source": "jev:2026-11-15",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOUBNKHA",

@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**72 repositories.** [Browse all categories →](README.md)
+**73 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -82,4 +82,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios): A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
 - [vuejs/core](https://github.com/vuejs/core): 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 - [whiskerrs/whisker](https://github.com/whiskerrs/whisker): Build native iOS, Android, web and desktop apps in Rust.
+- [WordPress/openverse](https://github.com/WordPress/openverse): Openverse is a search engine for openly-licensed media.
 - [zats/permiso](https://github.com/zats/permiso) · review needed: Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.

@@ -85,13 +85,13 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 72
+      "count": 73
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 76
+      "count": 75
     },
     {
       "id": "category_14",
@@ -1309,7 +1309,11 @@
       "category": "AI Models & Training",
       "category_id": "category_06",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "AI Models & Training",
+        "AI Inference & Gateways"
+      ]
     },
     {
       "id": "R_kgDOT3FF1w",
@@ -5519,7 +5523,11 @@
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "App, Web & Mobile Development",
+        "Agent Methods, Skills & Configuration"
+      ]
     },
     {
       "id": "R_kgDOJfMqJg",
@@ -8784,7 +8792,8 @@
         "AI Evaluation & Observability",
         "Agent Methods, Skills & Configuration"
       ],
-      "classification_confidence": "low"
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDORWiFDA",
@@ -9174,7 +9183,11 @@
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Knowledge & Productivity",
+        "Games & 3D"
+      ]
     },
     {
       "id": "R_kgDOUAt_Bw",
@@ -15231,15 +15244,12 @@
       "name": "WordPress/openverse",
       "url": "https://github.com/WordPress/openverse",
       "description": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
-      "category": "Developer Tools & Languages",
-      "category_id": "category_13",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false,
-      "review_candidate_names": [
-        "Knowledge & Productivity",
-        "Developer Tools & Languages"
-      ],
-      "classification_confidence": "low"
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOUBNKHA",

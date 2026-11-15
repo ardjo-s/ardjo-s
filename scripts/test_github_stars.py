@@ -153,18 +153,30 @@ class StarsTest(unittest.TestCase):
             self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
             self.assertIn('classification_source', repo)
             self.assertNotEqual(repo['category'], stars.UNSORTED_ID)
-        low_published = {
-            'miuuyy/Astra-Ares': 'category_03',
-            'WordPress/openverse': 'category_13',
+        published_loop = {
+            'miuuyy/Astra-Ares': {
+                'category': 'category_03',
+                'classification_confidence': 'low',
+                'classification_rounds': 3,
+                'review_required': True,
+            },
+            'WordPress/openverse': {
+                'category': 'category_12',
+                'classification_confidence': 'high',
+                'classification_rounds': 2,
+                'review_required': False,
+            },
         }
         by_all = {r['name']: r for r in self.catalog['repositories']}
-        for name, category in low_published.items():
+        for name, expected in published_loop.items():
             repo = by_all[name]
-            self.assertEqual(repo['category'], category, name)
-            self.assertTrue(repo['review_required'], name)
-            self.assertEqual(repo['classification_confidence'], 'low', name)
-            self.assertTrue(repo.get('review_candidates'), name)
+            for key, value in expected.items():
+                self.assertEqual(repo.get(key), value, f'{name} {key}')
             self.assertNotEqual(repo['category'], stars.UNSORTED_ID)
+            if expected['review_required']:
+                self.assertTrue(repo.get('review_candidates'), name)
+            else:
+                self.assertFalse(repo.get('review_candidates'), name)
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])

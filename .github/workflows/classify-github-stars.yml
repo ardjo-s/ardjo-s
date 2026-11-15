@@ -62,6 +62,15 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check
 
+      - name: Restore Jev response cache
+        if: steps.pending.outputs.skip != 'true'
+        uses: actions/cache@v4
+        with:
+          path: docs/stars/.classify-jev-cache.json
+          key: classify-jev-cache-v1
+          restore-keys: |
+            classify-jev-cache-
+
       - name: Classify unsorted stars and refresh the rolling PR
         if: steps.pending.outputs.skip != 'true'
         id: classify
@@ -79,6 +88,7 @@ jobs:
           python3 scripts/classify-github-stars.py \
             --output-dir docs/stars \
             --apply \
+            --cache docs/stars/.classify-jev-cache.json \
             --pr-body /tmp/classify-stars-pr.md
           python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check

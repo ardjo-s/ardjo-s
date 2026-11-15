@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**76 repositories.** [Browse all categories →](README.md)
+**75 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -82,7 +82,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tt-a1i/archify](https://github.com/tt-a1i/archify) · review needed: Turn any idea, plan, or codebase into a beautiful interactive diagram.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) · review needed: Replace port numbers with stable, named local URLs.
 - [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite): ⚡️ A curated list of awesome things related to Vite.js.
-- [WordPress/openverse](https://github.com/WordPress/openverse) · review needed · low confidence: Openverse is a search engine for openly-licensed media.
 - [xevrion/peek-a-repo](https://github.com/xevrion/peek-a-repo): Peek inside GitHub files and folders without clicking.
 - [y-s-z/Arcforge](https://github.com/y-s-z/Arcforge): Open source Architecture design IDE for building and visualizing backend logic.
 - [zed-industries/zed](https://github.com/zed-industries/zed): Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.

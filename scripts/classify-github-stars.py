@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import base64
 import datetime as dt
+import hashlib
 import importlib.util
 import json
 import math
@@ -51,7 +52,12 @@ JEV_OVERRIDE_MIN = 0.8
 JEV_DUEL_MIN = 0.7
 JEV_README_CHARS = 800
 JEV_DUEL_README_CHARS = 4000
+JEV_ENRICHED_README_CHARS = 3000
+ENRICHED_README_CHARS = 3000
 JEV_FEW_SHOT = 3
+JEV_VOTE_COUNT = 3
+CLASSIFY_MAX_ROUNDS = 3
+DEFAULT_JEV_CACHE = Path('docs/stars/.classify-jev-cache.json')
 HUMAN_MEMBER_WEIGHT = 3.0
 HUMAN_CORRECTION_WEIGHT = 4.0
 BOT_MEMBER_WEIGHT = 1.0
@@ -341,7 +347,11 @@ def query_document(name: str, features: dict) -> list[str]:
     bag.extend(tokens(features.get('description') or '') * 5)
     bag.extend(tokens(' '.join(features.get('topics') or [])) * 6)
     bag.extend(tokens(features.get('language') or ''))
-    bag.extend(tokens(strip_markup(features.get('readme') or '')[:README_CHARS]))
+    readme_limit = int(features.get('readme_limit') or ENRICHED_README_CHARS)
+    bag.extend(tokens(strip_markup(features.get('readme') or '')[:readme_limit]))
+    homepage = features.get('homepage') or ''
+    if homepage:
+        bag.extend(tokens(homepage.replace('https://', ' ').replace('http://', ' ').replace('/', ' ')))
     return bag
 
 
@@ -527,6 +537,35 @@ class CatalogIndex:
                 break
         return out
 
+    def human_examples_for_categories(
+        self, name: str, features: dict, category_ids: list[str], k: int = JEV_FEW_SHOT,
+    ) -> list[dict]:
+        """Closest human-labelled rows in each requested category."""
+        if not self.human_members or not category_ids:
+            return []
+        query_vec = weighted(query_document(name, features), self.idf)
+        wanted = set(category_ids)
+        out = []
+        for cid in category_ids:
+            ranked = []
+            for member_cid, repo_name, vector, _weight, repo in self.human_members:
+                if member_cid != cid:
+                    continue
+                ranked.append((cosine(query_vec, vector), repo_name, cid, repo))
+            ranked.sort(key=lambda item: (-item[0], item[1]))
+            taken = 0
+            for _sim, repo_name, member_cid, repo in ranked:
+                out.append({
+                    'name': repo['name'],
+                    'category': self.categories[member_cid]['name'],
+                    'description': (repo.get('description') or '')[:240],
+                    'corrected': is_human_correction(repo),
+                })
+                taken += 1
+                if taken >= k:
+                    break
+        return out
+
 
 def is_human_label(repo: dict) -> bool:
     source = repo.get('classification_source') or ''
@@ -625,6 +664,8 @@ def jev_state(
         'name': name,
         'description': features.get('description') or '',
         'topics': list(features.get('topics') or []),
+        'language': features.get('language') or '',
+        'homepage': features.get('homepage') or '',
         'readme_excerpt': readme_excerpt(features, readme_limit),
         'classifier_top3': [
             {'name': row['name'], 'score': round(float(row['score']), 4)}
@@ -740,6 +781,7 @@ def accept_jev_pick(decision: dict, jev_id: str, jev_name: str, noul: float, *, 
     decision['review_candidate_names'] = []
     decision['jev'] = 'decided'
     decision['classification_source'] = f'jev:{evidence_date}'
+    decision['classification_confidence'] = 'high'
     decision['reason'] = f"{how}; {comparison}"
 
 
@@ -932,16 +974,25 @@ def apply_jev_second_pass(
     evidence_date: str,
     request=None,
     index: CatalogIndex | None = None,
+    finalize: bool = True,
+    readme_limit: int | None = None,
+    include_examples: bool = True,
+    how_prefix: str = '',
 ) -> None:
-    """Second-pass only low-confidence first-pass rows. Never creates a category."""
+    """Second-pass only low-confidence first-pass rows. Never creates a category.
+
+    When finalize is False, a rejection leaves the row low-confidence for a later
+    enrichment round instead of publishing the fallback immediately.
+    """
     low = [
         (features, decision)
         for _, features, decision in rows
         if decision.get('review_required') and not decision.get('skipped')
     ]
     if not api_key:
-        for _, decision in low:
-            publish_best_available(decision)
+        if finalize:
+            for _, decision in low:
+                publish_best_available(decision)
         return
     pending = low
     if not pending:
@@ -950,22 +1001,27 @@ def apply_jev_second_pass(
     id_to_category = {category['id']: category for category in categories}
     post = request or request_jev
     budget = JEV_MAX_CALLS
+    example_index = index if include_examples else None
+    first_limit = JEV_README_CHARS if readme_limit is None else readme_limit
     first_verdicts, budget, ran = run_choice_then_noul(
         pending,
         choice_categories=categories,
         instructions=JEV_CATEGORY_INSTRUCTIONS,
-        readme_limit=JEV_README_CHARS,
+        readme_limit=first_limit,
         budget=budget,
         api_key=api_key,
         post=post,
-        index=index,
+        index=example_index,
         name_to_id=name_to_id,
         id_to_category=id_to_category,
     )
     duels: list[tuple[dict, dict]] = []
     for features, decision in pending:
         if decision['name'] not in ran:
-            publish_best_available(decision, 'Jev call cap reached; published at low confidence')
+            if finalize:
+                publish_best_available(decision, 'Jev call cap reached; published at low confidence')
+            else:
+                decision['reason'] = f"{decision['reason']}; Jev call cap reached"
             continue
         verdict = first_verdicts.get(decision['name'])
         if verdict:
@@ -979,7 +1035,7 @@ def apply_jev_second_pass(
             )
             accept_jev_pick(
                 decision, name_to_id[jev_name], jev_name, verdict['noul'],
-                evidence_date=evidence_date, how=how,
+                evidence_date=evidence_date, how=(how_prefix + how) if how_prefix else how,
             )
             continue
         extra = 'first Jev pass did not meet agreement'
@@ -994,12 +1050,13 @@ def apply_jev_second_pass(
 
     if not duels or budget < 2:
         for _, decision in duels:
-            publish_best_available(
-                decision,
-                'published at low confidence',
-                verdict=decision.get('jev_verdict'),
-                name_to_id=name_to_id,
-            )
+            if finalize:
+                publish_best_available(
+                    decision,
+                    'published at low confidence',
+                    verdict=decision.get('jev_verdict'),
+                    name_to_id=name_to_id,
+                )
         return
     ready = []
     for features, decision in duels:
@@ -1007,12 +1064,13 @@ def apply_jev_second_pass(
             cid for cid in decision.get('review_candidates') or [] if cid in id_to_category
         ]
         if len(finalists) < 2:
-            publish_best_available(
-                decision,
-                'published at low confidence',
-                verdict=decision.get('jev_verdict'),
-                name_to_id=name_to_id,
-            )
+            if finalize:
+                publish_best_available(
+                    decision,
+                    'published at low confidence',
+                    verdict=decision.get('jev_verdict'),
+                    name_to_id=name_to_id,
+                )
             continue
         ready.append((features, decision))
     finalist_ids = {
@@ -1021,29 +1079,34 @@ def apply_jev_second_pass(
         for cid in decision.get('review_candidates') or []
         if cid in id_to_category
     }
-    duel_verdicts, _budget, duel_ran = run_choice_then_noul(
+    duel_verdicts, budget, duel_ran = run_choice_then_noul(
         ready,
         choice_categories=None,
         instructions=JEV_DUEL_INSTRUCTIONS,
-        readme_limit=JEV_DUEL_README_CHARS,
+        readme_limit=first_limit if readme_limit is not None else JEV_DUEL_README_CHARS,
         budget=budget,
         api_key=api_key,
         post=post,
-        index=index,
+        index=example_index,
         name_to_id=name_to_id,
         id_to_category=id_to_category,
         allowed_ids=finalist_ids or None,
     )
     for features, decision in ready:
         if decision['name'] not in duel_ran:
-            publish_best_available(
-                decision,
-                'Jev call cap reached; published at low confidence',
-                verdict=decision.get('jev_verdict'),
-                name_to_id=name_to_id,
-            )
+            if finalize:
+                publish_best_available(
+                    decision,
+                    'Jev call cap reached; published at low confidence',
+                    verdict=decision.get('jev_verdict'),
+                    name_to_id=name_to_id,
+                )
+            else:
+                decision['reason'] = f"{decision['reason']}; Jev call cap reached"
             continue
         verdict = duel_verdicts.get(decision['name'])
+        if verdict:
+            decision['jev_verdict'] = verdict
         if jev_duel_accepts(decision, verdict, name_to_id):
             accept_jev_pick(
                 decision,
@@ -1051,34 +1114,380 @@ def apply_jev_second_pass(
                 verdict['category_name'],
                 verdict['noul'],
                 evidence_date=evidence_date,
-                how='jev finalists duel',
+                how=f"{how_prefix}jev finalists duel" if how_prefix else 'jev finalists duel',
             )
             continue
-        extra = 'finalists duel not accepted; published at low confidence'
+        extra = 'finalists duel not accepted'
         if verdict and verdict.get('category_name'):
             noul_txt = 'n/a' if verdict.get('noul') is None else f"{verdict['noul']:.2f}"
-            extra = f"duel jev {verdict['category_name']} (confident {noul_txt}); published at low confidence"
-        publish_best_available(
-            decision,
-            extra,
-            verdict=verdict or decision.get('jev_verdict'),
-            name_to_id=name_to_id,
+            extra = f"duel jev {verdict['category_name']} (confident {noul_txt}); {extra}"
+        if finalize:
+            publish_best_available(
+                decision,
+                extra + '; published at low confidence',
+                verdict=verdict or decision.get('jev_verdict'),
+                name_to_id=name_to_id,
+            )
+        else:
+            decision['reason'] = f"{decision['reason']}; {extra}"
+
+
+
+def metadata_features(features: dict) -> dict:
+    """Round 1: name and description only."""
+    out = dict(features)
+    out['readme'] = ''
+    out['topics'] = []
+    out['language'] = ''
+    out['homepage'] = ''
+    out['readme_limit'] = 0
+    return out
+
+
+def enriched_features(features: dict) -> dict:
+    """Round 2+: README excerpt, topics, language and homepage."""
+    out = dict(features)
+    readme = out.get('readme') or ''
+    if len(readme) > ENRICHED_README_CHARS:
+        out['readme'] = readme[:ENRICHED_README_CHARS]
+    out['readme_limit'] = ENRICHED_README_CHARS
+    return out
+
+
+def jev_cache_key(payload: dict) -> str:
+    blob = json.dumps(payload, sort_keys=True, ensure_ascii=False, default=str)
+    return hashlib.sha256(blob.encode('utf-8')).hexdigest()
+
+
+class JevResponseCache:
+    """Persist Jev answers so a 10-minute re-run does not repeat the same calls."""
+
+    def __init__(self, path: Path | None, post):
+        self.path = Path(path) if path else None
+        self.post = post
+        self.hits = 0
+        self.misses = 0
+        self.data: dict[str, dict] = {}
+        if self.path and self.path.is_file():
+            try:
+                loaded = json.loads(self.path.read_text(encoding='utf-8'))
+            except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+                loaded = {}
+            if isinstance(loaded, dict):
+                self.data = loaded
+
+    def __call__(self, payload: dict, api_key: str, *, timeout: float = JEV_TIMEOUT):
+        key = jev_cache_key(payload)
+        entry = self.data.get(key)
+        if isinstance(entry, dict) and 'response' in entry:
+            self.hits += 1
+            return entry.get('response')
+        self.misses += 1
+        result = self.post(payload, api_key, timeout=timeout)
+        self.data[key] = {
+            'response': result,
+            'cached_at': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        }
+        self.save()
+        return result
+
+    def save(self) -> None:
+        if not self.path:
+            return
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self.path.with_suffix(self.path.suffix + '.tmp')
+        tmp.write_text(json.dumps(self.data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        tmp.replace(self.path)
+
+
+def category_definitions(categories: list[dict]) -> list[dict]:
+    return [
+        {
+            'name': category['name'],
+            'description': category.get('description') or '',
+            'definition': category.get('definition') or '',
+        }
+        for category in categories
+    ]
+
+
+def agreed_jev_votes(
+    votes: list[dict | None], decision: dict, name_to_id: dict[str, str],
+) -> dict | None:
+    """Accept only when every vote names the same existing category and meets the duel threshold."""
+    parsed = []
+    for vote in votes:
+        pick = valid_jev_category(vote, name_to_id)
+        if not pick or vote is None or vote.get('noul') is None:
+            return None
+        if vote['noul'] < JEV_DUEL_MIN:
+            return None
+        parsed.append((pick, vote))
+    if len(parsed) < JEV_VOTE_COUNT:
+        return None
+    names = {pick[1] for pick, _vote in parsed}
+    if len(names) != 1:
+        return None
+    return parsed[0][1]
+
+
+def run_jev_votes(
+    features: dict,
+    decision: dict,
+    *,
+    categories: list[dict],
+    index: CatalogIndex | None,
+    name_to_id: dict[str, str],
+    id_to_category: dict[str, dict],
+    api_key: str,
+    post,
+    budget: int,
+    evidence_date: str,
+) -> int:
+    """Three independent finalist votes with human examples and written definitions."""
+    finalists = [
+        id_to_category[cid]
+        for cid in decision.get('review_candidates') or []
+        if cid in id_to_category
+    ]
+    if len(finalists) < 1 or budget < 2 * JEV_VOTE_COUNT:
+        decision['reason'] = f"{decision['reason']}; round 3 votes skipped (budget or finalists)"
+        return budget
+    definitions = category_definitions(finalists)
+    examples = []
+    if index:
+        examples = index.human_examples_for_categories(
+            decision['name'], features, [c['id'] for c in finalists], k=JEV_FEW_SHOT,
         )
+    votes: list[dict | None] = []
+    for vote_i in range(JEV_VOTE_COUNT):
+        def stamped(payload: dict, api_key: str, timeout: float = JEV_TIMEOUT, *, _vote=vote_i):
+            payload = dict(payload)
+            state = dict(payload.get('state') or {})
+            state['vote'] = _vote + 1
+            state['category_definitions'] = definitions
+            if examples:
+                state['human_examples'] = examples
+            payload['state'] = state
+            return post(payload, api_key, timeout=timeout)
+
+        items = [(features, decision)]
+        verdicts, budget, ran = run_choice_then_noul(
+            items,
+            choice_categories=finalists,
+            instructions=JEV_DUEL_INSTRUCTIONS,
+            readme_limit=JEV_ENRICHED_README_CHARS,
+            budget=budget,
+            api_key=api_key,
+            post=stamped,
+            index=None,
+            name_to_id=name_to_id,
+            id_to_category=id_to_category,
+            allowed_ids={c['id'] for c in finalists},
+        )
+        # Inject examples into the first call via a one-off: run_choice_then_noul
+        # uses index.human_examples when index is set. We already baked examples
+        # into state through stamped() but also attach them now for the record.
+        if decision['name'] not in ran:
+            decision['reason'] = f"{decision['reason']}; round 3 vote {vote_i + 1} cap reached"
+            return budget
+        verdict = verdicts.get(decision['name'])
+        if verdict:
+            verdict = dict(verdict)
+            verdict['examples'] = examples
+        votes.append(verdict)
+    accepted = agreed_jev_votes(votes, decision, name_to_id)
+    if accepted:
+        accept_jev_pick(
+            decision,
+            name_to_id[accepted['category_name']],
+            accepted['category_name'],
+            accepted['noul'],
+            evidence_date=evidence_date,
+            how=f'round 3: {JEV_VOTE_COUNT} Jev votes agreed',
+        )
+        return budget
+    # Prefer a majority Jev category as the best available pick; otherwise the last valid vote.
+    valid_votes = [vote for vote in votes if valid_jev_category(vote, name_to_id)]
+    if valid_votes:
+        counts = Counter(vote['category_name'] for vote in valid_votes)
+        top_name, top_n = counts.most_common(1)[0]
+        chosen = valid_votes[-1]
+        if top_n >= 2:
+            chosen = next(vote for vote in reversed(valid_votes) if vote['category_name'] == top_name)
+        decision['jev_verdict'] = chosen
+    labels = []
+    for vote in votes:
+        if not vote or not vote.get('category_name'):
+            labels.append('n/a')
+            continue
+        noul = 'n/a' if vote.get('noul') is None else f"{vote['noul']:.2f}"
+        labels.append(f"{vote['category_name']} {noul}")
+    decision['reason'] = (
+        f"{decision['reason']}; round 3 votes did not agree at threshold "
+        f"({', '.join(labels)})"
+    )
+    return budget
 
 
-def unsorted_rows(snapshot: dict, catalog: dict) -> list[dict]:
+def begin_round(index: CatalogIndex, name: str, features: dict, previous: dict | None, round_n: int) -> dict:
+    decision = classify_repo(index, name, features)
+    decision['classification_rounds'] = round_n
+    prefix = f'round {round_n}'
+    if previous and previous.get('reason'):
+        decision['reason'] = f"{previous['reason']}; {prefix}: {decision['reason']}"
+        if previous.get('jev_verdict'):
+            decision['jev_verdict'] = previous['jev_verdict']
+    else:
+        decision['reason'] = f"{prefix}: {decision['reason']}"
+    return decision
+
+
+def mark_accepted(decision: dict, round_n: int) -> None:
+    decision['classification_rounds'] = round_n
+    decision['classification_confidence'] = 'high'
+    if not decision.get('review_required'):
+        decision['confidence'] = 'high'
+
+
+def classify_with_enrichment(
+    index: CatalogIndex,
+    row: dict,
+    features: dict,
+    *,
+    categories: list[dict],
+    api_key: str,
+    evidence_date: str,
+    request=None,
+    token: str = '',
+) -> tuple[dict, dict]:
+    """Up to three enrichment rounds. Stop as soon as a gate accepts a pick."""
+    name = row['name']
+    name_to_id = {category['name']: category['id'] for category in categories}
+    id_to_category = {category['id']: category for category in categories}
+    post = request or request_jev
+    used = features
+
+    # Round 1: name + description.
+    decision = begin_round(index, name, metadata_features(features), None, 1)
+    if not decision['review_required']:
+        mark_accepted(decision, 1)
+        return decision, used
+    if api_key:
+        apply_jev_second_pass(
+            [(row, metadata_features(features), decision)],
+            categories=categories,
+            api_key=api_key,
+            evidence_date=evidence_date,
+            request=post,
+            index=index,
+            finalize=False,
+            readme_limit=0,
+            include_examples=False,
+            how_prefix='round 1: ',
+        )
+        if not decision['review_required']:
+            mark_accepted(decision, 1)
+            return decision, used
+
+    # Round 2: README excerpt, topics, language, homepage.
+    if token:
+        features = ensure_enriched_features(name, token, features, row)
+    used = enriched_features(features)
+    decision = begin_round(index, name, used, decision, 2)
+    if not decision['review_required']:
+        mark_accepted(decision, 2)
+        return decision, used
+    if api_key:
+        apply_jev_second_pass(
+            [(row, used, decision)],
+            categories=categories,
+            api_key=api_key,
+            evidence_date=evidence_date,
+            request=post,
+            index=index,
+            finalize=False,
+            readme_limit=JEV_ENRICHED_README_CHARS,
+            include_examples=False,
+            how_prefix='round 2: ',
+        )
+        if not decision['review_required']:
+            mark_accepted(decision, 2)
+            return decision, used
+
+    # Round 3: finalist examples, written definitions, multiple Jev votes.
+    decision['classification_rounds'] = 3
+    if api_key:
+        run_jev_votes(
+            used,
+            decision,
+            categories=categories,
+            index=index,
+            name_to_id=name_to_id,
+            id_to_category=id_to_category,
+            api_key=api_key,
+            post=post,
+            budget=JEV_MAX_CALLS,
+            evidence_date=evidence_date,
+        )
+        if not decision['review_required']:
+            mark_accepted(decision, 3)
+            return decision, used
+
+    publish_best_available(
+        decision,
+        'all enrichment rounds exhausted; published at low confidence',
+        verdict=decision.get('jev_verdict'),
+        name_to_id=name_to_id,
+    )
+    decision['classification_rounds'] = 3
+    decision['classification_confidence'] = 'low'
+    return decision, used
+
+
+
+
+def unsorted_rows(
+    snapshot: dict, catalog: dict, *, reclassify_names: set[str] | None = None,
+) -> list[dict]:
     classified = {repo['id'] for repo in catalog['repositories']}
+    by_id = {repo['id']: repo for repo in catalog['repositories']}
+    reclassify = {name.casefold() for name in (reclassify_names or [])}
     rows = []
     seen = set()
     for row in snapshot.get('repositories', []):
         category_id = row.get('category_id')
-        if category_id != stars.UNSORTED_ID and row.get('id') in classified:
+        name = row.get('name') or ''
+        existing = by_id.get(row.get('id'))
+        force = name.casefold() in reclassify
+        if force and existing and (is_human_label(existing) or not existing.get('classification_source')):
+            raise ValueError(f'refusing to reclassify human or Sol row {name}')
+        if not force and category_id != stars.UNSORTED_ID and row.get('id') in classified:
             continue
-        key = row.get('id') or row['name']
+        key = row.get('id') or name
         if key in seen:
             continue
         seen.add(key)
         rows.append(row)
+    # Reclassify targets that are catalogued but missing from the live snapshot still run.
+    snapshot_ids = {row.get('id') for row in snapshot.get('repositories', [])}
+    for repo in catalog['repositories']:
+        if repo['name'].casefold() not in reclassify:
+            continue
+        if repo['id'] in snapshot_ids or repo['id'] in seen:
+            continue
+        if is_human_label(repo) or not repo.get('classification_source'):
+            raise ValueError(f"refusing to reclassify human or Sol row {repo['name']}")
+        rows.append({
+            'id': repo['id'],
+            'name': repo['name'],
+            'url': repo['url'],
+            'description': repo.get('description') or '',
+            'category_id': stars.UNSORTED_ID,
+            'archived': bool(repo.get('archived')),
+            'fork': bool(repo.get('fork')),
+        })
+        seen.add(repo['id'])
     rows.sort(key=lambda row: row['name'].casefold())
     return rows
 
@@ -1098,6 +1507,7 @@ def fetch_features(name: str, token: str, base: dict | None = None) -> dict:
         'description': (base or {}).get('description') or '',
         'language': '',
         'topics': [],
+        'homepage': '',
         'readme': '',
         'readme_url': '',
         'archived': bool((base or {}).get('archived')),
@@ -1122,6 +1532,7 @@ def fetch_features(name: str, token: str, base: dict | None = None) -> dict:
         features['description'] = data.get('description') or features['description']
         features['language'] = data.get('language') or ''
         features['topics'] = data.get('topics') or []
+        features['homepage'] = data.get('homepage') or ''
         features['archived'] = bool(data.get('archived'))
         features['fork'] = bool(data.get('fork'))
     readme = request_optional(f'{stars.API}/repos/{name}/readme', token)
@@ -1129,6 +1540,25 @@ def fetch_features(name: str, token: str, base: dict | None = None) -> dict:
         features['readme'] = base64.b64decode(readme['content']).decode('utf-8', 'replace')
         features['readme_url'] = readme.get('html_url') or features['url']
     return features
+
+
+def ensure_enriched_features(name: str, token: str, features: dict, base: dict | None = None) -> dict:
+    """Fill README, topics, language and homepage from GitHub when a later round needs them."""
+    out = dict(features)
+    needs = (
+        not (out.get('readme') or '').strip()
+        or not out.get('topics')
+        or not (out.get('language') or '').strip()
+        or 'homepage' not in out
+    )
+    if not token or not needs:
+        return out
+    fetched = fetch_features(name, token, base)
+    for key in ('description', 'language', 'topics', 'homepage', 'readme', 'readme_url', 'id', 'url', 'archived', 'fork', 'name'):
+        value = fetched.get(key)
+        if value not in (None, '', []):
+            out[key] = value
+    return out
 
 
 def evidence_quote(features: dict) -> str:
@@ -1180,18 +1610,30 @@ def catalog_record(row: dict, features: dict, decision: dict, *, source: str, ev
         'evidence_read_at': evidence_date,
         'classification_source': source,
     }
-    if decision['review_required'] or decision.get('confidence') == 'low' or decision.get('classification_confidence') == 'low':
+    if decision.get('classification_rounds'):
+        record['classification_rounds'] = int(decision['classification_rounds'])
+    low = (
+        decision['review_required']
+        or decision.get('confidence') == 'low'
+        or decision.get('classification_confidence') == 'low'
+    )
+    if low:
         record['review_required'] = True
         record['classification_confidence'] = 'low'
         if decision.get('review_candidates'):
             record['review_candidates'] = decision['review_candidates']
+    elif decision.get('classification_rounds') or decision.get('classification_confidence') == 'high':
+        record['classification_confidence'] = 'high'
     return record
 
 
-def insert_records(catalog: dict, records: list[dict]) -> tuple[dict, list[dict]]:
+def insert_records(
+    catalog: dict, records: list[dict], *, replace_ids: set[str] | None = None,
+) -> tuple[dict, list[dict]]:
     ids = {category['id'] for category in catalog['categories']}
     by_id = {repo['id']: repo for repo in catalog['repositories']}
     by_name = {repo['name'].casefold(): repo for repo in catalog['repositories']}
+    replace_ids = set(replace_ids or [])
     conflicts = []
     for record in records:
         if record['category'] not in ids:
@@ -1199,8 +1641,21 @@ def insert_records(catalog: dict, records: list[dict]) -> tuple[dict, list[dict]
         if record['category'] == stars.UNSORTED_ID:
             raise ValueError(f'refusing unsorted category for {record["name"]}')
         if record['id'] in by_id:
-            # Existing catalog labels always win, including human corrections.
-            continue
+            existing = by_id[record['id']]
+            if (
+                record['id'] in replace_ids
+                and not is_human_label(existing)
+                and existing.get('classification_source')
+            ):
+                catalog['repositories'] = [
+                    repo for repo in catalog['repositories'] if repo['id'] != record['id']
+                ]
+                by_id.pop(record['id'], None)
+                if existing['name'].casefold() in by_name:
+                    by_name.pop(existing['name'].casefold(), None)
+            else:
+                # Existing catalog labels always win, including human corrections.
+                continue
         name_hit = by_name.get(record['name'].casefold())
         if name_hit:
             conflicts.append({
@@ -1246,54 +1701,55 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
     lines = [
         '## Classify unsorted GitHub stars',
         '',
-        'Deterministic nearest-neighbour classifier against existing `catalog.json` rows and documented domain rules. Low-confidence rows may get a TypeSafe System One (Jev) second pass. No new category. The classify workflow squash-merges this rolling PR after validation. It does not turn on GitHub auto merge as a repository setting.',
+        'Deterministic nearest-neighbour classifier against existing `catalog.json` rows and documented domain rules. Rows below the accept thresholds go through up to three enrichment rounds (name and description; then README excerpt, topics, language and homepage; then human examples, category definitions and three Jev votes) and stop as soon as a gate accepts a pick. No new category. The classify workflow squash-merges this rolling PR after validation. It does not turn on GitHub auto merge as a repository setting.',
         '',
         f'Classifier: `{CLASSIFIER_ID}`. Jev model: `{JEV_MODEL}`. Source run: {source}.',
         '',
-        '| Repository | Category | Confidence | Jev | Reason |',
-        '| --- | --- | --- | --- | --- |',
+        '| Repository | Category | Confidence | Rounds | Jev | Reason |',
+        '| --- | --- | --- | --- | --- | --- |',
     ]
     for decision in decisions:
         if decision.get('skipped'):
             reason = decision['reason'].replace('|', '/')
-            lines.append(f"| `{decision['name']}` | skipped | — | — | {reason} |")
+            lines.append(f"| `{decision['name']}` | skipped | — | — | — | {reason} |")
             continue
-        confidence = decision['confidence']
+        confidence = decision.get('classification_confidence') or decision['confidence']
         if decision['review_required'] or decision.get('confidence') == 'low':
             names = ' vs '.join(decision.get('review_candidate_names') or [])
             confidence = 'low · needs review'
             if names:
                 confidence += f' ({names})'
+        rounds = decision.get('classification_rounds') or '—'
         reason = decision['reason'].replace('|', '/')
         category = decision['category_name'] or '—'
         lines.append(
-            f"| `{decision['name']}` | {category} | {confidence} | {jev_cell(decision)} | {reason} |"
+            f"| `{decision['name']}` | {category} | {confidence} | {rounds} | {jev_cell(decision)} | {reason} |"
         )
     decided = [row for row in decisions if row.get('jev') == 'decided']
     needs_review = [row for row in decisions if row.get('review_required') and not row.get('skipped')]
     lines.extend([
         '',
-        'Jev auto-accepts a low-confidence row only on classifier agreement (`confident >= 0.65`) or a high override (`>= 0.8`). Otherwise a top-2 finalists duel runs (`>= 0.7`). If those gates do not accept a pick, the best available existing category is still published (Jev duel winner if Jev answered, otherwise the classifier top-1) and tagged `classification_confidence: low` for later review. Human labels always win over automatic picks. No new category is created.',
+        'Each below-threshold row can use up to three enrichment rounds before a pick is published. Jev auto-accepts on classifier agreement (`confident >= 0.65`) or a high override (`>= 0.8`); otherwise a top-2 finalists duel runs (`>= 0.7`). Round 3 accepts only when three Jev votes agree on an existing category and each meets the duel threshold. If every round fails, the best available existing category is still published (Jev duel winner if Jev answered, otherwise the classifier top-1) and tagged `classification_confidence: low` for later review. `classification_rounds` records how far the loop ran. Human labels always win over automatic picks. No new category is created. Jev is called only for new or explicitly reclassified unsorted rows; identical requests are cached so a 10-minute re-run does not repeat them.',
         '',
-        '## Jev second pass',
+        '## Enrichment loop',
         '',
-        'Only low-confidence `star-catalog-nn-v2` rows are sent to TypeSafe System One. Jev cannot create a category. A missing `TYPESAFE_API_KEY` or API error still publishes the classifier top-1 at low confidence.',
+        'Only below-threshold `star-catalog-nn-v2` rows are sent to TypeSafe System One. Jev cannot create a category. A missing `TYPESAFE_API_KEY` or API error still publishes the best available pick at low confidence after the classifier enrichment rounds.',
         '',
         f'- Jev decided (review cleared): {len(decided)}',
         f'- Published with low confidence (needs review): {len(needs_review)}',
         '',
-        '| Repository | Jev | Final category |',
-        '| --- | --- | --- |',
+        '| Repository | Jev | Rounds | Final category |',
+        '| --- | --- | --- | --- |',
     ])
     for decision in decisions:
         if decision.get('skipped') or not (decision.get('jev') or decision.get('review_required')):
             continue
         final = decision.get('category_name') or '—'
         lines.append(
-            f"| `{decision['name']}` | {jev_cell(decision)} | {final} |"
+            f"| `{decision['name']}` | {jev_cell(decision)} | {decision.get('classification_rounds') or '—'} | {final} |"
         )
     if not decided and not needs_review:
-        lines.append('| — | — | no low-confidence rows |')
+        lines.append('| — | — | — | no low-confidence rows |')
     if needs_review:
         lines.extend([
             '',
@@ -1301,13 +1757,13 @@ def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] 
             '',
             'These rows are published in an existing category and tagged `classification_confidence: low` so they can be corrected later. They are not left unsorted.',
             '',
-            '| Repository | Category | Candidates |',
-            '| --- | --- | --- |',
+            '| Repository | Category | Rounds | Candidates |',
+            '| --- | --- | --- | --- |',
         ])
         for decision in needs_review:
             names = ' vs '.join(decision.get('review_candidate_names') or [])
             lines.append(
-                f"| `{decision['name']}` | {decision.get('category_name') or '—'} | {names or '—'} |"
+                f"| `{decision['name']}` | {decision.get('category_name') or '—'} | {decision.get('classification_rounds') or '—'} | {names or '—'} |"
             )
     lines.extend([
         '',
@@ -1355,19 +1811,30 @@ def classify_unsorted(
     hold_out: set[str] | None = None,
     typesafe_api_key: str | None = None,
     jev_request=None,
+    jev_cache_path: Path | None = None,
+    reclassify_names: set[str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
-    rows = unsorted_rows(snapshot, catalog)
-    index = CatalogIndex(catalog, hold_out=hold_out)
+    rows = unsorted_rows(snapshot, catalog, reclassify_names=reclassify_names)
+    held = set(hold_out or [])
+    held.update(row['name'] for row in rows)
+    held.update(row['id'] for row in rows if row.get('id'))
+    index = CatalogIndex(catalog, hold_out=held)
     decisions = []
     classified: list[tuple[dict, dict, dict]] = []
     source = classification_source()
     evidence_date = os.environ.get('EVIDENCE_DATE') or dt.date.today().isoformat()
     api_key = typesafe_api_key if typesafe_api_key is not None else (os.environ.get('TYPESAFE_API_KEY') or '')
+    post = jev_request or request_jev
+    if jev_cache_path is not None:
+        post = JevResponseCache(jev_cache_path, post)
     for row in rows:
         name = row['name']
         features = (features_by_name or {}).get(name)
         if features is None:
-            features = fetch_features(name, token, row)
+            # Round 1 can start from the snapshot; GitHub enrichment happens in round 2.
+            features = fetch_features(name, '', row)
+            if token and not (features.get('description') or ''):
+                features = fetch_features(name, token, row)
         else:
             merged = fetch_features(name, '', row)
             merged.update({key: value for key, value in features.items() if value not in (None, '', [])})
@@ -1389,19 +1856,20 @@ def classify_unsorted(
                 'skipped': True,
             })
             continue
-        decision = classify_repo(index, name, features)
+        decision, used_features = classify_with_enrichment(
+            index,
+            row,
+            features,
+            categories=catalog['categories'],
+            api_key=api_key,
+            evidence_date=evidence_date,
+            request=post,
+            token=token if not features_by_name else '',
+        )
         if decision['category'] not in index.categories:
             raise ValueError(f"classifier invented category {decision['category']}")
         decisions.append(decision)
-        classified.append((row, features, decision))
-    apply_jev_second_pass(
-        classified,
-        categories=catalog['categories'],
-        api_key=api_key,
-        evidence_date=evidence_date,
-        request=jev_request,
-        index=index,
-    )
+        classified.append((row, used_features, decision))
     records = []
     for row, features, decision in classified:
         if decision['category'] not in index.categories:
@@ -1425,10 +1893,28 @@ def main() -> int:
     parser.add_argument('--pr-body', type=Path, help='Write the rolling PR markdown table')
     parser.add_argument('--apply', action='store_true', help='Write catalog.json and regenerate the export')
     parser.add_argument('--offline', action='store_true', help='Do not call the GitHub API')
+    parser.add_argument(
+        '--cache',
+        type=Path,
+        default=DEFAULT_JEV_CACHE,
+        help='JSON cache for identical Jev requests (never stores the API key)',
+    )
+    parser.add_argument(
+        '--no-cache',
+        action='store_true',
+        help='Do not read or write the Jev response cache',
+    )
+    parser.add_argument(
+        '--reclassify',
+        action='append',
+        default=[],
+        help='Re-run the enrichment loop on an existing automatic catalog row (repeatable)',
+    )
     args = parser.parse_args()
     catalog = json.loads(args.catalog.read_text(encoding='utf-8'))
     snapshot = json.loads((args.output_dir / 'stars.json').read_text(encoding='utf-8'))
-    rows = unsorted_rows(snapshot, catalog)
+    reclassify_names = {name.strip() for name in args.reclassify if name.strip()}
+    rows = unsorted_rows(snapshot, catalog, reclassify_names=reclassify_names)
     if not rows:
         print('No unsorted public stars.')
         if args.pr_body:
@@ -1442,25 +1928,37 @@ def main() -> int:
         token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN') or ''
         if not token and not features_by_name:
             parser.error('GH_TOKEN or GITHUB_TOKEN is required unless --offline / --features-json is used')
+    replace_ids = set()
+    if reclassify_names:
+        for repo in catalog['repositories']:
+            if repo['name'] in reclassify_names:
+                replace_ids.add(repo['id'])
     decisions, records = classify_unsorted(
         catalog,
         snapshot,
         features_by_name=features_by_name,
         token=token,
         typesafe_api_key=os.environ.get('TYPESAFE_API_KEY') or '',
+        jev_cache_path=None if args.no_cache else args.cache,
+        reclassify_names=reclassify_names,
     )
     for decision in decisions:
         if decision.get('skipped'):
             print(f"{decision['name']}: skipped — {decision['reason']}")
             continue
         flag = ' review' if decision['review_required'] else ''
-        print(f"{decision['name']}: {decision['category_name']} ({decision['confidence']}{flag}) — {decision['reason']}")
+        rounds = decision.get('classification_rounds')
+        round_txt = f', {rounds} round{"s" if rounds != 1 else ""}' if rounds else ''
+        print(
+            f"{decision['name']}: {decision['category_name']} "
+            f"({decision['confidence']}{flag}{round_txt}) — {decision['reason']}"
+        )
     if not args.apply:
         body = render_pr_body(decisions, source=classification_source())
         if args.pr_body:
             args.pr_body.write_text(body, encoding='utf-8')
         return 0
-    _, conflicts = insert_records(catalog, records)
+    _, conflicts = insert_records(catalog, records, replace_ids=replace_ids)
     body = render_pr_body(decisions, source=classification_source(), conflicts=conflicts)
     if args.pr_body:
         args.pr_body.write_text(body, encoding='utf-8')
