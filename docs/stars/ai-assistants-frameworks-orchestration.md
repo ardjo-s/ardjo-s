@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**102 repositories.** [Browse all categories →](README.md)
+**103 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -21,6 +21,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui): Typescript/React Library for AI Chat 💬🚀.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) · review needed: AI that sees your screen, listens to your conversations and tells you what to do.
 - [browserbase/bell-stack](https://github.com/browserbase/bell-stack): BELL: the open source personal assistant powered by Browserbase, Stripe, Vercel, and Linq.
+- [Budibase/budibase](https://github.com/Budibase/budibase) · review needed: AI agents, automations and apps that run your operations.
 - [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native): A framework for building agentic apps.
 - [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) · review needed: Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.
 - [bytedance/deer-flow](https://github.com/bytedance/deer-flow): An open-source long-horizon SuperAgent harness that researches, codes, and creates.

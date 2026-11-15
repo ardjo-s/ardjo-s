@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**118 repositories.** [Browse all categories →](README.md)
+**124 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -75,11 +75,13 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): 🪨 why use many token when few token do trick.
 - [kitze/council](https://github.com/kitze/council): 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
 - [kitze/skillbox](https://github.com/kitze/skillbox): Self-hosted, versioned skills library for AI agents.
+- [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines) · review needed: Programming style, best practices, and coding conventions.
 - [kunchenguid/axi](https://github.com/kunchenguid/axi) · review needed: Design principles for agent ergonomics.
 - [Lap-Platform/LAP](https://github.com/Lap-Platform/LAP): Your agents are guessing at APIs.
 - [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy): Anti-laziness skill for AI agents.
 - [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt): A collection of GPT system prompts and various prompt injection/leaking knowledge.
 - [mattpocock/skills](https://github.com/mattpocock/skills): Skills for Real Engineers.
+- [memvid/memvid](https://github.com/memvid/memvid) · review needed: Memory layer for AI Agents.
 - [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents): 197 production-ready AI agent templates for OpenClaw.
 - [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices): Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.
 - [michaelshimeles/rstack](https://github.com/michaelshimeles/rstack): Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops.
@@ -110,21 +112,25 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [revfactory/harness](https://github.com/revfactory/harness) · review needed: A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) · archived · review needed: Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills): A selection of personal Cursor agents/commands/rules/skills that I use for my work.
+- [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) · review needed: A bunch of lints to catch common mistakes and improve your Rust code.
 - [ryana/jevify](https://github.com/ryana/jevify): Prompts to jev-ify your projects.
 - [secemp9/goal](https://github.com/secemp9/goal) · review needed: /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn): shadcn/ui, but for building agents.
 - [shadcn/improve](https://github.com/shadcn/improve): Use your most capable model to audit your codebase and write plans for cheaper models to execute.
 - [Shpigford/chops](https://github.com/Shpigford/chops): Your AI agent skills, finally organized.
 - [slavingia/skills](https://github.com/slavingia/skills): Based on The Minimalist Entrepreneur by Sahil Lavingia.
+- [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins) · review needed: Starred repository.
 - [standardagents/spec](https://github.com/standardagents/spec): Standard Agent Specification — an open-source standard for creating portable, composable, domain-specific agents.
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack): The agent skills I use every day.
 - [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli): Make Every Team AI Native.
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) · review needed: autonomous harness engineering.
 - [tokensize/skills](https://github.com/tokensize/skills): Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) · review needed: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code.
 - [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) · review needed: Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · review needed: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) · review needed: A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) · review needed: A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills): The awesome collection of OpenClaw skills.
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · review needed: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0.

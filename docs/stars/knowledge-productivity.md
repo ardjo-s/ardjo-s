@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**122 repositories.** [Browse all categories →](README.md)
+**140 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) · review needed: :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 - [A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme](https://github.com/A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme): Dépôt de code du "Dictionnaire amoureux du franco maximalisme technologique".
 - [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) · archived: 🖥 📊 🕹 🛠 A curated list of command line apps.
 - [agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat) · review needed: Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.
@@ -21,6 +22,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [AppFlowy-IO/AppFlowy-Cloud](https://github.com/AppFlowy-IO/AppFlowy-Cloud) · archived · review needed: Bring projects, wikis, and teams together with AI.
 - [ARahim3/DigUp](https://github.com/ARahim3/DigUp) · review needed: Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code.
 - [ardjo-s/ardjo-s](https://github.com/ardjo-s/ardjo-s) · review needed: Starred repository.
+- [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources): Learn System Design concepts and prepare for interviews using free resources.
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) · review needed: A curated list of awesome Go frameworks, libraries and software.
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin): A curated list of amazingly awesome open-source sysadmin resources.
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) · review needed: ObsidianOS - Work Vault.
 - [bholmesdev/hubble.md](https://github.com/bholmesdev/hubble.md): The best notepad for you and your agents.
@@ -37,10 +41,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [convos-chat/convos](https://github.com/convos-chat/convos): Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.
 - [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice): Free, open-source AI Office suite (Word, Excel, PowerPoint, PDF, Markdown) — macOS build, one-click install.
 - [croffasia/itsaplan](https://github.com/croffasia/itsaplan): ⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane.
+- [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook): This is a repo with links to everything you'd ever want to learn about data engineering.
 - [davidmyersdev/octo](https://github.com/davidmyersdev/octo): A local-first knowledge management app.
 - [Devlaner/devlane](https://github.com/Devlaner/devlane): Open-source Jira, Linear, Monday, ClickUp and Plane alternative.
 - [DioxusLabs/awesome-dioxus](https://github.com/DioxusLabs/awesome-dioxus) · review needed: An awesome list of Dioxus-related content and resources.
 - [DivePADI/InboxZeroTokens](https://github.com/DivePADI/InboxZeroTokens) · review needed: Your AI agents stop paying to check empty inboxes.
+- [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) · review needed: 🐬 A collection of awesome resources for the Flipper Zero device.
 - [dontriskit/awesome-ai-software-engineering](https://github.com/dontriskit/awesome-ai-software-engineering) · review needed: Starred repository.
 - [EfficientStreet/youtube-subscriptions-ingest](https://github.com/EfficientStreet/youtube-subscriptions-ingest): Pull YouTube subscription metadata into a real cross-linked knowledge graph in your second-brain vault.
 - [element-hq/element-call](https://github.com/element-hq/element-call): Group calls powered by Matrix.
@@ -60,17 +66,22 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox): Open source Inbox for the official WhatsApp Cloud API.
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) · review needed: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
 - [gr8rstudio/gr8r-studio](https://github.com/gr8rstudio/gr8r-studio): Gr8r Studio: a calm, structured project management workspace.
+- [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books) · review needed: :books: Find your next book to read!.
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
 - [hieunc229/mailflare-macos](https://github.com/hieunc229/mailflare-macos): Email client for macOS.
 - [hjunhuh/awesome-rust](https://github.com/hjunhuh/awesome-rust) · fork · review needed: A curated list of Rust code and resources.
+- [HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm) · review needed: AutoSwarm: Unify All Your Agents.
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): DeepTutor: Lifelong Personalized Tutoring.
+- [iliyami/MacSai](https://github.com/iliyami/MacSai) · review needed: Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner.
 - [inline-chat/inline](https://github.com/inline-chat/inline): Inline is the chat app you always wanted.
 - [ionutdecebal/rsvpnano](https://github.com/ionutdecebal/rsvpnano): Starred repository.
 - [ItsssssJack/SlopMonster](https://github.com/ItsssssJack/SlopMonster) · review needed: Turn AI-written copy into copy a human would ship.
 - [iwe-org/iwe](https://github.com/iwe-org/iwe): Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents.
 - [jasonkneen/codefolio](https://github.com/jasonkneen/codefolio): Starred repository.
 - [jasonkneen/stacks](https://github.com/jasonkneen/stacks): Stacks -- an infinite imaginative canvas.
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) · review needed:  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
 - [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow): The automatic work journal/time tracker.
+- [jnv/lists](https://github.com/jnv/lists) · review needed: The definitive list of lists (of lists) curated on GitHub and elsewhere.
 - [joelbqz/writer-computer](https://github.com/joelbqz/writer-computer): Local-first desktop markdown editor.
 - [kanwas-ai/kanwas](https://github.com/kanwas-ai/kanwas): Kanwas — Shared context board for teams and agents.
 - [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep): A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.
@@ -81,12 +92,16 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook): An Open Source implementation of Notebook LM with more flexibility and features.
 - [linuz90/gists.sh](https://github.com/linuz90/gists.sh) · review needed: Starred repository.
 - [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes): Notes of the book System Desgin Interview - An Insider's Guide.
+- [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) · review needed: :gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources.
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job): A curated list of awesome remote jobs and resources.
 - [macro-inc/macro](https://github.com/macro-inc/macro): Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
 - [maillab/cloud-mail](https://github.com/maillab/cloud-mail): An all-in-one email service platform powered by Cloudflare  | 基于 Cloudflare 的一站式邮箱服务平台  | Cloudflare Email 邮箱 Mail.
 - [makeplane/plane](https://github.com/makeplane/plane): 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.
 - [mandgie/minne](https://github.com/mandgie/minne): Starred repository.
+- [markets/awesome-ruby](https://github.com/markets/awesome-ruby) · review needed: 💎 A collection of awesome Ruby libraries, tools, frameworks and software.
 - [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) · review needed: AI coding jargon, explained in plain English.
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library): My library of resources about AI.
+- [mhadidg/software-architecture-books](https://github.com/mhadidg/software-architecture-books) · review needed: A comprehensive list of books on Software Architecture.
 - [michaelshimeles/bible](https://github.com/michaelshimeles/bible): A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks.
 - [michaelwilhelmsen/humla](https://github.com/michaelwilhelmsen/humla): Open-source AI meeting notes for Mac.
 - [mvanhorn/printing-press-library](https://github.com/mvanhorn/printing-press-library) · review needed: Official library of CLIs generated by the CLI Printing Press.
@@ -107,6 +122,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [puang59/nuza](https://github.com/puang59/nuza): a lightning-fast, privacy-first, and fully open-source alternative to obsidian.
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) · review needed: A collective list of free APIs.
 - [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) · review needed: Feedback/Issue tracker for Octarine - The private, markdown note taker.
+- [rami-maalouf/multiplexer](https://github.com/rami-maalouf/multiplexer) · review needed: self-host your own beeper.
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria): Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) · archived: An ADHD-friendly note-taking app where your notes disappear—on purpose.
 - [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind): Starred repository.
@@ -116,6 +132,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [scopeclient/scope](https://github.com/scopeclient/scope): discord client for power users.
 - [Shpigford/clearly](https://github.com/Shpigford/clearly): Markdown editor for Mac, iOS and iPadOS.
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome): 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones].
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs): :zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY].
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) · review needed: A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads): Starred repository.
 - [TfTHacker/group-enhancer-for-bases](https://github.com/TfTHacker/group-enhancer-for-bases): Enhances the base functionality of bases group features.
@@ -131,5 +148,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [xaelophone/hermes](https://github.com/xaelophone/hermes): Markdown editor with intelligence.
 - [xykong/flux-markdown](https://github.com/xykong/flux-markdown) · review needed: Markdown Preview Enhanced for macOS QuickLook.
 - [ywEdAi/OpenLanguageKit](https://github.com/ywEdAi/OpenLanguageKit): Knowledge layer for building language-learning apps: knowledge points for English, Japanese and Chinese, pedagogical primitives, building blocks and a blueprint planner.
+- [zachlatta/freeflow](https://github.com/zachlatta/freeflow): Free &amp; fast alternative to Wispr Flow.
 - [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily): Privacy-first AI meeting note taker for Windows, macOS and Linux.
 - [zilvestro/grammai](https://github.com/zilvestro/grammai): AI writing assistance.

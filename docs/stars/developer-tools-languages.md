@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**56 repositories.** [Browse all categories →](README.md)
+**61 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,6 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) · review needed: A collection of tips to help take your CSS skills pro.
 - [astral-sh/uv](https://github.com/astral-sh/uv): An extremely fast Python package and project manager, written in Rust.
 - [BennettSchwartz/GithubCommitsLeaderboard](https://github.com/BennettSchwartz/GithubCommitsLeaderboard) · review needed: A public leaderboard tracking all-time commit contributions across GitHub.
+- [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) · review needed: Must-watch videos about javascript.
 - [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow): Paste any GitHub URL → interactive architecture map.
 - [CarterT27/scion](https://github.com/CarterT27/scion): Implementation of Anthropic's version control system.
 - [cli/cli](https://github.com/cli/cli) · review needed: GitHub’s official command line tool.
@@ -32,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty): 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 - [git/git](https://github.com/git/git): Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/).
 - [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler): The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte.
+- [github/docs](https://github.com/github/docs) · review needed: The open-source repo for docs.github.com.
 - [harshkedia177/axon](https://github.com/harshkedia177/axon): Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!.
 - [indexable-inc/blaze](https://github.com/indexable-inc/blaze): Incremental rust builds up to 92x faster than cargo/rustc.
@@ -40,6 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kitlangton/stack](https://github.com/kitlangton/stack): Starred repository.
 - [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes): git push no-mistakes.
 - [lewagon/setup](https://github.com/lewagon/setup): Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.
+- [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) · review needed: A curated list of awesome READMEs.
 - [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) · review needed: Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript): TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 - [modem-dev/hunk](https://github.com/modem-dev/hunk): Review-first terminal diff viewer for agentic coders.
@@ -58,11 +61,13 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [steipete/ReleaseBar](https://github.com/steipete/ReleaseBar): Release freshness dashboard for open source maintainers.
 - [steipete/RepoBar](https://github.com/steipete/RepoBar): Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release.
 - [stencil-hq/dquickts](https://github.com/stencil-hq/dquickts): QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process.
+- [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) · review needed: 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources.
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet): A list of cool features of Git and GitHub.
 - [tmux/tmux](https://github.com/tmux/tmux): tmux source code.
 - [tobi/try](https://github.com/tobi/try): fresh directories for every vibe.
 - [tt-a1i/archify](https://github.com/tt-a1i/archify) · review needed: Turn any idea, plan, or codebase into a beautiful interactive diagram.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) · review needed: Replace port numbers with stable, named local URLs.
+- [vuejs/core](https://github.com/vuejs/core) · review needed: 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 - [xevrion/peek-a-repo](https://github.com/xevrion/peek-a-repo): Peek inside GitHub files and folders without clicking.
 - [y-s-z/Arcforge](https://github.com/y-s-z/Arcforge): Open source Architecture design IDE for building and visualizing backend logic.
 - [zed-industries/zed](https://github.com/zed-industries/zed): Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.

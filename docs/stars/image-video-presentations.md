@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**102 repositories.** [Browse all categories →](README.md)
+**114 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -32,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cporter202/automate-faceless-content](https://github.com/cporter202/automate-faceless-content): Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook &amp; Instagram on autopilot — from idea → script → video → scheduled posts.
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW): A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
 - [dmtrKovalenko/fframes](https://github.com/dmtrKovalenko/fframes): programmatic video rendering framework that is actually fast.
+- [dream-num/univer](https://github.com/dream-num/univer): Build your own AI office with Univer Office SDK.
 - [drowzeys/Imagination-Studio-by-keys-Wasserman](https://github.com/drowzeys/Imagination-Studio-by-keys-Wasserman): Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark.
 - [dtinth/superwhite](https://github.com/dtinth/superwhite): display a very bright white color on HDR-enabled displays.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot): Create Reddit Videos with just✨ one command ✨.
@@ -45,12 +46,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [heyderekj/dinky](https://github.com/heyderekj/dinky): Dinky makes files smaller.
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes): Write HTML.
 - [heygen-com/hyperframes-launch-video](https://github.com/heygen-com/hyperframes-launch-video): Starred repository.
+- [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd): A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources.
 - [Hugo-Dz/spritefusion-sprite-normals](https://github.com/Hugo-Dz/spritefusion-sprite-normals): A tool to generate normal maps from any sprite and animated sprite sheet.
 - [hypit-ai/hypit](https://github.com/hypit-ai/hypit): Clone any viral video with AI agents.
 - [ideogram-oss/ideogram4](https://github.com/ideogram-oss/ideogram4): Ideogram 4: Open image model at the forefront of design.
 - [iina/iina](https://github.com/iina/iina): The modern video player for macOS.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) · review needed: Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow): JJ's special video production workflow for programatic editing.
+- [jub0t/Concat](https://github.com/jub0t/Concat): Beta: The truly free, open-source, local-first, cross-platform video editor.
 - [JuneYaooo/capsule-cinema](https://github.com/JuneYaooo/capsule-cinema): 把视频做成模版，一次配方无限视频 · Turn videos into templates.
 - [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
@@ -81,12 +84,15 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [paulmil11/decks](https://github.com/paulmil11/decks): Agent-first slide decks: comment under a slide, and your coding agent (Claude Code or Codex) makes the change and replies on the slide.
 - [pbakaus/radiant](https://github.com/pbakaus/radiant): A curated collection of generative shader art.
 - [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images): A curated collection of fun and creative examples generated with Nano Banana &amp; Nano Banana Pro🍌, Gemini-2.5-flash-image based model.
+- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 - [prajvis/creative-plugins](https://github.com/prajvis/creative-plugins) · review needed: Creative Work Plugins.
 - [presenton/presenton](https://github.com/presenton/presenton): Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative).
+- [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen) · review needed: Infinite Photorealistic Worlds using Procedural Generation.
 - [rabidgremlin/affinity-scripting](https://github.com/rabidgremlin/affinity-scripting) · review needed: Some scripts to interact with the Affinity MCP and scriping.
 - [raph651/open-source-canvas](https://github.com/raph651/open-source-canvas): Open Source Canvas: an open-source node canvas that runs ComfyUI workflows.
 - [Remocn/remocn](https://github.com/Remocn/remocn): Production-ready animations, transitions, backgrounds, and scenes for Remotion.
 - [Remocn/remocn-studio](https://github.com/Remocn/remocn-studio): Agent-native video editor.
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion): 🎥      Make videos programmatically with React.
 - [rinkitadhana/openside](https://github.com/rinkitadhana/openside): Open-source, self-hostable recording studio for podcasts, meetings, and interviews.
 - [rjmahesh/ui-redline-walkthrough](https://github.com/rjmahesh/ui-redline-walkthrough): Claude skill: turn before/after UI screenshots into an animated redline walkthrough video (red ink marks, morphing UI, MP4 export).
 - [robbietilton/Compositor](https://github.com/robbietilton/Compositor): The Photoshop alternative for Mac.
@@ -96,15 +102,19 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shadcn-labs/ogimagecn](https://github.com/shadcn-labs/ogimagecn): Beautiful Open Graph image components, built on Satori.
 - [shadcn-labs/snapcn](https://github.com/shadcn-labs/snapcn): A shadcn registry of Remotion components for product demo videos.
 - [ShivaBhattacharjee/Tokokino](https://github.com/ShivaBhattacharjee/Tokokino): Browser-based screenshot &amp; video beautifier — backgrounds, device frames, shadows, text and annotations, exported on-device as PNG, WebP, or MP4.
+- [sozercan/kaset](https://github.com/sozercan/kaset): 📼 The missing YouTube and YouTube Music macOS app.
+- [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai): A curated list of modern Generative Artificial Intelligence projects and services.
 - [storytold/artcraft](https://github.com/storytold/artcraft): ArtCraft is an intentional crafting engine for artists, designers, and filmmakers.
 - [storytold/photocraft](https://github.com/storytold/photocraft): PhotoCraft: An open-source photo editor written from scratch in pure Rust.
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP): Starred repository.
+- [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) · review needed: Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
 - [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts): Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
 - [TheOrcDev/videorc](https://github.com/TheOrcDev/videorc): Open-source multistream studio and screen recorder for Mac: go live on 6+ platforms free, record in 4K, publish with AI.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny): An agent native video creation pipeline that runs on top of Hermes Agent.
 - [upscayl/upscayl](https://github.com/upscayl/upscayl): 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.
 - [veedstudio/open-edit](https://github.com/veedstudio/open-edit): Open-source, agent-driven editing pipeline: create subtitles, motion graphics, slides, edit and render videos.
 - [vercel/satori](https://github.com/vercel/satori): Enlightened library to convert HTML and CSS to SVG.
+- [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft): AI video skill for Claude Code &amp; Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench &amp; JianYing (CapCut CN) export.
 - [wassgha/rescript](https://github.com/wassgha/rescript): 🎬 Open source, transcript-based video/audio editor that lives in the browser.
 - [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly): Create polished demo videos without editing skills.
 - [wevm/ondine](https://github.com/wevm/ondine): Fast and simple diagrams.
@@ -113,3 +123,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [yoheinakajima/graphcon-deck](https://github.com/yoheinakajima/graphcon-deck) · review needed: Starred repository.
 - [yossdotpro/removerized](https://github.com/yossdotpro/removerized): AI Image Toolkit that runs fully in your browser — free, private, and offline-first.
 - [YouMind-OpenLab/awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts): 🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages.
+- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) · review needed: Your GeForce runs AI at half speed.
+- [zhoy0409-debug/polish-sci-figures](https://github.com/zhoy0409-debug/polish-sci-figures): Scientific figure toolkit and Figure Studio: editable templates, local statistics, multi-panel editing and SVG/PNG/TIFF export, with skills for Codex and Claude.

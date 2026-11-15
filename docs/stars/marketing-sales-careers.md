@@ -2,7 +2,7 @@
 
 > Marketing, SEO, sales, customer relationships, recruiting and careers.
 
-**47 repositories.** [Browse all categories →](README.md)
+**49 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [AdityaUmale/rea-brand](https://github.com/AdityaUmale/rea-brand): Reverse-engineer anyone's personal brand: when they grew, what content wins, how they make money, and 10 plays to copy.
 - [adkit/ads-skills](https://github.com/adkit/ads-skills): Claude skills to run ads: advertising &amp; marketing strategy, campaign structure, targeting, creative, and budgets for Google Ads, Meta Ads, TikTok &amp; more.
+- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) · review needed: Universal SEO skill for Claude Code.
 - [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search): The job search that runs on your machine.
 - [AienTech/dossier](https://github.com/AienTech/dossier): A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.
 - [appeeky/ua-skills](https://github.com/appeeky/ua-skills): Agent skills for mobile app paid growth powered by real-time data with APPEEKY MCP.
@@ -46,6 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mautic/mautic](https://github.com/mautic/mautic): Mautic: Open Source Marketing Automation Software.
 - [mddanishyusuf/traffic-source](https://github.com/mddanishyusuf/traffic-source) · review needed: Open-source web analytics you deploy in one click.
 - [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill): Starred repository.
+- [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) · review needed: :page_facing_up: Awesome CV is LaTeX template for your outstanding job application.
 - [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume): A one-of-a-kind resume builder that keeps your privacy in mind.
 - [romangojiberryAI/gojiberryai-sales-os](https://github.com/romangojiberryAI/gojiberryai-sales-os): GojiberryAI Sales OS: a full AI outbound team for Grok Bot, powered by the GojiberryAI MCP.
 - [santmun/forja](https://github.com/santmun/forja) · review needed: Chatbot de IA self-hosted para WhatsApp, Instagram y Telegram en tu propia Cloudflare.

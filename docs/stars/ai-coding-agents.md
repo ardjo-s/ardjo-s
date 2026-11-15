@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**93 repositories.** [Browse all categories →](README.md)
+**95 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -63,6 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [loperanger7/gstack-auto](https://github.com/loperanger7/gstack-auto): Semi-Autonomous gstack Orchestration: Build with a strong product spec and let Garry Tan's gstack figure out the rest.
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux): Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
 - [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle): Orchestrate sandboxed coding agents in TypeScript with sandcastle.run().
+- [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) · review needed: Protect your SSH keys with your Mac's Secure Enclave.
 - [migasrias2/geckobox](https://github.com/migasrias2/geckobox): Run Claude Code, Codex or any coding agent on any of your computers, and jobs across all of them at once.
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe): Expo app that builds Expo apps.
 - [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) · archived · review needed: [Archived] Legacy Python Kimi CLI, no longer maintained.
@@ -82,6 +83,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) · review needed: Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code): The best way to control Claude Code, Codex and more from any computer or phone.
 - [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents): Pixel office.
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) · review needed: An open-source AI coding agent that lives in your terminal.
 - [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk): The React Native Vibe Code SDK lets you build text to mobile &amp; web apps in seconds.
 - [rudderlabs/devbox](https://github.com/rudderlabs/devbox): Open source autonomous engineering harness in your cloud.
 - [Runfusion/Fusion](https://github.com/Runfusion/Fusion): Your Software Factory - build faster and better with multi node agents that work 24/7.

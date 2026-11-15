@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**39 repositories.** [Browse all categories →](README.md)
+**40 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -28,6 +28,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex): Universal provider proxy for OpenAI Codex &amp; Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code.
 - [meta-llama/llama](https://github.com/meta-llama/llama) · review needed: Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet): Official inference framework for 1-bit LLMs.
+- [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) · review needed: List of Permanent Free LLM API  (API Keys).
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api): Starred repository.
 - [mw00/project-maya](https://github.com/mw00/project-maya): Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.
 - [navaneethkrishnansuresh/Inference-Engineering](https://github.com/navaneethkrishnansuresh/Inference-Engineering): Starred repository.

@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**77 repositories.** [Browse all categories →](README.md)
+**78 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [browser-use/terminal](https://github.com/browser-use/terminal): Terminal UI to get stuff done in the browser.
 - [callstack/agent-device](https://github.com/callstack/agent-device): Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.
 - [CelestoAI/celesto](https://github.com/CelestoAI/celesto): Secure and persistent computer for AI agents.
+- [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) · review needed: Chrome DevTools for coding agents.
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite): The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.
 - [cloudflare/kitesurf](https://github.com/cloudflare/kitesurf): Kitesurf is an experimental browser engine that runs on Cloudflare Workers.
 - [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity): Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs.

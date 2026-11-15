@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**142 repositories.** [Browse all categories →](README.md)
+**150 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,10 +12,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples) · review needed: 21st sdk - cookbook.
+- [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) · review needed: Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems): 💅🏻 ⚒ A collection of awesome design systems.
 - [aloksivastava1025-prog/cue-foundations](https://github.com/aloksivastava1025-prog/cue-foundations): Open-source foundational components with code and  AI prompts — from Cue's curated library.
+- [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss): 😎 Awesome things related to Tailwind CSS.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn): Beautiful map components.
 - [arla6ka/design.how](https://github.com/arla6ka/design.how): Design systems, skills and visuals for coding agents.
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit): A collection of UI interactions that make web feel more interactive.
@@ -31,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BoardUI/boardui](https://github.com/BoardUI/boardui): React design system for agentic interfaces.
 - [Boring-Software-Inc/dither-kit](https://github.com/Boring-Software-Inc/dither-kit): Composable, dithered charts for shadcn/ui — area, line, bar, pie &amp; radar.
 - [botiverse/raft-design](https://github.com/botiverse/raft-design): Raft's design system: guidelines, design tokens and raft-ui, the React components that implement them.
+- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components): Curated List of React Components &amp; Libraries.
 - [cajaun/laminar](https://github.com/cajaun/laminar): Animates changing text and numbers in React Native while preserving the identity of characters that stay on screen.
 - [chakra-ui/zag](https://github.com/chakra-ui/zag): Build your design system in React, Solid, Vue, Svelte or Vanilla.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit): The modern toolkit for building drag and drop interfaces.
@@ -43,7 +46,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ddoemonn/interior](https://github.com/ddoemonn/interior): micro-interactions for react, built for the half-second after a click.
 - [DioxusLabs/dioxus-components](https://github.com/DioxusLabs/dioxus-components): Accessible, unstyled, foundational components for Dioxus.
 - [dip/cmdk](https://github.com/dip/cmdk): Fast, unstyled command menu React component.
+- [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) · review needed: A curated list of software and architecture related design patterns.
 - [ds-spec/detent-ui](https://github.com/ds-spec/detent-ui): Premium React components you install with shadcn.
+- [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): Manually curated collection of resources for frontend web developers.
 - [emilkowalski/skills](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner): An opinionated toast component for React.
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios): A list of developer portfolios for your inspiration.
@@ -57,6 +62,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gnurio/refactoring-ui-plugin](https://github.com/gnurio/refactoring-ui-plugin): 10 applied skills for Claude Code and Cursor that turn the principles of Refactoring UI into structured AI-assisted design reviews | not affiliated, big fan, get their book here:.
 - [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools): The best design tools and plugins for everything 👉.
 - [google-labs-code/design.md](https://github.com/google-labs-code/design.md) · review needed: A format specification for describing a visual identity to coding agents.
+- [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) · review needed: Keep your coding agent up to date with the latest web best practices.
 - [harshjdhv/componentry](https://github.com/harshjdhv/componentry): Animated, production-ready UI components.
 - [heroui-inc/heroui](https://github.com/heroui-inc/heroui): 🚀 Beautiful, fast and modern React UI library.
 - [heyfabrika/styleui](https://github.com/heyfabrika/styleui): Starred repository.
@@ -114,6 +120,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pixel-point/toolcraft](https://github.com/pixel-point/toolcraft) · review needed: Build your own design apps with AI.
 - [plannotator/effective-html](https://github.com/plannotator/effective-html): Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.
 - [pmndrs/leva](https://github.com/pmndrs/leva): 🌋 React-first components GUI.
+- [qhy991/Scientific-Figure-Design](https://github.com/qhy991/Scientific-Figure-Design) · review needed: Starred repository.
 - [rami-maalouf/exact-draw](https://github.com/rami-maalouf/exact-draw): A local Excalidraw desktop editor built with Exact.
 - [recharts/recharts](https://github.com/recharts/recharts) · review needed: Redefined chart library built with React and D3.
 - [resend/react-email](https://github.com/resend/react-email) · review needed: 💌 Build and send emails using React.
@@ -146,6 +153,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [thesysdev/appless](https://github.com/thesysdev/appless) · review needed: What if your phone had no apps.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
 - [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.
+- [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite): ⚡️ A curated list of awesome things related to Vite.js.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.
 - [vora-aryan/Prestige-UI](https://github.com/vora-aryan/Prestige-UI): Animated React components and blocks for Tailwind CSS and Motion.
 - [xandemon/developer-icons](https://github.com/xandemon/developer-icons): A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.

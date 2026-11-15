@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**64 repositories.** [Browse all categories →](README.md)
+**78 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,13 +12,18 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [47ng/nuqs](https://github.com/47ng/nuqs): Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.
+- [Aidoku/Aidoku](https://github.com/Aidoku/Aidoku): Manga reading app for iOS, iPadOS, and macOS.
+- [apple/coreai-models](https://github.com/apple/coreai-models): Model export recipes, Python primitives, and Swift runtime utilities for on-device AI.
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
+- [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
 - [convex/convex-backend](https://github.com/convex/convex-backend): The open-source reactive database for app developers.
 - [daveebbelaar/bama](https://github.com/daveebbelaar/bama): BAMA: Build Any Mac App.
 - [DioxusLabs/blitz](https://github.com/DioxusLabs/blitz): A radically modular HTML/CSS rendering engine.
 - [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus): Fullstack app framework for web, desktop, and mobile.
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) · review needed: :iphone: Collaborative List of Open-Source iOS Apps.
+- [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) · archived: :octocat: A curated awesome list of lists of interview questions.
 - [Effect-TS/effect](https://github.com/Effect-TS/effect): Build production-ready applications in TypeScript.
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
@@ -30,17 +35,21 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [fastapi/fastapi](https://github.com/fastapi/fastapi): FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 - [foldkit/foldkit](https://github.com/foldkit/foldkit): Starred repository.
 - [frappe/frappe](https://github.com/frappe/frappe): Low code web framework for real world applications, in Python and Javascript.
+- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) · review needed: A collection of various awesome lists for hackers, pentesters and security researchers.
 - [hunvreus/pagescms](https://github.com/hunvreus/pagescms): The simplest CMS you'll ever need.
 - [InsForge/InsForge](https://github.com/InsForge/InsForge): The all-in-one, open-source backend platform for agentic coding.
 - [instantdb/instant](https://github.com/instantdb/instant): Instant is the best backend for AI-coded apps.
 - [ion-design/ditto.site](https://github.com/ion-design/ditto.site) · review needed: Starred repository.
+- [jbee37142/Interview_Question_for_Beginner](https://github.com/jbee37142/Interview_Question_for_Beginner): :boy: :girl: Technical-Interview guidelines written for those who started studying programming.
 - [justrach/nanoui](https://github.com/justrach/nanoui): Desktop apps in Zig, with native UI drawn on the GPU or a web frontend.
 - [kargulstudio/workflow-editor](https://github.com/kargulstudio/workflow-editor): Starred repository.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit): Create custom iOS keyboards with Swift &amp; SwiftUI.
 - [leptos-rs/leptos](https://github.com/leptos-rs/leptos): Build fast web applications with Rust.
+- [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer): Run iOS apps without actually installing them!.
 - [longbridge/gpui-fast](https://github.com/longbridge/gpui-fast): GPUI extracted from the Zed monorepo as a standalone workspace, with the layout engine reworked to keep what did not change between frames.
 - [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit): Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
 - [lukeed/clsx](https://github.com/lukeed/clsx): A tiny (239B) utility for constructing `className` strings conditionally.
+- [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) · review needed: A collaborative list of awesome Swift libraries and resources.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify): Turn TUI apps into real macOS applications.
 - [MengTo/Skills](https://github.com/MengTo/Skills) · review needed: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mintlify/starter](https://github.com/mintlify/starter) · review needed: The starter kit for your mintlify project.
@@ -62,16 +71,21 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sitepins/sitepins](https://github.com/sitepins/sitepins): The open-source Git-based headless CMS you've been looking for.
 - [software-mansion/enriched-markdown](https://github.com/software-mansion/enriched-markdown) · review needed: Multiplatform Markdown-Based Rich Text Solution.
 - [supabase/supabase](https://github.com/supabase/supabase): The Postgres development platform.
+- [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift): A handy collection of more than 500 native Swift extensions to boost your productivity.
 - [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app): The best way to start a full-stack, typesafe Next.js app.
 - [tamagui/tamagui](https://github.com/tamagui/tamagui): Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
 - [thesysdev/openui](https://github.com/thesysdev/openui) · review needed: The Open Standard for Generative UI.
 - [Thinkmill/keystatic](https://github.com/Thinkmill/keystatic): First class CMS experience, TypeScript API, Markdown &amp; YAML/JSON based, no DB.
+- [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat) · review needed: A batteries-included framework for building web apps.
+- [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) · archived · review needed: :octocat: A collection of APIs.
 - [trpc/trpc](https://github.com/trpc/trpc): 🧙‍♀️  Move Fast and Break Nothing.
+- [trymirai/uzu](https://github.com/trymirai/uzu): A high-performance inference engine for AI models.
 - [tulir/whatsmeow](https://github.com/tulir/whatsmeow): Go library for the WhatsApp web multidevice API.
 - [tw93/Pake](https://github.com/tw93/Pake): Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.
 - [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill): SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 - [vercel-labs/json-render](https://github.com/vercel-labs/json-render) · review needed: The Generative UI framework.
 - [vercel/examples](https://github.com/vercel/examples): Enjoy our curated collection of examples and solutions.
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios): A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
+- [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui): A curated list of awesome Android UI/UX libraries.
 - [whiskerrs/whisker](https://github.com/whiskerrs/whisker): Build native iOS, Android, web and desktop apps in Rust.
 - [zats/permiso](https://github.com/zats/permiso) · review needed: Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.

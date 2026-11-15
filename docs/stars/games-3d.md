@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**71 repositories.** [Browse all categories →](README.md)
+**76 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [acher249/world-every-day](https://github.com/acher249/world-every-day): every day a new world will be generated.
 - [achimala/dream-loop](https://github.com/achimala/dream-loop): Agent skill for impressive 3D visuals using Blender + image gen + subagent critic.
+- [agentgateway/agentgateway](https://github.com/agentgateway/agentgateway) · review needed: Next Generation Agentic Proxy for AI Agents and MCP servers.
 - [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender): Community plugin to control Blender 3D with any LLM of your choice.
 - [alattanzio/Box3DUnreal](https://github.com/alattanzio/Box3DUnreal): Box3DUnreal: Box3D Physics for Unreal Engine.
 - [Alchemist0823/three.quarks](https://github.com/Alchemist0823/three.quarks): Three.quarks is a general purpose particle system /  VFX engine for three.js.
@@ -23,6 +24,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal): Starred repository.
 - [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) · review needed: Tool for automatic PS5 executables porting to Linux and Windows.
 - [ByteDance-Seed/Depth-Anything-3](https://github.com/ByteDance-Seed/Depth-Anything-3): Depth Anything 3.
+- [Calinou/awesome-godot](https://github.com/Calinou/awesome-godot): A curated list of free/libre plugins, scripts and add-ons for Godot.
+- [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers): My Python scripts to make high-quality figures for publications in top AI conferences and journals.
 - [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) · review needed: MCP server for interfacing with Godot game engine.
 - [colyseus/colyseus](https://github.com/colyseus/colyseus): ⚔ Multiplayer Framework for Node.js.
 - [ConfettiFX/The-Forge](https://github.com/ConfettiFX/The-Forge): The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2.
@@ -49,9 +52,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mrdoob/three.js](https://github.com/mrdoob/three.js): JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio): Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
 - [Mugen87/yuka](https://github.com/Mugen87/yuka): JavaScript library for developing Game AI.
+- [Narcooo/inkos](https://github.com/Narcooo/inkos): Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content.
 - [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster): An image-to-world skillset for Claude.
 - [nianticlabs/spz](https://github.com/nianticlabs/spz): File format for 3D Gaussian splats.
 - [nigelhartman/worldlabs_unity](https://github.com/nigelhartman/worldlabs_unity): A Unity package for generating and rendering 3D Gaussian Splatting scenes using the WorldLabs API.
+- [nutti/fake-bpy-module](https://github.com/nutti/fake-bpy-module): Fake Blender Python API module collection for the code completion.
 - [nv-tlabs/lyra](https://github.com/nv-tlabs/lyra): Project Lyra: Open Generative 3D World Models.
 - [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW): Custom GeForce Now Client Named OpenNOW.
 - [patch-gg/anymove](https://github.com/patch-gg/anymove): Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.

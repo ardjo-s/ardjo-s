@@ -2,7 +2,7 @@
 
 > Memory, context management, semantic retrieval and RAG for AI systems.
 
-**55 repositories.** [Browse all categories →](README.md)
+**57 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) · review needed: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors.
 - [andrewyng/context-hub](https://github.com/andrewyng/context-hub): Starred repository.
 - [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) · review needed: Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents.
 - [Artistsyn/cortex_suite](https://github.com/Artistsyn/cortex_suite): Local MCP servers that give coding agents a reliable project memory.
@@ -28,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp): Local code intelligence for developers and AI agents.
 - [Einsia/OpenChronicle](https://github.com/Einsia/OpenChronicle): Starred repository.
 - [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain): Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault.
+- [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies) · review needed: Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.
 - [garrytan/gbrain](https://github.com/garrytan/gbrain): Garry's Opinionated OpenClaw/Hermes Agent Brain.
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify): Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph.
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom): Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
