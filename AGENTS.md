@@ -45,7 +45,7 @@ Never edit the README between `<!-- starred-repos-start -->` and `<!-- starred-r
 
 ## Unsorted classification loop
 
-`.github/workflows/classify-github-stars.yml` runs after a successful stars sync on `main` (and when `docs/stars/unsorted.md` is pushed). It no-ops when unsorted is empty. Otherwise `scripts/classify-github-stars.py` scores each unsorted repo from its description, topics, language and README excerpt against already-classified catalog rows plus the documented domain rules (skills follow their domain; host/cloud is not the purpose). Low-confidence picks stay classified and set `review_required` with the top two category ids.
+`.github/workflows/classify-github-stars.yml` runs after a successful stars sync on `main` (and when `docs/stars/unsorted.md` is pushed). It no-ops when unsorted is empty. Otherwise `scripts/classify-github-stars.py` scores each unsorted repo from its description, topics, language and README excerpt against already-classified catalog rows plus the documented domain rules (skills follow their domain; host/cloud is not the purpose). Domain-rule reasons fire only when the rule matches name, description or topics — not README noise. `awesome-*` lists follow their subject. Low-confidence picks stay classified and set `review_required` with the top two category ids.
 
 The job regenerates the export, runs `--check`, and opens or updates **one** rolling PR on `auto/classify-stars`. It never creates a second PR, never enables auto-merge, and never merges. Classify by hand in `catalog.json` if you disagree with a proposal.
 

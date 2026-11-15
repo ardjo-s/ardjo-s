@@ -522,6 +522,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk1ODAyODAzOA==",
+      "name": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "category": "category_19",
+      "purpose": "Signaler des projets open source d'entrée de gamme à découvrir.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/521xueweihan/HelloGitHub",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOQdLIuw",
       "name": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
@@ -592,6 +609,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOP2Xf8g",
+      "name": "a2ui-project/a2ui",
+      "url": "https://github.com/a2ui-project/a2ui",
+      "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "category": "category_11",
+      "purpose": "Générer des interfaces natives à partir de layouts envoyés par un agent.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/a2ui-project/a2ui",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOMneZ9w",
@@ -1222,6 +1256,23 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
+      "id": "R_kgDOOK1zIw",
+      "name": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "category": "category_07",
+      "purpose": "Proxifier et router les appels d'agents et de serveurs MCP.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/agentgateway/agentgateway",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOQp3VPQ",
       "name": "agentskills/agentskills",
       "url": "https://github.com/agentskills/agentskills",
@@ -1263,6 +1314,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDORKpZAg",
+      "name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "category": "category_20",
+      "purpose": "Auditer le SEO depuis Claude Code via un skill dédié.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/AgriciDaniel/claude-seo",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOSJhY4Q",
@@ -1481,6 +1549,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOGnQfvg",
+      "name": "Aidoku/Aidoku",
+      "url": "https://github.com/Aidoku/Aidoku",
+      "description": "Manga reading app for iOS, iPadOS, and macOS",
+      "category": "category_19",
+      "purpose": "Lire des mangas sur iOS, iPadOS et macOS.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Manga reading app for iOS, iPadOS, and macOS",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Aidoku/Aidoku",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOU6n8IA",
       "name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
@@ -1585,6 +1670,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSka2Jw",
+      "name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "category": "category_05",
+      "purpose": "Conserver une mémoire long terme pour les agents de code et leurs handoffs.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/akitaonrails/ai-memory",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOTWjISg",
@@ -2078,6 +2180,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDk5OTQ1NzM=",
+      "name": "aniftyco/awesome-tailwindcss",
+      "url": "https://github.com/aniftyco/awesome-tailwindcss",
+      "description": "😎 Awesome things related to Tailwind CSS",
+      "category": "category_11",
+      "purpose": "Recenser les ressources Tailwind CSS.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "😎 Awesome things related to Tailwind CSS",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/aniftyco/awesome-tailwindcss",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOJne9Sg",
       "name": "Anil-matcha/open-duet",
       "url": "https://github.com/Anil-matcha/open-duet",
@@ -2558,6 +2677,44 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOzc9Sg",
+      "name": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "category": "category_15",
+      "purpose": "Exécuter des conteneurs Linux dans des VM légères sur Mac.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/apple/container",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOS0Cuhg",
+      "name": "apple/coreai-models",
+      "url": "https://github.com/apple/coreai-models",
+      "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "category": "category_06",
+      "purpose": "Exporter et exécuter des modèles d'IA sur l'appareil.",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/apple/coreai-models",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_06",
+        "category_07"
+      ]
+    },
+    {
       "id": "R_kgDOT3FF1w",
       "name": "Appllama/appllama-skills",
       "url": "https://github.com/Appllama/appllama-skills",
@@ -2967,6 +3124,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKkt57w",
+      "name": "ashishps1/awesome-system-design-resources",
+      "url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "description": "Learn System Design concepts and prepare for interviews using free resources.",
+      "category": "category_13",
+      "purpose": "Apprendre la conception de systèmes pour les entretiens.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Learn System Design concepts and prepare for interviews using free resources.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOSn0Mew",
       "name": "asimons81/hermes-dreaming",
       "url": "https://github.com/asimons81/hermes-dreaming",
@@ -3221,6 +3395,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTU0MDc1OQ==",
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "category": "category_13",
+      "purpose": "Recenser les bibliothèques et logiciels Go.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of awesome Go frameworks, libraries and software",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/avelino/awesome-go",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOR1YMug",
       "name": "averygan/reclip",
       "url": "https://github.com/averygan/reclip",
@@ -3281,6 +3472,23 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "72c9f6bd65714748e825e4f6dbe25b356cc884522932d8c1117b65b61ab605e7",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODM4NzQwNg==",
+      "name": "awesome-foss/awesome-sysadmin",
+      "url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "description": "A curated list of amazingly awesome open-source sysadmin resources.",
+      "category": "category_15",
+      "purpose": "Recenser les ressources d'administration système open source.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of amazingly awesome open-source sysadmin resources.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzNjYzMzM3MA==",
@@ -3662,6 +3870,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4MzU3OTE2Nw==",
+      "name": "bharathgs/Awesome-pytorch-list",
+      "url": "https://github.com/bharathgs/Awesome-pytorch-list",
+      "description": "A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.",
+      "category": "category_06",
+      "purpose": "Recenser modèles, implémentations et tutoriels PyTorch.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/bharathgs/Awesome-pytorch-list",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDORSV6_g",
       "name": "bholmesdev/hubble.md",
       "url": "https://github.com/bholmesdev/hubble.md",
@@ -3773,6 +3998,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMTU0Nzg4MjA=",
+      "name": "binhnguyennus/awesome-scalability",
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "category": "category_15",
+      "purpose": "Documenter les motifs de systèmes à grande échelle.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/binhnguyennus/awesome-scalability",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOLOYCoQ",
@@ -4012,6 +4254,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTA2NTQ3Mw==",
+      "name": "bolshchikov/js-must-watch",
+      "url": "https://github.com/bolshchikov/js-must-watch",
+      "description": "Must-watch videos about javascript",
+      "category": "category_13",
+      "purpose": "Lister des vidéos de référence sur JavaScript.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Must-watch videos about javascript",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/bolshchikov/js-must-watch",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOSYUvrg",
       "name": "boriemannetje/apex-notes",
       "url": "https://github.com/boriemannetje/apex-notes",
@@ -4213,6 +4472,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2MTg5MzM5OQ==",
+      "name": "brillout/awesome-react-components",
+      "url": "https://github.com/brillout/awesome-react-components",
+      "description": "Curated List of React Components & Libraries.",
+      "category": "category_11",
+      "purpose": "Recenser composants et bibliothèques React.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Curated List of React Components & Libraries.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/brillout/awesome-react-components",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOSE2ovA",
       "name": "browser-use/browser-harness",
       "url": "https://github.com/browser-use/browser-harness",
@@ -4344,6 +4620,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxOTA3Mjk5MDY=",
+      "name": "Budibase/budibase",
+      "url": "https://github.com/Budibase/budibase",
+      "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "category": "category_12",
+      "purpose": "Construire des applications métier en low-code.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Budibase/budibase",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOR0HDyQ",
@@ -4671,6 +4964,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMzgyNTk0OA==",
+      "name": "Calinou/awesome-godot",
+      "url": "https://github.com/Calinou/awesome-godot",
+      "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
+      "category": "category_23",
+      "purpose": "Recenser plugins et add-ons Godot.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of free/libre plugins, scripts and add-ons for Godot",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Calinou/awesome-godot",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORFGHaA",
@@ -5191,6 +5501,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOhcXYw",
+      "name": "ChenLiu-1996/figures4papers",
+      "url": "https://github.com/ChenLiu-1996/figures4papers",
+      "description": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
+      "category": "category_10",
+      "purpose": "Produire des figures de publication scientifique.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ChenLiu-1996/figures4papers",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDONYfztA",
       "name": "chiphuyen/aie-book",
       "url": "https://github.com/chiphuyen/aie-book",
@@ -5233,6 +5560,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOPt7f_g",
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "category": "category_04",
+      "purpose": "Exposer Chrome DevTools aux agents de code.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Chrome DevTools for coding agents",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOSEVU0g",
@@ -5318,6 +5662,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOL9wXZg",
+      "name": "claration/feather",
+      "url": "https://github.com/claration/feather",
+      "description": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
+      "category": "category_25",
+      "purpose": "Installer des applications iOS via certificats développeur.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/claration/feather",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMTYwODY3MDE=",
@@ -6870,6 +7231,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKvdZfw",
+      "name": "DataExpert-io/data-engineer-handbook",
+      "url": "https://github.com/DataExpert-io/data-engineer-handbook",
+      "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "category": "category_16",
+      "purpose": "Rassembler les ressources pour apprendre l'ingénierie des données.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/DataExpert-io/data-engineer-handbook",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOQcnGZA",
       "name": "datagouv/datagouv-mcp",
       "url": "https://github.com/datagouv/datagouv-mcp",
@@ -7794,6 +8172,40 @@
       "fork": false
     },
     {
+      "id": "R_kgDOG_8cCg",
+      "name": "djsime1/awesome-flipperzero",
+      "url": "https://github.com/djsime1/awesome-flipperzero",
+      "description": "🐬 A collection of awesome resources for the Flipper Zero device.",
+      "category": "category_24",
+      "purpose": "Recenser les ressources pour le Flipper Zero.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🐬 A collection of awesome resources for the Flipper Zero device.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/djsime1/awesome-flipperzero",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTg4NzQ5OQ==",
+      "name": "dkhamsing/open-source-ios-apps",
+      "url": "https://github.com/dkhamsing/open-source-ios-apps",
+      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "category": "category_12",
+      "purpose": "Recenser des applications iOS open source.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/dkhamsing/open-source-ios-apps",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOT2Xtxg",
       "name": "dmmulroy/anti-slop",
       "url": "https://github.com/dmmulroy/anti-slop",
@@ -8022,6 +8434,57 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk0NzAxODIzOQ==",
+      "name": "DopplerHQ/awesome-interview-questions",
+      "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+      "description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ",
+      "category": "category_13",
+      "purpose": "Recenser des listes de questions d'entretien technique.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:",
+      "evidence_status": "description_only",
+      "archived": true,
+      "fork": false,
+      "evidence_url": "https://github.com/DopplerHQ/awesome-interview-questions",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMzYwNjIyNDA=",
+      "name": "DovAmir/awesome-design-patterns",
+      "url": "https://github.com/DovAmir/awesome-design-patterns",
+      "description": "A curated list of software and architecture related design patterns.",
+      "category": "category_13",
+      "purpose": "Recenser les motifs d'architecture logicielle.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of software and architecture related design patterns.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/DovAmir/awesome-design-patterns",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOIF8T9Q",
+      "name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "category": "category_19",
+      "purpose": "Intégrer une suite bureautique (documents, tableurs) dans un produit.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/dream-num/univer",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDORpANWQ",
       "name": "DreambigOu/ELI5",
       "url": "https://github.com/DreambigOu/ELI5",
@@ -8188,6 +8651,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDg2NTQzNg==",
+      "name": "dypsilon/frontend-dev-bookmarks",
+      "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+      "description": "Manually curated collection of resources for frontend web developers.",
+      "category": "category_13",
+      "purpose": "Collecter des ressources pour développeurs frontend.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Manually curated collection of resources for frontend web developers.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOUsKPqg",
@@ -9408,6 +9888,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDORiKx2A",
+      "name": "fabio-rovai/open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "category": "category_16",
+      "purpose": "Planifier et auditer les changements d'une ontologie de production.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/fabio-rovai/open-ontologies",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORmhV_A",
@@ -10940,6 +11437,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxODk2MjE2MDc=",
+      "name": "github/docs",
+      "url": "https://github.com/github/docs",
+      "description": "The open-source repo for docs.github.com",
+      "category": "category_13",
+      "purpose": "Publier la documentation développeur de GitHub.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The open-source repo for docs.github.com",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/github/docs",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOODGMVA",
       "name": "github/github-mcp-server",
       "url": "https://github.com/github/github-mcp-server",
@@ -11519,6 +12033,27 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
+      "id": "R_kgDORCp1Rw",
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "category": "category_12",
+      "purpose": "Tenir à jour les bonnes pratiques web pour un agent de code.",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "Keep your coding agent up to date with the latest web best practices",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_12",
+        "category_03"
+      ]
+    },
+    {
       "id": "R_kgDOJfMqJg",
       "name": "GoogleCloudPlatform/generative-ai",
       "url": "https://github.com/GoogleCloudPlatform/generative-ai",
@@ -11788,6 +12323,40 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1NTA3NjA2Mw==",
+      "name": "Hack-with-Github/Awesome-Hacking",
+      "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "category": "category_18",
+      "purpose": "Recenser listes pour hackers, pentesters et chercheurs en sécurité.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNjU1NDI1MA==",
+      "name": "hackerkid/Mind-Expanding-Books",
+      "url": "https://github.com/hackerkid/Mind-Expanding-Books",
+      "description": " :books: Find your next book to read!",
+      "category": "category_19",
+      "purpose": "Suggérer des lectures générales.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":books: Find your next book to read!",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/hackerkid/Mind-Expanding-Books",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOKXoMww",
@@ -12397,6 +12966,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2NzA0MzcxNA==",
+      "name": "heynickc/awesome-ddd",
+      "url": "https://github.com/heynickc/awesome-ddd",
+      "description": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+      "category": "category_13",
+      "purpose": "Recenser les ressources Domain-Driven Design.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/heynickc/awesome-ddd",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOVSH7Bw",
       "name": "hieunc229/mailflare-macos",
       "url": "https://github.com/hieunc229/mailflare-macos",
@@ -12444,6 +13030,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTKZqmw",
+      "name": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "description": "AutoSwarm: Unify All Your Agents. Break Context Barriers. Watch Them Work Together for You.",
+      "category": "category_02",
+      "purpose": "Unifier et orchestrer plusieurs agents.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AutoSwarm: Unify All Your Agents. Break Context Barriers. Watch Them Work Together for You.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/HKUDS/AutoSwarm",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORhiEjA",
@@ -12911,6 +13514,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSo8izA",
+      "name": "iliyami/MacSai",
+      "url": "https://github.com/iliyami/MacSai",
+      "description": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
+      "category": "category_25",
+      "purpose": "Nettoyer, optimiser et scanner un Mac.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/iliyami/MacSai",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOS2vaFw",
@@ -13710,6 +14330,40 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk2MzUzOTA1NQ==",
+      "name": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "category": "category_19",
+      "purpose": "Recenser des logiciels macOS par catégorie.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jaywcjlove/awesome-mac",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk5MzI5MTY4MQ==",
+      "name": "jbee37142/Interview_Question_for_Beginner",
+      "url": "https://github.com/jbee37142/Interview_Question_for_Beginner",
+      "description": ":boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all the best. :space_invader:",
+      "category": "category_13",
+      "purpose": "Guider les débutants pour les entretiens techniques.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all the best. :space_invader:",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jbee37142/Interview_Question_for_Beginner",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDORmDA6Q",
       "name": "JCodesMore/ai-website-cloner-template",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
@@ -13980,6 +14634,23 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxNDQwODcxNQ==",
+      "name": "jnv/lists",
+      "url": "https://github.com/jnv/lists",
+      "description": "The definitive list of lists (of lists) curated on GitHub and elsewhere",
+      "category": "category_19",
+      "purpose": "Indexer des listes de listes.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The definitive list of lists (of lists) curated on GitHub and elsewhere",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jnv/lists",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOVQKzRQ",
       "name": "JoasASantos/REA-Prompts",
       "url": "https://github.com/JoasASantos/REA-Prompts",
@@ -14184,6 +14855,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUEHx5A",
+      "name": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "category": "category_10",
+      "purpose": "Monter de la vidéo en local, cross-platform.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jub0t/Concat",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOR5h10Q",
@@ -15010,6 +15698,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk5NzA1NDk3NQ==",
+      "name": "Kristories/awesome-guidelines",
+      "url": "https://github.com/Kristories/awesome-guidelines",
+      "description": "Programming style, best practices, and coding conventions.",
+      "category": "category_13",
+      "purpose": "Recenser conventions et styles de programmation.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Programming style, best practices, and coding conventions.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Kristories/awesome-guidelines",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOPsc5Ug",
@@ -16060,6 +16765,40 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMjM2MzE0MTg=",
+      "name": "lissy93/personal-security-checklist",
+      "url": "https://github.com/lissy93/personal-security-checklist",
+      "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
+      "category": "category_18",
+      "purpose": "Lister des mesures de sécurité et de vie privée personnelles.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lissy93/personal-security-checklist",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOJ7tF0g",
+      "name": "LiveContainer/LiveContainer",
+      "url": "https://github.com/LiveContainer/LiveContainer",
+      "description": "Run iOS apps without actually installing them!",
+      "category": "category_25",
+      "purpose": "Lancer des apps iOS sans les installer.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Run iOS apps without actually installing them!",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/LiveContainer/LiveContainer",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOR-VPxg",
       "name": "llm-as-a-verifier/llm-as-a-verifier",
       "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
@@ -16094,6 +16833,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk0NjU3MjU3NA==",
+      "name": "lnishan/awesome-competitive-programming",
+      "url": "https://github.com/lnishan/awesome-competitive-programming",
+      "description": ":gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources",
+      "category": "category_13",
+      "purpose": "Recenser ressources d'algorithmique et de competitive programming.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lnishan/awesome-competitive-programming",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOULkhjg",
@@ -16314,6 +17070,23 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "048fa0056905b8e9ee88efe94ce90854ac0970396558f1a6a8e5342136e39e5a",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODY5OTQ3MQ==",
+      "name": "lukasz-madon/awesome-remote-job",
+      "url": "https://github.com/lukasz-madon/awesome-remote-job",
+      "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+      "category": "category_20",
+      "purpose": "Recenser emplois et ressources pour le télétravail.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lukasz-madon/awesome-remote-job",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxNjMwMjcxNzE=",
@@ -16578,6 +17351,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTQ2MTcxNQ==",
+      "name": "markets/awesome-ruby",
+      "url": "https://github.com/markets/awesome-ruby",
+      "description": "💎 A collection of awesome Ruby libraries, tools, frameworks and software",
+      "category": "category_13",
+      "purpose": "Recenser bibliothèques et outils Ruby.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "💎 A collection of awesome Ruby libraries, tools, frameworks and software",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/markets/awesome-ruby",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOMCvTzA",
       "name": "marmelab/atomic-crm",
       "url": "https://github.com/marmelab/atomic-crm",
@@ -16647,6 +17437,40 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTQ1NjYyNA==",
+      "name": "matiassingers/awesome-readme",
+      "url": "https://github.com/matiassingers/awesome-readme",
+      "description": "A curated list of awesome READMEs",
+      "category": "category_13",
+      "purpose": "Recenser des README exemplaires.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of awesome READMEs",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/matiassingers/awesome-readme",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
+      "name": "matteocrippa/awesome-swift",
+      "url": "https://github.com/matteocrippa/awesome-swift",
+      "description": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
+      "category": "category_13",
+      "purpose": "Recenser bibliothèques et ressources Swift.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/matteocrippa/awesome-swift",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORsOGdw",
@@ -16815,6 +17639,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDE1MjQ3MDM=",
+      "name": "maxgoedjen/secretive",
+      "url": "https://github.com/maxgoedjen/secretive",
+      "description": "Protect your SSH keys with your Mac's Secure Enclave",
+      "category": "category_18",
+      "purpose": "Protéger les clés SSH avec la Secure Enclave.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Protect your SSH keys with your Mac's Secure Enclave",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/maxgoedjen/secretive",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOR7b88w",
@@ -17032,6 +17873,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOOxgJ5g",
+      "name": "memvid/memvid",
+      "url": "https://github.com/memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "category": "category_05",
+      "purpose": "Fournir une couche mémoire pour agents IA.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/memvid/memvid",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDORHhxQA",
       "name": "MengTo/Skills",
       "url": "https://github.com/MengTo/Skills",
@@ -17217,6 +18075,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzODAzMTUwOTQ=",
+      "name": "mhadidg/software-architecture-books",
+      "url": "https://github.com/mhadidg/software-architecture-books",
+      "description": "A comprehensive list of books on Software Architecture.",
+      "category": "category_13",
+      "purpose": "Lister des livres d'architecture logicielle.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A comprehensive list of books on Software Architecture.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mhadidg/software-architecture-books",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOQs2ZrA",
@@ -18084,6 +18959,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDORtIxKw",
+      "name": "mnfst/awesome-free-llm-apis",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "description": "List of Permanent Free LLM API  (API Keys)",
+      "category": "category_07",
+      "purpose": "Recenser des API LLM gratuites permanentes.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "List of Permanent Free LLM API  (API Keys)",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOTePLYA",
       "name": "MobAI-App/simslim",
       "url": "https://github.com/MobAI-App/simslim",
@@ -18151,6 +19043,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOR_S01w",
+      "name": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "category": "category_16",
+      "purpose": "Stocker un graphe natif object-storage avec ontologie typée.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Object-storage native graph database with branching and typed ontology",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ModernRelay/omnigraph",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOUu-cFQ",
@@ -18854,6 +19763,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDORkxqCA",
+      "name": "Narcooo/inkos",
+      "url": "https://github.com/Narcooo/inkos",
+      "description": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+      "category": "category_19",
+      "purpose": "Générer romans, scripts et contenus narratifs avec un agent.",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Narcooo/inkos",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15",
+      "review_candidates": [
+        "category_19",
+        "category_23"
+      ]
     },
     {
       "id": "R_kgDOUAt_Bw",
@@ -19693,6 +20623,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMDU0NDQzNDM=",
+      "name": "nutti/fake-bpy-module",
+      "url": "https://github.com/nutti/fake-bpy-module",
+      "description": "Fake Blender Python API module collection for the code completion.",
+      "category": "category_23",
+      "purpose": "Fournir l'API Python Blender factice pour l'autocomplétion.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Fake Blender Python API module collection for the code completion.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/nutti/fake-bpy-module",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOPstCkw",
@@ -23098,6 +24045,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTkyNjExOTA=",
+      "name": "pluja/awesome-privacy",
+      "url": "https://github.com/pluja/awesome-privacy",
+      "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+      "category": "category_18",
+      "purpose": "Recenser services et alternatives respectueux de la vie privée.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/pluja/awesome-privacy",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNTkxMTc0Njg=",
       "name": "pmndrs/drei",
       "url": "https://github.com/pmndrs/drei",
@@ -23230,6 +24194,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTQyMDM3Nw==",
+      "name": "posquit0/Awesome-CV",
+      "url": "https://github.com/posquit0/Awesome-CV",
+      "description": ":page_facing_up: Awesome CV is LaTeX template for your outstanding job application",
+      "category": "category_20",
+      "purpose": "Produire un CV LaTeX pour candidater.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":page_facing_up: Awesome CV is LaTeX template for your outstanding job application",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/posquit0/Awesome-CV",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMzU5MDE4MTM=",
@@ -23385,6 +24366,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOJwkQKA",
+      "name": "princeton-vl/infinigen",
+      "url": "https://github.com/princeton-vl/infinigen",
+      "description": "Infinite Photorealistic Worlds using Procedural Generation",
+      "category": "category_23",
+      "purpose": "Générer des mondes photoréalistes procéduraux.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Infinite Photorealistic Worlds using Procedural Generation",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/princeton-vl/infinigen",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOMKir8Q",
       "name": "probabl-ai/skore",
       "url": "https://github.com/probabl-ai/skore",
@@ -23523,6 +24521,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4MDM1ODA3MA==",
+      "name": "qazbnm456/awesome-web-security",
+      "url": "https://github.com/qazbnm456/awesome-web-security",
+      "description": "🐶 A curated list of Web Security materials and resources.",
+      "category": "category_18",
+      "purpose": "Recenser ressources de sécurité web.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🐶 A curated list of Web Security materials and resources.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/qazbnm456/awesome-web-security",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNjgxNjM2MDk=",
       "name": "qdrant/qdrant",
       "url": "https://github.com/qdrant/qdrant",
@@ -23552,6 +24567,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOThtu2g",
+      "name": "qhy991/Scientific-Figure-Design",
+      "url": "https://github.com/qhy991/Scientific-Figure-Design",
+      "description": "",
+      "category": "category_10",
+      "purpose": "Produire des figures scientifiques éditables (Draw.io, SVG, PDF).",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Paper figures agents can author and humans can still edit.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/qhy991/Scientific-Figure-Design/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOKC2TNA",
       "name": "QwenLM/Qwen",
       "url": "https://github.com/QwenLM/Qwen",
@@ -23574,6 +24606,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOPB-92Q",
+      "name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "category": "category_01",
+      "purpose": "Coder dans le terminal avec un agent IA.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "An open-source AI coding agent that lives in your terminal.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/QwenLM/qwen-code",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOTm9-Lw",
@@ -23723,6 +24772,23 @@
       "evidence_url": "https://github.com/rami-maalouf/exact-draw",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVaB38g",
+      "name": "rami-maalouf/multiplexer",
+      "url": "https://github.com/rami-maalouf/multiplexer",
+      "description": "self-host your own beeper",
+      "category": "category_19",
+      "purpose": "Auto-héberger un agrégateur de messagerie.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "self-host your own beeper",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rami-maalouf/multiplexer",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOTvkezg",
@@ -24179,6 +25245,23 @@
       "evidence_status": "read_limited",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzQ0OTU0MjU=",
+      "name": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "description": "🎥      Make videos programmatically with React",
+      "category": "category_10",
+      "purpose": "Composer des vidéos programmatiquement avec React.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🎥      Make videos programmatically with React",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/remotion-dev/remotion",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOVcAnAQ",
@@ -25150,6 +26233,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjg1MDQ0Mw==",
+      "name": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "category": "category_14",
+      "purpose": "Linter et améliorer le code Rust.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rust-lang/rust-clippy",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORkCpKw",
@@ -26958,6 +28058,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTczNzI2Ng==",
+      "name": "sindresorhus/awesome-nodejs",
+      "url": "https://github.com/sindresorhus/awesome-nodejs",
+      "description": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
+      "category": "category_13",
+      "purpose": "Recenser paquets et ressources Node.js.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/sindresorhus/awesome-nodejs",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOTY_eZg",
       "name": "sitepins/sitepins",
       "url": "https://github.com/sitepins/sitepins",
@@ -27457,6 +28574,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQr60iA",
+      "name": "sozercan/kaset",
+      "url": "https://github.com/sozercan/kaset",
+      "description": "📼 The missing YouTube and YouTube Music macOS app",
+      "category": "category_10",
+      "purpose": "Lire YouTube et YouTube Music dans une app macOS.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "📼 The missing YouTube and YouTube Music macOS app",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/sozercan/kaset",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
@@ -27499,6 +28633,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOThq6qA",
+      "name": "spotify/portal-ai-plugins",
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "category": "category_03",
+      "purpose": "Brancher le portail Spotify aux agents de code.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Bring Spotify Portal into Claude Code, Codex, Cursor, and pi.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOSTJMQA",
@@ -27844,6 +28995,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOIREjZg",
+      "name": "steven2358/awesome-generative-ai",
+      "url": "https://github.com/steven2358/awesome-generative-ai",
+      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "category": "category_26",
+      "purpose": "Recenser projets d'IA générative sur plusieurs couches.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/steven2358/awesome-generative-ai",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOR4FaGw",
@@ -28292,6 +29460,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2NDcwNTc4MQ==",
+      "name": "SwifterSwift/SwifterSwift",
+      "url": "https://github.com/SwifterSwift/SwifterSwift",
+      "description": "A handy collection of more than 500 native Swift extensions to boost your productivity.",
+      "category": "category_13",
+      "purpose": "Étendre la bibliothèque standard Swift.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A handy collection of more than 500 native Swift extensions to boost your productivity.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/SwifterSwift/SwifterSwift",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDONZW2QA",
@@ -28852,6 +30037,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk3MjU4NjgwNQ==",
+      "name": "terkelg/awesome-creative-coding",
+      "url": "https://github.com/terkelg/awesome-creative-coding",
+      "description": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+      "category": "category_10",
+      "purpose": "Recenser ressources de creative coding et d'art génératif.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/terkelg/awesome-creative-coding",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOUI3RCg",
       "name": "TerseAI/durable-actors",
       "url": "https://github.com/TerseAI/durable-actors",
@@ -29112,6 +30314,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk2ODM4MDQxMw==",
+      "name": "thibmaek/awesome-raspberry-pi",
+      "url": "https://github.com/thibmaek/awesome-raspberry-pi",
+      "description": "📝 A curated list of awesome Raspberry Pi tools, projects, images and resources",
+      "category": "category_24",
+      "purpose": "Recenser outils et projets Raspberry Pi.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "📝 A curated list of awesome Raspberry Pi tools, projects, images and resources",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/thibmaek/awesome-raspberry-pi",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOU1Ap6A",
@@ -29504,6 +30723,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOR460eg",
+      "name": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "category": "category_12",
+      "purpose": "Construire des applications web full-stack en Rust.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A batteries-included framework for building web apps",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/tokio-rs/topcoat",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOI0hewg",
       "name": "TokisanGames/Terrain3D",
       "url": "https://github.com/TokisanGames/Terrain3D",
@@ -29528,6 +30764,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk3ODg0OTQzOQ==",
+      "name": "TonnyL/Awesome_APIs",
+      "url": "https://github.com/TonnyL/Awesome_APIs",
+      "description": ":octocat: A collection of APIs",
+      "category": "category_19",
+      "purpose": "Recenser des API de façon transversale.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": ":octocat: A collection of APIs",
+      "evidence_status": "description_only",
+      "archived": true,
+      "fork": false,
+      "evidence_url": "https://github.com/TonnyL/Awesome_APIs",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOKH31kA",
@@ -29685,6 +30938,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQD6vmw",
+      "name": "travisvn/awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "category": "category_03",
+      "purpose": "Recenser skills Claude et ressources de personnalisation.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/travisvn/awesome-claude-skills",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxMzgzOTMxMzk=",
       "name": "trimstray/the-book-of-secret-knowledge",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
@@ -29780,6 +31050,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOPAsbmQ",
+      "name": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "category": "category_07",
+      "purpose": "Exécuter l'inférence de modèles IA à haute performance.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A high-performance inference engine for AI models",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/trymirai/uzu",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOSDCHbQ",
@@ -30947,6 +32234,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTdLZdQ",
+      "name": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "category": "category_10",
+      "purpose": "Produire des vidéos cinématiques éditables via un skill agent.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOPmULpg",
       "name": "vinhnx/VTCode",
       "url": "https://github.com/vinhnx/VTCode",
@@ -31103,6 +32407,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyODkxOTEyNzc=",
+      "name": "vitejs/awesome-vite",
+      "url": "https://github.com/vitejs/awesome-vite",
+      "description": "⚡️ A curated list of awesome things related to Vite.js",
+      "category": "category_13",
+      "purpose": "Recenser l'écosystème Vite.js.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "⚡️ A curated list of awesome things related to Vite.js",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/vitejs/awesome-vite",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDOI7xefg",
       "name": "vllm-project/vllm",
       "url": "https://github.com/vllm-project/vllm",
@@ -31158,6 +32479,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOPVXahw",
+      "name": "VoltAgent/awesome-claude-code-subagents",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+      "category": "category_03",
+      "purpose": "Recenser des sous-agents Claude Code spécialisés.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORpZ_vA",
@@ -31313,6 +32651,23 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMzcwNzg0ODc=",
+      "name": "vuejs/core",
+      "url": "https://github.com/vuejs/core",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "category": "category_12",
+      "purpose": "Construire des interfaces web avec le framework Vue.js.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/vuejs/core",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDORz32Fg",
       "name": "walkinglabs/learn-harness-engineering",
       "url": "https://github.com/walkinglabs/learn-harness-engineering",
@@ -31404,6 +32759,23 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyODQyODcyOQ==",
+      "name": "wasabeef/awesome-android-ui",
+      "url": "https://github.com/wasabeef/awesome-android-ui",
+      "description": "A curated list of awesome Android UI/UX libraries",
+      "category": "category_11",
+      "purpose": "Recenser bibliothèques UI/UX Android.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A curated list of awesome Android UI/UX libraries",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/wasabeef/awesome-android-ui",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDOTkYT2g",
@@ -32655,6 +34027,23 @@
       "fork": false
     },
     {
+      "id": "R_kgDORRDicw",
+      "name": "zachlatta/freeflow",
+      "url": "https://github.com/zachlatta/freeflow",
+      "description": "Free & fast alternative to Wispr Flow",
+      "category": "category_09",
+      "purpose": "Dicter du texte comme alternative à Wispr Flow.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Free & fast alternative to Wispr Flow",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/zachlatta/freeflow",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
+    },
+    {
       "id": "R_kgDONif6fg",
       "name": "Zackriya-Solutions/meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
@@ -32701,6 +34090,23 @@
       "evidence_url": "https://github.com/zadescoxp/calibrain-harness",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVN7flQ",
+      "name": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "category": "category_07",
+      "purpose": "Lever la limitation d'inférence des GeForce grand public.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Zagitta/gpu-unlock",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "R_kgDORGz4iw",
@@ -32967,6 +34373,23 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTYlhVw",
+      "name": "zhoy0409-debug/polish-sci-figures",
+      "url": "https://github.com/zhoy0409-debug/polish-sci-figures",
+      "description": "Scientific figure toolkit and Figure Studio: editable templates, local statistics, multi-panel editing and SVG/PNG/TIFF export, with skills for Codex and Claude. | 科研绘图与组图编辑：模板作图、统计分析、精修排版及高清导出。",
+      "category": "category_10",
+      "purpose": "Éditer des figures scientifiques multi-panneaux.",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Scientific figure toolkit and Figure Studio: editable templates, local statistics, multi-panel editing and SVG/PNG/TIFF export, with skills for Codex and Claude. | 科研绘图与组图编辑：模板作图、统计分析、精修排版及高清导出。",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/zhoy0409-debug/polish-sci-figures",
+      "evidence_read_at": "2026-11-15",
+      "classification_source": "human:2026-11-15"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk0MDI3NjI3NA==",

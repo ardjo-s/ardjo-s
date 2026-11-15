@@ -2,7 +2,7 @@
 
 > Memory, context management, semantic retrieval and RAG for AI systems.
 
-**55 repositories.** [Browse all categories →](README.md)
+**57 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,6 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory): Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors.
 - [andrewyng/context-hub](https://github.com/andrewyng/context-hub): Starred repository.
 - [Ar9av/obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) · review needed: Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents.
 - [Artistsyn/cortex_suite](https://github.com/Artistsyn/cortex_suite): Local MCP servers that give coding agents a reliable project memory.
@@ -39,6 +40,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) · review needed: Give Claude Code a subconscious.
 - [mem0ai/mem0](https://github.com/mem0ai/mem0): The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps.
 - [MemPalace/mempalace](https://github.com/MemPalace/mempalace): The best-benchmarked open-source AI memory system.
+- [memvid/memvid](https://github.com/memvid/memvid): Memory layer for AI Agents.
 - [mex-memory/mex](https://github.com/mex-memory/mex) · review needed: Team memory for engineers and their AI agents.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode): Free, local plugin that keeps tool output out of your coding agent's context window.
 - [nduckmink/arkon](https://github.com/nduckmink/arkon): Arkon: Enterprise AI Knowledge Hub &amp; MCP Server.

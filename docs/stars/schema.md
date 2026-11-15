@@ -59,6 +59,8 @@ Original Sol rows omit `classification_source`. Do not rewrite those objects unl
 
 Auto-classified rows (from `scripts/classify-github-stars.py`) always have `classification_source`. They use an existing `categories[].id` only — the classifier never adds a category. `purpose` on those rows may be English (taken from the public description). `review_required` plus `review_candidates` means the top two scores were close; the chosen category is still written so the export can leave Unsorted.
 
+Domain rules (mail, mobile/simulator, 3D skills, inference gateways, and so on) attach a reason only when the rule's tokens match the repository name, description or topics. README body text does not fire those reasons. Curated `awesome-*` lists follow the list's subject, not the generic software-directory bucket.
+
 ## Generated `stars.json`
 
 Produced by `scripts/sync-github-stars.py`. Not a classification source.

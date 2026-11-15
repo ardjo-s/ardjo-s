@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**122 repositories.** [Browse all categories →](README.md)
+**131 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,9 +11,11 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub): :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 - [A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme](https://github.com/A-LA-FRENCH/dictionnaire-amoureux-du-franco-maximalisme): Dépôt de code du "Dictionnaire amoureux du franco maximalisme technologique".
 - [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) · archived: 🖥 📊 🕹 🛠 A curated list of command line apps.
 - [agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat) · review needed: Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.
+- [Aidoku/Aidoku](https://github.com/Aidoku/Aidoku): Manga reading app for iOS, iPadOS, and macOS.
 - [analogdotnow/Analog](https://github.com/analogdotnow/Analog) · review needed: Meet the calendar that changes everything.
 - [anishfn/shapeshift](https://github.com/anishfn/shapeshift) · review needed: An input that becomes what you mean: one text box that morphs into the right UI as you type.
 - [Ansub/wiki-os](https://github.com/Ansub/wiki-os): UI Layer for Karpathy's LLM Wiki.
@@ -42,6 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DioxusLabs/awesome-dioxus](https://github.com/DioxusLabs/awesome-dioxus) · review needed: An awesome list of Dioxus-related content and resources.
 - [DivePADI/InboxZeroTokens](https://github.com/DivePADI/InboxZeroTokens) · review needed: Your AI agents stop paying to check empty inboxes.
 - [dontriskit/awesome-ai-software-engineering](https://github.com/dontriskit/awesome-ai-software-engineering) · review needed: Starred repository.
+- [dream-num/univer](https://github.com/dream-num/univer): Build your own AI office with Univer Office SDK.
 - [EfficientStreet/youtube-subscriptions-ingest](https://github.com/EfficientStreet/youtube-subscriptions-ingest): Pull YouTube subscription metadata into a real cross-linked knowledge graph in your second-brain vault.
 - [element-hq/element-call](https://github.com/element-hq/element-call): Group calls powered by Matrix.
 - [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios): Next generation Matrix client for iOS built with SwiftUI on top of matrix-rust-sdk.
@@ -60,6 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox): Open source Inbox for the official WhatsApp Cloud API.
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) · review needed: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
 - [gr8rstudio/gr8r-studio](https://github.com/gr8rstudio/gr8r-studio): Gr8r Studio: a calm, structured project management workspace.
+- [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books): :books: Find your next book to read!.
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
 - [hieunc229/mailflare-macos](https://github.com/hieunc229/mailflare-macos): Email client for macOS.
 - [hjunhuh/awesome-rust](https://github.com/hjunhuh/awesome-rust) · fork · review needed: A curated list of Rust code and resources.
@@ -70,7 +74,9 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [iwe-org/iwe](https://github.com/iwe-org/iwe): Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents.
 - [jasonkneen/codefolio](https://github.com/jasonkneen/codefolio): Starred repository.
 - [jasonkneen/stacks](https://github.com/jasonkneen/stacks): Stacks -- an infinite imaginative canvas.
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac):  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
 - [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow): The automatic work journal/time tracker.
+- [jnv/lists](https://github.com/jnv/lists): The definitive list of lists (of lists) curated on GitHub and elsewhere.
 - [joelbqz/writer-computer](https://github.com/joelbqz/writer-computer): Local-first desktop markdown editor.
 - [kanwas-ai/kanwas](https://github.com/kanwas-ai/kanwas): Kanwas — Shared context board for teams and agents.
 - [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep): A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.
@@ -90,6 +96,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [michaelshimeles/bible](https://github.com/michaelshimeles/bible): A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks.
 - [michaelwilhelmsen/humla](https://github.com/michaelwilhelmsen/humla): Open-source AI meeting notes for Mac.
 - [mvanhorn/printing-press-library](https://github.com/mvanhorn/printing-press-library) · review needed: Official library of CLIs generated by the CLI Printing Press.
+- [Narcooo/inkos](https://github.com/Narcooo/inkos) · review needed: Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content.
 - [nateherkai/snagtime](https://github.com/nateherkai/snagtime): Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk): A 14 day experiment to clone Slack with Claude Code.
 - [normen/whatscli](https://github.com/normen/whatscli): A command line interface for WhatsApp.
@@ -107,6 +114,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [puang59/nuza](https://github.com/puang59/nuza): a lightning-fast, privacy-first, and fully open-source alternative to obsidian.
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) · review needed: A collective list of free APIs.
 - [rajatkulkarni95/octarine-feedback](https://github.com/rajatkulkarni95/octarine-feedback) · review needed: Feedback/Issue tracker for Octarine - The private, markdown note taker.
+- [rami-maalouf/multiplexer](https://github.com/rami-maalouf/multiplexer): self-host your own beeper.
 - [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria): Desktop app to manage markdown knowledge bases.
 - [robinebers/augenblick](https://github.com/robinebers/augenblick) · archived: An ADHD-friendly note-taking app where your notes disappear—on purpose.
 - [Rohithgilla12/open-mind](https://github.com/Rohithgilla12/open-mind): Starred repository.
@@ -122,6 +130,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [theoephraim/awesome-cloudflare-selfhosted](https://github.com/theoephraim/awesome-cloudflare-selfhosted): 🍊☁️ Open-source* apps that replace SaaS product + tools, running in your own Cloudflare account.
 - [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC): Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click.
 - [tobi/qmd](https://github.com/tobi/qmd) · review needed: mini cli search engine for your docs, knowledge bases, meeting notes, whatever.
+- [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) · archived: :octocat: A collection of APIs.
 - [tuan3w/linearapp_clone](https://github.com/tuan3w/linearapp_clone): A Linear App clone with React and Tailwind CSS.
 - [usekaneo/kaneo](https://github.com/usekaneo/kaneo): ⚡ Project management that doesn't become the project.
 - [video-db/call.md](https://github.com/video-db/call.md): Turn meetings into live agent loops.

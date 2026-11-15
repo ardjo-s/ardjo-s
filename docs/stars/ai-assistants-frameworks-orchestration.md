@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**102 repositories.** [Browse all categories →](README.md)
+**103 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -44,6 +44,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Gen-Verse/RSI-Anything](https://github.com/Gen-Verse/RSI-Anything): RSI-Anything: Unlocking Recursive Self-Improvement with World Models.
 - [google-research/harness2](https://github.com/google-research/harness2): Starred repository.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
+- [HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm): AutoSwarm: Unify All Your Agents.
 - [huggingface/ml-intern](https://github.com/huggingface/ml-intern) · archived · review needed: Archived — ML Intern is no longer maintained.
 - [interfaces-inc/OpenPhone](https://github.com/interfaces-inc/OpenPhone) · review needed: AI-first open source operating system for various devices, based on the Android.
 - [jasonkneen/openclicky](https://github.com/jasonkneen/openclicky): openclicky -- the open source version of clicky.

@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**39 repositories.** [Browse all categories →](README.md)
+**43 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,6 +12,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [0xSero/deepseek-v4-flash-0731-spark-sparkinfer](https://github.com/0xSero/deepseek-v4-flash-0731-spark-sparkinfer): Pinned one-DGX-Spark Docker recipe for DeepSeek V4 Flash with EXL3, SparkInfer, and 262K NVFP4 MLA KV cache.
+- [agentgateway/agentgateway](https://github.com/agentgateway/agentgateway): Next Generation Agentic Proxy for AI Agents and MCP servers.
 - [Avarok-Cybersecurity/atlas](https://github.com/Avarok-Cybersecurity/atlas): Pure Rust Inference Engine.
 - [BenedictKing/ccx](https://github.com/BenedictKing/ccx): Claude / Codex / Gemini API Proxy - CCX.
 - [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute): Never stop coding.
@@ -28,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex): Universal provider proxy for OpenAI Codex &amp; Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code.
 - [meta-llama/llama](https://github.com/meta-llama/llama) · review needed: Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet): Official inference framework for 1-bit LLMs.
+- [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis): List of Permanent Free LLM API  (API Keys).
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api): Starred repository.
 - [mw00/project-maya](https://github.com/mw00/project-maya): Run GLM-5.3 (744B), GLM-5.3-Flash (321B), DeepSeek-V4.1-Flash (748B) and MiniMax-M3.1-Flash (428B) on your own GPUs - one engine, one dashboard, OpenAI- and Anthropic-compatible API.
 - [navaneethkrishnansuresh/Inference-Engineering](https://github.com/navaneethkrishnansuresh/Inference-Engineering): Starred repository.
@@ -45,8 +47,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim): Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.
 - [sybil-solutions/qwen38-b70](https://github.com/sybil-solutions/qwen38-b70) · archived: Starred repository.
 - [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi): 10.1 billion tokens per month.
+- [trymirai/uzu](https://github.com/trymirai/uzu): A high-performance inference engine for AI models.
 - [vayungodara/cliproxy-rs](https://github.com/vayungodara/cliproxy-rs): Use DeepSeek, GLM, Kimi, OpenRouter and more in Codex CLI and Claude Code: one local endpoint, API translation, failover.
 - [vllm-project/vllm](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs.
 - [weave-os/router](https://github.com/weave-os/router): Model router for agentic systems.
+- [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock): Your GeForce runs AI at half speed.
 - [ZhiYi-R/moon-bridge](https://github.com/ZhiYi-R/moon-bridge): Moon Bridge 是一个用 Go 编写的协议转换与模型路由代理。对外暴露 OpenAI Responses API（/v1/responses），对内支持 Anthropic Messages、Google Gemini（GenAI）、OpenAI Chat Completions 等多种上游协议。客户端指定不同模型别名时，自动将请求路由到对应上游 Provider 并在协议间自动转换。.
 - [zml/zml](https://github.com/zml/zml): Any model.

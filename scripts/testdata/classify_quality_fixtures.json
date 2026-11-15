@@ -1,0 +1,50 @@
+{
+  "agentgateway/agentgateway": {
+    "description": "Next Generation Agentic Proxy for AI Agents and MCP servers.",
+    "language": "Rust",
+    "topics": ["gateway", "mcp", "proxy", "agents"],
+    "readme": "The first complete connectivity solution for Agentic AI.\n\nRoute MCP servers, tools, and model providers. Includes blender 3d mesh avatar screenshots in the docs gallery and a mail inbox screenshot from an example worker."
+  },
+  "awesome-foss/awesome-sysadmin": {
+    "description": "A curated list of amazingly awesome open-source sysadmin resources.",
+    "language": "",
+    "topics": ["awesome-list", "sysadmin"],
+    "readme": "# Awesome Sysadmin\n\nA curated list of amazingly awesome Free and Open-Source sysadmin resources.\n\n## Mail\n- Postfix — mail transfer agent\n- Dovecot — IMAP mailbox\n- inbox tooling\n\n## Video\n- blender 3d pipeline notes\n- iOS simulator screenshots"
+  },
+  "apple/coreai-models": {
+    "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI.",
+    "language": "Python",
+    "topics": ["coreml", "models", "on-device"],
+    "readme": "# Core AI Models\nModel export recipes, Python primitives, and Swift runtime utilities for on-device AI.\n\nRun on iOS, Android, and the iOS simulator. Includes a mail inbox demo and a 3d avatar mesh."
+  },
+  "avelino/awesome-go": {
+    "description": "A curated list of awesome Go frameworks, libraries and software.",
+    "language": "Go",
+    "topics": ["awesome", "golang", "go"],
+    "readme": "# Awesome Go\nMail servers, inbox examples, blender 3d, iOS simulator, and video editors appear in some linked projects."
+  },
+  "pluja/awesome-privacy": {
+    "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+    "language": "",
+    "topics": ["privacy", "awesome-list"],
+    "readme": "# Awesome Privacy\nList of free, open source and privacy respecting services. Screenshots of mail inbox and 3d blender video."
+  },
+  "rust-lang/rust-clippy": {
+    "description": "A bunch of lints to catch common mistakes and improve your Rust code.",
+    "language": "Rust",
+    "topics": ["lints", "rust", "clippy"],
+    "readme": "# Clippy\nA collection of lints to catch common mistakes and improve your Rust code. Not an agent skill pack."
+  },
+  "zachlatta/freeflow": {
+    "description": "Free & fast alternative to Wispr Flow.",
+    "language": "Swift",
+    "topics": ["dictation", "speech-to-text"],
+    "readme": "FreeFlow is a free and open source alternative to Wispr Flow, Superwhisper, and Monologue. Mail inbox and iOS simulator notes in the FAQ."
+  },
+  "trymirai/uzu": {
+    "description": "A high-performance inference engine for AI models.",
+    "language": "Rust",
+    "topics": ["inference", "llm"],
+    "readme": "# uzu\nA high-performance inference engine for AI models. Not a mobile simulator or 3d game skill."
+  }
+}

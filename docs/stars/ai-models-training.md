@@ -2,7 +2,7 @@
 
 > Model architectures, machine learning, datasets, fine-tuning and training.
 
-**31 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [AbdelStark/awesome-jepa](https://github.com/AbdelStark/awesome-jepa) · review needed: Curated resources for JEPA (Joint Embedding Predictive Architecture) world models and self-supervised learning.
 - [anomalyco/models.dev](https://github.com/anomalyco/models.dev): An open-source database of AI models.
+- [apple/coreai-models](https://github.com/apple/coreai-models) · review needed: Model export recipes, Python primitives, and Swift runtime utilities for on-device AI.
+- [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list): A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 - [cactus-compute/cactus](https://github.com/cactus-compute/cactus) · review needed: Sub-50mb agentic, voice and vision intelligence for consumer devices.
 - [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning): A curated list of awesome Deep Learning tutorials, projects and communities.
 - [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3): Starred repository.

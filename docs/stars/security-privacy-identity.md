@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**34 repositories.** [Browse all categories →](README.md)
+**39 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -22,9 +22,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [google/mantis](https://github.com/google/mantis): A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities.
 - [google/oss-fuzz](https://github.com/google/oss-fuzz): OSS-Fuzz - continuous fuzzing for open source software.
 - [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) · review needed: A privacy-first app that strips AI watermarks from content you own.
+- [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking): A collection of various awesome lists for hackers, pentesters and security researchers.
 - [heycupola/relic](https://github.com/heycupola/relic): End-to-end encrypted secrets for developers and AI agents.
 - [heyderekj/slinky](https://github.com/heyderekj/slinky): Slinky keeps secrets out of files.
 - [Infisical/agent-vault](https://github.com/Infisical/agent-vault): A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
+- [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist): 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026.
+- [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive): Protect your SSH keys with your Mac's Secure Enclave.
 - [megadose/holehe](https://github.com/megadose/holehe) · review needed: holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
 - [Michaelliv/psst](https://github.com/Michaelliv/psst): 🤫 AI-native secrets manager.
 - [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
@@ -38,6 +41,8 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [openai/privacy-filter](https://github.com/openai/privacy-filter): OpenAI Privacy Filter.
 - [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee): Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.
 - [perplexityai/numbat](https://github.com/perplexityai/numbat) · review needed: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.
+- [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+- [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security): 🐶 A curated list of Web Security materials and resources.
 - [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal): OSINT &amp; recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics &amp; more.
 - [soxoj/maigret](https://github.com/soxoj/maigret) · review needed: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites.
 - [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.

@@ -2,7 +2,7 @@
 
 > Software testing, debugging, code review and technical quality checks.
 
-**23 repositories.** [Browse all categories →](README.md)
+**24 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -30,6 +30,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [prassoai/macroscope-local](https://github.com/prassoai/macroscope-local): Macroscope CLI releases.
 - [pwa-today/pwa-check](https://github.com/pwa-today/pwa-check): Automated PWA health check tool to make sure your PWA looks, feels, and behaves like a real app.
 - [RevylAI/greenlight](https://github.com/RevylAI/greenlight): Pre-submission compliance scanner for the Apple App Store and Google Play.
+- [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy): A bunch of lints to catch common mistakes and improve your Rust code.
 - [shadcn-ui/lint](https://github.com/shadcn-ui/lint): An agent-first linter for Tailwind design systems.
 - [TheOrcDev/shadscan](https://github.com/TheOrcDev/shadscan): Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent.
 - [tns-research/counterpoint](https://github.com/tns-research/counterpoint): A producer-critic loop inside Claude Code: Claude Opus and OpenAI Codex cross-check each other before a turn ships.

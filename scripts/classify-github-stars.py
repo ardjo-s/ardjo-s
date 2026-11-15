@@ -37,14 +37,14 @@ NEIGHBOUR_K = 5
 REVIEW_GAP = 0.12
 REVIEW_MIN_SCORE = 0.2
 README_CHARS = 1800
-CLASSIFIER_ID = 'star-catalog-nn-v1'
+CLASSIFIER_ID = 'star-catalog-nn-v2'
 
 # Domain rules from catalog definitions and AGENTS.md (skills follow their domain).
-# Patterns are token-set checks; boosts are additive and deterministic.
+# Match name + description + topics only — README noise must not fire a reason.
 DOMAIN_RULES = (
     {
         'id': 'games-3d-skill',
-        'any': {'blender', 'unreal', 'unity', 'game', 'games', 'game_development', '3d', '3d_models', 'mesh', 'splat', 'avatar'},
+        'any': {'blender', 'unreal', 'unity', 'godot', 'game_development', '3d_models', 'gaussian_splat'},
         'also': {'skill', 'skills', 'addon', 'mcp'},
         'category': 'category_23',
         'boost': 0.28,
@@ -53,21 +53,29 @@ DOMAIN_RULES = (
     },
     {
         'id': 'games-3d',
-        'any': {'blender', 'unreal', 'unity', 'game_development', '3d_models'},
+        'any': {'blender', 'unreal', 'unity', 'godot', 'game_development', '3d_models'},
         'category': 'category_23',
         'boost': 0.18,
         'reason': 'Blender/Unreal/game-pipeline terms',
     },
     {
         'id': 'mail',
-        'any': {'email', 'mail', 'inbox', 'mailbox', 'messagerie', 'courrier'},
+        'any': {'email', 'inbox', 'mailbox', 'messagerie', 'courrier'},
+        'category': 'category_19',
+        'boost': 0.2,
+        'reason': 'mail/inbox is Knowledge & Productivity, not the host',
+    },
+    {
+        'id': 'mail-name',
+        'any': {'mail', 'cloud-mail', 'cloud_mail'},
+        'also': {'email', 'inbox', 'mailbox', 'cloudflare_email'},
         'category': 'category_19',
         'boost': 0.2,
         'reason': 'mail/inbox is Knowledge & Productivity, not the host',
     },
     {
         'id': 'cloudflare-host',
-        'any': {'email', 'mail', 'inbox', 'mailbox'},
+        'any': {'email', 'inbox', 'mailbox'},
         'also': {'cloudflare', 'workers', 'cloudflare_workers'},
         'category': 'category_19',
         'boost': 0.1,
@@ -76,7 +84,16 @@ DOMAIN_RULES = (
     },
     {
         'id': 'mobile-sim',
-        'any': {'ios', 'android', 'simulator', 'simulators', 'react_native', 'expo', 'xcode', 'tvos', 'watchos', 'visionos'},
+        'any': {'simulator', 'simulators', 'react_native', 'expo', 'xcode', 'simslim'},
+        'category': 'category_12',
+        'boost': 0.22,
+        'down': {'category_25': 0.08},
+        'reason': 'mobile/simulator development environment',
+    },
+    {
+        'id': 'mobile-native',
+        'any': {'ios', 'android', 'tvos', 'watchos', 'visionos'},
+        'also': {'simulator', 'simulators', 'react_native', 'expo', 'xcode'},
         'category': 'category_12',
         'boost': 0.22,
         'down': {'category_25': 0.08},
@@ -101,7 +118,7 @@ DOMAIN_RULES = (
     },
     {
         'id': 'video-studio',
-        'any': {'video', 'screen_recording', 'mp4', 'webm', 'recording_studio'},
+        'any': {'video', 'screen_recording', 'mp4', 'webm', 'recording_studio', 'video_editor'},
         'category': 'category_10',
         'boost': 0.22,
         'down': {'category_09': 0.08},
@@ -111,6 +128,15 @@ DOMAIN_RULES = (
         'id': 'recording-video',
         'any': {'recording', 'studio', 'podcast'},
         'also': {'video', 'screen', '4k', 'mp4', 'webm'},
+        'category': 'category_10',
+        'boost': 0.22,
+        'down': {'category_09': 0.08},
+        'reason': 'recording studio whose output is video',
+    },
+    {
+        'id': 'recording-studio',
+        'any': {'recording'},
+        'also': {'studio', 'podcast', 'podcasts'},
         'category': 'category_10',
         'boost': 0.22,
         'down': {'category_09': 0.08},
@@ -127,11 +153,10 @@ DOMAIN_RULES = (
     },
     {
         'id': 'security-domain',
-        'any': {'pentest', 'security', 'vulnerability', 'authn', 'secrets'},
-        'also': {'audit', 'scanner', 'identity'},
+        'any': {'pentest', 'pentesters', 'hacking', 'privacy', 'vulnerability', 'authn', 'secrets'},
         'category': 'category_18',
         'boost': 0.2,
-        'reason': 'security audits follow Security, Privacy & Identity',
+        'reason': 'security, privacy and identity follow that domain',
     },
     {
         'id': 'image-video-skill',
@@ -142,6 +167,68 @@ DOMAIN_RULES = (
         'down': {'category_03': 0.08},
         'reason': 'domain-specific video/image skill follows Image, Video & Presentations',
     },
+    {
+        'id': 'inference-gateway',
+        'any': {
+            'gateway', 'inference', 'vllm', 'llamacpp', 'llama_cpp', 'model_server',
+            'inference_engine', 'llm_gateway', 'agentgateway', 'agentic_proxy',
+            'llm_apis', 'geforce',
+        },
+        'category': 'category_07',
+        'boost': 0.3,
+        'down': {'category_23': 0.12, 'category_12': 0.08},
+        'reason': 'inference runtime, API gateway or model proxy',
+    },
+    {
+        'id': 'linter',
+        'any': {'linter', 'lints', 'clippy', 'eslint', 'static_analysis'},
+        'category': 'category_14',
+        'boost': 0.24,
+        'down': {'category_03': 0.1},
+        'reason': 'linters and static analysis are Testing, Debugging & Code Quality',
+    },
+    {
+        'id': 'dictation',
+        'any': {'dictation', 'wispr', 'speech_to_text', 'voice_dictation', 'superwhisper'},
+        'category': 'category_09',
+        'boost': 0.24,
+        'down': {'category_19': 0.1},
+        'reason': 'dictation/speech-to-text follows Voice, Audio & Music',
+    },
+    {
+        'id': 'memory-rag',
+        'any': {'memory_layer', 'long_term_memory', 'rag'},
+        'also': {'agent', 'agents', 'ai'},
+        'category': 'category_05',
+        'boost': 0.24,
+        'down': {'category_03': 0.08, 'category_10': 0.08},
+        'reason': 'memory/RAG for agents follows AI Memory, Context & RAG',
+    },
+    {
+        'id': 'models-on-device',
+        'any': {'coreml', 'coreai', 'coreai-models', 'model_export'},
+        'category': 'category_06',
+        'boost': 0.24,
+        'down': {'category_12': 0.12},
+        'reason': 'model export/training artifacts, not an app or simulator runtime',
+    },
+)
+
+# awesome-* lists follow their subject, not the generic software-directory bucket.
+AWESOME_SUBJECTS = (
+    ({'sysadmin', 'devops', 'scalability'}, 'category_15', 'awesome list subject is Systems, Cloud & DevOps'),
+    ({'tailwind', 'tailwindcss', 'react-components', 'android-ui', 'ui'}, 'category_11', 'awesome list subject is UI & Product Design'),
+    ({'godot', 'unity', 'unreal', 'blender'}, 'category_23', 'awesome list subject is Games & 3D'),
+    ({'hacking', 'pentest', 'pentesters', 'privacy', 'security', 'web-security'}, 'category_18', 'awesome list subject is Security, Privacy & Identity'),
+    ({'pytorch', 'tensorflow'}, 'category_06', 'awesome list subject is AI Models & Training'),
+    ({'skills', 'subagents', 'claude-skills'}, 'category_03', 'awesome list subject is Agent Methods, Skills & Configuration'),
+    ({'creative-coding', 'creative'}, 'category_10', 'awesome list subject is Image, Video & Presentations'),
+    ({'generative-ai'}, 'category_26', 'awesome list subject is AI Engineering & Learning'),
+    ({'llm', 'llm-apis'}, 'category_07', 'awesome list subject is AI Inference & Gateways'),
+    ({'remote-job', 'cv', 'seo'}, 'category_20', 'awesome list subject is Marketing, Sales & Careers'),
+    ({'raspberry-pi', 'raspberry', 'flipperzero', 'flipper'}, 'category_24', 'awesome list subject is Robotics, Hardware & CAD'),
+    ({'go', 'golang', 'ruby', 'nodejs', 'node', 'swift', 'vite', 'readme', 'guidelines', 'ddd', 'interview', 'patterns', 'competitive', 'system-design'}, 'category_13', 'awesome list subject is Developer Tools & Languages'),
+    ({'mac'}, 'category_19', 'awesome list of macOS software is a transversal directory'),
 )
 
 
@@ -218,12 +305,24 @@ def repo_document(repo: dict) -> list[str]:
 def query_document(name: str, features: dict) -> list[str]:
     repo = name.split('/')[-1]
     bag = []
-    bag.extend(tokens(repo.replace('-', ' ')) * 4)
+    bag.extend(tokens(repo.replace('-', ' ').replace('_', ' ')) * 4)
     bag.extend(tokens(features.get('description') or '') * 5)
     bag.extend(tokens(' '.join(features.get('topics') or [])) * 6)
     bag.extend(tokens(features.get('language') or ''))
     bag.extend(tokens(strip_markup(features.get('readme') or '')[:README_CHARS]))
     return bag
+
+
+def title_token_set(name: str, features: dict) -> set[str]:
+    """Tokens that may fire domain-rule reasons: name, description, topics, language."""
+    repo = name.split('/')[-1].replace('_', '-')
+    bag = []
+    bag.extend(tokens(repo.replace('-', ' ')))
+    bag.extend(tokens(repo))
+    bag.extend(tokens(features.get('description') or ''))
+    bag.extend(tokens(' '.join(features.get('topics') or [])))
+    bag.extend(tokens(features.get('language') or ''))
+    return set(bag)
 
 
 def rule_matches(rule: dict, token_set: set[str]) -> bool:
@@ -234,6 +333,22 @@ def rule_matches(rule: dict, token_set: set[str]) -> bool:
     if rule.get('forbid') and (rule['forbid'] & token_set):
         return False
     return True
+
+
+def is_awesome_list(name: str) -> bool:
+    repo = fold(name.split('/')[-1]).replace('_', '-')
+    return repo.startswith('awesome') or '-awesome' in repo or repo.endswith('awesome')
+
+
+def awesome_subject(name: str, title: set[str]) -> tuple[str, str] | None:
+    if not is_awesome_list(name):
+        return None
+    repo = fold(name.split('/')[-1]).replace('_', '-')
+    subject = set(tokens(repo.replace('-', ' '))) | title
+    for needles, category, reason in AWESOME_SUBJECTS:
+        if needles & subject:
+            return category, reason
+    return None
 
 
 class CatalogIndex:
@@ -284,7 +399,7 @@ class CatalogIndex:
     def score(self, name: str, features: dict) -> list[dict]:
         query = query_document(name, features)
         query_vec = weighted(query, self.idf)
-        token_set = set(query)
+        title = title_token_set(name, features)
         scores = {
             cid: cosine(query_vec, vector)
             for cid, vector in self.category_vectors.items()
@@ -304,7 +419,7 @@ class CatalogIndex:
         for rule in DOMAIN_RULES:
             if rule['id'] in applied:
                 continue
-            if not rule_matches(rule, token_set):
+            if not rule_matches(rule, title):
                 continue
             if rule['category'] not in scores:
                 continue
@@ -317,6 +432,14 @@ class CatalogIndex:
             # A more specific skill rule replaces the generic same-domain rule.
             if rule['id'].endswith('-skill'):
                 applied.add(rule['id'].removesuffix('-skill'))
+        awesome = awesome_subject(name, title)
+        if awesome:
+            category, reason = awesome
+            if category in scores:
+                scores[category] += 0.32
+                reasons[category].append(reason)
+                if category != 'category_19' and 'category_19' in scores:
+                    scores['category_19'] -= 0.08
         ranked = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
         return [
             {

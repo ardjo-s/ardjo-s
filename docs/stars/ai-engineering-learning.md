@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**30 repositories.** [Browse all categories →](README.md)
+**31 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -36,6 +36,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch): Learn AI Engineering! Learn it.
 - [rudrankriyam/Foundation-Models-Framework-Lab](https://github.com/rudrankriyam/Foundation-Models-Framework-Lab): A practical lab for building, testing, and evaluating apps with Apple's Foundation Models framework.
 - [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps): 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai): A curated list of modern Generative Artificial Intelligence projects and services.
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering): A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
 - [typesafe-ai/skills](https://github.com/typesafe-ai/skills): Agent skills for building with TypeSafe's System One API.
 - [vercel-labs/ai-cli](https://github.com/vercel-labs/ai-cli): Generate anything from your terminal.
