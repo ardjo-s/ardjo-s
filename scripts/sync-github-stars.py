@@ -221,21 +221,47 @@ def mini_description(value: str) -> str:
     return f'{sentence}.'
 
 
+def repo_list_flags(repo: dict) -> str:
+    flags = ''.join([
+        ' · archived' if repo.get('archived') else '',
+        ' · fork' if repo.get('fork') else '',
+        ' · review needed' if repo.get('review_required') else '',
+    ])
+    candidates = [str(item) for item in (repo.get('review_candidate_names') or []) if item]
+    if candidates:
+        flags += ' · à trancher ' + ' vs '.join(candidates)
+    return flags
+
+
 def render_list(category: dict, repos: list[dict]) -> str:
+    pending = [repo for repo in repos if repo.get('review_candidate_names')]
     lines = [
         f"# {category['emoji']} {category['name']}", '', f"> {category['description']}", '',
         f'**{len(repos)} repositories.** [Browse all categories →](README.md)', '', GENERATED, '',
         'Classified by primary use with Sol. [Structured catalog and evidence](catalog.json).',
-        'A review flag marks uncertain evidence or category boundaries; every repository still has a category.', '',
-        '## Stars', '',
+        'A review flag marks uncertain evidence or category boundaries; every repository still has a category.',
     ]
+    if category['id'] == UNSORTED_ID and pending:
+        lines.append(
+            'Low-confidence automatic picks stay here until a human chooses; they are not published in a category.'
+        )
+        lines.extend(['', '## À trancher', ''])
+        for repo in sorted(pending, key=lambda r: r['name'].casefold()):
+            lines.append(
+                f"- [{repo['name']}]({repo['url']}){repo_list_flags(repo)}: {mini_description(repo['description'])}"
+            )
+        rest = [repo for repo in repos if not repo.get('review_candidate_names')]
+        lines.extend(['', '## Stars', ''])
+        for repo in sorted(rest, key=lambda r: r['name'].casefold()):
+            lines.append(
+                f"- [{repo['name']}]({repo['url']}){repo_list_flags(repo)}: {mini_description(repo['description'])}"
+            )
+        return '\n'.join(lines).rstrip() + '\n'
+    lines.extend(['', '## Stars', ''])
     for repo in sorted(repos, key=lambda r: r['name'].casefold()):
-        flags = ''.join([
-            ' · archived' if repo.get('archived') else '',
-            ' · fork' if repo.get('fork') else '',
-            ' · review needed' if repo['review_required'] else '',
-        ])
-        lines.append(f"- [{repo['name']}]({repo['url']}){flags}: {mini_description(repo['description'])}")
+        lines.append(
+            f"- [{repo['name']}]({repo['url']}){repo_list_flags(repo)}: {mini_description(repo['description'])}"
+        )
     return '\n'.join(lines).rstrip() + '\n'
 
 
@@ -319,7 +345,7 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
     repositories = []
     for category in categories:
         for repo in groups.get(category['id'], []):
-            repositories.append({
+            row = {
                 'id': repo['id'],
                 'name': repo['name'],
                 'url': repo['url'],
@@ -328,7 +354,10 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
                 'category_id': category['id'],
                 'archived': bool(repo.get('archived')),
                 'fork': bool(repo.get('fork')),
-            })
+            }
+            if repo.get('review_candidate_names'):
+                row['review_candidate_names'] = list(repo['review_candidate_names'])
+            repositories.append(row)
     repositories.sort(key=lambda row: row['name'].casefold())
     payload = {
         'schema_version': 1,
@@ -349,8 +378,7 @@ def render_stars_json(catalog: dict, groups: dict[str, list[dict]]) -> str:
 
 
 def _page_repo_names(text: str) -> list[str]:
-    body = text.split('## Stars', 1)[1] if '## Stars' in text else ''
-    return [match.group(1) for match in REPO_ROW.finditer(body)]
+    return [match.group(1) for match in REPO_ROW.finditer(text)]
 
 
 def _collect_errors(errors: list[str], condition: bool, message: str) -> None:
@@ -490,14 +518,17 @@ def snapshot_stars(catalog: dict, snapshot: dict) -> list[dict]:
         classified = by_id.get(row['id']) if row.get('id') else by_name.get(row.get('name'))
         if classified is None and row.get('category_id') != UNSORTED_ID:
             raise ValueError(f"generated snapshot has repo not in catalog: {row.get('name')}")
-        stars.append({
+        item = {
             'id': classified['id'] if classified else row.get('id') or f"{UNSORTED_ID}:{row['name']}",
             'name': row['name'],
             'url': row['url'],
             'description': row.get('description') or '',
             'archived': bool(row.get('archived')),
             'fork': bool(row.get('fork')),
-        })
+        }
+        if row.get('review_candidate_names'):
+            item['review_candidate_names'] = list(row['review_candidate_names'])
+        stars.append(item)
     return stars
 
 
@@ -525,8 +556,19 @@ def check_committed_export(output_dir: Path, readme: Path, catalog_path: Path) -
                     raise ValueError(f'dead link in {relative}: {target}')
 
 
-def export(stars: list[dict], catalog: dict, output_dir: Path, readme: Path) -> None:
+def export(
+    stars: list[dict],
+    catalog: dict,
+    output_dir: Path,
+    readme: Path,
+    unsorted_notes: dict[str, list[str]] | None = None,
+) -> None:
     groups = group_stars(stars, catalog)
+    if unsorted_notes:
+        for repo in groups.get(UNSORTED_ID, []):
+            names = unsorted_notes.get(repo['name'])
+            if names:
+                repo['review_candidate_names'] = list(names)
     categories = visible_categories(catalog, groups)
     outputs = {output_dir / f"{c['slug']}.md": render_list(c, groups.get(c['id'], [])) for c in categories}
     outputs[output_dir / 'README.md'] = render_index(catalog, groups)

@@ -30,7 +30,7 @@ The offline snapshot can differ from live metadata or star membership after its 
 
 ## Classify a new repository
 
-Live unsorted stars are classified automatically by `scripts/classify-github-stars.py` (nearest classified neighbours plus the catalog domain rules). Domain-rule reasons require a name/description/topics match; README noise does not count. `awesome-*` lists follow their subject. The workflow `.github/workflows/classify-github-stars.yml` runs after a successful sync on `main` when `docs/stars/unsorted.md` is non-empty, updates `catalog.json`, regenerates the export, runs `--check`, and opens or updates one rolling PR on `auto/classify-stars`. It does nothing when unsorted is empty. It never auto-merges. Ardjo merges the PR.
+Live unsorted stars are classified automatically by `scripts/classify-github-stars.py` (nearest classified neighbours plus the catalog domain rules). Domain-rule reasons require a name/description/topics match; README noise does not count. `awesome-*` lists follow their subject. Human corrections (`classification_source` starting `human:`) weigh more than bot rows. Low-confidence picks can get a TypeSafe System One (Jev) second pass when the `TYPESAFE_API_KEY` repository secret is set. Jev asks for a category first, then a follow-up confidence noul that names that pick. It auto-accepts only on agreement with the classifier top-1 or a high-confidence override; otherwise it duels the top two finalists. Rows still doubtful stay in `docs/stars/unsorted.md` and are not published in a category. The workflow `.github/workflows/classify-github-stars.yml` runs after a successful sync on `main` when `docs/stars/unsorted.md` is non-empty, updates `catalog.json`, regenerates the export, runs `--check`, and opens or updates one rolling PR on `auto/classify-stars`. It does nothing when unsorted is empty. It never auto-merges. Ardjo merges the PR. The owner must add `TYPESAFE_API_KEY` for the Jev gate to be active.
 
 To classify by hand instead:
 
@@ -39,7 +39,7 @@ To classify by hand instead:
 3. Preserve uncertainty with `review_required` and `evidence_status`; do not pretend weak evidence has become certain.
 4. Refresh the export and run `python3 -m unittest discover -s scripts -p 'test_*.py'`.
 
-Do not add a category. Domain-specific skills follow their domain. Low-confidence automatic picks keep a category and set `review_candidates` to the top two ids.
+Do not add a category. Domain-specific skills follow their domain. Low-confidence automatic picks stay in Unsorted until Jev or a human accepts an existing category.
 
 The catalog's French usage summaries and French/English keywords support requests in either language. Human-facing category names and short descriptions retain the profile's English presentation.
 

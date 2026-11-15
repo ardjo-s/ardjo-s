@@ -51,13 +51,13 @@ Optional on later additions:
 | `evidence_url` | string | Page that was read. |
 | `evidence_read_at` | string | ISO date of that read. |
 | `evidence_sha256` | string | Digest of retrieved README bytes when recorded. |
-| `classification_source` | string | Workflow run or other provenance URL. |
+| `classification_source` | string | Workflow run, `jev:<date>` when TypeSafe System One accepted a low-confidence row, or other provenance. |
 | `review_candidates` | string[] | Present on auto-classified low-confidence rows: the top two existing category ids (chosen first, runner-up second). |
 | `review_resolution` | object | Recorded boundary decision (category, reviewer, approval). |
 
 Original Sol rows omit `classification_source`. Do not rewrite those objects unless a human asks.
 
-Auto-classified rows (from `scripts/classify-github-stars.py`) always have `classification_source`. They use an existing `categories[].id` only — the classifier never adds a category. `purpose` on those rows may be English (taken from the public description). `review_required` plus `review_candidates` means the top two scores were close; the chosen category is still written so the export can leave Unsorted.
+Auto-classified rows (from `scripts/classify-github-stars.py`) always have `classification_source`. They use an existing `categories[].id` only — the classifier never adds a category. Low-confidence rows may be accepted by a TypeSafe System One (Jev) second pass (`jev:<date>`): Jev chooses a category first, then a follow-up noul names that pick. Accept when Jev agrees with the classifier top-1 or wins a top-2 duel; Jev cannot add a category. Rows still doubtful after that are not written to `catalog.json` and stay on `unsorted.md` with the two candidate names (à trancher). `purpose` on published auto rows may be English (taken from the public description). `review_required` plus `review_candidates` on a human row means the boundary still needs checking; the repository is still classified.
 
 Domain rules (mail, mobile/simulator, 3D skills, inference gateways, and so on) attach a reason only when the rule's tokens match the repository name, description or topics. README body text does not fire those reasons. Curated `awesome-*` lists follow the list's subject, not the generic software-directory bucket.
 
