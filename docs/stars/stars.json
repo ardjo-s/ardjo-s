@@ -37,7 +37,7 @@
       "id": "category_06",
       "name": "AI Models & Training",
       "slug": "ai-models-training",
-      "count": 32
+      "count": 33
     },
     {
       "id": "category_07",
@@ -49,7 +49,7 @@
       "id": "category_08",
       "name": "AI Evaluation & Observability",
       "slug": "ai-evaluation-observability",
-      "count": 35
+      "count": 43
     },
     {
       "id": "category_26",
@@ -97,7 +97,7 @@
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 23
+      "count": 24
     },
     {
       "id": "category_15",
@@ -121,7 +121,7 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 41
+      "count": 42
     },
     {
       "id": "category_19",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 35
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 11
     }
   ],
   "repositories": [
@@ -1396,10 +1390,12 @@
       "name": "Arize-ai/phoenix",
       "url": "https://github.com/Arize-ai/phoenix",
       "description": "AI Observability & Evaluation",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTOEMiQ",
@@ -3026,10 +3022,12 @@
       "name": "comet-ml/opik",
       "url": "https://github.com/comet-ml/opik",
       "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOIygeJg",
@@ -3086,10 +3084,12 @@
       "name": "confident-ai/deepeval",
       "url": "https://github.com/confident-ai/deepeval",
       "description": "The LLM Evaluation Framework",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOORyNkg",
@@ -4526,10 +4526,12 @@
       "name": "evidentlyai/evidently",
       "url": "https://github.com/evidentlyai/evidently",
       "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTEYNUA",
@@ -5266,10 +5268,12 @@
       "name": "Giskard-AI/giskard-oss",
       "url": "https://github.com/Giskard-AI/giskard-oss",
       "description": "🐢 Open-Source Evaluation & Testing library for LLM Agents",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzNjUwMg==",
@@ -7520,10 +7524,12 @@
       "name": "langwatch/langwatch",
       "url": "https://github.com/langwatch/langwatch",
       "description": "Open-Source Agent Observability & Evals for AI Platform teams. Trace, test, route and govern every agent & coding assistant in the company.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORLcNOA",
@@ -8030,10 +8036,16 @@
       "name": "macrodata-labs/refiner",
       "url": "https://github.com/macrodata-labs/refiner",
       "description": "Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Models & Training",
+      "category_id": "category_06",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "AI Models & Training",
+        "Agent Methods, Skills & Configuration"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDOSNbiXQ",
@@ -9760,10 +9772,12 @@
       "name": "NVIDIA/garak",
       "url": "https://github.com/NVIDIA/garak",
       "description": "the LLM vulnerability scanner",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORnw8lA",
@@ -13490,10 +13504,12 @@
       "name": "subsy/gardener",
       "url": "https://github.com/subsy/gardener",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Testing, Debugging & Code Quality",
+      "category_id": "category_14",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOT4vimw",
@@ -14290,10 +14306,12 @@
       "name": "traceloop/openllmetry",
       "url": "https://github.com/traceloop/openllmetry",
       "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQ4pdCg",
@@ -14890,10 +14908,12 @@
       "name": "vibrantlabsai/ragas",
       "url": "https://github.com/vibrantlabsai/ragas",
       "description": "Supercharge Your LLM Application Evaluations 🚀",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORYkBQg",
