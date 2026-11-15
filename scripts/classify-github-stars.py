@@ -37,14 +37,14 @@ NEIGHBOUR_K = 5
 REVIEW_GAP = 0.12
 REVIEW_MIN_SCORE = 0.2
 README_CHARS = 1800
-CLASSIFIER_ID = 'star-catalog-nn-v1'
+CLASSIFIER_ID = 'star-catalog-nn-v2'
 
 # Domain rules from catalog definitions and AGENTS.md (skills follow their domain).
-# Patterns are token-set checks; boosts are additive and deterministic.
+# Match name + description + topics only — README noise must not fire a reason.
 DOMAIN_RULES = (
     {
         'id': 'games-3d-skill',
-        'any': {'blender', 'unreal', 'unity', 'game', 'games', 'game_development', '3d', '3d_models', 'mesh', 'splat', 'avatar'},
+        'any': {'blender', 'unreal', 'unity', 'godot', 'game_development', '3d_models', 'gaussian_splat'},
         'also': {'skill', 'skills', 'addon', 'mcp'},
         'category': 'category_23',
         'boost': 0.28,
@@ -53,21 +53,29 @@ DOMAIN_RULES = (
     },
     {
         'id': 'games-3d',
-        'any': {'blender', 'unreal', 'unity', 'game_development', '3d_models'},
+        'any': {'blender', 'unreal', 'unity', 'godot', 'game_development', '3d_models'},
         'category': 'category_23',
         'boost': 0.18,
         'reason': 'Blender/Unreal/game-pipeline terms',
     },
     {
         'id': 'mail',
-        'any': {'email', 'mail', 'inbox', 'mailbox', 'messagerie', 'courrier'},
+        'any': {'email', 'inbox', 'mailbox', 'messagerie', 'courrier'},
+        'category': 'category_19',
+        'boost': 0.2,
+        'reason': 'mail/inbox is Knowledge & Productivity, not the host',
+    },
+    {
+        'id': 'mail-name',
+        'any': {'mail', 'cloud-mail', 'cloud_mail'},
+        'also': {'email', 'inbox', 'mailbox', 'cloudflare_email'},
         'category': 'category_19',
         'boost': 0.2,
         'reason': 'mail/inbox is Knowledge & Productivity, not the host',
     },
     {
         'id': 'cloudflare-host',
-        'any': {'email', 'mail', 'inbox', 'mailbox'},
+        'any': {'email', 'inbox', 'mailbox'},
         'also': {'cloudflare', 'workers', 'cloudflare_workers'},
         'category': 'category_19',
         'boost': 0.1,
@@ -76,7 +84,16 @@ DOMAIN_RULES = (
     },
     {
         'id': 'mobile-sim',
-        'any': {'ios', 'android', 'simulator', 'simulators', 'react_native', 'expo', 'xcode', 'tvos', 'watchos', 'visionos'},
+        'any': {'simulator', 'simulators', 'react_native', 'expo', 'xcode', 'simslim'},
+        'category': 'category_12',
+        'boost': 0.22,
+        'down': {'category_25': 0.08},
+        'reason': 'mobile/simulator development environment',
+    },
+    {
+        'id': 'mobile-native',
+        'any': {'ios', 'android', 'tvos', 'watchos', 'visionos'},
+        'also': {'simulator', 'simulators', 'react_native', 'expo', 'xcode'},
         'category': 'category_12',
         'boost': 0.22,
         'down': {'category_25': 0.08},
@@ -101,7 +118,7 @@ DOMAIN_RULES = (
     },
     {
         'id': 'video-studio',
-        'any': {'video', 'screen_recording', 'mp4', 'webm', 'recording_studio'},
+        'any': {'video', 'screen_recording', 'mp4', 'webm', 'recording_studio', 'video_editor'},
         'category': 'category_10',
         'boost': 0.22,
         'down': {'category_09': 0.08},
@@ -111,6 +128,15 @@ DOMAIN_RULES = (
         'id': 'recording-video',
         'any': {'recording', 'studio', 'podcast'},
         'also': {'video', 'screen', '4k', 'mp4', 'webm'},
+        'category': 'category_10',
+        'boost': 0.22,
+        'down': {'category_09': 0.08},
+        'reason': 'recording studio whose output is video',
+    },
+    {
+        'id': 'recording-studio',
+        'any': {'recording'},
+        'also': {'studio', 'podcast', 'podcasts'},
         'category': 'category_10',
         'boost': 0.22,
         'down': {'category_09': 0.08},
@@ -127,11 +153,10 @@ DOMAIN_RULES = (
     },
     {
         'id': 'security-domain',
-        'any': {'pentest', 'security', 'vulnerability', 'authn', 'secrets'},
-        'also': {'audit', 'scanner', 'identity'},
+        'any': {'pentest', 'pentesters', 'hacking', 'privacy', 'vulnerability', 'authn', 'secrets'},
         'category': 'category_18',
         'boost': 0.2,
-        'reason': 'security audits follow Security, Privacy & Identity',
+        'reason': 'security, privacy and identity follow that domain',
     },
     {
         'id': 'image-video-skill',
@@ -142,6 +167,68 @@ DOMAIN_RULES = (
         'down': {'category_03': 0.08},
         'reason': 'domain-specific video/image skill follows Image, Video & Presentations',
     },
+    {
+        'id': 'inference-gateway',
+        'any': {
+            'gateway', 'inference', 'vllm', 'llamacpp', 'llama_cpp', 'model_server',
+            'inference_engine', 'llm_gateway', 'agentgateway', 'agentic_proxy',
+            'llm_apis', 'geforce',
+        },
+        'category': 'category_07',
+        'boost': 0.3,
+        'down': {'category_23': 0.12, 'category_12': 0.08},
+        'reason': 'inference runtime, API gateway or model proxy',
+    },
+    {
+        'id': 'linter',
+        'any': {'linter', 'lints', 'clippy', 'eslint', 'static_analysis'},
+        'category': 'category_14',
+        'boost': 0.24,
+        'down': {'category_03': 0.1},
+        'reason': 'linters and static analysis are Testing, Debugging & Code Quality',
+    },
+    {
+        'id': 'dictation',
+        'any': {'dictation', 'wispr', 'speech_to_text', 'voice_dictation', 'superwhisper'},
+        'category': 'category_09',
+        'boost': 0.24,
+        'down': {'category_19': 0.1},
+        'reason': 'dictation/speech-to-text follows Voice, Audio & Music',
+    },
+    {
+        'id': 'memory-rag',
+        'any': {'memory_layer', 'long_term_memory', 'rag'},
+        'also': {'agent', 'agents', 'ai'},
+        'category': 'category_05',
+        'boost': 0.24,
+        'down': {'category_03': 0.08, 'category_10': 0.08},
+        'reason': 'memory/RAG for agents follows AI Memory, Context & RAG',
+    },
+    {
+        'id': 'models-on-device',
+        'any': {'coreml', 'coreai', 'coreai-models', 'model_export'},
+        'category': 'category_06',
+        'boost': 0.24,
+        'down': {'category_12': 0.12},
+        'reason': 'model export/training artifacts, not an app or simulator runtime',
+    },
+)
+
+# awesome-* lists follow their subject, not the generic software-directory bucket.
+AWESOME_SUBJECTS = (
+    ({'sysadmin', 'devops', 'scalability'}, 'category_15', 'awesome list subject is Systems, Cloud & DevOps'),
+    ({'tailwind', 'tailwindcss', 'react-components', 'android-ui', 'ui'}, 'category_11', 'awesome list subject is UI & Product Design'),
+    ({'godot', 'unity', 'unreal', 'blender'}, 'category_23', 'awesome list subject is Games & 3D'),
+    ({'hacking', 'pentest', 'pentesters', 'privacy', 'security', 'web-security'}, 'category_18', 'awesome list subject is Security, Privacy & Identity'),
+    ({'pytorch', 'tensorflow'}, 'category_06', 'awesome list subject is AI Models & Training'),
+    ({'skills', 'subagents', 'claude-skills'}, 'category_03', 'awesome list subject is Agent Methods, Skills & Configuration'),
+    ({'creative-coding', 'creative'}, 'category_10', 'awesome list subject is Image, Video & Presentations'),
+    ({'generative-ai'}, 'category_26', 'awesome list subject is AI Engineering & Learning'),
+    ({'llm', 'llm-apis'}, 'category_07', 'awesome list subject is AI Inference & Gateways'),
+    ({'remote-job', 'cv', 'seo'}, 'category_20', 'awesome list subject is Marketing, Sales & Careers'),
+    ({'raspberry-pi', 'raspberry', 'flipperzero', 'flipper'}, 'category_24', 'awesome list subject is Robotics, Hardware & CAD'),
+    ({'go', 'golang', 'ruby', 'nodejs', 'node', 'swift', 'vite', 'readme', 'guidelines', 'ddd', 'interview', 'patterns', 'competitive', 'system-design'}, 'category_13', 'awesome list subject is Developer Tools & Languages'),
+    ({'mac'}, 'category_19', 'awesome list of macOS software is a transversal directory'),
 )
 
 
@@ -218,12 +305,24 @@ def repo_document(repo: dict) -> list[str]:
 def query_document(name: str, features: dict) -> list[str]:
     repo = name.split('/')[-1]
     bag = []
-    bag.extend(tokens(repo.replace('-', ' ')) * 4)
+    bag.extend(tokens(repo.replace('-', ' ').replace('_', ' ')) * 4)
     bag.extend(tokens(features.get('description') or '') * 5)
     bag.extend(tokens(' '.join(features.get('topics') or [])) * 6)
     bag.extend(tokens(features.get('language') or ''))
     bag.extend(tokens(strip_markup(features.get('readme') or '')[:README_CHARS]))
     return bag
+
+
+def title_token_set(name: str, features: dict) -> set[str]:
+    """Tokens that may fire domain-rule reasons: name, description, topics, language."""
+    repo = name.split('/')[-1].replace('_', '-')
+    bag = []
+    bag.extend(tokens(repo.replace('-', ' ')))
+    bag.extend(tokens(repo))
+    bag.extend(tokens(features.get('description') or ''))
+    bag.extend(tokens(' '.join(features.get('topics') or [])))
+    bag.extend(tokens(features.get('language') or ''))
+    return set(bag)
 
 
 def rule_matches(rule: dict, token_set: set[str]) -> bool:
@@ -234,6 +333,22 @@ def rule_matches(rule: dict, token_set: set[str]) -> bool:
     if rule.get('forbid') and (rule['forbid'] & token_set):
         return False
     return True
+
+
+def is_awesome_list(name: str) -> bool:
+    repo = fold(name.split('/')[-1]).replace('_', '-')
+    return repo.startswith('awesome') or '-awesome' in repo or repo.endswith('awesome')
+
+
+def awesome_subject(name: str, title: set[str]) -> tuple[str, str] | None:
+    if not is_awesome_list(name):
+        return None
+    repo = fold(name.split('/')[-1]).replace('_', '-')
+    subject = set(tokens(repo.replace('-', ' '))) | title
+    for needles, category, reason in AWESOME_SUBJECTS:
+        if needles & subject:
+            return category, reason
+    return None
 
 
 class CatalogIndex:
@@ -284,7 +399,7 @@ class CatalogIndex:
     def score(self, name: str, features: dict) -> list[dict]:
         query = query_document(name, features)
         query_vec = weighted(query, self.idf)
-        token_set = set(query)
+        title = title_token_set(name, features)
         scores = {
             cid: cosine(query_vec, vector)
             for cid, vector in self.category_vectors.items()
@@ -304,7 +419,7 @@ class CatalogIndex:
         for rule in DOMAIN_RULES:
             if rule['id'] in applied:
                 continue
-            if not rule_matches(rule, token_set):
+            if not rule_matches(rule, title):
                 continue
             if rule['category'] not in scores:
                 continue
@@ -317,6 +432,14 @@ class CatalogIndex:
             # A more specific skill rule replaces the generic same-domain rule.
             if rule['id'].endswith('-skill'):
                 applied.add(rule['id'].removesuffix('-skill'))
+        awesome = awesome_subject(name, title)
+        if awesome:
+            category, reason = awesome
+            if category in scores:
+                scores[category] += 0.32
+                reasons[category].append(reason)
+                if category != 'category_19' and 'category_19' in scores:
+                    scores['category_19'] -= 0.08
         ranked = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
         return [
             {
@@ -398,6 +521,13 @@ def fetch_features(name: str, token: str, base: dict | None = None) -> dict:
     if not token:
         return features
     data = request_optional(f'{stars.API}/repos/{name}', token)
+    if data and data.get('private'):
+        print(f'Skipping private repository {name}', file=sys.stderr)
+        features['private'] = True
+        features['description'] = ''
+        features['readme'] = ''
+        features['topics'] = []
+        return features
     if data:
         features['name'] = data.get('full_name') or name
         features['id'] = data.get('node_id') or features['id']
@@ -468,27 +598,39 @@ def catalog_record(row: dict, features: dict, decision: dict, *, source: str, ev
     return record
 
 
-def insert_records(catalog: dict, records: list[dict]) -> dict:
+def insert_records(catalog: dict, records: list[dict]) -> tuple[dict, list[dict]]:
     ids = {category['id'] for category in catalog['categories']}
     by_id = {repo['id']: repo for repo in catalog['repositories']}
     by_name = {repo['name'].casefold(): repo for repo in catalog['repositories']}
+    conflicts = []
     for record in records:
         if record['category'] not in ids:
             raise ValueError(f"refusing unknown category {record['category']} for {record['name']}")
         if record['category'] == stars.UNSORTED_ID:
             raise ValueError(f'refusing unsorted category for {record["name"]}')
-        existing = by_id.get(record['id']) or by_name.get(record['name'].casefold())
-        if existing:
+        if record['id'] in by_id:
+            continue
+        name_hit = by_name.get(record['name'].casefold())
+        if name_hit:
+            conflicts.append({
+                'name': record['name'],
+                'id': record['id'],
+                'existing_id': name_hit['id'],
+                'reason': (
+                    f"{record['name']} is already catalogued as node {name_hit['id']}; "
+                    'live star has a different id and needs a human'
+                ),
+            })
             continue
         catalog['repositories'].append(record)
         by_id[record['id']] = record
         by_name[record['name'].casefold()] = record
     catalog['repositories'].sort(key=lambda repo: repo['name'].casefold())
     stars.validate_catalog(catalog)
-    return catalog
+    return catalog, conflicts
 
 
-def render_pr_body(decisions: list[dict], *, source: str) -> str:
+def render_pr_body(decisions: list[dict], *, source: str, conflicts: list[dict] | None = None) -> str:
     lines = [
         '## Classify unsorted GitHub stars',
         '',
@@ -500,6 +642,10 @@ def render_pr_body(decisions: list[dict], *, source: str) -> str:
         '| --- | --- | --- | --- |',
     ]
     for decision in decisions:
+        if decision.get('skipped'):
+            reason = decision['reason'].replace('|', '/')
+            lines.append(f"| `{decision['name']}` | skipped | — | {reason} |")
+            continue
         confidence = decision['confidence']
         if decision['review_required']:
             names = ' vs '.join(decision['review_candidate_names'])
@@ -520,6 +666,16 @@ def render_pr_body(decisions: list[dict], *, source: str) -> str:
         '4. If `unsorted.md` is empty, the job exits without opening a PR.',
         '',
     ])
+    if conflicts:
+        lines.extend([
+            '## Name conflicts',
+            '',
+            'These live stars reuse a catalogued `owner/repo` with a new GitHub node id. They stay unsorted until a human decides.',
+            '',
+        ])
+        for conflict in conflicts:
+            lines.append(f"- `{conflict['name']}` live `{conflict['id']}` vs catalog `{conflict['existing_id']}`")
+        lines.append('')
     return '\n'.join(lines) + '\n'
 
 
@@ -561,6 +717,21 @@ def classify_unsorted(
             if not merged.get('description'):
                 merged['description'] = row.get('description') or ''
             features = merged
+        if features.get('private'):
+            decisions.append({
+                'name': name,
+                'category': '',
+                'category_name': '',
+                'score': 0.0,
+                'gap': 0.0,
+                'confidence': 'low',
+                'review_required': True,
+                'review_candidates': [],
+                'review_candidate_names': [],
+                'reason': 'repository is private; not written to the public catalog',
+                'skipped': True,
+            })
+            continue
         decision = classify_repo(index, name, features)
         if decision['category'] not in index.categories:
             raise ValueError(f"classifier invented category {decision['category']}")
@@ -602,14 +773,20 @@ def main() -> int:
         token=token,
     )
     for decision in decisions:
+        if decision.get('skipped'):
+            print(f"{decision['name']}: skipped — {decision['reason']}")
+            continue
         flag = ' review' if decision['review_required'] else ''
         print(f"{decision['name']}: {decision['category_name']} ({decision['confidence']}{flag}) — {decision['reason']}")
-    body = render_pr_body(decisions, source=classification_source())
+    if not args.apply:
+        body = render_pr_body(decisions, source=classification_source())
+        if args.pr_body:
+            args.pr_body.write_text(body, encoding='utf-8')
+        return 0
+    _, conflicts = insert_records(catalog, records)
+    body = render_pr_body(decisions, source=classification_source(), conflicts=conflicts)
     if args.pr_body:
         args.pr_body.write_text(body, encoding='utf-8')
-    if not args.apply:
-        return 0
-    insert_records(catalog, records)
     write_catalog(args.catalog, catalog)
     live = stars.snapshot_stars(catalog, json.loads((args.output_dir / 'stars.json').read_text(encoding='utf-8')))
     stars.export(live, catalog, args.output_dir, args.readme)

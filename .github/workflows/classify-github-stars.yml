@@ -16,7 +16,8 @@ permissions:
 
 concurrency:
   group: classify-github-stars
-  cancel-in-progress: true
+  # PR validate of the sync workflow also emits workflow_run; do not cancel a real classify job.
+  cancel-in-progress: ${{ !(github.event_name == 'workflow_run' && github.event.workflow_run.event == 'pull_request') }}
 
 jobs:
   classify:
@@ -59,6 +60,7 @@ jobs:
             --output-dir docs/stars \
             --apply \
             --pr-body /tmp/classify-stars-pr.md
+          python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 scripts/sync-github-stars.py --output-dir docs/stars --check
           git checkout -B auto/classify-stars
           git add README.md docs/stars
@@ -70,7 +72,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: classify unsorted GitHub stars"
           git push -f origin auto/classify-stars
-          existing="$(gh pr list --repo "${GITHUB_REPOSITORY}" --base main --head "${GITHUB_REPOSITORY_OWNER}:auto/classify-stars" --state open --json number --jq '.[0].number // empty')"
+          existing="$(gh pr list --repo "${GITHUB_REPOSITORY}" --base main --head auto/classify-stars --state open --json number --jq '.[0].number // empty')"
           if [ -n "${existing}" ]; then
             gh pr edit "${existing}" --title "Classify unsorted GitHub stars" --body-file /tmp/classify-stars-pr.md
             echo "Updated rolling PR #${existing}"

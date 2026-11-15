@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**64 repositories.** [Browse all categories →](README.md)
+**69 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,10 +15,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
+- [Budibase/budibase](https://github.com/Budibase/budibase): AI agents, automations and apps that run your operations.
 - [convex/convex-backend](https://github.com/convex/convex-backend): The open-source reactive database for app developers.
 - [daveebbelaar/bama](https://github.com/daveebbelaar/bama): BAMA: Build Any Mac App.
 - [DioxusLabs/blitz](https://github.com/DioxusLabs/blitz): A radically modular HTML/CSS rendering engine.
 - [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus): Fullstack app framework for web, desktop, and mobile.
+- [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps): :iphone: Collaborative List of Open-Source iOS Apps.
 - [Effect-TS/effect](https://github.com/Effect-TS/effect): Build production-ready applications in TypeScript.
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
@@ -30,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [fastapi/fastapi](https://github.com/fastapi/fastapi): FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 - [foldkit/foldkit](https://github.com/foldkit/foldkit): Starred repository.
 - [frappe/frappe](https://github.com/frappe/frappe): Low code web framework for real world applications, in Python and Javascript.
+- [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) · review needed: Keep your coding agent up to date with the latest web best practices.
 - [hunvreus/pagescms](https://github.com/hunvreus/pagescms): The simplest CMS you'll ever need.
 - [InsForge/InsForge](https://github.com/InsForge/InsForge): The all-in-one, open-source backend platform for agentic coding.
 - [instantdb/instant](https://github.com/instantdb/instant): Instant is the best backend for AI-coded apps.
@@ -66,6 +69,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tamagui/tamagui](https://github.com/tamagui/tamagui): Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
 - [thesysdev/openui](https://github.com/thesysdev/openui) · review needed: The Open Standard for Generative UI.
 - [Thinkmill/keystatic](https://github.com/Thinkmill/keystatic): First class CMS experience, TypeScript API, Markdown &amp; YAML/JSON based, no DB.
+- [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat): A batteries-included framework for building web apps.
 - [trpc/trpc](https://github.com/trpc/trpc): 🧙‍♀️  Move Fast and Break Nothing.
 - [tulir/whatsmeow](https://github.com/tulir/whatsmeow): Go library for the WhatsApp web multidevice API.
 - [tw93/Pake](https://github.com/tw93/Pake): Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.
@@ -73,5 +77,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vercel-labs/json-render](https://github.com/vercel-labs/json-render) · review needed: The Generative UI framework.
 - [vercel/examples](https://github.com/vercel/examples): Enjoy our curated collection of examples and solutions.
 - [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios): A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects.
+- [vuejs/core](https://github.com/vuejs/core): 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 - [whiskerrs/whisker](https://github.com/whiskerrs/whisker): Build native iOS, Android, web and desktop apps in Rust.
 - [zats/permiso](https://github.com/zats/permiso) · review needed: Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819.

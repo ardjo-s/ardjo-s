@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**27 repositories.** [Browse all categories →](README.md)
+**30 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,7 +15,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [alchemy-run/alchemy](https://github.com/alchemy-run/alchemy): Infrastructure as Effects.
 - [alchemy-run/alchemy-async](https://github.com/alchemy-run/alchemy-async): Infrastructure as TypeScript.
 - [alchemy-run/distilled](https://github.com/alchemy-run/distilled) · review needed: Effect-native SDKs for cloud providers.
+- [apple/container](https://github.com/apple/container): A tool for creating and running Linux containers using lightweight virtual machines on a Mac.
 - [AshishKumar4/armada](https://github.com/AshishKumar4/armada): Fast, mappable compute on Cloudflare Containers.
+- [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin): A curated list of amazingly awesome open-source sysadmin resources.
+- [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability): The Patterns of Scalable, Reliable, and Performant Large-Scale Systems.
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared): Cloudflare Tunnel client.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify): An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
 - [devopness/devopness](https://github.com/devopness/devopness): Devopness: AI DevOps on your cloud.

@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**71 repositories.** [Browse all categories →](README.md)
+**74 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal): Starred repository.
 - [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) · review needed: Tool for automatic PS5 executables porting to Linux and Windows.
 - [ByteDance-Seed/Depth-Anything-3](https://github.com/ByteDance-Seed/Depth-Anything-3): Depth Anything 3.
+- [Calinou/awesome-godot](https://github.com/Calinou/awesome-godot): A curated list of free/libre plugins, scripts and add-ons for Godot.
 - [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) · review needed: MCP server for interfacing with Godot game engine.
 - [colyseus/colyseus](https://github.com/colyseus/colyseus): ⚔ Multiplayer Framework for Node.js.
 - [ConfettiFX/The-Forge](https://github.com/ConfettiFX/The-Forge): The Forge Cross-Platform Framework PC Windows, Steamdeck (native), Ray Tracing, macOS / iOS, Android, XBOX, PS4, PS5, Switch, Quest 2.
@@ -52,6 +53,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster): An image-to-world skillset for Claude.
 - [nianticlabs/spz](https://github.com/nianticlabs/spz): File format for 3D Gaussian splats.
 - [nigelhartman/worldlabs_unity](https://github.com/nigelhartman/worldlabs_unity): A Unity package for generating and rendering 3D Gaussian Splatting scenes using the WorldLabs API.
+- [nutti/fake-bpy-module](https://github.com/nutti/fake-bpy-module): Fake Blender Python API module collection for the code completion.
 - [nv-tlabs/lyra](https://github.com/nv-tlabs/lyra): Project Lyra: Open Generative 3D World Models.
 - [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW): Custom GeForce Now Client Named OpenNOW.
 - [patch-gg/anymove](https://github.com/patch-gg/anymove): Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.
@@ -59,6 +61,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat): 3D Gaussian Splat Editor.
 - [pmndrs/drei](https://github.com/pmndrs/drei): 🥉 useful helpers for react-three-fiber.
 - [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing): 📬  Postprocessing for react-three-fiber.
+- [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen): Infinite Photorealistic Worlds using Procedural Generation.
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.

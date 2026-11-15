@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**32 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -43,3 +43,4 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper): Starred repository.
 - [xikhar/persona](https://github.com/xikhar/persona): Bringing real-time voice to life.
 - [ygivenx/freeWispr](https://github.com/ygivenx/freeWispr): Free, local, privacy-first dictation for macOS — like Wispr but open source.
+- [zachlatta/freeflow](https://github.com/zachlatta/freeflow): Free &amp; fast alternative to Wispr Flow.

@@ -23,9 +23,10 @@ class StarsTest(unittest.TestCase):
     def test_snapshot_is_complete_and_unique(self):
         stars.validate_catalog(self.catalog)
         groups = stars.group_stars(self.catalog['repositories'], self.catalog)
+        catalog_n = len(self.catalog['repositories'])
         self.assertEqual(len(groups), 26)
-        self.assertEqual(sum(map(len, groups.values())), 1458)
-        self.assertEqual(sum(r['review_required'] for r in self.catalog['repositories']), 249)
+        self.assertGreater(catalog_n, 0)
+        self.assertEqual(sum(map(len, groups.values())), catalog_n)
         self.assertFalse(any(r.get('private') for r in self.catalog['repositories']))
         self.assertNotIn(stars.UNSORTED_ID, groups)
 
@@ -102,6 +103,24 @@ class StarsTest(unittest.TestCase):
             self.assertTrue(repo['evidence_quote'])
             self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
             self.assertEqual(repo['evidence_read_at'], '2026-11-14')
+        additions_2026_11_15 = [
+            r for r in self.catalog['repositories']
+            if r.get('evidence_read_at') == '2026-11-15'
+        ]
+        self.assertEqual(len(additions_2026_11_15), 83)
+        self.assertEqual(sum(r['review_required'] for r in additions_2026_11_15), 3)
+        by_name = {r['name']: r for r in additions_2026_11_15}
+        self.assertEqual(by_name['agentgateway/agentgateway']['category'], 'category_07')
+        self.assertEqual(by_name['awesome-foss/awesome-sysadmin']['category'], 'category_15')
+        self.assertEqual(by_name['apple/coreai-models']['category'], 'category_06')
+        self.assertTrue(by_name['apple/coreai-models']['review_required'])
+        self.assertTrue(by_name['Narcooo/inkos']['review_required'])
+        self.assertTrue(by_name['GoogleChrome/modern-web-guidance-src']['review_required'])
+        for repo in additions_2026_11_15:
+            self.assertTrue(repo['evidence_quote'])
+            self.assertEqual(repo['url'], f"https://github.com/{repo['name']}")
+            self.assertIn('classification_source', repo)
+            self.assertNotEqual(repo['category'], stars.UNSORTED_ID)
 
     def test_renamed_repository_keeps_reviewed_category(self):
         repo = copy.deepcopy(self.catalog['repositories'][0])
@@ -281,10 +300,12 @@ class StarsTest(unittest.TestCase):
             for href in re.findall(r'href="(docs/stars/[^"#]+)', readme.read_text()):
                 self.assertTrue((root / href).is_file(), href)
             rendered = '\n'.join((output / f"{c['slug']}.md").read_text() for c in self.catalog['categories'])
-            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), 1458)
-            self.assertEqual(rendered.count(' · review needed'), 249)
+            catalog_n = len(self.catalog['repositories'])
+            review_n = sum(r['review_required'] for r in self.catalog['repositories'])
+            self.assertEqual(len(re.findall(r'^- \[', rendered, re.M)), catalog_n)
+            self.assertEqual(rendered.count(' · review needed'), review_n)
             snapshot = json.loads((output / 'stars.json').read_text())
-            self.assertEqual(snapshot['repository_count'], 1458)
+            self.assertEqual(snapshot['repository_count'], catalog_n)
             self.assertTrue(all(row.get('id') for row in snapshot['repositories']))
             self.assertEqual(
                 [row['name'] for row in snapshot['repositories']],

@@ -7,43 +7,43 @@
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 93
+      "count": 94
     },
     {
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 102
+      "count": 103
     },
     {
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 118
+      "count": 121
     },
     {
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 77
+      "count": 78
     },
     {
       "id": "category_05",
       "name": "AI Memory, Context & RAG",
       "slug": "ai-memory-context-rag",
-      "count": 55
+      "count": 57
     },
     {
       "id": "category_06",
       "name": "AI Models & Training",
       "slug": "ai-models-training",
-      "count": 31
+      "count": 33
     },
     {
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 39
+      "count": 43
     },
     {
       "id": "category_08",
@@ -55,61 +55,61 @@
       "id": "category_26",
       "name": "AI Engineering & Learning",
       "slug": "ai-engineering-learning",
-      "count": 30
+      "count": 31
     },
     {
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
-      "count": 32
+      "count": 33
     },
     {
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 102
+      "count": 110
     },
     {
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 142
+      "count": 146
     },
     {
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 71
+      "count": 74
     },
     {
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 64
+      "count": 69
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 56
+      "count": 74
     },
     {
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 23
+      "count": 24
     },
     {
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 27
+      "count": 30
     },
     {
       "id": "category_16",
       "name": "Data, Databases & GIS",
       "slug": "data-databases-gis",
-      "count": 36
+      "count": 39
     },
     {
       "id": "category_17",
@@ -121,19 +121,19 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 34
+      "count": 39
     },
     {
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 122
+      "count": 131
     },
     {
       "id": "category_20",
       "name": "Marketing, Sales & Careers",
       "slug": "marketing-sales-careers",
-      "count": 47
+      "count": 50
     },
     {
       "id": "category_21",
@@ -151,19 +151,13 @@
       "id": "category_24",
       "name": "Robotics, Hardware & CAD",
       "slug": "robotics-hardware-cad",
-      "count": 8
+      "count": 10
     },
     {
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 33
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 83
+      "count": 36
     }
   ],
   "repositories": [
@@ -292,8 +286,8 @@
       "name": "521xueweihan/HelloGitHub",
       "url": "https://github.com/521xueweihan/HelloGitHub",
       "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -332,8 +326,8 @@
       "name": "a2ui-project/a2ui",
       "url": "https://github.com/a2ui-project/a2ui",
       "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -612,8 +606,8 @@
       "name": "agentgateway/agentgateway",
       "url": "https://github.com/agentgateway/agentgateway",
       "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
       "fork": false
     },
@@ -642,8 +636,8 @@
       "name": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Marketing, Sales & Careers",
+      "category_id": "category_20",
       "archived": false,
       "fork": false
     },
@@ -742,8 +736,8 @@
       "name": "Aidoku/Aidoku",
       "url": "https://github.com/Aidoku/Aidoku",
       "description": "Manga reading app for iOS, iPadOS, and macOS",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -792,8 +786,8 @@
       "name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Memory, Context & RAG",
+      "category_id": "category_05",
       "archived": false,
       "fork": false
     },
@@ -1022,8 +1016,8 @@
       "name": "aniftyco/awesome-tailwindcss",
       "url": "https://github.com/aniftyco/awesome-tailwindcss",
       "description": "😎 Awesome things related to Tailwind CSS",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -1252,8 +1246,8 @@
       "name": "apple/container",
       "url": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
       "fork": false
     },
@@ -1262,8 +1256,8 @@
       "name": "apple/coreai-models",
       "url": "https://github.com/apple/coreai-models",
       "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Models & Training",
+      "category_id": "category_06",
       "archived": false,
       "fork": false
     },
@@ -1432,8 +1426,8 @@
       "name": "ashishps1/awesome-system-design-resources",
       "url": "https://github.com/ashishps1/awesome-system-design-resources",
       "description": "Learn System Design concepts and prepare for interviews using free resources.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -1552,8 +1546,8 @@
       "name": "avelino/awesome-go",
       "url": "https://github.com/avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -1592,8 +1586,8 @@
       "name": "awesome-foss/awesome-sysadmin",
       "url": "https://github.com/awesome-foss/awesome-sysadmin",
       "description": "A curated list of amazingly awesome open-source sysadmin resources.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
       "fork": false
     },
@@ -1782,8 +1776,8 @@
       "name": "bharathgs/Awesome-pytorch-list",
       "url": "https://github.com/bharathgs/Awesome-pytorch-list",
       "description": "A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Models & Training",
+      "category_id": "category_06",
       "archived": false,
       "fork": false
     },
@@ -1842,8 +1836,8 @@
       "name": "binhnguyennus/awesome-scalability",
       "url": "https://github.com/binhnguyennus/awesome-scalability",
       "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
       "fork": false
     },
@@ -1962,8 +1956,8 @@
       "name": "bolshchikov/js-must-watch",
       "url": "https://github.com/bolshchikov/js-must-watch",
       "description": "Must-watch videos about javascript",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -2062,8 +2056,8 @@
       "name": "brillout/awesome-react-components",
       "url": "https://github.com/brillout/awesome-react-components",
       "description": "Curated List of React Components & Libraries.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -2132,8 +2126,8 @@
       "name": "Budibase/budibase",
       "url": "https://github.com/Budibase/budibase",
       "description": "AI agents, automations and apps that run your operations. Model agnostic.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -2272,8 +2266,8 @@
       "name": "Calinou/awesome-godot",
       "url": "https://github.com/Calinou/awesome-godot",
       "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },
@@ -2512,8 +2506,8 @@
       "name": "ChenLiu-1996/figures4papers",
       "url": "https://github.com/ChenLiu-1996/figures4papers",
       "description": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -2542,8 +2536,8 @@
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
       "fork": false
     },
@@ -2592,8 +2586,8 @@
       "name": "claration/feather",
       "url": "https://github.com/claration/feather",
       "description": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
       "fork": false
     },
@@ -3282,8 +3276,8 @@
       "name": "DataExpert-io/data-engineer-handbook",
       "url": "https://github.com/DataExpert-io/data-engineer-handbook",
       "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Data, Databases & GIS",
+      "category_id": "category_16",
       "archived": false,
       "fork": false
     },
@@ -3692,8 +3686,8 @@
       "name": "djsime1/awesome-flipperzero",
       "url": "https://github.com/djsime1/awesome-flipperzero",
       "description": "🐬 A collection of awesome resources for the Flipper Zero device.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Robotics, Hardware & CAD",
+      "category_id": "category_24",
       "archived": false,
       "fork": false
     },
@@ -3702,8 +3696,8 @@
       "name": "dkhamsing/open-source-ios-apps",
       "url": "https://github.com/dkhamsing/open-source-ios-apps",
       "description": ":iphone: Collaborative List of Open-Source iOS Apps",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -3812,8 +3806,8 @@
       "name": "DopplerHQ/awesome-interview-questions",
       "url": "https://github.com/DopplerHQ/awesome-interview-questions",
       "description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": true,
       "fork": false
     },
@@ -3822,8 +3816,8 @@
       "name": "DovAmir/awesome-design-patterns",
       "url": "https://github.com/DovAmir/awesome-design-patterns",
       "description": "A curated list of software and architecture related design patterns.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -3832,8 +3826,8 @@
       "name": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -3912,8 +3906,8 @@
       "name": "dypsilon/frontend-dev-bookmarks",
       "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
       "description": "Manually curated collection of resources for frontend web developers.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -4492,8 +4486,8 @@
       "name": "fabio-rovai/open-ontologies",
       "url": "https://github.com/fabio-rovai/open-ontologies",
       "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Data, Databases & GIS",
+      "category_id": "category_16",
       "archived": false,
       "fork": false
     },
@@ -5162,8 +5156,8 @@
       "name": "github/docs",
       "url": "https://github.com/github/docs",
       "description": "The open-source repo for docs.github.com",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -5432,8 +5426,8 @@
       "name": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -5552,8 +5546,8 @@
       "name": "Hack-with-Github/Awesome-Hacking",
       "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
       "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -5562,8 +5556,8 @@
       "name": "hackerkid/Mind-Expanding-Books",
       "url": "https://github.com/hackerkid/Mind-Expanding-Books",
       "description": " :books: Find your next book to read!",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -5832,8 +5826,8 @@
       "name": "heynickc/awesome-ddd",
       "url": "https://github.com/heynickc/awesome-ddd",
       "description": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -5882,8 +5876,8 @@
       "name": "HKUDS/AutoSwarm",
       "url": "https://github.com/HKUDS/AutoSwarm",
       "description": "AutoSwarm: Unify All Your Agents. Break Context Barriers. Watch Them Work Together for You.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
       "fork": false
     },
@@ -6092,8 +6086,8 @@
       "name": "iliyami/MacSai",
       "url": "https://github.com/iliyami/MacSai",
       "description": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
       "fork": false
     },
@@ -6482,8 +6476,8 @@
       "name": "jaywcjlove/awesome-mac",
       "url": "https://github.com/jaywcjlove/awesome-mac",
       "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -6492,8 +6486,8 @@
       "name": "jbee37142/Interview_Question_for_Beginner",
       "url": "https://github.com/jbee37142/Interview_Question_for_Beginner",
       "description": ":boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all the best. :space_invader:",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -6622,8 +6616,8 @@
       "name": "jnv/lists",
       "url": "https://github.com/jnv/lists",
       "description": "The definitive list of lists (of lists) curated on GitHub and elsewhere",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -6722,8 +6716,8 @@
       "name": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
       "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -7102,8 +7096,8 @@
       "name": "Kristories/awesome-guidelines",
       "url": "https://github.com/Kristories/awesome-guidelines",
       "description": "Programming style, best practices, and coding conventions.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -7592,8 +7586,8 @@
       "name": "lissy93/personal-security-checklist",
       "url": "https://github.com/lissy93/personal-security-checklist",
       "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -7602,8 +7596,8 @@
       "name": "LiveContainer/LiveContainer",
       "url": "https://github.com/LiveContainer/LiveContainer",
       "description": "Run iOS apps without actually installing them!",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
       "fork": false
     },
@@ -7632,8 +7626,8 @@
       "name": "lnishan/awesome-competitive-programming",
       "url": "https://github.com/lnishan/awesome-competitive-programming",
       "description": ":gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -7742,8 +7736,8 @@
       "name": "lukasz-madon/awesome-remote-job",
       "url": "https://github.com/lukasz-madon/awesome-remote-job",
       "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Marketing, Sales & Careers",
+      "category_id": "category_20",
       "archived": false,
       "fork": false
     },
@@ -7882,8 +7876,8 @@
       "name": "markets/awesome-ruby",
       "url": "https://github.com/markets/awesome-ruby",
       "description": "💎 A collection of awesome Ruby libraries, tools, frameworks and software",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -7922,8 +7916,8 @@
       "name": "matiassingers/awesome-readme",
       "url": "https://github.com/matiassingers/awesome-readme",
       "description": "A curated list of awesome READMEs",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -7932,8 +7926,8 @@
       "name": "matteocrippa/awesome-swift",
       "url": "https://github.com/matteocrippa/awesome-swift",
       "description": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -8022,8 +8016,8 @@
       "name": "maxgoedjen/secretive",
       "url": "https://github.com/maxgoedjen/secretive",
       "description": "Protect your SSH keys with your Mac's Secure Enclave",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -8122,8 +8116,8 @@
       "name": "memvid/memvid",
       "url": "https://github.com/memvid/memvid",
       "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Memory, Context & RAG",
+      "category_id": "category_05",
       "archived": false,
       "fork": false
     },
@@ -8222,8 +8216,8 @@
       "name": "mhadidg/software-architecture-books",
       "url": "https://github.com/mhadidg/software-architecture-books",
       "description": "A comprehensive list of books on Software Architecture.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -8612,8 +8606,8 @@
       "name": "mnfst/awesome-free-llm-apis",
       "url": "https://github.com/mnfst/awesome-free-llm-apis",
       "description": "List of Permanent Free LLM API  (API Keys)",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
       "fork": false
     },
@@ -8652,8 +8646,8 @@
       "name": "ModernRelay/omnigraph",
       "url": "https://github.com/ModernRelay/omnigraph",
       "description": "Object-storage native graph database with branching and typed ontology",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Data, Databases & GIS",
+      "category_id": "category_16",
       "archived": false,
       "fork": false
     },
@@ -8972,8 +8966,8 @@
       "name": "Narcooo/inkos",
       "url": "https://github.com/Narcooo/inkos",
       "description": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -9352,8 +9346,8 @@
       "name": "nutti/fake-bpy-module",
       "url": "https://github.com/nutti/fake-bpy-module",
       "description": "Fake Blender Python API module collection for the code completion.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },
@@ -10902,8 +10896,8 @@
       "name": "pluja/awesome-privacy",
       "url": "https://github.com/pluja/awesome-privacy",
       "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -10972,8 +10966,8 @@
       "name": "posquit0/Awesome-CV",
       "url": "https://github.com/posquit0/Awesome-CV",
       "description": ":page_facing_up: Awesome CV is LaTeX template for your outstanding job application",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Marketing, Sales & Careers",
+      "category_id": "category_20",
       "archived": false,
       "fork": false
     },
@@ -11052,8 +11046,8 @@
       "name": "princeton-vl/infinigen",
       "url": "https://github.com/princeton-vl/infinigen",
       "description": "Infinite Photorealistic Worlds using Procedural Generation",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
       "fork": false
     },
@@ -11122,8 +11116,8 @@
       "name": "qazbnm456/awesome-web-security",
       "url": "https://github.com/qazbnm456/awesome-web-security",
       "description": "🐶 A curated list of Web Security materials and resources.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
       "fork": false
     },
@@ -11142,8 +11136,8 @@
       "name": "qhy991/Scientific-Figure-Design",
       "url": "https://github.com/qhy991/Scientific-Figure-Design",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -11162,8 +11156,8 @@
       "name": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
       "fork": false
     },
@@ -11252,8 +11246,8 @@
       "name": "rami-maalouf/multiplexer",
       "url": "https://github.com/rami-maalouf/multiplexer",
       "description": "self-host your own beeper",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
       "fork": false
     },
@@ -11472,8 +11466,8 @@
       "name": "remotion-dev/remotion",
       "url": "https://github.com/remotion-dev/remotion",
       "description": "🎥      Make videos programmatically with React",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -11892,8 +11886,8 @@
       "name": "rust-lang/rust-clippy",
       "url": "https://github.com/rust-lang/rust-clippy",
       "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Testing, Debugging & Code Quality",
+      "category_id": "category_14",
       "archived": false,
       "fork": false
     },
@@ -12642,8 +12636,8 @@
       "name": "sindresorhus/awesome-nodejs",
       "url": "https://github.com/sindresorhus/awesome-nodejs",
       "description": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -12872,8 +12866,8 @@
       "name": "sozercan/kaset",
       "url": "https://github.com/sozercan/kaset",
       "description": "📼 The missing YouTube and YouTube Music macOS app",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -12902,8 +12896,8 @@
       "name": "spotify/portal-ai-plugins",
       "url": "https://github.com/spotify/portal-ai-plugins",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -13062,8 +13056,8 @@
       "name": "steven2358/awesome-generative-ai",
       "url": "https://github.com/steven2358/awesome-generative-ai",
       "description": "A curated list of modern Generative Artificial Intelligence projects and services",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Engineering & Learning",
+      "category_id": "category_26",
       "archived": false,
       "fork": false
     },
@@ -13262,8 +13256,8 @@
       "name": "SwifterSwift/SwifterSwift",
       "url": "https://github.com/SwifterSwift/SwifterSwift",
       "description": "A handy collection of more than 500 native Swift extensions to boost your productivity.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -13532,8 +13526,8 @@
       "name": "terkelg/awesome-creative-coding",
       "url": "https://github.com/terkelg/awesome-creative-coding",
       "description": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -13672,8 +13666,8 @@
       "name": "thibmaek/awesome-raspberry-pi",
       "url": "https://github.com/thibmaek/awesome-raspberry-pi",
       "description": "📝 A curated list of awesome Raspberry Pi tools, projects, images and resources",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Robotics, Hardware & CAD",
+      "category_id": "category_24",
       "archived": false,
       "fork": false
     },
@@ -13872,8 +13866,8 @@
       "name": "tokio-rs/topcoat",
       "url": "https://github.com/tokio-rs/topcoat",
       "description": "A batteries-included framework for building web apps",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -13892,8 +13886,8 @@
       "name": "TonnyL/Awesome_APIs",
       "url": "https://github.com/TonnyL/Awesome_APIs",
       "description": ":octocat: A collection of APIs",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": true,
       "fork": false
     },
@@ -13962,8 +13956,8 @@
       "name": "travisvn/awesome-claude-skills",
       "url": "https://github.com/travisvn/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -14012,8 +14006,8 @@
       "name": "trymirai/uzu",
       "url": "https://github.com/trymirai/uzu",
       "description": "A high-performance inference engine for AI models",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
       "fork": false
     },
@@ -14532,8 +14526,8 @@
       "name": "Vincentwei1021/video-shotcraft",
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -14612,8 +14606,8 @@
       "name": "vitejs/awesome-vite",
       "url": "https://github.com/vitejs/awesome-vite",
       "description": "⚡️ A curated list of awesome things related to Vite.js",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
       "fork": false
     },
@@ -14642,8 +14636,8 @@
       "name": "VoltAgent/awesome-claude-code-subagents",
       "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
       "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
       "fork": false
     },
@@ -14712,8 +14706,8 @@
       "name": "vuejs/core",
       "url": "https://github.com/vuejs/core",
       "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
       "fork": false
     },
@@ -14762,8 +14756,8 @@
       "name": "wasabeef/awesome-android-ui",
       "url": "https://github.com/wasabeef/awesome-android-ui",
       "description": "A curated list of awesome Android UI/UX libraries",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
       "fork": false
     },
@@ -15312,8 +15306,8 @@
       "name": "zachlatta/freeflow",
       "url": "https://github.com/zachlatta/freeflow",
       "description": "Free & fast alternative to Wispr Flow",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
       "fork": false
     },
@@ -15342,8 +15336,8 @@
       "name": "Zagitta/gpu-unlock",
       "url": "https://github.com/Zagitta/gpu-unlock",
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
       "fork": false
     },
@@ -15482,8 +15476,8 @@
       "name": "zhoy0409-debug/polish-sci-figures",
       "url": "https://github.com/zhoy0409-debug/polish-sci-figures",
       "description": "Scientific figure toolkit and Figure Studio: editable templates, local statistics, multi-panel editing and SVG/PNG/TIFF export, with skills for Codex and Claude. | 科研绘图与组图编辑：模板作图、统计分析、精修排版及高清导出。",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },

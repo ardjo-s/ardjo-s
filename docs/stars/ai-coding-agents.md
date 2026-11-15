@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**93 repositories.** [Browse all categories →](README.md)
+**94 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -82,6 +82,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) · review needed: Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code): The best way to control Claude Code, Codex and more from any computer or phone.
 - [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents): Pixel office.
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code): An open-source AI coding agent that lives in your terminal.
 - [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk): The React Native Vibe Code SDK lets you build text to mobile &amp; web apps in seconds.
 - [rudderlabs/devbox](https://github.com/rudderlabs/devbox): Open source autonomous engineering harness in your cloud.
 - [Runfusion/Fusion](https://github.com/Runfusion/Fusion): Your Software Factory - build faster and better with multi node agents that work 24/7.

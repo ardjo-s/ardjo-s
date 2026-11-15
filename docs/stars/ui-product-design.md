@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**142 repositories.** [Browse all categories →](README.md)
+**146 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -12,10 +12,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 ## Stars
 
 - [21st-dev/21st-sdk-examples](https://github.com/21st-dev/21st-sdk-examples) · review needed: 21st sdk - cookbook.
+- [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui): Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems): 💅🏻 ⚒ A collection of awesome design systems.
 - [aloksivastava1025-prog/cue-foundations](https://github.com/aloksivastava1025-prog/cue-foundations): Open-source foundational components with code and  AI prompts — from Cue's curated library.
+- [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss): 😎 Awesome things related to Tailwind CSS.
 - [AnmolSaini16/mapcn](https://github.com/AnmolSaini16/mapcn): Beautiful map components.
 - [arla6ka/design.how](https://github.com/arla6ka/design.how): Design systems, skills and visuals for coding agents.
 - [armondschneider/interactionkit](https://github.com/armondschneider/interactionkit): A collection of UI interactions that make web feel more interactive.
@@ -31,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BoardUI/boardui](https://github.com/BoardUI/boardui): React design system for agentic interfaces.
 - [Boring-Software-Inc/dither-kit](https://github.com/Boring-Software-Inc/dither-kit): Composable, dithered charts for shadcn/ui — area, line, bar, pie &amp; radar.
 - [botiverse/raft-design](https://github.com/botiverse/raft-design): Raft's design system: guidelines, design tokens and raft-ui, the React components that implement them.
+- [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components): Curated List of React Components &amp; Libraries.
 - [cajaun/laminar](https://github.com/cajaun/laminar): Animates changing text and numbers in React Native while preserving the identity of characters that stay on screen.
 - [chakra-ui/zag](https://github.com/chakra-ui/zag): Build your design system in React, Solid, Vue, Svelte or Vanilla.
 - [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit): The modern toolkit for building drag and drop interfaces.
@@ -148,6 +151,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.
 - [vora-aryan/Prestige-UI](https://github.com/vora-aryan/Prestige-UI): Animated React components and blocks for Tailwind CSS and Motion.
+- [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui): A curated list of awesome Android UI/UX libraries.
 - [xandemon/developer-icons](https://github.com/xandemon/developer-icons): A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.
 - [xxtomm/spell-ui](https://github.com/xxtomm/spell-ui): A large collection of high-quality React components that you can copy and paste into any project.
 - [YusufCeng1z/ding](https://github.com/YusufCeng1z/ding): Toasts with real spring physics.

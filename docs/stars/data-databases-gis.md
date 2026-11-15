@@ -2,7 +2,7 @@
 
 > Databases, data pipelines, analytics, visualization and geospatial tools.
 
-**36 repositories.** [Browse all categories →](README.md)
+**39 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,8 +16,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cartesiancs/map3d](https://github.com/cartesiancs/map3d): 🗺️ Generate City 3D map with R3F.
 - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse): ClickHouse® is a real-time analytics database management system.
 - [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) · review needed: Development at the speed of light.
+- [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook): This is a repo with links to everything you'd ever want to learn about data engineering.
 - [deeplethe/ontology2sql](https://github.com/deeplethe/ontology2sql) · review needed: Ontology-grounded agentic Text-to-SQL for BIRD Mini-Dev.
 - [every-app/open-analytics](https://github.com/every-app/open-analytics): Web analytics for your sites.
+- [fabio-rovai/open-ontologies](https://github.com/fabio-rovai/open-ontologies): Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.
 - [gnurio/tufte-vdqi-plugin](https://github.com/gnurio/tufte-vdqi-plugin) · review needed: Give your AI agents the skill of visualizing data the way Edward Tufte intended.
 - [HelixDB/helix-db](https://github.com/HelixDB/helix-db): HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage.
 - [hydra-db/hydradb](https://github.com/hydra-db/hydradb): HydraDB - fast graph database on object storage.
@@ -30,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [microsoft/Ontology-Playground](https://github.com/microsoft/Ontology-Playground) · review needed: Free, open-source web app for learning about ontologies and Microsoft Fabric IQ.
 - [milos-agathon/forge3d](https://github.com/milos-agathon/forge3d): Rust‑first, cross‑platform wgpu/WebGPU renderer exposed to Python for fast, headless 3D rendering.
 - [milvus-io/milvus](https://github.com/milvus-io/milvus): Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
+- [ModernRelay/omnigraph](https://github.com/ModernRelay/omnigraph): Object-storage native graph database with branching and typed ontology.
 - [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d): A real-time 3D digital map of Tokyo's public transport system.
 - [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata): The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.
 - [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre): A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data.

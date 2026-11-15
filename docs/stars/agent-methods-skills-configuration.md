@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**118 repositories.** [Browse all categories →](README.md)
+**121 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -116,15 +116,18 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shadcn/improve](https://github.com/shadcn/improve): Use your most capable model to audit your codebase and write plans for cheaper models to execute.
 - [Shpigford/chops](https://github.com/Shpigford/chops): Your AI agent skills, finally organized.
 - [slavingia/skills](https://github.com/slavingia/skills): Based on The Minimalist Entrepreneur by Sahil Lavingia.
+- [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins): Starred repository.
 - [standardagents/spec](https://github.com/standardagents/spec): Standard Agent Specification — an open-source standard for creating portable, composable, domain-specific agents.
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack): The agent skills I use every day.
 - [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli): Make Every Team AI Native.
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) · review needed: autonomous harness engineering.
 - [tokensize/skills](https://github.com/tokensize/skills): Starred repository.
 - [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills): A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code.
 - [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) · review needed: Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build.
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): The open agent skills tool - npx skills.
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · review needed: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents): A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) · review needed: A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills): The awesome collection of OpenClaw skills.
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · review needed: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0.

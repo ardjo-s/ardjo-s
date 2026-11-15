@@ -30,7 +30,7 @@ The offline snapshot can differ from live metadata or star membership after its 
 
 ## Classify a new repository
 
-Live unsorted stars are classified automatically by `scripts/classify-github-stars.py` (nearest classified neighbours plus the catalog domain rules). The workflow `.github/workflows/classify-github-stars.yml` runs after a successful sync on `main` when `docs/stars/unsorted.md` is non-empty, updates `catalog.json`, regenerates the export, runs `--check`, and opens or updates one rolling PR on `auto/classify-stars`. It does nothing when unsorted is empty. It never auto-merges. Ardjo merges the PR.
+Live unsorted stars are classified automatically by `scripts/classify-github-stars.py` (nearest classified neighbours plus the catalog domain rules). Domain-rule reasons require a name/description/topics match; README noise does not count. `awesome-*` lists follow their subject. The workflow `.github/workflows/classify-github-stars.yml` runs after a successful sync on `main` when `docs/stars/unsorted.md` is non-empty, updates `catalog.json`, regenerates the export, runs `--check`, and opens or updates one rolling PR on `auto/classify-stars`. It does nothing when unsorted is empty. It never auto-merges. Ardjo merges the PR.
 
 To classify by hand instead:
 
