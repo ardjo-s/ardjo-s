@@ -7,6 +7,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -158,7 +159,8 @@ class StarClassifierTest(unittest.TestCase):
         )
         self.assertEqual(len(decisions), 6)
         self.assertEqual({row['name']: row['category'] for row in records}, PR14_FIXTURES)
-        classify.insert_records(catalog, records)
+        catalog, conflicts = classify.insert_records(catalog, records)
+        self.assertEqual(conflicts, [])
         assigned = {repo['name']: repo['category'] for repo in catalog['repositories'] if repo['name'] in PR14_FIXTURES}
         self.assertEqual(assigned, PR14_FIXTURES)
         self.assertTrue(all(repo.get('classification_source') for repo in catalog['repositories'] if repo['name'] in PR14_FIXTURES))
@@ -195,6 +197,71 @@ class StarClassifierTest(unittest.TestCase):
             self.assertEqual(got, PR14_FIXTURES)
             stars.check_committed_export(output, readme, catalog_path)
 
+    def test_name_collision_with_new_node_id_is_a_conflict(self):
+        catalog = copy.deepcopy(self.held_catalog)
+        existing = catalog['repositories'][0]
+        record = {
+            'id': 'BRAND_NEW_NODE',
+            'name': existing['name'],
+            'url': existing['url'],
+            'description': 'Recreated under the same name',
+            'category': existing['category'],
+            'purpose': 'conflict',
+            'keywords': [],
+            'review_required': True,
+            'evidence_quote': 'x',
+            'evidence_status': 'description_only',
+            'archived': False,
+            'fork': False,
+        }
+        before = len(catalog['repositories'])
+        catalog, conflicts = classify.insert_records(catalog, [record])
+        self.assertEqual(len(catalog['repositories']), before)
+        self.assertEqual(len(conflicts), 1)
+        self.assertEqual(conflicts[0]['id'], 'BRAND_NEW_NODE')
+        self.assertEqual(conflicts[0]['existing_id'], existing['id'])
+        body = classify.render_pr_body([], source='test', conflicts=conflicts)
+        self.assertIn('Name conflicts', body)
+        self.assertIn(existing['name'], body)
+
+    def test_private_repo_features_are_not_copied_into_the_catalog(self):
+        with patch.object(classify, 'request_optional', return_value={
+            'full_name': 'owner/secret',
+            'private': True,
+            'description': 'internal readme should not leak',
+            'node_id': 'PRIVATE_NODE',
+        }):
+            features = classify.fetch_features('owner/secret', 'token', {
+                'id': 'PRIVATE_NODE',
+                'name': 'owner/secret',
+                'url': 'https://github.com/owner/secret',
+                'description': 'public snapshot leftover',
+            })
+        self.assertTrue(features['private'])
+        self.assertEqual(features['description'], '')
+        self.assertEqual(features['readme'], '')
+        catalog = copy.deepcopy(self.held_catalog)
+        snapshot = {'repositories': [{
+            'id': 'PRIVATE_NODE',
+            'name': 'owner/secret',
+            'url': 'https://github.com/owner/secret',
+            'description': 'public snapshot leftover',
+            'category_id': stars.UNSORTED_ID,
+            'archived': False,
+            'fork': False,
+        }]}
+        decisions, records = classify.classify_unsorted(
+            catalog,
+            snapshot,
+            features_by_name={'owner/secret': features},
+            token='',
+        )
+        self.assertEqual(len(records), 0)
+        self.assertTrue(decisions[0]['skipped'])
+        catalog, conflicts = classify.insert_records(catalog, records)
+        self.assertEqual(conflicts, [])
+        self.assertFalse(any(repo['name'] == 'owner/secret' for repo in catalog['repositories']))
+
     def test_empty_unsorted_is_a_noop(self):
         snapshot = json.loads((ROOT / 'docs/stars/stars.json').read_text())
         classified_only = {
@@ -210,13 +277,16 @@ class StarClassifierTest(unittest.TestCase):
     def test_classifier_workflow_is_idempotent_and_never_automerge(self):
         workflow = (ROOT / '.github/workflows/classify-github-stars.yml').read_text()
         self.assertIn('auto/classify-stars', workflow)
+        self.assertIn('--head auto/classify-stars', workflow)
+        self.assertNotIn('${GITHUB_REPOSITORY_OWNER}:auto/classify-stars', workflow)
         self.assertIn('workflow_run', workflow)
         self.assertIn('GH_STARS_TOKEN', workflow)
         self.assertIn('docs/stars/unsorted.md', workflow)
         self.assertNotIn('auto-merge', workflow.casefold())
         self.assertNotIn('gh pr merge', workflow)
-        self.assertIn('python3 -m unittest discover -s scripts -p \'test_*.py\'', workflow)
+        self.assertGreaterEqual(workflow.count("python3 -m unittest discover -s scripts -p 'test_*.py'"), 2)
         self.assertIn('--check', workflow)
+        self.assertIn("github.event.workflow_run.event == 'pull_request'", workflow)
         sync = (ROOT / '.github/workflows/sync-github-stars.yml').read_text()
         self.assertIn('classify-github-stars.py', sync)
         self.assertIn('test_star_classifier.py', sync)
