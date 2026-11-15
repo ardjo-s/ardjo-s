@@ -105,7 +105,7 @@ class StarsTest(unittest.TestCase):
             self.assertEqual(repo['evidence_read_at'], '2026-11-14')
         additions_2026_11_15 = [
             r for r in self.catalog['repositories']
-            if r.get('evidence_read_at') == '2026-11-15'
+            if r.get('classification_source') == 'human:2026-11-15'
         ]
         self.assertEqual(len(additions_2026_11_15), 83)
         self.assertEqual(sum(r['review_required'] for r in additions_2026_11_15), 3)

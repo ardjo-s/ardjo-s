@@ -46,5 +46,17 @@
     "language": "Rust",
     "topics": ["inference", "llm"],
     "readme": "# uzu\nA high-performance inference engine for AI models. Not a mobile simulator or 3d game skill."
+  },
+  "lukasz-madon/awesome-remote-job": {
+    "description": "A curated list of awesome remote jobs and resources.",
+    "language": "",
+    "topics": ["awesome-list", "remote"],
+    "readme": "Mail servers and iOS simulator links appear in some job posts."
+  },
+  "steven2358/awesome-generative-ai": {
+    "description": "A curated list of modern Generative Artificial Intelligence projects and services.",
+    "language": "",
+    "topics": ["awesome-list", "generative-ai"],
+    "readme": "Blender 3d and mail inbox screenshots in a few linked projects."
   }
 }

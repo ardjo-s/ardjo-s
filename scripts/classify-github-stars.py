@@ -134,15 +134,6 @@ DOMAIN_RULES = (
         'reason': 'recording studio whose output is video',
     },
     {
-        'id': 'recording-studio',
-        'any': {'recording'},
-        'also': {'studio', 'podcast', 'podcasts'},
-        'category': 'category_10',
-        'boost': 0.22,
-        'down': {'category_09': 0.08},
-        'reason': 'recording studio whose output is video',
-    },
-    {
         'id': 'agent-spec',
         'any': {'specification', 'spec', 'standard', 'standards'},
         'also': {'agent', 'agents'},
@@ -340,13 +331,23 @@ def is_awesome_list(name: str) -> bool:
     return repo.startswith('awesome') or '-awesome' in repo or repo.endswith('awesome')
 
 
+def expand_needles(needles: set[str]) -> set[str]:
+    """Match token() hyphen/underscore forms so awesome-remote-job hits remote_job."""
+    expanded = set()
+    for needle in needles:
+        expanded.add(needle)
+        expanded.add(needle.replace('-', '_'))
+        expanded.add(needle.replace('_', '-'))
+    return expanded
+
+
 def awesome_subject(name: str, title: set[str]) -> tuple[str, str] | None:
     if not is_awesome_list(name):
         return None
     repo = fold(name.split('/')[-1]).replace('_', '-')
-    subject = set(tokens(repo.replace('-', ' '))) | title
+    subject = set(tokens(repo.replace('-', ' '))) | set(tokens(repo)) | title
     for needles, category, reason in AWESOME_SUBJECTS:
-        if needles & subject:
+        if expand_needles(needles) & subject:
             return category, reason
     return None
 

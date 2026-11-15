@@ -47,6 +47,8 @@ QUALITY_FIXTURES = {
     'rust-lang/rust-clippy': 'category_14',
     'zachlatta/freeflow': 'category_09',
     'trymirai/uzu': 'category_07',
+    'lukasz-madon/awesome-remote-job': 'category_20',
+    'steven2358/awesome-generative-ai': 'category_26',
 }
 BANNED_REASONS = {
     'agentgateway/agentgateway': ('domain-specific 3d/game skill', 'blender/unreal/game-pipeline'),
@@ -149,6 +151,34 @@ class StarClassifierTest(unittest.TestCase):
             for banned in BANNED_REASONS.get(name, ()):
                 self.assertNotIn(banned, rule_reasons, msg=f'{name} rule reason leaked {banned!r}: {top_reasons}')
         self.assertEqual(misses, [], msg=f'quality fixture misses: {misses}')
+
+    def test_hyphenated_awesome_needles_match_underscore_tokens(self):
+        remote = self.quality_features['lukasz-madon/awesome-remote-job']
+        title = classify.title_token_set('lukasz-madon/awesome-remote-job', remote)
+        self.assertIn('remote_job', title)
+        self.assertEqual(classify.awesome_subject('lukasz-madon/awesome-remote-job', title)[0], 'category_20')
+        gen = self.quality_features['steven2358/awesome-generative-ai']
+        self.assertEqual(
+            classify.awesome_subject(
+                'steven2358/awesome-generative-ai',
+                classify.title_token_set('steven2358/awesome-generative-ai', gen),
+            )[0],
+            'category_26',
+        )
+
+    def test_audio_podcast_does_not_claim_video_output(self):
+        features = {
+            'description': 'Podcast recording and editing. Export MP3 audio.',
+            'topics': ['podcast', 'audio'],
+            'language': '',
+            'readme': 'Record voice notes and export WAV or MP3.',
+        }
+        title = classify.title_token_set('owner/pod-audio', features)
+        for rule in classify.DOMAIN_RULES:
+            if rule['category'] == 'category_10':
+                self.assertFalse(classify.rule_matches(rule, title), msg=rule['id'])
+        decision = classify.classify_repo(self.index, 'owner/pod-audio', features)
+        self.assertNotIn('output is video', decision['reason'])
 
     def test_domain_rules_ignore_readme_noise(self):
         title = classify.title_token_set('awesome-foss/awesome-sysadmin', self.quality_features['awesome-foss/awesome-sysadmin'])
