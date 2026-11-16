@@ -2,7 +2,7 @@
 
 > Databases, data pipelines, analytics, visualization and geospatial tools.
 
-**39 repositories.** [Browse all categories →](README.md)
+**40 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,4 +49,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shivamanupadi/traks](https://github.com/shivamanupadi/traks): Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes.
 - [sshuair/awesome-gis](https://github.com/sshuair/awesome-gis): 😎Awesome GIS is a collection of geospatial related sources, including cartographic tools, geoanalysis tools, developer tools, data, conference &amp; communities, news, massive open online course, some amazing map sites, and more.
 - [surendrapandar/minilytics](https://github.com/surendrapandar/minilytics): Opensource Revenue-first analytics for indie hackers &amp; solo founders.
+- [tordanik/OSM2World](https://github.com/tordanik/OSM2World): converter that creates three-dimensional models of the world from OpenStreetMap data.
 - [umami-software/umami](https://github.com/umami-software/umami): Umami is a privacy-first web and product analytics platform.

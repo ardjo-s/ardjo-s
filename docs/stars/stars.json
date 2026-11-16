@@ -7,7 +7,7 @@
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 95
+      "count": 96
     },
     {
       "id": "category_02",
@@ -55,7 +55,7 @@
       "id": "category_26",
       "name": "AI Engineering & Learning",
       "slug": "ai-engineering-learning",
-      "count": 32
+      "count": 33
     },
     {
       "id": "category_09",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 153
+      "count": 154
     },
     {
       "id": "category_23",
@@ -85,7 +85,7 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 74
+      "count": 75
     },
     {
       "id": "category_13",
@@ -103,13 +103,13 @@
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 31
+      "count": 34
     },
     {
       "id": "category_16",
       "name": "Data, Databases & GIS",
       "slug": "data-databases-gis",
-      "count": 39
+      "count": 40
     },
     {
       "id": "category_17",
@@ -127,7 +127,7 @@
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 127
+      "count": 129
     },
     {
       "id": "category_20",
@@ -139,7 +139,7 @@
       "id": "category_21",
       "name": "Finance, Legal & Business Operations",
       "slug": "finance-legal-business-operations",
-      "count": 32
+      "count": 33
     },
     {
       "id": "category_22",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 37
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 11
     }
   ],
   "repositories": [
@@ -1152,10 +1146,12 @@
       "name": "anomalyco/rune",
       "url": "https://github.com/anomalyco/rune",
       "description": "Rune: Native UI framework",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSAfLWA",
@@ -2312,10 +2308,12 @@
       "name": "ByteByteGoHq/system-design-101",
       "url": "https://github.com/ByteByteGoHq/system-design-101",
       "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQUH0AA",
@@ -3606,10 +3604,12 @@
       "name": "DeepanshuMishraa/dither-kit-rs",
       "url": "https://github.com/DeepanshuMishraa/dither-kit-rs",
       "description": "Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOT_i-2Q",
@@ -3976,10 +3976,12 @@
       "name": "donnemartin/system-design-primer",
       "url": "https://github.com/donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORA8sUQ",
@@ -7208,10 +7210,12 @@
       "name": "karanpratapsingh/system-design",
       "url": "https://github.com/karanpratapsingh/system-design",
       "description": "Learn how to design systems at scale and prepare for system design interviews",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUcgzZw",
@@ -9390,10 +9394,16 @@
       "name": "nagavineerpasam/systems-to-ai-reading-map",
       "url": "https://github.com/nagavineerpasam/systems-to-ai-reading-map",
       "description": "112 topics from 8 well-known engineering books, in a suggested reading order.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Engineering & Learning",
+      "category_id": "category_26",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "AI Engineering & Learning",
+        "Knowledge & Productivity"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxOTM0MjIyOTM=",
@@ -10018,10 +10028,12 @@
       "name": "NYLLON-SOFTWARE/SignuDoc",
       "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
       "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Finance, Legal & Business Operations",
+      "category_id": "category_21",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTfkhbw",
@@ -11606,10 +11618,12 @@
       "name": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOJwkQKA",
@@ -13996,10 +14010,12 @@
       "name": "szmichalczyk/focus-app",
       "url": "https://github.com/szmichalczyk/focus-app",
       "description": "A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOHY3dKQ",
@@ -14566,10 +14582,12 @@
       "name": "tordanik/OSM2World",
       "url": "https://github.com/tordanik/OSM2World",
       "description": "converter that creates three-dimensional models of the world from OpenStreetMap data",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Data, Databases & GIS",
+      "category_id": "category_16",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMzI1Mjk4",
@@ -14710,10 +14728,12 @@
       "name": "tsevis/Zetesis",
       "url": "https://github.com/tsevis/Zetesis",
       "description": "Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSDCHbQ",

@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**127 repositories.** [Browse all categories →](README.md)
+**129 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -123,11 +123,13 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome): 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones].
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) · review needed: A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads): Starred repository.
+- [szmichalczyk/focus-app](https://github.com/szmichalczyk/focus-app): A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time.
 - [TfTHacker/group-enhancer-for-bases](https://github.com/TfTHacker/group-enhancer-for-bases): Enhances the base functionality of bases group features.
 - [theoephraim/awesome-cloudflare-selfhosted](https://github.com/theoephraim/awesome-cloudflare-selfhosted): 🍊☁️ Open-source* apps that replace SaaS product + tools, running in your own Cloudflare account.
 - [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC): Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click.
 - [tobi/qmd](https://github.com/tobi/qmd) · review needed: mini cli search engine for your docs, knowledge bases, meeting notes, whatever.
 - [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) · archived: :octocat: A collection of APIs.
+- [tsevis/Zetesis](https://github.com/tsevis/Zetesis): Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR.
 - [usekaneo/kaneo](https://github.com/usekaneo/kaneo): ⚡ Project management that doesn't become the project.
 - [video-db/call.md](https://github.com/video-db/call.md): Turn meetings into live agent loops.
 - [vinta/awesome-python](https://github.com/vinta/awesome-python): The definitive list that answers "I want to do X in Python, which tool should I use?".

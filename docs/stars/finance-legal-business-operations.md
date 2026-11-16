@@ -2,7 +2,7 @@
 
 > Finance, payments, legal work and business operations.
 
-**32 repositories.** [Browse all categories →](README.md)
+**33 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja): A source-available invoice, quote, project and time-tracking app built with Laravel.
 - [LexMachinaInc/node-lexmachina-api-client](https://github.com/LexMachinaInc/node-lexmachina-api-client): Client for Lex Machina Litigation Analytics API.
 - [michaelshimeles/terminal](https://github.com/michaelshimeles/terminal): Bloomberg-style trading terminal in Rust with GPU charts and congressional trades.
+- [NYLLON-SOFTWARE/SignuDoc](https://github.com/NYLLON-SOFTWARE/SignuDoc): Open-source document signature platform.
 - [open-legal-products/mike](https://github.com/open-legal-products/mike): OSS Legal AI Platform.
 - [paulklayvc/skills](https://github.com/paulklayvc/skills) · review needed: Agent skills from a VC.
 - [polarsource/polar](https://github.com/polarsource/polar): Polar — A billing platform for the intelligence era.

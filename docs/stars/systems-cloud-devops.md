@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**31 repositories.** [Browse all categories →](README.md)
+**34 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,11 +20,14 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources): Learn System Design concepts and prepare for interviews using free resources.
 - [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin): A curated list of amazingly awesome open-source sysadmin resources.
 - [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability): The Patterns of Scalable, Reliable, and Performant Large-Scale Systems.
+- [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101): Explain complex systems using visuals and simple terms.
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared): Cloudflare Tunnel client.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify): An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
 - [devopness/devopness](https://github.com/devopness/devopness): Devopness: AI DevOps on your cloud.
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): Learn how to design large-scale systems.
 - [googleapis/release-please](https://github.com/googleapis/release-please): generate release PRs based on the conventionalcommits.org spec.
 - [hetznercloud/cli](https://github.com/hetznercloud/cli): A command-line interface for Hetzner Cloud.
+- [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design): Learn how to design systems at scale and prepare for system design interviews.
 - [linear/linear-release](https://github.com/linear/linear-release): CLI to automatically track releases in Linear.
 - [Melvynx/portly](https://github.com/Melvynx/portly): One native macOS supervisor for every local development server.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) · review needed: Monoscope lets you ingest and explore your logs, traces and metrics.

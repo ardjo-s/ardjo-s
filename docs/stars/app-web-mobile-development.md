@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**74 repositories.** [Browse all categories →](README.md)
+**75 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [47ng/nuqs](https://github.com/47ng/nuqs): Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.
 - [airbnb/lottie-web](https://github.com/airbnb/lottie-web): Render After Effects animations natively on Web, Android and iOS, and React Native.
+- [anomalyco/rune](https://github.com/anomalyco/rune): Rune: Native UI framework.
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
