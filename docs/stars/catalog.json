@@ -2476,6 +2476,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVTFxXw",
+      "name": "anomalyco/rune",
+      "url": "https://github.com/anomalyco/rune",
+      "description": "Rune: Native UI framework",
+      "category": "category_12",
+      "purpose": "Rune: Native UI framework",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Rune: Native UI framework",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/anomalyco/rune",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVMm-gQ",
       "name": "Anshkaran7/expokit",
       "url": "https://github.com/Anshkaran7/expokit",
@@ -5012,6 +5031,25 @@
       "evidence_url": "https://github.com/busabase/busabase-dsh-plugin",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOKVORZg",
+      "name": "ByteByteGoHq/system-design-101",
+      "url": "https://github.com/ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "category": "category_15",
+      "purpose": "Explain complex systems using visuals and simple terms",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ByteByteGoHq/system-design-101",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQUH0AA",
@@ -7951,6 +7989,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVs5fvQ",
+      "name": "DeepanshuMishraa/dither-kit-rs",
+      "url": "https://github.com/DeepanshuMishraa/dither-kit-rs",
+      "description": "Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.",
+      "category": "category_11",
+      "purpose": "Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/DeepanshuMishraa/dither-kit-rs",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOT_i-2Q",
       "name": "deeplethe/ontology2sql",
       "url": "https://github.com/deeplethe/ontology2sql",
@@ -8732,6 +8789,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk4MzIyMjQ0MQ==",
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "category": "category_15",
+      "purpose": "Learn how to design large-scale systems",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/donnemartin/system-design-primer",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORA8sUQ",
@@ -15875,6 +15951,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOH0x3oA",
+      "name": "karanpratapsingh/system-design",
+      "url": "https://github.com/karanpratapsingh/system-design",
+      "description": "Learn how to design systems at scale and prepare for system design interviews",
+      "category": "category_15",
+      "purpose": "Learn how to design systems at scale and prepare for system design interviews",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Learn how to design systems at scale and prepare for system design interviews",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/karanpratapsingh/system-design",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOUcgzZw",
       "name": "kargulstudio/workflow-editor",
       "url": "https://github.com/kargulstudio/workflow-editor",
@@ -20547,6 +20642,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVv70gw",
+      "name": "nagavineerpasam/systems-to-ai-reading-map",
+      "url": "https://github.com/nagavineerpasam/systems-to-ai-reading-map",
+      "description": "112 topics from 8 well-known engineering books, in a suggested reading order.",
+      "category": "category_26",
+      "purpose": "112 topics from 8 well-known engineering books, in a suggested reading order",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "# Systems to AI: A Reading Map **112 topics from 8 well-known engineering books, in a suggested reading order.** From how a CPU runs your code, to operating systems, distributed data, system design, reliability, ML systems, and building and shipping LLMs.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/nagavineerpasam/systems-to-ai-reading-map/blob/main/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43950505389",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_26",
+        "category_19"
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxOTM0MjIyOTM=",
       "name": "nagix/mini-tokyo-3d",
       "url": "https://github.com/nagix/mini-tokyo-3d",
@@ -21925,6 +22043,25 @@
       "evidence_url": "https://github.com/NYLLON-SOFTWARE/ember-cloudflare",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDORw9u5A",
+      "name": "NYLLON-SOFTWARE/SignuDoc",
+      "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+      "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
+      "category": "category_21",
+      "purpose": "Open-source document signature platform",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source document signature platform. Not affiliated with DocuSign.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOTfkhbw",
@@ -25406,6 +25543,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSXZbXg",
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "category": "category_01",
+      "purpose": "A self-improving RLM agent for coding workflows and long-running autonomous tasks",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOJwkQKA",
@@ -30843,6 +30999,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVwPPUg",
+      "name": "szmichalczyk/focus-app",
+      "url": "https://github.com/szmichalczyk/focus-app",
+      "description": "A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time.",
+      "category": "category_19",
+      "purpose": "A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Focus **A calm, local time tracker for macOS that also shows you what you actually did.** Focus puts two streams side by side: the time you *log* (projects, entries, billable hours) and the time you *spent*: which apps, windows, browser tabs, and Claude Code and Codex sessions were in front of you.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/szmichalczyk/focus-app/blob/main/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOHY3dKQ",
       "name": "t3-oss/create-t3-app",
       "url": "https://github.com/t3-oss/create-t3-app",
@@ -32003,6 +32180,25 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk0MjQxMzQw",
+      "name": "tordanik/OSM2World",
+      "url": "https://github.com/tordanik/OSM2World",
+      "description": "converter that creates three-dimensional models of the world from OpenStreetMap data",
+      "category": "category_16",
+      "purpose": "converter that creates three-dimensional models of the world from OpenStreetMap data",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "converter that creates three-dimensional models of the world from OpenStreetMap data",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/tordanik/OSM2World",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyMzI1Mjk4",
       "name": "torvalds/linux",
       "url": "https://github.com/torvalds/linux",
@@ -32296,6 +32492,25 @@
       "evidence_url": "https://github.com/trymirai/uzu",
       "evidence_read_at": "2026-11-15",
       "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOVjpHLg",
+      "name": "tsevis/Zetesis",
+      "url": "https://github.com/tsevis/Zetesis",
+      "description": "Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR",
+      "category": "category_19",
+      "purpose": "Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/tsevis/Zetesis",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOSDCHbQ",

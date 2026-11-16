@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**153 repositories.** [Browse all categories →](README.md)
+**154 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -47,6 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui): A library of creative canvas components.
 - [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits): The largest open-source library of animated, interactive, and customizable React &amp; Next.js components for building standout web products and experiences.
 - [ddoemonn/interior](https://github.com/ddoemonn/interior): micro-interactions for react, built for the half-second after a click.
+- [DeepanshuMishraa/dither-kit-rs](https://github.com/DeepanshuMishraa/dither-kit-rs): Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.
 - [DioxusLabs/dioxus-components](https://github.com/DioxusLabs/dioxus-components): Accessible, unstyled, foundational components for Dioxus.
 - [dip/cmdk](https://github.com/dip/cmdk): Fast, unstyled command menu React component.
 - [ds-spec/detent-ui](https://github.com/ds-spec/detent-ui): Premium React components you install with shadcn.
