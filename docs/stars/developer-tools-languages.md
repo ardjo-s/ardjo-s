@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**75 repositories.** [Browse all categories →](README.md)
+**76 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -50,6 +50,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [kitlangton/stack](https://github.com/kitlangton/stack): Starred repository.
 - [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines): Programming style, best practices, and coding conventions.
 - [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes): git push no-mistakes.
+- [kunobi-ninja/kache](https://github.com/kunobi-ninja/kache): Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more.
 - [lewagon/setup](https://github.com/lewagon/setup): Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp.
 - [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming): :gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources.
 - [markets/awesome-ruby](https://github.com/markets/awesome-ruby): 💎 A collection of awesome Ruby libraries, tools, frameworks and software.

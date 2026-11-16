@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**77 repositories.** [Browse all categories →](README.md)
+**78 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -72,6 +72,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Sandflow-ai/sand3d](https://github.com/Sandflow-ai/sand3d): 3D modeling in Python, built for LLMs.
 - [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin): Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents.
 - [seedds/nxnative](https://github.com/seedds/nxnative) · review needed: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).
+- [shinyobjectz/raea](https://github.com/shinyobjectz/raea): Render Anything Engine: tell your AI what to make.
 - [sloemo01/diorama](https://github.com/sloemo01/diorama): Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.
 - [speridlabs/idol-sdk](https://github.com/speridlabs/idol-sdk): Idol: a single image to 3D Gaussians.
 - [sprmn24/hermes-game-forge](https://github.com/sprmn24/hermes-game-forge): Starred repository.

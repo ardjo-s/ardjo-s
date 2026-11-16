@@ -2,7 +2,7 @@
 
 > AI evaluations, traces, diagnostics, token usage, costs and quotas.
 
-**43 repositories.** [Browse all categories →](README.md)
+**44 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
 - [traceloop/openllmetry](https://github.com/traceloop/openllmetry): Open-source observability for your GenAI or LLM application, based on OpenTelemetry.
+- [truera/trulens](https://github.com/truera/trulens): Evaluation and Tracking for LLM Experiments and AI Agents.
 - [Vela3202019/wisen](https://github.com/Vela3202019/wisen): Your coding agents repeat mistakes you already corrected.
 - [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas): Supercharge Your LLM Application Evaluations 🚀.
 - [vinzdg/codenotch](https://github.com/vinzdg/codenotch): A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
