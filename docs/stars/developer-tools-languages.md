@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**76 repositories.** [Browse all categories →](README.md)
+**78 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -63,10 +63,12 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) · review needed: A list of awesome beginners-friendly projects.
 - [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap): Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 - [nkzw-tech/codiff](https://github.com/nkzw-tech/codiff): a fast local diff viewer.
+- [ossu/computer-science](https://github.com/ossu/computer-science) · review needed · low confidence: 🎓 Path to a free self-taught education in Computer Science!.
 - [oven-sh/bun](https://github.com/oven-sh/bun): Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one.
 - [oxc-project/tsrs](https://github.com/oxc-project/tsrs) · review needed: Rust port of the TypeScript 7 type checker.
 - [PaulSolt/DocSetQuery](https://github.com/PaulSolt/DocSetQuery) · review needed: Tooling for Agents to Create Markdown Documentation from DocSet Bundles.
 - [pierrecomputer/pierre](https://github.com/pierrecomputer/pierre) · review needed: pierre’s open source code.
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning): Curated list of project-based tutorials.
 - [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses): :books: List of awesome university courses for learning Computer Science!.
 - [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) · review needed: A curated list of TUI apps and libraries built with Ratatui.
 - [ratatui/ratatui-website](https://github.com/ratatui/ratatui-website): Ratatui Website/Documentation.

@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**94 repositories.** [Browse all categories →](README.md)
+**95 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -100,6 +100,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering): Harness engineering beginner tutorial, from 0 to 1.
 - [warpdotdev/oz-agent-action](https://github.com/warpdotdev/oz-agent-action): Use the Oz coding agent in GitHub Actions.
 - [warpdotdev/warp](https://github.com/warpdotdev/warp): Warp is an agentic development environment, born out of the terminal.
+- [wlsdks/ontology-atlas](https://github.com/wlsdks/ontology-atlas): Understand what your codebase builds, why it is structured that way, and what a change could affect.
 - [wxtsky/CodeIsland](https://github.com/wxtsky/CodeIsland): Real-time AI coding agent status panel in your MacBook notch — live status, approvals &amp; replies for 30+ AI coding tools, with iPhone &amp; Apple Watch companions.
 - [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): Teams-first Multi-agent orchestration for Claude Code.
 - [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex): OmX - Oh My codeX: Your codex is not alone.
