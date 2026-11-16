@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1596,
+  "repository_count": 1607,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 37
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 11
     }
   ],
   "repositories": [
@@ -175,7 +181,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0security",
       "url": "https://github.com/0sec-labs/0security",
-      "description": "Sovereign infrastructure to build and deploy security agents that find, prove and fix security risks. Open source. Web UI, CLI, CI and MCP.",
+      "description": "Software infrastructure to build and deploy sovereign, persistent AI security agents that continuously find, prove and fix security risks. Open source. Web UI, CLI, CI and MCP.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -1138,6 +1144,16 @@
       "description": "The open source coding agent.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVTFxXw",
+      "name": "anomalyco/rune",
+      "url": "https://github.com/anomalyco/rune",
+      "description": "Rune: Native UI framework",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2292,6 +2308,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKVORZg",
+      "name": "ByteByteGoHq/system-design-101",
+      "url": "https://github.com/ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQUH0AA",
       "name": "ByteDance-Seed/Depth-Anything-3",
       "url": "https://github.com/ByteDance-Seed/Depth-Anything-3",
@@ -3169,7 +3195,7 @@
       "id": "R_kgDOT6ln0w",
       "name": "CopilotKit/OpenBot",
       "url": "https://github.com/CopilotKit/OpenBot",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
       "archived": false,
@@ -3576,6 +3602,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVs5fvQ",
+      "name": "DeepanshuMishraa/dither-kit-rs",
+      "url": "https://github.com/DeepanshuMishraa/dither-kit-rs",
+      "description": "Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOT_i-2Q",
       "name": "deeplethe/ontology2sql",
       "url": "https://github.com/deeplethe/ontology2sql",
@@ -3932,6 +3968,16 @@
       "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk4MzIyMjQ0MQ==",
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7158,6 +7204,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOH0x3oA",
+      "name": "karanpratapsingh/system-design",
+      "url": "https://github.com/karanpratapsingh/system-design",
+      "description": "Learn how to design systems at scale and prepare for system design interviews",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOUcgzZw",
       "name": "kargulstudio/workflow-editor",
       "url": "https://github.com/kargulstudio/workflow-editor",
@@ -9330,6 +9386,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVv70gw",
+      "name": "nagavineerpasam/systems-to-ai-reading-map",
+      "url": "https://github.com/nagavineerpasam/systems-to-ai-reading-map",
+      "description": "112 topics from 8 well-known engineering books, in a suggested reading order.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxOTM0MjIyOTM=",
       "name": "nagix/mini-tokyo-3d",
       "url": "https://github.com/nagix/mini-tokyo-3d",
@@ -9579,7 +9645,7 @@
       "id": "R_kgDOSaLB4g",
       "name": "nexu-io/openmotion",
       "url": "https://github.com/nexu-io/openmotion",
-      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your own brand kit and copy. OpenMotion is a full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, and WorkBuddy.",
+      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -9944,6 +10010,16 @@
       "description": "Open Source Slack and Campfire inspired chat with one click deploy to Cloudflare.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORw9u5A",
+      "name": "NYLLON-SOFTWARE/SignuDoc",
+      "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+      "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -11522,6 +11598,16 @@
       "description": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSXZbXg",
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13906,6 +13992,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVwPPUg",
+      "name": "szmichalczyk/focus-app",
+      "url": "https://github.com/szmichalczyk/focus-app",
+      "description": "A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOHY3dKQ",
       "name": "t3-oss/create-t3-app",
       "url": "https://github.com/t3-oss/create-t3-app",
@@ -14466,6 +14562,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk0MjQxMzQw",
+      "name": "tordanik/OSM2World",
+      "url": "https://github.com/tordanik/OSM2World",
+      "description": "converter that creates three-dimensional models of the world from OpenStreetMap data",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyMzI1Mjk4",
       "name": "torvalds/linux",
       "url": "https://github.com/torvalds/linux",
@@ -14596,6 +14702,16 @@
       "description": "A high-performance inference engine for AI models",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVjpHLg",
+      "name": "tsevis/Zetesis",
+      "url": "https://github.com/tsevis/Zetesis",
+      "description": "Native macOS full-text search for a personal book library (PDF, EPUB, DjVu, Word), with OCR",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

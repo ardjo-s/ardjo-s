@@ -11,7 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [0sec-labs/0security](https://github.com/0sec-labs/0security): Sovereign infrastructure to build and deploy security agents that find, prove and fix security risks.
+- [0sec-labs/0security](https://github.com/0sec-labs/0security): Software infrastructure to build and deploy sovereign, persistent AI security agents that continuously find, prove and fix security risks.
 - [1Password/for-open-source](https://github.com/1Password/for-open-source): Get a 1Password team account for free to support your open source initiatives!.
 - [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.
 - [beenuar/AiSOC](https://github.com/beenuar/AiSOC): Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step.

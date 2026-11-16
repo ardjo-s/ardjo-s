@@ -26,7 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [bytedance/deer-flow](https://github.com/bytedance/deer-flow): An open-source long-horizon SuperAgent harness that researches, codes, and creates.
 - [Cjbuilds/Codex-Orchestration](https://github.com/Cjbuilds/Codex-Orchestration): Bring any model to Codex, assign them any role, use them in /goal or any workflow.
 - [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit): The Frontend Stack for Agents &amp; Generative UI.
-- [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot): Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after.
+- [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot): The open, self-hostable alternative to closed AI bots.
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
 - [CopilotKit/openfuse](https://github.com/CopilotKit/openfuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
 - [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
