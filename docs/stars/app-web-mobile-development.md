@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**73 repositories.** [Browse all categories →](README.md)
+**74 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -59,6 +59,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pmndrs/zustand](https://github.com/pmndrs/zustand): 🐻 Bear necessities for state management in React.
 - [RapidNative/reactnative-run](https://github.com/RapidNative/reactnative-run): Run React Native in your browser.
 - [ratatui/ratatui](https://github.com/ratatui/ratatui) · review needed: A Rust crate for cooking up terminal user interfaces (TUIs) 👨‍🍳🐀 https://ratatui.rs.
+- [rauchg/xeet](https://github.com/rauchg/xeet): X posts rendered to PNG without a browser, in safe Rust and WebAssembly.
 - [remix-run/remix](https://github.com/remix-run/remix): The fully-stacked web framework.
 - [rivo/tview](https://github.com/rivo/tview) · review needed: Terminal UI library with rich, interactive widgets — written in Golang.
 - [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) · review needed: Fast, scriptable CLI for the App Store Connect API.

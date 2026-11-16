@@ -7,7 +7,7 @@
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 94
+      "count": 95
     },
     {
       "id": "category_02",
@@ -25,7 +25,7 @@
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 81
+      "count": 82
     },
     {
       "id": "category_05",
@@ -85,19 +85,19 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 73
+      "count": 74
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 76
+      "count": 78
     },
     {
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 25
+      "count": 26
     },
     {
       "id": "category_15",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 37
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 6
     }
   ],
   "repositories": [
@@ -7066,10 +7060,12 @@
       "name": "K-Mistele/anti-slop",
       "url": "https://github.com/K-Mistele/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Testing, Debugging & Code Quality",
+      "category_id": "category_14",
       "archived": false,
-      "fork": true
+      "fork": true,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQvLmpA",
@@ -10756,10 +10752,16 @@
       "name": "ossu/computer-science",
       "url": "https://github.com/ossu/computer-science",
       "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Developer Tools & Languages",
+        "Knowledge & Productivity"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk1OTQzNTM2NA==",
@@ -11466,10 +11468,12 @@
       "name": "practical-tutorials/project-based-learning",
       "url": "https://github.com/practical-tutorials/project-based-learning",
       "description": "Curated list of project-based tutorials",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOVEGsbg",
@@ -11766,10 +11770,12 @@
       "name": "raphaelDkhn/miroir",
       "url": "https://github.com/raphaelDkhn/miroir",
       "description": "Turn a product into an agentic RL environment",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORSVo3g",
@@ -11816,10 +11822,12 @@
       "name": "rauchg/xeet",
       "url": "https://github.com/rauchg/xeet",
       "description": "X posts rendered to PNG without a browser, in safe Rust and WebAssembly.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDORbQhpQ",
@@ -15570,10 +15578,12 @@
       "name": "wlsdks/ontology-atlas",
       "url": "https://github.com/wlsdks/ontology-atlas",
       "description": "Understand what your codebase builds, why it is structured that way, and what a change could affect.  One shared Markdown ontology for humans and coding agents—visualized for people, accessible to agents through MCP, and reviewed with Git.  Local-first. Open source.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDONYurpA",

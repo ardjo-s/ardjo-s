@@ -15664,6 +15664,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUJ-p5Q",
+      "name": "K-Mistele/anti-slop",
+      "url": "https://github.com/K-Mistele/anti-slop",
+      "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "category": "category_14",
+      "purpose": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": true,
+      "evidence_url": "https://github.com/K-Mistele/anti-slop",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43846687536",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQvLmpA",
       "name": "kaltwrk/motion-core",
       "url": "https://github.com/kaltwrk/motion-core",
@@ -23671,6 +23690,35 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxOTQxNTA2NA==",
+      "name": "ossu/computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "category": "category_13",
+      "purpose": "🎓 Path to a free self-taught education in Computer Science!",
+      "keywords": [
+        "awesome-list",
+        "computer-science",
+        "courses",
+        "curriculum",
+        "HTML"
+      ],
+      "review_required": true,
+      "evidence_quote": "Open Source Society University Path to a free self-taught education in Computer Science!",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ossu/computer-science/blob/master/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43846687536",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_13",
+        "category_19"
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk1OTQzNTM2NA==",
       "name": "outline/outline",
       "url": "https://github.com/outline/outline",
@@ -25226,6 +25274,34 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4ODAxMTkwOA==",
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "category": "category_13",
+      "purpose": "Curated list of project-based tutorials",
+      "keywords": [
+        "beginner-project",
+        "cpp",
+        "golang",
+        "javascript",
+        "project",
+        "python",
+        "tutorial",
+        "webdevelopment"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Project Based Learning A list of programming tutorials in which aspiring software developers learn how to build an application from scratch.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/practical-tutorials/project-based-learning/blob/master/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVEGsbg",
       "name": "prajvis/creative-plugins",
       "url": "https://github.com/prajvis/creative-plugins",
@@ -25827,6 +25903,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVpCN_w",
+      "name": "raphaelDkhn/miroir",
+      "url": "https://github.com/raphaelDkhn/miroir",
+      "description": "Turn a product into an agentic RL environment",
+      "category": "category_04",
+      "purpose": "Turn a product into an agentic RL environment",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Turn a product into an agentic RL environment",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/raphaelDkhn/miroir",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORSVo3g",
       "name": "RapidNative/reactnative-run",
       "url": "https://github.com/RapidNative/reactnative-run",
@@ -25913,6 +26008,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVvgGyA",
+      "name": "rauchg/xeet",
+      "url": "https://github.com/rauchg/xeet",
+      "description": "X posts rendered to PNG without a browser, in safe Rust and WebAssembly.",
+      "category": "category_12",
+      "purpose": "X posts rendered to PNG without a browser, in safe Rust and WebAssembly",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# xeet ** xeet-rs.vercel.app ** xeet draws X posts exactly the way X draws them, without a browser.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rauchg/xeet/blob/main/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORbQhpQ",
@@ -34381,6 +34497,41 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSP2RaA",
+      "name": "wlsdks/ontology-atlas",
+      "url": "https://github.com/wlsdks/ontology-atlas",
+      "description": "Understand what your codebase builds, why it is structured that way, and what a change could affect.  One shared Markdown ontology for humans and coding agents—visualized for people, accessible to agents through MCP, and reviewed with Git.  Local-first. Open source.",
+      "category": "category_01",
+      "purpose": "Understand what your codebase builds, why it is structured that way, and what a change could affect",
+      "keywords": [
+        "ai-agents-framework",
+        "claude-code",
+        "code-visualization",
+        "codebase",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "impact-analysis",
+        "knowledge-graph",
+        "mcp-server",
+        "ontology",
+        "ontology-engineering",
+        "ontology-management-framework",
+        "software-architecture",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "English | 한국어 | 日本語 | 简体中文 Understand your system as AI agents change its code.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/wlsdks/ontology-atlas/blob/main/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDONYurpA",

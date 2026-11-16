@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**81 repositories.** [Browse all categories →](README.md)
+**82 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -67,6 +67,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pilot-protocol/pilotprotocol](https://github.com/pilot-protocol/pilotprotocol) · review needed: Pilot Protocol: The Internet of Agents.
 - [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp): 🚀 The fast, Pythonic way to build MCP servers and clients.
 - [pydantic/monty](https://github.com/pydantic/monty): A secure Python sandbox, written in Rust, for code written by AI.
+- [raphaelDkhn/miroir](https://github.com/raphaelDkhn/miroir): Turn a product into an agentic RL environment.
 - [reason-machines/reason-network](https://github.com/reason-machines/reason-network) · review needed: Reason Network: your team's coding agents, talking to each other.
 - [rebel0789/codexpro](https://github.com/rebel0789/codexpro): Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.
 - [ronadin2002/jev-cua](https://github.com/ronadin2002/jev-cua) · review needed: Voice and text control for macOS.
