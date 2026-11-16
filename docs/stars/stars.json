@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1590,
+  "repository_count": 1596,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 37
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -175,7 +181,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0security",
       "url": "https://github.com/0sec-labs/0security",
-      "description": "Open-source AI cybersecurity harness to build & deploy continuous security agents that find, prove, fix and monitor vulnerabilities across code, binaries, dependencies, infrastructure. Web UI, CLI, CI and MCP.",
+      "description": "Sovereign infrastructure to build and deploy security agents that find, prove and fix security risks. Open source. Web UI, CLI, CI and MCP.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -2535,7 +2541,7 @@
       "id": "R_kgDORQi7fA",
       "name": "CelestoAI/celesto",
       "url": "https://github.com/CelestoAI/celesto",
-      "description": "Secure and persistent computer for AI agents",
+      "description": "Sandboxes for coding agents, CI runners and RL training",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
       "archived": false,
@@ -4002,16 +4008,6 @@
       "description": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
-      "archived": false,
-      "fork": false
-    },
-    {
-      "id": "R_kgDOU7nD1A",
-      "name": "drowzeys/Imagination-Studio-by-keys-Wasserman",
-      "url": "https://github.com/drowzeys/Imagination-Studio-by-keys-Wasserman",
-      "description": "Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark. Plan a film like a crew (Slate workflow by Sam Wasserman), render Qwen-Image-2.1 / FLUX3-K pictures and MiniMax H3 / FastH3 video with sound on TensorFold.",
-      "category": "Image, Video & Presentations",
-      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -7066,6 +7062,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUJ-p5Q",
+      "name": "K-Mistele/anti-slop",
+      "url": "https://github.com/K-Mistele/anti-slop",
+      "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": true
+    },
+    {
       "id": "R_kgDOQvLmpA",
       "name": "kaltwrk/motion-core",
       "url": "https://github.com/kaltwrk/motion-core",
@@ -7232,6 +7238,16 @@
       "description": "Create custom iOS keyboards with Swift & SwiftUI.",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOU7nD1A",
+      "name": "Keys-Wasserman/Imagination-Studio-by-keys-Wasserman",
+      "url": "https://github.com/Keys-Wasserman/Imagination-Studio-by-keys-Wasserman",
+      "description": "Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark. Plan a film like a crew (Slate workflow by Sam Wasserman), render Qwen-Image-2.1 / FLUX3-K pictures and MiniMax H3 / FastH3 video with sound on TensorFold.",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
       "fork": false
     },
@@ -9567,7 +9583,7 @@
       "id": "R_kgDOSaLB4g",
       "name": "nexu-io/openmotion",
       "url": "https://github.com/nexu-io/openmotion",
-      "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
+      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your own brand kit and copy. OpenMotion is a full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, and WorkBuddy.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -10736,6 +10752,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxOTQxNTA2NA==",
+      "name": "ossu/computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk1OTQzNTM2NA==",
       "name": "outline/outline",
       "url": "https://github.com/outline/outline",
@@ -11436,6 +11462,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk4ODAxMTkwOA==",
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVEGsbg",
       "name": "prajvis/creative-plugins",
       "url": "https://github.com/prajvis/creative-plugins",
@@ -11726,6 +11762,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVpCN_w",
+      "name": "raphaelDkhn/miroir",
+      "url": "https://github.com/raphaelDkhn/miroir",
+      "description": "Turn a product into an agentic RL environment",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORSVo3g",
       "name": "RapidNative/reactnative-run",
       "url": "https://github.com/RapidNative/reactnative-run",
@@ -11762,6 +11808,16 @@
       "description": "Ratatui Website/Documentation",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVvgGyA",
+      "name": "rauchg/xeet",
+      "url": "https://github.com/rauchg/xeet",
+      "description": "X posts rendered to PNG without a browser, in safe Rust and WebAssembly.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -15506,6 +15562,16 @@
       "description": "The world's largest API knowledge base, built for agents.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSP2RaA",
+      "name": "wlsdks/ontology-atlas",
+      "url": "https://github.com/wlsdks/ontology-atlas",
+      "description": "Understand what your codebase builds, why it is structured that way, and what a change could affect.  One shared Markdown ontology for humans and coding agents—visualized for people, accessible to agents through MCP, and reviewed with Git.  Local-first. Open source.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

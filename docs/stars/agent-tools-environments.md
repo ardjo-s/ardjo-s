@@ -25,7 +25,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [browser-use/browser-use](https://github.com/browser-use/browser-use): Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
 - [browser-use/terminal](https://github.com/browser-use/terminal): Terminal UI to get stuff done in the browser.
 - [callstack/agent-device](https://github.com/callstack/agent-device): Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.
-- [CelestoAI/celesto](https://github.com/CelestoAI/celesto): Secure and persistent computer for AI agents.
+- [CelestoAI/celesto](https://github.com/CelestoAI/celesto): Sandboxes for coding agents, CI runners and RL training.
 - [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp): Chrome DevTools for coding agents.
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite): The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.
 - [cloudflare/kitesurf](https://github.com/cloudflare/kitesurf): Kitesurf is an experimental browser engine that runs on Cloudflare Workers.

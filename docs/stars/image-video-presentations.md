@@ -35,7 +35,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cporter202/automate-faceless-content](https://github.com/cporter202/automate-faceless-content): Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook &amp; Instagram on autopilot — from idea → script → video → scheduled posts.
 - [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW): A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
 - [dmtrKovalenko/fframes](https://github.com/dmtrKovalenko/fframes): programmatic video rendering framework that is actually fast.
-- [drowzeys/Imagination-Studio-by-keys-Wasserman](https://github.com/drowzeys/Imagination-Studio-by-keys-Wasserman): Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark.
 - [dtinth/superwhite](https://github.com/dtinth/superwhite): display a very bright white color on HDR-enabled displays.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot): Create Reddit Videos with just✨ one command ✨.
 - [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) · review needed: Create Apple style dimensional drawings of UI components.
@@ -59,6 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [JuneYaooo/capsule-cinema](https://github.com/JuneYaooo/capsule-cinema): 把视频做成模版，一次配方无限视频 · Turn videos into templates.
 - [JuneYaooo/rea-toon](https://github.com/JuneYaooo/rea-toon): AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot.
 - [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
+- [Keys-Wasserman/Imagination-Studio-by-keys-Wasserman](https://github.com/Keys-Wasserman/Imagination-Studio-by-keys-Wasserman): Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.
@@ -71,7 +71,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Netflix/void-model](https://github.com/Netflix/void-model): Starred repository.
 - [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources): :city_sunrise: A collection of links for free stock photography, video and Illustration websites.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video): Programmatic video for coding agents — HTML to video on your laptop.
-- [nexu-io/openmotion](https://github.com/nexu-io/openmotion): The open-source full-stack studio for Opus 5.5 motion video.
+- [nexu-io/openmotion](https://github.com/nexu-io/openmotion): The open-source Claude Motion &amp; CapCut alternative.
 - [nickvasilescu/parallax](https://github.com/nickvasilescu/parallax): Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes agent on Orgo.
 - [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) · review needed: Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.
 - [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization): NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&amp;A, and automated reporting.
