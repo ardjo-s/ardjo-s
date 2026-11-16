@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**31 repositories.** [Browse all categories →](README.md)
+**32 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -41,4 +41,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering): A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.
 - [vercel-labs/ai-cli](https://github.com/vercel-labs/ai-cli): Generate anything from your terminal.
 - [vercel/ai](https://github.com/vercel/ai): The AI Toolkit for TypeScript.
+- [wandb/weave](https://github.com/wandb/weave): Weave is a toolkit for developing AI-powered applications, built by Weights &amp; Biases.
 - [zaidmukaddam/swift-ai-sdk](https://github.com/zaidmukaddam/swift-ai-sdk): The AI SDK for your iOS and macOS Apps.

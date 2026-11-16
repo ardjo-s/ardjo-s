@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**125 repositories.** [Browse all categories →](README.md)
+**127 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -24,6 +24,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ardjo-s/ardjo-s](https://github.com/ardjo-s/ardjo-s) · review needed: Starred repository.
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
 - [benoror/obsidianos_work](https://github.com/benoror/obsidianos_work) · review needed: ObsidianOS - Work Vault.
+- [better-vault/better-vault](https://github.com/better-vault/better-vault): Open-source NotebookLM alternative.
 - [bholmesdev/hubble.md](https://github.com/bholmesdev/hubble.md): The best notepad for you and your agents.
 - [block/buzz](https://github.com/block/buzz): A hive mind communication platform.
 - [boriemannetje/apex-notes](https://github.com/boriemannetje/apex-notes): Apex Notes, Obsidian for hierarchical thinkers.
@@ -91,6 +92,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library): My library of resources about AI.
 - [michaelshimeles/bible](https://github.com/michaelshimeles/bible): A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks.
 - [michaelwilhelmsen/humla](https://github.com/michaelwilhelmsen/humla): Open-source AI meeting notes for Mac.
+- [mshll/ghostwriter](https://github.com/mshll/ghostwriter): System-wide, on-device AI autocomplete for macOS.
 - [Narcooo/inkos](https://github.com/Narcooo/inkos) · review needed: Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content.
 - [nateherkai/snagtime](https://github.com/nateherkai/snagtime): Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.
 - [ncvgl/slawk](https://github.com/ncvgl/slawk): A 14 day experiment to clone Slack with Claude Code.

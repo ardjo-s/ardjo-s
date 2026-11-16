@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**152 repositories.** [Browse all categories →](README.md)
+**153 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -34,6 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [BoardUI/boardui](https://github.com/BoardUI/boardui): React design system for agentic interfaces.
 - [Boring-Software-Inc/dither-kit](https://github.com/Boring-Software-Inc/dither-kit): Composable, dithered charts for shadcn/ui — area, line, bar, pie &amp; radar.
 - [botiverse/raft-design](https://github.com/botiverse/raft-design): Raft's design system: guidelines, design tokens and raft-ui, the React components that implement them.
+- [brijr/gui](https://github.com/brijr/gui): Design real interfaces with your own AI agents.
 - [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components): Curated List of React Components &amp; Libraries.
 - [cajaun/laminar](https://github.com/cajaun/laminar): Animates changing text and numbers in React Native while preserving the identity of characters that stay on screen.
 - [chakra-ui/zag](https://github.com/chakra-ui/zag): Build your design system in React, Solid, Vue, Svelte or Vanilla.

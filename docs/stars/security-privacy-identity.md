@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**42 repositories.** [Browse all categories →](README.md)
+**43 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -47,6 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 - [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security): 🐶 A curated list of Web Security materials and resources.
 - [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal): OSINT &amp; recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics &amp; more.
+- [RedHatProductSecurity/prodsec-skills](https://github.com/RedHatProductSecurity/prodsec-skills): Security skills for AI coding assistants and agentic systems.
 - [soxoj/maigret](https://github.com/soxoj/maigret) · review needed: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites.
 - [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
 - [uber/ADR](https://github.com/uber/ADR): ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.

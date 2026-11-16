@@ -4011,6 +4011,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVU0w-w",
+      "name": "better-vault/better-vault",
+      "url": "https://github.com/better-vault/better-vault",
+      "description": "Open-source NotebookLM alternative. Chat with your sources with citations, and turn them into reports, flashcards, quizzes, mind maps and slide decks, with your own OpenAI, Anthropic or Gemini key or local Ollama / LM Studio models. Local-first, no account.",
+      "category": "category_19",
+      "purpose": "Open-source NotebookLM alternative",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source NotebookLM alternative. Chat with your sources with citations, and turn them into reports, flashcards, quizzes, mind maps and slide decks, with your own OpenAI, Anthropic or Gemini key or local Ollama / LM Studio models. Local-first, no account.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/better-vault/better-vault",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTXRh_Q",
       "name": "BetterWright/betterwright",
       "url": "https://github.com/BetterWright/betterwright",
@@ -4636,6 +4655,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOU6wzTw",
+      "name": "brijr/gui",
+      "url": "https://github.com/brijr/gui",
+      "description": "Design real interfaces with your own AI agents",
+      "category": "category_11",
+      "purpose": "Design real interfaces with your own AI agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Design real interfaces with your own AI agents",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/brijr/gui",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk2MTg5MzM5OQ==",
@@ -14232,6 +14270,25 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41969527310"
     },
     {
+      "id": "R_kgDOVtGtOQ",
+      "name": "Institute-for-Progress/checkpoint-forensics-verification-public",
+      "url": "https://github.com/Institute-for-Progress/checkpoint-forensics-verification-public",
+      "description": "Independent GPU replay of published checkpoint forensics results",
+      "category": "category_14",
+      "purpose": "Independent GPU replay of published checkpoint forensics results",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Independent GPU replay of published checkpoint forensics results",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Institute-for-Progress/checkpoint-forensics-verification-public",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOOdYWHw",
       "name": "InterfazeAI/deep-research",
       "url": "https://github.com/InterfazeAI/deep-research",
@@ -16001,6 +16058,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDORc0M0g",
+      "name": "khadgi-sujan/retune",
+      "url": "https://github.com/khadgi-sujan/retune",
+      "description": "The visual layer for vibe coding",
+      "category": "category_04",
+      "purpose": "The visual layer for vibe coding",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Retune The visual layer for vibe coding.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/khadgi-sujan/retune/blob/main/README.md",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOSJtOOQ",
       "name": "kieranklaassen/riffrec",
       "url": "https://github.com/kieranklaassen/riffrec",
@@ -16384,6 +16462,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDORRBv5Q",
+      "name": "kunobi-ninja/kache",
+      "url": "https://github.com/kunobi-ninja/kache",
+      "description": "Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more. No copies, no wasted disk",
+      "category": "category_13",
+      "purpose": "Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more. No copies, no wasted disk",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/kunobi-ninja/kache",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOTgymzA",
@@ -20036,6 +20133,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVKC2Yg",
+      "name": "mshll/ghostwriter",
+      "url": "https://github.com/mshll/ghostwriter",
+      "description": "System-wide, on-device AI autocomplete for macOS",
+      "category": "category_19",
+      "purpose": "System-wide, on-device AI autocomplete for macOS",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "System-wide, on-device AI autocomplete for macOS",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mshll/ghostwriter",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQBjiAQ",
       "name": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
@@ -20855,6 +20971,25 @@
       "evidence_url": "https://github.com/neutraltone/awesome-stock-resources",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVvpeBw",
+      "name": "newyorkcompute/chatgpt-x-plugin",
+      "url": "https://github.com/newyorkcompute/chatgpt-x-plugin",
+      "description": "DIY ChatGPT plugin for X via api.x.com/mcp — bookmarks, search, profiles. Bring your own X app. No proxy.",
+      "category": "category_04",
+      "purpose": "DIY ChatGPT plugin for X via api.x.com/mcp — bookmarks, search, profiles",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "DIY ChatGPT plugin for X via api.x.com/mcp — bookmarks, search, profiles. Bring your own X app. No proxy.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/newyorkcompute/chatgpt-x-plugin",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQfttOw",
@@ -25965,6 +26100,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSMLVGA",
+      "name": "RedHatProductSecurity/prodsec-skills",
+      "url": "https://github.com/RedHatProductSecurity/prodsec-skills",
+      "description": "Security skills for AI coding assistants and agentic systems",
+      "category": "category_18",
+      "purpose": "Security skills for AI coding assistants and agentic systems",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Security skills for AI coding assistants and agentic systems",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/RedHatProductSecurity/prodsec-skills",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOOxLgdQ",
       "name": "RedPlanetHQ/core",
       "url": "https://github.com/RedPlanetHQ/core",
@@ -28605,6 +28759,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVOrBtQ",
+      "name": "shinyobjectz/raea",
+      "url": "https://github.com/shinyobjectz/raea",
+      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+      "category": "category_23",
+      "purpose": "Render Anything Engine: tell your AI what to make",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/shinyobjectz/raea",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOTNfrEQ",
@@ -31925,6 +32098,25 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMDk1MDQ4ODU=",
+      "name": "truera/trulens",
+      "url": "https://github.com/truera/trulens",
+      "description": "Evaluation and Tracking for LLM Experiments and AI Agents",
+      "category": "category_08",
+      "purpose": "Evaluation and Tracking for LLM Experiments and AI Agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Evaluation and Tracking for LLM Experiments and AI Agents",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/truera/trulens",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTprQ_g",
       "name": "trycompai/crm",
       "url": "https://github.com/trycompai/crm",
@@ -33647,6 +33839,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOJsP4nA",
+      "name": "wandb/weave",
+      "url": "https://github.com/wandb/weave",
+      "description": "Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.",
+      "category": "category_26",
+      "purpose": "Weave is a toolkit for developing AI-powered applications, built by Weights & Biases",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/wandb/weave",
+      "evidence_read_at": "2026-11-16",
+      "classification_source": "jev:2026-11-16",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQ7kWfQ",
