@@ -58,7 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [nv-tlabs/lyra](https://github.com/nv-tlabs/lyra): Project Lyra: Open Generative 3D World Models.
 - [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW): Custom GeForce Now Client Named OpenNOW.
 - [patch-gg/anymove](https://github.com/patch-gg/anymove): Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.
-- [playcanvas/engine](https://github.com/playcanvas/engine): Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF.
+- [playcanvas/engine](https://github.com/playcanvas/engine): Open-source web graphics engine built on WebGPU and WebGL2.
 - [playcanvas/supersplat](https://github.com/playcanvas/supersplat): 3D Gaussian Splat Editor.
 - [pmndrs/drei](https://github.com/pmndrs/drei): 🥉 useful helpers for react-three-fiber.
 - [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing): 📬  Postprocessing for react-three-fiber.
