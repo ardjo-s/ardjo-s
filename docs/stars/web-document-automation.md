@@ -21,7 +21,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [datalab-to/chandra](https://github.com/datalab-to/chandra): OCR model that handles complex tables, forms, handwriting with full layout.
 - [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) · review needed: 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more.
 - [firecrawl/anydoc](https://github.com/firecrawl/anydoc): Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl): Supercharge your AI agents with data from the web and beyond.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl): Knowledge infrastructure to make your agents smarter.
 - [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector): Fast Rust library for PDF inspection, classification, and text extraction.
 - [google/langextract](https://github.com/google/langextract) · review needed: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
 - [jkrup/jeveryword](https://github.com/jkrup/jeveryword): Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.

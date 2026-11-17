@@ -30,7 +30,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) · review needed: 18 Lessons to Get Started Building AI Agents.
 - [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners): 21 Lessons, Get Started Building with Generative AI.
 - [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) · review needed: Generate text, images, video, speech, and music by MiniMax.
-- [nagavineerpasam/systems-to-ai-reading-map](https://github.com/nagavineerpasam/systems-to-ai-reading-map) · review needed · low confidence: 112 topics from 8 well-known engineering books, in a suggested reading order.
+- [nagavineerpasam/systems-to-ai-reading-map](https://github.com/nagavineerpasam/systems-to-ai-reading-map) · review needed · low confidence: 132 topics from 14 well-known engineering books, in a suggested reading order.
 - [Nicolepcx/ai-agents-the-definitive-guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide) · review needed: Repo for AI Agents The Definitive Guide.
 - [openai/openai-cookbook](https://github.com/openai/openai-cookbook): Examples and guides for using the OpenAI API.
 - [openai/plugins](https://github.com/openai/plugins) · review needed: OpenAI Plugins.

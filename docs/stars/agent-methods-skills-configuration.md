@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**132 repositories.** [Browse all categories →](README.md)
+**131 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -114,7 +114,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) · review needed: Make any agent harness multimodal-native.
 - [r0b0tlab/hermes-buzz-shared-profile](https://github.com/r0b0tlab/hermes-buzz-shared-profile): macOS Hermes skill for sharing one canonical writable profile across Buzz and ACP surfaces.
 - [Railly/agentfiles](https://github.com/Railly/agentfiles): Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 12 coding tools — from Obsidian.
-- [regenrek/codex-planr](https://github.com/regenrek/codex-planr): Simple tasks for Codex.
 - [remotion-dev/skills](https://github.com/remotion-dev/skills): Agent Skills.
 - [revfactory/harness](https://github.com/revfactory/harness) · review needed: A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) · archived · review needed: Skills I use with Claude for shaping.

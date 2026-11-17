@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1627,
+  "repository_count": 1629,
   "categories": [
     {
       "id": "category_01",
@@ -19,7 +19,7 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 132
+      "count": 131
     },
     {
       "id": "category_04",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 3
     }
   ],
   "repositories": [
@@ -4937,7 +4943,7 @@
       "id": "R_kgDOLunVBg",
       "name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "category": "Web & Document Automation",
       "category_id": "category_17",
       "archived": false,
@@ -5360,6 +5366,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQxTvrg",
+      "name": "getnao/nao",
+      "url": "https://github.com/getnao/nao",
+      "description": "👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQBkEfw",
       "name": "getpaseo/paseo",
       "url": "https://github.com/getpaseo/paseo",
@@ -5698,6 +5714,16 @@
       "description": "OSS-Fuzz - continuous fuzzing for open source software.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOTnl_3Q",
+      "name": "google/rust-skills",
+      "url": "https://github.com/google/rust-skills",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9549,7 +9575,7 @@
       "id": "R_kgDOVv70gw",
       "name": "nagavineerpasam/systems-to-ai-reading-map",
       "url": "https://github.com/nagavineerpasam/systems-to-ai-reading-map",
-      "description": "112 topics from 8 well-known engineering books, in a suggested reading order.",
+      "description": "132 topics from 14 well-known engineering books, in a suggested reading order.",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
       "archived": false,
@@ -12210,16 +12236,6 @@
       "fork": false
     },
     {
-      "id": "R_kgDORpv8tA",
-      "name": "regenrek/codex-planr",
-      "url": "https://github.com/regenrek/codex-planr",
-      "description": "Simple tasks for Codex",
-      "category": "Agent Methods, Skills & Configuration",
-      "category_id": "category_03",
-      "archived": false,
-      "fork": false
-    },
-    {
       "id": "MDEwOlJlcG9zaXRvcnkzMDc0ODkyODQ=",
       "name": "remix-run/remix",
       "url": "https://github.com/remix-run/remix",
@@ -14032,6 +14048,16 @@
       "description": "A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOTz3KPQ",
+      "name": "SunkenInTime/t3-themes",
+      "url": "https://github.com/SunkenInTime/t3-themes",
+      "description": "Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
