@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,622 public repositories across 26 Sol categories plus 15 unsorted.**
+**1,622 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -16,15 +16,15 @@ A review flag means the evidence or category boundary needs checking, not that t
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 101 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 130 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 131 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
-- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 82 repositories
+- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 83 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
 - [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 58 repositories
   - Memory, context management, semantic retrieval and RAG for AI systems.
 - [🧠 AI Models & Training](ai-models-training.md) · 33 repositories
   - Model architectures, machine learning, datasets, fine-tuning and training.
-- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 44 repositories
+- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 45 repositories
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 44 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
@@ -35,33 +35,33 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🎙️ Voice, Audio & Music](voice-audio-music.md) · 37 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 117 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 119 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 154 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 155 repositories
   - UI components, design systems, typography, prototyping and product design.
-- [🎮 Games & 3D](games-3d.md) · 78 repositories
+- [🎮 Games & 3D](games-3d.md) · 79 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 75 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 76 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 78 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
-- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 26 repositories
+- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 27 repositories
   - Software testing, debugging, code review and technical quality checks.
-- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 34 repositories
+- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 35 repositories
   - Operating systems, networking, deployment, cloud infrastructure and DevOps.
 - [🗄 Data, Databases & GIS](data-databases-gis.md) · 40 repositories
   - Databases, data pipelines, analytics, visualization and geospatial tools.
 - [⚙️ Web & Document Automation](web-document-automation.md) · 25 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
-- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 43 repositories
+- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 44 repositories
   - Authentication, identity, secrets, privacy and security assessment.
 
 ## Knowledge, Research & Business
 
-- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 129 repositories
+- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 132 repositories
   - Notes, writing, reading, tasks, calendars and collaboration.
 - [📈 Marketing, Sales & Careers](marketing-sales-careers.md) · 51 repositories
   - Marketing, SEO, sales, customer relationships, recruiting and careers.
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 10 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 37 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 38 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 15 repositories
-  - Public stars not yet classified in catalog.json.

@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**75 repositories.** [Browse all categories →](README.md)
+**76 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -15,6 +15,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [airbnb/lottie-web](https://github.com/airbnb/lottie-web): Render After Effects animations natively on Web, Android and iOS, and React Native.
 - [anomalyco/rune](https://github.com/anomalyco/rune): Rune: Native UI framework.
 - [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills): A builder, not just a researcher.
+- [appwrite/appwrite](https://github.com/appwrite/appwrite): The open-source cloud for agents &amp; devs.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
 - [Budibase/budibase](https://github.com/Budibase/budibase): AI agents, automations and apps that run your operations.

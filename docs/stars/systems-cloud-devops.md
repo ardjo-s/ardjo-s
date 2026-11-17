@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**34 repositories.** [Browse all categories →](README.md)
+**35 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -41,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [telemt/telemt](https://github.com/telemt/telemt) · review needed: MTProxy for Telegram on Rust + Tokio.
 - [temporalio/temporal](https://github.com/temporalio/temporal): Temporal service.
 - [torvalds/linux](https://github.com/torvalds/linux): Linux kernel source tree.
+- [TouchWorkStation/omarchy-server](https://github.com/TouchWorkStation/omarchy-server): Starred repository.
 - [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre): The open-source agent for CI/CD reliability.
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge): A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [wieandteduard/port-menu](https://github.com/wieandteduard/port-menu): A tiny macOS menu bar app that tracks your dev servers across projects.

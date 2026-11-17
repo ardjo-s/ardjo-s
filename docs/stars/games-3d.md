@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**78 repositories.** [Browse all categories →](README.md)
+**79 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -32,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DominikScholz/open-bot-avatar](https://github.com/DominikScholz/open-bot-avatar): A JSON spec and renderer for interactive agent avatars.
 - [effekseer/Effekseer](https://github.com/effekseer/Effekseer): Starred repository.
 - [EpicGames/unreal-engine-skills-for-claude-code-plugin](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin): Starred repository.
+- [fedesanchez0/shader-lab](https://github.com/fedesanchez0/shader-lab): A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch.
 - [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines.
 - [godotengine/godot](https://github.com/godotengine/godot): Godot Engine – Multi-platform 2D and 3D game engine.
 - [gokayfem/gaussian-splat-to-blender-nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes): Agent skill and toolkit for reconstructing Gaussian splats as editable Blender Geometry Nodes meshes and Shader Node materials.

@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**82 repositories.** [Browse all categories →](README.md)
+**83 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -76,6 +76,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [serpapi/serpapi-mcp](https://github.com/serpapi/serpapi-mcp) · review needed: SerpApi MCP Server for Google and other search engine results.
 - [shhivv/arc-cua](https://github.com/shhivv/arc-cua): Superfast action layer for computer-use agents, on MacOS.
 - [showlab/ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) · review needed: Human-taught Computer-use Agent Designed for Real Windows and MacOS Desktops.
+- [simpsoka/zigzag](https://github.com/simpsoka/zigzag) · review needed · low confidence: Free, open-source embroidery software for Mac and Windows.
 - [smol-machines/smolvm](https://github.com/smol-machines/smolvm): An embeddable, portable, branchable virtual machine to safely run Agents locally.
 - [software-mansion/argent](https://github.com/software-mansion/argent): An agentic toolkit to control, debug, and profile iOS and Android apps.
 - [superdesigndev/treg](https://github.com/superdesigndev/treg): OpenRouter for agent tools.

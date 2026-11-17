@@ -19,13 +19,13 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 130
+      "count": 131
     },
     {
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 82
+      "count": 83
     },
     {
       "id": "category_05",
@@ -43,7 +43,7 @@
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 44
+      "count": 45
     },
     {
       "id": "category_08",
@@ -67,25 +67,25 @@
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 117
+      "count": 119
     },
     {
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 154
+      "count": 155
     },
     {
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 78
+      "count": 79
     },
     {
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 75
+      "count": 76
     },
     {
       "id": "category_13",
@@ -97,13 +97,13 @@
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 26
+      "count": 27
     },
     {
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 34
+      "count": 35
     },
     {
       "id": "category_16",
@@ -121,13 +121,13 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 43
+      "count": 44
     },
     {
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 129
+      "count": 132
     },
     {
       "id": "category_20",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 37
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 15
+      "count": 38
     }
   ],
   "repositories": [
@@ -1274,10 +1268,12 @@
       "name": "antithesishq/bombadil",
       "url": "https://github.com/antithesishq/bombadil",
       "description": "Property-based testing for web and terminal UIs",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Testing, Debugging & Code Quality",
+      "category_id": "category_14",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQ1Ybwg",
@@ -1358,10 +1354,12 @@
       "name": "appwrite/appwrite",
       "url": "https://github.com/appwrite/appwrite",
       "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSmXwow",
@@ -3962,10 +3960,12 @@
       "name": "Dodaios/ste80-humanizer",
       "url": "https://github.com/Dodaios/ste80-humanizer",
       "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOR9iTtA",
@@ -4856,10 +4856,12 @@
       "name": "fedesanchez0/shader-lab",
       "url": "https://github.com/fedesanchez0/shader-lab",
       "description": "A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch. Save any shader as a wallpaper.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOU_vYVg",
@@ -5056,10 +5058,12 @@
       "name": "Forward-Future/scarlet",
       "url": "https://github.com/Forward-Future/scarlet",
       "description": "Scarlet is an AI video editor for macOS and Windows.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOJ182Uw",
@@ -5186,10 +5190,12 @@
       "name": "FrigadeHQ/yogurt",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVjgIEg",
@@ -6422,10 +6428,12 @@
       "name": "Immortal-Protocols/lastbook",
       "url": "https://github.com/Immortal-Protocols/lastbook",
       "description": "Offline knowledge library for survival and rebuilding",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOOO68ow",
@@ -7672,10 +7680,12 @@
       "name": "langchain-ai/design-agent",
       "url": "https://github.com/langchain-ai/design-agent",
       "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOIPDwlg",
@@ -8662,10 +8672,12 @@
       "name": "meshapplied/goethe",
       "url": "https://github.com/meshapplied/goethe",
       "description": "Serve your models fast on your own infra in 3 steps.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOKG7UZg",
@@ -11746,10 +11758,12 @@
       "name": "progrium/keepsync",
       "url": "https://github.com/progrium/keepsync",
       "description": "syncthing and perkeep had a baby",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOJcj3uQ",
@@ -13364,10 +13378,16 @@
       "name": "simpsoka/zigzag",
       "url": "https://github.com/simpsoka/zigzag",
       "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Agent Tools & Environments",
+        "AI Memory, Context & RAG"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDONmSNmA",
@@ -13644,10 +13664,12 @@
       "name": "spacesheep-dev/sessionpipe",
       "url": "https://github.com/spacesheep-dev/sessionpipe",
       "description": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOJ4etkw",
@@ -13824,10 +13846,12 @@
       "name": "steipete/summarize",
       "url": "https://github.com/steipete/summarize",
       "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVPhGFw",
@@ -14558,10 +14582,12 @@
       "name": "timhanlon/fluid-functionalism-foldkit",
       "url": "https://github.com/timhanlon/fluid-functionalism-foldkit",
       "description": "Editable Foldkit components adapted from Fluid Functionalism",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOOEnO0Q",
@@ -14760,10 +14786,12 @@
       "name": "TouchWorkStation/omarchy-server",
       "url": "https://github.com/TouchWorkStation/omarchy-server",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOKOkWSA",
