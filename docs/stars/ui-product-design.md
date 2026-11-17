@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**154 repositories.** [Browse all categories →](README.md)
+**155 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -154,6 +154,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram): ngDiagram – open-source Angular library for interactive diagrams, node-based editors, and workflow builders.
 - [TahaSh/wayflow](https://github.com/TahaSh/wayflow): An embeddable visual workflow editor for the web.
 - [thesysdev/appless](https://github.com/thesysdev/appless) · review needed: What if your phone had no apps.
+- [timhanlon/fluid-functionalism-foldkit](https://github.com/timhanlon/fluid-functionalism-foldkit): Editable Foldkit components adapted from Fluid Functionalism.
 - [tuan3w/linearapp_clone](https://github.com/tuan3w/linearapp_clone): A Linear App clone with React and Tailwind CSS.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
 - [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.

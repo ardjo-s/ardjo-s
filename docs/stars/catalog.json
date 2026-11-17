@@ -2730,6 +2730,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQqfe8g",
+      "name": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
+      "category": "category_14",
+      "purpose": "Property-based testing for web and terminal UIs",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Property-based testing for web and terminal UIs",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/antithesishq/bombadil",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQ1Ybwg",
       "name": "apify/agent-skills",
       "url": "https://github.com/apify/agent-skills",
@@ -2888,6 +2907,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODAxOTA4NTQ=",
+      "name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "category": "category_12",
+      "purpose": "The open-source cloud for agents & devs",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/appwrite/appwrite",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOSmXwow",
@@ -8693,6 +8731,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVoabYg",
+      "name": "Dodaios/ste80-humanizer",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "category": "category_03",
+      "purpose": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Dodaios/ste80-humanizer",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44007473429",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOR9iTtA",
       "name": "dodo-reach/hermes-desktop",
       "url": "https://github.com/dodo-reach/hermes-desktop",
@@ -10628,6 +10685,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVw0bVw",
+      "name": "fedesanchez0/shader-lab",
+      "url": "https://github.com/fedesanchez0/shader-lab",
+      "description": "A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch. Save any shader as a wallpaper.",
+      "category": "category_23",
+      "purpose": "A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch. Save any shader as a wallpaper.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/fedesanchez0/shader-lab",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOU_vYVg",
       "name": "Fei2411/DS-Bot",
       "url": "https://github.com/Fei2411/DS-Bot",
@@ -11088,6 +11164,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtYWtg",
+      "name": "Forward-Future/scarlet",
+      "url": "https://github.com/Forward-Future/scarlet",
+      "description": "Scarlet is an AI video editor for macOS and Windows.",
+      "category": "category_10",
+      "purpose": "Scarlet is an AI video editor for macOS and Windows",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Scarlet is an AI video editor for macOS and Windows.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Forward-Future/scarlet",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44007473429",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOJ182Uw",
       "name": "FoundationAgents/MetaGPT",
       "url": "https://github.com/FoundationAgents/MetaGPT",
@@ -11362,6 +11457,25 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "b6d33827a9597e5c6320d5792d85098b2b9bcd083e1624f7c32ae4ffd15c2e8a",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "R_kgDOVp0Log",
+      "name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "category": "category_19",
+      "purpose": "Private AI meeting notes that stay on your computer",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/FrigadeHQ/yogurt",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOVjgIEg",
@@ -14126,6 +14240,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVsgSPQ",
+      "name": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "description": "Offline knowledge library for survival and rebuilding",
+      "category": "category_19",
+      "purpose": "Offline knowledge library for survival and rebuilding",
+      "keywords": [
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Lastbook Lastbook is an offline survival library for Mac, Windows and Linux.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Immortal-Protocols/lastbook/blob/main/README.md",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOOO68ow",
       "name": "imskyleen/animate-ui",
       "url": "https://github.com/imskyleen/animate-ui",
@@ -16740,6 +16875,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVOB3Zg",
+      "name": "langchain-ai/design-agent",
+      "url": "https://github.com/langchain-ai/design-agent",
+      "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+      "category": "category_10",
+      "purpose": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/langchain-ai/design-agent",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOIPDwlg",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
@@ -18830,6 +18984,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVBsxKw",
+      "name": "meshapplied/goethe",
+      "url": "https://github.com/meshapplied/goethe",
+      "description": "Serve your models fast on your own infra in 3 steps.",
+      "category": "category_07",
+      "purpose": "Serve your models fast on your own infra in 3 steps",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Serve your models fast on your own infra in 3 steps.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/meshapplied/goethe",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOKG7UZg",
@@ -25610,6 +25783,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVu128Q",
+      "name": "progrium/keepsync",
+      "url": "https://github.com/progrium/keepsync",
+      "description": "syncthing and perkeep had a baby",
+      "category": "category_25",
+      "purpose": "syncthing and perkeep had a baby",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "syncthing and perkeep had a baby",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/progrium/keepsync",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOJcj3uQ",
       "name": "promptfoo/promptfoo",
       "url": "https://github.com/promptfoo/promptfoo",
@@ -29317,6 +29509,42 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVcfc6Q",
+      "name": "simpsoka/zigzag",
+      "url": "https://github.com/simpsoka/zigzag",
+      "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+      "category": "category_04",
+      "purpose": "Free, open-source embroidery software for Mac and Windows",
+      "keywords": [
+        "brother-skitch",
+        "embroidery",
+        "embroidery-digitizing",
+        "embroidery-software",
+        "machine-embroidery",
+        "macos",
+        "mcp",
+        "model-context-protocol",
+        "rust",
+        "svg",
+        "vector-editor",
+        "windows"
+      ],
+      "review_required": true,
+      "evidence_quote": "# ZigZag ** Visit zigzag.diy ** ZigZag is a visual embroidery editor built in Rust for performance, with built-in **MCP (Model Context Protocol)** support so AI agents can create and edit designs alongside you.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/simpsoka/zigzag/blob/main/README.md",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44007473429",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_04",
+        "category_05"
+      ]
+    },
+    {
       "id": "R_kgDONmSNmA",
       "name": "simstudioai/sim",
       "url": "https://github.com/simstudioai/sim",
@@ -29917,6 +30145,25 @@
       "classification_source": "human:2026-11-15"
     },
     {
+      "id": "R_kgDOUvICiQ",
+      "name": "spacesheep-dev/sessionpipe",
+      "url": "https://github.com/spacesheep-dev/sessionpipe",
+      "description": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.",
+      "category": "category_18",
+      "purpose": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/spacesheep-dev/sessionpipe",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44007473429",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
@@ -30296,6 +30543,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOQqaE2w",
+      "name": "steipete/summarize",
+      "url": "https://github.com/steipete/summarize",
+      "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+      "category": "category_19",
+      "purpose": "Point at any URL/YouTube/Podcast or file",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/steipete/summarize",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOVPhGFw",
@@ -31845,6 +32111,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtp4jw",
+      "name": "timhanlon/fluid-functionalism-foldkit",
+      "url": "https://github.com/timhanlon/fluid-functionalism-foldkit",
+      "description": "Editable Foldkit components adapted from Fluid Functionalism",
+      "category": "category_11",
+      "purpose": "Editable Foldkit components adapted from Fluid Functionalism",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Editable Foldkit components adapted from Fluid Functionalism",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/timhanlon/fluid-functionalism-foldkit",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOOEnO0Q",
       "name": "tinybirdco/llm-performance-tracker",
       "url": "https://github.com/tinybirdco/llm-performance-tracker",
@@ -32242,6 +32527,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVsNbAA",
+      "name": "TouchWorkStation/omarchy-server",
+      "url": "https://github.com/TouchWorkStation/omarchy-server",
+      "description": "",
+      "category": "category_15",
+      "purpose": "Auto-classified as Systems, Cloud & DevOps.",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Omarchy Server Turn an Omarchy machine into a home server you run from any browser.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/TouchWorkStation/omarchy-server/blob/main/README.md",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOKOkWSA",

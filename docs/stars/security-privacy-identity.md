@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**43 repositories.** [Browse all categories →](README.md)
+**44 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rawfilejson/awesome-osint-arsenal](https://github.com/rawfilejson/awesome-osint-arsenal): OSINT &amp; recon toolkit // 100+ tools, one-command installer, SOCMINT, GEOINT, network recon, dark web, forensics &amp; more.
 - [RedHatProductSecurity/prodsec-skills](https://github.com/RedHatProductSecurity/prodsec-skills): Security skills for AI coding assistants and agentic systems.
 - [soxoj/maigret](https://github.com/soxoj/maigret) · review needed: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites.
+- [spacesheep-dev/sessionpipe](https://github.com/spacesheep-dev/sessionpipe): An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.
 - [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
 - [uber/ADR](https://github.com/uber/ADR): ADR secures enterprise AI agents through observability, security benchmarking, and threat detection.
 - [usestrix/strix](https://github.com/usestrix/strix): Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.

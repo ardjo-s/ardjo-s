@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**129 repositories.** [Browse all categories →](README.md)
+**132 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -54,6 +54,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [fayazara/Lotion](https://github.com/fayazara/Lotion): A local notes app.
 - [frappe/wiki](https://github.com/frappe/wiki): Free and Open Source Wiki built on top of Frappe.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) · review needed: freeCodeCamp.org's open-source codebase and curriculum.
+- [FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt): Private AI meeting notes that stay on your computer.
 - [FuJacob/cotabby](https://github.com/FuJacob/cotabby): Cotabby is local AI autocomplete for your entire Mac.
 - [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice): Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally.
 - [Gimanh/taskview-community](https://github.com/Gimanh/taskview-community): TaskView is a self-hosted project and task management platform focused on clarity, ownership, and control.
@@ -65,6 +66,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
 - [hieunc229/mailflare-macos](https://github.com/hieunc229/mailflare-macos): Email client for macOS.
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): DeepTutor: Lifelong Personalized Tutoring.
+- [Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook): Offline knowledge library for survival and rebuilding.
 - [inline-chat/inline](https://github.com/inline-chat/inline): Inline is the chat app you always wanted.
 - [ionutdecebal/rsvpnano](https://github.com/ionutdecebal/rsvpnano): Starred repository.
 - [ItsssssJack/SlopMonster](https://github.com/ItsssssJack/SlopMonster) · review needed: Turn AI-written copy into copy a human would ship.
@@ -123,6 +125,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome): 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones].
 - [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) · review needed: A simple task management system for managing AI dev agents.
 - [sophiamyang/ai-weekly-reads](https://github.com/sophiamyang/ai-weekly-reads): Starred repository.
+- [steipete/summarize](https://github.com/steipete/summarize): Point at any URL/YouTube/Podcast or file.
 - [szmichalczyk/focus-app](https://github.com/szmichalczyk/focus-app): A calm, local time tracker for macOS that also shows you what you actually did: apps, windows, tabs and Claude Code sessions next to your logged time.
 - [TfTHacker/group-enhancer-for-bases](https://github.com/TfTHacker/group-enhancer-for-bases): Enhances the base functionality of bases group features.
 - [theoephraim/awesome-cloudflare-selfhosted](https://github.com/theoephraim/awesome-cloudflare-selfhosted): 🍊☁️ Open-source* apps that replace SaaS product + tools, running in your own Cloudflare account.

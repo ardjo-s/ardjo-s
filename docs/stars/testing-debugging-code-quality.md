@@ -2,7 +2,7 @@
 
 > Software testing, debugging, code review and technical quality checks.
 
-**26 repositories.** [Browse all categories →](README.md)
+**27 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,6 +14,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills): Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.
 - [aidenybai/tla-ts](https://github.com/aidenybai/tla-ts): A TLA+ interpreter and model checker in TypeScript.
 - [alibaba/open-code-review](https://github.com/alibaba/open-code-review): Secure, fast, efficient, battle-tested at Alibaba's scale.
+- [antithesishq/bombadil](https://github.com/antithesishq/bombadil): Property-based testing for web and terminal UIs.
 - [astral-sh/ruff](https://github.com/astral-sh/ruff): An extremely fast Python linter and code formatter, written in Rust.
 - [astral-sh/ty](https://github.com/astral-sh/ty): An extremely fast Python type checker and language server, written in Rust.
 - [brandonmcconnell/geld](https://github.com/brandonmcconnell/geld): Browser extension to hide tests when reviewing PRs on Github.

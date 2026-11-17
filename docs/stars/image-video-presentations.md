@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**117 repositories.** [Browse all categories →](README.md)
+**119 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -40,6 +40,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) · review needed: Create Apple style dimensional drawings of UI components.
 - [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg): Mirror of https://git.ffmpeg.org/ffmpeg.git.
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): Make videos on the computer you already own.
+- [Forward-Future/scarlet](https://github.com/Forward-Future/scarlet): Scarlet is an AI video editor for macOS and Windows.
 - [full-aigc-plugins/artcraft-plugin](https://github.com/full-aigc-plugins/artcraft-plugin): Orchestrate VectorCraft, PhotoCraft, EffectCraft, and FilmCraft projects from one brief.
 - [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: GLSL and Shadertoy shader skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI.
 - [grinich/replay](https://github.com/grinich/replay): A beautiful offline video queue for macOS.
@@ -59,6 +60,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [JuneYaooo/rea-toon](https://github.com/JuneYaooo/rea-toon): AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot.
 - [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
 - [Keys-Wasserman/Imagination-Studio-by-keys-Wasserman](https://github.com/Keys-Wasserman/Imagination-Studio-by-keys-Wasserman): Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark.
+- [langchain-ai/design-agent](https://github.com/langchain-ai/design-agent): Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.

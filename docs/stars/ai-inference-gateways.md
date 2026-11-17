@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**44 repositories.** [Browse all categories →](README.md)
+**45 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -28,6 +28,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [harrrshall/tinyrouter](https://github.com/harrrshall/tinyrouter): A tiny ~10K-parameter LLM router that learns which open-source model (deepseek-v4-pro / glm-5p2 / kimi-k2p6 via Fireworks) should answer each question and in what role, trained by evolution (sep-CMA-ES).
 - [katanemo/plano](https://github.com/katanemo/plano): Plano is an AI-native proxy server and data plane for agentic apps.
 - [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex): Universal provider proxy for OpenAI Codex &amp; Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code.
+- [meshapplied/goethe](https://github.com/meshapplied/goethe): Serve your models fast on your own infra in 3 steps.
 - [meta-llama/llama](https://github.com/meta-llama/llama) · review needed: Inference code for Llama models.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet): Official inference framework for 1-bit LLMs.
 - [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis): List of Permanent Free LLM API  (API Keys).
