@@ -109,7 +109,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark): Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 - [oil-oil/oil-ui](https://github.com/oil-oil/oil-ui): UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots.
 - [onepixelaway/interfaces-that-think](https://github.com/onepixelaway/interfaces-that-think): UI/UX experiments for new interactions, with one folder per prototype.
-- [onlook-dev/onlook](https://github.com/onlook-dev/onlook): The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
+- [onlook-dev/onlook](https://github.com/onlook-dev/onlook): The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.
 - [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil): AI-native design editor.
 - [opencoredev/dithercn](https://github.com/opencoredev/dithercn): Add dithers to anything in your app.
 - [opencoredev/islandcn](https://github.com/opencoredev/islandcn): The open-source Dynamic Island for React, installed with shadcn.

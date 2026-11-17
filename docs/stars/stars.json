@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1607,
+  "repository_count": 1622,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 37
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 15
     }
   ],
   "repositories": [
@@ -1264,6 +1270,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQqfe8g",
+      "name": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQ1Ybwg",
       "name": "apify/agent-skills",
       "url": "https://github.com/apify/agent-skills",
@@ -1334,6 +1350,16 @@
       "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODAxOTA4NTQ=",
+      "name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3932,6 +3958,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVoabYg",
+      "name": "Dodaios/ste80-humanizer",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR9iTtA",
       "name": "dodo-reach/hermes-desktop",
       "url": "https://github.com/dodo-reach/hermes-desktop",
@@ -4507,7 +4543,7 @@
       "id": "R_kgDOQVHiOg",
       "name": "every-app/every-app",
       "url": "https://github.com/every-app/every-app",
-      "description": "Every app your business needs to grow.",
+      "description": "Open source alternatives to everything.",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
       "archived": false,
@@ -4816,6 +4852,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVw0bVw",
+      "name": "fedesanchez0/shader-lab",
+      "url": "https://github.com/fedesanchez0/shader-lab",
+      "description": "A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch. Save any shader as a wallpaper.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOU_vYVg",
       "name": "Fei2411/DS-Bot",
       "url": "https://github.com/Fei2411/DS-Bot",
@@ -5006,6 +5052,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtYWtg",
+      "name": "Forward-Future/scarlet",
+      "url": "https://github.com/Forward-Future/scarlet",
+      "description": "Scarlet is an AI video editor for macOS and Windows.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOJ182Uw",
       "name": "FoundationAgents/MetaGPT",
       "url": "https://github.com/FoundationAgents/MetaGPT",
@@ -5122,6 +5178,16 @@
       "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVp0Log",
+      "name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6352,6 +6418,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVsgSPQ",
+      "name": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "description": "Offline knowledge library for survival and rebuilding",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOOO68ow",
       "name": "imskyleen/animate-ui",
       "url": "https://github.com/imskyleen/animate-ui",
@@ -6365,7 +6441,7 @@
       "id": "R_kgDOVQNsMQ",
       "name": "indexable-inc/blaze",
       "url": "https://github.com/indexable-inc/blaze",
-      "description": "Incremental rust builds up to 92x faster than cargo/rustc",
+      "description": "Incremental rust builds up to 92x faster than cargo/rustc. Backed by Y Combinator (F26).",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
       "archived": false,
@@ -7592,6 +7668,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVOB3Zg",
+      "name": "langchain-ai/design-agent",
+      "url": "https://github.com/langchain-ai/design-agent",
+      "description": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOIPDwlg",
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
@@ -8568,6 +8654,16 @@
       "description": "197 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVBsxKw",
+      "name": "meshapplied/goethe",
+      "url": "https://github.com/meshapplied/goethe",
+      "description": "Serve your models fast on your own infra in 3 steps.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10249,7 +10345,7 @@
       "id": "R_kgDOMOGLrw",
       "name": "onlook-dev/onlook",
       "url": "https://github.com/onlook-dev/onlook",
-      "description": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+      "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
       "category": "UI & Product Design",
       "category_id": "category_11",
       "archived": false,
@@ -11642,6 +11738,16 @@
       "description": "Track your Data Science. Skore's open-source Python library accelerates ML model development with automated evaluation reports, smart methodological guidance, and comprehensive cross-validation analysis.",
       "category": "AI Models & Training",
       "category_id": "category_06",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVu128Q",
+      "name": "progrium/keepsync",
+      "url": "https://github.com/progrium/keepsync",
+      "description": "syncthing and perkeep had a baby",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13254,6 +13360,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVcfc6Q",
+      "name": "simpsoka/zigzag",
+      "url": "https://github.com/simpsoka/zigzag",
+      "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONmSNmA",
       "name": "simstudioai/sim",
       "url": "https://github.com/simstudioai/sim",
@@ -13524,6 +13640,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUvICiQ",
+      "name": "spacesheep-dev/sessionpipe",
+      "url": "https://github.com/spacesheep-dev/sessionpipe",
+      "description": "An open protocol and client for what your coding agents are doing: hooks for every harness, four privacy tiers, any sink.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
@@ -13690,6 +13816,16 @@
       "description": "Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOQqaE2w",
+      "name": "steipete/summarize",
+      "url": "https://github.com/steipete/summarize",
+      "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -14418,6 +14554,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVtp4jw",
+      "name": "timhanlon/fluid-functionalism-foldkit",
+      "url": "https://github.com/timhanlon/fluid-functionalism-foldkit",
+      "description": "Editable Foldkit components adapted from Fluid Functionalism",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOOEnO0Q",
       "name": "tinybirdco/llm-performance-tracker",
       "url": "https://github.com/tinybirdco/llm-performance-tracker",
@@ -14606,6 +14752,16 @@
       "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVsNbAA",
+      "name": "TouchWorkStation/omarchy-server",
+      "url": "https://github.com/TouchWorkStation/omarchy-server",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
