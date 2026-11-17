@@ -11633,6 +11633,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSJMFDA",
+      "name": "garrytan/gbrain-evals",
+      "url": "https://github.com/garrytan/gbrain-evals",
+      "description": "",
+      "category": "category_08",
+      "purpose": "Auto-classified as AI Evaluation & Observability.",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# gbrain-evals gbrain-evals is the public test suite for gbrain , a memory system for AI agents, and it asks one question: does an agent get more right with gbrain than without it?",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/garrytan/gbrain-evals/blob/main/README.md",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORkolAw",
       "name": "garrytan/gstack",
       "url": "https://github.com/garrytan/gstack",
@@ -16283,6 +16304,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVAM3zw",
+      "name": "Kevin-Liu-01/Katagami",
+      "url": "https://github.com/Kevin-Liu-01/Katagami",
+      "description": "Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages. Aa⁠ Ω Ж ⁠Ա ⁠ა ⁠א ⁠ሀ ⁠ع अ⁠ অ⁠ த あ ⁠한 型紙",
+      "category": "category_11",
+      "purpose": "Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages. Aa⁠ Ω Ж ⁠Ա ⁠ა ⁠א ⁠ሀ ⁠ع अ⁠ অ⁠ த あ ⁠한 型紙",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Kevin-Liu-01/Katagami",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk2NjA0MzQwNA==",
       "name": "KeyboardKit/KeyboardKit",
       "url": "https://github.com/KeyboardKit/KeyboardKit",
@@ -18468,6 +18508,25 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjUwNTExMTY=",
+      "name": "mathworks-robotics/awesome-matlab-robotics",
+      "url": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
+      "description": "This is a list of awesome demos, tutorials, utilities and overall resources for the robotics community that use MATLAB and Simulink.",
+      "category": "category_24",
+      "purpose": "This is a list of awesome demos, tutorials, utilities and overall resources for the robotics community that use MATLAB and Simulink",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "This is a list of awesome demos, tutorials, utilities and overall resources for the robotics community that use MATLAB and Simulink.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyOTQ1NjYyNA==",
       "name": "matiassingers/awesome-readme",
       "url": "https://github.com/matiassingers/awesome-readme",
@@ -20491,6 +20550,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVtOzWA",
+      "name": "mubarakmarafa/designloop",
+      "url": "https://github.com/mubarakmarafa/designloop",
+      "description": "Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9. Polish and art-direction modes.",
+      "category": "category_03",
+      "purpose": "Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9. Polish and art-direction modes.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mubarakmarafa/designloop",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44076392578",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk5NjU3NzQxNg==",
@@ -28629,6 +28707,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSmXeHg",
+      "name": "senlindesign/taste-skill",
+      "url": "https://github.com/senlindesign/taste-skill",
+      "description": "Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)",
+      "category": "category_11",
+      "purpose": "Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/senlindesign/taste-skill",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOODCJdA",

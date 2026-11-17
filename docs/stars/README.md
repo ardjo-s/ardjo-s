@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,627 public repositories across 26 Sol categories plus 5 unsorted.**
+**1,627 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -16,7 +16,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 101 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 131 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 132 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 83 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
@@ -26,7 +26,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Model architectures, machine learning, datasets, fine-tuning and training.
 - [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 45 repositories
   - Inference runtimes, model servers, API gateways and request routing.
-- [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 44 repositories
+- [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 45 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
 - [📚 AI Engineering & Learning](ai-engineering-learning.md) · 33 repositories
   - AI application SDKs, structured outputs, examples and engineering courses.
@@ -37,7 +37,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Speech, dictation, transcription, audio processing and music.
 - [🎬 Image, Video & Presentations](image-video-presentations.md) · 119 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 155 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 157 repositories
   - UI components, design systems, typography, prototyping and product design.
 - [🎮 Games & 3D](games-3d.md) · 79 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
@@ -72,12 +72,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Hardware & Devices
 
-- [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 10 repositories
+- [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 38 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 5 repositories
-  - Public stars not yet classified in catalog.json.

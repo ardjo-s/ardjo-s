@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**131 repositories.** [Browse all categories →](README.md)
+**132 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -96,6 +96,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [motiondivision/ai-kit](https://github.com/motiondivision/ai-kit): A Cursor plugin for Motion.
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.
 - [msitarzewski/AGENT-ZERO](https://github.com/msitarzewski/AGENT-ZERO): Operational framework and patterns for high-quality, AI-assisted software development.
+- [mubarakmarafa/designloop](https://github.com/mubarakmarafa/designloop): Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9.
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [NDilanka/pvstack](https://github.com/NDilanka/pvstack): Lauren Tan's pstack for Droid, with per-role models chosen from VulcanBench data.
 - [nickwinder/synthteam](https://github.com/nickwinder/synthteam) · review needed: Consult distilled personas of colleagues — build them from Slack history, get one colleague's take, or convene a deliberating panel.

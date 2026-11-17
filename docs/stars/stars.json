@@ -19,7 +19,7 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 131
+      "count": 132
     },
     {
       "id": "category_04",
@@ -49,7 +49,7 @@
       "id": "category_08",
       "name": "AI Evaluation & Observability",
       "slug": "ai-evaluation-observability",
-      "count": 44
+      "count": 45
     },
     {
       "id": "category_26",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 155
+      "count": 157
     },
     {
       "id": "category_23",
@@ -151,19 +151,13 @@
       "id": "category_24",
       "name": "Robotics, Hardware & CAD",
       "slug": "robotics-hardware-cad",
-      "count": 10
+      "count": 11
     },
     {
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 5
     }
   ],
   "repositories": [
@@ -5278,10 +5272,12 @@
       "name": "garrytan/gbrain-evals",
       "url": "https://github.com/garrytan/gbrain-evals",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORkolAw",
@@ -7392,10 +7388,12 @@
       "name": "Kevin-Liu-01/Katagami",
       "url": "https://github.com/Kevin-Liu-01/Katagami",
       "description": "Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages. Aa⁠ Ω Ж ⁠Ա ⁠ა ⁠א ⁠ሀ ⁠ع अ⁠ অ⁠ த あ ⁠한 型紙",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk2NjA0MzQwNA==",
@@ -8458,10 +8456,12 @@
       "name": "mathworks-robotics/awesome-matlab-robotics",
       "url": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
       "description": "This is a list of awesome demos, tutorials, utilities and overall resources for the robotics community that use MATLAB and Simulink.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Robotics, Hardware & CAD",
+      "category_id": "category_24",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyOTQ1NjYyNA==",
@@ -9408,10 +9408,12 @@
       "name": "mubarakmarafa/designloop",
       "url": "https://github.com/mubarakmarafa/designloop",
       "description": "Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9. Polish and art-direction modes.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk5NjU3NzQxNg==",
@@ -13052,10 +13054,12 @@
       "name": "senlindesign/taste-skill",
       "url": "https://github.com/senlindesign/taste-skill",
       "description": "Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOODCJdA",
