@@ -2,7 +2,7 @@
 
 > AI evaluations, traces, diagnostics, token usage, costs and quotas.
 
-**44 repositories.** [Browse all categories →](README.md)
+**45 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Entelligence-AI/agentplay](https://github.com/Entelligence-AI/agentplay): Replay your coding agent sessions as a map and a timeline.
 - [evidentlyai/evidently](https://github.com/evidentlyai/evidently): Evidently is ​​an open-source ML and LLM observability framework.
 - [garrytan/g-harness-evals](https://github.com/garrytan/g-harness-evals): Open source harness evals: which agent harness does tasks the best, for the least cost?.
+- [garrytan/gbrain-evals](https://github.com/garrytan/gbrain-evals): Starred repository.
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn): Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss): 🐢 Open-Source Evaluation &amp; Testing library for LLM Agents.
 - [Helicone/helicone](https://github.com/Helicone/helicone): 🧊 Open source LLM observability platform.

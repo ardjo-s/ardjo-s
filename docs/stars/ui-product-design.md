@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**155 repositories.** [Browse all categories →](README.md)
+**157 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -87,6 +87,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Kayforkind/reimagine-it](https://github.com/Kayforkind/reimagine-it): Kayforkind Content-Derived Design CLI.
 - [keenthemes/reui](https://github.com/keenthemes/reui): Design-forward shadcn kit for interfaces that stand out.
 - [kepano/obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings) · review needed: Settings plugin to control colors and fonts in Minimal Theme.
+- [Kevin-Liu-01/Katagami](https://github.com/Kevin-Liu-01/Katagami): Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages.
 - [krutikkkkkkkkk/creative-ui](https://github.com/krutikkkkkkkkk/creative-ui): React components and Claude skills with a designer's eye, installable with the shadcn CLI: npx shadcn add @creative-ui/&lt;name&gt;.
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts): EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.
@@ -134,6 +135,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [saleh2001k/react-native-nitro-theme-transition](https://github.com/saleh2001k/react-native-nitro-theme-transition): Native theme transitions for React Native with Nitro Modules.
 - [samzydd/Sakaniui](https://github.com/samzydd/Sakaniui): An open-source, token-driven React component library for SaaS products: 1500+ accessible components and variants, Sicons (1,626 icons, based on Lucide) and Glass Icons, light/dark theming, and a fully documented design system built in Figma.
 - [satisium/ease](https://github.com/satisium/ease): Design motion that feels real.
+- [senlindesign/taste-skill](https://github.com/senlindesign/taste-skill): Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT).
 - [shadcn-labs/editorcn](https://github.com/shadcn-labs/editorcn): Beautiful rich text editor components for React, built on Tiptap.
 - [shadcn-labs/inspectcn](https://github.com/shadcn-labs/inspectcn): Chrome extension to inspect and extract shadcn-style theme tokens from any website, then bring them into your project.
 - [shadcn-labs/mcpcn](https://github.com/shadcn-labs/mcpcn): shadcn/ui, but for building ChatGPT/Claude/MCP apps.
