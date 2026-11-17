@@ -11841,6 +11841,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQxTvrg",
+      "name": "getnao/nao",
+      "url": "https://github.com/getnao/nao",
+      "description": "👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
+      "category": "category_02",
+      "purpose": "👾 nao is the #1 open source agentic BI",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/getnao/nao",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQBkEfw",
       "name": "getpaseo/paseo",
       "url": "https://github.com/getpaseo/paseo",
@@ -12604,6 +12623,27 @@
       "evidence_read_at": "2026-11-05",
       "evidence_sha256": "a5882f5b00b769b0d66d398da6fdf786d29dd8226d168fbddfec1dd922c7f9d9",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
+    },
+    {
+      "id": "R_kgDOTnl_3Q",
+      "name": "google/rust-skills",
+      "url": "https://github.com/google/rust-skills",
+      "description": "",
+      "category": "category_13",
+      "purpose": "Auto-classified as Developer Tools & Languages.",
+      "keywords": [
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Rust Skills This is a collection of skills for working with Rust code, including a skill for unsafe rust review.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/google/rust-skills/blob/main/README.md",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOR2K4PA",
@@ -30928,6 +30968,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTz3KPQ",
+      "name": "SunkenInTime/t3-themes",
+      "url": "https://github.com/SunkenInTime/t3-themes",
+      "description": "Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON",
+      "category": "category_11",
+      "purpose": "Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/SunkenInTime/t3-themes",
+      "evidence_read_at": "2026-11-17",
+      "classification_source": "jev:2026-11-17",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ1ODcxOTM=",

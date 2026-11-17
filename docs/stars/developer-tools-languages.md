@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**78 repositories.** [Browse all categories →](README.md)
+**79 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -38,6 +38,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [git/git](https://github.com/git/git): Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/).
 - [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler): The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte.
 - [github/docs](https://github.com/github/docs): The open-source repo for docs.github.com.
+- [google/rust-skills](https://github.com/google/rust-skills): Starred repository.
 - [harshkedia177/axon](https://github.com/harshkedia177/axon): Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): Jargon from the functional programming world in simple terms!.
 - [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd): A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources.

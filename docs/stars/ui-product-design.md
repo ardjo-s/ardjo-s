@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**157 repositories.** [Browse all categories →](README.md)
+**158 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -151,6 +151,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [storybookjs/storybook](https://github.com/storybookjs/storybook): Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation.
 - [storytold/figcraft](https://github.com/storytold/figcraft): FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust.
 - [Subhan-code/Amicro--Micro-transitions-](https://github.com/Subhan-code/Amicro--Micro-transitions-): Starred repository.
+- [SunkenInTime/t3-themes](https://github.com/SunkenInTime/t3-themes): Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON.
 - [Surajmaurya1/easyui](https://github.com/Surajmaurya1/easyui): Starred repository.
 - [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui): A collection of rare, ready-to-use UI components and animations you can actually drop into your next project.
 - [synergycodes/ng-diagram](https://github.com/synergycodes/ng-diagram): ngDiagram – open-source Angular library for interactive diagrams, node-based editors, and workflow builders.

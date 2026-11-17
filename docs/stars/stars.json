@@ -13,7 +13,7 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 101
+      "count": 102
     },
     {
       "id": "category_03",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 157
+      "count": 158
     },
     {
       "id": "category_23",
@@ -91,7 +91,7 @@
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 78
+      "count": 79
     },
     {
       "id": "category_14",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 3
     }
   ],
   "repositories": [
@@ -5370,10 +5364,12 @@
       "name": "getnao/nao",
       "url": "https://github.com/getnao/nao",
       "description": "👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQBkEfw",
@@ -5722,10 +5718,12 @@
       "name": "google/rust-skills",
       "url": "https://github.com/google/rust-skills",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOR2K4PA",
@@ -14056,10 +14054,12 @@
       "name": "SunkenInTime/t3-themes",
       "url": "https://github.com/SunkenInTime/t3-themes",
       "description": "Community theme gallery for T3Code — real app previews, themes as PR-submitted JSON",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ1ODcxOTM=",
