@@ -66,7 +66,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
 - [hieunc229/mailflare-macos](https://github.com/hieunc229/mailflare-macos): Email client for macOS.
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor): DeepTutor: Lifelong Personalized Tutoring.
-- [Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook): Offline knowledge library for survival and rebuilding.
+- [Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook): Offline knowledge AI, maps and videos for survival and rebuilding.
 - [inline-chat/inline](https://github.com/inline-chat/inline): Inline is the chat app you always wanted.
 - [ionutdecebal/rsvpnano](https://github.com/ionutdecebal/rsvpnano): Starred repository.
 - [ItsssssJack/SlopMonster](https://github.com/ItsssssJack/SlopMonster) · review needed: Turn AI-written copy into copy a human would ship.

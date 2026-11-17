@@ -74,7 +74,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [openai/codex](https://github.com/openai/codex): Lightweight coding agent that runs in your terminal.
 - [openai/symphony](https://github.com/openai/symphony): Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands): 🙌 OpenHands: AI-Driven Development.
-- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter): A coding agent for open models like Kimi K3 and GLM 5.3.
+- [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter): A coding agent for open models like Kimi K3.1 and GLM 5.3.
 - [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator): Plan, run and supervise fleets of agents from task to merged PR.
 - [overment/limen](https://github.com/overment/limen): A minimal one-human-many-agents harness built from files, git, and one CLI.
 - [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev): Paradev is an open-source Codex App and Conductor alternative.

@@ -47,7 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods.
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail): Makes your AI agent think like the laziest senior dev in the room.
 - [Dodaios/ste80-humanizer](https://github.com/Dodaios/ste80-humanizer): STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.
-- [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios): Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+- [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios): Turn Claude Code into a full game dev studio — 49 AI agents, 75 workflow skills, and a complete coordination system mirroring real studio hierarchy.
 - [dontriskit/awesome-ai-software-engineering](https://github.com/dontriskit/awesome-ai-software-engineering): Starred repository.
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5): ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · review needed: Graphs that teach &gt; graphs that impress.

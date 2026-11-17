@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1622,
+  "repository_count": 1627,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 5
     }
   ],
   "repositories": [
@@ -4001,7 +4007,7 @@
       "id": "R_kgDOROahWg",
       "name": "Donchitos/Claude-Code-Game-Studios",
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 75 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -5268,6 +5274,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSJMFDA",
+      "name": "garrytan/gbrain-evals",
+      "url": "https://github.com/garrytan/gbrain-evals",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORkolAw",
       "name": "garrytan/gstack",
       "url": "https://github.com/garrytan/gstack",
@@ -6427,7 +6443,7 @@
       "id": "R_kgDOVsgSPQ",
       "name": "Immortal-Protocols/lastbook",
       "url": "https://github.com/Immortal-Protocols/lastbook",
-      "description": "Offline knowledge library for survival and rebuilding",
+      "description": "Offline knowledge AI, maps and videos for survival and rebuilding",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
@@ -7368,6 +7384,16 @@
       "description": "Settings plugin to control colors and fonts in Minimal Theme",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVAM3zw",
+      "name": "Kevin-Liu-01/Katagami",
+      "url": "https://github.com/Kevin-Liu-01/Katagami",
+      "description": "Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages. Aa⁠ Ω Ж ⁠Ա ⁠ა ⁠א ⁠ሀ ⁠ع अ⁠ অ⁠ த あ ⁠한 型紙",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8428,6 +8454,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjUwNTExMTY=",
+      "name": "mathworks-robotics/awesome-matlab-robotics",
+      "url": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
+      "description": "This is a list of awesome demos, tutorials, utilities and overall resources for the robotics community that use MATLAB and Simulink.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyOTQ1NjYyNA==",
       "name": "matiassingers/awesome-readme",
       "url": "https://github.com/matiassingers/awesome-readme",
@@ -9364,6 +9400,16 @@
       "description": "Realistic watercolor drawings",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVtOzWA",
+      "name": "mubarakmarafa/designloop",
+      "url": "https://github.com/mubarakmarafa/designloop",
+      "description": "Agent skill: capture → judge → fix loop that takes an existing UI from a 6 to a 9. Polish and art-direction modes.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10807,7 +10853,7 @@
       "id": "R_kgDOJ7brVg",
       "name": "openinterpreter/openinterpreter",
       "url": "https://github.com/openinterpreter/openinterpreter",
-      "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
+      "description": "A coding agent for open models like Kimi K3.1 and GLM 5.3",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -12998,6 +13044,16 @@
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSmXeHg",
+      "name": "senlindesign/taste-skill",
+      "url": "https://github.com/senlindesign/taste-skill",
+      "description": "Claude Code skill — reverse-engineer any website's design taste: concrete tokens + opinionated trade-offs (WHY, not just WHAT)",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
