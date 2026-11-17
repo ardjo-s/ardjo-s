@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**101 repositories.** [Browse all categories →](README.md)
+**102 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -42,6 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived · review needed: Build AI Agents, Visually.
 - [FrigadeHQ/hob](https://github.com/FrigadeHQ/hob): An easier way to use AI on your own computer.
 - [Gen-Verse/RSI-Anything](https://github.com/Gen-Verse/RSI-Anything): RSI-Anything: Unlocking Recursive Self-Improvement with World Models.
+- [getnao/nao](https://github.com/getnao/nao): 👾 nao is the #1 open source agentic BI.
 - [google-research/harness2](https://github.com/google-research/harness2): Starred repository.
 - [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task.
 - [HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm): AutoSwarm: Unify All Your Agents.
