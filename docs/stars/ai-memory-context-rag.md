@@ -53,7 +53,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk): CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
 - [run-llama/llama_index](https://github.com/run-llama/llama_index): LlamaIndex is the document processing platform for AI.
 - [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec): A vector index built on TurboQuant, written in Rust with Python bindings.
-- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) · review needed: YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context.
+- [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) · review needed: YC (S26) | Screenpipe finds the work worth automating | Continuously record computer work locally, discover recurring workflows, and hand the result to any agent you already use.
 - [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) · review needed: [MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276.
 - [StarTrail-org/PixelRAG](https://github.com/StarTrail-org/PixelRAG): https://arxiv.org/abs/2606.28344.
 - [sulabhdubey/rta-smriti-brain](https://github.com/sulabhdubey/rta-smriti-brain): Local-first, evidence-aware project memory for AI coding agents.

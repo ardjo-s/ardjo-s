@@ -81,7 +81,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ParthJadhav/codex-controller](https://github.com/ParthJadhav/codex-controller): Use a DualSense as a physical control surface for Codex on macOS.
 - [PeonPing/peon-ping](https://github.com/PeonPing/peon-ping) · review needed: Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent.
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code): The best way to control Claude Code, Codex and more from any computer or phone.
-- [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents): Pixel office.
+- [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents): A playful way to manage your AI workforce.
 - [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent): A self-improving RLM agent for coding workflows and long-running autonomous tasks.
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code): An open-source AI coding agent that lives in your terminal.
 - [react-native-vibe-code/react-native-vibe-code-sdk](https://github.com/react-native-vibe-code/react-native-vibe-code-sdk): The React Native Vibe Code SDK lets you build text to mobile &amp; web apps in seconds.

@@ -77,7 +77,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template): Clone any website with one command using AI coding agents.
 - [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) · review needed: Help AI coding agents write modern Go.
 - [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts): REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program.
-- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): 🪨 why use many token when few token do trick.
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): why use many token when few token do trick.
 - [kitze/council](https://github.com/kitze/council): 🏛 Agent skill: your coding agent must convene the other agent CLIs on your machine and deliberate for X turns before giving you a plan.
 - [kitze/skillbox](https://github.com/kitze/skillbox): Self-hosted, versioned skills library for AI agents.
 - [kunchenguid/axi](https://github.com/kunchenguid/axi) · review needed: Design principles for agent ergonomics.

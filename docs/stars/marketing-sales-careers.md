@@ -54,7 +54,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [romangojiberryAI/gojiberryai-sales-os](https://github.com/romangojiberryAI/gojiberryai-sales-os): GojiberryAI Sales OS: a full AI outbound team for Grok Bot, powered by the GojiberryAI MCP.
 - [santmun/forja](https://github.com/santmun/forja) · review needed: Chatbot de IA self-hosted para WhatsApp, Instagram y Telegram en tu propia Cloudflare.
 - [Shudesu/x-harness-oss](https://github.com/Shudesu/x-harness-oss): X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK.
-- [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy): Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs &amp; HelloWork.
+- [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy): Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs, HelloWork &amp; SEEK.
 - [themobilefirstco/grok-allo](https://github.com/themobilefirstco/grok-allo): Starred repository.
 - [trycompai/crm](https://github.com/trycompai/crm): Comp AI CRM is an open source, CRM designed for AI agents.
 - [twentyhq/twenty](https://github.com/twentyhq/twenty): The open alternative to Salesforce, designed for AI.

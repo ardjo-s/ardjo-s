@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1629,
+  "repository_count": 1638,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 9
     }
   ],
   "repositories": [
@@ -978,6 +984,16 @@
       "description": "Open-source foundational components with code and  AI prompts — from Cue's curated library",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOUcdplA",
+      "name": "alvaroinckot/identity-engineering-roadmap",
+      "url": "https://github.com/alvaroinckot/identity-engineering-roadmap",
+      "description": "A roadmap.sh-style map of identity engineering in the AI era",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3494,6 +3510,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKnH2Ag",
+      "name": "datalab-to/marker",
+      "url": "https://github.com/datalab-to/marker",
+      "description": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQwKxPg",
       "name": "datawhalechina/easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
@@ -4240,6 +4266,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVJ8ICw",
+      "name": "EL4CTEO/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORwsEgA",
       "name": "elder-plinius/G0DM0D3",
       "url": "https://github.com/elder-plinius/G0DM0D3",
@@ -4506,6 +4542,16 @@
       "description": "pstack for Claude Code and Codex, tracking Cursor pstack upstream",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVwVmZA",
+      "name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6604,6 +6650,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVavQRA",
+      "name": "interfere-inc/landmines",
+      "url": "https://github.com/interfere-inc/landmines",
+      "description": "Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxNDcxNjM2OA==",
       "name": "invoiceninja/invoiceninja",
       "url": "https://github.com/invoiceninja/invoiceninja",
@@ -7107,7 +7163,7 @@
       "id": "R_kgDOR5h10Q",
       "name": "JuliusBrussee/caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -11262,6 +11318,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVx3qaQ",
+      "name": "paukraft/t3boat",
+      "url": "https://github.com/paukraft/t3boat",
+      "description": "Auto-sleeping T3 Code remote machines on your Boat subscription",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOUkGHvg",
       "name": "paulklayvc/skills",
       "url": "https://github.com/paulklayvc/skills",
@@ -11565,7 +11631,7 @@
       "id": "R_kgDORLmYbg",
       "name": "pixel-agents-hq/pixel-agents",
       "url": "https://github.com/pixel-agents-hq/pixel-agents",
-      "description": "Pixel office.",
+      "description": "A playful way to manage your AI workforce",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -12294,6 +12360,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVxKUyA",
+      "name": "replit/datacat",
+      "url": "https://github.com/replit/datacat",
+      "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVcAnAQ",
       "name": "rerun-build/rerun",
       "url": "https://github.com/rerun-build/rerun",
@@ -12864,6 +12940,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVxrfAw",
+      "name": "SamG-Coder/SmartImposter",
+      "url": "https://github.com/SamG-Coder/SmartImposter",
+      "description": "Hardware ray-traced forest renderer (Rust + Vulkan) with parallax octahedral impostors evaluated by the RTX cores",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTbMCGQ",
       "name": "samzydd/Sakaniui",
       "url": "https://github.com/samzydd/Sakaniui",
@@ -13017,7 +13103,7 @@
       "id": "R_kgDOMLdodQ",
       "name": "screenpipe/screenpipe",
       "url": "https://github.com/screenpipe/screenpipe",
-      "description": "YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context",
+      "description": "YC (S26) | Screenpipe finds the work worth automating | Continuously record computer work locally, discover recurring workflows, and hand the result to any agent you already use.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
       "archived": false,
@@ -13749,7 +13835,7 @@
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
-      "description": "Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs & HelloWork",
+      "description": "Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs, HelloWork & SEEK",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20",
       "archived": false,
@@ -16422,6 +16508,16 @@
       "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
       "category": "Web & Document Automation",
       "category_id": "category_17",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOUU_Y0A",
+      "name": "zaidmukaddam/fx-ui",
+      "url": "https://github.com/zaidmukaddam/fx-ui",
+      "description": "A desktop app for the fx coding agent, built on libfx and GPUIX.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
