@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1642,
+  "repository_count": 1648,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -3320,6 +3326,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOT5eeog",
+      "name": "crabtalk/cydonia",
+      "url": "https://github.com/crabtalk/cydonia",
+      "description": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONe9o9g",
       "name": "craigsdennis/talk-to-javascript-openai-workers",
       "url": "https://github.com/craigsdennis/talk-to-javascript-openai-workers",
@@ -5689,7 +5705,7 @@
       "id": "R_kgDOTAPyzg",
       "name": "gokayfem/shader-skills",
       "url": "https://github.com/gokayfem/shader-skills",
-      "description": "GLSL and Shadertoy shader skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI. 186 functions, SDF raymarching, procedural terrain, water, clouds and generative art, with a bundler, checker and 11 examples.",
+      "description": "GLSL and Shadertoy toolkit for AI coding agents. Build with 196 shader functions, explore 25 interactive studies and two WebGPU worlds, and profile rendering performance.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -5732,6 +5748,16 @@
       "description": "",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSR3Uuw",
+      "name": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7023,7 +7049,7 @@
       "id": "R_kgDOMbt5gA",
       "name": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "category": "AI Models & Training",
       "category_id": "category_06",
       "archived": false,
@@ -7176,6 +7202,16 @@
       "description": "Python training for business analysts and traders",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNjcxNzQ=",
+      "name": "jquery/jquery",
+      "url": "https://github.com/jquery/jquery",
+      "description": "jQuery JavaScript Library",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9166,6 +9202,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOPZyePQ",
+      "name": "mihail911/modern-software-dev-assignments",
+      "url": "https://github.com/mihail911/modern-software-dev-assignments",
+      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORtSRxA",
       "name": "mikelikesdesign/dialkit-ios",
       "url": "https://github.com/mikelikesdesign/dialkit-ios",
@@ -10272,6 +10318,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTDcPlA",
+      "name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORY-IOQ",
       "name": "NVIDIA/skills",
       "url": "https://github.com/NVIDIA/skills",
@@ -10937,7 +10993,7 @@
       "id": "R_kgDOU7Ja-g",
       "name": "openfilm/openfilm",
       "url": "https://github.com/openfilm/openfilm",
-      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -11040,6 +11096,16 @@
       "description": "Maintain an open standard for UI and promote its adherence and adoption.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTMwOTc2NDM=",
+      "name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13761,7 +13827,7 @@
       "id": "R_kgDORW6-hw",
       "name": "software-mansion/argent",
       "url": "https://github.com/software-mansion/argent",
-      "description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
+      "description": "MCP server for AI agents to control, debug and profile iOS simulators, Android emulators, MacOS apps and TVs. Made by Software Mansion.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
       "archived": false,

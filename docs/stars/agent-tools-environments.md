@@ -78,7 +78,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [showlab/ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) · review needed: Human-taught Computer-use Agent Designed for Real Windows and MacOS Desktops.
 - [simpsoka/zigzag](https://github.com/simpsoka/zigzag) · review needed · low confidence: Free, open-source embroidery software for Mac and Windows.
 - [smol-machines/smolvm](https://github.com/smol-machines/smolvm): An embeddable, portable, branchable virtual machine to safely run Agents locally.
-- [software-mansion/argent](https://github.com/software-mansion/argent): An agentic toolkit to control, debug, and profile iOS and Android apps.
+- [software-mansion/argent](https://github.com/software-mansion/argent): MCP server for AI agents to control, debug and profile iOS simulators, Android emulators, MacOS apps and TVs.
 - [superdesigndev/treg](https://github.com/superdesigndev/treg): OpenRouter for agent tools.
 - [sushilk1991/phonedock](https://github.com/sushilk1991/phonedock): Lets coding agents use Android emulators, iOS simulators and real phones.
 - [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill): Let AI agents use your real, logged-in browser without interrupting your work.

@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): Make videos on the computer you already own.
 - [Forward-Future/scarlet](https://github.com/Forward-Future/scarlet): Scarlet is an AI video editor for macOS and Windows.
 - [full-aigc-plugins/artcraft-plugin](https://github.com/full-aigc-plugins/artcraft-plugin): Orchestrate VectorCraft, PhotoCraft, EffectCraft, and FilmCraft projects from one brief.
-- [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: GLSL and Shadertoy shader skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI.
+- [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: GLSL and Shadertoy toolkit for AI coding agents.
 - [grinich/replay](https://github.com/grinich/replay): A beautiful offline video queue for macOS.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam): real time face swap and one-click video deepfake with only a single image.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
@@ -83,7 +83,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
 - [op7418/Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill): Starred repository.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) · review needed: The open-source CapCut alternative.
-- [openfilm/openfilm](https://github.com/openfilm/openfilm): The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
+- [openfilm/openfilm](https://github.com/openfilm/openfilm): The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.
 - [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage): World's first open-source, agentic video production system.
 - [opennookorg/screenshot-studio](https://github.com/opennookorg/screenshot-studio): A free, browser-based editor for creating stunning screenshots and visuals.
 - [openstory-so/openstory](https://github.com/openstory-so/openstory): Open-source AI-powered video sequence platform built with TanStack Start.

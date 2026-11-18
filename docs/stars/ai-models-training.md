@@ -23,7 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Gen-Verse/JEPA-Anything](https://github.com/Gen-Verse/JEPA-Anything): JEPA-Anything: Learning Predictive Models across Different Worlds.
 - [google-gemma/gemma-skills](https://github.com/google-gemma/gemma-skills): Skills for the Gemma and model/agent interactions.
 - [google-research/timesfm](https://github.com/google-research/timesfm): TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
-- [jingyaogong/minimind](https://github.com/jingyaogong/minimind): 🧠 Train a 64M-parameter LLM from scratch in just 2h!.
+- [jingyaogong/minimind](https://github.com/jingyaogong/minimind): 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) · review needed: AI agents running research on single-GPU nanochat training automatically.
 - [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV): AgentENV (AENV) is a distributed platform for running agent environments at scale.
 - [macrodata-labs/refiner](https://github.com/macrodata-labs/refiner) · review needed · low confidence: Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets.
