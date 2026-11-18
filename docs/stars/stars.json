@@ -7,7 +7,7 @@
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 96
+      "count": 97
     },
     {
       "id": "category_02",
@@ -79,7 +79,7 @@
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 79
+      "count": 81
     },
     {
       "id": "category_12",
@@ -91,19 +91,19 @@
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 79
+      "count": 80
     },
     {
       "id": "category_14",
       "name": "Testing, Debugging & Code Quality",
       "slug": "testing-debugging-code-quality",
-      "count": 27
+      "count": 28
     },
     {
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 35
+      "count": 37
     },
     {
       "id": "category_16",
@@ -115,13 +115,13 @@
       "id": "category_17",
       "name": "Web & Document Automation",
       "slug": "web-document-automation",
-      "count": 25
+      "count": 26
     },
     {
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 44
+      "count": 45
     },
     {
       "id": "category_19",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 9
     }
   ],
   "repositories": [
@@ -992,10 +986,12 @@
       "name": "alvaroinckot/identity-engineering-roadmap",
       "url": "https://github.com/alvaroinckot/identity-engineering-roadmap",
       "description": "A roadmap.sh-style map of identity engineering in the AI era",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQb0M5g",
@@ -3514,10 +3510,12 @@
       "name": "datalab-to/marker",
       "url": "https://github.com/datalab-to/marker",
       "description": "Convert PDF to markdown + JSON quickly with high accuracy",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Web & Document Automation",
+      "category_id": "category_17",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQwKxPg",
@@ -4270,10 +4268,12 @@
       "name": "EL4CTEO/blender-skills",
       "url": "https://github.com/EL4CTEO/blender-skills",
       "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORwsEgA",
@@ -4550,10 +4550,12 @@
       "name": "erkamyaman/rust-anything",
       "url": "https://github.com/erkamyaman/rust-anything",
       "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSIatDw",
@@ -6654,10 +6656,12 @@
       "name": "interfere-inc/landmines",
       "url": "https://github.com/interfere-inc/landmines",
       "description": "Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Testing, Debugging & Code Quality",
+      "category_id": "category_14",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxNDcxNjM2OA==",
@@ -11322,10 +11326,12 @@
       "name": "paukraft/t3boat",
       "url": "https://github.com/paukraft/t3boat",
       "description": "Auto-sleeping T3 Code remote machines on your Boat subscription",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUkGHvg",
@@ -12364,10 +12370,12 @@
       "name": "replit/datacat",
       "url": "https://github.com/replit/datacat",
       "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVcAnAQ",
@@ -12944,10 +12952,12 @@
       "name": "SamG-Coder/SmartImposter",
       "url": "https://github.com/SamG-Coder/SmartImposter",
       "description": "Hardware ray-traced forest renderer (Rust + Vulkan) with parallax octahedral impostors evaluated by the RTX cores",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTbMCGQ",
@@ -16516,10 +16526,12 @@
       "name": "zaidmukaddam/fx-ui",
       "url": "https://github.com/zaidmukaddam/fx-ui",
       "description": "A desktop app for the fx coding agent, built on libfx and GPUIX.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTW_3Mw",

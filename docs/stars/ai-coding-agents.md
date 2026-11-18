@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**96 repositories.** [Browse all categories →](README.md)
+**97 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -106,4 +106,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): Teams-first Multi-agent orchestration for Claude Code.
 - [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex): OmX - Oh My codeX: Your codex is not alone.
 - [ykushch/notchagent](https://github.com/ykushch/notchagent): Starred repository.
+- [zaidmukaddam/fx-ui](https://github.com/zaidmukaddam/fx-ui): A desktop app for the fx coding agent, built on libfx and GPUIX.
 - [zeronsh/zeron](https://github.com/zeronsh/zeron): A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.

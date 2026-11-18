@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**79 repositories.** [Browse all categories →](README.md)
+**81 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -31,6 +31,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ctrl-cheeb-del/pokeheartgold](https://github.com/ctrl-cheeb-del/pokeheartgold): Full decompilation of Pokémon HeartGold and SoulSilver.
 - [DominikScholz/open-bot-avatar](https://github.com/DominikScholz/open-bot-avatar): A JSON spec and renderer for interactive agent avatars.
 - [effekseer/Effekseer](https://github.com/effekseer/Effekseer): Starred repository.
+- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills): Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.
 - [EpicGames/unreal-engine-skills-for-claude-code-plugin](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin): Starred repository.
 - [fedesanchez0/shader-lab](https://github.com/fedesanchez0/shader-lab): A playground for live Metal shaders on iPhone, iPad, iPhone Duo, Apple TV, Apple Vision Pro and Apple Watch.
 - [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines.
@@ -70,6 +71,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.
 - [ryanrhughes/t3code-wow](https://github.com/ryanrhughes/t3code-wow) · review needed: Watch and run your T3 Code agent threads inside World of Warcraft: Forever.
 - [Sam1983Aing/casa-serra](https://github.com/Sam1983Aing/casa-serra): A flat floor plan that becomes a house as you scroll.
+- [SamG-Coder/SmartImposter](https://github.com/SamG-Coder/SmartImposter): Hardware ray-traced forest renderer (Rust + Vulkan) with parallax octahedral impostors evaluated by the RTX cores.
 - [Sandflow-ai/sand3d](https://github.com/Sandflow-ai/sand3d): 3D modeling in Python, built for LLMs.
 - [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin): Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents.
 - [seedds/nxnative](https://github.com/seedds/nxnative) · review needed: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal).
