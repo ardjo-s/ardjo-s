@@ -7268,6 +7268,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOT5eeog",
+      "name": "crabtalk/cydonia",
+      "url": "https://github.com/crabtalk/cydonia",
+      "description": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
+      "category": "category_02",
+      "purpose": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/crabtalk/cydonia",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "jev:2026-11-18",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDONe9o9g",
       "name": "craigsdennis/talk-to-javascript-openai-workers",
       "url": "https://github.com/craigsdennis/talk-to-javascript-openai-workers",
@@ -12611,6 +12630,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSR3Uuw",
+      "name": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "category": "category_22",
+      "purpose": "PaperOrchestra is a multi-agent framework for automated AI research paper writing",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/google-research/paper-orchestra",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "jev:2026-11-18",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOL1Au9w",
       "name": "google-research/timesfm",
       "url": "https://github.com/google-research/timesfm",
@@ -15758,6 +15796,25 @@
       "evidence_url": "https://github.com/jpmorganchase/python-training",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNjcxNzQ=",
+      "name": "jquery/jquery",
+      "url": "https://github.com/jquery/jquery",
+      "description": "jQuery JavaScript Library",
+      "category": "category_12",
+      "purpose": "jQuery JavaScript Library",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "jQuery JavaScript Library",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/jquery/jquery",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "jev:2026-11-18",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzOTUzNDEzODM=",
@@ -19985,6 +20042,29 @@
       "fork": false
     },
     {
+      "id": "R_kgDOPZyePQ",
+      "name": "mihail911/modern-software-dev-assignments",
+      "url": "https://github.com/mihail911/modern-software-dev-assignments",
+      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "category": "category_13",
+      "purpose": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "keywords": [],
+      "review_required": true,
+      "evidence_quote": "# Assignments for CS146S: The Modern Software Developer This is the home of the assignments for CS146S: The Modern Software Developer , taught at Stanford University fall 2026.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mihail911/modern-software-dev-assignments/blob/master/README.md",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44375051945",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_13",
+        "category_03"
+      ]
+    },
+    {
       "id": "R_kgDORtSRxA",
       "name": "mikelikesdesign/dialkit-ios",
       "url": "https://github.com/mikelikesdesign/dialkit-ios",
@@ -22415,6 +22495,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTDcPlA",
+      "name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "category": "category_03",
+      "purpose": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/NVIDIA/SkillEvaluator",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44375051945",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORY-IOQ",
       "name": "NVIDIA/skills",
       "url": "https://github.com/NVIDIA/skills",
@@ -24082,6 +24181,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTMwOTc2NDM=",
+      "name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "category": "category_07",
+      "purpose": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/openvinotoolkit/openvino",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44375051945",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORPZUAQ",

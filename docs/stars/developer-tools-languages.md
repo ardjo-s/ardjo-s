@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**80 repositories.** [Browse all categories →](README.md)
+**81 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -61,6 +61,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) · review needed: Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.
 - [mhadidg/software-architecture-books](https://github.com/mhadidg/software-architecture-books): A comprehensive list of books on Software Architecture.
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript): TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+- [mihail911/modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments) · review needed · low confidence: Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025).
 - [modem-dev/hunk](https://github.com/modem-dev/hunk): Review-first terminal diff viewer for agentic coders.
 - [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) · review needed: A list of awesome beginners-friendly projects.
 - [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap): Interactive roadmaps, guides and other educational content to help developers grow in their careers.
