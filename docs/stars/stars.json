@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 38
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 4
+      "count": 42
     }
   ],
   "repositories": [
@@ -1566,10 +1560,12 @@
       "name": "aspauldingcode/macwmfx",
       "url": "https://github.com/aspauldingcode/macwmfx",
       "description": "mac window manager effects",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOKwunUQ",
@@ -2952,10 +2948,12 @@
       "name": "cmacrae/spacebar",
       "url": "https://github.com/cmacrae/spacebar",
       "description": "A minimal status bar for macOS. Ideal for use with tiling window managers like yabai",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORnI8eg",
@@ -6458,10 +6456,12 @@
       "name": "hyprwm/Hyprland",
       "url": "https://github.com/hyprwm/Hyprland",
       "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORnWDCw",
@@ -10042,10 +10042,12 @@
       "name": "nikitabobko/AeroSpace",
       "url": "https://github.com/nikitabobko/AeroSpace",
       "description": "AeroSpace is an i3-like tiling window manager for macOS",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
