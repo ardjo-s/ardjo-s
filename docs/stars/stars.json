@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1638,
+  "repository_count": 1642,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 38
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 4
     }
   ],
   "repositories": [
@@ -175,7 +181,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0security",
       "url": "https://github.com/0sec-labs/0security",
-      "description": "Software infrastructure to build and deploy sovereign, persistent AI security agents that continuously find, prove and fix security risks. Open source. Web UI, CLI, CI and MCP.",
+      "description": "Open-source cybersecurity harness to build and deploy sovereign, persistent AI security agents (sentinels) that continuously find, prove and fix security risks. Web UI, CLI, CI and MCP.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -1556,6 +1562,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDONMFVJA",
+      "name": "aspauldingcode/macwmfx",
+      "url": "https://github.com/aspauldingcode/macwmfx",
+      "description": "mac window manager effects",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOKwunUQ",
       "name": "assistant-ui/assistant-ui",
       "url": "https://github.com/assistant-ui/assistant-ui",
@@ -2928,6 +2944,16 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNTEwMDQ5NTM=",
+      "name": "cmacrae/spacebar",
+      "url": "https://github.com/cmacrae/spacebar",
+      "description": "A minimal status bar for macOS. Ideal for use with tiling window managers like yabai",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6191,7 +6217,7 @@
       "id": "R_kgDORi26-Q",
       "name": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
+      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -6424,6 +6450,16 @@
       "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOHA7HmA",
+      "name": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9998,6 +10034,16 @@
       "description": "⚡️ Superpowers for your Openclaw. Powerful prebuilt agent workflows.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOJl1IZA",
+      "name": "nikitabobko/AeroSpace",
+      "url": "https://github.com/nikitabobko/AeroSpace",
+      "description": "AeroSpace is an i3-like tiling window manager for macOS",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

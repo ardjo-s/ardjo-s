@@ -47,7 +47,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam): real time face swap and one-click video deepfake with only a single image.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 - [heyderekj/dinky](https://github.com/heyderekj/dinky): Dinky makes files smaller.
-- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes): Write HTML.
+- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes): AI video you can actually edit.
 - [heygen-com/hyperframes-launch-video](https://github.com/heygen-com/hyperframes-launch-video): Starred repository.
 - [Hugo-Dz/spritefusion-sprite-normals](https://github.com/Hugo-Dz/spritefusion-sprite-normals): A tool to generate normal maps from any sprite and animated sprite sheet.
 - [hypit-ai/hypit](https://github.com/hypit-ai/hypit): Clone any viral video with AI agents.
