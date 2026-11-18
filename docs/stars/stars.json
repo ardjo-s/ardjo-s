@@ -13,13 +13,13 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 102
+      "count": 103
     },
     {
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 131
+      "count": 132
     },
     {
       "id": "category_04",
@@ -43,7 +43,7 @@
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 45
+      "count": 46
     },
     {
       "id": "category_08",
@@ -85,13 +85,13 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 76
+      "count": 77
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 80
+      "count": 81
     },
     {
       "id": "category_14",
@@ -145,7 +145,7 @@
       "id": "category_22",
       "name": "Research, Science & Health",
       "slug": "research-science-health",
-      "count": 19
+      "count": 20
     },
     {
       "id": "category_24",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 6
     }
   ],
   "repositories": [
@@ -3330,10 +3324,12 @@
       "name": "crabtalk/cydonia",
       "url": "https://github.com/crabtalk/cydonia",
       "description": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDONe9o9g",
@@ -5756,10 +5752,12 @@
       "name": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Research, Science & Health",
+      "category_id": "category_22",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOL1Au9w",
@@ -7210,10 +7208,12 @@
       "name": "jquery/jquery",
       "url": "https://github.com/jquery/jquery",
       "description": "jQuery JavaScript Library",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzOTUzNDEzODM=",
@@ -9206,10 +9206,16 @@
       "name": "mihail911/modern-software-dev-assignments",
       "url": "https://github.com/mihail911/modern-software-dev-assignments",
       "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Developer Tools & Languages",
+        "Agent Methods, Skills & Configuration"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDORtSRxA",
@@ -10322,10 +10328,12 @@
       "name": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORY-IOQ",
@@ -11104,10 +11112,12 @@
       "name": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORPZUAQ",

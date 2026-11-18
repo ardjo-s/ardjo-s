@@ -2,7 +2,7 @@
 
 > Research, source discovery, science, health and fitness.
 
-**19 repositories.** [Browse all categories →](README.md)
+**20 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,6 +20,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Companion-Inc/feynman](https://github.com/Companion-Inc/feynman): The open source AI research agent.
 - [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym): Open-source gym &amp; body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK.
 - [google-deepmind/alphafold3](https://github.com/google-deepmind/alphafold3): AlphaFold 3 inference pipeline.
+- [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra): PaperOrchestra is a multi-agent framework for automated AI research paper writing.
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills): Academic Research Skills for Claude Code: research → write → review → revise → finalize.
 - [InterfazeAI/deep-research](https://github.com/InterfazeAI/deep-research): An OpenSource Deep Research library with reasoning.
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills): Turn any AI agent into an AI Scientist.

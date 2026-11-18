@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**76 repositories.** [Browse all categories →](README.md)
+**77 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -41,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [InsForge/InsForge](https://github.com/InsForge/InsForge): The all-in-one, open-source backend platform for agentic coding.
 - [instantdb/instant](https://github.com/instantdb/instant): Instant is the best backend for AI-coded apps.
 - [ion-design/ditto.site](https://github.com/ion-design/ditto.site) · review needed: Starred repository.
+- [jquery/jquery](https://github.com/jquery/jquery): jQuery JavaScript Library.
 - [justrach/nanoui](https://github.com/justrach/nanoui): Desktop apps in Zig, with native UI drawn on the GPU or a web frontend.
 - [kargulstudio/workflow-editor](https://github.com/kargulstudio/workflow-editor): Starred repository.
 - [KeyboardKit/KeyboardKit](https://github.com/KeyboardKit/KeyboardKit): Create custom iOS keyboards with Swift &amp; SwiftUI.

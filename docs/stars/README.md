@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,648 public repositories across 26 Sol categories plus 6 unsorted.**
+**1,648 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -14,9 +14,9 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🤖 AI Coding Agents](ai-coding-agents.md) · 97 repositories
   - AI agents whose primary job is building and maintaining software.
-- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 102 repositories
+- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 103 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 131 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 132 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 83 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
@@ -24,7 +24,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Memory, context management, semantic retrieval and RAG for AI systems.
 - [🧠 AI Models & Training](ai-models-training.md) · 33 repositories
   - Model architectures, machine learning, datasets, fine-tuning and training.
-- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 45 repositories
+- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 46 repositories
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 45 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
@@ -44,9 +44,9 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 76 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 77 repositories
   - Web, backend, native and mobile frameworks for building applications.
-- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 80 repositories
+- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 81 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
 - [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 28 repositories
   - Software testing, debugging, code review and technical quality checks.
@@ -67,7 +67,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Marketing, SEO, sales, customer relationships, recruiting and careers.
 - [💼 Finance, Legal & Business Operations](finance-legal-business-operations.md) · 33 repositories
   - Finance, payments, legal work and business operations.
-- [🔬 Research, Science & Health](research-science-health.md) · 19 repositories
+- [🔬 Research, Science & Health](research-science-health.md) · 20 repositories
   - Research, source discovery, science, health and fitness.
 
 ## Hardware & Devices
@@ -76,8 +76,3 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 42 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 6 repositories
-  - Public stars not yet classified in catalog.json.

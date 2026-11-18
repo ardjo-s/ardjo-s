@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**131 repositories.** [Browse all categories →](README.md)
+**132 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -101,6 +101,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NDilanka/pvstack](https://github.com/NDilanka/pvstack): Lauren Tan's pstack for Droid, with per-role models chosen from VulcanBench data.
 - [nickwinder/synthteam](https://github.com/nickwinder/synthteam) · review needed: Consult distilled personas of colleagues — build them from Slack history, get one colleague's take, or convene a deliberating panel.
 - [nikilster/clawflows](https://github.com/nikilster/clawflows): ⚡️ Superpowers for your Openclaw.
+- [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.
 - [NVIDIA/skills](https://github.com/NVIDIA/skills): Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise): A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.
 - [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework &amp; software development methodology that works.
