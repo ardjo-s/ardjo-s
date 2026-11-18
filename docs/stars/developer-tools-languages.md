@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**79 repositories.** [Browse all categories →](README.md)
+**80 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -33,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [dzhng/jevgrep](https://github.com/dzhng/jevgrep): Find code by asking what it does.
 - [earendil-works/djs](https://github.com/earendil-works/djs): Starred repository.
 - [ericdrowell/brometal](https://github.com/ericdrowell/brometal): BroMetal is an LLVM-inspired compiler that transforms TypeScript into highly optimized GPU shaders for WebGPU.
+- [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything): Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step.
 - [feder-cr/git-ai](https://github.com/feder-cr/git-ai): Git designed for AI agents.
 - [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty): 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 - [git/git](https://github.com/git/git): Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/).

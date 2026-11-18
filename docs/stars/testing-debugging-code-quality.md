@@ -2,7 +2,7 @@
 
 > Software testing, debugging, code review and technical quality checks.
 
-**27 repositories.** [Browse all categories →](README.md)
+**28 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -23,6 +23,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [enmerasoftware/ai-design-check](https://github.com/enmerasoftware/ai-design-check): Design rules and a zero-dependency checker for interfaces built with AI coding agents, on the web and in SwiftUI and Jetpack Compose apps.
 - [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger): A native, user-mode, multi-process, graphical debugger.
 - [Institute-for-Progress/checkpoint-forensics-verification-public](https://github.com/Institute-for-Progress/checkpoint-forensics-verification-public): Independent GPU replay of published checkpoint forensics results.
+- [interfere-inc/landmines](https://github.com/interfere-inc/landmines): Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.
 - [K-Mistele/anti-slop](https://github.com/K-Mistele/anti-slop) · fork: Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns.
 - [microsoft/playwright](https://github.com/microsoft/playwright): Playwright is a framework for Web Testing and Automation.
 - [nanoapi-io/napi](https://github.com/nanoapi-io/napi): Software architecture tooling for the AI age.

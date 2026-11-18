@@ -2,7 +2,7 @@
 
 > Web extraction, scraping, OCR, document conversion and automation.
 
-**25 repositories.** [Browse all categories →](README.md)
+**26 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -19,6 +19,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser): Stealth Chromium that passes every bot detection test.
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling): 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev.
 - [datalab-to/chandra](https://github.com/datalab-to/chandra): OCR model that handles complex tables, forms, handwriting with full layout.
+- [datalab-to/marker](https://github.com/datalab-to/marker): Convert PDF to markdown + JSON quickly with high accuracy.
 - [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) · review needed: 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more.
 - [firecrawl/anydoc](https://github.com/firecrawl/anydoc): Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown.
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl): Knowledge infrastructure to make your agents smarter.

@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,638 public repositories across 26 Sol categories plus 9 unsorted.**
+**1,638 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -12,7 +12,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## AI & Agents
 
-- [🤖 AI Coding Agents](ai-coding-agents.md) · 96 repositories
+- [🤖 AI Coding Agents](ai-coding-agents.md) · 97 repositories
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 102 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
@@ -39,24 +39,24 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Image and video creation, capture, editing, animation and presentations.
 - [🎨 UI & Product Design](ui-product-design.md) · 158 repositories
   - UI components, design systems, typography, prototyping and product design.
-- [🎮 Games & 3D](games-3d.md) · 79 repositories
+- [🎮 Games & 3D](games-3d.md) · 81 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
 - [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 76 repositories
   - Web, backend, native and mobile frameworks for building applications.
-- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 79 repositories
+- [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 80 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
-- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 27 repositories
+- [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 28 repositories
   - Software testing, debugging, code review and technical quality checks.
-- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 35 repositories
+- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 37 repositories
   - Operating systems, networking, deployment, cloud infrastructure and DevOps.
 - [🗄 Data, Databases & GIS](data-databases-gis.md) · 40 repositories
   - Databases, data pipelines, analytics, visualization and geospatial tools.
-- [⚙️ Web & Document Automation](web-document-automation.md) · 25 repositories
+- [⚙️ Web & Document Automation](web-document-automation.md) · 26 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
-- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 44 repositories
+- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 45 repositories
   - Authentication, identity, secrets, privacy and security assessment.
 
 ## Knowledge, Research & Business
@@ -76,8 +76,3 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 38 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 9 repositories
-  - Public stars not yet classified in catalog.json.

@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**44 repositories.** [Browse all categories →](README.md)
+**45 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [0sec-labs/0security](https://github.com/0sec-labs/0security): Software infrastructure to build and deploy sovereign, persistent AI security agents that continuously find, prove and fix security risks.
 - [1Password/for-open-source](https://github.com/1Password/for-open-source): Get a 1Password team account for free to support your open source initiatives!.
+- [alvaroinckot/identity-engineering-roadmap](https://github.com/alvaroinckot/identity-engineering-roadmap): A roadmap.sh-style map of identity engineering in the AI era.
 - [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.
 - [beenuar/AiSOC](https://github.com/beenuar/AiSOC): Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step.
 - [clawvisor/clawvisor](https://github.com/clawvisor/clawvisor): API gateway for purpose-based authorization for AI agents.
