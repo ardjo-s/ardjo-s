@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**38 repositories.** [Browse all categories →](README.md)
+**42 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,12 +14,15 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): A native macOS launcher for everyday productivity.
 - [acsandmann/rift](https://github.com/acsandmann/rift): a tiling window manager for macos.
 - [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi): ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
+- [aspauldingcode/macwmfx](https://github.com/aspauldingcode/macwmfx): mac window manager effects.
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.
 - [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
+- [cmacrae/spacebar](https://github.com/cmacrae/spacebar): A minimal status bar for macOS.
 - [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl): Chromium running inside your terminal.
 - [Forward-Future/device-monitor](https://github.com/Forward-Future/device-monitor): Monitor CPU, GPU, memory and temperatures across all your devices (Windows/macOS app + LAN hub).
 - [heyderekj/binky](https://github.com/heyderekj/binky): Binky sorts your files.
+- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland): Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst): Automatic tiling window manager for macOS à la xmonad.
 - [iliyami/MacSai](https://github.com/iliyami/MacSai): Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner.
 - [jal-co/jalco-drop](https://github.com/jal-co/jalco-drop): A self-hosted file transfer interface for people and agents.
@@ -33,6 +36,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer): Run iOS apps without actually installing them!.
 - [lxyeternal/Trace](https://github.com/lxyeternal/Trace): Free, open-source alternative to Timing for macOS.
 - [neethanwu/onit](https://github.com/neethanwu/onit): keep an eye on everything your mac does on a schedule, from the notch or the menu bar.
+- [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace): AeroSpace is an i3-like tiling window manager for macOS.
 - [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app): Mod your desktop apps (Mac).
 - [progrium/keepsync](https://github.com/progrium/keepsync): syncthing and perkeep had a baby.
 - [realfishsam/agent-notch](https://github.com/realfishsam/agent-notch): The open-source alternative to vibe-island.

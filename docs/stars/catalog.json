@@ -3396,6 +3396,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDONMFVJA",
+      "name": "aspauldingcode/macwmfx",
+      "url": "https://github.com/aspauldingcode/macwmfx",
+      "description": "mac window manager effects",
+      "category": "category_25",
+      "purpose": "mac window manager effects",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "mac window manager effects",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/aspauldingcode/macwmfx",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44285266338",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOKwunUQ",
       "name": "assistant-ui/assistant-ui",
       "url": "https://github.com/assistant-ui/assistant-ui",
@@ -6391,6 +6410,25 @@
       "evidence_url": "https://github.com/cloudflare/security-audit-skill",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNTEwMDQ5NTM=",
+      "name": "cmacrae/spacebar",
+      "url": "https://github.com/cmacrae/spacebar",
+      "description": "A minimal status bar for macOS. Ideal for use with tiling window managers like yabai",
+      "category": "category_25",
+      "purpose": "A minimal status bar for macOS",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A minimal status bar for macOS. Ideal for use with tiling window managers like yabai",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/cmacrae/spacebar",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "jev:2026-11-18",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORnI8eg",
@@ -14195,6 +14233,25 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/41886430684"
     },
     {
+      "id": "R_kgDOHA7HmA",
+      "name": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "category": "category_25",
+      "purpose": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/hyprwm/Hyprland",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "jev:2026-11-18",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORnWDCw",
       "name": "iamlukethedev/Claw3D",
       "url": "https://github.com/iamlukethedev/Claw3D",
@@ -21859,6 +21916,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOJl1IZA",
+      "name": "nikitabobko/AeroSpace",
+      "url": "https://github.com/nikitabobko/AeroSpace",
+      "description": "AeroSpace is an i3-like tiling window manager for macOS",
+      "category": "category_25",
+      "purpose": "AeroSpace is an i3-like tiling window manager for macOS",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AeroSpace is an i3-like tiling window manager for macOS",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/nikitabobko/AeroSpace",
+      "evidence_read_at": "2026-11-18",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44285266338",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
