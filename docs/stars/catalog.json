@@ -2768,6 +2768,25 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDOViYgYA",
+      "name": "apekshik/anymachine",
+      "url": "https://github.com/apekshik/anymachine",
+      "description": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
+      "category": "category_23",
+      "purpose": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/apekshik/anymachine",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQ1Ybwg",
       "name": "apify/agent-skills",
       "url": "https://github.com/apify/agent-skills",
@@ -4615,6 +4634,33 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVP6SxQ",
+      "name": "botseverywhere-ai/BotsEverywhere",
+      "url": "https://github.com/botseverywhere-ai/BotsEverywhere",
+      "description": "The open source team management tool for bots.",
+      "category": "category_02",
+      "purpose": "The open source team management tool for bots",
+      "keywords": [
+        "ai-agents",
+        "bots",
+        "grok",
+        "open-source",
+        "org-chart",
+        "team-management",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# BotsEverywhere BotsEverywhere is an open source team management tool for bots.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/botseverywhere-ai/BotsEverywhere/blob/main/README.md",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOTs_xqg",
@@ -18812,6 +18858,25 @@
       "classification_source": "human:2026-11-15"
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzQ0NDY=",
+      "name": "matrix-org/matrix-rust-sdk",
+      "url": "https://github.com/matrix-org/matrix-rust-sdk",
+      "description": "Matrix Client-Server SDK for Rust",
+      "category": "category_12",
+      "purpose": "Matrix Client-Server SDK for Rust",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Matrix Client-Server SDK for Rust",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/matrix-org/matrix-rust-sdk",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
       "name": "matteocrippa/awesome-swift",
       "url": "https://github.com/matteocrippa/awesome-swift",
@@ -28120,6 +28185,30 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzc1MTQ=",
+      "name": "ruma/ruma",
+      "url": "https://github.com/ruma/ruma",
+      "description": "A set of Rust crates for interacting with the Matrix chat network.",
+      "category": "category_13",
+      "purpose": "A set of Rust crates for interacting with the Matrix chat network",
+      "keywords": [
+        "chat",
+        "library",
+        "matrix-org",
+        "rust"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Ruma – Your home in Matrix A set of [Rust] crates (libraries) for interacting with the [Matrix] chat network.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ruma/ruma/blob/main/README.md",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOIWuq5w",
       "name": "run-llama/llama_index",
       "url": "https://github.com/run-llama/llama_index",
@@ -30987,6 +31076,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVx3jDg",
+      "name": "stdevMac/orb-audio",
+      "url": "https://github.com/stdevMac/orb-audio",
+      "description": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents. Caption -> JSON Spec -> 48 kHz DSP.",
+      "category": "category_03",
+      "purpose": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents. Caption -> JSON Spec -> 48 kHz DSP.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/stdevMac/orb-audio",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44573719409",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQW2AGg",
@@ -36959,6 +37067,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVNcOxA",
+      "name": "zlwaterfield/cue",
+      "url": "https://github.com/zlwaterfield/cue",
+      "description": "Daily notes and to-dos for Mac and iOS. Fast, quiet and keyboard-first.",
+      "category": "category_19",
+      "purpose": "Daily notes and to-dos for Mac and iOS",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Daily notes and to-dos for Mac and iOS. Fast, quiet and keyboard-first.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/zlwaterfield/cue",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOMy3LMg",

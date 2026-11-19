@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**103 repositories.** [Browse all categories →](README.md)
+**104 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,6 +20,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [andrewyng/openworker](https://github.com/andrewyng/openworker): Starred repository.
 - [Anil-matcha/suparagent](https://github.com/Anil-matcha/suparagent): Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.
 - [BasedHardware/omi](https://github.com/BasedHardware/omi) · review needed: AI that sees your screen, listens to your conversations and tells you what to do.
+- [botseverywhere-ai/BotsEverywhere](https://github.com/botseverywhere-ai/BotsEverywhere): The open source team management tool for bots.
 - [browserbase/bell-stack](https://github.com/browserbase/bell-stack): BELL: the open source personal assistant powered by Browserbase, Stripe, Vercel, and Linq.
 - [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native): A framework for building agentic apps.
 - [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) · review needed: Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.

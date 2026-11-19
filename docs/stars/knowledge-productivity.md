@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**132 repositories.** [Browse all categories →](README.md)
+**133 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -143,3 +143,4 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ywEdAi/OpenLanguageKit](https://github.com/ywEdAi/OpenLanguageKit): Knowledge layer for building language-learning apps: knowledge points for English, Japanese and Chinese, pedagogical primitives, building blocks and a blueprint planner.
 - [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily): Privacy-first AI meeting note taker for Windows, macOS and Linux.
 - [zilvestro/grammai](https://github.com/zilvestro/grammai): AI writing assistance.
+- [zlwaterfield/cue](https://github.com/zlwaterfield/cue): Daily notes and to-dos for Mac and iOS.
