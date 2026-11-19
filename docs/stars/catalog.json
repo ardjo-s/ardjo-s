@@ -14957,6 +14957,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSAvt2w",
+      "name": "Jakubantalik/Libraries.dev",
+      "url": "https://github.com/Jakubantalik/Libraries.dev",
+      "description": "Libraries and models for next-gen UI",
+      "category": "category_11",
+      "purpose": "Libraries and models for next-gen UI",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Libraries and models for next-gen UI",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Jakubantalik/Libraries.dev",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "jev:2026-11-19",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOSUGN7A",
       "name": "Jakubantalik/metal-fx",
       "url": "https://github.com/Jakubantalik/metal-fx",
@@ -23524,6 +23543,31 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSRzt9w",
+      "name": "openai/openai-cli",
+      "url": "https://github.com/openai/openai-cli",
+      "description": "Official CLI for the OpenAI API",
+      "category": "category_07",
+      "purpose": "Official CLI for the OpenAI API",
+      "keywords": [
+        "Go"
+      ],
+      "review_required": true,
+      "evidence_quote": "OpenAI CLI The official command-line tool for the OpenAI REST API.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/openai/openai-cli/blob/main/README.md",
+      "evidence_read_at": "2026-11-19",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44432279448",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_25",
+        "category_07"
+      ]
     },
     {
       "id": "R_kgDOG-3nPA",

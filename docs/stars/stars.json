@@ -43,7 +43,7 @@
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 46
+      "count": 47
     },
     {
       "id": "category_08",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 158
+      "count": 159
     },
     {
       "id": "category_23",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 2
     }
   ],
   "repositories": [
@@ -6814,10 +6808,12 @@
       "name": "Jakubantalik/Libraries.dev",
       "url": "https://github.com/Jakubantalik/Libraries.dev",
       "description": "Libraries and models for next-gen UI",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSUGN7A",
@@ -10828,10 +10824,16 @@
       "name": "openai/openai-cli",
       "url": "https://github.com/openai/openai-cli",
       "description": "Official CLI for the OpenAI API",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Browsers, Desktop & Device Utilities",
+        "AI Inference & Gateways"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDOG-3nPA",

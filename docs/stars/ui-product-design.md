@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**158 repositories.** [Browse all categories →](README.md)
+**159 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -72,6 +72,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui): Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI.
 - [INSANE0777/Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp): Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode, ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design DNA, capture and record live sites.
 - [itsthecsguy/shelf-serif](https://github.com/itsthecsguy/shelf-serif): A near-monoline, squared serif with hairline shelf serifs.
+- [Jakubantalik/Libraries.dev](https://github.com/Jakubantalik/Libraries.dev): Libraries and models for next-gen UI.
 - [Jakubantalik/metal-fx](https://github.com/Jakubantalik/metal-fx): Animated WebGL liquid-metal effect for React buttons and UI components.
 - [Jakubantalik/thinking-orbs](https://github.com/Jakubantalik/thinking-orbs): Dotted thought-orb loading indicators for AI &amp; agent UIs, 9 tuned types, two sizes, auto dark/light.
 - [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): UI motion agent, a library of 43+ crafted transitions, a skill that fits your workflow.
