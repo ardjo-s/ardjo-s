@@ -13,13 +13,13 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 103
+      "count": 104
     },
     {
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 132
+      "count": 133
     },
     {
       "id": "category_04",
@@ -79,19 +79,19 @@
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 81
+      "count": 82
     },
     {
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 77
+      "count": 78
     },
     {
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 81
+      "count": 82
     },
     {
       "id": "category_14",
@@ -127,7 +127,7 @@
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 132
+      "count": 133
     },
     {
       "id": "category_20",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 6
     }
   ],
   "repositories": [
@@ -1298,10 +1292,12 @@
       "name": "apekshik/anymachine",
       "url": "https://github.com/apekshik/anymachine",
       "description": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQ1Ybwg",
@@ -2150,10 +2146,12 @@
       "name": "botseverywhere-ai/BotsEverywhere",
       "url": "https://github.com/botseverywhere-ai/BotsEverywhere",
       "description": "The open source team management tool for bots.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOTs_xqg",
@@ -8672,10 +8670,12 @@
       "name": "matrix-org/matrix-rust-sdk",
       "url": "https://github.com/matrix-org/matrix-rust-sdk",
       "description": "Matrix Client-Server SDK for Rust",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
@@ -12940,10 +12940,12 @@
       "name": "ruma/ruma",
       "url": "https://github.com/ruma/ruma",
       "description": "A set of Rust crates for interacting with the Matrix chat network.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOIWuq5w",
@@ -14174,10 +14176,12 @@
       "name": "stdevMac/orb-audio",
       "url": "https://github.com/stdevMac/orb-audio",
       "description": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents. Caption -> JSON Spec -> 48 kHz DSP.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQW2AGg",
@@ -16906,10 +16910,12 @@
       "name": "zlwaterfield/cue",
       "url": "https://github.com/zlwaterfield/cue",
       "description": "Daily notes and to-dos for Mac and iOS. Fast, quiet and keyboard-first.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOMy3LMg",

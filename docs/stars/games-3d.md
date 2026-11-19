@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**81 repositories.** [Browse all categories →](README.md)
+**82 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -19,6 +19,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [amariichi/VideoDepthViewer3D](https://github.com/amariichi/VideoDepthViewer3D): Real-time 3D video player powered by Depth Anything 3.
 - [amirmushichge/unreal-home-wizard](https://github.com/amirmushichge/unreal-home-wizard): Turn room and home photographs into reviewable, walkable Unreal Engine projects with Codex.
 - [anteloc/ldraw-nova](https://github.com/anteloc/ldraw-nova): Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev.
+- [apekshik/anymachine](https://github.com/apekshik/anymachine): Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter.
 - [arjun988/blender-skills](https://github.com/arjun988/blender-skills): 94 specialist Blender skills for Cursor, Claude Code, Kiro &amp; Codex -&gt; MCP-powered production pipeline from blockout to engine export.
 - [Auburn/FastNoise2](https://github.com/Auburn/FastNoise2): Modular node graph based noise generation library using SIMD, C++17 and templates.
 - [blendi-remade/fal-3d-unreal](https://github.com/blendi-remade/fal-3d-unreal): Starred repository.

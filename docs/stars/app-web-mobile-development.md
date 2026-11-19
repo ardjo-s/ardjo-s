@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**77 repositories.** [Browse all categories →](README.md)
+**78 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [longbridge/gpui-fast](https://github.com/longbridge/gpui-fast): GPUI extracted from the Zed monorepo as a standalone workspace, with the layout engine reworked to keep what did not change between frames.
 - [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit): Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
 - [lukeed/clsx](https://github.com/lukeed/clsx): A tiny (239B) utility for constructing `className` strings conditionally.
+- [matrix-org/matrix-rust-sdk](https://github.com/matrix-org/matrix-rust-sdk): Matrix Client-Server SDK for Rust.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify): Turn TUI apps into real macOS applications.
 - [MengTo/Skills](https://github.com/MengTo/Skills) · review needed: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mintlify/starter](https://github.com/mintlify/starter) · review needed: The starter kit for your mintlify project.

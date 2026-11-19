@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**132 repositories.** [Browse all categories →](README.md)
+**133 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -127,6 +127,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [slavingia/skills](https://github.com/slavingia/skills): Based on The Minimalist Entrepreneur by Sahil Lavingia.
 - [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins): Starred repository.
 - [standardagents/spec](https://github.com/standardagents/spec): Standard Agent Specification — an open-source standard for creating portable, composable, domain-specific agents.
+- [stdevMac/orb-audio](https://github.com/stdevMac/orb-audio): Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents.
 - [t3dotgg/tstack](https://github.com/t3dotgg/tstack): The agent skills I use every day.
 - [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli): Make Every Team AI Native.
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) · review needed: autonomous harness engineering.

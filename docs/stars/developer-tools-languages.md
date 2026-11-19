@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**81 repositories.** [Browse all categories →](README.md)
+**82 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -75,6 +75,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses): :books: List of awesome university courses for learning Computer Science!.
 - [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) · review needed: A curated list of TUI apps and libraries built with Ratatui.
 - [ratatui/ratatui-website](https://github.com/ratatui/ratatui-website): Ratatui Website/Documentation.
+- [ruma/ruma](https://github.com/ruma/ruma): A set of Rust crates for interacting with the Matrix chat network.
 - [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust): A curated list of Rust code and resources.
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs): :zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY].
 - [sopaco/deepwiki-rs](https://github.com/sopaco/deepwiki-rs): Turn code into clarity.
