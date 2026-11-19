@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1650,
+  "repository_count": 1656,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -1288,6 +1294,16 @@
       "classification_rounds": 1
     },
     {
+      "id": "R_kgDOViYgYA",
+      "name": "apekshik/anymachine",
+      "url": "https://github.com/apekshik/anymachine",
+      "description": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQ1Ybwg",
       "name": "apify/agent-skills",
       "url": "https://github.com/apify/agent-skills",
@@ -2126,6 +2142,16 @@
       "description": "Raft's design system: guidelines, design tokens and raft-ui, the React components that implement them.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVP6SxQ",
+      "name": "botseverywhere-ai/BotsEverywhere",
+      "url": "https://github.com/botseverywhere-ai/BotsEverywhere",
+      "description": "The open source team management tool for bots.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5701,7 +5727,7 @@
       "id": "R_kgDOTAPyzg",
       "name": "gokayfem/shader-skills",
       "url": "https://github.com/gokayfem/shader-skills",
-      "description": "GLSL and Shadertoy toolkit for AI coding agents. Build with 196 shader functions, explore 25 interactive studies and two WebGPU worlds, and profile rendering performance.",
+      "description": "Procedural GLSL for AI coding agents. Includes 197 distinct function names across 21 modules, 27 interactive Shadertoy/WebGL2 studies, two WebGPU worlds, a shader bundler and a checker.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -8638,6 +8664,16 @@
       "description": "A curated list of awesome READMEs",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzQ0NDY=",
+      "name": "matrix-org/matrix-rust-sdk",
+      "url": "https://github.com/matrix-org/matrix-rust-sdk",
+      "description": "Matrix Client-Server SDK for Rust",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12900,6 +12936,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzc1MTQ=",
+      "name": "ruma/ruma",
+      "url": "https://github.com/ruma/ruma",
+      "description": "A set of Rust crates for interacting with the Matrix chat network.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOIWuq5w",
       "name": "run-llama/llama_index",
       "url": "https://github.com/run-llama/llama_index",
@@ -14124,6 +14170,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVx3jDg",
+      "name": "stdevMac/orb-audio",
+      "url": "https://github.com/stdevMac/orb-audio",
+      "description": "Sound as code: a 15M-parameter, from-scratch caption-to-audio engine for agents. Caption -> JSON Spec -> 48 kHz DSP.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQW2AGg",
       "name": "steipete/CodexBar",
       "url": "https://github.com/steipete/CodexBar",
@@ -15153,7 +15209,7 @@
       "id": "R_kgDOQCMgKw",
       "name": "tractorjuice/arc-kit",
       "url": "https://github.com/tractorjuice/arc-kit",
-      "description": "The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants",
+      "description": "Enterprise architecture governance for Claude Code and other AI coding assistants. 76 commands draft requirements, business cases and design reviews.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -16842,6 +16898,16 @@
       "description": "🌍 WorldGen - Generate Any 3D Scene in Seconds",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVNcOxA",
+      "name": "zlwaterfield/cue",
+      "url": "https://github.com/zlwaterfield/cue",
+      "description": "Daily notes and to-dos for Mac and iOS. Fast, quiet and keyboard-first.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

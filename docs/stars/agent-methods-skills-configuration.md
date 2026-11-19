@@ -131,7 +131,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli): Make Every Team AI Native.
 - [thirdlayerinc/autoagent](https://github.com/thirdlayerinc/autoagent) · review needed: autonomous harness engineering.
 - [tokensize/skills](https://github.com/tokensize/skills): Starred repository.
-- [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants.
+- [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit): Enterprise architecture governance for Claude Code and other AI coding assistants.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills): A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code.
 - [typesafe-ai/skills](https://github.com/typesafe-ai/skills): Agent skills for building with TypeSafe's System One API.
 - [unicodef1wn/grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) · review needed: Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build.

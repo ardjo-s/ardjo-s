@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): Make videos on the computer you already own.
 - [Forward-Future/scarlet](https://github.com/Forward-Future/scarlet): Scarlet is an AI video editor for macOS and Windows.
 - [full-aigc-plugins/artcraft-plugin](https://github.com/full-aigc-plugins/artcraft-plugin): Orchestrate VectorCraft, PhotoCraft, EffectCraft, and FilmCraft projects from one brief.
-- [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: GLSL and Shadertoy toolkit for AI coding agents.
+- [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) · review needed: Procedural GLSL for AI coding agents.
 - [grinich/replay](https://github.com/grinich/replay): A beautiful offline video queue for macOS.
 - [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam): real time face swap and one-click video deepfake with only a single image.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo): 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
