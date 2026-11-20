@@ -43,7 +43,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) · review needed: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more.
 - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) · review needed: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming.
 - [Frizti/Fritchii](https://github.com/Frizti/Fritchii) · fork · review needed: Frontier GREEN HAT BOY ADVENTURE specialized Lichii fork, i'm the goat.
-- [generalaction/emdash](https://github.com/generalaction/emdash): Emdash is the Open-Source Agentic Development Environment (🧡 YC W26).
+- [generalaction/emdash](https://github.com/generalaction/emdash): Emdash Classic is the open-source desktop app for running coding agents in parallel.
 - [get-bb/bb](https://github.com/get-bb/bb): The agent IDE that builds itself.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo): Orchestrate multiple coding agents from desktop and mobile.
 - [goat-si/goat](https://github.com/goat-si/goat): GOAT: one control surface for Claude Code, Codex, Cursor and more, across your machines.

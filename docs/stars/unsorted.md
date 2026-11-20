@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**0 repositories.** [Browse all categories →](README.md)
+**1 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,3 +11,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 Low-confidence automatic picks are published in an existing category and tagged in the catalog; this page only holds live stars not yet written into catalog.json.
 
 ## Stars
+
+- [govijr/fix-storage](https://github.com/govijr/fix-storage) · review needed: A CLI to fix your mac's &amp; linux machine's storage problems, just run fix-storage.

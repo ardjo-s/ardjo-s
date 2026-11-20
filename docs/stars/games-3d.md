@@ -87,7 +87,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp): Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer.
 - [VAST-AI-Research/TripoSR](https://github.com/VAST-AI-Research/TripoSR): TripoSR: Fast 3D Object Reconstruction from a Single Image.
 - [WhiteTowerAI/ohmygame](https://github.com/WhiteTowerAI/ohmygame): The open-source studio for making games with AI.
-- [xikhar/spiderbench](https://github.com/xikhar/spiderbench): Starred repository.
+- [xikhar/spiderbench](https://github.com/xikhar/spiderbench): Anyone can make games.
 - [xy-gao/DA3-blender](https://github.com/xy-gao/DA3-blender): Blender addon for Depth-Anything-3 3D reconstruction.
 - [yunfanye/openhouse-3d](https://github.com/yunfanye/openhouse-3d): Turn real-estate listing photos into a 3D house model and a cinematic walkthrough video.
 - [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer): Mesh optimization library that makes meshes smaller and faster to render.

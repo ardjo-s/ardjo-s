@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1656,
+  "repository_count": 1657,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 42
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 1
     }
   ],
   "repositories": [
@@ -5421,7 +5427,7 @@
       "id": "R_kgDOPloqdg",
       "name": "generalaction/emdash",
       "url": "https://github.com/generalaction/emdash",
-      "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+      "description": "Emdash Classic is the open-source desktop app for running coding agents in parallel. Use your favorite agents in isolated Git worktrees, locally or over SSH.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -5896,6 +5902,16 @@
       "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVuar3w",
+      "name": "govijr/fix-storage",
+      "url": "https://github.com/govijr/fix-storage",
+      "description": "A CLI to fix your mac's & linux machine's storage problems, just run fix-storage.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -16435,7 +16451,7 @@
       "id": "R_kgDOUt1Ecw",
       "name": "xikhar/spiderbench",
       "url": "https://github.com/xikhar/spiderbench",
-      "description": "",
+      "description": "Anyone can make games",
       "category": "Games & 3D",
       "category_id": "category_23",
       "archived": false,
