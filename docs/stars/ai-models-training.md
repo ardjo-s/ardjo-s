@@ -2,7 +2,7 @@
 
 > Model architectures, machine learning, datasets, fine-tuning and training.
 
-**33 repositories.** [Browse all categories →](README.md)
+**34 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -44,3 +44,4 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): scikit-learn: machine learning in Python.
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) · review needed: Local UI to run and train LLMs and diffusion models.
 - [vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike): Starred repository.
+- [xai-org/x-algorithm](https://github.com/xai-org/x-algorithm) · review needed · low confidence: Algorithm powering the For You feed on X.

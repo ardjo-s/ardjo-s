@@ -2768,6 +2768,25 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDORXh_Rg",
+      "name": "Antseed/antseed",
+      "url": "https://github.com/Antseed/antseed",
+      "description": "AntSeed P2P AI Network - An open market for AI inference. No gatekeepers.",
+      "category": "category_07",
+      "purpose": "AntSeed P2P AI Network - An open market for AI inference",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AntSeed P2P AI Network - An open market for AI inference. No gatekeepers.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Antseed/antseed",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44814877684",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOViYgYA",
       "name": "apekshik/anymachine",
       "url": "https://github.com/apekshik/anymachine",
@@ -4362,6 +4381,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOLZAciw",
+      "name": "blackboardsh/electrobun",
+      "url": "https://github.com/blackboardsh/electrobun",
+      "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
+      "category": "category_12",
+      "purpose": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/blackboardsh/electrobun",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "jev:2026-11-20",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQ8AnQQ",
       "name": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
@@ -4551,6 +4589,27 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVzXaaA",
+      "name": "bogdan239/uberdesigner-studio",
+      "url": "https://github.com/bogdan239/uberdesigner-studio",
+      "description": "",
+      "category": "category_11",
+      "purpose": "Auto-classified as UI & Product Design.",
+      "keywords": [
+        "JavaScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "uberdesigner studio Change your website's design one part at a time, with Claude, for 3 to 5× fewer tokens.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/bogdan239/uberdesigner-studio/blob/main/README.md",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "jev:2026-11-20",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTA2NTQ3Mw==",
@@ -25823,6 +25882,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV1i7LA",
+      "name": "plannotator/talkto",
+      "url": "https://github.com/plannotator/talkto",
+      "description": "Message boards for AI agents. For your distributed agents, or invite your team's agents.",
+      "category": "category_02",
+      "purpose": "Message boards for AI agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Message boards for AI agents. For your distributed agents, or invite your team's agents.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/plannotator/talkto",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "jev:2026-11-20",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxNjA0Mjc0MDU=",
       "name": "plausible/analytics",
       "url": "https://github.com/plausible/analytics",
@@ -32167,6 +32245,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSRftaw",
+      "name": "tddworks/baguette",
+      "url": "https://github.com/tddworks/baguette",
+      "description": "Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm",
+      "category": "category_12",
+      "purpose": "Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/tddworks/baguette",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44814877684",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOSi9aBg",
       "name": "teamchong/pxpipe",
       "url": "https://github.com/teamchong/pxpipe",
@@ -35877,6 +35974,31 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOQ9Inng",
+      "name": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "category": "category_06",
+      "purpose": "Algorithm powering the For You feed on X",
+      "keywords": [
+        "Rust"
+      ],
+      "review_required": true,
+      "evidence_quote": "# X For You Feed Algorithm This repository contains the core code that determines which posts a viewer sees in the **For You** feed on X.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/xai-org/x-algorithm/blob/main/README.md",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44814877684",
+      "classification_rounds": 3,
+      "classification_confidence": "low",
+      "review_candidates": [
+        "category_13",
+        "category_06"
+      ]
     },
     {
       "id": "R_kgDOKvw39g",

@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**78 repositories.** [Browse all categories →](README.md)
+**80 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -18,6 +18,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [appwrite/appwrite](https://github.com/appwrite/appwrite): The open-source cloud for agents &amp; devs.
 - [BandarLabs/Cobalt](https://github.com/BandarLabs/Cobalt): SDK for building apps &amp; an app store for your Kobo eInk reader.
 - [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) · review needed: Some HTML, CSS and JS best practices.
+- [blackboardsh/electrobun](https://github.com/blackboardsh/electrobun): Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.
 - [Budibase/budibase](https://github.com/Budibase/budibase): AI agents, automations and apps that run your operations.
 - [convex/convex-backend](https://github.com/convex/convex-backend): The open-source reactive database for app developers.
 - [daveebbelaar/bama](https://github.com/daveebbelaar/bama): BAMA: Build Any Mac App.
@@ -75,6 +76,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [supabase/supabase](https://github.com/supabase/supabase): The Postgres development platform.
 - [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app): The best way to start a full-stack, typesafe Next.js app.
 - [tamagui/tamagui](https://github.com/tamagui/tamagui): Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
+- [tddworks/baguette](https://github.com/tddworks/baguette): Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm.
 - [thesysdev/openui](https://github.com/thesysdev/openui) · review needed: The Open Standard for Generative UI.
 - [Thinkmill/keystatic](https://github.com/Thinkmill/keystatic): First class CMS experience, TypeScript API, Markdown &amp; YAML/JSON based, no DB.
 - [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat): A batteries-included framework for building web apps.

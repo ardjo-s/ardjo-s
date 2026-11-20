@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**47 repositories.** [Browse all categories →](README.md)
+**48 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [0xSero/deepseek-v4-flash-0731-spark-sparkinfer](https://github.com/0xSero/deepseek-v4-flash-0731-spark-sparkinfer): Pinned one-DGX-Spark Docker recipe for DeepSeek V4 Flash with EXL3, SparkInfer, and 262K NVFP4 MLA KV cache.
 - [agentgateway/agentgateway](https://github.com/agentgateway/agentgateway): Next Generation Agentic Proxy for AI Agents and MCP servers.
+- [Antseed/antseed](https://github.com/Antseed/antseed): AntSeed P2P AI Network - An open market for AI inference.
 - [Avarok-Cybersecurity/atlas](https://github.com/Avarok-Cybersecurity/atlas): Pure Rust Inference Engine.
 - [BenedictKing/ccx](https://github.com/BenedictKing/ccx): Claude / Codex / Gemini API Proxy - CCX.
 - [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute): Never stop coding.

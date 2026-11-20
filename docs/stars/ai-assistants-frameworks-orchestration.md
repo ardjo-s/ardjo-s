@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**104 repositories.** [Browse all categories →](README.md)
+**105 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -85,6 +85,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [outsourc-e/clawsuite](https://github.com/outsourc-e/clawsuite): All-in-one command center for OpenClaw agents.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip): The open-source app everyone uses to manage agents at work.
 - [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): AgentRun is an open-source platform that supercharges your agents.
+- [plannotator/talkto](https://github.com/plannotator/talkto): Message boards for AI agents.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
 - [rerun-build/rerun](https://github.com/rerun-build/rerun): AI coworkers that run your work.

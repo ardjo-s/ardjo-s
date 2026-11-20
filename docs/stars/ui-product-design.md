@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**159 repositories.** [Browse all categories →](README.md)
+**160 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -32,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui): A curated list of awesome things related to shadcn/ui.
 - [bklit/bklit-ui](https://github.com/bklit/bklit-ui): Open-source UI &amp; Charts library.
 - [BoardUI/boardui](https://github.com/BoardUI/boardui): React design system for agentic interfaces.
+- [bogdan239/uberdesigner-studio](https://github.com/bogdan239/uberdesigner-studio): Starred repository.
 - [Boring-Software-Inc/dither-kit](https://github.com/Boring-Software-Inc/dither-kit): Composable, dithered charts for shadcn/ui — area, line, bar, pie &amp; radar.
 - [botiverse/raft-design](https://github.com/botiverse/raft-design): Raft's design system: guidelines, design tokens and raft-ui, the React components that implement them.
 - [brijr/gui](https://github.com/brijr/gui): Design real interfaces with your own AI agents.
