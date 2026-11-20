@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 42
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 1
+      "count": 43
     }
   ],
   "repositories": [
@@ -5910,10 +5904,12 @@
       "name": "govijr/fix-storage",
       "url": "https://github.com/govijr/fix-storage",
       "description": "A CLI to fix your mac's & linux machine's storage problems, just run fix-storage.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOU_cJ2g",

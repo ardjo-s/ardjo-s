@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**42 repositories.** [Browse all categories →](README.md)
+**43 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -21,6 +21,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl): Chromium running inside your terminal.
 - [Forward-Future/device-monitor](https://github.com/Forward-Future/device-monitor): Monitor CPU, GPU, memory and temperatures across all your devices (Windows/macOS app + LAN hub).
+- [govijr/fix-storage](https://github.com/govijr/fix-storage): A CLI to fix your mac's &amp; linux machine's storage problems, just run fix-storage.
 - [heyderekj/binky](https://github.com/heyderekj/binky): Binky sorts your files.
 - [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland): Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 - [ianyh/Amethyst](https://github.com/ianyh/Amethyst): Automatic tiling window manager for macOS à la xmonad.

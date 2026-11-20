@@ -12963,6 +12963,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVuar3w",
+      "name": "govijr/fix-storage",
+      "url": "https://github.com/govijr/fix-storage",
+      "description": "A CLI to fix your mac's & linux machine's storage problems, just run fix-storage.",
+      "category": "category_25",
+      "purpose": "A CLI to fix your mac's & linux machine's storage problems, just run fix-storage",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A CLI to fix your mac's & linux machine's storage problems, just run fix-storage.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/govijr/fix-storage",
+      "evidence_read_at": "2026-11-20",
+      "classification_source": "jev:2026-11-20",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOU_cJ2g",
       "name": "gr8rstudio/gr8r-studio",
       "url": "https://github.com/gr8rstudio/gr8r-studio",
