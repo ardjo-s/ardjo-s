@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,663 public repositories across 26 Sol categories plus 6 unsorted.**
+**1,663 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -14,7 +14,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🤖 AI Coding Agents](ai-coding-agents.md) · 97 repositories
   - AI agents whose primary job is building and maintaining software.
-- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 104 repositories
+- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 105 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
 - [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 133 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
@@ -22,9 +22,9 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
 - [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 58 repositories
   - Memory, context management, semantic retrieval and RAG for AI systems.
-- [🧠 AI Models & Training](ai-models-training.md) · 33 repositories
+- [🧠 AI Models & Training](ai-models-training.md) · 34 repositories
   - Model architectures, machine learning, datasets, fine-tuning and training.
-- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 47 repositories
+- [⚡ AI Inference & Gateways](ai-inference-gateways.md) · 48 repositories
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 45 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
@@ -37,14 +37,14 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Speech, dictation, transcription, audio processing and music.
 - [🎬 Image, Video & Presentations](image-video-presentations.md) · 119 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 159 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 160 repositories
   - UI components, design systems, typography, prototyping and product design.
 - [🎮 Games & 3D](games-3d.md) · 82 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 78 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 80 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 82 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
@@ -76,8 +76,3 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
 - [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 43 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 6 repositories
-  - Public stars not yet classified in catalog.json.

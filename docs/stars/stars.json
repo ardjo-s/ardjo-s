@@ -13,7 +13,7 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 104
+      "count": 105
     },
     {
       "id": "category_03",
@@ -37,13 +37,13 @@
       "id": "category_06",
       "name": "AI Models & Training",
       "slug": "ai-models-training",
-      "count": 33
+      "count": 34
     },
     {
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 47
+      "count": 48
     },
     {
       "id": "category_08",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 159
+      "count": 160
     },
     {
       "id": "category_23",
@@ -85,7 +85,7 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 78
+      "count": 80
     },
     {
       "id": "category_13",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 6
     }
   ],
   "repositories": [
@@ -1308,10 +1302,12 @@
       "name": "Antseed/antseed",
       "url": "https://github.com/Antseed/antseed",
       "description": "AntSeed P2P AI Network - An open market for AI inference. No gatekeepers.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOViYgYA",
@@ -2042,10 +2038,12 @@
       "name": "blackboardsh/electrobun",
       "url": "https://github.com/blackboardsh/electrobun",
       "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQ8AnQQ",
@@ -2142,10 +2140,12 @@
       "name": "bogdan239/uberdesigner-studio",
       "url": "https://github.com/bogdan239/uberdesigner-studio",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTA2NTQ3Mw==",
@@ -11904,10 +11904,12 @@
       "name": "plannotator/talkto",
       "url": "https://github.com/plannotator/talkto",
       "description": "Message boards for AI agents. For your distributed agents, or invite your team's agents.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxNjA0Mjc0MDU=",
@@ -14734,10 +14736,12 @@
       "name": "tddworks/baguette",
       "url": "https://github.com/tddworks/baguette",
       "description": "Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSi9aBg",
@@ -16434,10 +16438,16 @@
       "name": "xai-org/x-algorithm",
       "url": "https://github.com/xai-org/x-algorithm",
       "description": "Algorithm powering the For You feed on X",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Models & Training",
+      "category_id": "category_06",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "review_candidate_names": [
+        "Developer Tools & Languages",
+        "AI Models & Training"
+      ],
+      "classification_confidence": "low",
+      "classification_rounds": 3
     },
     {
       "id": "R_kgDOKvw39g",
