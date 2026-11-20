@@ -63,7 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [maddada/Ghostex](https://github.com/maddada/Ghostex): The Best Native Agents Workspace.
 - [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist): OpenAssist is a voice-first personal AI assistant for macOS and iPhone.
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra): Mastra is the modern TypeScript framework for AI-powered applications and agents.
-- [microsoft/autogen](https://github.com/microsoft/autogen): A programming framework for agentic AI.
+- [microsoft/autogen](https://github.com/microsoft/autogen) · archived: A programming framework for agentic AI.
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use.
 - [mvschwarz/openrig](https://github.com/mvschwarz/openrig) · review needed: Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
 - [nearai/ironclaw](https://github.com/nearai/ironclaw): IronClaw is an Agent OS focused on privacy, security and extensibility.

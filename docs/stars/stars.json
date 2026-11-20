@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1657,
+  "repository_count": 1663,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -718,6 +724,16 @@
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORYG5fg",
+      "name": "ai-openshell/openshell",
+      "url": "https://github.com/ai-openshell/openshell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
       "fork": false
     },
@@ -1286,6 +1302,16 @@
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
+    },
+    {
+      "id": "R_kgDORXh_Rg",
+      "name": "Antseed/antseed",
+      "url": "https://github.com/Antseed/antseed",
+      "description": "AntSeed P2P AI Network - An open market for AI inference. No gatekeepers.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
     },
     {
       "id": "R_kgDOViYgYA",
@@ -2012,6 +2038,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOLZAciw",
+      "name": "blackboardsh/electrobun",
+      "url": "https://github.com/blackboardsh/electrobun",
+      "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQ8AnQQ",
       "name": "blader/humanizer",
       "url": "https://github.com/blader/humanizer",
@@ -2098,6 +2134,16 @@
       "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVzXaaA",
+      "name": "bogdan239/uberdesigner-studio",
+      "url": "https://github.com/bogdan239/uberdesigner-studio",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5045,7 +5091,7 @@
       "id": "R_kgDOLunVBg",
       "name": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "category": "Web & Document Automation",
       "category_id": "category_17",
       "archived": false,
@@ -9118,7 +9164,7 @@
       "description": "A programming framework for agentic AI",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
-      "archived": false,
+      "archived": true,
       "fork": false
     },
     {
@@ -10374,16 +10420,6 @@
       "fork": false
     },
     {
-      "id": "R_kgDORYG5fg",
-      "name": "NVIDIA/OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "category": "Agent Tools & Environments",
-      "category_id": "category_04",
-      "archived": false,
-      "fork": false
-    },
-    {
       "id": "R_kgDOTDcPlA",
       "name": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
@@ -10511,7 +10547,7 @@
       "id": "R_kgDOQyvZCA",
       "name": "obsidianmd/obsidian-skills",
       "url": "https://github.com/obsidianmd/obsidian-skills",
-      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -11860,6 +11896,16 @@
       "description": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV1i7LA",
+      "name": "plannotator/talkto",
+      "url": "https://github.com/plannotator/talkto",
+      "description": "Message boards for AI agents. For your distributed agents, or invite your team's agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -14684,6 +14730,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSRftaw",
+      "name": "tddworks/baguette",
+      "url": "https://github.com/tddworks/baguette",
+      "description": "Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSi9aBg",
       "name": "teamchong/pxpipe",
       "url": "https://github.com/teamchong/pxpipe",
@@ -16370,6 +16426,16 @@
       "description": "Markdown editor with intelligence.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOQ9Inng",
+      "name": "xai-org/x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

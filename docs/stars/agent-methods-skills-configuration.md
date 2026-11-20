@@ -105,7 +105,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NVIDIA/skills](https://github.com/NVIDIA/skills): Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.
 - [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise): A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.
 - [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework &amp; software development methodology that works.
-- [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) · review needed: Agent skills for Obsidian.
+- [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) · review needed: Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.
 - [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide): Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc): Use Codex from Claude Code to review code or delegate tasks.
 - [openai/skills](https://github.com/openai/skills): Skills Catalog for Codex.
