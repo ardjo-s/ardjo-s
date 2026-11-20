@@ -14045,7 +14045,7 @@
       "id": "R_kgDOJ4etkw",
       "name": "speedyapply/JobSpy",
       "url": "https://github.com/speedyapply/JobSpy",
-      "description": "Jobs scraper library for LinkedIn, Indeed, Glassdoor, ZipRecruiter, Bayt, Naukri, BDJobs, HelloWork & SEEK",
+      "description": "Jobs scraper library for LinkedIn, Indeed, ZipRecruiter, Glassdoor, SEEK, Naukri, HelloWork, Bayt & BDJobs",
       "category": "Marketing, Sales & Careers",
       "category_id": "category_20",
       "archived": false,
