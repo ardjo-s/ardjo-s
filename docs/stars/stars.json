@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1664,
+  "repository_count": 1665,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 1
     }
   ],
   "repositories": [
@@ -855,7 +861,7 @@
       "id": "R_kgDOSG2mmQ",
       "name": "alchaincyf/huashu-design",
       "url": "https://github.com/alchaincyf/huashu-design",
-      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "description": "Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -1301,7 +1307,7 @@
       "id": "R_kgDORXh_Rg",
       "name": "Antseed/antseed",
       "url": "https://github.com/Antseed/antseed",
-      "description": "AntSeed P2P AI Network - An open market for AI inference. No gatekeepers.",
+      "description": "Antseed is the open intelligence network.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
       "archived": false,
@@ -9390,6 +9396,16 @@
       "description": "Generate text, images, video, speech, and music by MiniMax.",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV1Xnuw",
+      "name": "MiniMax-AI/Research",
+      "url": "https://github.com/MiniMax-AI/Research",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

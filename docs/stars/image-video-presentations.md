@@ -15,7 +15,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [academa-labs/manimgx](https://github.com/academa-labs/manimgx): The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.
 - [AhmedAburady/imagine-cli](https://github.com/AhmedAburady/imagine-cli): One CLI.
 - [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra): A hardware-accelerated video editor built on Rust, Tauri v2, and React 19.
-- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · review needed: Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent.
+- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · review needed: Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent.
 - [amirmushichge/video-states-website](https://github.com/amirmushichge/video-states-website) · review needed: Build a cinematic click-driven video website: LTX footage, image/video prompts, coding-agent build spec, workflow and seam-safe playback guide.
 - [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI): Uncensored Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo).
 - [Anil-matcha/open-genjutsu](https://github.com/Anil-matcha/open-genjutsu): Local-first AI video recasting with draft review, explicit HD approval, and source-audio restoration.
