@@ -20397,6 +20397,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV1Xnuw",
+      "name": "MiniMax-AI/Research",
+      "url": "https://github.com/MiniMax-AI/Research",
+      "description": "",
+      "category": "category_18",
+      "purpose": "Auto-classified as Security, Privacy & Identity.",
+      "keywords": [
+        "TeX"
+      ],
+      "review_required": false,
+      "evidence_quote": "In this repository, we plan to share research projects and findings from MiniMax internal models.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/MiniMax-AI/Research/blob/main/README.md",
+      "evidence_read_at": "2026-11-21",
+      "classification_source": "jev:2026-11-21",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORpLePg",
       "name": "MiniMax-AI/skills",
       "url": "https://github.com/MiniMax-AI/skills",
