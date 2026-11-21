@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**45 repositories.** [Browse all categories →](README.md)
+**46 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -34,6 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [megadose/holehe](https://github.com/megadose/holehe) · review needed: holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
 - [Michaelliv/psst](https://github.com/Michaelliv/psst): 🤫 AI-native secrets manager.
 - [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit): AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
+- [MiniMax-AI/Research](https://github.com/MiniMax-AI/Research): Starred repository.
 - [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering): Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.
 - [morluto/rea](https://github.com/morluto/rea) · review needed: Reverse engineer anything with agents, from app behavior down to native binaries.
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0.
