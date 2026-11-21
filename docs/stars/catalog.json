@@ -28496,6 +28496,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQ-7cQw",
+      "name": "rustrak/rustrak",
+      "url": "https://github.com/rustrak/rustrak",
+      "description": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
+      "category": "category_15",
+      "purpose": "Self-hosted, open-source Sentry alternative in Rust",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/rustrak/rustrak",
+      "evidence_read_at": "2026-11-21",
+      "classification_source": "jev:2026-11-21",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOHL9Grg",
       "name": "ruucm/shadergradient",
       "url": "https://github.com/ruucm/shadergradient",
