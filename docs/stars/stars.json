@@ -103,7 +103,7 @@
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 37
+      "count": 38
     },
     {
       "id": "category_16",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 1
     }
   ],
   "repositories": [
@@ -13098,10 +13092,12 @@
       "name": "rustrak/rustrak",
       "url": "https://github.com/rustrak/rustrak",
       "description": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOHL9Grg",

@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**1 repositories.** [Browse all categories →](README.md)
+**0 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -11,5 +11,3 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 Low-confidence automatic picks are published in an existing category and tagged in the catalog; this page only holds live stars not yet written into catalog.json.
 
 ## Stars
-
-- [rustrak/rustrak](https://github.com/rustrak/rustrak) · review needed: Self-hosted, open-source Sentry alternative in Rust.
