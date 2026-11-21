@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1663,
+  "repository_count": 1664,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 1
     }
   ],
   "repositories": [
@@ -5343,7 +5349,7 @@
       "id": "R_kgDOVp0Log",
       "name": "FrigadeHQ/yogurt",
       "url": "https://github.com/FrigadeHQ/yogurt",
-      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "description": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
@@ -8087,7 +8093,7 @@
       "id": "R_kgDOVKgi0A",
       "name": "Leonxlnx/earshot",
       "url": "https://github.com/Leonxlnx/earshot",
-      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "description": "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source.",
       "category": "Voice, Audio & Music",
       "category_id": "category_09",
       "archived": false,
@@ -13088,6 +13094,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQ-7cQw",
+      "name": "rustrak/rustrak",
+      "url": "https://github.com/rustrak/rustrak",
+      "description": "Self-hosted, open-source Sentry alternative in Rust. Error tracking, performance, logs and AI agent traces in one small container that works with the Sentry SDKs. SQLite or PostgreSQL.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOHL9Grg",
       "name": "ruucm/shadergradient",
       "url": "https://github.com/ruucm/shadergradient",
@@ -14155,7 +14171,7 @@
       "id": "R_kgDORpCz1g",
       "name": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
-      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,

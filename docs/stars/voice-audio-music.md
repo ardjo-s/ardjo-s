@@ -24,7 +24,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [jamiepine/voicebox](https://github.com/jamiepine/voicebox): The open-source AI voice studio.
 - [jyoutir/thinkur](https://github.com/jyoutir/thinkur): Dictation &amp; Meeting recording MacOS app.
 - [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi): Moshi is a speech-text foundation model and full-duplex spoken dialogue framework.
-- [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot): Ears for coding agents: let AI hear, review and make sound.
+- [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot): Sound effects for coding agents: ask in plain words and earshot renders the sound in code.
 - [Lesur-ai/transkryptor](https://github.com/Lesur-ai/transkryptor): Transkryptor est une application web sophistiquée conçue pour faciliter la transcription de fichiers audio Apple M4A, l'analyse des transcriptions, et la génération de synthèses.
 - [librosa/librosa](https://github.com/librosa/librosa): Python library for audio and music analysis.
 - [lucataco/superkeet](https://github.com/lucataco/superkeet): macOS app for voice-to-text.

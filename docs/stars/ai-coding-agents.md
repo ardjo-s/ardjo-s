@@ -91,7 +91,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [snarktank/antfarm](https://github.com/snarktank/antfarm): Build your agent team in OpenClaw with one command.
 - [snarktank/compound-product](https://github.com/snarktank/compound-product) · review needed: A self-improving product system that reads reports, identifies priorities, and autonomously implements fixes.
 - [snarktank/ralph](https://github.com/snarktank/ralph): Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
-- [stablyai/orca](https://github.com/stablyai/orca): Orca lets you run a fleet of coding agents (e.g.
+- [stablyai/orca](https://github.com/stablyai/orca): Orca lets you run a fleet of bots with your own subscription (e.g.
 - [standardagents/dmux](https://github.com/standardagents/dmux): A dev agent multiplexer for git worktrees and coding agents.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode): AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
 - [thruwire/foreman](https://github.com/thruwire/foreman) · review needed: An agent supervisor and software factory foreman powered by decision models.
