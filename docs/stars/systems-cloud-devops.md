@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**38 repositories.** [Browse all categories →](README.md)
+**39 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -29,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [hetznercloud/cli](https://github.com/hetznercloud/cli): A command-line interface for Hetzner Cloud.
 - [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design): Learn how to design systems at scale and prepare for system design interviews.
 - [linear/linear-release](https://github.com/linear/linear-release): CLI to automatically track releases in Linear.
+- [MapleTechLabs/maple](https://github.com/MapleTechLabs/maple): OpenTelemetry observability platform.
 - [Melvynx/portly](https://github.com/Melvynx/portly): One native macOS supervisor for every local development server.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) · review needed: Monoscope lets you ingest and explore your logs, traces and metrics.
 - [oblien/openship](https://github.com/oblien/openship): Self-hosted deployment platform.

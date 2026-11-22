@@ -79,7 +79,7 @@
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 83
+      "count": 84
     },
     {
       "id": "category_12",
@@ -103,7 +103,7 @@
       "id": "category_15",
       "name": "Systems, Cloud & DevOps",
       "slug": "systems-cloud-devops",
-      "count": 38
+      "count": 39
     },
     {
       "id": "category_16",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 44
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 3
+      "count": 45
     }
   ],
   "repositories": [
@@ -6960,10 +6954,12 @@
       "name": "ItsNotRexed/Leonida",
       "url": "https://github.com/ItsNotRexed/Leonida",
       "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUIOswg",
@@ -8800,10 +8796,12 @@
       "name": "MapleTechLabs/maple",
       "url": "https://github.com/MapleTechLabs/maple",
       "description": "OpenTelemetry observability platform",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ2MTcxNQ==",
@@ -17006,10 +17004,12 @@
       "name": "zacharytgray/HyprMac",
       "url": "https://github.com/zacharytgray/HyprMac",
       "description": "Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORRDicw",
