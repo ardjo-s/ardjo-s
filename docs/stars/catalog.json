@@ -11990,6 +11990,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOPrEI7g",
+      "name": "Gaurav-Gosain/tuios",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
+      "category": "category_25",
+      "purpose": "A terminal window manager that knows what your agents are doing",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Gaurav-Gosain/tuios",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOUOIEeg",
       "name": "Gen-Verse/JEPA-Anything",
       "url": "https://github.com/Gen-Verse/JEPA-Anything",
@@ -18657,6 +18676,27 @@
       "evidence_url": "https://github.com/m-bain/whisperX/blob/main/README.md",
       "evidence_read_at": "2026-11-15",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
+    },
+    {
+      "id": "R_kgDOJr231A",
+      "name": "m1guelpf/cog-rust",
+      "url": "https://github.com/m1guelpf/cog-rust",
+      "description": "Rust containers for machine learning.",
+      "category": "category_26",
+      "purpose": "Rust containers for machine learning",
+      "keywords": [
+        "Rust"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Cog[-rust]: Containers for machine learning Cog is an open-source tool that lets you package Rust ML models in a standard, production-ready container.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/m1guelpf/cog-rust/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOV2P1Zg",
@@ -31187,6 +31227,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOV2L_hA",
+      "name": "sshkeda/minecraft-server-on-orange-cloud",
+      "url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+      "description": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
+      "category": "category_23",
+      "purpose": "Run a Minecraft Java server entirely on Cloudflare",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk1MjY3MTcyMA==",
