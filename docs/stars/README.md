@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,690 public repositories across 26 Sol categories plus 7 unsorted.**
+**1,690 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -18,7 +18,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
 - [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 133 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
-- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 83 repositories
+- [🔌 Agent Tools & Environments](agent-tools-environments.md) · 84 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
 - [💭 AI Memory, Context & RAG](ai-memory-context-rag.md) · 58 repositories
   - Memory, context management, semantic retrieval and RAG for AI systems.
@@ -33,11 +33,11 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Creative Tools & Interfaces
 
-- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 37 repositories
+- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 38 repositories
   - Speech, dictation, transcription, audio processing and music.
 - [🎬 Image, Video & Presentations](image-video-presentations.md) · 120 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 160 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 164 repositories
   - UI components, design systems, typography, prototyping and product design.
 - [🎮 Games & 3D](games-3d.md) · 84 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 45 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 46 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 7 repositories
-  - Public stars not yet classified in catalog.json.

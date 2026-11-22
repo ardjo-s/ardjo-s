@@ -25,7 +25,7 @@
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 83
+      "count": 84
     },
     {
       "id": "category_05",
@@ -61,7 +61,7 @@
       "id": "category_09",
       "name": "Voice, Audio & Music",
       "slug": "voice-audio-music",
-      "count": 37
+      "count": 38
     },
     {
       "id": "category_10",
@@ -73,7 +73,7 @@
       "id": "category_11",
       "name": "UI & Product Design",
       "slug": "ui-product-design",
-      "count": 160
+      "count": 164
     },
     {
       "id": "category_23",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 45
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 7
+      "count": 46
     }
   ],
   "repositories": [
@@ -502,10 +496,12 @@
       "name": "AdityaKodez/trazo",
       "url": "https://github.com/AdityaKodez/trazo",
       "description": "Hand-drawn crayon sticker SVGs for React and the web.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOVeWHNA",
@@ -1854,10 +1850,12 @@
       "name": "barronlroth/localwhisper",
       "url": "https://github.com/barronlroth/localwhisper",
       "description": "Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Voice, Audio & Music",
+      "category_id": "category_09",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOLkKqyg",
@@ -2036,10 +2034,12 @@
       "name": "bilalgursen/liquid-glass",
       "url": "https://github.com/bilalgursen/liquid-glass",
       "description": "Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUi9dtg",
@@ -10314,10 +10314,12 @@
       "name": "Nexvyn/Nexvyn-ui",
       "url": "https://github.com/Nexvyn/Nexvyn-ui",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOLu-4mQ",
@@ -10334,10 +10336,12 @@
       "name": "nhrbuilds/flashbrowse",
       "url": "https://github.com/nhrbuilds/flashbrowse",
       "description": "Token-compressed, AXTree-native headless browser and MCP server for AI agents. Sub-100ms CDP automation in pure Rust. Zero Python.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOMypITA",
@@ -11510,10 +11514,12 @@
       "name": "os6/nospeaker",
       "url": "https://github.com/os6/nospeaker",
       "description": "make your macbook's trackpad talk using its haptic motor",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOPfbZuA",
@@ -13288,10 +13294,12 @@
       "name": "Runeicons/runeicons",
       "url": "https://github.com/Runeicons/runeicons",
       "description": "Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSA-8Yw",
