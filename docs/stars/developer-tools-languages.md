@@ -2,7 +2,7 @@
 
 > Languages, editors, terminals, Git tools and general developer resources.
 
-**82 repositories.** [Browse all categories →](README.md)
+**83 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -58,6 +58,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [markets/awesome-ruby](https://github.com/markets/awesome-ruby): 💎 A collection of awesome Ruby libraries, tools, frameworks and software.
 - [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme): A curated list of awesome READMEs.
 - [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift): A collaborative list of awesome Swift libraries and resources.
+- [mattt/plonge](https://github.com/mattt/plonge): Clean up after mise en place: find and safely delete developer caches.
 - [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) · review needed: Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.
 - [mhadidg/software-architecture-books](https://github.com/mhadidg/software-architecture-books): A comprehensive list of books on Software Architecture.
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript): TypeScript is a superset of JavaScript that compiles to clean JavaScript output.

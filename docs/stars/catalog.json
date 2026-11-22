@@ -3808,6 +3808,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVsfALw",
+      "name": "awslabs/codekb",
+      "url": "https://github.com/awslabs/codekb",
+      "description": "",
+      "category": "category_01",
+      "purpose": "Auto-classified as AI Coding Agents.",
+      "keywords": [
+        "Python"
+      ],
+      "review_required": false,
+      "evidence_quote": "# CodeKB ## Code understanding for the world of autonomous software factories.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/awslabs/codekb/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORUfAsA",
       "name": "axeldelafosse/loop",
       "url": "https://github.com/axeldelafosse/loop",
@@ -8123,6 +8144,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUwirqQ",
+      "name": "dctanner/jelly",
+      "url": "https://github.com/dctanner/jelly",
+      "description": "A local-first workspace for persistent AI agents. Built with Bun, React, SQLite, and Pi.",
+      "category": "category_02",
+      "purpose": "A local-first workspace for persistent AI agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A local-first workspace for persistent AI agents. Built with Bun, React, SQLite, and Pi.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/dctanner/jelly",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORR71uQ",
       "name": "ddalcu/mlx-serve",
       "url": "https://github.com/ddalcu/mlx-serve",
@@ -9604,6 +9644,25 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDOV2sUSw",
+      "name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "category": "category_01",
+      "purpose": "Don't rewrite it in Rust",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/EL4CTEO/fast-anything",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORwsEgA",
       "name": "elder-plinius/G0DM0D3",
       "url": "https://github.com/elder-plinius/G0DM0D3",
@@ -10867,6 +10926,25 @@
       "evidence_url": "https://github.com/fayazara/Lotion",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOSNOZrA",
+      "name": "fayazara/Screendrop",
+      "url": "https://github.com/fayazara/Screendrop",
+      "description": "A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.",
+      "category": "category_10",
+      "purpose": "A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/fayazara/Screendrop",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44972292619",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOR2Vvjw",
@@ -12553,6 +12631,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV2UUJw",
+      "name": "gogoymh/git-ontology-agent",
+      "url": "https://github.com/gogoymh/git-ontology-agent",
+      "description": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge. OpenAI, Anthropic, Gemini, xAI, Meta, OpenRouter + Typesafe Jev, OpenAI, Gemini, Cloudflare decision models.",
+      "category": "category_01",
+      "purpose": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge. OpenAI, Anthropic, Gemini, xAI, Meta, OpenRouter + Typesafe Jev, OpenAI, Gemini, Cloudflare decision models.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/gogoymh/git-ontology-agent",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOQ-j4eQ",
       "name": "gokapso/agent-skills",
       "url": "https://github.com/gokapso/agent-skills",
@@ -13930,6 +14027,25 @@
       "evidence_url": "https://github.com/heynickc/awesome-ddd",
       "evidence_read_at": "2026-11-15",
       "classification_source": "human:2026-11-15"
+    },
+    {
+      "id": "R_kgDOJlsYmg",
+      "name": "hiddify/hiddify-app",
+      "url": "https://github.com/hiddify/hiddify-app",
+      "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
+      "category": "category_18",
+      "purpose": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/hiddify/hiddify-app",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOVSH7Bw",
@@ -18543,6 +18659,25 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
+      "id": "R_kgDOV2P1Zg",
+      "name": "m1guelpf/Exo",
+      "url": "https://github.com/m1guelpf/Exo",
+      "description": "A fast, local and native Gmail client for macOS, inspired by Superhuman.",
+      "category": "category_19",
+      "purpose": "A fast, local and native Gmail client for macOS, inspired by Superhuman",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A fast, local and native Gmail client for macOS, inspired by Superhuman.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/m1guelpf/Exo",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOR2t32Q",
       "name": "maaslalani/sheets",
       "url": "https://github.com/maaslalani/sheets",
@@ -19089,6 +19224,28 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVmWRwA",
+      "name": "mattt/plonge",
+      "url": "https://github.com/mattt/plonge",
+      "description": "Clean up after mise en place: find and safely delete developer caches",
+      "category": "category_13",
+      "purpose": "Clean up after mise en place: find and safely delete developer caches",
+      "keywords": [
+        "mise",
+        "Go"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Plonge Developer tools and coding agents fill a disk with caches.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mattt/plonge/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxMjIwNDE0Nw==",
@@ -20490,6 +20647,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVjbpow",
+      "name": "mitaku/andon",
+      "url": "https://github.com/mitaku/andon",
+      "description": "A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+      "category": "category_01",
+      "purpose": "A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mitaku/andon",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOUlqyUg",
@@ -27416,6 +27592,25 @@
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43705077650"
     },
     {
+      "id": "R_kgDOVz3BDQ",
+      "name": "replit/amuse",
+      "url": "https://github.com/replit/amuse",
+      "description": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
+      "category": "category_02",
+      "purpose": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/replit/amuse",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVxKUyA",
       "name": "replit/datacat",
       "url": "https://github.com/replit/datacat",
@@ -31445,6 +31640,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVeM_1A",
+      "name": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "category": "category_01",
+      "purpose": "Craft Anything: understand how any software works, and craft your own",
+      "keywords": [
+        "Rust"
+      ],
+      "review_required": false,
+      "evidence_quote": "Craft Anything English · 日本語 · 简体中文 · 繁體中文 · 한국어 · Español · Français · Tiếng Việt · Português · ไทย · Türkçe See how any website, app or game works, then have AI build your own version; an open-source, clean-room engine in pure Rust.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/storytold/craft-anything/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVCsftA",
       "name": "storytold/figcraft",
       "url": "https://github.com/storytold/figcraft",
@@ -31692,6 +31908,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOKqY6Jw",
+      "name": "superlinked/sie",
+      "url": "https://github.com/superlinked/sie",
+      "description": "Open-source inference server and production cluster for all the models your agent needs.",
+      "category": "category_07",
+      "purpose": "Open-source inference server and production cluster for all the models your agent needs",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source inference server and production cluster for all the models your agent needs.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/superlinked/sie",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/44972292619",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOLY4afw",

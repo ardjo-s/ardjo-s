@@ -7,13 +7,13 @@
       "id": "category_01",
       "name": "AI Coding Agents",
       "slug": "ai-coding-agents",
-      "count": 97
+      "count": 102
     },
     {
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 105
+      "count": 107
     },
     {
       "id": "category_03",
@@ -43,7 +43,7 @@
       "id": "category_07",
       "name": "AI Inference & Gateways",
       "slug": "ai-inference-gateways",
-      "count": 48
+      "count": 49
     },
     {
       "id": "category_08",
@@ -67,7 +67,7 @@
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 119
+      "count": 120
     },
     {
       "id": "category_11",
@@ -91,7 +91,7 @@
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 82
+      "count": 83
     },
     {
       "id": "category_14",
@@ -121,13 +121,13 @@
       "id": "category_18",
       "name": "Security, Privacy & Identity",
       "slug": "security-privacy-identity",
-      "count": 46
+      "count": 47
     },
     {
       "id": "category_19",
       "name": "Knowledge & Productivity",
       "slug": "knowledge-productivity",
-      "count": 133
+      "count": 134
     },
     {
       "id": "category_20",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 12
     }
   ],
   "repositories": [
@@ -1772,10 +1766,12 @@
       "name": "awslabs/codekb",
       "url": "https://github.com/awslabs/codekb",
       "description": "",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDORUfAsA",
@@ -3734,10 +3730,12 @@
       "name": "dctanner/jelly",
       "url": "https://github.com/dctanner/jelly",
       "description": "A local-first workspace for persistent AI agents. Built with Bun, React, SQLite, and Pi.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORR71uQ",
@@ -4412,10 +4410,12 @@
       "name": "EL4CTEO/fast-anything",
       "url": "https://github.com/EL4CTEO/fast-anything",
       "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORwsEgA",
@@ -5026,10 +5026,12 @@
       "name": "fayazara/Screendrop",
       "url": "https://github.com/fayazara/Screendrop",
       "description": "A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOR2Vvjw",
@@ -5778,10 +5780,12 @@
       "name": "gogoymh/git-ontology-agent",
       "url": "https://github.com/gogoymh/git-ontology-agent",
       "description": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge. OpenAI, Anthropic, Gemini, xAI, Meta, OpenRouter + Typesafe Jev, OpenAI, Gemini, Cloudflare decision models.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOQ-j4eQ",
@@ -6408,10 +6412,12 @@
       "name": "hiddify/hiddify-app",
       "url": "https://github.com/hiddify/hiddify-app",
       "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Security, Privacy & Identity",
+      "category_id": "category_18",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVSH7Bw",
@@ -8606,10 +8612,12 @@
       "name": "m1guelpf/Exo",
       "url": "https://github.com/m1guelpf/Exo",
       "description": "A fast, local and native Gmail client for macOS, inspired by Superhuman.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Knowledge & Productivity",
+      "category_id": "category_19",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOR2t32Q",
@@ -8896,10 +8904,12 @@
       "name": "mattt/plonge",
       "url": "https://github.com/mattt/plonge",
       "description": "Clean up after mise en place: find and safely delete developer caches",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxMjIwNDE0Nw==",
@@ -9546,10 +9556,12 @@
       "name": "mitaku/andon",
       "url": "https://github.com/mitaku/andon",
       "description": "A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUlqyUg",
@@ -12736,10 +12748,12 @@
       "name": "replit/amuse",
       "url": "https://github.com/replit/amuse",
       "description": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOVxKUyA",
@@ -14490,10 +14504,12 @@
       "name": "storytold/craft-anything",
       "url": "https://github.com/storytold/craft-anything",
       "description": "Craft Anything: understand how any software works, and craft your own.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Coding Agents",
+      "category_id": "category_01",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOVCsftA",
@@ -14614,10 +14630,12 @@
       "name": "superlinked/sie",
       "url": "https://github.com/superlinked/sie",
       "description": "Open-source inference server and production cluster for all the models your agent needs.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Inference & Gateways",
+      "category_id": "category_07",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOLY4afw",

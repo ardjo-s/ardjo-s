@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**119 repositories.** [Browse all categories →](README.md)
+**120 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -38,6 +38,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [dtinth/superwhite](https://github.com/dtinth/superwhite): display a very bright white color on HDR-enabled displays.
 - [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot): Create Reddit Videos with just✨ one command ✨.
 - [enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing) · review needed: Create Apple style dimensional drawings of UI components.
+- [fayazara/Screendrop](https://github.com/fayazara/Screendrop): A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.
 - [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg): Mirror of https://git.ffmpeg.org/ffmpeg.git.
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo): Make videos on the computer you already own.
 - [Forward-Future/scarlet](https://github.com/Forward-Future/scarlet): Scarlet is an AI video editor for macOS and Windows.
