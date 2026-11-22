@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1683,
+  "repository_count": 1690,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 45
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 7
     }
   ],
   "repositories": [
@@ -488,6 +494,16 @@
       "description": "Visualize and analyze GitHub or local repositories using LLM-friendly summaries, file structure, and interactive dependency graphs.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVz3KZA",
+      "name": "AdityaKodez/trazo",
+      "url": "https://github.com/AdityaKodez/trazo",
+      "description": "Hand-drawn crayon sticker SVGs for React and the web.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1834,6 +1850,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV3WngA",
+      "name": "barronlroth/localwhisper",
+      "url": "https://github.com/barronlroth/localwhisper",
+      "description": "Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOLkKqyg",
       "name": "BasedHardware/omi",
       "url": "https://github.com/BasedHardware/omi",
@@ -2002,6 +2028,16 @@
       "description": "Annuaire en français des moyens de financer un projet libre, hors sponsors classiques. Sources citées.",
       "category": "Finance, Legal & Business Operations",
       "category_id": "category_21",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVcakMQ",
+      "name": "bilalgursen/liquid-glass",
+      "url": "https://github.com/bilalgursen/liquid-glass",
+      "description": "Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10274,12 +10310,32 @@
       "fork": false
     },
     {
+      "id": "R_kgDOP5foHw",
+      "name": "Nexvyn/Nexvyn-ui",
+      "url": "https://github.com/Nexvyn/Nexvyn-ui",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOLu-4mQ",
       "name": "Neywa-Labs/mlx-vlm",
       "url": "https://github.com/Neywa-Labs/mlx-vlm",
       "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVmu3-w",
+      "name": "nhrbuilds/flashbrowse",
+      "url": "https://github.com/nhrbuilds/flashbrowse",
+      "description": "Token-compressed, AXTree-native headless browser and MCP server for AI agents. Sub-100ms CDP automation in pure Rust. Zero Python.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -11446,6 +11502,16 @@
       "description": "",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV3iQ2Q",
+      "name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13214,6 +13280,16 @@
       "description": "Awesome list of open-source startup alternatives to well-known SaaS products 🚀",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORUefZA",
+      "name": "Runeicons/runeicons",
+      "url": "https://github.com/Runeicons/runeicons",
+      "description": "Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
