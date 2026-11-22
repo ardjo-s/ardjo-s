@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1665,
+  "repository_count": 1677,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 43
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 12
     }
   ],
   "repositories": [
@@ -1758,6 +1764,16 @@
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVsfALw",
+      "name": "awslabs/codekb",
+      "url": "https://github.com/awslabs/codekb",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3714,6 +3730,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUwirqQ",
+      "name": "dctanner/jelly",
+      "url": "https://github.com/dctanner/jelly",
+      "description": "A local-first workspace for persistent AI agents. Built with Bun, React, SQLite, and Pi.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORR71uQ",
       "name": "ddalcu/mlx-serve",
       "url": "https://github.com/ddalcu/mlx-serve",
@@ -4382,6 +4408,16 @@
       "classification_rounds": 1
     },
     {
+      "id": "R_kgDOV2sUSw",
+      "name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORwsEgA",
       "name": "elder-plinius/G0DM0D3",
       "url": "https://github.com/elder-plinius/G0DM0D3",
@@ -4982,6 +5018,16 @@
       "description": "A local notes app",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOSNOZrA",
+      "name": "fayazara/Screendrop",
+      "url": "https://github.com/fayazara/Screendrop",
+      "description": "A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5728,6 +5774,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV2UUJw",
+      "name": "gogoymh/git-ontology-agent",
+      "url": "https://github.com/gogoymh/git-ontology-agent",
+      "description": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge. OpenAI, Anthropic, Gemini, xAI, Meta, OpenRouter + Typesafe Jev, OpenAI, Gemini, Cloudflare decision models.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQ-j4eQ",
       "name": "gokapso/agent-skills",
       "url": "https://github.com/gokapso/agent-skills",
@@ -6348,6 +6404,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOJlsYmg",
+      "name": "hiddify/hiddify-app",
+      "url": "https://github.com/hiddify/hiddify-app",
+      "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVSH7Bw",
       "name": "hieunc229/mailflare-macos",
       "url": "https://github.com/hieunc229/mailflare-macos",
@@ -6688,6 +6754,16 @@
       "description": "Adaptive Test-time Learning and Autonomous Specialization",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOU3GlmA",
+      "name": "InfiniEvolve/TraceVista",
+      "url": "https://github.com/InfiniEvolve/TraceVista",
+      "description": "Understand Your Agents. Turn agent logs into interactive maps and stories. Explore decisions, replay the work, and get answers linked to the original evidence. For coding, research, and creative workflows.",
+      "category": "AI Evaluation & Observability",
+      "category_id": "category_08",
       "archived": false,
       "fork": false
     },
@@ -8526,6 +8602,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV2P1Zg",
+      "name": "m1guelpf/Exo",
+      "url": "https://github.com/m1guelpf/Exo",
+      "description": "A fast, local and native Gmail client for macOS, inspired by Superhuman.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR2t32Q",
       "name": "maaslalani/sheets",
       "url": "https://github.com/maaslalani/sheets",
@@ -8802,6 +8888,16 @@
       "description": "Turn TUI apps into real macOS applications",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVmWRwA",
+      "name": "mattt/plonge",
+      "url": "https://github.com/mattt/plonge",
+      "description": "Clean up after mise en place: find and safely delete developer caches",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9442,6 +9538,16 @@
       "description": "Expo app that builds Expo apps. Expo x STRV Hackathon winner.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVjbpow",
+      "name": "mitaku/andon",
+      "url": "https://github.com/mitaku/andon",
+      "description": "A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12626,6 +12732,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVz3BDQ",
+      "name": "replit/amuse",
+      "url": "https://github.com/replit/amuse",
+      "description": "Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVxKUyA",
       "name": "replit/datacat",
       "url": "https://github.com/replit/datacat",
@@ -14370,6 +14486,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVeM_1A",
+      "name": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVCsftA",
       "name": "storytold/figcraft",
       "url": "https://github.com/storytold/figcraft",
@@ -14484,22 +14610,22 @@
       "fork": false
     },
     {
+      "id": "R_kgDOKqY6Jw",
+      "name": "superlinked/sie",
+      "url": "https://github.com/superlinked/sie",
+      "description": "Open-source inference server and production cluster for all the models your agent needs.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOLY4afw",
       "name": "supermemoryai/supermemory",
       "url": "https://github.com/supermemoryai/supermemory",
       "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
-      "archived": false,
-      "fork": false
-    },
-    {
-      "id": "R_kgDOU3GlmA",
-      "name": "Superone77/TraceVista",
-      "url": "https://github.com/Superone77/TraceVista",
-      "description": "Understand Your Agents. Turn agent logs into interactive maps and stories. Explore decisions, replay the work, and get answers linked to the original evidence. For coding, research, and creative workflows.",
-      "category": "AI Evaluation & Observability",
-      "category_id": "category_08",
       "archived": false,
       "fork": false
     },

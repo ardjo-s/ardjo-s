@@ -27,6 +27,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [getagentseal/codeburn](https://github.com/getagentseal/codeburn): Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task.
 - [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss): 🐢 Open-Source Evaluation &amp; Testing library for LLM Agents.
 - [Helicone/helicone](https://github.com/Helicone/helicone): 🧊 Open source LLM observability platform.
+- [InfiniEvolve/TraceVista](https://github.com/InfiniEvolve/TraceVista): Understand Your Agents.
 - [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 🛰️ Track token usage across AI coding agents from your terminal.
 - [langfuse/langfuse](https://github.com/langfuse/langfuse): 🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry.
 - [langwatch/langwatch](https://github.com/langwatch/langwatch): Open-Source Agent Observability &amp; Evals for AI Platform teams.
@@ -45,7 +46,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [soulduse/ai-token-monitor](https://github.com/soulduse/ai-token-monitor): macOS menu bar app for tracking Claude Code token usage and costs.
 - [steipete/CodexBar](https://github.com/steipete/CodexBar): Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [stevibe/BenchLocal](https://github.com/stevibe/BenchLocal): Test LLMs on real tasks.
-- [Superone77/TraceVista](https://github.com/Superone77/TraceVista): Understand Your Agents.
 - [sylearn/AIUsage](https://github.com/sylearn/AIUsage): One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.
 - [ThiloReintjes/tinybar](https://github.com/ThiloReintjes/tinybar): A lighter, from-scratch alternative to CodexBar: Claude, Codex, Gemini, Cursor, OpenCode Go and Copilot limits, token history and API-equivalent cost.
 - [tinybirdco/llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker): Starred repository.
