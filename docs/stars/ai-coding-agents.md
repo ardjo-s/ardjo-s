@@ -2,7 +2,7 @@
 
 > AI agents whose primary job is building and maintaining software.
 
-**97 repositories.** [Browse all categories →](README.md)
+**102 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,6 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anomalyco/opencode](https://github.com/anomalyco/opencode): The open source coding agent.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code): Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) · review needed: Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
+- [awslabs/codekb](https://github.com/awslabs/codekb): Starred repository.
 - [axeldelafosse/loop](https://github.com/axeldelafosse/loop): Dead-simple Bun CLI that runs Codex and Claude Code in a loop.
 - [bastani-inc/atomic](https://github.com/bastani-inc/atomic): The verifiable coding agent runtime.
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi): ⌥ Coding agent with the IDE wired in.
@@ -35,6 +36,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor): An app to monitor the (Codex) situation.
 - [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop): The safest, simplest way to manage Hermes from your Mac.
 - [dominikmartn/harp](https://github.com/dominikmartn/harp): Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you.
+- [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything): Don't rewrite it in Rust.
 - [Emanuele-web04/remodex](https://github.com/Emanuele-web04/remodex): Remote Control for Codex.
 - [Emanuele-web04/synara](https://github.com/Emanuele-web04/synara): The best place to build with your AI sub.
 - [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) · archived: A reliable coding agent for complex software engineering tasks.
@@ -47,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [get-bb/bb](https://github.com/get-bb/bb): The agent IDE that builds itself.
 - [getpaseo/paseo](https://github.com/getpaseo/paseo): Orchestrate multiple coding agents from desktop and mobile.
 - [goat-si/goat](https://github.com/goat-si/goat): GOAT: one control surface for Claude Code, Codex, Cursor and more, across your machines.
+- [gogoymh/git-ontology-agent](https://github.com/gogoymh/git-ontology-agent): Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge.
 - [gragland/codex-imessage-handoff](https://github.com/gragland/codex-imessage-handoff): Work from iMessage baby.
 - [hardbeat920/monocode](https://github.com/hardbeat920/monocode): A GUI for your coding agents.
 - [herdrdev/herdr](https://github.com/herdrdev/herdr): the runtime your coding agents live on.
@@ -66,6 +69,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle): Orchestrate sandboxed coding agents in TypeScript with sandcastle.run().
 - [migasrias2/geckobox](https://github.com/migasrias2/geckobox): Run Claude Code, Codex or any coding agent on any of your computers, and jobs across all of them at once.
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe): Expo app that builds Expo apps.
+- [mitaku/andon](https://github.com/mitaku/andon): A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.
 - [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) · archived · review needed: [Archived] Legacy Python Kimi CLI, no longer maintained.
 - [multica-ai/multica](https://github.com/multica-ai/multica): Make humans and AI agents work as one team — open-source and self-hostable.
 - [nuphos/nuphos](https://github.com/nuphos/nuphos): Open-source Grok Bot alternative for teams.
@@ -93,6 +97,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [snarktank/ralph](https://github.com/snarktank/ralph): Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
 - [stablyai/orca](https://github.com/stablyai/orca): Orca lets you run a fleet of bots with your own subscription (e.g.
 - [standardagents/dmux](https://github.com/standardagents/dmux): A dev agent multiplexer for git worktrees and coding agents.
+- [storytold/craft-anything](https://github.com/storytold/craft-anything): Craft Anything: understand how any software works, and craft your own.
 - [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode): AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models.
 - [thruwire/foreman](https://github.com/thruwire/foreman) · review needed: An agent supervisor and software factory foreman powered by decision models.
 - [Twigpine/openclaude](https://github.com/Twigpine/openclaude): runs anywhere.

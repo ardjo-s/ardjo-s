@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**46 repositories.** [Browse all categories →](README.md)
+**47 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -27,6 +27,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking): A collection of various awesome lists for hackers, pentesters and security researchers.
 - [heycupola/relic](https://github.com/heycupola/relic): End-to-end encrypted secrets for developers and AI agents.
 - [heyderekj/slinky](https://github.com/heyderekj/slinky): Slinky keeps secrets out of files.
+- [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app): Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc.
 - [Infisical/agent-vault](https://github.com/Infisical/agent-vault): A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
 - [JamesANZ/JevPromptShield](https://github.com/JamesANZ/JevPromptShield): Protect LLM agents against malicious prompts using JEV.
 - [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist): 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026.

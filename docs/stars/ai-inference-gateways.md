@@ -2,7 +2,7 @@
 
 > Inference runtimes, model servers, API gateways and request routing.
 
-**48 repositories.** [Browse all categories →](README.md)
+**49 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -49,6 +49,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [software-mansion/react-native-executorch](https://github.com/software-mansion/react-native-executorch): High-performance, privacy-first on-device AI inference library for React Native, powered by PyTorch's ExecuTorch runtime.
 - [Soju06/codex-lb](https://github.com/Soju06/codex-lb): Codex/ChatGPT multiple account load balancer &amp; proxy with usage tracking, dashboard, and OpenCode-compatible endpoints.
 - [standardagents/composer-api](https://github.com/standardagents/composer-api): OpenAI-compatible API proxy for Cursor Composer.
+- [superlinked/sie](https://github.com/superlinked/sie): Open-source inference server and production cluster for all the models your agent needs.
 - [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim): Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.
 - [sybil-solutions/qwen38-b70](https://github.com/sybil-solutions/qwen38-b70) · archived: Starred repository.
 - [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi): 10.1 billion tokens per month.

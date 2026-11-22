@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**105 repositories.** [Browse all categories →](README.md)
+**107 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -33,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
 - [crabtalk/cydonia](https://github.com/crabtalk/cydonia): Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported.
 - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): Framework for orchestrating role-playing, autonomous AI agents.
+- [dctanner/jelly](https://github.com/dctanner/jelly): A local-first workspace for persistent AI agents.
 - [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo): Chat Demo.
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): DeepSeek Harness: Everything is a Plugin.
 - [earendil-works/pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI.
@@ -88,6 +89,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [plannotator/talkto](https://github.com/plannotator/talkto): Message boards for AI agents.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
+- [replit/amuse](https://github.com/replit/amuse): Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions.
 - [rerun-build/rerun](https://github.com/rerun-build/rerun): AI coworkers that run your work.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang): Open-source Agent Operating System.
 - [rome-os/rome](https://github.com/rome-os/rome): A compounding agent OS for recursive agents.
