@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1680,
+  "repository_count": 1683,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 44
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 3
     }
   ],
   "repositories": [
@@ -375,7 +381,7 @@
       "id": "R_kgDOTIqiAg",
       "name": "abue-ammar/tinycast",
       "url": "https://github.com/abue-ammar/tinycast",
-      "description": "A native macOS launcher for everyday productivity. Lightweight and open source.",
+      "description": "A native macOS launcher built for productivity. Fast, lightweight, and open source.",
       "category": "Browsers, Desktop & Device Utilities",
       "category_id": "category_25",
       "archived": false,
@@ -6950,6 +6956,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV18tqA",
+      "name": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOUIOswg",
       "name": "ItsssssJack/SlopMonster",
       "url": "https://github.com/ItsssssJack/SlopMonster",
@@ -8776,6 +8792,16 @@
       "description": "A community-maintained Python framework for creating mathematical animations. ",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORQ8P6g",
+      "name": "MapleTechLabs/maple",
+      "url": "https://github.com/MapleTechLabs/maple",
+      "description": "OpenTelemetry observability platform",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -16567,7 +16593,7 @@
       "id": "R_kgDOSP2RaA",
       "name": "wlsdks/ontology-atlas",
       "url": "https://github.com/wlsdks/ontology-atlas",
-      "description": "Understand what your codebase builds, why it is structured that way, and what a change could affect.  One shared Markdown ontology for humans and coding agents—visualized for people, accessible to agents through MCP, and reviewed with Git.  Local-first. Open source.",
+      "description": "A map of what your code does and why, kept as Markdown in your repository and read by both you and your coding agent. A macOS app with a built-in MCP server for Claude Code, Codex and Cursor. Local-first: no account, no server. Open source.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -16972,6 +16998,16 @@
       "description": "ALL IN ONE Hacking Tool For Hackers",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOR2Z5xA",
+      "name": "zacharytgray/HyprMac",
+      "url": "https://github.com/zacharytgray/HyprMac",
+      "description": "Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

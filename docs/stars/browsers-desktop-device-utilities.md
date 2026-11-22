@@ -11,7 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): A native macOS launcher for everyday productivity.
+- [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): A native macOS launcher built for productivity.
 - [acsandmann/rift](https://github.com/acsandmann/rift): a tiling window manager for macos.
 - [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi): ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
 - [aspauldingcode/macwmfx](https://github.com/aspauldingcode/macwmfx): mac window manager effects.
