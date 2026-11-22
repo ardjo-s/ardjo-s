@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**44 repositories.** [Browse all categories →](README.md)
+**45 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -54,4 +54,5 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils): Free and open-source macOS menu bar toolkit.
 - [xevrion/hatchzip](https://github.com/xevrion/hatchzip): HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only.
 - [yetanotherbrowser/yab](https://github.com/yetanotherbrowser/yab): Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion.
+- [zacharytgray/HyprMac](https://github.com/zacharytgray/HyprMac): Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on.
 - [Zesty0wl/mac-performance-monitor](https://github.com/Zesty0wl/mac-performance-monitor): A diagnostic performance logging utility for macOS: logs CPU, memory, GPU, network, and battery from the menu bar to help detect and diagnose performance issues.

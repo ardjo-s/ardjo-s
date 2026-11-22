@@ -15148,6 +15148,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV18tqA",
+      "name": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "category": "category_23",
+      "purpose": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/ItsNotRexed/Leonida",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOUIOswg",
       "name": "ItsssssJack/SlopMonster",
       "url": "https://github.com/ItsssssJack/SlopMonster",
@@ -18985,6 +19004,27 @@
       "evidence_url": "https://github.com/ManimCommunity/manim/blob/main/README.md",
       "evidence_read_at": "2026-11-15",
       "classification_source": "jev:2026-11-15"
+    },
+    {
+      "id": "R_kgDORQ8P6g",
+      "name": "MapleTechLabs/maple",
+      "url": "https://github.com/MapleTechLabs/maple",
+      "description": "OpenTelemetry observability platform",
+      "category": "category_15",
+      "purpose": "OpenTelemetry observability platform",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "Open-source observability for traces, logs metrics, built on OpenTelemetry and ClickHouse.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/MapleTechLabs/maple/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ2MTcxNQ==",
@@ -37094,6 +37134,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOR2Z5xA",
+      "name": "zacharytgray/HyprMac",
+      "url": "https://github.com/zacharytgray/HyprMac",
+      "description": "Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on",
+      "category": "category_25",
+      "purpose": "Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Hyprland-style tiling window manager for macOS: automatic dwindle (BSP) layout, 10 workspaces, keyboard-first, SIP stays on",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/zacharytgray/HyprMac",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45045090560",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORRDicw",

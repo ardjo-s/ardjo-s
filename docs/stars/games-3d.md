@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**83 repositories.** [Browse all categories →](README.md)
+**84 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -40,6 +40,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gokayfem/gaussian-splat-to-blender-nodes](https://github.com/gokayfem/gaussian-splat-to-blender-nodes): Agent skill and toolkit for reconstructing Gaussian splats as editable Blender Geometry Nodes meshes and Shader Node materials.
 - [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation): Open source c++ skeletal animation library and toolset.
 - [isaac-mason/crashcat](https://github.com/isaac-mason/crashcat): physics engine for javascript, built for games, simulations, and creative websites.
+- [ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida): Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6.
 - [JDhruv14/glyphform](https://github.com/JDhruv14/glyphform): Turn a photo into a living 3D figure drawn entirely in coloured ASCII letters (TypeScript, three.js, WebGL).
 - [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics): A multi core friendly rigid body physics and collision detection library.
 - [Leonxlnx/procedural-fire](https://github.com/Leonxlnx/procedural-fire): A fully procedural, physically based campfire in WebGPU: 3D combustion sim, blackbody rendering and synthesized sound.
