@@ -2,7 +2,7 @@
 
 > AI application SDKs, structured outputs, examples and engineering courses.
 
-**33 repositories.** [Browse all categories →](README.md)
+**34 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [huggingface/agents-course](https://github.com/huggingface/agents-course): This repository contains the Hugging Face Agents Course.
 - [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) · review needed: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?.
 - [karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero): Neural Networks: Zero to Hero.
+- [m1guelpf/cog-rust](https://github.com/m1guelpf/cog-rust): Rust containers for machine learning.
 - [MEGA-DOT-DEV/examples](https://github.com/MEGA-DOT-DEV/examples): Examples for the MEGA developer course.
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) · review needed: 18 Lessons to Get Started Building AI Agents.
 - [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners): 21 Lessons, Get Started Building with Generative AI.

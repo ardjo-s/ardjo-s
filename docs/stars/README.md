@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,680 public repositories across 26 Sol categories plus 3 unsorted.**
+**1,680 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -28,7 +28,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Inference runtimes, model servers, API gateways and request routing.
 - [📏 AI Evaluation & Observability](ai-evaluation-observability.md) · 45 repositories
   - AI evaluations, traces, diagnostics, token usage, costs and quotas.
-- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 33 repositories
+- [📚 AI Engineering & Learning](ai-engineering-learning.md) · 34 repositories
   - AI application SDKs, structured outputs, examples and engineering courses.
 
 ## Creative Tools & Interfaces
@@ -39,7 +39,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - Image and video creation, capture, editing, animation and presentations.
 - [🎨 UI & Product Design](ui-product-design.md) · 160 repositories
   - UI components, design systems, typography, prototyping and product design.
-- [🎮 Games & 3D](games-3d.md) · 82 repositories
+- [🎮 Games & 3D](games-3d.md) · 83 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 43 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 44 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 3 repositories
-  - Public stars not yet classified in catalog.json.

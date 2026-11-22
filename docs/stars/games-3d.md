@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**82 repositories.** [Browse all categories →](README.md)
+**83 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -80,6 +80,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [sloemo01/diorama](https://github.com/sloemo01/diorama): Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.
 - [speridlabs/idol-sdk](https://github.com/speridlabs/idol-sdk): Idol: a single image to 3D Gaussians.
 - [sprmn24/hermes-game-forge](https://github.com/sprmn24/hermes-game-forge): Starred repository.
+- [sshkeda/minecraft-server-on-orange-cloud](https://github.com/sshkeda/minecraft-server-on-orange-cloud): Run a Minecraft Java server entirely on Cloudflare.
 - [SubmitGame/awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games): Rated, auto-refreshed list of decompiled, recompiled &amp; reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.
 - [Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0): HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds.
 - [thecuvii/solaris](https://github.com/thecuvii/solaris): Starred repository.

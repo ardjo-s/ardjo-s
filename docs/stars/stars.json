@@ -55,7 +55,7 @@
       "id": "category_26",
       "name": "AI Engineering & Learning",
       "slug": "ai-engineering-learning",
-      "count": 33
+      "count": 34
     },
     {
       "id": "category_09",
@@ -79,7 +79,7 @@
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 82
+      "count": 83
     },
     {
       "id": "category_12",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 43
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 3
+      "count": 44
     }
   ],
   "repositories": [
@@ -5502,10 +5496,12 @@
       "name": "Gaurav-Gosain/tuios",
       "url": "https://github.com/Gaurav-Gosain/tuios",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOUOIEeg",
@@ -8628,10 +8624,12 @@
       "name": "m1guelpf/cog-rust",
       "url": "https://github.com/m1guelpf/cog-rust",
       "description": "Rust containers for machine learning.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Engineering & Learning",
+      "category_id": "category_26",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOV2P1Zg",
@@ -14326,10 +14324,12 @@
       "name": "sshkeda/minecraft-server-on-orange-cloud",
       "url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
       "description": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk1MjY3MTcyMA==",
