@@ -981,6 +981,30 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVz3KZA",
+      "name": "AdityaKodez/trazo",
+      "url": "https://github.com/AdityaKodez/trazo",
+      "description": "Hand-drawn crayon sticker SVGs for React and the web.",
+      "category": "category_11",
+      "purpose": "Hand-drawn crayon sticker SVGs for React and the web",
+      "keywords": [
+        "nextjs",
+        "stickers",
+        "website",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Trazo Hand-drawn crayon stickers for the web.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/AdityaKodez/trazo/blob/main/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOVeWHNA",
       "name": "AdityaUmale/rea-brand",
       "url": "https://github.com/AdityaUmale/rea-brand",
@@ -3954,6 +3978,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV3WngA",
+      "name": "barronlroth/localwhisper",
+      "url": "https://github.com/barronlroth/localwhisper",
+      "description": "Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching.",
+      "category": "category_09",
+      "purpose": "Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/barronlroth/localwhisper",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45075199093",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOLkKqyg",
       "name": "BasedHardware/omi",
       "url": "https://github.com/BasedHardware/omi",
@@ -4311,6 +4354,25 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVcakMQ",
+      "name": "bilalgursen/liquid-glass",
+      "url": "https://github.com/bilalgursen/liquid-glass",
+      "description": "Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics.",
+      "category": "category_11",
+      "purpose": "Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/bilalgursen/liquid-glass",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOUi9dtg",
@@ -22216,6 +22278,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOP5foHw",
+      "name": "Nexvyn/Nexvyn-ui",
+      "url": "https://github.com/Nexvyn/Nexvyn-ui",
+      "description": "",
+      "category": "category_11",
+      "purpose": "Auto-classified as UI & Product Design.",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Nexvyn UI Animated UI components with spring physics and fluid interactions.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Nexvyn/Nexvyn-ui/blob/master/README.md",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45075199093",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOLu-4mQ",
       "name": "Neywa-Labs/mlx-vlm",
       "url": "https://github.com/Neywa-Labs/mlx-vlm",
@@ -22247,6 +22330,25 @@
         "previous_alternative": "category_06",
         "previous_reason": "Le service et les optimisations d’inférence motivent category_07 ; le fine-tuning également documenté pourrait justifier category_06."
       }
+    },
+    {
+      "id": "R_kgDOVmu3-w",
+      "name": "nhrbuilds/flashbrowse",
+      "url": "https://github.com/nhrbuilds/flashbrowse",
+      "description": "Token-compressed, AXTree-native headless browser and MCP server for AI agents. Sub-100ms CDP automation in pure Rust. Zero Python.",
+      "category": "category_04",
+      "purpose": "Token-compressed, AXTree-native headless browser and MCP server for AI agents",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Token-compressed, AXTree-native headless browser and MCP server for AI agents. Sub-100ms CDP automation in pure Rust. Zero Python.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/nhrbuilds/flashbrowse",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOMypITA",
@@ -24760,6 +24862,25 @@
       "evidence_url": "https://github.com/Orva-Studio/beacon",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOV3iQ2Q",
+      "name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "category": "category_25",
+      "purpose": "make your macbook's trackpad talk using its haptic motor",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "make your macbook's trackpad talk using its haptic motor",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/os6/nospeaker",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOPfbZuA",
@@ -28651,6 +28772,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDORUefZA",
+      "name": "Runeicons/runeicons",
+      "url": "https://github.com/Runeicons/runeicons",
+      "description": "Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages ",
+      "category": "category_11",
+      "purpose": "Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Runeicons/runeicons",
+      "evidence_read_at": "2026-11-22",
+      "classification_source": "jev:2026-11-22",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOSA-8Yw",

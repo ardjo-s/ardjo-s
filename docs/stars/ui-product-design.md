@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**160 repositories.** [Browse all categories →](README.md)
+**164 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [0kzh/glisse](https://github.com/0kzh/glisse): iOS 26 Liquid Glass for the web.
 - [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui): Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
+- [AdityaKodez/trazo](https://github.com/AdityaKodez/trazo): Hand-drawn crayon sticker SVGs for React and the web.
 - [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios): An iOS library to natively render After Effects vector animations.
 - [alexburlis/glassyui](https://github.com/alexburlis/glassyui): Glass components for React and React Native.
 - [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems): 💅🏻 ⚒ A collection of awesome design systems.
@@ -28,6 +29,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [benjitaylor/liveline](https://github.com/benjitaylor/liveline): Real-time animated line chart for React.
 - [bergside/typeui](https://github.com/bergside/typeui): Build better UI with AI.
 - [bidyut10/opensourceui](https://github.com/bidyut10/opensourceui): Opensource UI: Free, open-source, and production-ready components for React and Next.js.
+- [bilalgursen/liquid-glass](https://github.com/bilalgursen/liquid-glass): Open-source glass controls for React: every button, switch and slider is a refracting WebGL lens with spring physics.
 - [bilune/jev-design](https://github.com/bilune/jev-design): Can a model design a dashboard? A console whose whole design system is generated at runtime by Jev from a one-sentence brief.
 - [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui): A curated list of awesome things related to shadcn/ui.
 - [bklit/bklit-ui](https://github.com/bklit/bklit-ui): Open-source UI &amp; Charts library.
@@ -107,6 +109,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft): An agent skill for building premium, immersive, scroll-driven websites.
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - [nexu-io/open-design](https://github.com/nexu-io/open-design): The 1st Collaborative AI Design Agent Workspace.
+- [Nexvyn/Nexvyn-ui](https://github.com/Nexvyn/Nexvyn-ui): Starred repository.
 - [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate): A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.
 - [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui): Animated components for design engineers.
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark): Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
@@ -131,6 +134,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [recharts/recharts](https://github.com/recharts/recharts) · review needed: Redefined chart library built with React and D3.
 - [resend/react-email](https://github.com/resend/react-email) · review needed: 💌 Build and send emails using React.
 - [ricocc/ricoui-blocks](https://github.com/ricocc/ricoui-blocks): RICOUI -  Animated React/HTML components、blocks、Templates.
+- [Runeicons/runeicons](https://github.com/Runeicons/runeicons): Open-source icon library: 900+ icons in five styles (outline, duotone, fill, pixelated, glass), a browser editor, 1,100+ brand logos, and npm packages.
 - [rust-ui/ui](https://github.com/rust-ui/ui): A Shadcn-inspired component registry for Rust.
 - [ruucm/shadergradient](https://github.com/ruucm/shadergradient): Create beautiful moving gradients on Framer, Figma and React.
 - [s0xDk/refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill): A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan &amp; Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.

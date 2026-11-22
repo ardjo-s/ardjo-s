@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**45 repositories.** [Browse all categories →](README.md)
+**46 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -39,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [lxyeternal/Trace](https://github.com/lxyeternal/Trace): Free, open-source alternative to Timing for macOS.
 - [neethanwu/onit](https://github.com/neethanwu/onit): keep an eye on everything your mac does on a schedule, from the notch or the menu bar.
 - [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace): AeroSpace is an i3-like tiling window manager for macOS.
+- [os6/nospeaker](https://github.com/os6/nospeaker): make your macbook's trackpad talk using its haptic motor.
 - [Panchangam18/attune-app](https://github.com/Panchangam18/attune-app): Mod your desktop apps (Mac).
 - [progrium/keepsync](https://github.com/progrium/keepsync): syncthing and perkeep had a baby.
 - [realfishsam/agent-notch](https://github.com/realfishsam/agent-notch): The open-source alternative to vibe-island.

@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**37 repositories.** [Browse all categories →](README.md)
+**38 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -13,6 +13,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 - [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5): The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
 - [anomalyco/hex](https://github.com/anomalyco/hex): Local voice dictation for mac, windows and linux.
+- [barronlroth/localwhisper](https://github.com/barronlroth/localwhisper): Private, self-hosted Wispr Flow-style iOS dictation keyboard backed by local NVIDIA Parakeet MLX on Apple Silicon over Tailscale — with zero app-switching.
 - [cathrynlavery/voice-memo-organizer](https://github.com/cathrynlavery/voice-memo-organizer): Claude Code skill that organizes hundreds of Apple Voice Memos into a searchable archive with transcriptions, summaries, and key quotes.
 - [cjpais/Handy](https://github.com/cjpais/Handy): A free, open source, and extensible speech-to-text application that works completely offline.
 - [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio): VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
