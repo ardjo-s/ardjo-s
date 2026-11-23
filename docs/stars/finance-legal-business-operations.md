@@ -2,7 +2,7 @@
 
 > Finance, payments, legal work and business operations.
 
-**33 repositories.** [Browse all categories →](README.md)
+**34 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -22,6 +22,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading): "Vibe-Trading: Your Personal Trading Agent".
 - [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja): A source-available invoice, quote, project and time-tracking app built with Laravel.
 - [LexMachinaInc/node-lexmachina-api-client](https://github.com/LexMachinaInc/node-lexmachina-api-client): Client for Lex Machina Litigation Analytics API.
+- [lucasdidier/thrive](https://github.com/lucasdidier/thrive): A self-hosted workspace for independent businesses.
 - [michaelshimeles/terminal](https://github.com/michaelshimeles/terminal): Bloomberg-style trading terminal in Rust with GPU charts and congressional trades.
 - [NYLLON-SOFTWARE/SignuDoc](https://github.com/NYLLON-SOFTWARE/SignuDoc): Open-source document signature platform.
 - [open-legal-products/mike](https://github.com/open-legal-products/mike): OSS Legal AI Platform.

@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**82 repositories.** [Browse all categories →](README.md)
+**83 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -53,6 +53,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [lukeed/clsx](https://github.com/lukeed/clsx): A tiny (239B) utility for constructing `className` strings conditionally.
 - [matrix-org/matrix-rust-sdk](https://github.com/matrix-org/matrix-rust-sdk): Matrix Client-Server SDK for Rust.
 - [mattrobenolt/appify](https://github.com/mattrobenolt/appify): Turn TUI apps into real macOS applications.
+- [mddanishyusuf/kurz](https://github.com/mddanishyusuf/kurz): Starred repository.
 - [MengTo/Skills](https://github.com/MengTo/Skills) · review needed: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents.
 - [mintlify/starter](https://github.com/mintlify/starter) · review needed: The starter kit for your mintlify project.
 - [MobAI-App/simslim](https://github.com/MobAI-App/simslim): Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need.

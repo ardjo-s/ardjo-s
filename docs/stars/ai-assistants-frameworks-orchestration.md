@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**108 repositories.** [Browse all categories →](README.md)
+**109 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -103,6 +103,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness): Official code for Meta-Harness (2603.28052).
 - [steipete/oracle](https://github.com/steipete/oracle): Ask the oracle when you're stuck.
 - [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder): Workflow orchestration framework for your product, open source: a white-label React workflow builder, durable execution on your own Temporal, human approval steps for AI agents, and a live view of every run.
+- [Taku-OS/taku-os](https://github.com/Taku-OS/taku-os): Taku OS: An Android system built for agents.
 - [tambo-ai/tambo](https://github.com/tambo-ai/tambo): Generative UI SDK for React.
 - [TechyCSR/OpenCluely](https://github.com/TechyCSR/OpenCluely) · review needed: OpenCluely is a free, open source Cluely (alternative), built for technical interviews like DSA, OAs, and CP.
 - [TerseAI/durable-actors](https://github.com/TerseAI/durable-actors): Open Source Alternative to Durable Objects.
