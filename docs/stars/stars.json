@@ -19,7 +19,7 @@
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 134
+      "count": 135
     },
     {
       "id": "category_04",
@@ -67,7 +67,7 @@
       "id": "category_10",
       "name": "Image, Video & Presentations",
       "slug": "image-video-presentations",
-      "count": 121
+      "count": 122
     },
     {
       "id": "category_11",
@@ -85,7 +85,7 @@
       "id": "category_12",
       "name": "App, Web & Mobile Development",
       "slug": "app-web-mobile-development",
-      "count": 81
+      "count": 82
     },
     {
       "id": "category_13",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 48
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 4
+      "count": 49
     }
   ],
   "repositories": [
@@ -5714,10 +5708,12 @@
       "name": "ggaabe/vibe-controller",
       "url": "https://github.com/ggaabe/vibe-controller",
       "description": "Use an Xbox controller as a customizable macOS desktop input device.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOIEMdig",
@@ -13844,10 +13840,12 @@
       "name": "ScrapeCreators/social-media-research-skills",
       "url": "https://github.com/ScrapeCreators/social-media-research-skills",
       "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOMLdodQ",
@@ -15222,10 +15220,12 @@
       "name": "TanStack/redact",
       "url": "https://github.com/TanStack/redact",
       "description": "An alternative logical projection of React with 100% API compliancy but simpler implementation resulting in smaller bundle size and better performance.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "App, Web & Mobile Development",
+      "category_id": "category_12",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSIqPOQ",
@@ -15444,10 +15444,12 @@
       "name": "TheOrcDev/orcanva",
       "url": "https://github.com/TheOrcDev/orcanva",
       "description": "Orcanva is a free, open-source Canva alternative for YouTube thumbnails and social images.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Image, Video & Presentations",
+      "category_id": "category_10",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTAGhEg",

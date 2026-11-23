@@ -32,7 +32,7 @@
 
 <a href="https://github.com/ardjo-s?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
 
-1,708 public repositories · 26 categories · 4 unsorted · [Browse the catalog](docs/stars/README.md)
+1,708 public repositories · 26 categories · [Browse the catalog](docs/stars/README.md)
 
 ### 🤖 AI Coding Agents
 
@@ -214,12 +214,5 @@ Robotics, electronics, embedded systems, CAD and physical fabrication.<br>
 Browsers, desktop utilities, file transfers and device tools.<br>
 <div style="margin-top: 10px;">
 <a href="docs/stars/browsers-desktop-device-utilities.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Browsers, Desktop &amp; Device Utilities summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/browsers-desktop-device-utilities.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Browsers, Desktop &amp; Device Utilities repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
-</div>
-
-### ❔ Unsorted / to classify
-
-Public stars not yet classified in catalog.json.<br>
-<div style="margin-top: 10px;">
-<a href="docs/stars/unsorted.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=ffffff&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Read Unsorted / to classify summary" src="https://www.shieldcn.dev/badge/Summary-24292F.svg?variant=outline&amp;size=sm&amp;color=111827&amp;labelTextColor=111827&amp;mode=light"></picture></a> <a href="docs/stars/unsorted.md#stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=ffffff&amp;mode=dark"><img alt="Browse Unsorted / to classify repositories" src="https://www.shieldcn.dev/badge/Open-24292F.svg?variant=branded&amp;size=sm&amp;labelTextColor=111827&amp;mode=light"></picture></a>
 </div>
 <!-- starred-repos-end -->

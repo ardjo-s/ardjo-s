@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**121 repositories.** [Browse all categories →](README.md)
+**122 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -117,6 +117,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tacyan/AffinityMCP](https://github.com/tacyan/AffinityMCP): Starred repository.
 - [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding): Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
 - [thenextnewthing/design-guide-youtube-shorts](https://github.com/thenextnewthing/design-guide-youtube-shorts): Codex skill for designing high-performing YouTube Shorts thumbnails for The Next New Thing.
+- [TheOrcDev/orcanva](https://github.com/TheOrcDev/orcanva): Orcanva is a free, open-source Canva alternative for YouTube thumbnails and social images.
 - [TheOrcDev/videorc](https://github.com/TheOrcDev/videorc): Open-source multistream studio and screen recorder for Mac: go live on 6+ platforms free, record in 4K, publish with AI.
 - [UfukNode/Noustiny](https://github.com/UfukNode/Noustiny): An agent native video creation pipeline that runs on top of Hermes Agent.
 - [upscayl/upscayl](https://github.com/upscayl/upscayl): 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.

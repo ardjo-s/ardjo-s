@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**134 repositories.** [Browse all categories →](README.md)
+**135 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -121,6 +121,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rjs/shaping-skills](https://github.com/rjs/shaping-skills) · archived · review needed: Skills I use with Claude for shaping.
 - [robinebers/skills](https://github.com/robinebers/skills): A selection of personal Cursor agents/commands/rules/skills that I use for my work.
 - [ryana/jevify](https://github.com/ryana/jevify): Prompts to jev-ify your projects.
+- [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills): AI agent skills for social media research.
 - [secemp9/goal](https://github.com/secemp9/goal) · review needed: /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
 - [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn): shadcn/ui, but for building agents.
 - [shadcn/improve](https://github.com/shadcn/improve): Use your most capable model to audit your codebase and write plans for cheaper models to execute.

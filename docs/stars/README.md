@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,708 public repositories across 26 Sol categories plus 4 unsorted.**
+**1,708 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -16,7 +16,7 @@ A review flag means the evidence or category boundary needs checking, not that t
   - AI agents whose primary job is building and maintaining software.
 - [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 108 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 134 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 135 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 84 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
@@ -35,7 +35,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🎙️ Voice, Audio & Music](voice-audio-music.md) · 39 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 121 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 122 repositories
   - Image and video creation, capture, editing, animation and presentations.
 - [🎨 UI & Product Design](ui-product-design.md) · 165 repositories
   - UI components, design systems, typography, prototyping and product design.
@@ -44,7 +44,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 81 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 82 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 83 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 48 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 49 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 4 repositories
-  - Public stars not yet classified in catalog.json.
