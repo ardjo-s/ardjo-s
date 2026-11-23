@@ -42,7 +42,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [farzaa/clicky](https://github.com/farzaa/clicky): The open-source project HeyClicky grew out of.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop): Desktop Companion for Hermes Agent.
 - [fayazara/coworkers](https://github.com/fayazara/coworkers): AI teammates that each get their own computer and browser.
-- [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot): A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
+- [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot): A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived · review needed: Build AI Agents, Visually.
 - [FrigadeHQ/hob](https://github.com/FrigadeHQ/hob): An easier way to use AI on your own computer.
 - [Gen-Verse/RSI-Anything](https://github.com/Gen-Verse/RSI-Anything): RSI-Anything: Unlocking Recursive Self-Improvement with World Models.

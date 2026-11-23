@@ -41,7 +41,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gokayfem/reference-to-game](https://github.com/gokayfem/reference-to-game): Input-agnostic reference-to-game skill: preserve style and colors while building playable games.
 - [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation): Open source c++ skeletal animation library and toolset.
 - [isaac-mason/crashcat](https://github.com/isaac-mason/crashcat): physics engine for javascript, built for games, simulations, and creative websites.
-- [ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida): Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6.
 - [JDhruv14/glyphform](https://github.com/JDhruv14/glyphform): Turn a photo into a living 3D figure drawn entirely in coloured ASCII letters (TypeScript, three.js, WebGL).
 - [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics): A multi core friendly rigid body physics and collision detection library.
 - [Leonxlnx/procedural-fire](https://github.com/Leonxlnx/procedural-fire): A fully procedural, physically based campfire in WebGPU: 3D combustion sim, blackbody rendering and synthesized sound.
@@ -52,7 +51,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames): Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad.
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw): 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead): Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
-- [mintdotgg/mint-playground](https://github.com/mintdotgg/mint-playground): Open-source Three.js experiences built with Mint MCP and Mint Three.js Skills.
+- [mintdotgg/mint-playground](https://github.com/mintdotgg/mint-playground): Play 3D browser games and interactive Three.js demos.
 - [mrdoob/three.js](https://github.com/mrdoob/three.js): JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio): Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
 - [Mugen87/yuka](https://github.com/Mugen87/yuka): JavaScript library for developing Game AI.
@@ -69,6 +68,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing): 📬  Postprocessing for react-three-fiber.
 - [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier): 🤺 Rapier physics in React.
 - [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen): Infinite Photorealistic Worlds using Procedural Generation.
+- [ProjectLeonida/Leonida](https://github.com/ProjectLeonida/Leonida): Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6.
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.

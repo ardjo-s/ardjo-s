@@ -38,4 +38,4 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [subsy/gardener](https://github.com/subsy/gardener): Starred repository.
 - [TheOrcDev/shadscan](https://github.com/TheOrcDev/shadscan): Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent.
 - [tns-research/counterpoint](https://github.com/tns-research/counterpoint): A producer-critic loop inside Claude Code: Claude Opus and OpenAI Codex cross-check each other before a turn ships.
-- [vercel-labs/emulate](https://github.com/vercel-labs/emulate): Local API emulation for CI and no-network sandboxes.
+- [vercel-labs/emulate](https://github.com/vercel-labs/emulate): API emulators for local dev, CI and sandboxes.

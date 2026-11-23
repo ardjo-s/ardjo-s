@@ -32,6 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [MapleTechLabs/maple](https://github.com/MapleTechLabs/maple): OpenTelemetry observability platform.
 - [Melvynx/portly](https://github.com/Melvynx/portly): One native macOS supervisor for every local development server.
 - [monoscope-tech/monoscope](https://github.com/monoscope-tech/monoscope) · review needed: Monoscope lets you ingest and explore your logs, traces and metrics.
+- [MyOwnDataCenter/Server](https://github.com/MyOwnDataCenter/Server): Starred repository.
 - [oblien/openship](https://github.com/oblien/openship): Self-hosted deployment platform.
 - [omacom/omarchy](https://github.com/omacom/omarchy) · review needed: Beautiful, Modern &amp; Opinionated Linux.
 - [omacom/try-omarchy](https://github.com/omacom/try-omarchy) · review needed: Run Omarchy on MacOS without any setup.
@@ -47,7 +48,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [telemt/telemt](https://github.com/telemt/telemt) · review needed: MTProxy for Telegram on Rust + Tokio.
 - [temporalio/temporal](https://github.com/temporalio/temporal): Temporal service.
 - [torvalds/linux](https://github.com/torvalds/linux): Linux kernel source tree.
-- [TouchWorkStation/omarchy-server](https://github.com/TouchWorkStation/omarchy-server): Starred repository.
 - [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre): The open-source agent for CI/CD reliability.
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge): A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [wieandteduard/port-menu](https://github.com/wieandteduard/port-menu): A tiny macOS menu bar app that tracks your dev servers across projects.

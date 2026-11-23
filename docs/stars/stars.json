@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1708,
+  "repository_count": 1715,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 49
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 7
     }
   ],
   "repositories": [
@@ -1089,7 +1095,7 @@
       "id": "R_kgDOJg7yeg",
       "name": "Anil-matcha/Open-Generative-AI",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-      "description": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "description": "Uncensored AI Image & Video Generator — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -2458,6 +2464,16 @@
       "description": "Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVp-M8A",
+      "name": "burakgon/OpenScreens",
+      "url": "https://github.com/burakgon/OpenScreens",
+      "description": "Remote desktop for Mac, iPhone and iPad. Free and open source: Apple Screen Sharing with High Performance mode, VNC, SSH tunnels, Tailscale.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4775,7 +4791,7 @@
       "id": "R_kgDOVojBmg",
       "name": "erkamyaman/unslop-anything",
       "url": "https://github.com/erkamyaman/unslop-anything",
-      "description": "Your app looks AI-generated. unslop-anything noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
+      "description": "Your app looks AI-generated. Vincent Van Gogh noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -5175,8 +5191,8 @@
     },
     {
       "id": "R_kgDOU_vYVg",
-      "name": "Fei2411/DS-Bot",
-      "url": "https://github.com/Fei2411/DS-Bot",
+      "name": "Fei-Craft/DS-Bot",
+      "url": "https://github.com/Fei-Craft/DS-Bot",
       "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
@@ -7094,18 +7110,6 @@
       "fork": false
     },
     {
-      "id": "R_kgDOV18tqA",
-      "name": "ItsNotRexed/Leonida",
-      "url": "https://github.com/ItsNotRexed/Leonida",
-      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-      "category": "Games & 3D",
-      "category_id": "category_23",
-      "archived": false,
-      "fork": false,
-      "classification_confidence": "high",
-      "classification_rounds": 1
-    },
-    {
       "id": "R_kgDOUIOswg",
       "name": "ItsssssJack/SlopMonster",
       "url": "https://github.com/ItsssssJack/SlopMonster",
@@ -7916,6 +7920,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUAuvsA",
+      "name": "kgoedecke/doop",
+      "url": "https://github.com/kgoedecke/doop",
+      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORc0M0g",
       "name": "khadgi-sujan/retune",
       "url": "https://github.com/khadgi-sujan/retune",
@@ -8704,6 +8718,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVSBvFQ",
+      "name": "lucasdidier/thrive",
+      "url": "https://github.com/lucasdidier/thrive",
+      "description": "A self-hosted workspace for independent businesses. Bring your own Supabase and optional Nylas integrations.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOU3OHTg",
       "name": "lucasmarkes/hairline",
       "url": "https://github.com/lucasmarkes/hairline",
@@ -9174,6 +9198,16 @@
       "description": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. 2,200+ medical models, 35 model-backed PII languages, and Python, MLX, Android and browser runtimes. Apache-2.0 SDK.",
       "category": "Research, Science & Health",
       "category_id": "category_22",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV1G7JQ",
+      "name": "mddanishyusuf/kurz",
+      "url": "https://github.com/mddanishyusuf/kurz",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9741,7 +9775,7 @@
       "id": "R_kgDOTZYeaA",
       "name": "mintdotgg/mint-playground",
       "url": "https://github.com/mintdotgg/mint-playground",
-      "description": "Open-source Three.js experiences built with Mint MCP and Mint Three.js Skills",
+      "description": "Play 3D browser games and interactive Three.js demos. Explore MIT-licensed source for games, simulations, and configurators built with Mint.",
       "category": "Games & 3D",
       "category_id": "category_23",
       "archived": false,
@@ -10100,6 +10134,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTzkqbw",
+      "name": "muskanvaswan/polishd",
+      "url": "https://github.com/muskanvaswan/polishd",
+      "description": "Open-source product analytics and design review for Next.js, installed into your own app. Finds the rough edges, files them as bugs and hands the fix to your coding agent.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOQrrcbw",
       "name": "mutonby/openshorts",
       "url": "https://github.com/mutonby/openshorts",
@@ -10168,6 +10212,18 @@
       "category_id": "category_07",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVsNbAA",
+      "name": "MyOwnDataCenter/Server",
+      "url": "https://github.com/MyOwnDataCenter/Server",
+      "description": "",
+      "category": "Systems, Cloud & DevOps",
+      "category_id": "category_15",
+      "archived": false,
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOVv70gw",
@@ -12564,6 +12620,18 @@
       "classification_rounds": 1
     },
     {
+      "id": "R_kgDOV18tqA",
+      "name": "ProjectLeonida/Leonida",
+      "url": "https://github.com/ProjectLeonida/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "category": "Games & 3D",
+      "category_id": "category_23",
+      "archived": false,
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
+    },
+    {
       "id": "R_kgDOJcj3uQ",
       "name": "promptfoo/promptfoo",
       "url": "https://github.com/promptfoo/promptfoo",
@@ -14932,6 +15000,16 @@
       "classification_rounds": 1
     },
     {
+      "id": "R_kgDOJUCpQQ",
+      "name": "suno-ai/bark",
+      "url": "https://github.com/suno-ai/bark",
+      "description": "🔊 Text-Prompted Generative Audio Model",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ1ODcxOTM=",
       "name": "supabase/supabase",
       "url": "https://github.com/supabase/supabase",
@@ -15192,6 +15270,16 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "category": "Systems, Cloud & DevOps",
       "category_id": "category_15",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVyoX5Q",
+      "name": "Taku-OS/taku-os",
+      "url": "https://github.com/Taku-OS/taku-os",
+      "description": "Taku OS: An Android system built for agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -15776,18 +15864,6 @@
       "fork": false
     },
     {
-      "id": "R_kgDOVsNbAA",
-      "name": "TouchWorkStation/omarchy-server",
-      "url": "https://github.com/TouchWorkStation/omarchy-server",
-      "description": "",
-      "category": "Systems, Cloud & DevOps",
-      "category_id": "category_15",
-      "archived": false,
-      "fork": false,
-      "classification_confidence": "high",
-      "classification_rounds": 2
-    },
-    {
       "id": "R_kgDOKOkWSA",
       "name": "traceloop/openllmetry",
       "url": "https://github.com/traceloop/openllmetry",
@@ -16297,7 +16373,7 @@
       "id": "R_kgDORsYMMg",
       "name": "vercel-labs/emulate",
       "url": "https://github.com/vercel-labs/emulate",
-      "description": "Local API emulation for CI and no-network sandboxes",
+      "description": "API emulators for local dev, CI and sandboxes",
       "category": "Testing, Debugging & Code Quality",
       "category_id": "category_14",
       "archived": false,
