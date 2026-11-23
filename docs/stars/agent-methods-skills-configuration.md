@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**133 repositories.** [Browse all categories →](README.md)
+**134 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -52,6 +52,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5): ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents.
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · review needed: Graphs that teach &gt; graphs that impress.
 - [ericlitman/open-pstack](https://github.com/ericlitman/open-pstack) · review needed: pstack for Claude Code and Codex, tracking Cursor pstack upstream.
+- [erkamyaman/unslopovich](https://github.com/erkamyaman/unslopovich): Your app looks AI-generated.
 - [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin): Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more.
 - [f/prompts.chat](https://github.com/f/prompts.chat): f.k.a.
 - [finna/Finn-loop](https://github.com/finna/Finn-loop): The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review.

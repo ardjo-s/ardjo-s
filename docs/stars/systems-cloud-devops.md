@@ -2,7 +2,7 @@
 
 > Operating systems, networking, deployment, cloud infrastructure and DevOps.
 
-**39 repositories.** [Browse all categories →](README.md)
+**41 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -37,8 +37,10 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [omacom/try-omarchy](https://github.com/omacom/try-omarchy) · review needed: Run Omarchy on MacOS without any setup.
 - [opencoredev/domain-sdk](https://github.com/opencoredev/domain-sdk) · review needed: Add, verify, monitor, and remove customer domains with one TypeScript API.
 - [paukraft/t3boat](https://github.com/paukraft/t3boat): Auto-sleeping T3 Code remote machines on your Boat subscription.
+- [pranshuparmar/witr](https://github.com/pranshuparmar/witr): Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
 - [replit/datacat](https://github.com/replit/datacat): Self-hosted observability: metrics, logs, traces, dashboards and alerts.
 - [rustrak/rustrak](https://github.com/rustrak/rustrak): Self-hosted, open-source Sentry alternative in Rust.
+- [Ryoku-dev/ryoku](https://github.com/Ryoku-dev/ryoku): Opinionated premium Arch workstation for powerful desktops and laptops.
 - [sdras/awesome-actions](https://github.com/sdras/awesome-actions): A curated list of awesome actions to use on GitHub.
 - [serveroshq/panel](https://github.com/serveroshq/panel): The open source ServerOS panel: one place to run the Linux servers you already own.
 - [tailscale/tailcat](https://github.com/tailscale/tailcat): like netcat, but over Tailscale's data plane, without Tailscale's control plane.

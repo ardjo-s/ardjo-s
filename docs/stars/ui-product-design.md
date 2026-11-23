@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**164 repositories.** [Browse all categories →](README.md)
+**165 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -67,6 +67,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [gnurio/refactoring-ui-plugin](https://github.com/gnurio/refactoring-ui-plugin): 10 applied skills for Claude Code and Cursor that turn the principles of Refactoring UI into structured AI-assisted design reviews | not affiliated, big fan, get their book here:.
 - [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools): The best design tools and plugins for everything 👉.
 - [google-labs-code/design.md](https://github.com/google-labs-code/design.md) · review needed: A format specification for describing a visual identity to coding agents.
+- [GOURAVSINGH19/kinetik-free](https://github.com/GOURAVSINGH19/kinetik-free): Free, open source React components with smooth micro-interactions, built with Tailwind CSS and Motion.
 - [harshjdhv/componentry](https://github.com/harshjdhv/componentry): Animated, production-ready UI components.
 - [heroui-inc/heroui](https://github.com/heroui-inc/heroui): 🚀 Beautiful, fast and modern React UI library.
 - [heyfabrika/styleui](https://github.com/heyfabrika/styleui): Starred repository.

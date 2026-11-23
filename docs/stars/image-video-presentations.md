@@ -2,7 +2,7 @@
 
 > Image and video creation, capture, editing, animation and presentations.
 
-**120 repositories.** [Browse all categories →](README.md)
+**121 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -63,6 +63,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Keys-Wasserman/Imagination-Studio-by-keys-Wasserman](https://github.com/Keys-Wasserman/Imagination-Studio-by-keys-Wasserman): Imagination Studio by keys+Wasserman powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark.
 - [langchain-ai/design-agent](https://github.com/langchain-ai/design-agent): Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.
 - [lidge-ai/ima2-gen](https://github.com/lidge-ai/ima2-gen): Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
+- [lukendeasy/open-diagram](https://github.com/lukendeasy/open-diagram): Python building blocks for dense architecture diagrams that check their own layout.
 - [mainframecomputer/mainframe-plugins](https://github.com/mainframecomputer/mainframe-plugins): Starred repository.
 - [Makio64/threejs-cinematic-world-zoom](https://github.com/Makio64/threejs-cinematic-world-zoom) · review needed: A cinematic zoom on places in the world.
 - [ManimCommunity/manim](https://github.com/ManimCommunity/manim): A community-maintained Python framework for creating mathematical animations.

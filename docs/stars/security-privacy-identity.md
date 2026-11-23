@@ -2,7 +2,7 @@
 
 > Authentication, identity, secrets, privacy and security assessment.
 
-**47 repositories.** [Browse all categories →](README.md)
+**48 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -20,6 +20,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill): A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings.
 - [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio): An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data.
 - [ente/ente](https://github.com/ente/ente) · review needed: 💚 End-to-end encrypted cloud for everything.
+- [erkamyaman/safe-anything](https://github.com/erkamyaman/safe-anything): Find the holes before someone else does.
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks): Find secrets with Gitleaks 🔑.
 - [google/mantis](https://github.com/google/mantis): A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities.
 - [google/oss-fuzz](https://github.com/google/oss-fuzz): OSS-Fuzz - continuous fuzzing for open source software.

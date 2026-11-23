@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**38 repositories.** [Browse all categories →](README.md)
+**39 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -33,6 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [matthartman/ghost-pepper](https://github.com/matthartman/ghost-pepper): 100% private on-device voice models for speech-to-text and meeting transcription on macOS.
 - [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice): Open-Source Frontier Voice AI.
 - [native-bond-lab/Jev-Interaction](https://github.com/native-bond-lab/Jev-Interaction): System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.
+- [noahdevkagan/meetmouse](https://github.com/noahdevkagan/meetmouse): MeetMouse — a private macOS meeting coach with on-device transcription and local AI.
 - [NVIDIA-AI-Blueprints/pdf-to-podcast](https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast): Transform PDFs into AI podcasts for engaging on-the-go audio content.
 - [obra/winpepper](https://github.com/obra/winpepper): Windows-native local dictation.
 - [openai/whisper](https://github.com/openai/whisper): Robust Speech Recognition via Large-Scale Weak Supervision.

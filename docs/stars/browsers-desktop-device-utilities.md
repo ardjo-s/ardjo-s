@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**46 repositories.** [Browse all categories →](README.md)
+**48 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,6 +14,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast): A native macOS launcher built for productivity.
 - [acsandmann/rift](https://github.com/acsandmann/rift): a tiling window manager for macos.
 - [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi): ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
+- [asadm/mechpad](https://github.com/asadm/mechpad): Simulate mechanical keyboard sounds through your MacBook's Force Touch trackpad (no speakers).
 - [aspauldingcode/macwmfx](https://github.com/aspauldingcode/macwmfx): mac window manager effects.
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.
 - [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
@@ -47,6 +48,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk): An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - [Saffsanity/sill](https://github.com/Saffsanity/sill): Any window from your Mac, live on your iPhone or iPad.
 - [saragordic/rooms](https://github.com/saragordic/rooms): Switch between projects on your Mac.
+- [scarletkc/colab-playground](https://github.com/scarletkc/colab-playground): A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards, port forwarding and plugins.
 - [schollz/croc](https://github.com/schollz/croc): Easily and securely send things from one computer to another :crocodile: :package:.
 - [shobhit99/SuperIsland](https://github.com/shobhit99/SuperIsland): Dynamic Island for MacOS — with Extensions.
 - [ThariqS/ai-newtab](https://github.com/ThariqS/ai-newtab): Claude generates a daily new tab page based on your browser history.
