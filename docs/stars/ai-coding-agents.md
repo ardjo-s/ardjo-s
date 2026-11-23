@@ -17,7 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [anomalyco/opencode](https://github.com/anomalyco/opencode): The open source coding agent.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code): Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 - [aronprins/paperclip-desktop](https://github.com/aronprins/paperclip-desktop) · review needed: Paperclip Desktop is an unofficial Electron wrapper around Paperclip.
-- [awslabs/codekb](https://github.com/awslabs/codekb): Starred repository.
+- [awslabs/codekb](https://github.com/awslabs/codekb): Code understanding across every repository, for people and agents.
 - [axeldelafosse/loop](https://github.com/axeldelafosse/loop): Dead-simple Bun CLI that runs Codex and Claude Code in a loop.
 - [bastani-inc/atomic](https://github.com/bastani-inc/atomic): The verifiable coding agent runtime.
 - [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi): ⌥ Coding agent with the IDE wired in.

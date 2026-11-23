@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1704,
+  "repository_count": 1708,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 48
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 4
     }
   ],
   "repositories": [
@@ -1789,7 +1795,7 @@
       "id": "R_kgDOVsfALw",
       "name": "awslabs/codekb",
       "url": "https://github.com/awslabs/codekb",
-      "description": "",
+      "description": "Code understanding across every repository, for people and agents",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -2677,7 +2683,7 @@
       "id": "R_kgDOSEljpA",
       "name": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -4773,9 +4779,9 @@
     },
     {
       "id": "R_kgDOVojBmg",
-      "name": "erkamyaman/unslopovich",
-      "url": "https://github.com/erkamyaman/unslopovich",
-      "description": "Your app looks AI-generated. Dr. Unslopovich noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
+      "name": "erkamyaman/unslop-anything",
+      "url": "https://github.com/erkamyaman/unslop-anything",
+      "description": "Your app looks AI-generated. unslop-anything noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -5700,6 +5706,16 @@
       "description": "Orchestrate multiple coding agents from desktop and mobile",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOTakYUw",
+      "name": "ggaabe/vibe-controller",
+      "url": "https://github.com/ggaabe/vibe-controller",
+      "description": "Use an Xbox controller as a customizable macOS desktop input device.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -11873,7 +11889,7 @@
       "id": "R_kgDOUmdVMg",
       "name": "Parcha-ai/agentrun",
       "url": "https://github.com/Parcha-ai/agentrun",
-      "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter, more fault tolerant and use fewer tokens with every run.",
+      "description": "AgentRun is an open-source agent operating system that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your choice of agent harness, compute and models. Your agents become smarter, more fault-tolerant, and use fewer tokens with every run.",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
       "archived": false,
@@ -13824,6 +13840,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSzIPRA",
+      "name": "ScrapeCreators/social-media-research-skills",
+      "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOMLdodQ",
       "name": "screenpipe/screenpipe",
       "url": "https://github.com/screenpipe/screenpipe",
@@ -15192,6 +15218,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSHOh3A",
+      "name": "TanStack/redact",
+      "url": "https://github.com/TanStack/redact",
+      "description": "An alternative logical projection of React with 100% API compliancy but simpler implementation resulting in smaller bundle size and better performance.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSIqPOQ",
       "name": "tashfeenahmed/freellmapi",
       "url": "https://github.com/tashfeenahmed/freellmapi",
@@ -15400,6 +15436,16 @@
       "description": "🍊☁️ Open-source* apps that replace SaaS product + tools, running in your own Cloudflare account",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVc0eSQ",
+      "name": "TheOrcDev/orcanva",
+      "url": "https://github.com/TheOrcDev/orcanva",
+      "description": "Orcanva is a free, open-source Canva alternative for YouTube thumbnails and social images.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -17287,7 +17333,7 @@
       "id": "R_kgDOVpMsvQ",
       "name": "zadescoxp/calibrain-harness",
       "url": "https://github.com/zadescoxp/calibrain-harness",
-      "description": "Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models (Kairos today) on Bybit testnet. Under development.",
+      "description": "Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models. ",
       "category": "Finance, Legal & Business Operations",
       "category_id": "category_21",
       "archived": false,

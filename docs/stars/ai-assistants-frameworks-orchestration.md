@@ -86,7 +86,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [osolmaz/switch](https://github.com/osolmaz/switch): A framework for building decision-model harnesses for any kind of task.
 - [outsourc-e/clawsuite](https://github.com/outsourc-e/clawsuite): All-in-one command center for OpenClaw agents.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip): The open-source app everyone uses to manage agents at work.
-- [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): AgentRun is an open-source platform that supercharges your agents.
+- [Parcha-ai/agentrun](https://github.com/Parcha-ai/agentrun): AgentRun is an open-source agent operating system that supercharges your agents.
 - [plannotator/talkto](https://github.com/plannotator/talkto): Message boards for AI agents.
 - [poteto/noodle](https://github.com/poteto/noodle): Orchestrate agents using skills.
 - [RedPlanetHQ/core](https://github.com/RedPlanetHQ/core): Your Personal AI OS.
