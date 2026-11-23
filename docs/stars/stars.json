@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1690,
+  "repository_count": 1704,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 46
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 14
     }
   ],
   "repositories": [
@@ -1558,6 +1564,16 @@
       "description": "Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website. Generates JSON and CSS custom properties for local projects. Available as an AI agent skill (Claude, Cursor, Codex) and standalone CLI.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV38GMA",
+      "name": "asadm/mechpad",
+      "url": "https://github.com/asadm/mechpad",
+      "description": "Simulate mechanical keyboard sounds through your MacBook's Force Touch trackpad (no speakers). Inspired by os6/nospeaker.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4724,6 +4740,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUYDtRA",
+      "name": "erkamyaman/capacitor-foldable",
+      "url": "https://github.com/erkamyaman/capacitor-foldable",
+      "description": "📱 Capacitor plugin for foldable phones: 📖 fold state, posture, hinge angle, size classes, rear display and dual screen on Android, plus a polyfill for the Device Posture and Viewport Segments web APIs.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVwVmZA",
       "name": "erkamyaman/rust-anything",
       "url": "https://github.com/erkamyaman/rust-anything",
@@ -4734,6 +4760,26 @@
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
+    },
+    {
+      "id": "R_kgDOV3xjeA",
+      "name": "erkamyaman/safe-anything",
+      "url": "https://github.com/erkamyaman/safe-anything",
+      "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVojBmg",
+      "name": "erkamyaman/unslopovich",
+      "url": "https://github.com/erkamyaman/unslopovich",
+      "description": "Your app looks AI-generated. Dr. Unslopovich noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
     },
     {
       "id": "R_kgDOSIatDw",
@@ -5018,6 +5064,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDONa1RRQ",
+      "name": "fastrepl/anarlog",
+      "url": "https://github.com/fastrepl/anarlog",
+      "description": "Open source Granola AI Alternative",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR4F7yw",
       "name": "fathah/hermes-desktop",
       "url": "https://github.com/fathah/hermes-desktop",
@@ -5044,6 +5100,16 @@
       "description": "A Claude Code skill that designs a brand identity as one system: logo, typography and colour palette built together from one brief, measured, compared as identity cards, and delivered as a brand guidelines kit.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOU1g4Hg",
+      "name": "fayazara/coworkers",
+      "url": "https://github.com/fayazara/coworkers",
+      "description": "AI teammates that each get their own computer and browser. Built entirely on Cloudflare.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5876,6 +5942,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVnfLTQ",
+      "name": "gokayfem/reference-to-game",
+      "url": "https://github.com/gokayfem/reference-to-game",
+      "description": "Input-agnostic reference-to-game skill: preserve style and colors while building playable games. Includes tools, fal asset workflows and four Three.js examples.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTAPyzg",
       "name": "gokayfem/shader-skills",
       "url": "https://github.com/gokayfem/shader-skills",
@@ -6050,6 +6126,16 @@
       "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVL8ODQ",
+      "name": "GOURAVSINGH19/kinetik-free",
+      "url": "https://github.com/GOURAVSINGH19/kinetik-free",
+      "description": "Free, open source React components with smooth micro-interactions, built with Tailwind CSS and Motion. Copy the code into your project and make it yours.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -6429,7 +6515,7 @@
       "id": "R_kgDORi26-Q",
       "name": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
-      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+      "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -8636,6 +8722,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVzWPfA",
+      "name": "lukendeasy/open-diagram",
+      "url": "https://github.com/lukendeasy/open-diagram",
+      "description": "Python building blocks for dense architecture diagrams that check their own layout",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVtH5Hg",
       "name": "lxyeternal/Trace",
       "url": "https://github.com/lxyeternal/Trace",
@@ -9032,6 +9128,16 @@
       "description": "My library of resources about AI",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOPXfBnw",
+      "name": "maxliebscher/PlotMapperTool",
+      "url": "https://github.com/maxliebscher/PlotMapperTool",
+      "description": "A lightweight tool to map story plots visually",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10462,6 +10568,16 @@
       "description": "a fast local diff viewer",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOS9fJDg",
+      "name": "noahdevkagan/meetmouse",
+      "url": "https://github.com/noahdevkagan/meetmouse",
+      "description": "MeetMouse — a private macOS meeting coach with on-device transcription and local AI. No bot joins your call; no audio ever leaves your Mac.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12334,6 +12450,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOQsTUXQ",
+      "name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORHJ3gQ",
       "name": "prassoai/macroscope-local",
       "url": "https://github.com/prassoai/macroscope-local",
@@ -13434,6 +13560,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOSJ-EEQ",
+      "name": "Ryoku-dev/ryoku",
+      "url": "https://github.com/Ryoku-dev/ryoku",
+      "description": "Opinionated premium Arch workstation for powerful desktops and laptops.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOUFaneA",
       "name": "s0xDk/refactoring-ui-skill",
       "url": "https://github.com/s0xDk/refactoring-ui-skill",
@@ -13582,6 +13718,16 @@
       "description": "Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many dimensions: artifacts, environments tools, dynamism of the environment, reproducibility, and more. There is no open source framework for building these environments effectively. Until now.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVwJsOg",
+      "name": "scarletkc/colab-playground",
+      "url": "https://github.com/scarletkc/colab-playground",
+      "description": "A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards, port forwarding and plugins.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
