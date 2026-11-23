@@ -5268,6 +5268,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVp-M8A",
+      "name": "burakgon/OpenScreens",
+      "url": "https://github.com/burakgon/OpenScreens",
+      "description": "Remote desktop for Mac, iPhone and iPad. Free and open source: Apple Screen Sharing with High Performance mode, VNC, SSH tunnels, Tailscale.",
+      "category": "category_25",
+      "purpose": "Remote desktop for Mac, iPhone and iPad",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Remote desktop for Mac, iPhone and iPad. Free and open source: Apple Screen Sharing with High Performance mode, VNC, SSH tunnels, Tailscale.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/burakgon/OpenScreens",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTCbVpA",
       "name": "busabase/busabase",
       "url": "https://github.com/busabase/busabase",
@@ -17134,6 +17153,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOUAuvsA",
+      "name": "kgoedecke/doop",
+      "url": "https://github.com/kgoedecke/doop",
+      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "category": "category_11",
+      "purpose": "The open-source alternative to Paper.design",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/kgoedecke/doop",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDORc0M0g",
       "name": "khadgi-sujan/retune",
       "url": "https://github.com/khadgi-sujan/retune",
@@ -18790,6 +18828,27 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVSBvFQ",
+      "name": "lucasdidier/thrive",
+      "url": "https://github.com/lucasdidier/thrive",
+      "description": "A self-hosted workspace for independent businesses. Bring your own Supabase and optional Nylas integrations.",
+      "category": "category_21",
+      "purpose": "A self-hosted workspace for independent businesses",
+      "keywords": [
+        "HTML"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Thrive A workspace for independent service businesses: clients, projects, proposals and contracts, invoices, time, forms, scheduling, client email, client portals and one-trigger/one-action workflows.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/lucasdidier/thrive/blob/main/README.md",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOU3OHTg",
       "name": "lucasmarkes/hairline",
       "url": "https://github.com/lucasmarkes/hairline",
@@ -19725,6 +19784,27 @@
       "evidence_status": "read",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOV1G7JQ",
+      "name": "mddanishyusuf/kurz",
+      "url": "https://github.com/mddanishyusuf/kurz",
+      "description": "",
+      "category": "category_12",
+      "purpose": "Auto-classified as App, Web & Mobile Development.",
+      "keywords": [
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Kurz **A fast, open-source link shortener that runs entirely on Cloudflare.** Your domains, private analytics, one Worker, and it fits in the free plan.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mddanishyusuf/kurz/blob/main/README.md",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORbFIFA",
@@ -21701,6 +21781,40 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTzkqbw",
+      "name": "muskanvaswan/polishd",
+      "url": "https://github.com/muskanvaswan/polishd",
+      "description": "Open-source product analytics and design review for Next.js, installed into your own app. Finds the rough edges, files them as bugs and hands the fix to your coding agent.",
+      "category": "category_11",
+      "purpose": "Open-source product analytics and design review for Next.js, installed into your own app",
+      "keywords": [
+        "ai-agents",
+        "analytics",
+        "claude-code",
+        "design-review",
+        "design-system",
+        "developer-tools",
+        "nextjs",
+        "product-analytics",
+        "rage-clicks",
+        "react",
+        "self-hosted",
+        "typescript",
+        "ux",
+        "web-vitals"
+      ],
+      "review_required": false,
+      "evidence_quote": "# @polishd/next > **What gets measured gets improved.** Drop-in **product analytics** for Next.js (App Router).",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/muskanvaswan/polishd/blob/main/README.md",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45277996625",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQrrcbw",
@@ -32399,6 +32513,25 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDOJUCpQQ",
+      "name": "suno-ai/bark",
+      "url": "https://github.com/suno-ai/bark",
+      "description": "🔊 Text-Prompted Generative Audio Model",
+      "category": "category_09",
+      "purpose": "🔊 Text-Prompted Generative Audio Model",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "🔊 Text-Prompted Generative Audio Model",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/suno-ai/bark",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyMTQ1ODcxOTM=",
       "name": "supabase/supabase",
       "url": "https://github.com/supabase/supabase",
@@ -32990,6 +33123,27 @@
       "evidence_url": "https://github.com/tailscale/tailcat",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVyoX5Q",
+      "name": "Taku-OS/taku-os",
+      "url": "https://github.com/Taku-OS/taku-os",
+      "description": "Taku OS: An Android system built for agents.",
+      "category": "category_02",
+      "purpose": "Taku OS: An Android system built for agents",
+      "keywords": [
+        "Java"
+      ],
+      "review_required": false,
+      "evidence_quote": "Taku OS An open-source operating system for your phone, built for the AI era.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Taku-OS/taku-os/blob/main/README.md",
+      "evidence_read_at": "2026-11-23",
+      "classification_source": "jev:2026-11-23",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMDQ3NDA4NzA=",

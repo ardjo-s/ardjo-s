@@ -2,7 +2,7 @@
 
 > Speech, dictation, transcription, audio processing and music.
 
-**39 repositories.** [Browse all categories →](README.md)
+**40 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -43,6 +43,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat): Open Source framework for voice agents, multimodal apps, and realtime AI.
 - [SchroederNathan/clarity](https://github.com/SchroederNathan/clarity): A speech companion app built with Expo.
 - [Starmel/OpenSuperWhisper](https://github.com/Starmel/OpenSuperWhisper): macOS dictation app.
+- [suno-ai/bark](https://github.com/suno-ai/bark): 🔊 Text-Prompted Generative Audio Model.
 - [supertone-oss-archive/supertonic](https://github.com/supertone-oss-archive/supertonic) · archived: Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.
 - [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper): Faster Whisper transcription with CTranslate2.
 - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac): Local speech-to-text for macOS  on-device AI, fully private, optional cloud.

@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**49 repositories.** [Browse all categories →](README.md)
+**50 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -17,6 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [asadm/mechpad](https://github.com/asadm/mechpad): Simulate mechanical keyboard sounds through your MacBook's Force Touch trackpad (no speakers).
 - [aspauldingcode/macwmfx](https://github.com/aspauldingcode/macwmfx): mac window manager effects.
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.
+- [burakgon/OpenScreens](https://github.com/burakgon/OpenScreens): Remote desktop for Mac, iPhone and iPad.
 - [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
 - [cmacrae/spacebar](https://github.com/cmacrae/spacebar): A minimal status bar for macOS.
 - [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.

@@ -2,7 +2,7 @@
 
 > UI components, design systems, typography, prototyping and product design.
 
-**165 repositories.** [Browse all categories →](README.md)
+**167 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -93,6 +93,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [keenthemes/reui](https://github.com/keenthemes/reui): Design-forward shadcn kit for interfaces that stand out.
 - [kepano/obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings) · review needed: Settings plugin to control colors and fonts in Minimal Theme.
 - [Kevin-Liu-01/Katagami](https://github.com/Kevin-Liu-01/Katagami): Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages.
+- [kgoedecke/doop](https://github.com/kgoedecke/doop): The open-source alternative to Paper.design.
 - [krutikkkkkkkkk/creative-ui](https://github.com/krutikkkkkkkkk/creative-ui): React components and Claude skills with a designer's eye, installable with the shadcn CLI: npx shadcn add @creative-ui/&lt;name&gt;.
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts): EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.
@@ -107,6 +108,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mikelikesdesign/dialkit-ios](https://github.com/mikelikesdesign/dialkit-ios) · review needed: DialKit is a SwiftUI package for editing and previewing interface updates live.
 - [moguzbulbul/blueprint-animation](https://github.com/moguzbulbul/blueprint-animation): Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing.
 - [mui/base-ui](https://github.com/mui/base-ui): Unstyled UI components for building accessible web apps and design systems.
+- [muskanvaswan/polishd](https://github.com/muskanvaswan/polishd): Open-source product analytics and design review for Next.js, installed into your own app.
 - [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft): An agent skill for building premium, immersive, scroll-driven websites.
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 - [nexu-io/open-design](https://github.com/nexu-io/open-design): The 1st Collaborative AI Design Agent Workspace.
