@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**80 repositories.** [Browse all categories →](README.md)
+**81 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -28,6 +28,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Effect-TS/effect](https://github.com/Effect-TS/effect): Build production-ready applications in TypeScript.
 - [emdash-cms/emdash](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
+- [erkamyaman/capacitor-foldable](https://github.com/erkamyaman/capacitor-foldable): 📱 Capacitor plugin for foldable phones: 📖 fold state, posture, hinge angle, size classes, rear display and dual screen on Android, plus a polyfill for the Device Posture and Viewport Segments web APIs.
 - [every-app/every-app](https://github.com/every-app/every-app) · review needed: Open source alternatives to everything.
 - [expo/exact](https://github.com/expo/exact): Write an app once.
 - [expo/exact-templates](https://github.com/expo/exact-templates): Starred repository.

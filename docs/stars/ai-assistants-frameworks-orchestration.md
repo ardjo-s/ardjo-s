@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**107 repositories.** [Browse all categories →](README.md)
+**108 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -41,6 +41,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [elie222/rakazo](https://github.com/elie222/rakazo): Open-source Grok Bot alternative.
 - [farzaa/clicky](https://github.com/farzaa/clicky): The open-source project HeyClicky grew out of.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop): Desktop Companion for Hermes Agent.
+- [fayazara/coworkers](https://github.com/fayazara/coworkers): AI teammates that each get their own computer and browser.
 - [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot): A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
 - [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) · archived · review needed: Build AI Agents, Visually.
 - [FrigadeHQ/hob](https://github.com/FrigadeHQ/hob): An easier way to use AI on your own computer.

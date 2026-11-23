@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,704 public repositories across 26 Sol categories plus 14 unsorted.**
+**1,704 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -14,9 +14,9 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🤖 AI Coding Agents](ai-coding-agents.md) · 102 repositories
   - AI agents whose primary job is building and maintaining software.
-- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 107 repositories
+- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 108 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
-- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 133 repositories
+- [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 134 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
 - [🔌 Agent Tools & Environments](agent-tools-environments.md) · 84 repositories
   - Agent tools, MCP interfaces, sandboxes and computer-use environments.
@@ -33,35 +33,35 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Creative Tools & Interfaces
 
-- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 38 repositories
+- [🎙️ Voice, Audio & Music](voice-audio-music.md) · 39 repositories
   - Speech, dictation, transcription, audio processing and music.
-- [🎬 Image, Video & Presentations](image-video-presentations.md) · 120 repositories
+- [🎬 Image, Video & Presentations](image-video-presentations.md) · 121 repositories
   - Image and video creation, capture, editing, animation and presentations.
-- [🎨 UI & Product Design](ui-product-design.md) · 164 repositories
+- [🎨 UI & Product Design](ui-product-design.md) · 165 repositories
   - UI components, design systems, typography, prototyping and product design.
-- [🎮 Games & 3D](games-3d.md) · 84 repositories
+- [🎮 Games & 3D](games-3d.md) · 85 repositories
   - Games, rendering, geometry, avatars and interactive 3D worlds.
 
 ## Development, Infrastructure & Data
 
-- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 80 repositories
+- [🧱 App, Web & Mobile Development](app-web-mobile-development.md) · 81 repositories
   - Web, backend, native and mobile frameworks for building applications.
 - [⌨️ Developer Tools & Languages](developer-tools-languages.md) · 83 repositories
   - Languages, editors, terminals, Git tools and general developer resources.
 - [✅ Testing, Debugging & Code Quality](testing-debugging-code-quality.md) · 28 repositories
   - Software testing, debugging, code review and technical quality checks.
-- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 39 repositories
+- [🚀 Systems, Cloud & DevOps](systems-cloud-devops.md) · 41 repositories
   - Operating systems, networking, deployment, cloud infrastructure and DevOps.
 - [🗄 Data, Databases & GIS](data-databases-gis.md) · 40 repositories
   - Databases, data pipelines, analytics, visualization and geospatial tools.
 - [⚙️ Web & Document Automation](web-document-automation.md) · 26 repositories
   - Web extraction, scraping, OCR, document conversion and automation.
-- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 47 repositories
+- [🔐 Security, Privacy & Identity](security-privacy-identity.md) · 48 repositories
   - Authentication, identity, secrets, privacy and security assessment.
 
 ## Knowledge, Research & Business
 
-- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 134 repositories
+- [🗂 Knowledge & Productivity](knowledge-productivity.md) · 136 repositories
   - Notes, writing, reading, tasks, calendars and collaboration.
 - [📈 Marketing, Sales & Careers](marketing-sales-careers.md) · 51 repositories
   - Marketing, SEO, sales, customer relationships, recruiting and careers.
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 46 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 48 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 14 repositories
-  - Public stars not yet classified in catalog.json.

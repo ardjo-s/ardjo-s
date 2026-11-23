@@ -2,7 +2,7 @@
 
 > Notes, writing, reading, tasks, calendars and collaboration.
 
-**134 repositories.** [Browse all categories →](README.md)
+**136 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -51,6 +51,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [EveryInc/proof-sdk](https://github.com/EveryInc/proof-sdk): Proof SDK: open-source collaborative editor, provenance model, and agent HTTP bridge.
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) · review needed: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
 - [farhansrambiyan/openhoy](https://github.com/farhansrambiyan/openhoy): A menu bar messenger for macOS, powered by your own iMessage.
+- [fastrepl/anarlog](https://github.com/fastrepl/anarlog): Open source Granola AI Alternative.
 - [fayazara/Lotion](https://github.com/fayazara/Lotion): A local notes app.
 - [frappe/wiki](https://github.com/frappe/wiki): Free and Open Source Wiki built on top of Frappe.
 - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) · review needed: freeCodeCamp.org's open-source codebase and curriculum.
@@ -93,6 +94,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mandgie/minne](https://github.com/mandgie/minne): Starred repository.
 - [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) · review needed: AI coding jargon, explained in plain English.
 - [maximelebras/ai-library](https://github.com/maximelebras/ai-library): My library of resources about AI.
+- [maxliebscher/PlotMapperTool](https://github.com/maxliebscher/PlotMapperTool): A lightweight tool to map story plots visually.
 - [michaelshimeles/bible](https://github.com/michaelshimeles/bible): A very fast native Bible reader for the Mac, written in Rust: typeset Scripture, instant search, highlights, notes, bookmarks.
 - [michaelwilhelmsen/humla](https://github.com/michaelwilhelmsen/humla): Open-source AI meeting notes for Mac.
 - [mshll/ghostwriter](https://github.com/mshll/ghostwriter): System-wide, on-device AI autocomplete for macOS.
