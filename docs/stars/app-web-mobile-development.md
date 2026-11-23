@@ -2,7 +2,7 @@
 
 > Web, backend, native and mobile frameworks for building applications.
 
-**81 repositories.** [Browse all categories →](README.md)
+**82 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -77,6 +77,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [supabase/supabase](https://github.com/supabase/supabase): The Postgres development platform.
 - [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app): The best way to start a full-stack, typesafe Next.js app.
 - [tamagui/tamagui](https://github.com/tamagui/tamagui): Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.
+- [TanStack/redact](https://github.com/TanStack/redact): An alternative logical projection of React with 100% API compliancy but simpler implementation resulting in smaller bundle size and better performance.
 - [tddworks/baguette](https://github.com/tddworks/baguette): Headless control for iOS simulators, real iPhones and Android emulators — 3D models, taps, swipes, multi-finger gestures, 60 fps streaming, and a multi-device farm.
 - [thesysdev/openui](https://github.com/thesysdev/openui) · review needed: The Open Standard for Generative UI.
 - [Thinkmill/keystatic](https://github.com/Thinkmill/keystatic): First class CMS experience, TypeScript API, Markdown &amp; YAML/JSON based, no DB.
