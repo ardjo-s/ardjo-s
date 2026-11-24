@@ -6543,6 +6543,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDONxkjBA",
+      "name": "cloudflare/agents",
+      "url": "https://github.com/cloudflare/agents",
+      "description": "Build and deploy AI Agents on Cloudflare ",
+      "category": "category_02",
+      "purpose": "Build and deploy AI Agents on Cloudflare",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Build and deploy AI Agents on Cloudflare",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/cloudflare/agents",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOSDyFow",
       "name": "cloudflare/cloudflare-os",
       "url": "https://github.com/cloudflare/cloudflare-os",
@@ -9339,6 +9358,25 @@
       "evidence_url": "https://github.com/driceroland/Search",
       "evidence_read_at": "2026-11-14",
       "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/43613859551"
+    },
+    {
+      "id": "R_kgDOVMUiKg",
+      "name": "driceroland/Search-iOS",
+      "url": "https://github.com/driceroland/Search-iOS",
+      "description": "A small, fast, quiet web browser for the iPhone, by Office Commun.",
+      "category": "category_25",
+      "purpose": "A small, fast, quiet web browser for the iPhone, by Office Commun",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "A small, fast, quiet web browser for the iPhone, by Office Commun.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/driceroland/Search-iOS",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOOYmDuw",
@@ -20912,6 +20950,25 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOVvnmww",
+      "name": "mikesmullin/chat",
+      "url": "https://github.com/mikesmullin/chat",
+      "description": "Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process.",
+      "category": "category_02",
+      "purpose": "Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/mikesmullin/chat",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOTb7Mjw",

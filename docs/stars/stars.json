@@ -13,7 +13,7 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 110
+      "count": 112
     },
     {
       "id": "category_03",
@@ -157,13 +157,7 @@
       "id": "category_25",
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
-      "count": 50
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 3
+      "count": 51
     }
   ],
   "repositories": [
@@ -3048,10 +3042,12 @@
       "name": "cloudflare/agents",
       "url": "https://github.com/cloudflare/agents",
       "description": "Build and deploy AI Agents on Cloudflare ",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOSDyFow",
@@ -4326,10 +4322,12 @@
       "name": "driceroland/Search-iOS",
       "url": "https://github.com/driceroland/Search-iOS",
       "description": "A small, fast, quiet web browser for the iPhone, by Office Commun.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Browsers, Desktop & Device Utilities",
+      "category_id": "category_25",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOOYmDuw",
@@ -9758,10 +9756,12 @@
       "name": "mikesmullin/chat",
       "url": "https://github.com/mikesmullin/chat",
       "description": "Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTb7Mjw",
