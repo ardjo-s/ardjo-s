@@ -2,7 +2,7 @@
 
 > Browsers, desktop utilities, file transfers and device tools.
 
-**50 repositories.** [Browse all categories →](README.md)
+**51 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -21,6 +21,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
 - [cmacrae/spacebar](https://github.com/cmacrae/spacebar) · archived: Unmaintained: see kantan, its successor.
 - [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.
+- [driceroland/Search-iOS](https://github.com/driceroland/Search-iOS): A small, fast, quiet web browser for the iPhone, by Office Commun.
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl): Chromium running inside your terminal.
 - [Forward-Future/device-monitor](https://github.com/Forward-Future/device-monitor): Monitor CPU, GPU, memory and temperatures across all your devices (Windows/macOS app + LAN hub).
 - [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios): A terminal window manager that knows what your agents are doing.

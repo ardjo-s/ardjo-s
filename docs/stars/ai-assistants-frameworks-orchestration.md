@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**110 repositories.** [Browse all categories →](README.md)
+**112 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -26,6 +26,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) · review needed: Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate OpenClaw, Claude Code, Codex, and other runtimes.
 - [bytedance/deer-flow](https://github.com/bytedance/deer-flow): An open-source long-horizon SuperAgent harness that researches, codes, and creates.
 - [Cjbuilds/Codex-Orchestration](https://github.com/Cjbuilds/Codex-Orchestration): Bring any model to Codex, assign them any role, use them in /goal or any workflow.
+- [cloudflare/agents](https://github.com/cloudflare/agents): Build and deploy AI Agents on Cloudflare.
 - [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit): The Frontend Stack for Agents &amp; Generative UI.
 - [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot): The open, self-hostable alternative to closed AI bots.
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
@@ -67,6 +68,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [manikv12/OpenAssist](https://github.com/manikv12/OpenAssist): OpenAssist is a voice-first personal AI assistant for macOS and iPhone.
 - [mastra-ai/mastra](https://github.com/mastra-ai/mastra): Mastra is the modern TypeScript framework for AI-powered applications and agents.
 - [microsoft/autogen](https://github.com/microsoft/autogen) · archived: A programming framework for agentic AI.
+- [mikesmullin/chat](https://github.com/mikesmullin/chat): Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process.
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use.
 - [mvschwarz/openrig](https://github.com/mvschwarz/openrig) · review needed: Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
 - [nearai/ironclaw](https://github.com/nearai/ironclaw): IronClaw is an Agent OS focused on privacy, security and extensibility.

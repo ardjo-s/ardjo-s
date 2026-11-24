@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,723 public repositories across 26 Sol categories plus 3 unsorted.**
+**1,723 public repositories across 26 Sol categories.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -14,7 +14,7 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🤖 AI Coding Agents](ai-coding-agents.md) · 102 repositories
   - AI agents whose primary job is building and maintaining software.
-- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 110 repositories
+- [🕸 AI Assistants, Frameworks & Orchestration](ai-assistants-frameworks-orchestration.md) · 112 repositories
   - General-purpose AI assistants, agent frameworks and orchestration platforms.
 - [🧰 Agent Methods, Skills & Configuration](agent-methods-skills-configuration.md) · 137 repositories
   - Reusable agent methods, instructions, skills, prompts and configuration.
@@ -74,10 +74,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 - [🦾 Robotics, Hardware & CAD](robotics-hardware-cad.md) · 11 repositories
   - Robotics, electronics, embedded systems, CAD and physical fabrication.
-- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 50 repositories
+- [💻 Browsers, Desktop & Device Utilities](browsers-desktop-device-utilities.md) · 51 repositories
   - Browsers, desktop utilities, file transfers and device tools.
-
-## Unsorted
-
-- [❔ Unsorted / to classify](unsorted.md) · 3 repositories
-  - Public stars not yet classified in catalog.json.
