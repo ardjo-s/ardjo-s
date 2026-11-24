@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1720,
+  "repository_count": 1723,
   "categories": [
     {
       "id": "category_01",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 50
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 3
     }
   ],
   "repositories": [
@@ -175,7 +181,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0security",
       "url": "https://github.com/0sec-labs/0security",
-      "description": "Open-source cybersecurity harness to build and deploy sovereign, persistent AI security agents (sentinels) that continuously find, prove and fix security risks. Web UI, CLI, CI and MCP.",
+      "description": "Open-source AI security agents that continuously find, prove and fix security risks. CLI, web console and GitHub Action. Bring your own model.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -2477,7 +2483,7 @@
       "id": "R_kgDOVp-M8A",
       "name": "burakgon/OpenScreens",
       "url": "https://github.com/burakgon/OpenScreens",
-      "description": "Remote desktop for Mac, iPhone and iPad. Free and open source: Apple Screen Sharing with High Performance mode, VNC, SSH tunnels, Tailscale.",
+      "description": "Remote desktop for Mac, iPhone and iPad. Free and open source. Controls Macs with Apple's High Performance screen sharing, and Linux, Windows and Raspberry Pi over VNC. SSH tunnels and Tailscale built in.",
       "category": "Browsers, Desktop & Device Utilities",
       "category_id": "category_25",
       "archived": false,
@@ -3038,6 +3044,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDONxkjBA",
+      "name": "cloudflare/agents",
+      "url": "https://github.com/cloudflare/agents",
+      "description": "Build and deploy AI Agents on Cloudflare ",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSDyFow",
       "name": "cloudflare/cloudflare-os",
       "url": "https://github.com/cloudflare/cloudflare-os",
@@ -3101,10 +3117,10 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNTEwMDQ5NTM=",
       "name": "cmacrae/spacebar",
       "url": "https://github.com/cmacrae/spacebar",
-      "description": "A minimal status bar for macOS. Ideal for use with tiling window managers like yabai",
+      "description": "Unmaintained: see kantan, its successor",
       "category": "Browsers, Desktop & Device Utilities",
       "category_id": "category_25",
-      "archived": false,
+      "archived": true,
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
@@ -4302,6 +4318,16 @@
       "description": "A small, fast WebKit browser for macOS, by Office Commun.",
       "category": "Browsers, Desktop & Device Utilities",
       "category_id": "category_25",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVMUiKg",
+      "name": "driceroland/Search-iOS",
+      "url": "https://github.com/driceroland/Search-iOS",
+      "description": "A small, fast, quiet web browser for the iPhone, by Office Commun.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9728,6 +9754,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVvnmww",
+      "name": "mikesmullin/chat",
+      "url": "https://github.com/mikesmullin/chat",
+      "description": "Agentic chat UI in Rust, compiled to wasm — multi-agent conversations with a branching history, with the angela harness embedded in the same process.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTb7Mjw",
       "name": "milind-soni/axstream",
       "url": "https://github.com/milind-soni/axstream",
@@ -10259,7 +10295,7 @@
       "id": "R_kgDOU-xXog",
       "name": "mw00/project-maya",
       "url": "https://github.com/mw00/project-maya",
-      "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B) and Hy4-Flash (220B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
+      "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
       "archived": false,
@@ -16501,7 +16537,7 @@
       "id": "R_kgDOVYQpxw",
       "name": "vercel-labs/ui",
       "url": "https://github.com/vercel-labs/ui",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
       "category": "UI & Product Design",
       "category_id": "category_11",
       "archived": false,
@@ -16593,7 +16629,7 @@
       "id": "R_kgDOPmULpg",
       "name": "vinhnx/VTCode",
       "url": "https://github.com/vinhnx/VTCode",
-      "description": " VT Code is a terminal-first coding agent for your repo, in the CLI and native macOS app.",
+      "description": "VT Code is an open-source coding agent for everyone",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,

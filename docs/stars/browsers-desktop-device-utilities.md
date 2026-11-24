@@ -19,7 +19,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [blitzreels/blitzclean](https://github.com/blitzreels/blitzclean): Native macOS menu-bar monitor for CPU, memory, and disk, with reviewed cleanup for caches, builds, simulators, and AI agents.
 - [burakgon/OpenScreens](https://github.com/burakgon/OpenScreens): Remote desktop for Mac, iPhone and iPad.
 - [claration/feather](https://github.com/claration/feather): Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
-- [cmacrae/spacebar](https://github.com/cmacrae/spacebar): A minimal status bar for macOS.
+- [cmacrae/spacebar](https://github.com/cmacrae/spacebar) · archived: Unmaintained: see kantan, its successor.
 - [driceroland/Search](https://github.com/driceroland/Search): A small, fast WebKit browser for macOS, by Office Commun.
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl): Chromium running inside your terminal.
 - [Forward-Future/device-monitor](https://github.com/Forward-Future/device-monitor): Monitor CPU, GPU, memory and temperatures across all your devices (Windows/macOS app + LAN hub).

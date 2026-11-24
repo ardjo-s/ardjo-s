@@ -169,7 +169,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [timhanlon/fluid-functionalism-foldkit](https://github.com/timhanlon/fluid-functionalism-foldkit): Editable Foldkit components adapted from Fluid Functionalism.
 - [tuan3w/linearapp_clone](https://github.com/tuan3w/linearapp_clone): A Linear App clone with React and Tailwind CSS.
 - [vansh-nagar/Pixel-Perfect](https://github.com/vansh-nagar/Pixel-Perfect): Pixel Perfect UI is a precision-crafted UI library built for developers and designers who care about details.
-- [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build the next generation of user interfaces.
+- [vercel-labs/ui](https://github.com/vercel-labs/ui): A library of behaviors for agents to build and drive the next generation of user interfaces.
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems.
 - [vora-aryan/Prestige-UI](https://github.com/vora-aryan/Prestige-UI): Animated React components and blocks for Tailwind CSS and Motion.
 - [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui): A curated list of awesome Android UI/UX libraries.

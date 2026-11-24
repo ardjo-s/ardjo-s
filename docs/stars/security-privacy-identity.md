@@ -11,7 +11,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 
 ## Stars
 
-- [0sec-labs/0security](https://github.com/0sec-labs/0security): Open-source cybersecurity harness to build and deploy sovereign, persistent AI security agents (sentinels) that continuously find, prove and fix security risks.
+- [0sec-labs/0security](https://github.com/0sec-labs/0security): Open-source AI security agents that continuously find, prove and fix security risks.
 - [1Password/for-open-source](https://github.com/1Password/for-open-source): Get a 1Password team account for free to support your open source initiatives!.
 - [alvaroinckot/identity-engineering-roadmap](https://github.com/alvaroinckot/identity-engineering-roadmap): A roadmap.sh-style map of identity engineering in the AI era.
 - [anthropics/FlashProve](https://github.com/anthropics/FlashProve): A research prototype for zero-knowledge proofs of AI inference.

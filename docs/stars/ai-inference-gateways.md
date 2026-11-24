@@ -34,7 +34,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [microsoft/BitNet](https://github.com/microsoft/BitNet): Official inference framework for 1-bit LLMs.
 - [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis): List of Permanent Free LLM API  (API Keys).
 - [MrMarciaOng/composer-api](https://github.com/MrMarciaOng/composer-api): Starred repository.
-- [mw00/project-maya](https://github.com/mw00/project-maya): Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B) and Hy4-Flash (220B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.
+- [mw00/project-maya](https://github.com/mw00/project-maya): Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.
 - [navaneethkrishnansuresh/Inference-Engineering](https://github.com/navaneethkrishnansuresh/Inference-Engineering): Starred repository.
 - [Neywa-Labs/mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
 - [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
