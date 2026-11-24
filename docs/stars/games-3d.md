@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**84 repositories.** [Browse all categories →](README.md)
+**85 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -52,6 +52,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [martin226/vibe-draw](https://github.com/martin226/vibe-draw): 🎨 Turn your roughest sketches into stunning 3D worlds by vibe drawing.
 - [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead): Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.
 - [mintdotgg/mint-playground](https://github.com/mintdotgg/mint-playground): Play 3D browser games and interactive Three.js demos.
+- [Mixar-AI/mixar-app](https://github.com/Mixar-AI/mixar-app): AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting.
 - [mrdoob/three.js](https://github.com/mrdoob/three.js): JavaScript 3D Library.
 - [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio): Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
 - [Mugen87/yuka](https://github.com/Mugen87/yuka): JavaScript library for developing Game AI.

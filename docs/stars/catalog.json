@@ -3918,6 +3918,25 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV5PGIQ",
+      "name": "AyushRajSinghParihar/weaponized-curiosity",
+      "url": "https://github.com/AyushRajSinghParihar/weaponized-curiosity",
+      "description": "Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization",
+      "category": "category_03",
+      "purpose": "Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/AyushRajSinghParihar/weaponized-curiosity",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45337809653",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOS-KLqg",
       "name": "baidu/Unlimited-OCR",
       "url": "https://github.com/baidu/Unlimited-OCR",
@@ -10664,6 +10683,25 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDOMNlpaQ",
+      "name": "exo-explore/exo",
+      "url": "https://github.com/exo-explore/exo",
+      "description": "Run frontier AI locally.",
+      "category": "category_02",
+      "purpose": "Run frontier AI locally",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "Run frontier AI locally.",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/exo-explore/exo",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOTEYNUA",
       "name": "experientiallabs/experiential",
       "url": "https://github.com/experientiallabs/experiential",
@@ -13033,6 +13071,29 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOSP-rBQ",
+      "name": "google-gemini/gemini-api-cli",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "description": "An (experimental) CLI for the Gemini API",
+      "category": "category_04",
+      "purpose": "An (experimental) CLI for the Gemini API",
+      "keywords": [
+        "gemini",
+        "gemini-api",
+        "Go"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Gemini API CLI ( ) **Gemini models and managed agents for the agent you already use.** Give Codex, Claude Code, Antigravity, OpenClaw, Hermes, or any other agent with shell access the ability to use the Gemini API.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/google-gemini/gemini-api-cli/blob/main/README.md",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOR2YDMg",
@@ -21138,6 +21199,25 @@
         "category_08",
         "category_03"
       ]
+    },
+    {
+      "id": "R_kgDOSg2Qog",
+      "name": "Mixar-AI/mixar-app",
+      "url": "https://github.com/Mixar-AI/mixar-app",
+      "description": "AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting",
+      "category": "category_23",
+      "purpose": "AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting",
+      "keywords": [],
+      "review_required": false,
+      "evidence_quote": "AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting",
+      "evidence_status": "description_only",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/Mixar-AI/mixar-app",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "https://github.com/ardjo-s/ardjo-s/actions/runs/45337809653",
+      "classification_rounds": 1,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDORWiFDA",
@@ -30233,6 +30313,27 @@
       "classification_confidence": "high"
     },
     {
+      "id": "R_kgDORqswZA",
+      "name": "sermakarevich/sddw",
+      "url": "https://github.com/sermakarevich/sddw",
+      "description": "Spec Driven Development Workflow",
+      "category": "category_03",
+      "purpose": "Spec Driven Development Workflow",
+      "keywords": [
+        "Shell"
+      ],
+      "review_required": false,
+      "evidence_quote": "# Spec-Driven Development Workflow for Claude Code .",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/sermakarevich/sddw/blob/main/README.md",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
+    },
+    {
       "id": "R_kgDOODCJdA",
       "name": "serpapi/serpapi-mcp",
       "url": "https://github.com/serpapi/serpapi-mcp",
@@ -35515,6 +35616,34 @@
       "evidence_status": "readme_read_excerpt",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOTkMfmQ",
+      "name": "vercel-labs/issue-graph",
+      "url": "https://github.com/vercel-labs/issue-graph",
+      "description": "Find related issues, competing changes, and unresolved follow-ups before you start work.",
+      "category": "category_13",
+      "purpose": "Find related issues, competing changes, and unresolved follow-ups before you start work",
+      "keywords": [
+        "cli",
+        "coding-agents",
+        "github",
+        "issue-triage",
+        "pull-requests",
+        "reference-graph",
+        "software-factory",
+        "TypeScript"
+      ],
+      "review_required": false,
+      "evidence_quote": "# issue-graph Find related issues and pull requests before you start work.",
+      "evidence_status": "readme_read_excerpt",
+      "archived": false,
+      "fork": false,
+      "evidence_url": "https://github.com/vercel-labs/issue-graph/blob/main/README.md",
+      "evidence_read_at": "2026-11-24",
+      "classification_source": "jev:2026-11-24",
+      "classification_rounds": 2,
+      "classification_confidence": "high"
     },
     {
       "id": "R_kgDOQ52_2Q",

@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**84 repositories.** [Browse all categories →](README.md)
+**85 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -38,6 +38,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [e2b-dev/E2B](https://github.com/e2b-dev/E2B): Open-source, secure environment with real-world tools for enterprise-grade agents.
 - [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim): The `npx serve` of Apple Simulators.
 - [github/github-mcp-server](https://github.com/github/github-mcp-server): GitHub's official MCP Server.
+- [google-gemini/gemini-api-cli](https://github.com/google-gemini/gemini-api-cli): An (experimental) CLI for the Gemini API.
 - [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) · review needed: The headless browser for AI agents and web scraping.
 - [HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter): HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses.
 - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything): "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/.
