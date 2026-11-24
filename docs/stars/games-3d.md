@@ -2,7 +2,7 @@
 
 > Games, rendering, geometry, avatars and interactive 3D worlds.
 
-**85 repositories.** [Browse all categories →](README.md)
+**84 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -68,7 +68,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [pmndrs/react-postprocessing](https://github.com/pmndrs/react-postprocessing): 📬  Postprocessing for react-three-fiber.
 - [pmndrs/react-three-rapier](https://github.com/pmndrs/react-three-rapier): 🤺 Rapier physics in React.
 - [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen): Infinite Photorealistic Worlds using Procedural Generation.
-- [ProjectLeonida/Leonida](https://github.com/ProjectLeonida/Leonida): Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6.
 - [ramenvr/autopilot](https://github.com/ramenvr/autopilot): Play any game.
 - [RodZill4/material-maker](https://github.com/RodZill4/material-maker) · review needed: A procedural textures authoring and 3D model painting tool based on the Godot game engine.
 - [rommapp/romm](https://github.com/rommapp/romm): A beautiful, powerful, self-hosted ROM manager and player.

@@ -33,7 +33,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [shipaleks/raise-hackathon-flowtwin](https://github.com/shipaleks/raise-hackathon-flowtwin) · review needed: Starred repository.
 - [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos): Kronos: A Foundation Model for the Language of Financial Markets.
 - [swiss/opensource-guidelines](https://github.com/swiss/opensource-guidelines) · review needed: Open Source Guidelines (Swiss Government).
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): TradingAgents: Multi-Agents LLM Financial Trading Framework.
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents): TradingAgents: Towards Agentic Finance Research.
 - [tinyhumansai/opencompany](https://github.com/tinyhumansai/opencompany): Run a hive mind of agents to focus on a specific goal.
 - [tissad-101010/LoiHub](https://github.com/tissad-101010/LoiHub): Starred repository.
 - [TradingGoose/TradingGoose-Studio](https://github.com/TradingGoose/TradingGoose-Studio): Build your own AI investment system.
