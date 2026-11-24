@@ -2,7 +2,7 @@
 
 > Reusable agent methods, instructions, skills, prompts and configuration.
 
-**135 repositories.** [Browse all categories →](README.md)
+**137 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -27,6 +27,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [awesome-busabase/awsome-busabase](https://github.com/awesome-busabase/awsome-busabase): A curated list of plugins, adapters, and integrations for Busabase.
 - [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin): A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer.
+- [AyushRajSinghParihar/weaponized-curiosity](https://github.com/AyushRajSinghParihar/weaponized-curiosity): Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization.
 - [blader/humanizer](https://github.com/blader/humanizer): Agent skill that removes signs of AI-generated writing from text.
 - [blakeandersonw/ai-app-playbook](https://github.com/blakeandersonw/ai-app-playbook) · review needed: How to build useful, profitable apps in 2026.
 - [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) · review needed: A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines.
@@ -123,6 +124,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [ryana/jevify](https://github.com/ryana/jevify): Prompts to jev-ify your projects.
 - [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills): AI agent skills for social media research.
 - [secemp9/goal](https://github.com/secemp9/goal) · review needed: /goal port from codex to arbitrary agents and harnesses, opencode, claude code, etc.
+- [sermakarevich/sddw](https://github.com/sermakarevich/sddw): Spec Driven Development Workflow.
 - [shadcn-labs/agentcn](https://github.com/shadcn-labs/agentcn): shadcn/ui, but for building agents.
 - [shadcn/improve](https://github.com/shadcn/improve): Use your most capable model to audit your codebase and write plans for cheaper models to execute.
 - [Shpigford/chops](https://github.com/Shpigford/chops): Your AI agent skills, finally organized.

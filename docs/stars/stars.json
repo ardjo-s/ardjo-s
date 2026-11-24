@@ -13,19 +13,19 @@
       "id": "category_02",
       "name": "AI Assistants, Frameworks & Orchestration",
       "slug": "ai-assistants-frameworks-orchestration",
-      "count": 109
+      "count": 110
     },
     {
       "id": "category_03",
       "name": "Agent Methods, Skills & Configuration",
       "slug": "agent-methods-skills-configuration",
-      "count": 135
+      "count": 137
     },
     {
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 84
+      "count": 85
     },
     {
       "id": "category_05",
@@ -79,7 +79,7 @@
       "id": "category_23",
       "name": "Games & 3D",
       "slug": "games-3d",
-      "count": 84
+      "count": 85
     },
     {
       "id": "category_12",
@@ -91,7 +91,7 @@
       "id": "category_13",
       "name": "Developer Tools & Languages",
       "slug": "developer-tools-languages",
-      "count": 83
+      "count": 84
     },
     {
       "id": "category_14",
@@ -158,12 +158,6 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 50
-    },
-    {
-      "id": "unsorted",
-      "name": "Unsorted / to classify",
-      "slug": "unsorted",
-      "count": 6
     }
   ],
   "repositories": [
@@ -1828,10 +1822,12 @@
       "name": "AyushRajSinghParihar/weaponized-curiosity",
       "url": "https://github.com/AyushRajSinghParihar/weaponized-curiosity",
       "description": "Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOS-KLqg",
@@ -4938,10 +4934,12 @@
       "name": "exo-explore/exo",
       "url": "https://github.com/exo-explore/exo",
       "description": "Run frontier AI locally.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "AI Assistants, Frameworks & Orchestration",
+      "category_id": "category_02",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDOTEYNUA",
@@ -6034,10 +6032,12 @@
       "name": "google-gemini/gemini-api-cli",
       "url": "https://github.com/google-gemini/gemini-api-cli",
       "description": "An (experimental) CLI for the Gemini API",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Tools & Environments",
+      "category_id": "category_04",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOR2YDMg",
@@ -9872,10 +9872,12 @@
       "name": "Mixar-AI/mixar-app",
       "url": "https://github.com/Mixar-AI/mixar-app",
       "description": "AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Games & 3D",
+      "category_id": "category_23",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "R_kgDORWiFDA",
@@ -14020,10 +14022,12 @@
       "name": "sermakarevich/sddw",
       "url": "https://github.com/sermakarevich/sddw",
       "description": "Spec Driven Development Workflow",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Agent Methods, Skills & Configuration",
+      "category_id": "category_03",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOODCJdA",
@@ -16436,10 +16440,12 @@
       "name": "vercel-labs/issue-graph",
       "url": "https://github.com/vercel-labs/issue-graph",
       "description": "Find related issues, competing changes, and unresolved follow-ups before you start work.",
-      "category": "Unsorted / to classify",
-      "category_id": "unsorted",
+      "category": "Developer Tools & Languages",
+      "category_id": "category_13",
       "archived": false,
-      "fork": false
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 2
     },
     {
       "id": "R_kgDOQ52_2Q",

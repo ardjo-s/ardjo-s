@@ -2,7 +2,7 @@
 
 > General-purpose AI assistants, agent frameworks and orchestration platforms.
 
-**109 repositories.** [Browse all categories →](README.md)
+**110 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -39,6 +39,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [earendil-works/pi](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI.
 - [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3): LIBERATED AI CHAT.
 - [elie222/rakazo](https://github.com/elie222/rakazo): Open-source Grok Bot alternative.
+- [exo-explore/exo](https://github.com/exo-explore/exo): Run frontier AI locally.
 - [farzaa/clicky](https://github.com/farzaa/clicky): The open-source project HeyClicky grew out of.
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop): Desktop Companion for Hermes Agent.
 - [fayazara/coworkers](https://github.com/fayazara/coworkers): AI teammates that each get their own computer and browser.
