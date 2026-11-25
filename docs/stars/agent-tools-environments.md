@@ -2,7 +2,7 @@
 
 > Agent tools, MCP interfaces, sandboxes and computer-use environments.
 
-**85 repositories.** [Browse all categories →](README.md)
+**84 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -60,7 +60,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [newyorkcompute/chatgpt-x-plugin](https://github.com/newyorkcompute/chatgpt-x-plugin): DIY ChatGPT plugin for X via api.x.com/mcp — bookmarks, search, profiles.
 - [nhrbuilds/flashbrowse](https://github.com/nhrbuilds/flashbrowse): Token-compressed, AXTree-native headless browser and MCP server for AI agents.
 - [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw): Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference.
-- [oblien/mindwire](https://github.com/oblien/mindwire): Ship AI products powered by the best harnesses without building another agent loop.
 - [openai/mcp-extensions](https://github.com/openai/mcp-extensions) · review needed: Build plugins that feel like native, first-class features of ChatGPT.
 - [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach): Give your AI agent eyes to see the entire internet.
 - [perplexityai/SPACE](https://github.com/perplexityai/SPACE): Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation.

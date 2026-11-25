@@ -53,6 +53,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [DeepanshuMishraa/dither-kit-rs](https://github.com/DeepanshuMishraa/dither-kit-rs): Ordered-dither charts, buttons, gradients and backgrounds for GPUI Kit and Ratatui.
 - [DioxusLabs/dioxus-components](https://github.com/DioxusLabs/dioxus-components): Accessible, unstyled, foundational components for Dioxus.
 - [dip/cmdk](https://github.com/dip/cmdk): Fast, unstyled command menu React component.
+- [doop-design/doop](https://github.com/doop-design/doop): The open-source alternative to Paper.design.
 - [ds-spec/detent-ui](https://github.com/ds-spec/detent-ui): Premium React components you install with shadcn.
 - [emilkowalski/skills](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [emilkowalski/sonner](https://github.com/emilkowalski/sonner): An opinionated toast component for React.
@@ -93,7 +94,6 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [keenthemes/reui](https://github.com/keenthemes/reui): Design-forward shadcn kit for interfaces that stand out.
 - [kepano/obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings) · review needed: Settings plugin to control colors and fonts in Minimal Theme.
 - [Kevin-Liu-01/Katagami](https://github.com/Kevin-Liu-01/Katagami): Katagami is a free, open-source type family in five member fonts (Sans, Round, Text, Serif, Mono), set for 234 languages.
-- [kgoedecke/doop](https://github.com/kgoedecke/doop): The open-source alternative to Paper.design.
 - [krutikkkkkkkkk/creative-ui](https://github.com/krutikkkkkkkkk/creative-ui): React components and Claude skills with a designer's eye, installable with the shadcn CLI: npx shadcn add @creative-ui/&lt;name&gt;.
 - [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts): EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages.

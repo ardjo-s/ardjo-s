@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1723,
+  "repository_count": 1728,
   "categories": [
     {
       "id": "category_01",
@@ -25,7 +25,7 @@
       "id": "category_04",
       "name": "Agent Tools & Environments",
       "slug": "agent-tools-environments",
-      "count": 85
+      "count": 84
     },
     {
       "id": "category_05",
@@ -158,6 +158,12 @@
       "name": "Browsers, Desktop & Device Utilities",
       "slug": "browsers-desktop-device-utilities",
       "count": 51
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted / to classify",
+      "slug": "unsorted",
+      "count": 6
     }
   ],
   "repositories": [
@@ -268,6 +274,16 @@
       "description": "21st sdk - cookbook",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV2lMgA",
+      "name": "37degree-studio/linejig",
+      "url": "https://github.com/37degree-studio/linejig",
+      "description": "Interactive 3D line illustrations for your product site or app: an open-source agent skill, engine and styles for three.js. Tested in Claude Code and Codex CLI.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1310,6 +1326,16 @@
       "classification_rounds": 1
     },
     {
+      "id": "R_kgDOVza32Q",
+      "name": "antopilo/Loom",
+      "url": "https://github.com/antopilo/Loom",
+      "description": "A customizable organic harness",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORXh_Rg",
       "name": "Antseed/antseed",
       "url": "https://github.com/Antseed/antseed",
@@ -1332,6 +1358,16 @@
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
+    },
+    {
+      "id": "R_kgDOVdZAMw",
+      "name": "apekshik/anyscene",
+      "url": "https://github.com/apekshik/anyscene",
+      "description": "Photoreal Blender scenes from a one-paragraph brief, built by AI agents: image→3D props on fal, scripted layout, lighting, camera and grade.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
     },
     {
       "id": "R_kgDOQ1Ybwg",
@@ -3984,6 +4020,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVFZdOg",
+      "name": "derekross/omamobile",
+      "url": "https://github.com/derekross/omamobile",
+      "description": "Omamobile: an independent community project running Omarchy on phones. Arch Linux ARM, Hyprland and Omarchy on a mainline kernel (work in progress)",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDORYFOhA",
       "name": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -4266,6 +4312,18 @@
       "category_id": "category_03",
       "archived": false,
       "fork": false
+    },
+    {
+      "id": "R_kgDOUAuvsA",
+      "name": "doop-design/doop",
+      "url": "https://github.com/doop-design/doop",
+      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "category": "UI & Product Design",
+      "category_id": "category_11",
+      "archived": false,
+      "fork": false,
+      "classification_confidence": "high",
+      "classification_rounds": 1
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnk0NzAxODIzOQ==",
@@ -6215,7 +6273,7 @@
       "id": "R_kgDORcxyRg",
       "name": "googleworkspace/cli",
       "url": "https://github.com/googleworkspace/cli",
-      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "description": " Community CLI for Google Workspace APIs.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
@@ -7633,7 +7691,7 @@
       "id": "R_kgDOUEHx5A",
       "name": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "description": "Beta: The open-source CapCut alternative.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -7974,18 +8032,6 @@
       "category_id": "category_10",
       "archived": false,
       "fork": false
-    },
-    {
-      "id": "R_kgDOUAuvsA",
-      "name": "kgoedecke/doop",
-      "url": "https://github.com/kgoedecke/doop",
-      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
-      "category": "UI & Product Design",
-      "category_id": "category_11",
-      "archived": false,
-      "fork": false,
-      "classification_confidence": "high",
-      "classification_rounds": 1
     },
     {
       "id": "R_kgDORc0M0g",
@@ -11010,16 +11056,6 @@
       "classification_rounds": 1
     },
     {
-      "id": "R_kgDOTfkhbw",
-      "name": "oblien/mindwire",
-      "url": "https://github.com/oblien/mindwire",
-      "description": "Ship AI products powered by the best harnesses without building another agent loop",
-      "category": "Agent Tools & Environments",
-      "category_id": "category_04",
-      "archived": false,
-      "fork": false
-    },
-    {
       "id": "R_kgDORfd_4g",
       "name": "oblien/openship",
       "url": "https://github.com/oblien/openship",
@@ -14002,6 +14038,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV448uQ",
+      "name": "scrolltide/ai-studio-skill",
+      "url": "https://github.com/scrolltide/ai-studio-skill",
+      "description": "Free Claude skill for websites that move when you scroll: scroll films, layered parallax, self-drawing paths. Built from the real source of Scrolltide builds and checked at scroll checkpoints on desktop and phone.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOPF5w7g",
       "name": "sculptdotfun/viberank",
       "url": "https://github.com/sculptdotfun/viberank",
@@ -16228,6 +16274,16 @@
       "description": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV4nOrA",
+      "name": "unkeyed/byname",
+      "url": "https://github.com/unkeyed/byname",
+      "description": "AEO / GEO / visibility platform that you self host and get the answers you need about your product.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

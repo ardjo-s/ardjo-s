@@ -61,7 +61,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Gimanh/taskview-community](https://github.com/Gimanh/taskview-community): TaskView is a self-hosted project and task management platform focused on clarity, ownership, and control.
 - [gnekt/My-Brain-Is-Full-Crew](https://github.com/gnekt/My-Brain-Is-Full-Crew): Built by a PhD whose memory was failing, whose diet was a mess, and whose anxiety had its own agenda.
 - [gokapso/whatsapp-cloud-inbox](https://github.com/gokapso/whatsapp-cloud-inbox): Open source Inbox for the official WhatsApp Cloud API.
-- [googleworkspace/cli](https://github.com/googleworkspace/cli) · review needed: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.
+- [googleworkspace/cli](https://github.com/googleworkspace/cli) · review needed: Community CLI for Google Workspace APIs.
 - [gr8rstudio/gr8r-studio](https://github.com/gr8rstudio/gr8r-studio): Gr8r Studio: a calm, structured project management workspace.
 - [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books): :books: Find your next book to read!.
 - [haydenbleasel/blume](https://github.com/haydenbleasel/blume) · review needed: The open-source docs framework for humans and agents.
