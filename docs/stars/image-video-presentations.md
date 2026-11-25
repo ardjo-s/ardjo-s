@@ -56,7 +56,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [iina/iina](https://github.com/iina/iina): The modern video player for macOS.
 - [jal-co/shieldcn](https://github.com/jal-co/shieldcn) · review needed: Beautiful README badges, inspired by shields.io and styled like shadcn/ui.
 - [JJenglert1/video-production-workflow](https://github.com/JJenglert1/video-production-workflow): JJ's special video production workflow for programatic editing.
-- [jub0t/Concat](https://github.com/jub0t/Concat): Beta: The open-source CapCut alternative.
+- [jub0t/Concat](https://github.com/jub0t/Concat): The open-source CapCut alternative.
 - [JuneYaooo/capsule-cinema](https://github.com/JuneYaooo/capsule-cinema): 把视频做成模版，一次配方无限视频 · Turn videos into templates.
 - [JuneYaooo/rea-toon](https://github.com/JuneYaooo/rea-toon): AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot.
 - [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video): Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.

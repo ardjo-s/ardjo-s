@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1728,
+  "repository_count": 1729,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 6
+      "count": 7
     }
   ],
   "repositories": [
@@ -7691,7 +7691,7 @@
       "id": "R_kgDOUEHx5A",
       "name": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The open-source CapCut alternative.",
+      "description": "The open-source CapCut alternative.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
@@ -11007,7 +11007,7 @@
       "id": "R_kgDORY-IOQ",
       "name": "NVIDIA/skills",
       "url": "https://github.com/NVIDIA/skills",
-      "description": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
+      "description": "Agent Skills and plugins for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
       "archived": false,
@@ -13920,6 +13920,16 @@
       "description": "A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them like email, or use the board view. Free, open source, on the plan you already pay for.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOLnt3RA",
+      "name": "Scale3-Labs/langtrace",
+      "url": "https://github.com/Scale3-Labs/langtrace",
+      "description": "Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

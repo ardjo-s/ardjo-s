@@ -32,7 +32,7 @@
 
 <a href="https://github.com/ardjo-s?tab=stars"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=dark"><img alt="Browse all stars" src="https://www.shieldcn.dev/badge/All-stars-24292F.svg?variant=branded&amp;size=sm&amp;mode=light"></picture></a>
 
-1,728 public repositories · 26 categories · 6 unsorted · [Browse the catalog](docs/stars/README.md)
+1,729 public repositories · 26 categories · 7 unsorted · [Browse the catalog](docs/stars/README.md)
 
 ### 🤖 AI Coding Agents
 
