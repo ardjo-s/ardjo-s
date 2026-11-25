@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1729,
+  "repository_count": 1733,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 7
+      "count": 11
     }
   ],
   "repositories": [
@@ -234,6 +234,16 @@
       "description": "Pinned one-DGX-Spark Docker recipe for DeepSeek V4 Flash with EXL3, SparkInfer, and 262K NVFP4 MLA KV cache",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVyjcxA",
+      "name": "1337isnot1337/solved-conjectures",
+      "url": "https://github.com/1337isnot1337/solved-conjectures",
+      "description": "math drop, curated by myself and 6.2-astra",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2630,6 +2640,16 @@
       "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
       "category": "Games & 3D",
       "category_id": "category_23",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVQUM7A",
+      "name": "call-me-sensei-app/angelo",
+      "url": "https://github.com/call-me-sensei-app/angelo",
+      "description": "Angelo by Call Me Sensei: AI-assisted 3D creation, built on Blender",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7476,6 +7496,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOT-nLJQ",
+      "name": "jdx/mr-boxington",
+      "url": "https://github.com/jdx/mr-boxington",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSbks3w",
       "name": "jeremymcs/patchdeck",
       "url": "https://github.com/jeremymcs/patchdeck",
@@ -9194,6 +9224,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV3i-vA",
+      "name": "mattpocock/cookout",
+      "url": "https://github.com/mattpocock/cookout",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSRkPEA",
       "name": "mattpocock/dictionary-of-ai-coding",
       "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
@@ -10285,7 +10325,7 @@
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
       "archived": false,
-      "fork": true
+      "fork": false
     },
     {
       "id": "R_kgDOSfdP8g",
@@ -16141,7 +16181,7 @@
       "id": "R_kgDOSDCHbQ",
       "name": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
       "archived": false,

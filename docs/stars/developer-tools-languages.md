@@ -87,7 +87,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet): A list of cool features of Git and GitHub.
 - [tmux/tmux](https://github.com/tmux/tmux): tmux source code.
 - [tobi/try](https://github.com/tobi/try): fresh directories for every vibe.
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) · review needed: Turn any idea, plan, or codebase into a beautiful interactive diagram.
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) · review needed: Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs.
 - [vercel-labs/issue-graph](https://github.com/vercel-labs/issue-graph): Find related issues, competing changes, and unresolved follow-ups before you start work.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) · review needed: Replace port numbers with stable, named local URLs.
 - [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite): ⚡️ A curated list of awesome things related to Vite.js.

@@ -71,7 +71,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [michaelshimeles/sketch](https://github.com/michaelshimeles/sketch) · review needed: Native Rust (egui/wgpu) infinite canvas design app, a clean-room reimplementation reverse engineered from Paper.
 - [mickadesign/metadata-gen](https://github.com/mickadesign/metadata-gen): Zero-install CLI to generate OG metadata images and favicon sets from your project's existing assets and config.
 - [msurguy/watercolor-playground](https://github.com/msurguy/watercolor-playground): Realistic watercolor drawings.
-- [mutonby/openshorts](https://github.com/mutonby/openshorts) · fork: Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing.
+- [mutonby/openshorts](https://github.com/mutonby/openshorts): Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing.
 - [Netflix/void-model](https://github.com/Netflix/void-model): Starred repository.
 - [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources): :city_sunrise: A collection of links for free stock photography, video and Illustration websites.
 - [nexu-io/html-video](https://github.com/nexu-io/html-video): Programmatic video for coding agents — HTML to video on your laptop.
