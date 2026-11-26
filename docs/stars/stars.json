@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1739,
+  "repository_count": 1744,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 17
+      "count": 22
     }
   ],
   "repositories": [
@@ -4538,6 +4538,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVuxJVg",
+      "name": "Effect-TS/ui",
+      "url": "https://github.com/Effect-TS/ui",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkxMzY5NjIzNQ==",
       "name": "effekseer/Effekseer",
       "url": "https://github.com/effekseer/Effekseer",
@@ -6604,6 +6614,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOU_Cb5w",
+      "name": "HelixDB/helix-foundry",
+      "url": "https://github.com/HelixDB/helix-foundry",
+      "description": "Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask questions of. Hosted at foundry.helix-db.com, or run it on your own machine.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkzMTE2ODU3OA==",
       "name": "hemanth/functional-programming-jargon",
       "url": "https://github.com/hemanth/functional-programming-jargon",
@@ -7356,6 +7376,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV5iU9g",
+      "name": "jakubkrehel/outtrue",
+      "url": "https://github.com/jakubkrehel/outtrue",
+      "description": "Oxlint rules that keep code on the design system: tokens, props, imports and composition.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVoeCKw",
       "name": "jal-co/jalco-drop",
       "url": "https://github.com/jal-co/jalco-drop",
@@ -7542,6 +7572,16 @@
       "description": "The automatic work journal/time tracker. Privately turns your screen into a timeline of what you actually accomplished. Open-source and local-first.",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV14ovg",
+      "name": "JessWeng18/out-of-context",
+      "url": "https://github.com/JessWeng18/out-of-context",
+      "description": "A short escape game that teaches you about LangChain's Deep Agents Harness.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -10339,7 +10379,7 @@
       "id": "R_kgDOQ5MB9g",
       "name": "multica-ai/multica",
       "url": "https://github.com/multica-ai/multica",
-      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "description": "Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -15384,6 +15424,16 @@
       "description": "Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVww0hA",
+      "name": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

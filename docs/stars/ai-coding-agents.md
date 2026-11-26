@@ -71,7 +71,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [mishushakov/expo-vibe](https://github.com/mishushakov/expo-vibe): Expo app that builds Expo apps.
 - [mitaku/andon](https://github.com/mitaku/andon): A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.
 - [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) · archived · review needed: [Archived] Legacy Python Kimi CLI, no longer maintained.
-- [multica-ai/multica](https://github.com/multica-ai/multica): Make humans and AI agents work as one team — open-source and self-hostable.
+- [multica-ai/multica](https://github.com/multica-ai/multica): Shared task board where people and AI coding agents work as teammates.
 - [nuphos/nuphos](https://github.com/nuphos/nuphos): Open-source Grok Bot alternative for teams.
 - [OnlyTerp/UltraCode-Shim](https://github.com/OnlyTerp/UltraCode-Shim) · review needed: Give Claude Code's ultracode mode to ANY model you already pay for.
 - [open-inspect/background-agents](https://github.com/open-inspect/background-agents): An open-source background agents coding system.
