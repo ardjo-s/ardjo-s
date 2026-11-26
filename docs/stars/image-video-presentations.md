@@ -89,7 +89,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage): World's first open-source, agentic video production system.
 - [opennookorg/screenshot-studio](https://github.com/opennookorg/screenshot-studio): A free, browser-based editor for creating stunning screenshots and visuals.
 - [openstory-so/openstory](https://github.com/openstory-so/openstory): Open-source AI-powered video sequence platform built with TanStack Start.
-- [Orva-Studio/beacon](https://github.com/Orva-Studio/beacon): Starred repository.
+- [Orva-Studio/beacon](https://github.com/Orva-Studio/beacon): Beacon by Orva: a macOS screen-recording editor with a Rust/wgpu renderer and an MCP server for AI agents.
 - [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro): macOS video editor built for AI.
 - [paulmil11/decks](https://github.com/paulmil11/decks): Agent-first slide decks: comment under a slide, and your coding agent (Claude Code or Codex) makes the change and replies on the slide.
 - [pbakaus/radiant](https://github.com/pbakaus/radiant): A curated collection of generative shader art.

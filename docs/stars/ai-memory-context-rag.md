@@ -17,7 +17,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [Artistsyn/cortex_suite](https://github.com/Artistsyn/cortex_suite): Local MCP servers that give coding agents a reliable project memory.
 - [asimons81/hermes-dreaming](https://github.com/asimons81/hermes-dreaming): Staged self-improvement engine for Hermes-style memory, skill, and fact updates with explicit review and apply/discard gates.
 - [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon): The cross-harness, self-improving memory layer for AI agents.
-- [brunoqgalvao/claude-cache-keepalive](https://github.com/brunoqgalvao/claude-cache-keepalive) · review needed: Keep Anthropic prompt caches warm past 1 hour in opencodex and Claude Code; learns from your usage, switches itself off if it stops paying.
+- [brunoqgalvao/claude-cache-keepalive](https://github.com/brunoqgalvao/claude-cache-keepalive) · review needed: Claude Code plugin that keeps your chats' prompt cache warm while you're away, by prediction, no arming.
 - [busabase/busabase](https://github.com/busabase/busabase) · review needed: Open-source database &amp; workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human review on the writes that matter.
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin): Deepseek Harness Plugin for Busabase.
 - [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os): A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection.

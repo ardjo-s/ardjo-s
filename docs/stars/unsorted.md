@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**22 repositories.** [Browse all categories →](README.md)
+**24 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -29,8 +29,10 @@ Low-confidence automatic picks are published in an existing category and tagged 
 - [langchain-samples/Persistent-Agent](https://github.com/langchain-samples/Persistent-Agent) · review needed: Persistent Agent is a proactive, always-on, goal-oriented agent.
 - [mattpocock/cookout](https://github.com/mattpocock/cookout) · review needed: Starred repository.
 - [Moh4696/inkworks-skill](https://github.com/Moh4696/inkworks-skill) · review needed: Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.
+- [perixtar/Tech-OA-Interview-Questions](https://github.com/perixtar/Tech-OA-Interview-Questions) · review needed: Daily updated list of Tech Company OAs and Interview Problems.
 - [rit3zh/expandable-bottom-tabs](https://github.com/rit3zh/expandable-bottom-tabs) · review needed: 🏓 Expandable Liquid Glass tab bar.
 - [Scale3-Labs/langtrace](https://github.com/Scale3-Labs/langtrace) · review needed: Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.
 - [scrolltide/ai-studio-skill](https://github.com/scrolltide/ai-studio-skill) · review needed: Free Claude skill for websites that move when you scroll: scroll films, layered parallax, self-drawing paths.
 - [sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill) · review needed: Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization.
 - [unkeyed/byname](https://github.com/unkeyed/byname) · review needed: AEO / GEO / visibility platform that you self host and get the answers you need about your product.
+- [vkpdeveloper/vmbridge](https://github.com/vkpdeveloper/vmbridge) · review needed: Run T3 Code agents on cloud VMs.
