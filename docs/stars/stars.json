@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1733,
+  "repository_count": 1739,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 11
+      "count": 17
     }
   ],
   "repositories": [
@@ -1198,6 +1198,16 @@
       "description": "The open source coding agent.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVtrk4w",
+      "name": "anomalyco/psychoscript",
+      "url": "https://github.com/anomalyco/psychoscript",
+      "description": "A confined JavaScript runtime for programs that call schema-described tools",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5154,6 +5164,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOVyt5wA",
+      "name": "fahniazz/claude-shorts-skills",
+      "url": "https://github.com/fahniazz/claude-shorts-skills",
+      "description": "Claude Code skills that turn your PC into an animation studio: 3D cartoon story Shorts (three.js + Remotion), word-synced green-screen captions, Minecraft short scripts and multi-agent Minecraft story videos. No AI video generator.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDONpG8pw",
       "name": "FareedKhan-dev/train-llm-from-scratch",
       "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
@@ -7536,6 +7556,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOTdQJNg",
+      "name": "jiminelee/agent-harness-course",
+      "url": "https://github.com/jiminelee/agent-harness-course",
+      "description": "A hands-on course for building an AI agent harness from scratch — grows one project from a single LLM call to tool calling, memory management, planning, guardrails, tracing, and multi-agent orchestration. No frameworks.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOMbt5gA",
       "name": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
@@ -8387,6 +8417,16 @@
       "category": "Research, Science & Health",
       "category_id": "category_22",
       "archived": true,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV6cL5g",
+      "name": "langchain-samples/Persistent-Agent",
+      "url": "https://github.com/langchain-samples/Persistent-Agent",
+      "description": "Persistent Agent is a proactive, always-on, goal-oriented agent. Think Muse or Instinct, but for the enterprise. Comes with memory, browser use, hundreds of tools, and proactive playbooks it can run in the background to take work off your plate. Built on Managed Deep Agents (MDA).",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
       "fork": false
     },
     {
@@ -10068,6 +10108,16 @@
       "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV7YEUw",
+      "name": "Moh4696/inkworks-skill",
+      "url": "https://github.com/Moh4696/inkworks-skill",
+      "description": "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13340,6 +13390,16 @@
       "description": "Open-source, self-hostable recording studio for podcasts, meetings, and interviews.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV8C2Qg",
+      "name": "rit3zh/expandable-bottom-tabs",
+      "url": "https://github.com/rit3zh/expandable-bottom-tabs",
+      "description": "🏓 Expandable Liquid Glass tab bar. Inspired by Yana Yank",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

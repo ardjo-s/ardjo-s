@@ -2,7 +2,7 @@
 
 <!-- generated: sol-star-catalog -->
 
-**1,733 public repositories across 26 Sol categories plus 11 unsorted.**
+**1,739 public repositories across 26 Sol categories plus 17 unsorted.**
 
 Describe the outcome you need, choose a family below, then open its category. Each repository has one primary category.
 
@@ -79,5 +79,5 @@ A review flag means the evidence or category boundary needs checking, not that t
 
 ## Unsorted
 
-- [❔ Unsorted / to classify](unsorted.md) · 11 repositories
+- [❔ Unsorted / to classify](unsorted.md) · 17 repositories
   - Public stars not yet classified in catalog.json.
