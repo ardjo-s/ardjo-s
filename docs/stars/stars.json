@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1746,
+  "repository_count": 1747,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 24
+      "count": 25
     }
   ],
   "repositories": [
@@ -5077,7 +5077,7 @@
       "id": "R_kgDOVfkMyg",
       "name": "expo/exact",
       "url": "https://github.com/expo/exact",
-      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+      "description": "Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms. ",
       "category": "App, Web & Mobile Development",
       "category_id": "category_12",
       "archived": false,
@@ -8535,7 +8535,7 @@
       "id": "R_kgDOQ5IJ7A",
       "name": "LayerNorm/overlay-web",
       "url": "https://github.com/LayerNorm/overlay-web",
-      "description": "The control plane for your AI employees",
+      "description": "The AI Chief of Staff that works with your team",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": false,
@@ -10471,7 +10471,7 @@
       "id": "R_kgDOU-xXog",
       "name": "mw00/project-maya",
       "url": "https://github.com/mw00/project-maya",
-      "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
+      "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B), Hy4-Flash (220B), Ling-3.2-air (128B) and Inkling 2 Mini (26B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
       "archived": false,
@@ -12501,6 +12501,16 @@
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
       "archived": true,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOQsZAwQ",
+      "name": "photon-hq/spectrum-ts",
+      "url": "https://github.com/photon-hq/spectrum-ts",
+      "description": "Bring agents to any interfaces",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
       "fork": false
     },
     {

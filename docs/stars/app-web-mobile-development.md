@@ -30,7 +30,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [enaqx/awesome-react](https://github.com/enaqx/awesome-react): A collection of awesome things regarding React ecosystem.
 - [erkamyaman/capacitor-foldable](https://github.com/erkamyaman/capacitor-foldable): 📱 Capacitor plugin for foldable phones: 📖 fold state, posture, hinge angle, size classes, rear display and dual screen on Android, plus a polyfill for the Device Posture and Viewport Segments web APIs.
 - [every-app/every-app](https://github.com/every-app/every-app) · review needed: Open source alternatives to everything.
-- [expo/exact](https://github.com/expo/exact): Write an app once.
+- [expo/exact](https://github.com/expo/exact): Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms.
 - [expo/exact-templates](https://github.com/expo/exact-templates): Starred repository.
 - [expo/expo](https://github.com/expo/expo): An open-source framework for making universal native apps with React.
 - [expo/skills](https://github.com/expo/skills): A collection of AI agent skills for working with Expo projects and Expo Application Services.

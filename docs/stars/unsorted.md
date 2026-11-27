@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**24 repositories.** [Browse all categories →](README.md)
+**25 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -30,6 +30,7 @@ Low-confidence automatic picks are published in an existing category and tagged 
 - [mattpocock/cookout](https://github.com/mattpocock/cookout) · review needed: Starred repository.
 - [Moh4696/inkworks-skill](https://github.com/Moh4696/inkworks-skill) · review needed: Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.
 - [perixtar/Tech-OA-Interview-Questions](https://github.com/perixtar/Tech-OA-Interview-Questions) · review needed: Daily updated list of Tech Company OAs and Interview Problems.
+- [photon-hq/spectrum-ts](https://github.com/photon-hq/spectrum-ts) · review needed: Bring agents to any interfaces.
 - [rit3zh/expandable-bottom-tabs](https://github.com/rit3zh/expandable-bottom-tabs) · review needed: 🏓 Expandable Liquid Glass tab bar.
 - [Scale3-Labs/langtrace](https://github.com/Scale3-Labs/langtrace) · review needed: Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.
 - [scrolltide/ai-studio-skill](https://github.com/scrolltide/ai-studio-skill) · review needed: Free Claude skill for websites that move when you scroll: scroll films, layered parallax, self-drawing paths.
