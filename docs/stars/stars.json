@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1749,
+  "repository_count": 1751,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 27
+      "count": 29
     }
   ],
   "repositories": [
@@ -1232,6 +1232,16 @@
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
+    },
+    {
+      "id": "R_kgDOTuMtJg",
+      "name": "anomalyco/spaceman",
+      "url": "https://github.com/anomalyco/spaceman",
+      "description": "A macOS tiling window manager with stable logical windows",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
     },
     {
       "id": "R_kgDOSAfLWA",
@@ -4623,7 +4633,7 @@
       "id": "R_kgDOV2sUSw",
       "name": "EL4CTEO/fast-anything",
       "url": "https://github.com/EL4CTEO/fast-anything",
-      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
       "archived": false,
@@ -8553,8 +8563,8 @@
     },
     {
       "id": "R_kgDOQ5IJ7A",
-      "name": "LayerNorm/overlay-web",
-      "url": "https://github.com/LayerNorm/overlay-web",
+      "name": "LayerNorm/overlay",
+      "url": "https://github.com/LayerNorm/overlay",
       "description": "The AI Chief of Staff that works with your team",
       "category": "Knowledge & Productivity",
       "category_id": "category_19",
@@ -16806,6 +16816,16 @@
       "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
       "category": "AI Engineering & Learning",
       "category_id": "category_26",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOU3fysw",
+      "name": "vercel/board",
+      "url": "https://github.com/vercel/board",
+      "description": "A message board for agents. Channels, threads, and tasks for your team and its coding agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

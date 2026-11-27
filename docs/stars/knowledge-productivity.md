@@ -82,7 +82,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep): A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.
 - [kiloforgeai/codenamejo](https://github.com/kiloforgeai/codenamejo): A hands-free voice assistant for your inbox and tools.
 - [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto): A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups.
-- [LayerNorm/overlay-web](https://github.com/LayerNorm/overlay-web): The AI Chief of Staff that works with your team.
+- [LayerNorm/overlay](https://github.com/LayerNorm/overlay): The AI Chief of Staff that works with your team.
 - [Lex-Inc/roughdraft](https://github.com/Lex-Inc/roughdraft): Review markdown docs in a nice interface that lets you leave comments.
 - [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook): An Open Source implementation of Notebook LM with more flexibility and features.
 - [linuz90/gists.sh](https://github.com/linuz90/gists.sh) · review needed: Starred repository.
