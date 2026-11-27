@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**25 repositories.** [Browse all categories →](README.md)
+**27 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -14,11 +14,13 @@ Low-confidence automatic picks are published in an existing category and tagged 
 
 - [1337isnot1337/solved-conjectures](https://github.com/1337isnot1337/solved-conjectures) · review needed: math drop, curated by myself and 6.2-astra.
 - [37degree-studio/linejig](https://github.com/37degree-studio/linejig) · review needed: Interactive 3D line illustrations for your product site or app: an open-source agent skill, engine and styles for three.js.
+- [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) · review needed: Research into AI engineering interview assignments, take-home challenges, and hiring practices from 2026.
 - [anomalyco/psychoscript](https://github.com/anomalyco/psychoscript) · review needed: A confined JavaScript runtime for programs that call schema-described tools.
 - [antopilo/Loom](https://github.com/antopilo/Loom) · review needed: A customizable organic harness.
 - [apekshik/anyscene](https://github.com/apekshik/anyscene) · review needed: Photoreal Blender scenes from a one-paragraph brief, built by AI agents: image→3D props on fal, scripted layout, lighting, camera and grade.
 - [call-me-sensei-app/angelo](https://github.com/call-me-sensei-app/angelo) · review needed: Angelo by Call Me Sensei: AI-assisted 3D creation, built on Blender.
 - [derekross/omamobile](https://github.com/derekross/omamobile) · review needed: Omamobile: an independent community project running Omarchy on phones.
+- [eelbaz/Recursive-Self-Improving-Loopers](https://github.com/eelbaz/Recursive-Self-Improving-Loopers) · review needed: Recursive Self Improving Loopers: Autonomous Multi-Generation Recursive Self-Improvement (SelfWrite) &amp; Banach Fixed-Point Alignment for Looped MoE Transformers.
 - [Effect-TS/ui](https://github.com/Effect-TS/ui) · review needed: Starred repository.
 - [fahniazz/claude-shorts-skills](https://github.com/fahniazz/claude-shorts-skills) · review needed: Claude Code skills that turn your PC into an animation studio: 3D cartoon story Shorts (three.js + Remotion), word-synced green-screen captions, Minecraft short scripts and multi-agent Minecraft story videos.
 - [HelixDB/helix-foundry](https://github.com/HelixDB/helix-foundry) · review needed: Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask questions of.

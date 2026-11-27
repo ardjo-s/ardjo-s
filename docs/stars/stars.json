@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1747,
+  "repository_count": 1749,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 25
+      "count": 27
     }
   ],
   "repositories": [
@@ -946,6 +946,16 @@
       "description": "Glass components for React and React Native. Add them with the shadcn CLI and own the source.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDORIhQUg",
+      "name": "alexeygrigorev/ai-engineering-field-guide",
+      "url": "https://github.com/alexeygrigorev/ai-engineering-field-guide",
+      "description": "Research into AI engineering interview assignments, take-home challenges, and hiring practices from 2026",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4524,6 +4534,16 @@
       "description": "Design physical products with AI",
       "category": "Robotics, Hardware & CAD",
       "category_id": "category_24",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV8FlhQ",
+      "name": "eelbaz/Recursive-Self-Improving-Loopers",
+      "url": "https://github.com/eelbaz/Recursive-Self-Improving-Loopers",
+      "description": "Recursive Self Improving Loopers: Autonomous Multi-Generation Recursive Self-Improvement (SelfWrite) & Banach Fixed-Point Alignment for Looped MoE Transformers",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -17297,7 +17317,7 @@
       "id": "R_kgDORPwFwQ",
       "name": "withoneai/cli",
       "url": "https://github.com/withoneai/cli",
-      "description": "A command-line tool to give your agents access to any app, create workflows and manage your One account.",
+      "description": "Every app, from the terminal. A CLI built for agents to run actions, build flows, sync data and receive webhooks.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
       "archived": false,

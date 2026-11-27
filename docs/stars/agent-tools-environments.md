@@ -91,7 +91,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [vercel-labs/dev3000](https://github.com/vercel-labs/dev3000) · review needed: Captures your web app's complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.
 - [vercel-labs/opensrc](https://github.com/vercel-labs/opensrc) · review needed: Fetch source code for npm packages to give AI coding agents deeper context.
 - [webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp): 🤖 WebMCP.
-- [withoneai/cli](https://github.com/withoneai/cli): A command-line tool to give your agents access to any app, create workflows and manage your One account.
+- [withoneai/cli](https://github.com/withoneai/cli): Every app, from the terminal.
 - [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP): This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities.
 - [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) · review needed: claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution.
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use): 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。.
