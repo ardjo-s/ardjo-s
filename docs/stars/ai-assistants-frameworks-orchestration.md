@@ -32,7 +32,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots): Your always-on AI coworkers that move between text, calls, and Slack.
 - [CopilotKit/openfuse](https://github.com/CopilotKit/openfuse): A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
 - [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent): Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access.
-- [crabtalk/cydonia](https://github.com/crabtalk/cydonia): Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported.
+- [crabtalk/cydonia](https://github.com/crabtalk/cydonia): Agent knowledge base for Claude Code, Codex, OpenCode, Pi and 40+ agents.
 - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI): Framework for orchestrating role-playing, autonomous AI agents.
 - [dctanner/jelly](https://github.com/dctanner/jelly): A local-first workspace for persistent AI agents.
 - [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo): Chat Demo.

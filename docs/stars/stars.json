@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1751,
+  "repository_count": 1768,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 29
+      "count": 46
     }
   ],
   "repositories": [
@@ -181,7 +181,7 @@
       "id": "R_kgDOT9OoFA",
       "name": "0sec-labs/0security",
       "url": "https://github.com/0sec-labs/0security",
-      "description": "Open-source AI and code security that continuously find, prove and fix vulnerabilities. CLI, web console and GitHub Action. Bring your own model.",
+      "description": "Open-source agent and code security. Continuously find, prove and fix vulnerabilities. CLI, web console and GitHub Action. Bring your own model.",
       "category": "Security, Privacy & Identity",
       "category_id": "category_18",
       "archived": false,
@@ -656,6 +656,16 @@
       "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV5Mnzw",
+      "name": "agentnativeinc/v2",
+      "url": "https://github.com/agentnativeinc/v2",
+      "description": "Version control for video projects made with coding agents",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1208,6 +1218,16 @@
       "description": "The open source coding agent.",
       "category": "AI Coding Agents",
       "category_id": "category_01",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVjAzqw",
+      "name": "anomalyco/opencode-rune",
+      "url": "https://github.com/anomalyco/opencode-rune",
+      "description": "OpenCode (Rune) desktop client and embeddable Rune session crates",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -1906,6 +1926,16 @@
       "classification_rounds": 1
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxMTAwNzMxMw==",
+      "name": "BabylonJS/Babylon.js",
+      "url": "https://github.com/BabylonJS/Babylon.js",
+      "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOS-KLqg",
       "name": "baidu/Unlimited-OCR",
       "url": "https://github.com/baidu/Unlimited-OCR",
@@ -2210,6 +2240,16 @@
       "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMTM5MTY4OTY=",
+      "name": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "description": "Official mirror of Blender",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3575,7 +3615,7 @@
       "id": "R_kgDOT5eeog",
       "name": "crabtalk/cydonia",
       "url": "https://github.com/crabtalk/cydonia",
-      "description": "Agent control panel for Claude Code, Codex, OpenCode, Pi and 40+ agents with articles and boards supported",
+      "description": "Agent knowledge base for Claude Code, Codex, OpenCode, Pi and 40+ agents",
       "category": "AI Assistants, Frameworks & Orchestration",
       "category_id": "category_02",
       "archived": false,
@@ -3590,6 +3630,16 @@
       "description": "Demonstrates how to protect your OpenAI API Key using a Cloudflare Worker to serve your ephemeral token and then do client side tool calling",
       "category": "AI Inference & Gateways",
       "category_id": "category_07",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTAxMTg1",
+      "name": "CreateJS/TweenJS",
+      "url": "https://github.com/CreateJS/TweenJS",
+      "description": "A simple but powerful tweening / animation library for Javascript. Part of the CreateJS suite of libraries.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -4392,6 +4442,16 @@
       "description": "A curated list of software and architecture related design patterns.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxMTMwMzE5NA==",
+      "name": "drawcall/Proton",
+      "url": "https://github.com/drawcall/Proton",
+      "description": "Javascript particle animation library",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -5590,6 +5650,16 @@
       "description": "An independent pstack adaptation for Codex through opencodex, with reproducible builds and delegation diagnostics",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODYwMTY1ODY=",
+      "name": "franciscop/ola",
+      "url": "https://github.com/franciscop/ola",
+      "description": "🌊 Smooth animation library for interpolating numbers",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -7586,6 +7656,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkxNzc0NjAw",
+      "name": "jeremyckahn/shifty",
+      "url": "https://github.com/jeremyckahn/shifty",
+      "description": "The fastest TypeScript animation engine on the web",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOSbks3w",
       "name": "jeremymcs/patchdeck",
       "url": "https://github.com/jeremymcs/patchdeck",
@@ -7756,6 +7836,16 @@
       "fork": false
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnk1Njk0OTM3",
+      "name": "jonobr1/two.js",
+      "url": "https://github.com/jonobr1/two.js",
+      "description": "A renderer agnostic two-dimensional drawing api for the web",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOKDkfRg",
       "name": "jordanbaird/Ice",
       "url": "https://github.com/jordanbaird/Ice",
@@ -7824,6 +7914,16 @@
       "description": "The open-source CapCut alternative.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk1MzgwOTA5MA==",
+      "name": "juliangarnier/anime",
+      "url": "https://github.com/juliangarnier/anime",
+      "description": "JavaScript animation engine",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -8196,6 +8296,16 @@
       "fork": false
     },
     {
+      "id": "R_kgDOV-cpHA",
+      "name": "kitlangton/effect-institute",
+      "url": "https://github.com/kitlangton/effect-institute",
+      "description": "Strange, semi-interactive, voice-narrated lessons for learning Effect. Built with Effect v4.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOR5Alhg",
       "name": "kitlangton/stack",
       "url": "https://github.com/kitlangton/stack",
@@ -8252,6 +8362,16 @@
       "description": "🐨 The cloud for your team's agents. Save your agent memory, credentials, code, and automations, portable across every agent with Kody.",
       "category": "AI Memory, Context & RAG",
       "category_id": "category_05",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTAxMTQ3Nw==",
+      "name": "konvajs/konva",
+      "url": "https://github.com/konvajs/konva",
+      "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -9026,6 +9146,16 @@
       "classification_rounds": 3
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyODY0MTI3Mg==",
+      "name": "lume/lume",
+      "url": "https://github.com/lume/lume",
+      "description": "GPU-powered 3D HTML. ✨🧊 <lume-box size=\"1 2 3\">",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOVtH5Hg",
       "name": "lxyeternal/Trace",
       "url": "https://github.com/lxyeternal/Trace",
@@ -9302,6 +9432,16 @@
       "fork": false,
       "classification_confidence": "high",
       "classification_rounds": 1
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNDEzNzY2MjQ=",
+      "name": "mattdesl/gifenc",
+      "url": "https://github.com/mattdesl/gifenc",
+      "description": "fast GIF encoding",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
@@ -10272,12 +10412,32 @@
       "fork": false
     },
     {
+      "id": "R_kgDOHw0mqg",
+      "name": "motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "description": "Visualize Your Ideas With Code",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
+      "archived": false,
+      "fork": false
+    },
+    {
       "id": "R_kgDOTkxN2Q",
       "name": "motiondivision/ai-kit",
       "url": "https://github.com/motiondivision/ai-kit",
       "description": "A Cursor plugin for Motion",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTc4NDY4NzY=",
+      "name": "motiondivision/motion",
+      "url": "https://github.com/motiondivision/motion",
+      "description": "A modern animation library for React and JavaScript",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -13480,6 +13640,16 @@
       "description": "Open-source, self-hostable recording studio for podcasts, meetings, and interviews.",
       "category": "Image, Video & Presentations",
       "category_id": "category_10",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjQ4NDM4MQ==",
+      "name": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
