@@ -35,7 +35,7 @@ A review flag marks uncertain evidence or category boundaries; every repository 
 - [NVIDIA-NeMo/ProRL-Agent-Server](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server): Agentic RL on Any Harness at Scale.
 - [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) · review needed: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
 - [openai/gpt-oss](https://github.com/openai/gpt-oss): gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI.
-- [p-e-w/heretic](https://github.com/p-e-w/heretic): Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more.
+- [p-e-w/heretic](https://github.com/p-e-w/heretic) · archived: Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more.
 - [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer): Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization.
 - [probabl-ai/skore](https://github.com/probabl-ai/skore): Track your Data Science.
 - [QwenLM/Qwen](https://github.com/QwenLM/Qwen) · review needed: The official repo of Qwen (通义千问) chat &amp; pretrained large language model proposed by Alibaba Cloud.

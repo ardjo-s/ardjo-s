@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "ardjo-s",
-  "repository_count": 1768,
+  "repository_count": 1772,
   "categories": [
     {
       "id": "category_01",
@@ -163,7 +163,7 @@
       "id": "unsorted",
       "name": "Unsorted / to classify",
       "slug": "unsorted",
-      "count": 46
+      "count": 50
     }
   ],
   "repositories": [
@@ -1016,6 +1016,16 @@
       "description": "Local-first AI agent for Chrome: browser automation, web research, and data extraction with your own model.",
       "category": "Agent Tools & Environments",
       "category_id": "category_04",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVlOqow",
+      "name": "alibey-10/deft",
+      "url": "https://github.com/alibey-10/deft",
+      "description": "Agent skills for tasteful UI",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -2044,6 +2054,16 @@
       "description": "Real-time animated line chart for React.",
       "category": "UI & Product Design",
       "category_id": "category_11",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOVXi1DQ",
+      "name": "benjitaylor/skills",
+      "url": "https://github.com/benjitaylor/skills",
+      "description": "Skills for AI coding agents.",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -3750,6 +3770,16 @@
       "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
       "category": "Agent Methods, Skills & Configuration",
       "category_id": "category_03",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV3Mjxw",
+      "name": "damien-schneider/retouche",
+      "url": "https://github.com/damien-schneider/retouche",
+      "description": "",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },
@@ -12288,7 +12318,7 @@
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "category": "AI Models & Training",
       "category_id": "category_06",
-      "archived": false,
+      "archived": true,
       "fork": false
     },
     {
@@ -17670,6 +17700,16 @@
       "description": "Peek inside GitHub files and folders without clicking.",
       "category": "Developer Tools & Languages",
       "category_id": "category_13",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "id": "R_kgDOV2HsVw",
+      "name": "xikhar/papercraft",
+      "url": "https://github.com/xikhar/papercraft",
+      "description": "Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style",
+      "category": "Unsorted / to classify",
+      "category_id": "unsorted",
       "archived": false,
       "fork": false
     },

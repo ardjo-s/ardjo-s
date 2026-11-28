@@ -2,7 +2,7 @@
 
 > Public stars not yet classified in catalog.json.
 
-**46 repositories.** [Browse all categories →](README.md)
+**50 repositories.** [Browse all categories →](README.md)
 
 <!-- generated: sol-star-catalog -->
 
@@ -16,15 +16,18 @@ Low-confidence automatic picks are published in an existing category and tagged 
 - [37degree-studio/linejig](https://github.com/37degree-studio/linejig) · review needed: Interactive 3D line illustrations for your product site or app: an open-source agent skill, engine and styles for three.js.
 - [agentnativeinc/v2](https://github.com/agentnativeinc/v2) · review needed: Version control for video projects made with coding agents.
 - [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) · review needed: Research into AI engineering interview assignments, take-home challenges, and hiring practices from 2026.
+- [alibey-10/deft](https://github.com/alibey-10/deft) · review needed: Agent skills for tasteful UI.
 - [anomalyco/opencode-rune](https://github.com/anomalyco/opencode-rune) · review needed: OpenCode (Rune) desktop client and embeddable Rune session crates.
 - [anomalyco/psychoscript](https://github.com/anomalyco/psychoscript) · review needed: A confined JavaScript runtime for programs that call schema-described tools.
 - [anomalyco/spaceman](https://github.com/anomalyco/spaceman) · review needed: A macOS tiling window manager with stable logical windows.
 - [antopilo/Loom](https://github.com/antopilo/Loom) · review needed: A customizable organic harness.
 - [apekshik/anyscene](https://github.com/apekshik/anyscene) · review needed: Photoreal Blender scenes from a one-paragraph brief, built by AI agents: image→3D props on fal, scripted layout, lighting, camera and grade.
 - [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) · review needed: Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
+- [benjitaylor/skills](https://github.com/benjitaylor/skills) · review needed: Skills for AI coding agents.
 - [blender/blender](https://github.com/blender/blender) · review needed: Official mirror of Blender.
 - [call-me-sensei-app/angelo](https://github.com/call-me-sensei-app/angelo) · review needed: Angelo by Call Me Sensei: AI-assisted 3D creation, built on Blender.
 - [CreateJS/TweenJS](https://github.com/CreateJS/TweenJS) · review needed: A simple but powerful tweening / animation library for Javascript.
+- [damien-schneider/retouche](https://github.com/damien-schneider/retouche) · review needed: Starred repository.
 - [derekross/omamobile](https://github.com/derekross/omamobile) · review needed: Omamobile: an independent community project running Omarchy on phones.
 - [drawcall/Proton](https://github.com/drawcall/Proton) · review needed: Javascript particle animation library.
 - [eelbaz/Recursive-Self-Improving-Loopers](https://github.com/eelbaz/Recursive-Self-Improving-Loopers) · review needed: Recursive Self Improving Loopers: Autonomous Multi-Generation Recursive Self-Improvement (SelfWrite) &amp; Banach Fixed-Point Alignment for Looped MoE Transformers.
@@ -58,3 +61,4 @@ Low-confidence automatic picks are published in an existing category and tagged 
 - [unkeyed/byname](https://github.com/unkeyed/byname) · review needed: AEO / GEO / visibility platform that you self host and get the answers you need about your product.
 - [vercel/board](https://github.com/vercel/board) · review needed: A message board for agents.
 - [vkpdeveloper/vmbridge](https://github.com/vkpdeveloper/vmbridge) · review needed: Run T3 Code agents on cloud VMs.
+- [xikhar/papercraft](https://github.com/xikhar/papercraft) · review needed: Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style.
